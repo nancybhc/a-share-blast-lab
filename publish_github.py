@@ -4,6 +4,7 @@ import argparse
 import base64
 import hashlib
 import json
+import re
 import subprocess
 import time
 from datetime import datetime
@@ -160,6 +161,24 @@ def write_runtime_status() -> dict[str, Any]:
     return payload
 
 
+def stamp_asset_urls() -> str:
+    version = datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y%m%d%H%M%S")
+    index_path = SITE / "index.html"
+    html = index_path.read_text(encoding="utf-8")
+    html = re.sub(
+        r'(<script\b[^>]*\bsrc="[^"]+\.js)(?:\?v=[^"]*)?"',
+        rf'\1?v={version}"',
+        html,
+    )
+    html = re.sub(
+        r'(<link\b[^>]*\bhref="styles\.css)(?:\?v=[^"]*)?"',
+        rf'\1?v={version}"',
+        html,
+    )
+    index_path.write_text(html, encoding="utf-8")
+    return version
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Publish A-Share Blast Lab to GitHub Pages")
     parser.add_argument(
@@ -168,7 +187,9 @@ def main() -> None:
         help="Scheduled slot key, for example 2026-10-26 09:30",
     )
     args = parser.parse_args()
+    asset_version = stamp_asset_urls()
     runtime_status = write_runtime_status()
+    print(f"[VERSION] asset_version={asset_version}", flush=True)
 
     user = api("GET", "/user").json()
     owner = user["login"]
