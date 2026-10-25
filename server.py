@@ -32,9 +32,14 @@ FIVE_BREAK_10_SCRIPT = (
 FIVE_BREAK_10_PID_FILE = DATA_DIR / ".five_break_10_monitor.pid"
 FIVE_BREAK_10_LOG = DATA_DIR / "five_break_10_monitor.log"
 FIVE_BREAK_10_STATUS = DATA_DIR / "five_break_10_monitor.json"
+THEME_REFRESH_SCRIPT = DATA_DIR / "build_theme_radar_web.py"
+THEME_REFRESH_PID_FILE = DATA_DIR / ".theme_refresh.pid"
+THEME_REFRESH_LOG = DATA_DIR / "theme_refresh.log"
+THEME_REFRESH_STATUS = DATA_DIR / "theme_radar_status.json"
 CHINA_TZ = ZoneInfo("Asia/Shanghai")
 PROCESS_LOCK = threading.Lock()
 FIVE_BREAK_10_LOCK = threading.Lock()
+THEME_REFRESH_LOCK = threading.Lock()
 PUBLISH_LOCK = threading.Lock()
 PUBLISH_SLOTS = (
     clock_time(9, 30),
@@ -278,6 +283,7 @@ def publish_scheduler_loop() -> None:
                     live_monitor_running = (
                         collector_state().get("running")
                         or monitor_state().get("running")
+                        or theme_refresh_state().get("running")
                     )
                     if live_monitor_running:
                         publish_to_github(slot)
@@ -385,6 +391,129 @@ def stop_monitor() -> dict[str, Any]:
         return monitor_state()
 
 
+def theme_refresh_state() -> dict[str, Any]:
+    try:
+        pid = int(THEME_REFRESH_PID_FILE.read_text(encoding="ascii").strip())
+    except (OSError, ValueError):
+        pid = 0
+    running = pid_is_running(pid)
+    if not running:
+        THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
+    try:
+        payload = json.loads(THEME_REFRESH_STATUS.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        payload = {}
+    return {
+        "running": running,
+        "state": "running" if running else "stopped",
+        "pid": pid if running else None,
+        "updated_at": payload.get("updated_at"),
+        "source_date": payload.get("source_date"),
+        "daily_top_count": payload.get("daily_top_count", 0),
+        "reversal_hit_count": payload.get("reversal_hit_count", 0),
+    }
+
+
+def start_theme_refresh() -> dict[str, Any]:
+    with THEME_REFRESH_LOCK:
+        current = theme_refresh_state()
+        if current["running"]:
+            return current
+        if not THEME_REFRESH_SCRIPT.exists():
+            raise FileNotFoundError(f"题材刷新脚本不存在：{THEME_REFRESH_SCRIPT}")
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        log_handle = THEME_REFRESH_LOG.open("a", encoding="utf-8")
+        creation_flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
+        process = subprocess.Popen(
+            [
+                sys.executable,
+                "-X",
+                "utf8",
+                str(THEME_REFRESH_SCRIPT),
+                "--watch",
+                "--interval",
+                "60",
+            ],
+            cwd=BASE_DIR,
+            stdout=log_handle,
+            stderr=subprocess.STDOUT,
+            creationflags=creation_flags,
+        )
+        log_handle.close()
+        THEME_REFRESH_PID_FILE.write_text(str(process.pid), encoding="ascii")
+        time.sleep(0.4)
+        return theme_refresh_state()
+
+
+def stop_theme_refresh() -> dict[str, Any]:
+    with THEME_REFRESH_LOCK:
+        state = theme_refresh_state()
+        pid = int(state.get("pid") or 0)
+        if pid:
+            if os.name == "nt":
+                subprocess.run(
+                    ["taskkill", "/PID", str(pid), "/T", "/F"],
+                    capture_output=True,
+                    check=False,
+                )
+            else:
+                os.kill(pid, 15)
+        THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
+        return theme_refresh_state()
+
+
+def all_monitor_state() -> dict[str, Any]:
+    collector = collector_state()
+    five_break = monitor_state()
+    theme = theme_refresh_state()
+    components = {
+        "full_market": collector,
+        "five_break_10": five_break,
+        "theme_radar": theme,
+    }
+    running_count = sum(bool(item.get("running")) for item in components.values())
+    return {
+        "running_count": running_count,
+        "total_count": len(components),
+        "all_running": running_count == len(components),
+        "any_running": running_count > 0,
+        "components": components,
+        "server_time": datetime.now(CHINA_TZ).isoformat(timespec="seconds"),
+    }
+
+
+def start_all_monitors() -> dict[str, Any]:
+    errors: list[str] = []
+    for name, starter in (
+        ("full_market", start_collector),
+        ("five_break_10", start_monitor),
+        ("theme_radar", start_theme_refresh),
+    ):
+        try:
+            starter()
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"{name}: {type(exc).__name__}: {exc}")
+    result = all_monitor_state()
+    result["errors"] = errors
+    return result
+
+
+def stop_all_monitors() -> dict[str, Any]:
+    errors: list[str] = []
+    for name, stopper in (
+        ("full_market", stop_collector),
+        ("five_break_10", stop_monitor),
+        ("theme_radar", stop_theme_refresh),
+    ):
+        try:
+            stopper()
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"{name}: {type(exc).__name__}: {exc}")
+    result = all_monitor_state()
+    result["errors"] = errors
+    return result
+
+
 class DashboardHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(BASE_DIR), **kwargs)
@@ -406,6 +535,9 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         if path == "/api/five-break-10/status":
             self.send_json(monitor_state())
             return
+        if path == "/api/monitors/status":
+            self.send_json(all_monitor_state())
+            return
         super().do_GET()
 
     def do_POST(self) -> None:
@@ -422,6 +554,12 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 return
             if path == "/api/five-break-10/stop":
                 self.send_json(stop_monitor())
+                return
+            if path == "/api/monitors/start-all":
+                self.send_json(start_all_monitors())
+                return
+            if path == "/api/monitors/stop-all":
+                self.send_json(stop_all_monitors())
                 return
             self.send_json({"error": "not found"}, HTTPStatus.NOT_FOUND)
         except Exception as exc:  # noqa: BLE001

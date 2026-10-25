@@ -329,6 +329,11 @@ def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
                 "time": point_time,
                 "flow_yi": row["flow_yi"],
                 "change_pct": row.get("change_pct"),
+                "main_ratio": row.get("main_ratio"),
+                "up_count": row.get("up_count", 0),
+                "down_count": row.get("down_count", 0),
+                "flat_count": row.get("flat_count", 0),
+                "breadth_pct": row.get("breadth_pct"),
             }
             entry["points"] = [points[key] for key in sorted(points)]
 
@@ -370,6 +375,11 @@ def live_summary(state: dict[str, Any]) -> dict[str, Any]:
                 "close_time": latest["time"],
                 "rebound_yi": round(maximum["flow_yi"] - minimum["flow_yi"], 4),
                 "change_pct": latest.get("change_pct"),
+                "main_ratio": latest.get("main_ratio"),
+                "up_count": latest.get("up_count", 0),
+                "down_count": latest.get("down_count", 0),
+                "flat_count": latest.get("flat_count", 0),
+                "breadth_pct": latest.get("breadth_pct"),
             }
         )
 

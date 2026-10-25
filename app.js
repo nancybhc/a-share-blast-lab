@@ -246,7 +246,8 @@ const boardFundData = window.BOARD_FUND_DATA || null;
 const fullMarketData = window.FULL_MARKET_DATA || null;
 const chipSegmentData = window.CHIP_SEGMENTS_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
-const siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
+let themeRadarData = window.THEME_RADAR_DATA || null;
+let siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
 let fiveBreak10Monitor = window.FIVE_BREAK_10_MONITOR || null;
 const rankList = document.getElementById("rankList");
 const rankTabs = document.getElementById("rankTabs");
@@ -632,6 +633,21 @@ function chipPct(value) {
     : "—";
 }
 
+function chipRowWithLive(row) {
+  const track = marketTrackMap().get(`${row.taxonomy}:${row.code}`);
+  if (!track) return row;
+  return {
+    ...row,
+    flow_yi: track.close_yi ?? row.flow_yi,
+    change_pct: track.change_pct ?? row.change_pct,
+    main_ratio: track.main_ratio ?? row.main_ratio,
+    up_count: track.up_count ?? row.up_count,
+    down_count: track.down_count ?? row.down_count,
+    flat_count: track.flat_count ?? row.flat_count,
+    breadth_pct: track.breadth_pct ?? row.breadth_pct,
+  };
+}
+
 function chipHighlightCard(label, name, value, details, tone) {
   return `
     <article class="chip-highlight-card" data-tone="${tone}">
@@ -647,7 +663,7 @@ function renderChipHighlights() {
   const container = document.getElementById("chipHighlightGrid");
   if (!container || !chipSegmentData) return;
 
-  const segments = chipSegmentData.segments || [];
+  const segments = (chipSegmentData.segments || []).map(chipRowWithLive);
   const domestic =
     segments.find((row) => row.code === "BK0891") ||
     chipSegmentData.highlights?.single_day_concept_leader;
@@ -706,7 +722,7 @@ function renderChipSegmentTable() {
     "change_pct",
   ]);
   const sortKey = sortKeys.has(activeChipSort) ? activeChipSort : "flow_yi";
-  const rows = [...chipSegmentData.segments].sort(
+  const rows = chipSegmentData.segments.map(chipRowWithLive).sort(
     (a, b) => (Number(b[sortKey]) || 0) - (Number(a[sortKey]) || 0),
   );
 
@@ -771,6 +787,128 @@ function renderChipSegmentSection() {
   renderChipHighlights();
   renderChipSegmentTable();
   renderChipCustomReference();
+}
+
+function renderThemeStrength() {
+  const data = themeRadarData;
+  if (!data) return;
+
+  const top = data.daily_top?.[0];
+  const repeat = data.five_day?.[0];
+  const bestAverage = [...(data.five_day || [])]
+    .filter((row) => row.avg_change_pct !== null)
+    .sort((a, b) => b.avg_change_pct - a.avg_change_pct)[0];
+  const hitCount = data.reversal?.hit_count || 0;
+  const updated = String(data.generated_at || "—").replace("T", " ").slice(0, 19);
+
+  document.getElementById("themeRadarDate").textContent = data.date || "—";
+  document.getElementById("themeRadarUpdated").textContent = updated;
+  document.getElementById("themeLatestDate").textContent = `${data.date || "—"} 收盘`;
+
+  document.getElementById("themeOverview").innerHTML = `
+    <article class="theme-stat">
+      <span>最新题材第一</span>
+      <strong>${top?.theme || "—"}</strong>
+      <small>${top ? `涨幅 ${chipPct(top.change_pct)} · 代表 ${top.representative}` : "暂无数据"}</small>
+    </article>
+    <article class="theme-stat">
+      <span>五日上榜最多</span>
+      <strong>${repeat?.theme || "—"}</strong>
+      <small>${repeat ? `${repeat.appearances} 次 · 连续 ${repeat.current_streak} 天` : "暂无数据"}</small>
+    </article>
+    <article class="theme-stat">
+      <span>五日平均涨幅最高</span>
+      <strong>${bestAverage?.theme || "—"}</strong>
+      <small>${bestAverage ? `${chipPct(bestAverage.avg_change_pct)} · 上榜 ${bestAverage.appearances} 次` : "暂无数据"}</small>
+    </article>
+    <article class="theme-stat">
+      <span>底部反转命中</span>
+      <strong>${hitCount}<small>只</small></strong>
+      <small>样本 ${Number(data.reversal?.sample_count || 0).toLocaleString("zh-CN")} 只</small>
+    </article>
+  `;
+
+  document.getElementById("themeTopList").innerHTML = (data.daily_top || [])
+    .map((row) => `
+      <article class="theme-top-row">
+        <span class="theme-rank">${String(row.rank).padStart(2, "0")}</span>
+        <div>
+          <strong>${row.theme}</strong>
+          <small>${row.members || row.representative}</small>
+        </div>
+        <span class="theme-return ${Number(row.change_pct) < 0 ? "outflow" : "inflow"}">${chipPct(row.change_pct)}</span>
+      </article>
+    `)
+    .join("");
+
+  document.getElementById("themeRepeatBody").innerHTML = (data.five_day || [])
+    .slice(0, 10)
+    .map((row) => `
+      <tr>
+        <td><span class="fund-group-name"><strong>${row.theme}</strong><small>${row.dates}</small></span></td>
+        <td>${row.appearances} 次</td>
+        <td>${row.current_streak} 天</td>
+        <td>${chipPct(row.avg_change_pct)}</td>
+        <td>${row.avg_rank === null ? "—" : row.avg_rank.toFixed(1)}</td>
+        <td>${row.reversal_count}</td>
+      </tr>
+    `)
+    .join("");
+}
+
+function renderBottomReversal() {
+  const data = themeRadarData?.reversal;
+  if (!data) return;
+
+  const sampleCount = Number(data.sample_count || 0);
+  const hitCount = Number(data.hit_count || 0);
+  const hitRate = sampleCount ? (hitCount / sampleCount) * 100 : 0;
+  const themes = data.themes || [];
+  const strongestTheme = themes.find((row) => !row.generic) || themes[0];
+
+  document.getElementById("reversalKpis").innerHTML = `
+    <article class="reversal-kpi"><span>全市场样本</span><strong>${sampleCount.toLocaleString("zh-CN")}</strong><small>有完整日线数据</small></article>
+    <article class="reversal-kpi"><span>完整模板命中</span><strong>${hitCount}</strong><small>沪深主板</small></article>
+    <article class="reversal-kpi"><span>命中率</span><strong>${hitRate.toFixed(2)}%</strong><small>命中 / 样本</small></article>
+    <article class="reversal-kpi"><span>非泛题材共振第一</span><strong>${strongestTheme?.theme || "—"}</strong><small>${strongestTheme ? `${strongestTheme.hits}/${strongestTheme.members} · ${chipPct(strongestTheme.change_pct)}` : "暂无数据"}</small></article>
+  `;
+
+  document.getElementById("reversalThemeList").innerHTML = themes
+    .slice(0, 10)
+    .map((row) => `
+      <article class="reversal-theme-row">
+        <div>
+          <strong>${row.theme}</strong>
+          <small>${row.code} · 龙头 ${row.leader || "—"}</small>
+        </div>
+        <div class="reversal-theme-metrics">
+          <span><b>${row.hits}/${row.members}</b> 命中</span>
+          <span><b>${chipPct(row.change_pct)}</b> 板块</span>
+          <span><b>${formatFund(row.main_net_yi)}</b> 主力</span>
+        </div>
+        ${row.generic ? '<span class="generic-theme">泛题材</span>' : ""}
+      </article>
+    `)
+    .join("");
+
+  document.getElementById("reversalStockBody").innerHTML = (data.stocks || [])
+    .map((row) => `
+      <tr>
+        <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
+        <td>${row.theme}</td>
+        <td>${chipPct(row.change_pct)}</td>
+        <td>${row.turnover_pct === null ? "—" : `${row.turnover_pct.toFixed(2)}%`}</td>
+        <td>${row.volume_ratio === null ? "—" : row.volume_ratio.toFixed(2)}</td>
+        <td>${chipPct(row.from_high_pct)}</td>
+        <td>${chipPct(row.from_low_pct)}</td>
+      </tr>
+    `)
+    .join("");
+}
+
+function renderThemeRadarSections() {
+  renderThemeStrength();
+  renderBottomReversal();
 }
 
 function validationReading(label, value, note) {
@@ -902,6 +1040,8 @@ function refreshIntradayData() {
   script.onload = () => {
     fullMarketIntraday = window.FULL_MARKET_INTRADAY || fullMarketIntraday;
     updateMarketPanel();
+    renderChipSegmentSection();
+    renderValidationChecklist();
     script.remove();
   };
   document.head.append(script);
@@ -1018,6 +1158,124 @@ async function initCollectorControl() {
     }
   });
   window.setInterval(pollCollectorStatus, COLLECTOR_STATUS_INTERVAL_MS);
+}
+
+function setMasterMonitorButton(state, label, disabled = false) {
+  const button = document.getElementById("masterMonitorButton");
+  if (!button) return;
+  button.dataset.state = state;
+  button.disabled = disabled;
+  button.querySelector("span").textContent = label;
+}
+
+function applyMasterMonitorStatus(status) {
+  if (status.all_running) {
+    setMasterMonitorButton("running", "全部监控运行中 · 停止");
+  } else if (status.any_running) {
+    setMasterMonitorButton("partial", "补齐全部监控");
+  } else {
+    setMasterMonitorButton("stopped", "启动全部监控");
+  }
+  const button = document.getElementById("masterMonitorButton");
+  const names = Object.entries(status.components || {})
+    .map(([key, value]) => `${key}: ${value.running ? "运行" : "停止"}`)
+    .join(" / ");
+  button.title = names;
+}
+
+async function pollMasterMonitorStatus() {
+  try {
+    applyMasterMonitorStatus(await collectorApi("/api/monitors/status"));
+  } catch {
+    setMasterMonitorButton("offline", "全部监控（本地）", true);
+  }
+}
+
+async function initMasterMonitorControl() {
+  const button = document.getElementById("masterMonitorButton");
+  if (!button) return;
+  if (location.protocol !== "http:" && location.protocol !== "https:") {
+    setMasterMonitorButton("offline", "全部监控（本地）", true);
+    button.title = "请通过启动网站.cmd打开";
+    return;
+  }
+  const localHosts = new Set(["127.0.0.1", "localhost", "::1"]);
+  if (!localHosts.has(location.hostname)) {
+    setMasterMonitorButton("offline", "GitHub 只读模式", true);
+    button.title = "全部监控只能在本地运行";
+    return;
+  }
+
+  await pollMasterMonitorStatus();
+  button.addEventListener("click", async () => {
+    const state = button.dataset.state;
+    const stop = state === "running";
+    button.disabled = true;
+    try {
+      const status = await collectorApi(
+        stop ? "/api/monitors/stop-all" : "/api/monitors/start-all",
+        "POST",
+      );
+      applyMasterMonitorStatus(status);
+      if (status.errors?.length) {
+        showToast(`部分监控未启动：${status.errors.join("；")}`);
+      } else {
+        showToast(stop ? "全部监控已停止" : "全部监控已启动");
+      }
+      await pollCollectorStatus();
+      await pollFiveBreak10Status();
+      await refreshDynamicSections();
+    } catch (error) {
+      setMasterMonitorButton("offline", "监控控制失败", false);
+      showToast(`无法控制全部监控：${error.message}`);
+    }
+  });
+  window.setInterval(pollMasterMonitorStatus, COLLECTOR_STATUS_INTERVAL_MS);
+}
+
+function loadFreshScript(path) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = `${path}?t=${Date.now()}`;
+    script.onload = () => {
+      script.remove();
+      resolve();
+    };
+    script.onerror = () => {
+      script.remove();
+      reject(new Error(`加载失败：${path}`));
+    };
+    document.head.append(script);
+  });
+}
+
+let dynamicRefreshRunning = false;
+async function refreshDynamicSections() {
+  if (dynamicRefreshRunning) return;
+  dynamicRefreshRunning = true;
+  try {
+    await loadFreshScript("data/full_market_intraday_latest.js");
+    fullMarketIntraday = window.FULL_MARKET_INTRADAY || fullMarketIntraday;
+    await loadFreshScript("data/theme_radar_latest.js");
+    themeRadarData = window.THEME_RADAR_DATA || themeRadarData;
+    if (!["127.0.0.1", "localhost", "::1"].includes(location.hostname)) {
+      await loadFreshScript("data/runtime_status.js");
+      siteRuntimeStatus = window.SITE_RUNTIME_STATUS || siteRuntimeStatus;
+      updateRuntimeDisplay();
+    }
+    updateMarketPanel();
+    renderChipSegmentSection();
+    renderValidationChecklist();
+    renderThemeRadarSections();
+  } catch (error) {
+    console.warn("60-second refresh failed", error);
+  } finally {
+    dynamicRefreshRunning = false;
+  }
+}
+
+function initAutoRefresh() {
+  window.setInterval(refreshDynamicSections, 60000);
 }
 
 function escapeMonitorText(value) {
@@ -1524,5 +1782,8 @@ renderBoardComparison();
 updateMarketPanel();
 renderChipSegmentSection();
 renderValidationChecklist();
+renderThemeRadarSections();
 initCollectorControl();
+initMasterMonitorControl();
+initAutoRefresh();
 initFiveBreak10Control();

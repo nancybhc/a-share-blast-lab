@@ -4,3 +4,6 @@ __pycache__/
 *.pid
 data/github_publish_status.json
 data/full_market/full_market_intraday_*.json
+data/theme_radar_status.json
+data/.theme_refresh.pid
+data/theme_refresh.log
