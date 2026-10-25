@@ -7,15 +7,15 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070b0c'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23b9ff45' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261025233942">
-  <script src="data/group_fund_flows_2026-10-23.js?v=20261025233942"></script>
-  <script src="data/board_daily_fund_flows_2026-10-23.js?v=20261025233942"></script>
-  <script src="data/full_market_daily_2026-10-23.js?v=20261025233942"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261025233942"></script>
-  <script src="data/chip_segments_2026-10-23.js?v=20261025233942"></script>
-  <script src="data/runtime_status.js?v=20261025233942"></script>
-  <script src="data/five_break_10_monitor.js?v=20261025233942"></script>
-  <script src="app.js?v=20261025233942" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261025235250">
+  <script src="data/group_fund_flows_2026-10-23.js?v=20261025235250"></script>
+  <script src="data/board_daily_fund_flows_2026-10-23.js?v=20261025235250"></script>
+  <script src="data/full_market_daily_2026-10-23.js?v=20261025235250"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261025235250"></script>
+  <script src="data/chip_segments_2026-10-23.js?v=20261025235250"></script>
+  <script src="data/runtime_status.js?v=20261025235250"></script>
+  <script src="data/five_break_10_monitor.js?v=20261025235250"></script>
+  <script src="app.js?v=20261025235250" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -38,10 +38,10 @@
       <a class="active" href="#overview">态势</a>
       <a href="#radar">阶段雷达</a>
       <a href="#migration">结构迁移</a>
-      <a href="#capital">资金脉冲</a>
-      <a href="#chip-segments">芯片拆解</a>
       <a href="#five-break-10">5破10监控</a>
+      <a href="#capital">资金流向监控</a>
       <a href="#playbook">验证清单</a>
+      <a href="#chip-segments">芯片拆解</a>
     </nav>
 
     <div class="topbar-meta">
@@ -305,222 +305,10 @@
       </div>
     </section>
 
-    <section class="section shell" id="capital">
-      <div class="section-heading reveal">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 03 / CAPITAL PULSE</div>
-          <h2>资金脉冲与拥挤度</h2>
-        </div>
-        <p>价格结构负责发现，资金变化负责确认，拥挤度负责控制赔率。</p>
-      </div>
-
-      <div class="capital-grid">
-        <article class="panel fund-panel reveal">
-          <div class="fund-head">
-            <div>
-              <span class="panel-label">CUSTOM CHIP GROUP / 自定义分组主力资金合计</span>
-              <h3>芯片组：从稳定流入到加速流入</h3>
-            </div>
-            <a class="data-origin" href="https://vip.stock.finance.sina.com.cn/moneyflow/" target="_blank" rel="noreferrer">新浪财经 · 自定义分组 ↗</a>
-          </div>
-          <div class="fund-main">
-            <div class="fund-endpoint start">
-              <span>10/22</span>
-              <strong>+11.79<small>亿</small></strong>
-            </div>
-            <div class="fund-bridge" aria-hidden="true">
-              <span class="bridge-delta">+33.07亿</span>
-              <div class="bridge-line"><i></i><b></b></div>
-              <span class="bridge-caption">FLOW ACCELERATION</span>
-            </div>
-            <div class="fund-endpoint end">
-              <span>10/23</span>
-              <strong>+44.86<small>亿</small></strong>
-            </div>
-          </div>
-          <div class="board-compare">
-            <div class="board-compare-head">
-              <div>
-                <span>OFFICIAL BOARD / 官方板块口径</span>
-                <strong>同一天，芯片板块是什么样？</strong>
-              </div>
-              <span class="capture-state"><i></i> MINUTE CAPTURE READY</span>
-            </div>
-            <div class="board-compare-grid" id="boardCompareGrid"></div>
-            <p>官方板块与自定义分组成分不同，不能直接混算。分钟级资金曲线由本地采集器在交易时段每 30 秒落盘。<a href="data/board_daily_fund_flows_2026-10-23.csv" download>板块日线 CSV ↘</a></p>
-          </div>
-          <div class="fund-reading">
-            <span>数据判断</span>
-            <p>自定义 52 只芯片组 10 月 23 日主力净流入 +44.86 亿元，近五日累计 +116.06 亿元。资金方向与结构转多确认一致，但 17 个分组当日均为净流入，正向资金本身不具唯一性。</p>
-          </div>
-        </article>
-
-        <article class="panel crowd-panel reveal">
-          <div class="fund-head">
-            <div>
-              <span class="panel-label">CROWDING / 多头占比</span>
-              <h3>强度不是同一个位置</h3>
-            </div>
-            <span class="data-origin">10.23 收盘</span>
-          </div>
-          <div class="crowd-list">
-            <div class="crowd-row">
-              <span class="crowd-name">机器人</span>
-              <div class="crowd-track"><i class="lime" style="--w: 70%"></i></div>
-              <strong>70.0%</strong>
-            </div>
-            <div class="crowd-row">
-              <span class="crowd-name">存储</span>
-              <div class="crowd-track"><i class="amber" style="--w: 27.3%"></i></div>
-              <strong>27.3%</strong>
-            </div>
-            <div class="crowd-row">
-              <span class="crowd-name">AI应用</span>
-              <div class="crowd-track"><i class="amber" style="--w: 25.4%"></i></div>
-              <strong>25.4%</strong>
-            </div>
-            <div class="crowd-row">
-              <span class="crowd-name">算力</span>
-              <div class="crowd-track"><i class="cyan" style="--w: 21.3%"></i></div>
-              <strong>21.3%</strong>
-            </div>
-            <div class="crowd-row highlight">
-              <span class="crowd-name">半导体芯片</span>
-              <div class="crowd-track"><i class="cyan" style="--w: 13.5%"></i></div>
-              <strong>13.5%</strong>
-            </div>
-          </div>
-          <div class="crowd-note">
-            <span class="note-cross">✚</span>
-            <p>机器人是“高占比高位”，芯片是“低占比上拐”。前者看转多确认持续性，后者看扩散。</p>
-          </div>
-        </article>
-      </div>
-
-      <article class="panel fund-universe reveal">
-        <div class="fund-table-head">
-          <div>
-            <span class="panel-label">FULL MARKET / 行业 · 概念 · 个股</span>
-            <h3>全市场资金流向</h3>
-          </div>
-          <div class="fund-table-meta">
-            <span id="marketCoverage">全市场扫描中</span>
-            <span id="marketCaptureStatus">CLOSE SNAPSHOT</span>
-            <button class="collector-button" id="collectorButton" type="button" data-state="offline">
-              <i></i><span>启动全市场采集</span>
-            </button>
-            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全量 CSV ↘</a>
-          </div>
-        </div>
-        <div class="market-overview" id="marketOverview"></div>
-
-        <div class="market-toolbar">
-          <div class="segmented" id="marketScopeTabs" role="tablist" aria-label="全市场资金口径">
-            <button type="button" data-scope="concept" class="active" role="tab" aria-selected="true">概念板块</button>
-            <button type="button" data-scope="industry" role="tab" aria-selected="false">行业板块</button>
-            <button type="button" data-scope="stock" role="tab" aria-selected="false">个股资金</button>
-          </div>
-          <div class="direction-toggle" id="marketDirectionTabs">
-            <button type="button" data-direction="inflow" class="active">净流入榜</button>
-            <button type="button" data-direction="outflow">净流出榜</button>
-          </div>
-        </div>
-
-        <div class="fund-table-scroll market-table-scroll" id="marketTableContainer"></div>
-
-        <div class="intraday-readout" id="intradayReadout"></div>
-
-        <div class="fund-table-scroll legacy-group-table">
-          <table class="fund-table">
-            <thead>
-              <tr>
-                <th>分组</th>
-                <th>10/23 主力净流入</th>
-                <th>较前日</th>
-                <th>近 5 日累计</th>
-                <th>流入 / 流出个股</th>
-                <th>覆盖</th>
-              </tr>
-            </thead>
-            <tbody id="fundTableBody"></tbody>
-          </table>
-        </div>
-        <div class="fund-source-note">
-          <span>SOURCE / FULL MARKET</span>
-          <p>口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最低/最高点必须在交易时段采样，收盘后公共接口不保留历史曲线。</p>
-          <div class="fund-source-links">
-            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全量日线 CSV ↘</a>
-            <a href="data/full_market/full_market_daily_2026-10-23.json" target="_blank">原始 JSON ↗</a>
-            <a href="data/capture_full_market_fund_flow.py" target="_blank">采集脚本 ↗</a>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section class="section shell chip-segment-section" id="chip-segments">
-      <div class="section-heading reveal">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / CHIP DECOMPOSITION</div>
-          <h2>芯片不是一个板块</h2>
-        </div>
-        <p>拆开概念与行业分类后，单日爆发、持续吸金和资金效率会给出不同答案。</p>
-      </div>
-
-      <article class="chip-verdict reveal">
-        <span class="chip-verdict-label">DATA VERDICT / 2026-10-23</span>
-        <h3>国产芯片是单日资金第一，但不是所有维度的第一。</h3>
-        <p>
-          国产芯片在 13 个官方细分中单日主力净流入第一，当日流入广度 90.43%；
-          但近 5 日仍为净流出。数字芯片设计的 5 日累计资金、主力净流入率和涨幅都更强。
-          存储芯片当日转正，5 日仍偏弱；半导体设备则是 5 日资金最弱分支。
-        </p>
-      </article>
-
-      <div class="chip-highlight-grid reveal" id="chipHighlightGrid"></div>
-
-      <article class="panel chip-segment-panel reveal">
-        <div class="fund-table-head">
-          <div>
-            <span class="panel-label">OFFICIAL SEGMENTS / 13 个芯片细分</span>
-            <h3>单日资金、5 日资金与资金效率</h3>
-          </div>
-          <div class="fund-table-meta">
-            <span>官方概念 / 行业分类</span>
-            <span>不跨板块相加</span>
-            <a href="data/full_market/chip_segments_2026-10-23.csv" download>细分数据 CSV ↘</a>
-          </div>
-        </div>
-
-        <div class="chip-table-toolbar">
-          <div class="segmented" id="chipSortTabs">
-            <button type="button" data-chip-sort="flow_yi" class="active">当日资金</button>
-            <button type="button" data-chip-sort="five_day_main_net_yi">5 日累计</button>
-            <button type="button" data-chip-sort="main_ratio">资金效率</button>
-            <button type="button" data-chip-sort="change_pct">涨幅</button>
-          </div>
-          <span>主力净流入率 = 主力净流入 ÷ 板块成交额</span>
-        </div>
-
-        <div class="fund-table-scroll chip-segment-table-scroll" id="chipSegmentTable"></div>
-
-        <div class="chip-custom-reference" id="chipCustomReference"></div>
-
-        <div class="fund-source-note">
-          <span>METHOD / 分层比较</span>
-          <p>官方板块成分彼此重叠，不能把国产芯片、半导体概念和存储芯片相加。该表只比较单板块资金与市场表现；远航版“半导体芯片”是自定义 52 只成分组，单独列出，不参与官方排名。</p>
-          <div class="fund-source-links">
-            <a href="data/chip_segments_2026-10-23.json" target="_blank">原始 JSON ↗</a>
-            <a href="data/build_chip_segment_strength.py" target="_blank">计算脚本 ↗</a>
-            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全市场明细 ↘</a>
-          </div>
-        </div>
-      </article>
-    </section>
-
     <section class="section shell five-break-10-section" id="five-break-10">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / LIVE 5-BREAK-10 MONITOR</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 03 / LIVE 5-BREAK-10 MONITOR</div>
           <h2>5破10<br>盘中达标监控</h2>
         </div>
         <p>
@@ -608,10 +396,64 @@
       </article>
     </section>
 
+    <section class="section shell" id="capital">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / MARKET FUND FLOW</div>
+          <h2>资金流向监控</h2>
+        </div>
+        <p>只看官方全市场资金流：行业、概念与个股分层监控，持仓拥挤度和自定义分组不再混入本区。</p>
+      </div>
+
+      <article class="panel fund-universe reveal">
+        <div class="fund-table-head">
+          <div>
+            <span class="panel-label">FULL MARKET / 行业 · 概念 · 个股</span>
+            <h3>全市场资金流向</h3>
+          </div>
+          <div class="fund-table-meta">
+            <span id="marketCoverage">全市场扫描中</span>
+            <span id="marketCaptureStatus">CLOSE SNAPSHOT</span>
+            <button class="collector-button" id="collectorButton" type="button" data-state="offline">
+              <i></i><span>启动全市场采集</span>
+            </button>
+            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全量 CSV ↘</a>
+          </div>
+        </div>
+        <div class="market-overview" id="marketOverview"></div>
+
+        <div class="market-toolbar">
+          <div class="segmented" id="marketScopeTabs" role="tablist" aria-label="全市场资金口径">
+            <button type="button" data-scope="concept" class="active" role="tab" aria-selected="true">概念板块</button>
+            <button type="button" data-scope="industry" role="tab" aria-selected="false">行业板块</button>
+            <button type="button" data-scope="stock" role="tab" aria-selected="false">个股资金</button>
+          </div>
+          <div class="direction-toggle" id="marketDirectionTabs">
+            <button type="button" data-direction="inflow" class="active">净流入榜</button>
+            <button type="button" data-direction="outflow">净流出榜</button>
+          </div>
+        </div>
+
+        <div class="fund-table-scroll market-table-scroll" id="marketTableContainer"></div>
+
+        <div class="intraday-readout" id="intradayReadout"></div>
+
+        <div class="fund-source-note">
+          <span>SOURCE / FULL MARKET</span>
+          <p>口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最低/最高点必须在交易时段采样，收盘后公共接口不保留历史曲线。</p>
+          <div class="fund-source-links">
+            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全量日线 CSV ↘</a>
+            <a href="data/full_market/full_market_daily_2026-10-23.json" target="_blank">原始 JSON ↗</a>
+            <a href="data/capture_full_market_fund_flow.py" target="_blank">采集脚本 ↗</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
     <section class="section shell" id="playbook">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / NEXT-SESSION CHECKLIST</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / NEXT-SESSION CHECKLIST</div>
           <h2>下一交易日验证清单</h2>
         </div>
         <p>不使用单点涨跌预测。每个方向只记录当前读数、确认线、失效线和验证优先级。</p>
@@ -624,6 +466,70 @@
         <p>所有确认线和失效线均为研究阈值，不是回测最优参数，也不代表买卖建议。盘中数据变化后需重新计算。</p>
       </div>
     </section>
+
+    <section class="section shell chip-segment-section" id="chip-segments">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / CHIP DECOMPOSITION</div>
+          <h2>芯片不是一个板块</h2>
+        </div>
+        <p>拆开概念与行业分类后，单日爆发、持续吸金和资金效率会给出不同答案。</p>
+      </div>
+
+      <article class="chip-verdict reveal">
+        <span class="chip-verdict-label">DATA VERDICT / 2026-10-23</span>
+        <h3>国产芯片是单日资金第一，但不是所有维度的第一。</h3>
+        <p>
+          国产芯片在 13 个官方细分中单日主力净流入第一，当日流入广度 90.43%；
+          但近 5 日仍为净流出。数字芯片设计的 5 日累计资金、主力净流入率和涨幅都更强。
+          存储芯片当日转正，5 日仍偏弱；半导体设备则是 5 日资金最弱分支。
+        </p>
+      </article>
+
+      <div class="chip-highlight-grid reveal" id="chipHighlightGrid"></div>
+
+      <article class="panel chip-segment-panel reveal">
+        <div class="fund-table-head">
+          <div>
+            <span class="panel-label">OFFICIAL SEGMENTS / 13 个芯片细分</span>
+            <h3>单日资金、5 日资金与资金效率</h3>
+          </div>
+          <div class="fund-table-meta">
+            <span>官方概念 / 行业分类</span>
+            <span>不跨板块相加</span>
+            <a href="data/full_market/chip_segments_2026-10-23.csv" download>细分数据 CSV ↘</a>
+          </div>
+        </div>
+
+        <div class="chip-table-toolbar">
+          <div class="segmented" id="chipSortTabs">
+            <button type="button" data-chip-sort="flow_yi" class="active">当日资金</button>
+            <button type="button" data-chip-sort="five_day_main_net_yi">5 日累计</button>
+            <button type="button" data-chip-sort="main_ratio">资金效率</button>
+            <button type="button" data-chip-sort="change_pct">涨幅</button>
+          </div>
+          <span>主力净流入率 = 主力净流入 ÷ 板块成交额</span>
+        </div>
+
+        <div class="fund-table-scroll chip-segment-table-scroll" id="chipSegmentTable"></div>
+
+        <div class="chip-custom-reference" id="chipCustomReference"></div>
+
+        <div class="fund-source-note">
+          <span>METHOD / 分层比较</span>
+          <p>官方板块成分彼此重叠，不能把国产芯片、半导体概念和存储芯片相加。该表只比较单板块资金与市场表现；远航版“半导体芯片”是自定义 52 只成分组，单独列出，不参与官方排名。</p>
+          <div class="fund-source-links">
+            <a href="data/chip_segments_2026-10-23.json" target="_blank">原始 JSON ↗</a>
+            <a href="data/build_chip_segment_strength.py" target="_blank">计算脚本 ↗</a>
+            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全市场明细 ↘</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+
+
 
     <section class="closing shell reveal">
       <div>
