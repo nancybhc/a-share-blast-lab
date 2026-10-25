@@ -274,7 +274,11 @@ def publish_scheduler_loop() -> None:
                 persisted = read_publish_status().get("last_slot")
                 if slot_key != persisted and slot_key != LAST_ATTEMPTED_SLOT:
                     LAST_ATTEMPTED_SLOT = slot_key
-                    if collector_state().get("running"):
+                    live_monitor_running = (
+                        collector_state().get("running")
+                        or monitor_state().get("running")
+                    )
+                    if live_monitor_running:
                         publish_to_github(slot)
         time.sleep(10)
 

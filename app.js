@@ -773,6 +773,108 @@ function renderChipSegmentSection() {
   renderChipCustomReference();
 }
 
+function validationReading(label, value, note) {
+  return `
+    <div class="validation-reading">
+      <span>${label}</span>
+      <b>${value}</b>
+      <small>${note}</small>
+    </div>
+  `;
+}
+
+function validationCard({
+  priority,
+  index,
+  title,
+  state,
+  readings,
+  confirmation,
+  invalidation,
+}) {
+  return `
+    <article class="validation-card" data-priority="${priority}">
+      <div class="validation-head">
+        <span>${index} / VALIDATION ${priority}</span>
+        <span class="validation-priority">优先级 ${priority}</span>
+      </div>
+      <h3>${title}</h3>
+      <p class="validation-state">${state}</p>
+      <div class="validation-readings">${readings}</div>
+      <div class="validation-rule">
+        <span>确认线 / CONTINUE</span>
+        <p>${confirmation}</p>
+      </div>
+      <div class="validation-rule invalid">
+        <span>失效线 / INVALIDATE</span>
+        <p>${invalidation}</p>
+      </div>
+      <div class="validation-foot">
+        <span>验证窗口 / 下一交易日</span>
+        <span>当前读数 · 非评分</span>
+      </div>
+    </article>
+  `;
+}
+
+function renderValidationChecklist() {
+  const container = document.getElementById("validationGrid");
+  if (!container || !chipSegmentData) return;
+
+  const segments = chipSegmentData.segments || [];
+  const domestic = segments.find((row) => row.code === "BK0891");
+  const digital = segments.find((row) => row.code === "BK1331");
+  const storage = segments.find((row) => row.code === "BK1137");
+  const equipment = segments.find((row) => row.code === "BK1326");
+  const robot = marketData.groups.find((row) => row.id === "robot");
+  const aerospace = marketData.groups.find((row) => row.id === "aerospace");
+
+  container.innerHTML = [
+    validationCard({
+      priority: "A",
+      index: "01",
+      title: "国产芯片 / 数字芯片设计",
+      state: "国产芯片是单日资金第一，但 5 日为负；数字芯片设计的 5 日资金和资金效率更强。两个方向分开验证。",
+      readings: [
+        validationReading("国产芯片 · 单日", formatFund(domestic.flow_yi), "单日资金第一"),
+        validationReading("国产芯片 · 广度", `${domestic.breadth_pct.toFixed(2)}%`, `${domestic.up_count} 涨 / ${domestic.down_count} 跌`),
+        validationReading("数字设计 · 5日", formatFund(digital.five_day_main_net_yi), "5 日累计第一"),
+        validationReading("数字设计 · 效率", `${digital.main_ratio.toFixed(2)}%`, `涨幅 ${chipPct(digital.change_pct)}`),
+      ].join(""),
+      confirmation: "国产芯片保持净流入且上涨广度不低于 80%；数字芯片设计资金净流入率不低于 3%，5 日累计保持为正。",
+      invalidation: "国产芯片转净流出或广度跌破 70%；数字芯片设计资金效率跌破 3%，且 5 日累计转负。",
+    }),
+    validationCard({
+      priority: "B",
+      index: "02",
+      title: "机器人",
+      state: "绝对强度和结构完整度仍高，但已持续强势一周，重点从继续加速切到确认是否分化。",
+      readings: [
+        validationReading("结构强度", robot.score.toFixed(1), "当前第一"),
+        validationReading("多头占比", `${robot.bullPct.toFixed(1)}%`, `${robot.bull} 多 / ${robot.bear} 空`),
+        validationReading("转多确认", `${robot.fulfilled}只`, `当前 ${robot.turnBull} 只蓄势`),
+        validationReading("反向转空", `${robot.turnBear}只`, "当前压力低"),
+      ].join(""),
+      confirmation: "反向转空不超过 1 只、多头占比不低于 65%，且结构强度保持在 60 以上。",
+      invalidation: "反向转空达到 3 只以上，或多头占比跌破 60%；结构强度跌破 55 时降为观察。",
+    }),
+    validationCard({
+      priority: "C",
+      index: "03",
+      title: "存储芯片 / 半导体设备 / 商业航天",
+      state: "存储芯片只是单日修复，半导体设备仍双弱；商业航天的反向转空压力仍然最高，三者都不应因单日反弹升级。",
+      readings: [
+        validationReading("存储芯片 · 单日", formatFund(storage.flow_yi), "已转正"),
+        validationReading("存储芯片 · 5日", formatFund(storage.five_day_main_net_yi), "仍为净流出"),
+        validationReading("半导体设备 · 5日", formatFund(equipment.five_day_main_net_yi), `${formatFund(equipment.flow_yi)} 单日`),
+        validationReading("商业航天 · 转空", `${aerospace.turnBear}只`, "结构分歧"),
+      ].join(""),
+      confirmation: "存储芯片 5 日累计转正；半导体设备单日与 5 日同步转正；商业航天反向转空降至 5 只以下，才考虑升级。",
+      invalidation: "存储芯片 5 日继续为负、半导体设备继续双弱，或商业航天反向转空不低于 5 只，维持观察或回避。",
+    }),
+  ].join("");
+}
+
 async function collectorApi(path, method = "GET") {
   const response = await fetch(path, {
     method,
@@ -1421,5 +1523,6 @@ renderFundTable();
 renderBoardComparison();
 updateMarketPanel();
 renderChipSegmentSection();
+renderValidationChecklist();
 initCollectorControl();
 initFiveBreak10Control();

@@ -2627,6 +2627,179 @@ button {
   color: var(--lime) !important;
 }
 
+.validation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.validation-card {
+  --validation-accent: var(--cyan);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  padding: 26px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--validation-accent) 5%, transparent), transparent 44%),
+    var(--panel);
+}
+
+.validation-card[data-priority="A"] {
+  --validation-accent: var(--lime);
+}
+
+.validation-card[data-priority="B"] {
+  --validation-accent: var(--amber);
+}
+
+.validation-card[data-priority="C"] {
+  --validation-accent: var(--red);
+}
+
+.validation-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 25px;
+  left: 25px;
+  height: 2px;
+  background: var(--validation-accent);
+  box-shadow: 0 0 20px color-mix(in srgb, var(--validation-accent) 45%, transparent);
+}
+
+.validation-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  color: var(--validation-accent);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.07em;
+}
+
+.validation-priority {
+  padding: 4px 7px;
+  border: 1px solid color-mix(in srgb, var(--validation-accent) 30%, transparent);
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--validation-accent) 5%, transparent);
+}
+
+.validation-card h3 {
+  margin: 28px 0 11px;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.validation-state {
+  min-height: 55px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.75;
+}
+
+.validation-readings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--line);
+}
+
+.validation-reading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 70px;
+  padding: 12px;
+  background: rgba(5, 10, 11, 0.88);
+}
+
+.validation-reading span,
+.validation-reading small {
+  color: var(--muted-2);
+  font-size: 7px;
+  line-height: 1.4;
+}
+
+.validation-reading b {
+  color: var(--validation-accent);
+  font-family: var(--mono);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.validation-rule {
+  margin-top: 18px;
+  padding-top: 15px;
+  border-top: 1px solid var(--line);
+}
+
+.validation-rule > span {
+  color: var(--validation-accent);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.05em;
+}
+
+.validation-rule.invalid > span {
+  color: var(--muted);
+}
+
+.validation-rule p {
+  margin: 8px 0 0;
+  color: #aebbb7;
+  font-size: 10px;
+  line-height: 1.75;
+}
+
+.validation-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: auto;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 7px;
+}
+
+.validation-threshold-note {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 14px;
+  padding: 15px 18px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 8px;
+}
+
+.validation-threshold-note span {
+  flex: 0 0 auto;
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.07em;
+}
+
+.validation-threshold-note p {
+  margin: 0;
+  color: var(--muted-2);
+  font-size: 8px;
+  line-height: 1.7;
+}
+
 .playbook-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -3458,6 +3631,14 @@ button {
     grid-template-columns: 1fr;
   }
 
+  .validation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .validation-card[data-priority="C"] {
+    grid-column: span 2;
+  }
+
   .fbl-command-actions {
     align-items: flex-start;
     flex-direction: row;
@@ -3540,6 +3721,22 @@ button {
 
   .chip-custom-reference {
     grid-template-columns: 1fr;
+  }
+
+  .validation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .validation-card,
+  .validation-card[data-priority="C"] {
+    grid-column: auto;
+    min-height: 0;
+  }
+
+  .validation-threshold-note {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
   }
 }
 
