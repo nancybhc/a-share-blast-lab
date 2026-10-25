@@ -149,6 +149,7 @@ def write_runtime_status() -> dict[str, Any]:
             "14:00",
             "14:20",
             "14:40",
+            "14:55",
             "15:00",
         ],
     }

@@ -50,6 +50,7 @@ PUBLISH_SLOTS = (
     clock_time(14, 0),
     clock_time(14, 20),
     clock_time(14, 40),
+    clock_time(14, 55),
     clock_time(15, 0),
 )
 LAST_ATTEMPTED_SLOT: str | None = None
