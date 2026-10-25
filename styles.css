@@ -2255,6 +2255,209 @@ button {
   gap: 12px;
 }
 
+.chip-segment-section {
+  position: relative;
+}
+
+.chip-verdict {
+  position: relative;
+  padding: 25px 28px;
+  overflow: hidden;
+  border: 1px solid rgba(73, 217, 231, 0.24);
+  border-radius: 16px;
+  background:
+    linear-gradient(110deg, rgba(73, 217, 231, 0.075), transparent 55%),
+    rgba(9, 15, 17, 0.78);
+}
+
+.chip-verdict::after {
+  content: "13";
+  position: absolute;
+  right: 24px;
+  bottom: -44px;
+  color: rgba(73, 217, 231, 0.045);
+  font-family: var(--mono);
+  font-size: 170px;
+  line-height: 1;
+}
+
+.chip-verdict-label {
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+
+.chip-verdict h3 {
+  position: relative;
+  z-index: 1;
+  margin: 20px 0 12px;
+  font-size: clamp(23px, 2.5vw, 35px);
+  letter-spacing: -0.04em;
+}
+
+.chip-verdict p {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.85;
+}
+
+.chip-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.chip-highlight-card {
+  --chip-accent: var(--cyan);
+  display: flex;
+  flex-direction: column;
+  min-height: 145px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--chip-accent) 7%, transparent), transparent 50%),
+    rgba(9, 15, 17, 0.76);
+}
+
+.chip-highlight-card[data-tone="lime"] {
+  --chip-accent: var(--lime);
+}
+
+.chip-highlight-card[data-tone="amber"] {
+  --chip-accent: var(--amber);
+}
+
+.chip-highlight-card[data-tone="red"] {
+  --chip-accent: var(--red);
+}
+
+.chip-highlight-card > span {
+  color: var(--chip-accent);
+  font-family: var(--mono);
+  font-size: 7px;
+  letter-spacing: 0.08em;
+}
+
+.chip-highlight-card > strong {
+  margin-top: 12px;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chip-highlight-card > b {
+  margin-top: 9px;
+  color: var(--chip-accent);
+  font-family: var(--mono);
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.chip-highlight-card > small {
+  margin-top: auto;
+  padding-top: 8px;
+  color: var(--muted-2);
+  font-size: 8px;
+  line-height: 1.6;
+}
+
+.chip-segment-panel {
+  margin-top: 14px;
+  padding: 27px;
+}
+
+.chip-table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.chip-table-toolbar > span {
+  color: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 7px;
+  text-align: right;
+}
+
+.chip-segment-table-scroll {
+  margin-top: 14px;
+}
+
+.chip-segment-table {
+  min-width: 960px;
+}
+
+.chip-segment-table tr.is-domestic {
+  background: rgba(185, 255, 69, 0.035);
+  box-shadow: inset 2px 0 var(--lime);
+}
+
+.chip-segment-table tr.is-storage {
+  background: rgba(255, 155, 69, 0.028);
+}
+
+.chip-taxonomy {
+  display: inline-flex;
+  padding: 3px 6px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: var(--muted-2);
+  font-size: 7px;
+}
+
+.chip-custom-reference {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 20px;
+  margin-top: 16px;
+  padding: 16px 18px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.012);
+}
+
+.chip-custom-reference > span {
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.06em;
+}
+
+.chip-custom-reference > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: baseline;
+}
+
+.chip-custom-reference strong {
+  color: var(--text);
+  font-size: 13px;
+}
+
+.chip-custom-reference b {
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.chip-custom-reference small {
+  width: 100%;
+  color: var(--muted-2);
+  font-size: 8px;
+}
+
 .five-break-10-section .section-heading h2 {
   max-width: 760px;
 }
@@ -3235,6 +3438,10 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .chip-highlight-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .fbl-command-panel {
     grid-template-columns: 1fr;
   }
@@ -3295,6 +3502,32 @@ button {
 
   .intraday-metrics {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chip-highlight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chip-verdict {
+    padding: 21px 18px;
+  }
+
+  .chip-segment-panel {
+    padding: 20px 18px;
+  }
+
+  .chip-table-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .chip-table-toolbar > span {
+    text-align: left;
+  }
+
+  .chip-custom-reference {
+    grid-template-columns: 1fr;
   }
 }
 

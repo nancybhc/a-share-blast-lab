@@ -40,7 +40,7 @@ SCOPES = {
         "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23,m:0+t:81+s:2048",
     },
 }
-FIELDS = "f12,f14,f2,f3,f6,f20,f62,f184,f124"
+FIELDS = "f12,f14,f2,f3,f6,f20,f62,f184,f104,f105,f106,f124"
 
 
 def now_cn() -> datetime:
@@ -64,6 +64,13 @@ def numeric(value: Any, scale: float = 1.0) -> float | None:
         return round(float(value) / scale, 4)
     except (TypeError, ValueError):
         return None
+
+
+def integer(value: Any) -> int:
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return 0
 
 
 def fetch_scope(
@@ -106,6 +113,9 @@ def fetch_scope(
                 name = str(row.get("f14") or "").strip()
                 if not code or not name:
                     continue
+                up_count = integer(row.get("f104"))
+                down_count = integer(row.get("f105"))
+                flat_count = integer(row.get("f106"))
                 cleaned.append(
                     {
                         "code": code,
@@ -115,6 +125,17 @@ def fetch_scope(
                         "amount_yi": numeric(row.get("f6"), 1e8),
                         "market_cap_yi": numeric(row.get("f20"), 1e8),
                         "main_ratio": numeric(row.get("f184")),
+                        "up_count": up_count,
+                        "down_count": down_count,
+                        "flat_count": flat_count,
+                        "breadth_pct": (
+                            round(
+                                up_count
+                                / max(up_count + down_count + flat_count, 1)
+                                * 100,
+                                2,
+                            )
+                        ),
                     }
                 )
             return cleaned, host, total

@@ -1,6 +1,6 @@
 window.FULL_MARKET_DATA = {
   "date": "2026-10-23",
-  "captured_at": "2026-10-25T09:45:26+08:00",
+  "captured_at": "2026-10-25T23:25:38+08:00",
   "source": "东方财富 clist f62 / 主力净流入",
   "source_hosts": [
     "https://push2test.eastmoney.com"
@@ -29,7 +29,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.82,
         "amount_yi": 279.1848,
         "market_cap_yi": 7216.2278,
-        "main_ratio": 5.88
+        "main_ratio": 5.88,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688825",
@@ -38,7 +42,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.93,
         "amount_yi": 197.9806,
         "market_cap_yi": 29088.3365,
-        "main_ratio": 8.14
+        "main_ratio": 8.14,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300750",
@@ -47,7 +55,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.8,
         "amount_yi": 253.9624,
         "market_cap_yi": 10994.3453,
-        "main_ratio": 5.11
+        "main_ratio": 5.11,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "603986",
@@ -56,7 +68,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.51,
         "amount_yi": 129.0592,
         "market_cap_yi": 2055.5966,
-        "main_ratio": 10.03
+        "main_ratio": 10.03,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002354",
@@ -65,7 +81,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 10.0,
         "amount_yi": 23.1001,
         "market_cap_yi": 132.8632,
-        "main_ratio": 49.68
+        "main_ratio": 49.68,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "301660",
@@ -74,7 +94,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 20.01,
         "amount_yi": 36.1754,
         "market_cap_yi": 968.2391,
-        "main_ratio": 28.64
+        "main_ratio": 28.64,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002241",
@@ -83,7 +107,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 10.0,
         "amount_yi": 28.7344,
         "market_cap_yi": 824.824,
-        "main_ratio": 27.82
+        "main_ratio": 27.82,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300059",
@@ -92,7 +120,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.33,
         "amount_yi": 69.4156,
         "market_cap_yi": 2935.0181,
-        "main_ratio": 11.14
+        "main_ratio": 11.14,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688256",
@@ -101,7 +133,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.46,
         "amount_yi": 125.3418,
         "market_cap_yi": 5862.1771,
-        "main_ratio": 5.68
+        "main_ratio": 5.68,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300296",
@@ -110,7 +146,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 20.0,
         "amount_yi": 42.2346,
         "market_cap_yi": 198.5167,
-        "main_ratio": 14.81
+        "main_ratio": 14.81,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300033",
@@ -119,7 +159,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 12.39,
         "amount_yi": 54.7362,
         "market_cap_yi": 1609.5206,
-        "main_ratio": 11.17
+        "main_ratio": 11.17,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002421",
@@ -128,7 +172,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 9.94,
         "amount_yi": 18.0686,
         "market_cap_yi": 72.736,
-        "main_ratio": 32.04
+        "main_ratio": 32.04,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688836",
@@ -137,7 +185,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 20.0,
         "amount_yi": 47.6954,
         "market_cap_yi": 2523.8575,
-        "main_ratio": 10.24
+        "main_ratio": 10.24,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002475",
@@ -146,7 +198,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.25,
         "amount_yi": 63.901,
         "market_cap_yi": 3904.132,
-        "main_ratio": 7.54
+        "main_ratio": 7.54,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688041",
@@ -155,7 +211,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.28,
         "amount_yi": 53.9374,
         "market_cap_yi": 4674.2439,
-        "main_ratio": 8.63
+        "main_ratio": 8.63,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300115",
@@ -164,7 +224,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 14.82,
         "amount_yi": 46.3055,
         "market_cap_yi": 402.9596,
-        "main_ratio": 8.53
+        "main_ratio": 8.53,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "003006",
@@ -173,7 +237,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 6.42,
         "amount_yi": 12.364,
         "market_cap_yi": 101.8265,
-        "main_ratio": 31.2
+        "main_ratio": 31.2,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688766",
@@ -182,7 +250,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 9.59,
         "amount_yi": 37.1896,
         "market_cap_yi": 440.0138,
-        "main_ratio": 10.25
+        "main_ratio": 10.25,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002428",
@@ -191,7 +263,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.82,
         "amount_yi": 53.1628,
         "market_cap_yi": 553.062,
-        "main_ratio": 7.11
+        "main_ratio": 7.11,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688795",
@@ -200,7 +276,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 11.36,
         "amount_yi": 27.3534,
         "market_cap_yi": 1805.7544,
-        "main_ratio": 13.3
+        "main_ratio": 13.3,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       }
     ],
     "top_outflow": [
@@ -211,7 +291,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.95,
         "amount_yi": 31.8298,
         "market_cap_yi": 7113.2846,
-        "main_ratio": -17.92
+        "main_ratio": -17.92,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600900",
@@ -220,7 +304,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.24,
         "amount_yi": 53.3764,
         "market_cap_yi": 7205.8901,
-        "main_ratio": -10.52
+        "main_ratio": -10.52,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601899",
@@ -229,7 +317,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.41,
         "amount_yi": 74.5598,
         "market_cap_yi": 7655.4908,
-        "main_ratio": -6.59
+        "main_ratio": -6.59,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601398",
@@ -238,7 +330,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -3.14,
         "amount_yi": 58.3338,
         "market_cap_yi": 29653.0006,
-        "main_ratio": -7.87
+        "main_ratio": -7.87,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600293",
@@ -247,7 +343,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -6.12,
         "amount_yi": 20.3309,
         "market_cap_yi": 56.9631,
-        "main_ratio": -21.32
+        "main_ratio": -21.32,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601091",
@@ -256,7 +356,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -4.59,
         "amount_yi": 16.8503,
         "market_cap_yi": 640.3495,
-        "main_ratio": -23.34
+        "main_ratio": -23.34,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600036",
@@ -265,7 +369,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.12,
         "amount_yi": 51.6087,
         "market_cap_yi": 10534.3295,
-        "main_ratio": -7.38
+        "main_ratio": -7.38,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300857",
@@ -274,7 +382,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.11,
         "amount_yi": 39.5776,
         "market_cap_yi": 953.3771,
-        "main_ratio": -8.29
+        "main_ratio": -8.29,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002371",
@@ -283,7 +395,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.83,
         "amount_yi": 51.7268,
         "market_cap_yi": 3912.6789,
-        "main_ratio": -5.66
+        "main_ratio": -5.66,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600183",
@@ -292,7 +408,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.5,
         "amount_yi": 76.1052,
         "market_cap_yi": 2691.579,
-        "main_ratio": -3.81
+        "main_ratio": -3.81,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300757",
@@ -301,7 +421,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.41,
         "amount_yi": 33.6691,
         "market_cap_yi": 747.7308,
-        "main_ratio": -8.54
+        "main_ratio": -8.54,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002384",
@@ -310,7 +434,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.63,
         "amount_yi": 86.2559,
         "market_cap_yi": 2092.0621,
-        "main_ratio": -3.1
+        "main_ratio": -3.1,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601869",
@@ -319,7 +447,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.42,
         "amount_yi": 37.1094,
         "market_cap_yi": 2672.0637,
-        "main_ratio": -7.09
+        "main_ratio": -7.09,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300604",
@@ -328,7 +460,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.64,
         "amount_yi": 53.1651,
         "market_cap_yi": 1310.8497,
-        "main_ratio": -4.95
+        "main_ratio": -4.95,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601668",
@@ -337,7 +473,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.0,
         "amount_yi": 18.2431,
         "market_cap_yi": 1859.4176,
-        "main_ratio": -13.62
+        "main_ratio": -13.62,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601166",
@@ -346,7 +486,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.65,
         "amount_yi": 30.5446,
         "market_cap_yi": 3887.6182,
-        "main_ratio": -8.03
+        "main_ratio": -8.03,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002463",
@@ -355,7 +499,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.09,
         "amount_yi": 59.8801,
         "market_cap_yi": 2060.2236,
-        "main_ratio": -4.0
+        "main_ratio": -4.0,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600176",
@@ -364,7 +512,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.04,
         "amount_yi": 50.8914,
         "market_cap_yi": 1317.032,
-        "main_ratio": -4.28
+        "main_ratio": -4.28,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688008",
@@ -373,7 +525,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.78,
         "amount_yi": 77.607,
         "market_cap_yi": 2196.9684,
-        "main_ratio": -2.63
+        "main_ratio": -2.63,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300408",
@@ -382,7 +538,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 41.473,
         "market_cap_yi": 1876.7158,
-        "main_ratio": -4.82
+        "main_ratio": -4.82,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       }
     ]
   },
@@ -396,7 +556,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.7,
         "amount_yi": 2555.1953,
         "market_cap_yi": 118673.0061,
-        "main_ratio": 2.69
+        "main_ratio": 2.69,
+        "up_count": 172,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 91.49
       },
       {
         "code": "BK1201",
@@ -405,7 +569,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.72,
         "amount_yi": 4910.7931,
         "market_cap_yi": 196409.367,
-        "main_ratio": 1.35
+        "main_ratio": 1.35,
+        "up_count": 442,
+        "down_count": 74,
+        "flat_count": 7,
+        "breadth_pct": 84.51
       },
       {
         "code": "BK1331",
@@ -414,7 +582,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.27,
         "amount_yi": 1251.9195,
         "market_cap_yi": 64308.3674,
-        "main_ratio": 4.99
+        "main_ratio": 4.99,
+        "up_count": 56,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1207",
@@ -423,7 +595,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.08,
         "amount_yi": 1354.8619,
         "market_cap_yi": 41137.5448,
-        "main_ratio": 3.01
+        "main_ratio": 3.01,
+        "up_count": 328,
+        "down_count": 28,
+        "flat_count": 4,
+        "breadth_pct": 91.11
       },
       {
         "code": "BK1338",
@@ -432,7 +608,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.67,
         "amount_yi": 553.9848,
         "market_cap_yi": 26394.8114,
-        "main_ratio": 4.17
+        "main_ratio": 4.17,
+        "up_count": 74,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 84.09
       },
       {
         "code": "BK0737",
@@ -441,7 +621,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.02,
         "amount_yi": 596.0722,
         "market_cap_yi": 15585.2213,
-        "main_ratio": 3.8
+        "main_ratio": 3.8,
+        "up_count": 123,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 91.79
       },
       {
         "code": "BK1037",
@@ -450,7 +634,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.97,
         "amount_yi": 609.5618,
         "market_cap_yi": 29085.7163,
-        "main_ratio": 3.61
+        "main_ratio": 3.61,
+        "up_count": 85,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 85.86
       },
       {
         "code": "BK0486",
@@ -459,7 +647,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.64,
         "amount_yi": 640.0754,
         "market_cap_yi": 14418.3765,
-        "main_ratio": 2.53
+        "main_ratio": 2.53,
+        "up_count": 99,
+        "down_count": 26,
+        "flat_count": 3,
+        "breadth_pct": 77.34
       },
       {
         "code": "BK1447",
@@ -468,7 +660,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.78,
         "amount_yi": 391.0566,
         "market_cap_yi": 10047.5141,
-        "main_ratio": 4.02
+        "main_ratio": 4.02,
+        "up_count": 91,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 91.0
       },
       {
         "code": "BK1444",
@@ -477,7 +673,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.78,
         "amount_yi": 460.9722,
         "market_cap_yi": 12310.3974,
-        "main_ratio": 3.33
+        "main_ratio": 3.33,
+        "up_count": 122,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 89.05
       },
       {
         "code": "BK1238",
@@ -486,7 +686,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.78,
         "amount_yi": 460.9722,
         "market_cap_yi": 12310.3974,
-        "main_ratio": 3.33
+        "main_ratio": 3.33,
+        "up_count": 122,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 89.05
       },
       {
         "code": "BK1220",
@@ -495,7 +699,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.86,
         "amount_yi": 144.1608,
         "market_cap_yi": 2883.1626,
-        "main_ratio": 10.33
+        "main_ratio": 10.33,
+        "up_count": 25,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1329",
@@ -504,7 +712,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.15,
         "amount_yi": 169.9318,
         "market_cap_yi": 17067.9298,
-        "main_ratio": 8.16
+        "main_ratio": 8.16,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1293",
@@ -513,7 +725,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 126.8625,
         "market_cap_yi": 2058.4079,
-        "main_ratio": 10.62
+        "main_ratio": 10.62,
+        "up_count": 23,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 85.19
       },
       {
         "code": "BK1303",
@@ -522,7 +738,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.07,
         "amount_yi": 443.8841,
         "market_cap_yi": 16492.593,
-        "main_ratio": 2.67
+        "main_ratio": 2.67,
+        "up_count": 31,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 93.94
       },
       {
         "code": "BK1033",
@@ -531,7 +751,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.58,
         "amount_yi": 705.4988,
         "market_cap_yi": 25350.6578,
-        "main_ratio": 1.59
+        "main_ratio": 1.59,
+        "up_count": 105,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 97.22
       },
       {
         "code": "BK1408",
@@ -540,7 +764,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.98,
         "amount_yi": 158.9945,
         "market_cap_yi": 4713.3051,
-        "main_ratio": 6.84
+        "main_ratio": 6.84,
+        "up_count": 22,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1591",
@@ -549,7 +777,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.34,
         "amount_yi": 906.2989,
         "market_cap_yi": 21914.161,
-        "main_ratio": 1.16
+        "main_ratio": 1.16,
+        "up_count": 31,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 81.58
       },
       {
         "code": "BK0481",
@@ -558,7 +790,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.76,
         "amount_yi": 584.6212,
         "market_cap_yi": 23734.2632,
-        "main_ratio": 1.36
+        "main_ratio": 1.36,
+        "up_count": 252,
+        "down_count": 29,
+        "flat_count": 1,
+        "breadth_pct": 89.36
       },
       {
         "code": "BK1448",
@@ -567,7 +803,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.72,
         "amount_yi": 205.0155,
         "market_cap_yi": 5537.707,
-        "main_ratio": 3.37
+        "main_ratio": 3.37,
+        "up_count": 32,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 94.12
       }
     ],
     "top_outflow": [
@@ -578,7 +818,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.54,
         "amount_yi": 461.8783,
         "market_cap_yi": 165774.7021,
-        "main_ratio": -6.48
+        "main_ratio": -6.48,
+        "up_count": 13,
+        "down_count": 26,
+        "flat_count": 3,
+        "breadth_pct": 30.95
       },
       {
         "code": "BK0475",
@@ -587,7 +831,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.54,
         "amount_yi": 461.8783,
         "market_cap_yi": 165774.7021,
-        "main_ratio": -6.48
+        "main_ratio": -6.48,
+        "up_count": 13,
+        "down_count": 26,
+        "flat_count": 3,
+        "breadth_pct": 30.95
       },
       {
         "code": "BK0459",
@@ -596,7 +844,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.14,
         "amount_yi": 989.1429,
         "market_cap_yi": 26262.0427,
-        "main_ratio": -2.81
+        "main_ratio": -2.81,
+        "up_count": 37,
+        "down_count": 29,
+        "flat_count": 1,
+        "breadth_pct": 55.22
       },
       {
         "code": "BK1340",
@@ -605,7 +857,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.77,
         "amount_yi": 832.2204,
         "market_cap_yi": 22027.2528,
-        "main_ratio": -2.9
+        "main_ratio": -2.9,
+        "up_count": 21,
+        "down_count": 26,
+        "flat_count": 1,
+        "breadth_pct": 43.75
       },
       {
         "code": "BK1216",
@@ -614,7 +870,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.69,
         "amount_yi": 1105.1408,
         "market_cap_yi": 65301.8752,
-        "main_ratio": -1.55
+        "main_ratio": -1.55,
+        "up_count": 422,
+        "down_count": 75,
+        "flat_count": 15,
+        "breadth_pct": 82.42
       },
       {
         "code": "BK0427",
@@ -623,7 +883,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.22,
         "amount_yi": 350.6966,
         "market_cap_yi": 40942.3898,
-        "main_ratio": -4.47
+        "main_ratio": -4.47,
+        "up_count": 74,
+        "down_count": 55,
+        "flat_count": 14,
+        "breadth_pct": 51.75
       },
       {
         "code": "BK0428",
@@ -632,7 +896,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.35,
         "amount_yi": 319.3377,
         "market_cap_yi": 38450.7728,
-        "main_ratio": -4.64
+        "main_ratio": -4.64,
+        "up_count": 56,
+        "down_count": 44,
+        "flat_count": 12,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1611",
@@ -641,7 +909,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -2.75,
         "amount_yi": 200.5581,
         "market_cap_yi": 120401.4387,
-        "main_ratio": -7.29
+        "main_ratio": -7.29,
+        "up_count": 0,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "BK1206",
@@ -650,7 +922,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 859.1458,
         "market_cap_yi": 41504.8293,
-        "main_ratio": -1.6
+        "main_ratio": -1.6,
+        "up_count": 358,
+        "down_count": 90,
+        "flat_count": 10,
+        "breadth_pct": 78.17
       },
       {
         "code": "BK1610",
@@ -659,7 +935,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.44,
         "amount_yi": 137.6272,
         "market_cap_yi": 29726.5424,
-        "main_ratio": -8.12
+        "main_ratio": -8.12,
+        "up_count": 2,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 22.22
       },
       {
         "code": "BK1208",
@@ -668,7 +948,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.07,
         "amount_yi": 232.2097,
         "market_cap_yi": 9557.7862,
-        "main_ratio": -4.77
+        "main_ratio": -4.77,
+        "up_count": 49,
+        "down_count": 23,
+        "flat_count": 6,
+        "breadth_pct": 62.82
       },
       {
         "code": "BK1209",
@@ -677,7 +961,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.67,
         "amount_yi": 253.3991,
         "market_cap_yi": 16361.4154,
-        "main_ratio": -4.34
+        "main_ratio": -4.34,
+        "up_count": 107,
+        "down_count": 40,
+        "flat_count": 11,
+        "breadth_pct": 67.72
       },
       {
         "code": "BK0546",
@@ -686,7 +974,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.53,
         "amount_yi": 152.1236,
         "market_cap_yi": 4600.8496,
-        "main_ratio": -6.35
+        "main_ratio": -6.35,
+        "up_count": 12,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 70.59
       },
       {
         "code": "BK1204",
@@ -695,7 +987,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 519.8604,
         "market_cap_yi": 28648.7328,
-        "main_ratio": -1.83
+        "main_ratio": -1.83,
+        "up_count": 129,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 91.49
       },
       {
         "code": "BK1326",
@@ -704,7 +1000,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.92,
         "amount_yi": 359.0815,
         "market_cap_yi": 16286.8402,
-        "main_ratio": -2.49
+        "main_ratio": -2.49,
+        "up_count": 17,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 68.0
       },
       {
         "code": "BK0478",
@@ -713,7 +1013,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.51,
         "amount_yi": 786.6638,
         "market_cap_yi": 47006.7405,
-        "main_ratio": -0.96
+        "main_ratio": -0.96,
+        "up_count": 129,
+        "down_count": 16,
+        "flat_count": 1,
+        "breadth_pct": 88.36
       },
       {
         "code": "BK1380",
@@ -722,7 +1026,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.87,
         "amount_yi": 95.3128,
         "market_cap_yi": 12736.6946,
-        "main_ratio": -7.88
+        "main_ratio": -7.88,
+        "up_count": 3,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 27.27
       },
       {
         "code": "BK0538",
@@ -731,7 +1039,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 317.4226,
         "market_cap_yi": 15142.7286,
-        "main_ratio": -2.28
+        "main_ratio": -2.28,
+        "up_count": 141,
+        "down_count": 39,
+        "flat_count": 6,
+        "breadth_pct": 75.81
       },
       {
         "code": "BK1615",
@@ -740,7 +1052,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.42,
         "amount_yi": 186.7319,
         "market_cap_yi": 15894.4981,
-        "main_ratio": -3.3
+        "main_ratio": -3.3,
+        "up_count": 16,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.12
       },
       {
         "code": "BK1287",
@@ -749,7 +1065,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 301.1168,
         "market_cap_yi": 25117.3616,
-        "main_ratio": -1.96
+        "main_ratio": -1.96,
+        "up_count": 52,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 89.66
       }
     ],
     "all": [
@@ -760,7 +1080,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.7,
         "amount_yi": 2555.1953,
         "market_cap_yi": 118673.0061,
-        "main_ratio": 2.69
+        "main_ratio": 2.69,
+        "up_count": 172,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 91.49
       },
       {
         "code": "BK1201",
@@ -769,7 +1093,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.72,
         "amount_yi": 4910.7931,
         "market_cap_yi": 196409.367,
-        "main_ratio": 1.35
+        "main_ratio": 1.35,
+        "up_count": 442,
+        "down_count": 74,
+        "flat_count": 7,
+        "breadth_pct": 84.51
       },
       {
         "code": "BK1331",
@@ -778,7 +1106,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.27,
         "amount_yi": 1251.9195,
         "market_cap_yi": 64308.3674,
-        "main_ratio": 4.99
+        "main_ratio": 4.99,
+        "up_count": 56,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1207",
@@ -787,7 +1119,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.08,
         "amount_yi": 1354.8619,
         "market_cap_yi": 41137.5448,
-        "main_ratio": 3.01
+        "main_ratio": 3.01,
+        "up_count": 328,
+        "down_count": 28,
+        "flat_count": 4,
+        "breadth_pct": 91.11
       },
       {
         "code": "BK1338",
@@ -796,7 +1132,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.67,
         "amount_yi": 553.9848,
         "market_cap_yi": 26394.8114,
-        "main_ratio": 4.17
+        "main_ratio": 4.17,
+        "up_count": 74,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 84.09
       },
       {
         "code": "BK0737",
@@ -805,7 +1145,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.02,
         "amount_yi": 596.0722,
         "market_cap_yi": 15585.2213,
-        "main_ratio": 3.8
+        "main_ratio": 3.8,
+        "up_count": 123,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 91.79
       },
       {
         "code": "BK1037",
@@ -814,7 +1158,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.97,
         "amount_yi": 609.5618,
         "market_cap_yi": 29085.7163,
-        "main_ratio": 3.61
+        "main_ratio": 3.61,
+        "up_count": 85,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 85.86
       },
       {
         "code": "BK0486",
@@ -823,7 +1171,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.64,
         "amount_yi": 640.0754,
         "market_cap_yi": 14418.3765,
-        "main_ratio": 2.53
+        "main_ratio": 2.53,
+        "up_count": 99,
+        "down_count": 26,
+        "flat_count": 3,
+        "breadth_pct": 77.34
       },
       {
         "code": "BK1447",
@@ -832,7 +1184,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.78,
         "amount_yi": 391.0566,
         "market_cap_yi": 10047.5141,
-        "main_ratio": 4.02
+        "main_ratio": 4.02,
+        "up_count": 91,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 91.0
       },
       {
         "code": "BK1444",
@@ -841,7 +1197,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.78,
         "amount_yi": 460.9722,
         "market_cap_yi": 12310.3974,
-        "main_ratio": 3.33
+        "main_ratio": 3.33,
+        "up_count": 122,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 89.05
       },
       {
         "code": "BK1238",
@@ -850,7 +1210,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.78,
         "amount_yi": 460.9722,
         "market_cap_yi": 12310.3974,
-        "main_ratio": 3.33
+        "main_ratio": 3.33,
+        "up_count": 122,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 89.05
       },
       {
         "code": "BK1220",
@@ -859,7 +1223,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.86,
         "amount_yi": 144.1608,
         "market_cap_yi": 2883.1626,
-        "main_ratio": 10.33
+        "main_ratio": 10.33,
+        "up_count": 25,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1329",
@@ -868,7 +1236,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.15,
         "amount_yi": 169.9318,
         "market_cap_yi": 17067.9298,
-        "main_ratio": 8.16
+        "main_ratio": 8.16,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1293",
@@ -877,7 +1249,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 126.8625,
         "market_cap_yi": 2058.4079,
-        "main_ratio": 10.62
+        "main_ratio": 10.62,
+        "up_count": 23,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 85.19
       },
       {
         "code": "BK1303",
@@ -886,7 +1262,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.07,
         "amount_yi": 443.8841,
         "market_cap_yi": 16492.593,
-        "main_ratio": 2.67
+        "main_ratio": 2.67,
+        "up_count": 31,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 93.94
       },
       {
         "code": "BK1033",
@@ -895,7 +1275,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.58,
         "amount_yi": 705.4988,
         "market_cap_yi": 25350.6578,
-        "main_ratio": 1.59
+        "main_ratio": 1.59,
+        "up_count": 105,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 97.22
       },
       {
         "code": "BK1408",
@@ -904,7 +1288,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.98,
         "amount_yi": 158.9945,
         "market_cap_yi": 4713.3051,
-        "main_ratio": 6.84
+        "main_ratio": 6.84,
+        "up_count": 22,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1591",
@@ -913,7 +1301,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.34,
         "amount_yi": 906.2989,
         "market_cap_yi": 21914.161,
-        "main_ratio": 1.16
+        "main_ratio": 1.16,
+        "up_count": 31,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 81.58
       },
       {
         "code": "BK0481",
@@ -922,7 +1314,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.76,
         "amount_yi": 584.6212,
         "market_cap_yi": 23734.2632,
-        "main_ratio": 1.36
+        "main_ratio": 1.36,
+        "up_count": 252,
+        "down_count": 29,
+        "flat_count": 1,
+        "breadth_pct": 89.36
       },
       {
         "code": "BK1448",
@@ -931,7 +1327,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.72,
         "amount_yi": 205.0155,
         "market_cap_yi": 5537.707,
-        "main_ratio": 3.37
+        "main_ratio": 3.37,
+        "up_count": 32,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 94.12
       },
       {
         "code": "BK1526",
@@ -940,7 +1340,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.87,
         "amount_yi": 290.7221,
         "market_cap_yi": 10028.0269,
-        "main_ratio": 2.31
+        "main_ratio": 2.31,
+        "up_count": 104,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 88.14
       },
       {
         "code": "BK1038",
@@ -949,7 +1353,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.5,
         "amount_yi": 413.1237,
         "market_cap_yi": 13236.9613,
-        "main_ratio": 1.53
+        "main_ratio": 1.53,
+        "up_count": 83,
+        "down_count": 13,
+        "flat_count": 3,
+        "breadth_pct": 83.84
       },
       {
         "code": "BK1237",
@@ -958,7 +1366,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.97,
         "amount_yi": 477.5537,
         "market_cap_yi": 13970.153,
-        "main_ratio": 1.28
+        "main_ratio": 1.28,
+        "up_count": 89,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 93.68
       },
       {
         "code": "BK1211",
@@ -967,7 +1379,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.57,
         "amount_yi": 725.6863,
         "market_cap_yi": 40760.7966,
-        "main_ratio": 0.83
+        "main_ratio": 0.83,
+        "up_count": 297,
+        "down_count": 36,
+        "flat_count": 1,
+        "breadth_pct": 88.92
       },
       {
         "code": "BK1366",
@@ -976,7 +1392,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 303.8515,
         "market_cap_yi": 32394.6666,
-        "main_ratio": 1.91
+        "main_ratio": 1.91,
+        "up_count": 41,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 85.42
       },
       {
         "code": "BK0473",
@@ -985,7 +1405,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 303.8515,
         "market_cap_yi": 32394.6666,
-        "main_ratio": 1.91
+        "main_ratio": 1.91,
+        "up_count": 41,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 85.42
       },
       {
         "code": "BK1205",
@@ -994,7 +1418,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.01,
         "amount_yi": 1715.2728,
         "market_cap_yi": 60283.0848,
-        "main_ratio": 0.29
+        "main_ratio": 0.29,
+        "up_count": 545,
+        "down_count": 76,
+        "flat_count": 7,
+        "breadth_pct": 86.78
       },
       {
         "code": "BK1330",
@@ -1003,7 +1431,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.01,
         "amount_yi": 148.1332,
         "market_cap_yi": 5274.7944,
-        "main_ratio": 3.26
+        "main_ratio": 3.26,
+        "up_count": 34,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 94.44
       },
       {
         "code": "BK1333",
@@ -1012,7 +1444,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.32,
         "amount_yi": 108.005,
         "market_cap_yi": 2249.9916,
-        "main_ratio": 4.41
+        "main_ratio": 4.41,
+        "up_count": 26,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 86.67
       },
       {
         "code": "BK1328",
@@ -1021,7 +1457,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.15,
         "amount_yi": 217.7414,
         "market_cap_yi": 3469.519,
-        "main_ratio": 2.17
+        "main_ratio": 2.17,
+        "up_count": 12,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK1575",
@@ -1030,7 +1470,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.53,
         "amount_yi": 167.3883,
         "market_cap_yi": 24539.063,
-        "main_ratio": 2.55
+        "main_ratio": 2.55,
+        "up_count": 19,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 95.0
       },
       {
         "code": "BK1277",
@@ -1039,7 +1483,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.53,
         "amount_yi": 167.3883,
         "market_cap_yi": 24539.063,
-        "main_ratio": 2.55
+        "main_ratio": 2.55,
+        "up_count": 19,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 95.0
       },
       {
         "code": "BK1396",
@@ -1048,7 +1496,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.64,
         "amount_yi": 228.6416,
         "market_cap_yi": 6647.8214,
-        "main_ratio": 1.73
+        "main_ratio": 1.73,
+        "up_count": 73,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 89.02
       },
       {
         "code": "BK1251",
@@ -1057,7 +1509,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.74,
         "amount_yi": 21.2299,
         "market_cap_yi": 756.4843,
-        "main_ratio": 18.18
+        "main_ratio": 18.18,
+        "up_count": 9,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 69.23
       },
       {
         "code": "BK1495",
@@ -1066,7 +1522,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 17.9626,
         "market_cap_yi": 577.5635,
-        "main_ratio": 20.97
+        "main_ratio": 20.97,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1624",
@@ -1075,7 +1535,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.07,
         "amount_yi": 102.6007,
         "market_cap_yi": 3666.6971,
-        "main_ratio": 3.51
+        "main_ratio": 3.51,
+        "up_count": 13,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 81.25
       },
       {
         "code": "BK0482",
@@ -1084,7 +1548,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.94,
         "amount_yi": 101.6182,
         "market_cap_yi": 4152.4301,
-        "main_ratio": 3.36
+        "main_ratio": 3.36,
+        "up_count": 53,
+        "down_count": 5,
+        "flat_count": 2,
+        "breadth_pct": 88.33
       },
       {
         "code": "BK1455",
@@ -1093,7 +1561,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.82,
         "amount_yi": 85.1722,
         "market_cap_yi": 3275.4544,
-        "main_ratio": 3.9
+        "main_ratio": 3.9,
+        "up_count": 33,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 91.67
       },
       {
         "code": "BK1242",
@@ -1102,7 +1574,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.82,
         "amount_yi": 85.1722,
         "market_cap_yi": 3275.4544,
-        "main_ratio": 3.9
+        "main_ratio": 3.9,
+        "up_count": 33,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 91.67
       },
       {
         "code": "BK1221",
@@ -1111,7 +1587,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.18,
         "amount_yi": 130.6602,
         "market_cap_yi": 2044.2281,
-        "main_ratio": 2.36
+        "main_ratio": 2.36,
+        "up_count": 14,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 93.33
       },
       {
         "code": "BK1222",
@@ -1120,7 +1600,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.4,
         "amount_yi": 100.9357,
         "market_cap_yi": 1819.4221,
-        "main_ratio": 2.83
+        "main_ratio": 2.83,
+        "up_count": 17,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.44
       },
       {
         "code": "BK1334",
@@ -1129,7 +1613,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.11,
         "amount_yi": 152.8031,
         "market_cap_yi": 3543.4293,
-        "main_ratio": 1.87
+        "main_ratio": 1.87,
+        "up_count": 23,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 85.19
       },
       {
         "code": "BK1299",
@@ -1138,7 +1626,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.61,
         "amount_yi": 93.2093,
         "market_cap_yi": 1470.2183,
-        "main_ratio": 3.05
+        "main_ratio": 3.05,
+        "up_count": 13,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 92.86
       },
       {
         "code": "BK0735",
@@ -1147,7 +1639,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.14,
         "amount_yi": 297.8176,
         "market_cap_yi": 13241.9261,
-        "main_ratio": 0.94
+        "main_ratio": 0.94,
+        "up_count": 83,
+        "down_count": 4,
+        "flat_count": 2,
+        "breadth_pct": 93.26
       },
       {
         "code": "BK1393",
@@ -1156,7 +1652,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.8,
         "amount_yi": 75.7297,
         "market_cap_yi": 5012.1578,
-        "main_ratio": 3.49
+        "main_ratio": 3.49,
+        "up_count": 22,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0739",
@@ -1165,7 +1665,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.34,
         "amount_yi": 98.8532,
         "market_cap_yi": 6760.9346,
-        "main_ratio": 2.59
+        "main_ratio": 2.59,
+        "up_count": 33,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 94.29
       },
       {
         "code": "BK0448",
@@ -1174,7 +1678,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.29,
         "amount_yi": 1336.8307,
         "market_cap_yi": 32767.5698,
-        "main_ratio": 0.19
+        "main_ratio": 0.19,
+        "up_count": 73,
+        "down_count": 20,
+        "flat_count": 1,
+        "breadth_pct": 77.66
       },
       {
         "code": "BK1336",
@@ -1183,7 +1691,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.12,
         "amount_yi": 147.9469,
         "market_cap_yi": 3469.827,
-        "main_ratio": 1.69
+        "main_ratio": 1.69,
+        "up_count": 29,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 87.88
       },
       {
         "code": "BK1223",
@@ -1192,7 +1704,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.12,
         "amount_yi": 147.9469,
         "market_cap_yi": 3469.827,
-        "main_ratio": 1.69
+        "main_ratio": 1.69,
+        "up_count": 29,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 87.88
       },
       {
         "code": "BK1213",
@@ -1201,7 +1717,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.88,
         "amount_yi": 173.8784,
         "market_cap_yi": 8112.2392,
-        "main_ratio": 1.42
+        "main_ratio": 1.42,
+        "up_count": 88,
+        "down_count": 10,
+        "flat_count": 3,
+        "breadth_pct": 87.13
       },
       {
         "code": "BK1027",
@@ -1210,7 +1730,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 196.4089,
         "market_cap_yi": 9023.3315,
-        "main_ratio": 1.22
+        "main_ratio": 1.22,
+        "up_count": 24,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1529",
@@ -1219,7 +1743,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.45,
         "amount_yi": 88.9461,
         "market_cap_yi": 4029.8592,
-        "main_ratio": 2.53
+        "main_ratio": 2.53,
+        "up_count": 41,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 97.62
       },
       {
         "code": "BK1203",
@@ -1228,7 +1756,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.47,
         "amount_yi": 445.1594,
         "market_cap_yi": 63491.1642,
-        "main_ratio": 0.5
+        "main_ratio": 0.5,
+        "up_count": 68,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 87.18
       },
       {
         "code": "BK1035",
@@ -1237,7 +1769,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.46,
         "amount_yi": 54.1541,
         "market_cap_yi": 2661.1995,
-        "main_ratio": 4.09
+        "main_ratio": 4.09,
+        "up_count": 27,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 79.41
       },
       {
         "code": "BK1307",
@@ -1246,7 +1782,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.18,
         "amount_yi": 131.0303,
         "market_cap_yi": 2390.4066,
-        "main_ratio": 1.65
+        "main_ratio": 1.65,
+        "up_count": 27,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1030",
@@ -1255,7 +1795,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.18,
         "amount_yi": 131.0303,
         "market_cap_yi": 2390.4066,
-        "main_ratio": 1.65
+        "main_ratio": 1.65,
+        "up_count": 27,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1446",
@@ -1264,7 +1808,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.24,
         "amount_yi": 241.7177,
         "market_cap_yi": 8479.5677,
-        "main_ratio": 0.86
+        "main_ratio": 0.86,
+        "up_count": 60,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 95.24
       },
       {
         "code": "BK1295",
@@ -1273,7 +1821,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 15.02,
         "amount_yi": 30.1459,
         "market_cap_yi": 150.2544,
-        "main_ratio": 6.84
+        "main_ratio": 6.84,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1401",
@@ -1282,7 +1834,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.25,
         "amount_yi": 30.2273,
         "market_cap_yi": 725.8904,
-        "main_ratio": 6.55
+        "main_ratio": 6.55,
+        "up_count": 10,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK1613",
@@ -1291,7 +1847,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.54,
         "amount_yi": 85.8432,
         "market_cap_yi": 7656.4637,
-        "main_ratio": 2.12
+        "main_ratio": 2.12,
+        "up_count": 27,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK0438",
@@ -1300,7 +1860,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.44,
         "amount_yi": 350.1275,
         "market_cap_yi": 37752.1469,
-        "main_ratio": 0.51
+        "main_ratio": 0.51,
+        "up_count": 108,
+        "down_count": 19,
+        "flat_count": 4,
+        "breadth_pct": 82.44
       },
       {
         "code": "BK1553",
@@ -1309,7 +1873,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.6,
         "amount_yi": 20.8718,
         "market_cap_yi": 648.7057,
-        "main_ratio": 8.38
+        "main_ratio": 8.38,
+        "up_count": 15,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 93.75
       },
       {
         "code": "BK1540",
@@ -1318,7 +1886,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.19,
         "amount_yi": 29.7575,
         "market_cap_yi": 1658.8027,
-        "main_ratio": 4.83
+        "main_ratio": 4.83,
+        "up_count": 19,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 79.17
       },
       {
         "code": "BK1454",
@@ -1327,7 +1899,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.99,
         "amount_yi": 10.8612,
         "market_cap_yi": 368.5012,
-        "main_ratio": 13.15
+        "main_ratio": 13.15,
+        "up_count": 5,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1292",
@@ -1336,7 +1912,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.17,
         "amount_yi": 17.2983,
         "market_cap_yi": 824.7547,
-        "main_ratio": 8.2
+        "main_ratio": 8.2,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1215",
@@ -1345,7 +1925,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.61,
         "amount_yi": 1478.1919,
         "market_cap_yi": 64877.481,
-        "main_ratio": 0.09
+        "main_ratio": 0.09,
+        "up_count": 108,
+        "down_count": 24,
+        "flat_count": 1,
+        "breadth_pct": 81.2
       },
       {
         "code": "BK1383",
@@ -1354,7 +1938,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.26,
         "amount_yi": 75.0859,
         "market_cap_yi": 5372.6197,
-        "main_ratio": 1.8
+        "main_ratio": 1.8,
+        "up_count": 8,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1230",
@@ -1363,7 +1951,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.26,
         "amount_yi": 75.0859,
         "market_cap_yi": 5372.6197,
-        "main_ratio": 1.8
+        "main_ratio": 1.8,
+        "up_count": 8,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1294",
@@ -1372,7 +1964,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.4,
         "amount_yi": 41.9702,
         "market_cap_yi": 1050.8489,
-        "main_ratio": 3.06
+        "main_ratio": 3.06,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1551",
@@ -1381,7 +1977,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.03,
         "amount_yi": 39.6255,
         "market_cap_yi": 1122.3397,
-        "main_ratio": 2.71
+        "main_ratio": 2.71,
+        "up_count": 16,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 84.21
       },
       {
         "code": "BK1304",
@@ -1390,7 +1990,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.25,
         "amount_yi": 59.6391,
         "market_cap_yi": 1451.8633,
-        "main_ratio": 1.77
+        "main_ratio": 1.77,
+        "up_count": 19,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1519",
@@ -1399,7 +2003,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.04,
         "amount_yi": 45.5655,
         "market_cap_yi": 8436.6027,
-        "main_ratio": 2.25
+        "main_ratio": 2.25,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1439",
@@ -1408,7 +2016,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.43,
         "amount_yi": 78.0949,
         "market_cap_yi": 1970.2388,
-        "main_ratio": 1.29
+        "main_ratio": 1.29,
+        "up_count": 19,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 90.48
       },
       {
         "code": "BK1291",
@@ -1417,7 +2029,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.11,
         "amount_yi": 33.8065,
         "market_cap_yi": 1256.896,
-        "main_ratio": 2.7
+        "main_ratio": 2.7,
+        "up_count": 10,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 76.92
       },
       {
         "code": "BK1219",
@@ -1426,7 +2042,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.11,
         "amount_yi": 33.8065,
         "market_cap_yi": 1256.896,
-        "main_ratio": 2.7
+        "main_ratio": 2.7,
+        "up_count": 10,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 76.92
       },
       {
         "code": "BK1406",
@@ -1435,7 +2055,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.07,
         "amount_yi": 11.7824,
         "market_cap_yi": 461.4035,
-        "main_ratio": 7.35
+        "main_ratio": 7.35,
+        "up_count": 12,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1618",
@@ -1444,7 +2068,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.93,
         "amount_yi": 37.9839,
         "market_cap_yi": 1738.4334,
-        "main_ratio": 2.11
+        "main_ratio": 2.11,
+        "up_count": 15,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1241",
@@ -1453,7 +2081,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.22,
         "amount_yi": 21.2414,
         "market_cap_yi": 1325.1431,
-        "main_ratio": 3.69
+        "main_ratio": 3.69,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0458",
@@ -1462,7 +2094,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.14,
         "amount_yi": 173.1813,
         "market_cap_yi": 6145.3142,
-        "main_ratio": 0.44
+        "main_ratio": 0.44,
+        "up_count": 62,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 95.38
       },
       {
         "code": "BK1262",
@@ -1471,7 +2107,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.92,
         "amount_yi": 59.6703,
         "market_cap_yi": 12106.508,
-        "main_ratio": 1.23
+        "main_ratio": 1.23,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1445",
@@ -1480,7 +2120,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.88,
         "amount_yi": 56.0999,
         "market_cap_yi": 4762.3582,
-        "main_ratio": 1.26
+        "main_ratio": 1.26,
+        "up_count": 23,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 88.46
       },
       {
         "code": "BK1542",
@@ -1489,7 +2133,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.76,
         "amount_yi": 10.6433,
         "market_cap_yi": 375.5632,
-        "main_ratio": 6.25
+        "main_ratio": 6.25,
+        "up_count": 2,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 40.0
       },
       {
         "code": "BK1288",
@@ -1498,7 +2146,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.66,
         "amount_yi": 78.8416,
         "market_cap_yi": 3447.897,
-        "main_ratio": 0.71
+        "main_ratio": 0.71,
+        "up_count": 32,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1509",
@@ -1507,7 +2159,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.51,
         "amount_yi": 20.8803,
         "market_cap_yi": 813.4717,
-        "main_ratio": 2.58
+        "main_ratio": 2.58,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1569",
@@ -1516,7 +2172,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.69,
         "amount_yi": 69.5786,
         "market_cap_yi": 33811.936,
-        "main_ratio": 0.74
+        "main_ratio": 0.74,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 2,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1502",
@@ -1525,7 +2185,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 22.142,
         "market_cap_yi": 203.5678,
-        "main_ratio": 2.24
+        "main_ratio": 2.24,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1255",
@@ -1534,7 +2198,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 22.142,
         "market_cap_yi": 203.5678,
-        "main_ratio": 2.24
+        "main_ratio": 2.24,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1318",
@@ -1543,7 +2211,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.97,
         "amount_yi": 18.0978,
         "market_cap_yi": 1371.7999,
-        "main_ratio": 2.66
+        "main_ratio": 2.66,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1431",
@@ -1552,7 +2224,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.85,
         "amount_yi": 29.9465,
         "market_cap_yi": 932.4824,
-        "main_ratio": 1.54
+        "main_ratio": 1.54,
+        "up_count": 6,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1200",
@@ -1561,7 +2237,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.31,
         "amount_yi": 1558.5859,
         "market_cap_yi": 62701.6934,
-        "main_ratio": 0.03
+        "main_ratio": 0.03,
+        "up_count": 374,
+        "down_count": 36,
+        "flat_count": 4,
+        "breadth_pct": 90.34
       },
       {
         "code": "BK1601",
@@ -1570,7 +2250,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.1,
         "amount_yi": 34.9836,
         "market_cap_yi": 1817.1191,
-        "main_ratio": 1.26
+        "main_ratio": 1.26,
+        "up_count": 13,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 86.67
       },
       {
         "code": "BK1602",
@@ -1579,7 +2263,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.44,
         "amount_yi": 29.3733,
         "market_cap_yi": 523.7096,
-        "main_ratio": 1.45
+        "main_ratio": 1.45,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1492",
@@ -1588,7 +2276,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.96,
         "amount_yi": 11.2395,
         "market_cap_yi": 505.1945,
-        "main_ratio": 3.65
+        "main_ratio": 3.65,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1249",
@@ -1597,7 +2289,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.96,
         "amount_yi": 11.2395,
         "market_cap_yi": 505.1945,
-        "main_ratio": 3.65
+        "main_ratio": 3.65,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0456",
@@ -1606,7 +2302,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.94,
         "amount_yi": 292.4828,
         "market_cap_yi": 19170.6486,
-        "main_ratio": 0.13
+        "main_ratio": 0.13,
+        "up_count": 87,
+        "down_count": 18,
+        "flat_count": 2,
+        "breadth_pct": 81.31
       },
       {
         "code": "BK1554",
@@ -1615,7 +2315,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.11,
         "amount_yi": 23.0366,
         "market_cap_yi": 1753.2409,
-        "main_ratio": 1.63
+        "main_ratio": 1.63,
+        "up_count": 15,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1578",
@@ -1624,7 +2328,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.09,
         "amount_yi": 15.2375,
         "market_cap_yi": 637.1026,
-        "main_ratio": 2.15
+        "main_ratio": 2.15,
+        "up_count": 9,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1370",
@@ -1633,7 +2341,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.09,
         "amount_yi": 16.0721,
         "market_cap_yi": 1557.7319,
-        "main_ratio": 2.03
+        "main_ratio": 2.03,
+        "up_count": 7,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 58.33
       },
       {
         "code": "BK1227",
@@ -1642,7 +2354,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.09,
         "amount_yi": 16.0721,
         "market_cap_yi": 1557.7319,
-        "main_ratio": 2.03
+        "main_ratio": 2.03,
+        "up_count": 7,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 58.33
       },
       {
         "code": "BK1573",
@@ -1651,7 +2367,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.3,
         "amount_yi": 13.2482,
         "market_cap_yi": 1564.1331,
-        "main_ratio": 2.35
+        "main_ratio": 2.35,
+        "up_count": 4,
+        "down_count": 2,
+        "flat_count": 2,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1275",
@@ -1660,7 +2380,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.18,
         "amount_yi": 28.4818,
         "market_cap_yi": 2248.3544,
-        "main_ratio": 1.07
+        "main_ratio": 1.07,
+        "up_count": 5,
+        "down_count": 5,
+        "flat_count": 4,
+        "breadth_pct": 35.71
       },
       {
         "code": "BK1514",
@@ -1669,7 +2393,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.17,
         "amount_yi": 3.6817,
         "market_cap_yi": 110.8688,
-        "main_ratio": 7.63
+        "main_ratio": 7.63,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1350",
@@ -1678,7 +2406,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.38,
         "amount_yi": 14.1729,
         "market_cap_yi": 599.9848,
-        "main_ratio": 1.94
+        "main_ratio": 1.94,
+        "up_count": 15,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1499",
@@ -1687,7 +2419,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.49,
         "amount_yi": 2.8007,
         "market_cap_yi": 130.1395,
-        "main_ratio": 9.55
+        "main_ratio": 9.55,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1626",
@@ -1696,7 +2432,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.32,
         "amount_yi": 41.4851,
         "market_cap_yi": 2346.7558,
-        "main_ratio": 0.64
+        "main_ratio": 0.64,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1298",
@@ -1705,7 +2445,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.58,
         "amount_yi": 33.4508,
         "market_cap_yi": 295.273,
-        "main_ratio": 0.78
+        "main_ratio": 0.78,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1397",
@@ -1714,7 +2458,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.11,
         "amount_yi": 49.9561,
         "market_cap_yi": 1228.0872,
-        "main_ratio": 0.52
+        "main_ratio": 0.52,
+        "up_count": 14,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1480",
@@ -1723,7 +2471,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.88,
         "amount_yi": 6.2706,
         "market_cap_yi": 1256.2483,
-        "main_ratio": 3.84
+        "main_ratio": 3.84,
+        "up_count": 5,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1260",
@@ -1732,7 +2484,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.19,
         "amount_yi": 6.0354,
         "market_cap_yi": 167.2151,
-        "main_ratio": 3.97
+        "main_ratio": 3.97,
+        "up_count": 3,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 42.86
       },
       {
         "code": "BK1266",
@@ -1741,7 +2497,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.42,
         "amount_yi": 29.1096,
         "market_cap_yi": 1031.1933,
-        "main_ratio": 0.81
+        "main_ratio": 0.81,
+        "up_count": 16,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 76.19
       },
       {
         "code": "BK1463",
@@ -1750,7 +2510,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.84,
         "amount_yi": 7.8267,
         "market_cap_yi": 279.9995,
-        "main_ratio": 2.86
+        "main_ratio": 2.86,
+        "up_count": 7,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK1552",
@@ -1759,7 +2523,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.29,
         "amount_yi": 18.0842,
         "market_cap_yi": 628.1437,
-        "main_ratio": 1.2
+        "main_ratio": 1.2,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1306",
@@ -1768,7 +2536,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.4,
         "amount_yi": 19.2435,
         "market_cap_yi": 638.5187,
-        "main_ratio": 1.12
+        "main_ratio": 1.12,
+        "up_count": 10,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1374",
@@ -1777,7 +2549,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.04,
         "amount_yi": 32.9883,
         "market_cap_yi": 6697.1664,
-        "main_ratio": 0.64
+        "main_ratio": 0.64,
+        "up_count": 11,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 68.75
       },
       {
         "code": "BK1359",
@@ -1786,7 +2562,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 14.6912,
         "market_cap_yi": 1867.8769,
-        "main_ratio": 1.28
+        "main_ratio": 1.28,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1457",
@@ -1795,7 +2575,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.29,
         "amount_yi": 34.7509,
         "market_cap_yi": 822.4461,
-        "main_ratio": 0.54
+        "main_ratio": 0.54,
+        "up_count": 9,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1407",
@@ -1804,7 +2588,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.76,
         "amount_yi": 117.5418,
         "market_cap_yi": 4138.6549,
-        "main_ratio": 0.16
+        "main_ratio": 0.16,
+        "up_count": 30,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 93.75
       },
       {
         "code": "BK1571",
@@ -1813,7 +2601,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 5.6129,
         "market_cap_yi": 245.6833,
-        "main_ratio": 3.22
+        "main_ratio": 3.22,
+        "up_count": 5,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1531",
@@ -1822,7 +2614,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.12,
         "amount_yi": 12.9377,
         "market_cap_yi": 796.7916,
-        "main_ratio": 1.4
+        "main_ratio": 1.4,
+        "up_count": 5,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1497",
@@ -1831,7 +2627,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.89,
         "amount_yi": 4.6763,
         "market_cap_yi": 274.3642,
-        "main_ratio": 3.86
+        "main_ratio": 3.86,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1581",
@@ -1840,7 +2640,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.47,
         "amount_yi": 15.029,
         "market_cap_yi": 617.7591,
-        "main_ratio": 1.19
+        "main_ratio": 1.19,
+        "up_count": 10,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1555",
@@ -1849,7 +2653,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 10.9179,
         "market_cap_yi": 418.6451,
-        "main_ratio": 1.59
+        "main_ratio": 1.59,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1270",
@@ -1858,7 +2666,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 10.9179,
         "market_cap_yi": 418.6451,
-        "main_ratio": 1.59
+        "main_ratio": 1.59,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1534",
@@ -1867,7 +2679,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.04,
         "amount_yi": 2.2269,
         "market_cap_yi": 131.6111,
-        "main_ratio": 7.74
+        "main_ratio": 7.74,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1527",
@@ -1876,7 +2692,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.87,
         "amount_yi": 37.1386,
         "market_cap_yi": 2160.2908,
-        "main_ratio": 0.44
+        "main_ratio": 0.44,
+        "up_count": 18,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1473",
@@ -1885,7 +2705,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.28,
         "amount_yi": 11.9384,
         "market_cap_yi": 418.4521,
-        "main_ratio": 1.38
+        "main_ratio": 1.38,
+        "up_count": 12,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1258",
@@ -1894,7 +2718,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 31.9194,
         "market_cap_yi": 1837.5504,
-        "main_ratio": 0.48
+        "main_ratio": 0.48,
+        "up_count": 12,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 70.59
       },
       {
         "code": "BK1279",
@@ -1903,7 +2731,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.2,
         "amount_yi": 25.5612,
         "market_cap_yi": 2080.4202,
-        "main_ratio": 0.56
+        "main_ratio": 0.56,
+        "up_count": 15,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1432",
@@ -1912,7 +2744,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 11.513,
         "market_cap_yi": 849.6181,
-        "main_ratio": 1.21
+        "main_ratio": 1.21,
+        "up_count": 6,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1450",
@@ -1921,7 +2757,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.13,
         "amount_yi": 58.8357,
         "market_cap_yi": 8958.3762,
-        "main_ratio": 0.23
+        "main_ratio": 0.23,
+        "up_count": 2,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1511",
@@ -1930,7 +2770,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.04,
         "amount_yi": 10.5969,
         "market_cap_yi": 682.6082,
-        "main_ratio": 1.24
+        "main_ratio": 1.24,
+        "up_count": 7,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1588",
@@ -1939,7 +2783,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.05,
         "amount_yi": 48.5093,
         "market_cap_yi": 839.5459,
-        "main_ratio": 0.26
+        "main_ratio": 0.26,
+        "up_count": 15,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 78.95
       },
       {
         "code": "BK1503",
@@ -1948,7 +2796,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.67,
         "amount_yi": 5.1942,
         "market_cap_yi": 379.3314,
-        "main_ratio": 2.38
+        "main_ratio": 2.38,
+        "up_count": 3,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK0424",
@@ -1957,7 +2809,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.76,
         "amount_yi": 36.4067,
         "market_cap_yi": 2747.2195,
-        "main_ratio": 0.34
+        "main_ratio": 0.34,
+        "up_count": 16,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 69.57
       },
       {
         "code": "BK0910",
@@ -1966,7 +2822,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.36,
         "amount_yi": 414.0446,
         "market_cap_yi": 14863.2925,
-        "main_ratio": 0.03
+        "main_ratio": 0.03,
+        "up_count": 173,
+        "down_count": 32,
+        "flat_count": 4,
+        "breadth_pct": 82.78
       },
       {
         "code": "BK0420",
@@ -1975,7 +2835,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 28.9015,
         "market_cap_yi": 5220.1038,
-        "main_ratio": 0.39
+        "main_ratio": 0.39,
+        "up_count": 13,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 92.86
       },
       {
         "code": "BK1523",
@@ -1984,7 +2848,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.2,
         "amount_yi": 2.1643,
         "market_cap_yi": 184.9164,
-        "main_ratio": 4.85
+        "main_ratio": 4.85,
+        "up_count": 6,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1405",
@@ -1993,7 +2861,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.77,
         "amount_yi": 218.065,
         "market_cap_yi": 7111.9395,
-        "main_ratio": 0.05
+        "main_ratio": 0.05,
+        "up_count": 77,
+        "down_count": 12,
+        "flat_count": 3,
+        "breadth_pct": 83.7
       },
       {
         "code": "BK1487",
@@ -2002,7 +2874,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.71,
         "amount_yi": 2.9488,
         "market_cap_yi": 209.9342,
-        "main_ratio": 3.44
+        "main_ratio": 3.44,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1484",
@@ -2011,7 +2887,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 3.6723,
         "market_cap_yi": 277.1928,
-        "main_ratio": 2.68
+        "main_ratio": 2.68,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1496",
@@ -2020,7 +2900,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.74,
         "amount_yi": 3.2672,
         "market_cap_yi": 178.9208,
-        "main_ratio": 2.84
+        "main_ratio": 2.84,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1341",
@@ -2029,7 +2913,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.15,
         "amount_yi": 9.8905,
         "market_cap_yi": 182.8357,
-        "main_ratio": 0.83
+        "main_ratio": 0.83,
+        "up_count": 1,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 33.33
       },
       {
         "code": "BK1491",
@@ -2038,7 +2926,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.32,
         "amount_yi": 9.6489,
         "market_cap_yi": 215.9423,
-        "main_ratio": 0.65
+        "main_ratio": 0.65,
+        "up_count": 5,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK1481",
@@ -2047,7 +2939,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.06,
         "amount_yi": 22.0683,
         "market_cap_yi": 5100.2331,
-        "main_ratio": 0.27
+        "main_ratio": 0.27,
+        "up_count": 7,
+        "down_count": 6,
+        "flat_count": 4,
+        "breadth_pct": 41.18
       },
       {
         "code": "BK1549",
@@ -2056,7 +2952,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.06,
         "amount_yi": 11.8735,
         "market_cap_yi": 1120.5384,
-        "main_ratio": 0.48
+        "main_ratio": 0.48,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1269",
@@ -2065,7 +2965,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.06,
         "amount_yi": 11.8735,
         "market_cap_yi": 1120.5384,
-        "main_ratio": 0.48
+        "main_ratio": 0.48,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1342",
@@ -2074,7 +2978,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.88,
         "amount_yi": 0.6304,
         "market_cap_yi": 35.9474,
-        "main_ratio": 8.6
+        "main_ratio": 8.6,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1369",
@@ -2083,7 +2991,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.16,
         "amount_yi": 1.3917,
         "market_cap_yi": 162.5051,
-        "main_ratio": 3.26
+        "main_ratio": 3.26,
+        "up_count": 0,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 0.0
       },
       {
         "code": "BK1349",
@@ -2092,7 +3004,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.56,
         "amount_yi": 7.5752,
         "market_cap_yi": 416.8062,
-        "main_ratio": 0.59
+        "main_ratio": 0.59,
+        "up_count": 6,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1488",
@@ -2101,7 +3017,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.67,
         "amount_yi": 8.3167,
         "market_cap_yi": 1665.8974,
-        "main_ratio": 0.4
+        "main_ratio": 0.4,
+        "up_count": 9,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 64.29
       },
       {
         "code": "BK1363",
@@ -2110,7 +3030,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.21,
         "amount_yi": 4.8688,
         "market_cap_yi": 653.084,
-        "main_ratio": 0.67
+        "main_ratio": 0.67,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1412",
@@ -2119,7 +3043,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.57,
         "amount_yi": 2.3147,
         "market_cap_yi": 436.7039,
-        "main_ratio": 1.17
+        "main_ratio": 1.17,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1411",
@@ -2128,7 +3056,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.96,
         "amount_yi": 44.3131,
         "market_cap_yi": 1430.2127,
-        "main_ratio": 0.06
+        "main_ratio": 0.06,
+        "up_count": 14,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1020",
@@ -2137,7 +3069,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.96,
         "amount_yi": 44.3131,
         "market_cap_yi": 1430.2127,
-        "main_ratio": 0.06
+        "main_ratio": 0.06,
+        "up_count": 14,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1510",
@@ -2146,7 +3082,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.68,
         "amount_yi": 2.0137,
         "market_cap_yi": 81.0074,
-        "main_ratio": 1.1
+        "main_ratio": 1.1,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1300",
@@ -2155,7 +3095,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.66,
         "amount_yi": 7.7265,
         "market_cap_yi": 349.2038,
-        "main_ratio": 0.18
+        "main_ratio": 0.18,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1345",
@@ -2164,7 +3108,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.21,
         "amount_yi": 14.2524,
         "market_cap_yi": 1992.9321,
-        "main_ratio": 0.05
+        "main_ratio": 0.05,
+        "up_count": 12,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1427",
@@ -2173,7 +3121,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.48,
         "amount_yi": 30.0359,
         "market_cap_yi": 1173.1436,
-        "main_ratio": 0.02
+        "main_ratio": 0.02,
+        "up_count": 9,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 69.23
       },
       {
         "code": "BK1589",
@@ -2182,7 +3134,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.05,
         "amount_yi": 54.7321,
         "market_cap_yi": 2141.969,
-        "main_ratio": 0.0
+        "main_ratio": 0.0,
+        "up_count": 17,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1572",
@@ -2191,7 +3147,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.82,
         "amount_yi": 15.2336,
         "market_cap_yi": 684.2213,
-        "main_ratio": -0.04
+        "main_ratio": -0.04,
+        "up_count": 1,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 16.67
       },
       {
         "code": "BK1356",
@@ -2200,7 +3160,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.01,
         "amount_yi": 0.4543,
         "market_cap_yi": 45.7182,
-        "main_ratio": -2.64
+        "main_ratio": -2.64,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1413",
@@ -2209,7 +3173,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.18,
         "amount_yi": 9.0591,
         "market_cap_yi": 675.461,
-        "main_ratio": -0.14
+        "main_ratio": -0.14,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1378",
@@ -2218,7 +3186,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.4,
         "amount_yi": 0.7215,
         "market_cap_yi": 103.1758,
-        "main_ratio": -1.75
+        "main_ratio": -1.75,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1305",
@@ -2227,7 +3199,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.78,
         "amount_yi": 1.3163,
         "market_cap_yi": 45.5808,
-        "main_ratio": -1.1
+        "main_ratio": -1.1,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1353",
@@ -2236,7 +3212,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 3.5909,
         "market_cap_yi": 297.5148,
-        "main_ratio": -0.43
+        "main_ratio": -0.43,
+        "up_count": 6,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1224",
@@ -2245,7 +3225,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.7,
         "amount_yi": 34.3399,
         "market_cap_yi": 1818.9375,
-        "main_ratio": -0.05
+        "main_ratio": -0.05,
+        "up_count": 28,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 84.85
       },
       {
         "code": "BK1565",
@@ -2254,7 +3238,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.11,
         "amount_yi": 3.5156,
         "market_cap_yi": 142.9654,
-        "main_ratio": -0.48
+        "main_ratio": -0.48,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1451",
@@ -2263,7 +3251,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.08,
         "amount_yi": 8.7259,
         "market_cap_yi": 349.8955,
-        "main_ratio": -0.2
+        "main_ratio": -0.2,
+        "up_count": 6,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1580",
@@ -2272,7 +3264,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.18,
         "amount_yi": 8.3721,
         "market_cap_yi": 1082.5456,
-        "main_ratio": -0.23
+        "main_ratio": -0.23,
+        "up_count": 2,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 28.57
       },
       {
         "code": "BK1599",
@@ -2281,7 +3277,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.52,
         "amount_yi": 11.9446,
         "market_cap_yi": 228.6212,
-        "main_ratio": -0.18
+        "main_ratio": -0.18,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1423",
@@ -2290,7 +3290,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.3,
         "amount_yi": 28.9427,
         "market_cap_yi": 896.209,
-        "main_ratio": -0.08
+        "main_ratio": -0.08,
+        "up_count": 9,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 69.23
       },
       {
         "code": "BK0440",
@@ -2299,7 +3303,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.17,
         "amount_yi": 81.7161,
         "market_cap_yi": 4317.8619,
-        "main_ratio": -0.03
+        "main_ratio": -0.03,
+        "up_count": 53,
+        "down_count": 20,
+        "flat_count": 3,
+        "breadth_pct": 69.74
       },
       {
         "code": "BK1347",
@@ -2308,7 +3316,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.95,
         "amount_yi": 2.2193,
         "market_cap_yi": 408.5667,
-        "main_ratio": -1.19
+        "main_ratio": -1.19,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1568",
@@ -2317,7 +3329,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.63,
         "amount_yi": 1.9793,
         "market_cap_yi": 202.1112,
-        "main_ratio": -1.35
+        "main_ratio": -1.35,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1388",
@@ -2326,7 +3342,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.84,
         "amount_yi": 2.9318,
         "market_cap_yi": 150.516,
-        "main_ratio": -0.92
+        "main_ratio": -0.92,
+        "up_count": 6,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1560",
@@ -2335,7 +3355,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.71,
         "amount_yi": 4.5712,
         "market_cap_yi": 406.132,
-        "main_ratio": -0.85
+        "main_ratio": -0.85,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1513",
@@ -2344,7 +3368,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.67,
         "amount_yi": 2.3537,
         "market_cap_yi": 56.3463,
-        "main_ratio": -1.75
+        "main_ratio": -1.75,
+        "up_count": 1,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 33.33
       },
       {
         "code": "BK1469",
@@ -2353,7 +3381,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.19,
         "amount_yi": 1.843,
         "market_cap_yi": 209.4492,
-        "main_ratio": -2.6
+        "main_ratio": -2.6,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1421",
@@ -2362,7 +3394,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.49,
         "amount_yi": 7.0928,
         "market_cap_yi": 600.7744,
-        "main_ratio": -0.68
+        "main_ratio": -0.68,
+        "up_count": 4,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1561",
@@ -2371,7 +3407,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.32,
         "amount_yi": 6.4969,
         "market_cap_yi": 352.4141,
-        "main_ratio": -0.77
+        "main_ratio": -0.77,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1404",
@@ -2380,7 +3420,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.27,
         "amount_yi": 9.273,
         "market_cap_yi": 425.5518,
-        "main_ratio": -0.54
+        "main_ratio": -0.54,
+        "up_count": 10,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1323",
@@ -2389,7 +3433,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.66,
         "amount_yi": 11.4852,
         "market_cap_yi": 1733.1524,
-        "main_ratio": -0.48
+        "main_ratio": -0.48,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1467",
@@ -2398,7 +3446,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.09,
         "amount_yi": 5.0274,
         "market_cap_yi": 288.8585,
-        "main_ratio": -1.12
+        "main_ratio": -1.12,
+        "up_count": 5,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 55.56
       },
       {
         "code": "BK1532",
@@ -2407,7 +3459,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.35,
         "amount_yi": 8.8914,
         "market_cap_yi": 469.4716,
-        "main_ratio": -0.66
+        "main_ratio": -0.66,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1414",
@@ -2416,7 +3472,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.03,
         "amount_yi": 3.3263,
         "market_cap_yi": 220.8858,
-        "main_ratio": -1.81
+        "main_ratio": -1.81,
+        "up_count": 5,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1558",
@@ -2425,7 +3485,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.05,
         "amount_yi": 2.6202,
         "market_cap_yi": 105.698,
-        "main_ratio": -2.37
+        "main_ratio": -2.37,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1364",
@@ -2434,7 +3498,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.28,
         "amount_yi": 3.9819,
         "market_cap_yi": 306.7101,
-        "main_ratio": -1.62
+        "main_ratio": -1.62,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1506",
@@ -2443,7 +3511,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.85,
         "amount_yi": 1.1294,
         "market_cap_yi": 92.8646,
-        "main_ratio": -6.02
+        "main_ratio": -6.02,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1257",
@@ -2452,7 +3524,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.85,
         "amount_yi": 1.1294,
         "market_cap_yi": 92.8646,
-        "main_ratio": -6.02
+        "main_ratio": -6.02,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1290",
@@ -2461,7 +3537,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.71,
         "amount_yi": 27.2182,
         "market_cap_yi": 1310.8467,
-        "main_ratio": -0.25
+        "main_ratio": -0.25,
+        "up_count": 3,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 30.0
       },
       {
         "code": "BK1361",
@@ -2470,7 +3550,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.67,
         "amount_yi": 6.9953,
         "market_cap_yi": 474.892,
-        "main_ratio": -1.0
+        "main_ratio": -1.0,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1533",
@@ -2479,7 +3563,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.26,
         "amount_yi": 8.4725,
         "market_cap_yi": 411.4889,
-        "main_ratio": -0.89
+        "main_ratio": -0.89,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1621",
@@ -2488,7 +3576,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 59.6227,
         "market_cap_yi": 2297.3492,
-        "main_ratio": -0.13
+        "main_ratio": -0.13,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1392",
@@ -2497,7 +3589,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.57,
         "amount_yi": 23.1235,
         "market_cap_yi": 1748.7769,
-        "main_ratio": -0.34
+        "main_ratio": -0.34,
+        "up_count": 11,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK1590",
@@ -2506,7 +3602,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.25,
         "amount_yi": 16.4049,
         "market_cap_yi": 716.4258,
-        "main_ratio": -0.52
+        "main_ratio": -0.52,
+        "up_count": 13,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 92.86
       },
       {
         "code": "BK1442",
@@ -2515,7 +3615,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 4.0962,
         "market_cap_yi": 245.1264,
-        "main_ratio": -2.08
+        "main_ratio": -2.08,
+        "up_count": 6,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1443",
@@ -2524,7 +3628,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.64,
         "amount_yi": 8.6202,
         "market_cap_yi": 382.1197,
-        "main_ratio": -0.99
+        "main_ratio": -0.99,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1566",
@@ -2533,7 +3641,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.0,
         "amount_yi": 30.8354,
         "market_cap_yi": 1424.0457,
-        "main_ratio": -0.29
+        "main_ratio": -0.29,
+        "up_count": 20,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK1348",
@@ -2542,7 +3654,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.81,
         "amount_yi": 5.1563,
         "market_cap_yi": 238.498,
-        "main_ratio": -1.75
+        "main_ratio": -1.75,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1355",
@@ -2551,7 +3667,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.68,
         "amount_yi": 8.4031,
         "market_cap_yi": 157.849,
-        "main_ratio": -1.1
+        "main_ratio": -1.1,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1564",
@@ -2560,7 +3680,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.4,
         "amount_yi": 3.7436,
         "market_cap_yi": 147.078,
-        "main_ratio": -2.48
+        "main_ratio": -2.48,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1273",
@@ -2569,7 +3693,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.4,
         "amount_yi": 3.7436,
         "market_cap_yi": 147.078,
-        "main_ratio": -2.48
+        "main_ratio": -2.48,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1475",
@@ -2578,7 +3706,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.72,
         "amount_yi": 14.0388,
         "market_cap_yi": 492.6312,
-        "main_ratio": -0.68
+        "main_ratio": -0.68,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1297",
@@ -2587,7 +3719,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.26,
         "amount_yi": 5.25,
         "market_cap_yi": 113.2834,
-        "main_ratio": -1.88
+        "main_ratio": -1.88,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1464",
@@ -2596,7 +3732,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.7,
         "amount_yi": 28.58,
         "market_cap_yi": 2467.22,
-        "main_ratio": -0.35
+        "main_ratio": -0.35,
+        "up_count": 9,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 64.29
       },
       {
         "code": "BK1544",
@@ -2605,7 +3745,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.13,
         "amount_yi": 9.4602,
         "market_cap_yi": 846.7085,
-        "main_ratio": -1.08
+        "main_ratio": -1.08,
+        "up_count": 11,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 91.67
       },
       {
         "code": "BK1559",
@@ -2614,7 +3758,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.4,
         "amount_yi": 1.439,
         "market_cap_yi": 106.9131,
-        "main_ratio": -7.2
+        "main_ratio": -7.2,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1422",
@@ -2623,7 +3771,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.6,
         "amount_yi": 33.6012,
         "market_cap_yi": 1141.274,
-        "main_ratio": -0.31
+        "main_ratio": -0.31,
+        "up_count": 6,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 54.55
       },
       {
         "code": "BK1417",
@@ -2632,7 +3784,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 4.5674,
         "market_cap_yi": 417.5573,
-        "main_ratio": -2.4
+        "main_ratio": -2.4,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1458",
@@ -2641,7 +3797,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.97,
         "amount_yi": 2.5567,
         "market_cap_yi": 192.8913,
-        "main_ratio": -4.36
+        "main_ratio": -4.36,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1494",
@@ -2650,7 +3810,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.11,
         "amount_yi": 16.1768,
         "market_cap_yi": 1947.8124,
-        "main_ratio": -0.73
+        "main_ratio": -0.73,
+        "up_count": 5,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1584",
@@ -2659,7 +3823,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 3.1601,
         "market_cap_yi": 192.3169,
-        "main_ratio": -3.73
+        "main_ratio": -3.73,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1419",
@@ -2668,7 +3836,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.14,
         "amount_yi": 31.5562,
         "market_cap_yi": 2283.6462,
-        "main_ratio": -0.4
+        "main_ratio": -0.4,
+        "up_count": 5,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1479",
@@ -2677,7 +3849,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.86,
         "amount_yi": 22.6309,
         "market_cap_yi": 3963.8555,
-        "main_ratio": -0.57
+        "main_ratio": -0.57,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1346",
@@ -2686,7 +3862,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.48,
         "amount_yi": 85.2478,
         "market_cap_yi": 5154.4304,
-        "main_ratio": -0.15
+        "main_ratio": -0.15,
+        "up_count": 51,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1541",
@@ -2695,7 +3875,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.2,
         "amount_yi": 6.5448,
         "market_cap_yi": 305.7906,
-        "main_ratio": -2.05
+        "main_ratio": -2.05,
+        "up_count": 4,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 57.14
       },
       {
         "code": "BK1045",
@@ -2704,7 +3888,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 19.3196,
         "market_cap_yi": 630.9405,
-        "main_ratio": -0.7
+        "main_ratio": -0.7,
+        "up_count": 12,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1402",
@@ -2713,7 +3901,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.15,
         "amount_yi": 13.3774,
         "market_cap_yi": 756.8077,
-        "main_ratio": -1.02
+        "main_ratio": -1.02,
+        "up_count": 12,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1620",
@@ -2722,7 +3914,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.01,
         "amount_yi": 3.5708,
         "market_cap_yi": 230.2966,
-        "main_ratio": -3.84
+        "main_ratio": -3.84,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1271",
@@ -2731,7 +3927,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.59,
         "amount_yi": 6.0102,
         "market_cap_yi": 513.0451,
-        "main_ratio": -2.37
+        "main_ratio": -2.37,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 2,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1465",
@@ -2740,7 +3940,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.23,
         "amount_yi": 5.809,
         "market_cap_yi": 352.3625,
-        "main_ratio": -2.47
+        "main_ratio": -2.47,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1486",
@@ -2749,7 +3953,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.49,
         "amount_yi": 5.7734,
         "market_cap_yi": 337.7792,
-        "main_ratio": -2.54
+        "main_ratio": -2.54,
+        "up_count": 6,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1536",
@@ -2758,7 +3966,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.33,
         "amount_yi": 3.2667,
         "market_cap_yi": 137.7153,
-        "main_ratio": -4.58
+        "main_ratio": -4.58,
+        "up_count": 4,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1368",
@@ -2767,7 +3979,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.29,
         "amount_yi": 2.6092,
         "market_cap_yi": 237.4642,
-        "main_ratio": -5.9
+        "main_ratio": -5.9,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1452",
@@ -2776,7 +3992,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.13,
         "amount_yi": 6.5473,
         "market_cap_yi": 151.1434,
-        "main_ratio": -2.35
+        "main_ratio": -2.35,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1525",
@@ -2785,7 +4005,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.82,
         "amount_yi": 82.9652,
         "market_cap_yi": 4565.108,
-        "main_ratio": -0.19
+        "main_ratio": -0.19,
+        "up_count": 42,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 93.33
       },
       {
         "code": "BK1425",
@@ -2794,7 +4018,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.09,
         "amount_yi": 10.2808,
         "market_cap_yi": 264.454,
-        "main_ratio": -1.57
+        "main_ratio": -1.57,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1474",
@@ -2803,7 +4031,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.23,
         "amount_yi": 10.8388,
         "market_cap_yi": 574.6329,
-        "main_ratio": -1.53
+        "main_ratio": -1.53,
+        "up_count": 6,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 54.55
       },
       {
         "code": "BK1240",
@@ -2812,7 +4044,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.34,
         "amount_yi": 15.2732,
         "market_cap_yi": 501.0389,
-        "main_ratio": -1.13
+        "main_ratio": -1.13,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1508",
@@ -2821,7 +4057,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.66,
         "amount_yi": 7.4382,
         "market_cap_yi": 750.3765,
-        "main_ratio": -2.35
+        "main_ratio": -2.35,
+        "up_count": 6,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1321",
@@ -2830,7 +4070,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.32,
         "amount_yi": 4.0454,
         "market_cap_yi": 242.2691,
-        "main_ratio": -4.51
+        "main_ratio": -4.51,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1466",
@@ -2839,7 +4083,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.19,
         "amount_yi": 4.8356,
         "market_cap_yi": 325.3327,
-        "main_ratio": -3.79
+        "main_ratio": -3.79,
+        "up_count": 3,
+        "down_count": 2,
+        "flat_count": 2,
+        "breadth_pct": 42.86
       },
       {
         "code": "BK1515",
@@ -2848,7 +4096,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.25,
         "amount_yi": 4.8204,
         "market_cap_yi": 359.738,
-        "main_ratio": -3.83
+        "main_ratio": -3.83,
+        "up_count": 1,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1577",
@@ -2857,7 +4109,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.38,
         "amount_yi": 10.3237,
         "market_cap_yi": 1443.3176,
-        "main_ratio": -1.79
+        "main_ratio": -1.79,
+        "up_count": 6,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1357",
@@ -2866,7 +4122,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.13,
         "amount_yi": 12.0193,
         "market_cap_yi": 909.8011,
-        "main_ratio": -1.54
+        "main_ratio": -1.54,
+        "up_count": 12,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1516",
@@ -2875,7 +4135,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.53,
         "amount_yi": 15.4359,
         "market_cap_yi": 429.5857,
-        "main_ratio": -1.23
+        "main_ratio": -1.23,
+        "up_count": 2,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 40.0
       },
       {
         "code": "BK1548",
@@ -2884,7 +4148,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.66,
         "amount_yi": 2.2625,
         "market_cap_yi": 234.4193,
-        "main_ratio": -8.56
+        "main_ratio": -8.56,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK0734",
@@ -2893,7 +4161,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.11,
         "amount_yi": 12.4736,
         "market_cap_yi": 955.5193,
-        "main_ratio": -1.58
+        "main_ratio": -1.58,
+        "up_count": 14,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK1507",
@@ -2902,7 +4174,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.69,
         "amount_yi": 3.6009,
         "market_cap_yi": 273.7022,
-        "main_ratio": -5.83
+        "main_ratio": -5.83,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1351",
@@ -2911,7 +4187,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 5.2162,
         "market_cap_yi": 155.0817,
-        "main_ratio": -4.19
+        "main_ratio": -4.19,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1501",
@@ -2920,7 +4200,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.63,
         "amount_yi": 6.9981,
         "market_cap_yi": 549.4677,
-        "main_ratio": -3.14
+        "main_ratio": -3.14,
+        "up_count": 10,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1254",
@@ -2929,7 +4213,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.63,
         "amount_yi": 6.9981,
         "market_cap_yi": 549.4677,
-        "main_ratio": -3.14
+        "main_ratio": -3.14,
+        "up_count": 10,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1556",
@@ -2938,7 +4226,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 4.5688,
         "market_cap_yi": 112.6981,
-        "main_ratio": -4.81
+        "main_ratio": -4.81,
+        "up_count": 1,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1280",
@@ -2947,7 +4239,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.19,
         "amount_yi": 30.9126,
         "market_cap_yi": 2195.6749,
-        "main_ratio": -0.71
+        "main_ratio": -0.71,
+        "up_count": 20,
+        "down_count": 5,
+        "flat_count": 2,
+        "breadth_pct": 74.07
       },
       {
         "code": "BK1344",
@@ -2956,7 +4252,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.57,
         "amount_yi": 7.7891,
         "market_cap_yi": 1167.2339,
-        "main_ratio": -2.88
+        "main_ratio": -2.88,
+        "up_count": 8,
+        "down_count": 4,
+        "flat_count": 2,
+        "breadth_pct": 57.14
       },
       {
         "code": "BK1489",
@@ -2965,7 +4265,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.41,
         "amount_yi": 17.2026,
         "market_cap_yi": 2599.5205,
-        "main_ratio": -1.32
+        "main_ratio": -1.32,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1016",
@@ -2974,7 +4278,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.17,
         "amount_yi": 9.6812,
         "market_cap_yi": 339.2189,
-        "main_ratio": -2.43
+        "main_ratio": -2.43,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1619",
@@ -2983,7 +4291,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.75,
         "amount_yi": 40.8577,
         "market_cap_yi": 1709.4635,
-        "main_ratio": -0.59
+        "main_ratio": -0.59,
+        "up_count": 17,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1547",
@@ -2992,7 +4304,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.35,
         "amount_yi": 18.8598,
         "market_cap_yi": 516.604,
-        "main_ratio": -1.3
+        "main_ratio": -1.3,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1310",
@@ -3001,7 +4317,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.84,
         "amount_yi": 35.7146,
         "market_cap_yi": 1940.9197,
-        "main_ratio": -0.69
+        "main_ratio": -0.69,
+        "up_count": 20,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK0450",
@@ -3010,7 +4330,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.29,
         "amount_yi": 85.8132,
         "market_cap_yi": 11882.815,
-        "main_ratio": -0.29
+        "main_ratio": -0.29,
+        "up_count": 21,
+        "down_count": 12,
+        "flat_count": 4,
+        "breadth_pct": 56.76
       },
       {
         "code": "BK1567",
@@ -3019,7 +4343,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.53,
         "amount_yi": 3.2146,
         "market_cap_yi": 136.7119,
-        "main_ratio": -7.81
+        "main_ratio": -7.81,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1365",
@@ -3028,7 +4356,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.39,
         "amount_yi": 5.9269,
         "market_cap_yi": 750.4375,
-        "main_ratio": -4.24
+        "main_ratio": -4.24,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1557",
@@ -3037,7 +4369,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.62,
         "amount_yi": 19.2824,
         "market_cap_yi": 558.7393,
-        "main_ratio": -1.32
+        "main_ratio": -1.32,
+        "up_count": 7,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 58.33
       },
       {
         "code": "BK1433",
@@ -3046,7 +4382,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.08,
         "amount_yi": 9.2052,
         "market_cap_yi": 715.5768,
-        "main_ratio": -2.86
+        "main_ratio": -2.86,
+        "up_count": 8,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1539",
@@ -3055,7 +4395,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.65,
         "amount_yi": 17.2646,
         "market_cap_yi": 714.0436,
-        "main_ratio": -1.57
+        "main_ratio": -1.57,
+        "up_count": 9,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 56.25
       },
       {
         "code": "BK1343",
@@ -3064,7 +4408,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.63,
         "amount_yi": 8.7988,
         "market_cap_yi": 412.1573,
-        "main_ratio": -3.09
+        "main_ratio": -3.09,
+        "up_count": 10,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1244",
@@ -3073,7 +4421,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.67,
         "amount_yi": 53.9372,
         "market_cap_yi": 2028.795,
-        "main_ratio": -0.51
+        "main_ratio": -0.51,
+        "up_count": 19,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 79.17
       },
       {
         "code": "BK1520",
@@ -3082,7 +4434,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.36,
         "amount_yi": 14.1049,
         "market_cap_yi": 3669.9053,
-        "main_ratio": -2.04
+        "main_ratio": -2.04,
+        "up_count": 6,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1522",
@@ -3091,7 +4447,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.39,
         "amount_yi": 11.098,
         "market_cap_yi": 704.8967,
-        "main_ratio": -2.59
+        "main_ratio": -2.59,
+        "up_count": 7,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 63.64
       },
       {
         "code": "BK1582",
@@ -3100,7 +4460,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 5.7977,
         "market_cap_yi": 377.5355,
-        "main_ratio": -5.08
+        "main_ratio": -5.08,
+        "up_count": 7,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK1418",
@@ -3109,7 +4473,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.25,
         "amount_yi": 24.997,
         "market_cap_yi": 1368.9174,
-        "main_ratio": -1.19
+        "main_ratio": -1.19,
+        "up_count": 12,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1313",
@@ -3118,7 +4486,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.01,
         "amount_yi": 61.1889,
         "market_cap_yi": 1958.0117,
-        "main_ratio": -0.49
+        "main_ratio": -0.49,
+        "up_count": 23,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 88.46
       },
       {
         "code": "BK1438",
@@ -3127,7 +4499,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.62,
         "amount_yi": 33.0919,
         "market_cap_yi": 1470.9642,
-        "main_ratio": -0.92
+        "main_ratio": -0.92,
+        "up_count": 12,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK1482",
@@ -3136,7 +4512,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.58,
         "amount_yi": 63.745,
         "market_cap_yi": 6782.5819,
-        "main_ratio": -0.48
+        "main_ratio": -0.48,
+        "up_count": 14,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 70.0
       },
       {
         "code": "BK1586",
@@ -3145,7 +4525,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.09,
         "amount_yi": 16.7381,
         "market_cap_yi": 1560.6718,
-        "main_ratio": -1.9
+        "main_ratio": -1.9,
+        "up_count": 7,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1415",
@@ -3154,7 +4538,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.22,
         "amount_yi": 12.1451,
         "market_cap_yi": 813.9713,
-        "main_ratio": -2.73
+        "main_ratio": -2.73,
+        "up_count": 7,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1354",
@@ -3163,7 +4551,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.22,
         "amount_yi": 12.3904,
         "market_cap_yi": 392.0736,
-        "main_ratio": -2.74
+        "main_ratio": -2.74,
+        "up_count": 7,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 63.64
       },
       {
         "code": "BK1524",
@@ -3172,7 +4564,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.13,
         "amount_yi": 7.5169,
         "market_cap_yi": 154.3025,
-        "main_ratio": -4.53
+        "main_ratio": -4.53,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK0451",
@@ -3181,7 +4577,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 107.2894,
         "market_cap_yi": 8314.5963,
-        "main_ratio": -0.32
+        "main_ratio": -0.32,
+        "up_count": 71,
+        "down_count": 13,
+        "flat_count": 5,
+        "breadth_pct": 79.78
       },
       {
         "code": "BK1416",
@@ -3190,7 +4590,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.34,
         "amount_yi": 8.8744,
         "market_cap_yi": 197.8684,
-        "main_ratio": -3.93
+        "main_ratio": -3.93,
+        "up_count": 1,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 33.33
       },
       {
         "code": "BK1389",
@@ -3199,7 +4603,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.72,
         "amount_yi": 41.8691,
         "market_cap_yi": 2934.8158,
-        "main_ratio": -0.84
+        "main_ratio": -0.84,
+        "up_count": 27,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 77.14
       },
       {
         "code": "BK1459",
@@ -3208,7 +4616,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.01,
         "amount_yi": 16.6296,
         "market_cap_yi": 1013.4576,
-        "main_ratio": -2.12
+        "main_ratio": -2.12,
+        "up_count": 7,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK1546",
@@ -3217,7 +4629,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.47,
         "amount_yi": 16.5091,
         "market_cap_yi": 384.0824,
-        "main_ratio": -2.19
+        "main_ratio": -2.19,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1456",
@@ -3226,7 +4642,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.17,
         "amount_yi": 5.072,
         "market_cap_yi": 110.1941,
-        "main_ratio": -7.22
+        "main_ratio": -7.22,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1243",
@@ -3235,7 +4655,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.17,
         "amount_yi": 5.072,
         "market_cap_yi": 110.1941,
-        "main_ratio": -7.22
+        "main_ratio": -7.22,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1616",
@@ -3244,7 +4668,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.35,
         "amount_yi": 24.1895,
         "market_cap_yi": 893.2808,
-        "main_ratio": -1.54
+        "main_ratio": -1.54,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1550",
@@ -3253,7 +4681,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.52,
         "amount_yi": 11.8374,
         "market_cap_yi": 1285.5199,
-        "main_ratio": -3.21
+        "main_ratio": -3.21,
+        "up_count": 11,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 78.57
       },
       {
         "code": "BK0484",
@@ -3262,7 +4694,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.52,
         "amount_yi": 11.8374,
         "market_cap_yi": 1285.5199,
-        "main_ratio": -3.21
+        "main_ratio": -3.21,
+        "up_count": 11,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 78.57
       },
       {
         "code": "BK1579",
@@ -3271,7 +4707,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.9,
         "amount_yi": 7.5115,
         "market_cap_yi": 495.3702,
-        "main_ratio": -5.07
+        "main_ratio": -5.07,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1043",
@@ -3280,7 +4720,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.1,
         "amount_yi": 39.5448,
         "market_cap_yi": 1905.8342,
-        "main_ratio": -0.97
+        "main_ratio": -0.97,
+        "up_count": 30,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1583",
@@ -3289,7 +4733,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.74,
         "amount_yi": 15.0909,
         "market_cap_yi": 811.0484,
-        "main_ratio": -2.59
+        "main_ratio": -2.59,
+        "up_count": 10,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1562",
@@ -3298,7 +4746,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.92,
         "amount_yi": 7.6152,
         "market_cap_yi": 302.6165,
-        "main_ratio": -5.13
+        "main_ratio": -5.13,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1391",
@@ -3307,7 +4759,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.17,
         "amount_yi": 13.8121,
         "market_cap_yi": 568.7109,
-        "main_ratio": -2.9
+        "main_ratio": -2.9,
+        "up_count": 12,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0545",
@@ -3316,7 +4772,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.03,
         "amount_yi": 681.9699,
         "market_cap_yi": 20480.5083,
-        "main_ratio": -0.06
+        "main_ratio": -0.06,
+        "up_count": 227,
+        "down_count": 29,
+        "flat_count": 2,
+        "breadth_pct": 87.98
       },
       {
         "code": "BK1395",
@@ -3325,7 +4785,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.45,
         "amount_yi": 30.992,
         "market_cap_yi": 1196.4326,
-        "main_ratio": -1.32
+        "main_ratio": -1.32,
+        "up_count": 19,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 95.0
       },
       {
         "code": "BK1490",
@@ -3334,7 +4798,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.41,
         "amount_yi": 10.1951,
         "market_cap_yi": 1051.3044,
-        "main_ratio": -4.12
+        "main_ratio": -4.12,
+        "up_count": 7,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 58.33
       },
       {
         "code": "BK1372",
@@ -3343,7 +4811,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.55,
         "amount_yi": 6.0613,
         "market_cap_yi": 851.123,
-        "main_ratio": -6.95
+        "main_ratio": -6.95,
+        "up_count": 3,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1296",
@@ -3352,7 +4824,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 6.56,
         "amount_yi": 19.8433,
         "market_cap_yi": 434.5684,
-        "main_ratio": -2.15
+        "main_ratio": -2.15,
+        "up_count": 1,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1543",
@@ -3361,7 +4837,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.99,
         "amount_yi": 18.4663,
         "market_cap_yi": 655.6302,
-        "main_ratio": -2.33
+        "main_ratio": -2.33,
+        "up_count": 14,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1545",
@@ -3370,7 +4850,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 13.2164,
         "market_cap_yi": 628.4478,
-        "main_ratio": -3.27
+        "main_ratio": -3.27,
+        "up_count": 10,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK1441",
@@ -3379,7 +4863,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.43,
         "amount_yi": 11.3426,
         "market_cap_yi": 490.8347,
-        "main_ratio": -3.83
+        "main_ratio": -3.83,
+        "up_count": 13,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 86.67
       },
       {
         "code": "BK1606",
@@ -3388,7 +4876,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.08,
         "amount_yi": 12.3925,
         "market_cap_yi": 862.2259,
-        "main_ratio": -3.57
+        "main_ratio": -3.57,
+        "up_count": 3,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 37.5
       },
       {
         "code": "BK1563",
@@ -3397,7 +4889,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 12.2445,
         "market_cap_yi": 537.2249,
-        "main_ratio": -3.78
+        "main_ratio": -3.78,
+        "up_count": 10,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 76.92
       },
       {
         "code": "BK1623",
@@ -3406,7 +4902,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.69,
         "amount_yi": 9.9858,
         "market_cap_yi": 1155.8082,
-        "main_ratio": -4.67
+        "main_ratio": -4.67,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1371",
@@ -3415,7 +4915,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.96,
         "amount_yi": 11.3653,
         "market_cap_yi": 689.433,
-        "main_ratio": -4.16
+        "main_ratio": -4.16,
+        "up_count": 5,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1202",
@@ -3424,7 +4928,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.31,
         "amount_yi": 126.609,
         "market_cap_yi": 8945.5368,
-        "main_ratio": -0.38
+        "main_ratio": -0.38,
+        "up_count": 83,
+        "down_count": 17,
+        "flat_count": 5,
+        "breadth_pct": 79.05
       },
       {
         "code": "BK1576",
@@ -3433,7 +4941,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.31,
         "amount_yi": 42.1683,
         "market_cap_yi": 3344.9779,
-        "main_ratio": -1.16
+        "main_ratio": -1.16,
+        "up_count": 11,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 73.33
       },
       {
         "code": "BK1278",
@@ -3442,7 +4954,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.31,
         "amount_yi": 42.1683,
         "market_cap_yi": 3344.9779,
-        "main_ratio": -1.16
+        "main_ratio": -1.16,
+        "up_count": 11,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 73.33
       },
       {
         "code": "BK1538",
@@ -3451,7 +4967,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 12.1894,
         "market_cap_yi": 635.0708,
-        "main_ratio": -4.04
+        "main_ratio": -4.04,
+        "up_count": 9,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1504",
@@ -3460,7 +4980,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.32,
         "amount_yi": 25.9541,
         "market_cap_yi": 1671.3398,
-        "main_ratio": -1.92
+        "main_ratio": -1.92,
+        "up_count": 4,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 44.44
       },
       {
         "code": "BK1316",
@@ -3469,7 +4993,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 29.1413,
         "market_cap_yi": 1491.4265,
-        "main_ratio": -1.71
+        "main_ratio": -1.71,
+        "up_count": 17,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 89.47
       },
       {
         "code": "BK1317",
@@ -3478,7 +5006,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.07,
         "amount_yi": 35.8064,
         "market_cap_yi": 1708.6206,
-        "main_ratio": -1.49
+        "main_ratio": -1.49,
+        "up_count": 10,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1434",
@@ -3487,7 +5019,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.82,
         "amount_yi": 28.9154,
         "market_cap_yi": 2750.6123,
-        "main_ratio": -1.85
+        "main_ratio": -1.85,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1267",
@@ -3496,7 +5032,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.0,
         "amount_yi": 22.6766,
         "market_cap_yi": 1475.1563,
-        "main_ratio": -2.35
+        "main_ratio": -2.35,
+        "up_count": 21,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 80.77
       },
       {
         "code": "BK1574",
@@ -3505,7 +5045,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.37,
         "amount_yi": 20.401,
         "market_cap_yi": 16630.3003,
-        "main_ratio": -2.62
+        "main_ratio": -2.62,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1276",
@@ -3514,7 +5058,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.37,
         "amount_yi": 20.401,
         "market_cap_yi": 16630.3003,
-        "main_ratio": -2.62
+        "main_ratio": -2.62,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0740",
@@ -3523,7 +5071,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 26.4714,
         "market_cap_yi": 777.1355,
-        "main_ratio": -2.03
+        "main_ratio": -2.03,
+        "up_count": 11,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 64.71
       },
       {
         "code": "BK1483",
@@ -3532,7 +5084,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.26,
         "amount_yi": 21.0879,
         "market_cap_yi": 3689.7837,
-        "main_ratio": -2.63
+        "main_ratio": -2.63,
+        "up_count": 7,
+        "down_count": 12,
+        "flat_count": 2,
+        "breadth_pct": 33.33
       },
       {
         "code": "BK1517",
@@ -3541,7 +5097,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -2.6,
         "amount_yi": 4.6783,
         "market_cap_yi": 101.2841,
-        "main_ratio": -11.91
+        "main_ratio": -11.91,
+        "up_count": 2,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1537",
@@ -3550,7 +5110,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 15.9598,
         "market_cap_yi": 1004.1542,
-        "main_ratio": -3.56
+        "main_ratio": -3.56,
+        "up_count": 12,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 70.59
       },
       {
         "code": "BK1430",
@@ -3559,7 +5123,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.82,
         "amount_yi": 19.9365,
         "market_cap_yi": 714.1159,
-        "main_ratio": -2.89
+        "main_ratio": -2.89,
+        "up_count": 14,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK1435",
@@ -3568,7 +5136,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.57,
         "amount_yi": 21.7015,
         "market_cap_yi": 1712.2864,
-        "main_ratio": -2.68
+        "main_ratio": -2.68,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1505",
@@ -3577,7 +5149,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.32,
         "amount_yi": 21.7683,
         "market_cap_yi": 736.3755,
-        "main_ratio": -2.73
+        "main_ratio": -2.73,
+        "up_count": 7,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 53.85
       },
       {
         "code": "BK1521",
@@ -3586,7 +5162,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.61,
         "amount_yi": 17.5306,
         "market_cap_yi": 1486.1547,
-        "main_ratio": -3.39
+        "main_ratio": -3.39,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0422",
@@ -3595,7 +5175,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.17,
         "amount_yi": 54.0856,
         "market_cap_yi": 6080.3781,
-        "main_ratio": -1.1
+        "main_ratio": -1.1,
+        "up_count": 35,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 74.47
       },
       {
         "code": "BK1476",
@@ -3604,7 +5188,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.63,
         "amount_yi": 6.5162,
         "market_cap_yi": 637.1373,
-        "main_ratio": -9.17
+        "main_ratio": -9.17,
+        "up_count": 3,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1367",
@@ -3613,7 +5201,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.22,
         "amount_yi": 37.7532,
         "market_cap_yi": 4422.5283,
-        "main_ratio": -1.59
+        "main_ratio": -1.59,
+        "up_count": 10,
+        "down_count": 4,
+        "flat_count": 4,
+        "breadth_pct": 55.56
       },
       {
         "code": "BK1018",
@@ -3622,7 +5214,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.52,
         "amount_yi": 24.059,
         "market_cap_yi": 1118.0808,
-        "main_ratio": -2.52
+        "main_ratio": -2.52,
+        "up_count": 21,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 91.3
       },
       {
         "code": "BK1622",
@@ -3631,7 +5227,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.84,
         "amount_yi": 23.4085,
         "market_cap_yi": 1135.6974,
-        "main_ratio": -2.61
+        "main_ratio": -2.61,
+        "up_count": 2,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1453",
@@ -3640,7 +5240,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.0,
         "amount_yi": 10.3802,
         "market_cap_yi": 956.6419,
-        "main_ratio": -6.21
+        "main_ratio": -6.21,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1387",
@@ -3649,7 +5253,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.41,
         "amount_yi": 28.2446,
         "market_cap_yi": 1279.7231,
-        "main_ratio": -2.32
+        "main_ratio": -2.32,
+        "up_count": 21,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 80.77
       },
       {
         "code": "BK1234",
@@ -3658,7 +5266,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.41,
         "amount_yi": 28.2446,
         "market_cap_yi": 1279.7231,
-        "main_ratio": -2.32
+        "main_ratio": -2.32,
+        "up_count": 21,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 80.77
       },
       {
         "code": "BK1385",
@@ -3667,7 +5279,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.97,
         "amount_yi": 31.5573,
         "market_cap_yi": 3004.7861,
-        "main_ratio": -2.12
+        "main_ratio": -2.12,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1232",
@@ -3676,7 +5292,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.97,
         "amount_yi": 31.5573,
         "market_cap_yi": 3004.7861,
-        "main_ratio": -2.12
+        "main_ratio": -2.12,
+        "up_count": 8,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1518",
@@ -3685,7 +5305,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.34,
         "amount_yi": 17.5321,
         "market_cap_yi": 525.7072,
-        "main_ratio": -3.85
+        "main_ratio": -3.85,
+        "up_count": 6,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1603",
@@ -3694,7 +5318,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.82,
         "amount_yi": 42.5763,
         "market_cap_yi": 2687.1568,
-        "main_ratio": -1.62
+        "main_ratio": -1.62,
+        "up_count": 36,
+        "down_count": 2,
+        "flat_count": 2,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1478",
@@ -3703,7 +5331,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.88,
         "amount_yi": 27.1562,
         "market_cap_yi": 1004.0427,
-        "main_ratio": -2.54
+        "main_ratio": -2.54,
+        "up_count": 17,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK0725",
@@ -3712,7 +5344,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.88,
         "amount_yi": 27.1562,
         "market_cap_yi": 1004.0427,
-        "main_ratio": -2.54
+        "main_ratio": -2.54,
+        "up_count": 17,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1226",
@@ -3721,7 +5357,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.15,
         "amount_yi": 41.754,
         "market_cap_yi": 4822.4976,
-        "main_ratio": -1.69
+        "main_ratio": -1.69,
+        "up_count": 12,
+        "down_count": 5,
+        "flat_count": 7,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1426",
@@ -3730,7 +5370,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.52,
         "amount_yi": 20.9445,
         "market_cap_yi": 2418.0128,
-        "main_ratio": -3.4
+        "main_ratio": -3.4,
+        "up_count": 10,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1274",
@@ -3739,7 +5383,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.02,
         "amount_yi": 104.6939,
         "market_cap_yi": 35166.5312,
-        "main_ratio": -0.68
+        "main_ratio": -0.68,
+        "up_count": 19,
+        "down_count": 7,
+        "flat_count": 4,
+        "breadth_pct": 63.33
       },
       {
         "code": "BK1239",
@@ -3748,7 +5396,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.52,
         "amount_yi": 70.1063,
         "market_cap_yi": 11045.139,
-        "main_ratio": -1.02
+        "main_ratio": -1.02,
+        "up_count": 6,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 54.55
       },
       {
         "code": "BK0471",
@@ -3757,7 +5409,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.97,
         "amount_yi": 35.7195,
         "market_cap_yi": 2344.8904,
-        "main_ratio": -2.03
+        "main_ratio": -2.03,
+        "up_count": 23,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 85.19
       },
       {
         "code": "BK1360",
@@ -3766,7 +5422,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.84,
         "amount_yi": 13.9894,
         "market_cap_yi": 325.445,
-        "main_ratio": -5.19
+        "main_ratio": -5.19,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1437",
@@ -3775,7 +5435,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.95,
         "amount_yi": 38.9742,
         "market_cap_yi": 1510.3267,
-        "main_ratio": -1.87
+        "main_ratio": -1.87,
+        "up_count": 20,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK1605",
@@ -3784,7 +5448,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.37,
         "amount_yi": 112.7949,
         "market_cap_yi": 5983.7886,
-        "main_ratio": -0.65
+        "main_ratio": -0.65,
+        "up_count": 44,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 97.78
       },
       {
         "code": "BK1597",
@@ -3793,7 +5461,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.18,
         "amount_yi": 6.5098,
         "market_cap_yi": 801.6807,
-        "main_ratio": -11.36
+        "main_ratio": -11.36,
+        "up_count": 5,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1607",
@@ -3802,7 +5474,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.09,
         "amount_yi": 24.7967,
         "market_cap_yi": 2165.4031,
-        "main_ratio": -3.01
+        "main_ratio": -3.01,
+        "up_count": 17,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 70.83
       },
       {
         "code": "BK1311",
@@ -3811,7 +5487,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.81,
         "amount_yi": 97.6657,
         "market_cap_yi": 4501.384,
-        "main_ratio": -0.78
+        "main_ratio": -0.78,
+        "up_count": 28,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 90.32
       },
       {
         "code": "BK1308",
@@ -3820,7 +5500,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 23.3843,
         "market_cap_yi": 787.8792,
-        "main_ratio": -3.3
+        "main_ratio": -3.3,
+        "up_count": 12,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1253",
@@ -3829,7 +5513,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.74,
         "amount_yi": 12.976,
         "market_cap_yi": 773.6745,
-        "main_ratio": -6.14
+        "main_ratio": -6.14,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1268",
@@ -3838,7 +5526,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.22,
         "amount_yi": 37.6314,
         "market_cap_yi": 1135.1058,
-        "main_ratio": -2.13
+        "main_ratio": -2.13,
+        "up_count": 15,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1281",
@@ -3847,7 +5539,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.63,
         "amount_yi": 24.0488,
         "market_cap_yi": 1380.9008,
-        "main_ratio": -3.34
+        "main_ratio": -3.34,
+        "up_count": 20,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK1585",
@@ -3856,7 +5552,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.93,
         "amount_yi": 43.3101,
         "market_cap_yi": 2650.4382,
-        "main_ratio": -1.86
+        "main_ratio": -1.86,
+        "up_count": 16,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1420",
@@ -3865,7 +5565,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.66,
         "amount_yi": 31.4319,
         "market_cap_yi": 1617.0377,
-        "main_ratio": -2.62
+        "main_ratio": -2.62,
+        "up_count": 13,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 72.22
       },
       {
         "code": "BK1015",
@@ -3874,7 +5578,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.08,
         "amount_yi": 86.602,
         "market_cap_yi": 3663.3432,
-        "main_ratio": -0.95
+        "main_ratio": -0.95,
+        "up_count": 12,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1449",
@@ -3883,7 +5591,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.89,
         "amount_yi": 11.2705,
         "market_cap_yi": 2086.763,
-        "main_ratio": -7.52
+        "main_ratio": -7.52,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 57.14
       },
       {
         "code": "BK1252",
@@ -3892,7 +5604,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.14,
         "amount_yi": 19.9483,
         "market_cap_yi": 1131.0406,
-        "main_ratio": -4.26
+        "main_ratio": -4.26,
+        "up_count": 14,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1381",
@@ -3901,7 +5617,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.24,
         "amount_yi": 31.3589,
         "market_cap_yi": 2491.6171,
-        "main_ratio": -2.71
+        "main_ratio": -2.71,
+        "up_count": 18,
+        "down_count": 11,
+        "flat_count": 2,
+        "breadth_pct": 58.06
       },
       {
         "code": "BK1028",
@@ -3910,7 +5630,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.24,
         "amount_yi": 31.3589,
         "market_cap_yi": 2491.6171,
-        "main_ratio": -2.71
+        "main_ratio": -2.71,
+        "up_count": 18,
+        "down_count": 11,
+        "flat_count": 2,
+        "breadth_pct": 58.06
       },
       {
         "code": "BK1373",
@@ -3919,7 +5643,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.19,
         "amount_yi": 17.9616,
         "market_cap_yi": 1871.5548,
-        "main_ratio": -4.88
+        "main_ratio": -4.88,
+        "up_count": 8,
+        "down_count": 5,
+        "flat_count": 2,
+        "breadth_pct": 53.33
       },
       {
         "code": "BK1263",
@@ -3928,7 +5656,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 28.6287,
         "market_cap_yi": 2191.0514,
-        "main_ratio": -3.08
+        "main_ratio": -3.08,
+        "up_count": 16,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0738",
@@ -3937,7 +5669,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.69,
         "amount_yi": 50.4535,
         "market_cap_yi": 4378.4454,
-        "main_ratio": -1.77
+        "main_ratio": -1.77,
+        "up_count": 22,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 88.0
       },
       {
         "code": "BK1228",
@@ -3946,7 +5682,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.8,
         "amount_yi": 17.4266,
         "market_cap_yi": 1540.556,
-        "main_ratio": -5.13
+        "main_ratio": -5.13,
+        "up_count": 8,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1272",
@@ -3955,7 +5695,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.04,
         "amount_yi": 26.3566,
         "market_cap_yi": 1192.2555,
-        "main_ratio": -3.43
+        "main_ratio": -3.43,
+        "up_count": 22,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 81.48
       },
       {
         "code": "BK1320",
@@ -3964,7 +5708,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 64.5943,
         "market_cap_yi": 3174.3382,
-        "main_ratio": -1.42
+        "main_ratio": -1.42,
+        "up_count": 8,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0464",
@@ -3973,7 +5721,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.03,
         "amount_yi": 153.5767,
         "market_cap_yi": 54045.1866,
-        "main_ratio": -0.62
+        "main_ratio": -0.62,
+        "up_count": 28,
+        "down_count": 13,
+        "flat_count": 8,
+        "breadth_pct": 57.14
       },
       {
         "code": "BK1535",
@@ -3982,7 +5734,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.66,
         "amount_yi": 31.5482,
         "market_cap_yi": 1100.4747,
-        "main_ratio": -3.01
+        "main_ratio": -3.01,
+        "up_count": 16,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 76.19
       },
       {
         "code": "BK1256",
@@ -3991,7 +5747,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.11,
         "amount_yi": 52.9167,
         "market_cap_yi": 2787.0469,
-        "main_ratio": -1.83
+        "main_ratio": -1.83,
+        "up_count": 14,
+        "down_count": 11,
+        "flat_count": 3,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1612",
@@ -4000,7 +5760,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.36,
         "amount_yi": 24.2369,
         "market_cap_yi": 2647.1933,
-        "main_ratio": -4.04
+        "main_ratio": -4.04,
+        "up_count": 6,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1375",
@@ -4009,7 +5773,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.76,
         "amount_yi": 33.5663,
         "market_cap_yi": 1140.4908,
-        "main_ratio": -2.94
+        "main_ratio": -2.94,
+        "up_count": 7,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 53.85
       },
       {
         "code": "BK1625",
@@ -4018,7 +5786,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.46,
         "amount_yi": 42.3373,
         "market_cap_yi": 1854.0704,
-        "main_ratio": -2.38
+        "main_ratio": -2.38,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1528",
@@ -4027,7 +5799,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.27,
         "amount_yi": 84.8492,
         "market_cap_yi": 2950.9782,
-        "main_ratio": -1.19
+        "main_ratio": -1.19,
+        "up_count": 47,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 83.93
       },
       {
         "code": "BK1314",
@@ -4036,7 +5812,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.58,
         "amount_yi": 20.9008,
         "market_cap_yi": 1223.0739,
-        "main_ratio": -4.89
+        "main_ratio": -4.89,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1498",
@@ -4045,7 +5825,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 15.272,
         "market_cap_yi": 856.6765,
-        "main_ratio": -6.74
+        "main_ratio": -6.74,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1352",
@@ -4054,7 +5838,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.73,
         "amount_yi": 36.3819,
         "market_cap_yi": 2064.4103,
-        "main_ratio": -2.88
+        "main_ratio": -2.88,
+        "up_count": 23,
+        "down_count": 14,
+        "flat_count": 0,
+        "breadth_pct": 62.16
       },
       {
         "code": "BK1337",
@@ -4063,7 +5851,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.39,
         "amount_yi": 55.5771,
         "market_cap_yi": 2690.905,
-        "main_ratio": -1.91
+        "main_ratio": -1.91,
+        "up_count": 11,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1265",
@@ -4072,7 +5864,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.95,
         "amount_yi": 54.4057,
         "market_cap_yi": 2250.7616,
-        "main_ratio": -1.95
+        "main_ratio": -1.95,
+        "up_count": 39,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 82.98
       },
       {
         "code": "BK1500",
@@ -4081,7 +5877,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.76,
         "amount_yi": 10.1753,
         "market_cap_yi": 643.535,
-        "main_ratio": -10.46
+        "main_ratio": -10.46,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1315",
@@ -4090,7 +5890,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.53,
         "amount_yi": 49.9992,
         "market_cap_yi": 2604.9264,
-        "main_ratio": -2.15
+        "main_ratio": -2.15,
+        "up_count": 20,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1379",
@@ -4099,7 +5903,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.29,
         "amount_yi": 26.8952,
         "market_cap_yi": 1121.6518,
-        "main_ratio": -4.09
+        "main_ratio": -4.09,
+        "up_count": 13,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 72.22
       },
       {
         "code": "BK1468",
@@ -4108,7 +5916,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.35,
         "amount_yi": 26.1644,
         "market_cap_yi": 1033.7142,
-        "main_ratio": -4.25
+        "main_ratio": -4.25,
+        "up_count": 10,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 58.82
       },
       {
         "code": "BK1627",
@@ -4117,7 +5929,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 32.7143,
         "market_cap_yi": 1842.9557,
-        "main_ratio": -3.41
+        "main_ratio": -3.41,
+        "up_count": 17,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 77.27
       },
       {
         "code": "BK1217",
@@ -4126,7 +5942,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 32.7143,
         "market_cap_yi": 1842.9557,
-        "main_ratio": -3.41
+        "main_ratio": -3.41,
+        "up_count": 17,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 77.27
       },
       {
         "code": "BK0539",
@@ -4135,7 +5955,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 32.7143,
         "market_cap_yi": 1842.9557,
-        "main_ratio": -3.41
+        "main_ratio": -3.41,
+        "up_count": 17,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 77.27
       },
       {
         "code": "BK1282",
@@ -4144,7 +5968,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 60.0482,
         "market_cap_yi": 4211.1101,
-        "main_ratio": -1.87
+        "main_ratio": -1.87,
+        "up_count": 23,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 82.14
       },
       {
         "code": "BK1595",
@@ -4153,7 +5981,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 68.7016,
         "market_cap_yi": 3204.4347,
-        "main_ratio": -1.66
+        "main_ratio": -1.66,
+        "up_count": 34,
+        "down_count": 8,
+        "flat_count": 3,
+        "breadth_pct": 75.56
       },
       {
         "code": "BK1604",
@@ -4162,7 +5994,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.96,
         "amount_yi": 65.8046,
         "market_cap_yi": 4103.9515,
-        "main_ratio": -1.74
+        "main_ratio": -1.74,
+        "up_count": 47,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 83.93
       },
       {
         "code": "BK0736",
@@ -4171,7 +6007,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.36,
         "amount_yi": 141.3612,
         "market_cap_yi": 32109.9115,
-        "main_ratio": -0.82
+        "main_ratio": -0.82,
+        "up_count": 35,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 89.74
       },
       {
         "code": "BK1440",
@@ -4180,7 +6020,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.34,
         "amount_yi": 53.154,
         "market_cap_yi": 1114.8714,
-        "main_ratio": -2.22
+        "main_ratio": -2.22,
+        "up_count": 13,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 61.9
       },
       {
         "code": "BK1042",
@@ -4189,7 +6033,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.8,
         "amount_yi": 37.1892,
         "market_cap_yi": 3027.629,
-        "main_ratio": -3.19
+        "main_ratio": -3.19,
+        "up_count": 20,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 62.5
       },
       {
         "code": "BK0454",
@@ -4198,7 +6046,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.76,
         "amount_yi": 203.315,
         "market_cap_yi": 6066.4011,
-        "main_ratio": -0.59
+        "main_ratio": -0.59,
+        "up_count": 64,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 82.05
       },
       {
         "code": "BK1436",
@@ -4207,7 +6059,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.59,
         "amount_yi": 29.7351,
         "market_cap_yi": 1945.2149,
-        "main_ratio": -4.08
+        "main_ratio": -4.08,
+        "up_count": 24,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 70.59
       },
       {
         "code": "BK1598",
@@ -4216,7 +6072,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.9,
         "amount_yi": 27.4322,
         "market_cap_yi": 1686.3098,
-        "main_ratio": -4.55
+        "main_ratio": -4.55,
+        "up_count": 12,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK0479",
@@ -4225,7 +6085,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.07,
         "amount_yi": 75.2527,
         "market_cap_yi": 7920.7854,
-        "main_ratio": -1.69
+        "main_ratio": -1.69,
+        "up_count": 27,
+        "down_count": 11,
+        "flat_count": 8,
+        "breadth_pct": 58.7
       },
       {
         "code": "BK1587",
@@ -4234,7 +6098,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.11,
         "amount_yi": 38.1198,
         "market_cap_yi": 29128.3966,
-        "main_ratio": -3.37
+        "main_ratio": -3.37,
+        "up_count": 3,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1376",
@@ -4243,7 +6111,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.28,
         "amount_yi": 22.3071,
         "market_cap_yi": 5115.8125,
-        "main_ratio": -5.8
+        "main_ratio": -5.8,
+        "up_count": 2,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1335",
@@ -4252,7 +6124,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.22,
         "amount_yi": 152.3156,
         "market_cap_yi": 7443.5403,
-        "main_ratio": -0.86
+        "main_ratio": -0.86,
+        "up_count": 34,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1032",
@@ -4261,7 +6137,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.94,
         "amount_yi": 82.0896,
         "market_cap_yi": 3181.0856,
-        "main_ratio": -1.61
+        "main_ratio": -1.61,
+        "up_count": 27,
+        "down_count": 2,
+        "flat_count": 2,
+        "breadth_pct": 87.1
       },
       {
         "code": "BK1471",
@@ -4270,7 +6150,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.12,
         "amount_yi": 59.9216,
         "market_cap_yi": 1872.8011,
-        "main_ratio": -2.24
+        "main_ratio": -2.24,
+        "up_count": 31,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 68.89
       },
       {
         "code": "BK0726",
@@ -4279,7 +6163,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.12,
         "amount_yi": 59.9216,
         "market_cap_yi": 1872.8011,
-        "main_ratio": -2.24
+        "main_ratio": -2.24,
+        "up_count": 31,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 68.89
       },
       {
         "code": "BK1390",
@@ -4288,7 +6176,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.7,
         "amount_yi": 42.0639,
         "market_cap_yi": 2625.1395,
-        "main_ratio": -3.23
+        "main_ratio": -3.23,
+        "up_count": 34,
+        "down_count": 16,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1429",
@@ -4297,7 +6189,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.24,
         "amount_yi": 31.3509,
         "market_cap_yi": 2252.796,
-        "main_ratio": -4.4
+        "main_ratio": -4.4,
+        "up_count": 21,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 84.0
       },
       {
         "code": "BK1212",
@@ -4306,7 +6202,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.11,
         "amount_yi": 187.9079,
         "market_cap_yi": 9074.9733,
-        "main_ratio": -0.74
+        "main_ratio": -0.74,
+        "up_count": 129,
+        "down_count": 37,
+        "flat_count": 4,
+        "breadth_pct": 75.88
       },
       {
         "code": "BK1398",
@@ -4315,7 +6215,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.6,
         "amount_yi": 115.4825,
         "market_cap_yi": 3703.1749,
-        "main_ratio": -1.21
+        "main_ratio": -1.21,
+        "up_count": 46,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 80.7
       },
       {
         "code": "BK1485",
@@ -4324,7 +6228,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.52,
         "amount_yi": 26.8929,
         "market_cap_yi": 4013.2651,
-        "main_ratio": -5.23
+        "main_ratio": -5.23,
+        "up_count": 3,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 42.86
       },
       {
         "code": "BK1570",
@@ -4333,7 +6241,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.8,
         "amount_yi": 29.5024,
         "market_cap_yi": 1108.9119,
-        "main_ratio": -4.79
+        "main_ratio": -4.79,
+        "up_count": 8,
+        "down_count": 4,
+        "flat_count": 2,
+        "breadth_pct": 57.14
       },
       {
         "code": "BK0727",
@@ -4342,7 +6254,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.29,
         "amount_yi": 273.6751,
         "market_cap_yi": 10992.811,
-        "main_ratio": -0.54
+        "main_ratio": -0.54,
+        "up_count": 40,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 74.07
       },
       {
         "code": "BK1225",
@@ -4351,7 +6267,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 60.7664,
         "market_cap_yi": 2911.8478,
-        "main_ratio": -2.46
+        "main_ratio": -2.46,
+        "up_count": 40,
+        "down_count": 19,
+        "flat_count": 0,
+        "breadth_pct": 67.8
       },
       {
         "code": "BK1019",
@@ -4360,7 +6280,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.14,
         "amount_yi": 133.2465,
         "market_cap_yi": 7429.207,
-        "main_ratio": -1.13
+        "main_ratio": -1.13,
+        "up_count": 44,
+        "down_count": 20,
+        "flat_count": 1,
+        "breadth_pct": 67.69
       },
       {
         "code": "BK1319",
@@ -4369,7 +6293,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.17,
         "amount_yi": 15.1449,
         "market_cap_yi": 844.357,
-        "main_ratio": -10.1
+        "main_ratio": -10.1,
+        "up_count": 4,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1301",
@@ -4378,7 +6306,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.51,
         "amount_yi": 112.1223,
         "market_cap_yi": 3734.5128,
-        "main_ratio": -1.37
+        "main_ratio": -1.37,
+        "up_count": 21,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1046",
@@ -4387,7 +6319,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.51,
         "amount_yi": 112.1223,
         "market_cap_yi": 3734.5128,
-        "main_ratio": -1.37
+        "main_ratio": -1.37,
+        "up_count": 21,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK0476",
@@ -4396,7 +6332,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.07,
         "amount_yi": 43.6794,
         "market_cap_yi": 2209.7172,
-        "main_ratio": -3.53
+        "main_ratio": -3.53,
+        "up_count": 21,
+        "down_count": 12,
+        "flat_count": 5,
+        "breadth_pct": 55.26
       },
       {
         "code": "BK1264",
@@ -4405,7 +6345,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.27,
         "amount_yi": 43.0849,
         "market_cap_yi": 2389.7552,
-        "main_ratio": -3.6
+        "main_ratio": -3.6,
+        "up_count": 12,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1309",
@@ -4414,7 +6358,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.9,
         "amount_yi": 62.7609,
         "market_cap_yi": 4377.8266,
-        "main_ratio": -2.5
+        "main_ratio": -2.5,
+        "up_count": 28,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 93.33
       },
       {
         "code": "BK1614",
@@ -4423,7 +6371,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.82,
         "amount_yi": 28.5417,
         "market_cap_yi": 1566.3998,
-        "main_ratio": -5.51
+        "main_ratio": -5.51,
+        "up_count": 9,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1261",
@@ -4432,7 +6384,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.44,
         "amount_yi": 42.4666,
         "market_cap_yi": 1416.315,
-        "main_ratio": -3.78
+        "main_ratio": -3.78,
+        "up_count": 11,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 52.38
       },
       {
         "code": "BK1312",
@@ -4441,7 +6397,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.61,
         "amount_yi": 100.7564,
         "market_cap_yi": 3148.3806,
-        "main_ratio": -1.59
+        "main_ratio": -1.59,
+        "up_count": 37,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 92.5
       },
       {
         "code": "BK1477",
@@ -4450,7 +6410,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.47,
         "amount_yi": 40.7578,
         "market_cap_yi": 1852.8459,
-        "main_ratio": -4.04
+        "main_ratio": -4.04,
+        "up_count": 12,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 63.16
       },
       {
         "code": "BK1410",
@@ -4459,7 +6423,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.01,
         "amount_yi": 90.9019,
         "market_cap_yi": 2753.1138,
-        "main_ratio": -1.86
+        "main_ratio": -1.86,
+        "up_count": 26,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 86.67
       },
       {
         "code": "BK0436",
@@ -4468,7 +6436,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.18,
         "amount_yi": 107.58,
         "market_cap_yi": 5686.3046,
-        "main_ratio": -1.59
+        "main_ratio": -1.59,
+        "up_count": 82,
+        "down_count": 26,
+        "flat_count": 2,
+        "breadth_pct": 74.55
       },
       {
         "code": "BK1530",
@@ -4477,7 +6449,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.25,
         "amount_yi": 30.1472,
         "market_cap_yi": 1592.9636,
-        "main_ratio": -5.75
+        "main_ratio": -5.75,
+        "up_count": 7,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK0421",
@@ -4486,7 +6462,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.04,
         "amount_yi": 51.6531,
         "market_cap_yi": 7980.2418,
-        "main_ratio": -3.6
+        "main_ratio": -3.6,
+        "up_count": 16,
+        "down_count": 17,
+        "flat_count": 3,
+        "breadth_pct": 44.44
       },
       {
         "code": "BK1302",
@@ -4495,7 +6475,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.5,
         "amount_yi": 181.4158,
         "market_cap_yi": 6722.1018,
-        "main_ratio": -1.03
+        "main_ratio": -1.03,
+        "up_count": 44,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 97.78
       },
       {
         "code": "BK1428",
@@ -4504,7 +6488,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.68,
         "amount_yi": 96.6338,
         "market_cap_yi": 4161.2813,
-        "main_ratio": -1.95
+        "main_ratio": -1.95,
+        "up_count": 59,
+        "down_count": 21,
+        "flat_count": 1,
+        "breadth_pct": 72.84
       },
       {
         "code": "BK1382",
@@ -4513,7 +6501,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.54,
         "amount_yi": 72.1847,
         "market_cap_yi": 1401.0805,
-        "main_ratio": -2.77
+        "main_ratio": -2.77,
+        "up_count": 8,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1229",
@@ -4522,7 +6514,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.54,
         "amount_yi": 72.1847,
         "market_cap_yi": 1401.0805,
-        "main_ratio": -2.77
+        "main_ratio": -2.77,
+        "up_count": 8,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1214",
@@ -4531,7 +6527,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 102.1266,
         "market_cap_yi": 4535.3483,
-        "main_ratio": -2.02
+        "main_ratio": -2.02,
+        "up_count": 71,
+        "down_count": 14,
+        "flat_count": 5,
+        "breadth_pct": 78.89
       },
       {
         "code": "BK1608",
@@ -4540,7 +6540,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.89,
         "amount_yi": 97.4266,
         "market_cap_yi": 7454.5125,
-        "main_ratio": -2.19
+        "main_ratio": -2.19,
+        "up_count": 53,
+        "down_count": 11,
+        "flat_count": 2,
+        "breadth_pct": 80.3
       },
       {
         "code": "BK1040",
@@ -4549,7 +6553,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.89,
         "amount_yi": 97.4266,
         "market_cap_yi": 7454.5125,
-        "main_ratio": -2.19
+        "main_ratio": -2.19,
+        "up_count": 53,
+        "down_count": 11,
+        "flat_count": 2,
+        "breadth_pct": 80.3
       },
       {
         "code": "BK1235",
@@ -4558,7 +6566,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 100.6769,
         "market_cap_yi": 6279.1822,
-        "main_ratio": -2.12
+        "main_ratio": -2.12,
+        "up_count": 79,
+        "down_count": 27,
+        "flat_count": 2,
+        "breadth_pct": 73.15
       },
       {
         "code": "BK1460",
@@ -4567,7 +6579,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 41.6805,
         "market_cap_yi": 884.8839,
-        "main_ratio": -5.27
+        "main_ratio": -5.27,
+        "up_count": 9,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1245",
@@ -4576,7 +6592,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 41.6805,
         "market_cap_yi": 884.8839,
-        "main_ratio": -5.27
+        "main_ratio": -5.27,
+        "up_count": 9,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1596",
@@ -4585,7 +6605,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.14,
         "amount_yi": 89.4435,
         "market_cap_yi": 5696.1144,
-        "main_ratio": -2.54
+        "main_ratio": -2.54,
+        "up_count": 32,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 82.05
       },
       {
         "code": "BK1600",
@@ -4594,7 +6618,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.16,
         "amount_yi": 197.3736,
         "market_cap_yi": 8423.3611,
-        "main_ratio": -1.18
+        "main_ratio": -1.18,
+        "up_count": 19,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 65.52
       },
       {
         "code": "BK1322",
@@ -4603,7 +6631,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.45,
         "amount_yi": 91.3707,
         "market_cap_yi": 3852.264,
-        "main_ratio": -2.61
+        "main_ratio": -2.61,
+        "up_count": 24,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0731",
@@ -4612,7 +6644,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.99,
         "amount_yi": 101.0701,
         "market_cap_yi": 7973.3085,
-        "main_ratio": -2.43
+        "main_ratio": -2.43,
+        "up_count": 51,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1327",
@@ -4621,7 +6657,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.41,
         "amount_yi": 164.9819,
         "market_cap_yi": 4248.1083,
-        "main_ratio": -1.51
+        "main_ratio": -1.51,
+        "up_count": 15,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1248",
@@ -4630,7 +6670,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.55,
         "amount_yi": 72.1515,
         "market_cap_yi": 3557.2472,
-        "main_ratio": -3.48
+        "main_ratio": -3.48,
+        "up_count": 25,
+        "down_count": 12,
+        "flat_count": 3,
+        "breadth_pct": 62.5
       },
       {
         "code": "BK1041",
@@ -4639,7 +6683,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.37,
         "amount_yi": 221.1758,
         "market_cap_yi": 12774.897,
-        "main_ratio": -1.16
+        "main_ratio": -1.16,
+        "up_count": 127,
+        "down_count": 10,
+        "flat_count": 4,
+        "breadth_pct": 90.07
       },
       {
         "code": "BK1210",
@@ -4648,7 +6696,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.57,
         "amount_yi": 220.4534,
         "market_cap_yi": 31163.5386,
-        "main_ratio": -1.18
+        "main_ratio": -1.18,
+        "up_count": 85,
+        "down_count": 39,
+        "flat_count": 10,
+        "breadth_pct": 63.43
       },
       {
         "code": "BK1034",
@@ -4657,7 +6709,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.45,
         "amount_yi": 106.9013,
         "market_cap_yi": 5827.6856,
-        "main_ratio": -2.45
+        "main_ratio": -2.45,
+        "up_count": 29,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 80.56
       },
       {
         "code": "BK1259",
@@ -4666,7 +6722,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.88,
         "amount_yi": 59.7953,
         "market_cap_yi": 5112.7397,
-        "main_ratio": -4.38
+        "main_ratio": -4.38,
+        "up_count": 16,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 72.73
       },
       {
         "code": "BK0437",
@@ -4675,7 +6735,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.39,
         "amount_yi": 103.3175,
         "market_cap_yi": 23477.3322,
-        "main_ratio": -2.54
+        "main_ratio": -2.54,
+        "up_count": 22,
+        "down_count": 10,
+        "flat_count": 2,
+        "breadth_pct": 64.71
       },
       {
         "code": "BK1403",
@@ -4684,7 +6748,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.01,
         "amount_yi": 131.3197,
         "market_cap_yi": 5381.6995,
-        "main_ratio": -2.02
+        "main_ratio": -2.02,
+        "up_count": 52,
+        "down_count": 12,
+        "flat_count": 1,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1358",
@@ -4693,7 +6761,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 90.8545,
         "market_cap_yi": 26718.0531,
-        "main_ratio": -2.95
+        "main_ratio": -2.95,
+        "up_count": 5,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0474",
@@ -4702,7 +6774,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 90.8545,
         "market_cap_yi": 26718.0531,
-        "main_ratio": -2.95
+        "main_ratio": -2.95,
+        "up_count": 5,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1512",
@@ -4711,7 +6787,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.09,
         "amount_yi": 47.1848,
         "market_cap_yi": 4349.1242,
-        "main_ratio": -5.88
+        "main_ratio": -5.88,
+        "up_count": 6,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 54.55
       },
       {
         "code": "BK0728",
@@ -4720,7 +6800,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 128.9215,
         "market_cap_yi": 7558.9054,
-        "main_ratio": -2.17
+        "main_ratio": -2.17,
+        "up_count": 100,
+        "down_count": 30,
+        "flat_count": 4,
+        "breadth_pct": 74.63
       },
       {
         "code": "BK1493",
@@ -4729,7 +6813,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.32,
         "amount_yi": 75.9011,
         "market_cap_yi": 21024.3253,
-        "main_ratio": -3.84
+        "main_ratio": -3.84,
+        "up_count": 10,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 58.82
       },
       {
         "code": "BK1424",
@@ -4738,7 +6826,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.83,
         "amount_yi": 49.351,
         "market_cap_yi": 2330.2335,
-        "main_ratio": -6.01
+        "main_ratio": -6.01,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1250",
@@ -4747,7 +6839,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.24,
         "amount_yi": 92.078,
         "market_cap_yi": 22972.1376,
-        "main_ratio": -3.3
+        "main_ratio": -3.3,
+        "up_count": 15,
+        "down_count": 10,
+        "flat_count": 2,
+        "breadth_pct": 55.56
       },
       {
         "code": "BK1247",
@@ -4756,7 +6852,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.23,
         "amount_yi": 65.9858,
         "market_cap_yi": 7397.1491,
-        "main_ratio": -4.76
+        "main_ratio": -4.76,
+        "up_count": 29,
+        "down_count": 10,
+        "flat_count": 5,
+        "breadth_pct": 65.91
       },
       {
         "code": "BK1609",
@@ -4765,7 +6865,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.34,
         "amount_yi": 99.4561,
         "market_cap_yi": 12999.5299,
-        "main_ratio": -3.16
+        "main_ratio": -3.16,
+        "up_count": 5,
+        "down_count": 10,
+        "flat_count": 2,
+        "breadth_pct": 29.41
       },
       {
         "code": "BK1377",
@@ -4774,7 +6878,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.57,
         "amount_yi": 89.5849,
         "market_cap_yi": 9664.2261,
-        "main_ratio": -3.61
+        "main_ratio": -3.61,
+        "up_count": 10,
+        "down_count": 16,
+        "flat_count": 8,
+        "breadth_pct": 29.41
       },
       {
         "code": "BK1409",
@@ -4783,7 +6891,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.14,
         "amount_yi": 110.1156,
         "market_cap_yi": 2365.0793,
-        "main_ratio": -2.96
+        "main_ratio": -2.96,
+        "up_count": 11,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1472",
@@ -4792,7 +6904,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.67,
         "amount_yi": 54.0474,
         "market_cap_yi": 6978.6971,
-        "main_ratio": -6.12
+        "main_ratio": -6.12,
+        "up_count": 17,
+        "down_count": 7,
+        "flat_count": 4,
+        "breadth_pct": 60.71
       },
       {
         "code": "BK1470",
@@ -4801,7 +6917,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.72,
         "amount_yi": 28.184,
         "market_cap_yi": 2530.1751,
-        "main_ratio": -11.79
+        "main_ratio": -11.79,
+        "up_count": 5,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 62.5
       },
       {
         "code": "BK1246",
@@ -4810,7 +6930,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.72,
         "amount_yi": 28.184,
         "market_cap_yi": 2530.1751,
-        "main_ratio": -11.79
+        "main_ratio": -11.79,
+        "up_count": 5,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 62.5
       },
       {
         "code": "BK1394",
@@ -4819,7 +6943,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 42.8513,
         "market_cap_yi": 4208.196,
-        "main_ratio": -7.82
+        "main_ratio": -7.82,
+        "up_count": 23,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 74.19
       },
       {
         "code": "BK1236",
@@ -4828,7 +6956,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 42.8513,
         "market_cap_yi": 4208.196,
-        "main_ratio": -7.82
+        "main_ratio": -7.82,
+        "up_count": 23,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 74.19
       },
       {
         "code": "BK1617",
@@ -4837,7 +6969,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.6,
         "amount_yi": 99.5051,
         "market_cap_yi": 4861.5275,
-        "main_ratio": -3.39
+        "main_ratio": -3.39,
+        "up_count": 7,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 70.0
       },
       {
         "code": "BK1593",
@@ -4846,7 +6982,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.0,
         "amount_yi": 161.8293,
         "market_cap_yi": 3826.393,
-        "main_ratio": -2.2
+        "main_ratio": -2.2,
+        "up_count": 19,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 67.86
       },
       {
         "code": "BK1400",
@@ -4855,7 +6995,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.89,
         "amount_yi": 83.7165,
         "market_cap_yi": 1559.6781,
-        "main_ratio": -4.28
+        "main_ratio": -4.28,
+        "up_count": 13,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 65.0
       },
       {
         "code": "BK1339",
@@ -4864,7 +7008,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.44,
         "amount_yi": 156.9224,
         "market_cap_yi": 4234.7899,
-        "main_ratio": -2.32
+        "main_ratio": -2.32,
+        "up_count": 16,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 84.21
       },
       {
         "code": "BK0732",
@@ -4873,7 +7021,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.54,
         "amount_yi": 123.6946,
         "market_cap_yi": 5754.8083,
-        "main_ratio": -3.03
+        "main_ratio": -3.03,
+        "up_count": 9,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 69.23
       },
       {
         "code": "BK1386",
@@ -4882,7 +7034,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.78,
         "amount_yi": 180.113,
         "market_cap_yi": 7582.7563,
-        "main_ratio": -2.11
+        "main_ratio": -2.11,
+        "up_count": 60,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 98.36
       },
       {
         "code": "BK1233",
@@ -4891,7 +7047,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.78,
         "amount_yi": 180.113,
         "market_cap_yi": 7582.7563,
-        "main_ratio": -2.11
+        "main_ratio": -2.11,
+        "up_count": 60,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 98.36
       },
       {
         "code": "BK1289",
@@ -4900,7 +7060,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.35,
         "amount_yi": 91.1716,
         "market_cap_yi": 1369.308,
-        "main_ratio": -4.31
+        "main_ratio": -4.31,
+        "up_count": 9,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1218",
@@ -4909,7 +7073,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.03,
         "amount_yi": 118.3898,
         "market_cap_yi": 2680.1547,
-        "main_ratio": -3.38
+        "main_ratio": -3.38,
+        "up_count": 12,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 42.86
       },
       {
         "code": "BK1031",
@@ -4918,7 +7086,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.43,
         "amount_yi": 212.784,
         "market_cap_yi": 11195.4686,
-        "main_ratio": -1.92
+        "main_ratio": -1.92,
+        "up_count": 61,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 88.41
       },
       {
         "code": "BK1044",
@@ -4927,7 +7099,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.98,
         "amount_yi": 123.3855,
         "market_cap_yi": 8184.105,
-        "main_ratio": -3.45
+        "main_ratio": -3.45,
+        "up_count": 49,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 84.48
       },
       {
         "code": "BK1592",
@@ -4936,7 +7112,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.72,
         "amount_yi": 252.2977,
         "market_cap_yi": 6310.5902,
-        "main_ratio": -1.7
+        "main_ratio": -1.7,
+        "up_count": 10,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK1461",
@@ -4945,7 +7125,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.43,
         "amount_yi": 25.9166,
         "market_cap_yi": 503.4587,
-        "main_ratio": -16.57
+        "main_ratio": -16.57,
+        "up_count": 6,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK1594",
@@ -4954,7 +7138,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.89,
         "amount_yi": 283.5869,
         "market_cap_yi": 19663.4864,
-        "main_ratio": -1.54
+        "main_ratio": -1.54,
+        "up_count": 99,
+        "down_count": 13,
+        "flat_count": 4,
+        "breadth_pct": 85.34
       },
       {
         "code": "BK1384",
@@ -4963,7 +7151,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.55,
         "amount_yi": 160.9195,
         "market_cap_yi": 11287.4902,
-        "main_ratio": -2.75
+        "main_ratio": -2.75,
+        "up_count": 45,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 91.84
       },
       {
         "code": "BK1231",
@@ -4972,7 +7164,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.55,
         "amount_yi": 160.9195,
         "market_cap_yi": 11287.4902,
-        "main_ratio": -2.75
+        "main_ratio": -2.75,
+        "up_count": 45,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 91.84
       },
       {
         "code": "BK0433",
@@ -4981,7 +7177,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.35,
         "amount_yi": 223.4029,
         "market_cap_yi": 12166.7672,
-        "main_ratio": -2.06
+        "main_ratio": -2.06,
+        "up_count": 72,
+        "down_count": 34,
+        "flat_count": 8,
+        "breadth_pct": 63.16
       },
       {
         "code": "BK0457",
@@ -4990,7 +7190,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.54,
         "amount_yi": 320.2818,
         "market_cap_yi": 14756.3901,
-        "main_ratio": -1.55
+        "main_ratio": -1.55,
+        "up_count": 125,
+        "down_count": 16,
+        "flat_count": 2,
+        "breadth_pct": 87.41
       },
       {
         "code": "BK1332",
@@ -4999,7 +7203,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.95,
         "amount_yi": 195.8225,
         "market_cap_yi": 5681.8138,
-        "main_ratio": -2.68
+        "main_ratio": -2.68,
+        "up_count": 36,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 97.3
       },
       {
         "code": "BK1039",
@@ -5008,7 +7216,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.95,
         "amount_yi": 195.8225,
         "market_cap_yi": 5681.8138,
-        "main_ratio": -2.68
+        "main_ratio": -2.68,
+        "up_count": 36,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 97.3
       },
       {
         "code": "BK1462",
@@ -5017,7 +7229,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.64,
         "amount_yi": 126.207,
         "market_cap_yi": 4097.3909,
-        "main_ratio": -4.25
+        "main_ratio": -4.25,
+        "up_count": 6,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK0465",
@@ -5026,7 +7242,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.62,
         "amount_yi": 352.2886,
         "market_cap_yi": 22867.9211,
-        "main_ratio": -1.56
+        "main_ratio": -1.56,
+        "up_count": 133,
+        "down_count": 21,
+        "flat_count": 7,
+        "breadth_pct": 82.61
       },
       {
         "code": "BK1325",
@@ -5035,7 +7255,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.22,
         "amount_yi": 243.406,
         "market_cap_yi": 8017.4466,
-        "main_ratio": -2.36
+        "main_ratio": -2.36,
+        "up_count": 30,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 93.75
       },
       {
         "code": "BK1287",
@@ -5044,7 +7268,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 301.1168,
         "market_cap_yi": 25117.3616,
-        "main_ratio": -1.96
+        "main_ratio": -1.96,
+        "up_count": 52,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 89.66
       },
       {
         "code": "BK1615",
@@ -5053,7 +7281,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.42,
         "amount_yi": 186.7319,
         "market_cap_yi": 15894.4981,
-        "main_ratio": -3.3
+        "main_ratio": -3.3,
+        "up_count": 16,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.12
       },
       {
         "code": "BK0538",
@@ -5062,7 +7294,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 317.4226,
         "market_cap_yi": 15142.7286,
-        "main_ratio": -2.28
+        "main_ratio": -2.28,
+        "up_count": 141,
+        "down_count": 39,
+        "flat_count": 6,
+        "breadth_pct": 75.81
       },
       {
         "code": "BK1380",
@@ -5071,7 +7307,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.87,
         "amount_yi": 95.3128,
         "market_cap_yi": 12736.6946,
-        "main_ratio": -7.88
+        "main_ratio": -7.88,
+        "up_count": 3,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 27.27
       },
       {
         "code": "BK0478",
@@ -5080,7 +7320,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.51,
         "amount_yi": 786.6638,
         "market_cap_yi": 47006.7405,
-        "main_ratio": -0.96
+        "main_ratio": -0.96,
+        "up_count": 129,
+        "down_count": 16,
+        "flat_count": 1,
+        "breadth_pct": 88.36
       },
       {
         "code": "BK1326",
@@ -5089,7 +7333,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.92,
         "amount_yi": 359.0815,
         "market_cap_yi": 16286.8402,
-        "main_ratio": -2.49
+        "main_ratio": -2.49,
+        "up_count": 17,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 68.0
       },
       {
         "code": "BK1204",
@@ -5098,7 +7346,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 519.8604,
         "market_cap_yi": 28648.7328,
-        "main_ratio": -1.83
+        "main_ratio": -1.83,
+        "up_count": 129,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 91.49
       },
       {
         "code": "BK0546",
@@ -5107,7 +7359,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.53,
         "amount_yi": 152.1236,
         "market_cap_yi": 4600.8496,
-        "main_ratio": -6.35
+        "main_ratio": -6.35,
+        "up_count": 12,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 70.59
       },
       {
         "code": "BK1209",
@@ -5116,7 +7372,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.67,
         "amount_yi": 253.3991,
         "market_cap_yi": 16361.4154,
-        "main_ratio": -4.34
+        "main_ratio": -4.34,
+        "up_count": 107,
+        "down_count": 40,
+        "flat_count": 11,
+        "breadth_pct": 67.72
       },
       {
         "code": "BK1208",
@@ -5125,7 +7385,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.07,
         "amount_yi": 232.2097,
         "market_cap_yi": 9557.7862,
-        "main_ratio": -4.77
+        "main_ratio": -4.77,
+        "up_count": 49,
+        "down_count": 23,
+        "flat_count": 6,
+        "breadth_pct": 62.82
       },
       {
         "code": "BK1610",
@@ -5134,7 +7398,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.44,
         "amount_yi": 137.6272,
         "market_cap_yi": 29726.5424,
-        "main_ratio": -8.12
+        "main_ratio": -8.12,
+        "up_count": 2,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 22.22
       },
       {
         "code": "BK1206",
@@ -5143,7 +7411,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 859.1458,
         "market_cap_yi": 41504.8293,
-        "main_ratio": -1.6
+        "main_ratio": -1.6,
+        "up_count": 358,
+        "down_count": 90,
+        "flat_count": 10,
+        "breadth_pct": 78.17
       },
       {
         "code": "BK1611",
@@ -5152,7 +7424,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -2.75,
         "amount_yi": 200.5581,
         "market_cap_yi": 120401.4387,
-        "main_ratio": -7.29
+        "main_ratio": -7.29,
+        "up_count": 0,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "BK0428",
@@ -5161,7 +7437,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.35,
         "amount_yi": 319.3377,
         "market_cap_yi": 38450.7728,
-        "main_ratio": -4.64
+        "main_ratio": -4.64,
+        "up_count": 56,
+        "down_count": 44,
+        "flat_count": 12,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK0427",
@@ -5170,7 +7450,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.22,
         "amount_yi": 350.6966,
         "market_cap_yi": 40942.3898,
-        "main_ratio": -4.47
+        "main_ratio": -4.47,
+        "up_count": 74,
+        "down_count": 55,
+        "flat_count": 14,
+        "breadth_pct": 51.75
       },
       {
         "code": "BK1216",
@@ -5179,7 +7463,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.69,
         "amount_yi": 1105.1408,
         "market_cap_yi": 65301.8752,
-        "main_ratio": -1.55
+        "main_ratio": -1.55,
+        "up_count": 422,
+        "down_count": 75,
+        "flat_count": 15,
+        "breadth_pct": 82.42
       },
       {
         "code": "BK1340",
@@ -5188,7 +7476,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.77,
         "amount_yi": 832.2204,
         "market_cap_yi": 22027.2528,
-        "main_ratio": -2.9
+        "main_ratio": -2.9,
+        "up_count": 21,
+        "down_count": 26,
+        "flat_count": 1,
+        "breadth_pct": 43.75
       },
       {
         "code": "BK0459",
@@ -5197,7 +7489,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.14,
         "amount_yi": 989.1429,
         "market_cap_yi": 26262.0427,
-        "main_ratio": -2.81
+        "main_ratio": -2.81,
+        "up_count": 37,
+        "down_count": 29,
+        "flat_count": 1,
+        "breadth_pct": 55.22
       },
       {
         "code": "BK1283",
@@ -5206,7 +7502,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.54,
         "amount_yi": 461.8783,
         "market_cap_yi": 165774.7021,
-        "main_ratio": -6.48
+        "main_ratio": -6.48,
+        "up_count": 13,
+        "down_count": 26,
+        "flat_count": 3,
+        "breadth_pct": 30.95
       },
       {
         "code": "BK0475",
@@ -5215,7 +7515,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.54,
         "amount_yi": 461.8783,
         "market_cap_yi": 165774.7021,
-        "main_ratio": -6.48
+        "main_ratio": -6.48,
+        "up_count": 13,
+        "down_count": 26,
+        "flat_count": 3,
+        "breadth_pct": 30.95
       }
     ]
   },
@@ -5229,7 +7533,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.33,
         "amount_yi": 3721.019,
         "market_cap_yi": 134219.3766,
-        "main_ratio": 3.07
+        "main_ratio": 3.07,
+        "up_count": 652,
+        "down_count": 87,
+        "flat_count": 15,
+        "breadth_pct": 86.47
       },
       {
         "code": "BK1646",
@@ -5238,7 +7546,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.38,
         "amount_yi": 1834.2812,
         "market_cap_yi": 88897.0522,
-        "main_ratio": 4.38
+        "main_ratio": 4.38,
+        "up_count": 190,
+        "down_count": 23,
+        "flat_count": 5,
+        "breadth_pct": 87.16
       },
       {
         "code": "BK0891",
@@ -5247,7 +7559,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 3983.6686,
         "market_cap_yi": 175220.0755,
-        "main_ratio": 2.01
+        "main_ratio": 2.01,
+        "up_count": 397,
+        "down_count": 38,
+        "flat_count": 4,
+        "breadth_pct": 90.43
       },
       {
         "code": "BK1184",
@@ -5256,7 +7572,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.92,
         "amount_yi": 2041.561,
         "market_cap_yi": 64678.313,
-        "main_ratio": 3.5
+        "main_ratio": 3.5,
+        "up_count": 291,
+        "down_count": 20,
+        "flat_count": 1,
+        "breadth_pct": 93.27
       },
       {
         "code": "BK0804",
@@ -5265,7 +7585,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.29,
         "amount_yi": 9274.6001,
         "market_cap_yi": 367573.1328,
-        "main_ratio": 0.76
+        "main_ratio": 0.76,
+        "up_count": 1595,
+        "down_count": 255,
+        "flat_count": 37,
+        "breadth_pct": 84.53
       },
       {
         "code": "BK1090",
@@ -5274,7 +7598,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.72,
         "amount_yi": 3440.7231,
         "market_cap_yi": 130663.3882,
-        "main_ratio": 1.74
+        "main_ratio": 1.74,
+        "up_count": 710,
+        "down_count": 68,
+        "flat_count": 8,
+        "breadth_pct": 90.33
       },
       {
         "code": "BK1637",
@@ -5283,7 +7611,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 2950.5567,
         "market_cap_yi": 144976.0998,
-        "main_ratio": 1.97
+        "main_ratio": 1.97,
+        "up_count": 59,
+        "down_count": 40,
+        "flat_count": 1,
+        "breadth_pct": 59.0
       },
       {
         "code": "BK0568",
@@ -5292,7 +7624,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.62,
         "amount_yi": 5446.2537,
         "market_cap_yi": 256087.5878,
-        "main_ratio": 1.06
+        "main_ratio": 1.06,
+        "up_count": 438,
+        "down_count": 54,
+        "flat_count": 8,
+        "breadth_pct": 87.6
       },
       {
         "code": "BK0722",
@@ -5301,7 +7637,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.62,
         "amount_yi": 1271.0642,
         "market_cap_yi": 37323.2317,
-        "main_ratio": 4.36
+        "main_ratio": 4.36,
+        "up_count": 198,
+        "down_count": 20,
+        "flat_count": 4,
+        "breadth_pct": 89.19
       },
       {
         "code": "BK0743",
@@ -5310,7 +7650,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.55,
         "amount_yi": 2537.3574,
         "market_cap_yi": 147275.799,
-        "main_ratio": 2.15
+        "main_ratio": 2.15,
+        "up_count": 84,
+        "down_count": 16,
+        "flat_count": 0,
+        "breadth_pct": 84.0
       },
       {
         "code": "BK0641",
@@ -5319,7 +7663,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.91,
         "amount_yi": 1226.3435,
         "market_cap_yi": 36513.6022,
-        "main_ratio": 4.42
+        "main_ratio": 4.42,
+        "up_count": 120,
+        "down_count": 10,
+        "flat_count": 3,
+        "breadth_pct": 90.23
       },
       {
         "code": "BK1713",
@@ -5328,7 +7676,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.81,
         "amount_yi": 3577.5244,
         "market_cap_yi": 175615.1373,
-        "main_ratio": 1.51
+        "main_ratio": 1.51,
+        "up_count": 88,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 88.0
       },
       {
         "code": "BK1059",
@@ -5337,7 +7689,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.39,
         "amount_yi": 4097.4489,
         "market_cap_yi": 169100.5491,
-        "main_ratio": 1.31
+        "main_ratio": 1.31,
+        "up_count": 131,
+        "down_count": 25,
+        "flat_count": 0,
+        "breadth_pct": 83.97
       },
       {
         "code": "BK1629",
@@ -5346,7 +7702,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.74,
         "amount_yi": 1463.1776,
         "market_cap_yi": 42387.3309,
-        "main_ratio": 3.44
+        "main_ratio": 3.44,
+        "up_count": 276,
+        "down_count": 31,
+        "flat_count": 1,
+        "breadth_pct": 89.61
       },
       {
         "code": "BK0917",
@@ -5355,7 +7715,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.7,
         "amount_yi": 4335.4671,
         "market_cap_yi": 182548.4237,
-        "main_ratio": 1.13
+        "main_ratio": 1.13,
+        "up_count": 480,
+        "down_count": 60,
+        "flat_count": 3,
+        "breadth_pct": 88.4
       },
       {
         "code": "BK0893",
@@ -5364,7 +7728,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.81,
         "amount_yi": 821.0786,
         "market_cap_yi": 26722.0878,
-        "main_ratio": 5.75
+        "main_ratio": 5.75,
+        "up_count": 77,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 89.53
       },
       {
         "code": "BK0833",
@@ -5373,7 +7741,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.3,
         "amount_yi": 1593.3255,
         "market_cap_yi": 71366.4998,
-        "main_ratio": 2.92
+        "main_ratio": 2.92,
+        "up_count": 210,
+        "down_count": 23,
+        "flat_count": 2,
+        "breadth_pct": 89.36
       },
       {
         "code": "BK1104",
@@ -5382,7 +7754,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.93,
         "amount_yi": 1227.0448,
         "market_cap_yi": 35732.2718,
-        "main_ratio": 3.67
+        "main_ratio": 3.67,
+        "up_count": 222,
+        "down_count": 24,
+        "flat_count": 2,
+        "breadth_pct": 89.52
       },
       {
         "code": "BK1722",
@@ -5391,7 +7767,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.29,
         "amount_yi": 2606.433,
         "market_cap_yi": 107231.2627,
-        "main_ratio": 1.72
+        "main_ratio": 1.72,
+        "up_count": 158,
+        "down_count": 39,
+        "flat_count": 3,
+        "breadth_pct": 79.0
       },
       {
         "code": "BK1009",
@@ -5400,7 +7780,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.24,
         "amount_yi": 843.9612,
         "market_cap_yi": 41466.1125,
-        "main_ratio": 5.32
+        "main_ratio": 5.32,
+        "up_count": 131,
+        "down_count": 10,
+        "flat_count": 3,
+        "breadth_pct": 90.97
       }
     ],
     "top_outflow": [
@@ -5411,7 +7795,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.88,
         "amount_yi": 7795.5344,
         "market_cap_yi": 712423.8746,
-        "main_ratio": -1.16
+        "main_ratio": -1.16,
+        "up_count": 1325,
+        "down_count": 272,
+        "flat_count": 45,
+        "breadth_pct": 80.69
       },
       {
         "code": "BK0683",
@@ -5420,7 +7808,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.08,
         "amount_yi": 4668.7052,
         "market_cap_yi": 477175.7005,
-        "main_ratio": -1.67
+        "main_ratio": -1.67,
+        "up_count": 1086,
+        "down_count": 292,
+        "flat_count": 72,
+        "breadth_pct": 74.9
       },
       {
         "code": "BK0879",
@@ -5429,7 +7821,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.38,
         "amount_yi": 6211.8325,
         "market_cap_yi": 616628.3494,
-        "main_ratio": -0.9
+        "main_ratio": -0.9,
+        "up_count": 813,
+        "down_count": 187,
+        "flat_count": 47,
+        "breadth_pct": 77.65
       },
       {
         "code": "BK1112",
@@ -5438,7 +7834,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 1200.5355,
         "market_cap_yi": 256311.2883,
-        "main_ratio": -3.97
+        "main_ratio": -3.97,
+        "up_count": 336,
+        "down_count": 122,
+        "flat_count": 41,
+        "breadth_pct": 67.33
       },
       {
         "code": "BK0612",
@@ -5447,7 +7847,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.35,
         "amount_yi": 2961.6951,
         "market_cap_yi": 489625.9354,
-        "main_ratio": -1.48
+        "main_ratio": -1.48,
+        "up_count": 136,
+        "down_count": 41,
+        "flat_count": 3,
+        "breadth_pct": 75.56
       },
       {
         "code": "BK0877",
@@ -5456,7 +7860,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 1728.2653,
         "market_cap_yi": 52192.3277,
-        "main_ratio": -2.36
+        "main_ratio": -2.36,
+        "up_count": 161,
+        "down_count": 42,
+        "flat_count": 2,
+        "breadth_pct": 78.54
       },
       {
         "code": "BK1666",
@@ -5465,7 +7873,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 1037.6857,
         "market_cap_yi": 266205.7907,
-        "main_ratio": -3.61
+        "main_ratio": -3.61,
+        "up_count": 52,
+        "down_count": 29,
+        "flat_count": 2,
+        "breadth_pct": 62.65
       },
       {
         "code": "BK1139",
@@ -5474,7 +7886,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.14,
         "amount_yi": 805.2687,
         "market_cap_yi": 271751.4803,
-        "main_ratio": -3.99
+        "main_ratio": -3.99,
+        "up_count": 47,
+        "down_count": 28,
+        "flat_count": 6,
+        "breadth_pct": 58.02
       },
       {
         "code": "BK1635",
@@ -5483,7 +7899,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.34,
         "amount_yi": 563.8745,
         "market_cap_yi": 153723.4406,
-        "main_ratio": -5.51
+        "main_ratio": -5.51,
+        "up_count": 112,
+        "down_count": 59,
+        "flat_count": 19,
+        "breadth_pct": 58.95
       },
       {
         "code": "BK1641",
@@ -5492,7 +7912,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.19,
         "amount_yi": 613.3834,
         "market_cap_yi": 210076.3136,
-        "main_ratio": -4.73
+        "main_ratio": -4.73,
+        "up_count": 49,
+        "down_count": 49,
+        "flat_count": 2,
+        "breadth_pct": 49.0
       },
       {
         "code": "BK1714",
@@ -5501,7 +7925,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.69,
         "amount_yi": 874.712,
         "market_cap_yi": 229981.2915,
-        "main_ratio": -3.29
+        "main_ratio": -3.29,
+        "up_count": 68,
+        "down_count": 30,
+        "flat_count": 2,
+        "breadth_pct": 68.0
       },
       {
         "code": "BK1715",
@@ -5510,7 +7938,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.28,
         "amount_yi": 529.499,
         "market_cap_yi": 127560.3968,
-        "main_ratio": -5.12
+        "main_ratio": -5.12,
+        "up_count": 19,
+        "down_count": 26,
+        "flat_count": 0,
+        "breadth_pct": 42.22
       },
       {
         "code": "BK0712",
@@ -5519,7 +7951,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.03,
         "amount_yi": 1774.5067,
         "market_cap_yi": 161388.736,
-        "main_ratio": -1.53
+        "main_ratio": -1.53,
+        "up_count": 395,
+        "down_count": 103,
+        "flat_count": 33,
+        "breadth_pct": 74.39
       },
       {
         "code": "BK1676",
@@ -5528,7 +7964,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.01,
         "amount_yi": 472.3713,
         "market_cap_yi": 97361.0752,
-        "main_ratio": -5.43
+        "main_ratio": -5.43,
+        "up_count": 17,
+        "down_count": 23,
+        "flat_count": 0,
+        "breadth_pct": 42.5
       },
       {
         "code": "BK1685",
@@ -5537,7 +7977,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.59,
         "amount_yi": 439.7273,
         "market_cap_yi": 118919.3549,
-        "main_ratio": -5.61
+        "main_ratio": -5.61,
+        "up_count": 37,
+        "down_count": 22,
+        "flat_count": 5,
+        "breadth_pct": 57.81
       },
       {
         "code": "BK0705",
@@ -5546,7 +7990,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.85,
         "amount_yi": 1803.638,
         "market_cap_yi": 111360.809,
-        "main_ratio": -1.34
+        "main_ratio": -1.34,
+        "up_count": 303,
+        "down_count": 65,
+        "flat_count": 12,
+        "breadth_pct": 79.74
       },
       {
         "code": "BK1636",
@@ -5555,7 +8003,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.28,
         "amount_yi": 423.6326,
         "market_cap_yi": 157493.7216,
-        "main_ratio": -5.6
+        "main_ratio": -5.6,
+        "up_count": 19,
+        "down_count": 24,
+        "flat_count": 2,
+        "breadth_pct": 42.22
       },
       {
         "code": "BK1723",
@@ -5564,7 +8016,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.51,
         "amount_yi": 451.4587,
         "market_cap_yi": 70369.3517,
-        "main_ratio": -5.23
+        "main_ratio": -5.23,
+        "up_count": 135,
+        "down_count": 44,
+        "flat_count": 21,
+        "breadth_pct": 67.5
       },
       {
         "code": "BK0718",
@@ -5573,7 +8029,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.15,
         "amount_yi": 538.4808,
         "market_cap_yi": 215221.6218,
-        "main_ratio": -4.3
+        "main_ratio": -4.3,
+        "up_count": 20,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 58.82
       },
       {
         "code": "BK1674",
@@ -5582,7 +8042,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.21,
         "amount_yi": 558.5951,
         "market_cap_yi": 98717.4528,
-        "main_ratio": -3.99
+        "main_ratio": -3.99,
+        "up_count": 21,
+        "down_count": 21,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       }
     ],
     "all": [
@@ -5593,7 +8057,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.33,
         "amount_yi": 3721.019,
         "market_cap_yi": 134219.3766,
-        "main_ratio": 3.07
+        "main_ratio": 3.07,
+        "up_count": 652,
+        "down_count": 87,
+        "flat_count": 15,
+        "breadth_pct": 86.47
       },
       {
         "code": "BK1646",
@@ -5602,7 +8070,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.38,
         "amount_yi": 1834.2812,
         "market_cap_yi": 88897.0522,
-        "main_ratio": 4.38
+        "main_ratio": 4.38,
+        "up_count": 190,
+        "down_count": 23,
+        "flat_count": 5,
+        "breadth_pct": 87.16
       },
       {
         "code": "BK0891",
@@ -5611,7 +8083,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.16,
         "amount_yi": 3983.6686,
         "market_cap_yi": 175220.0755,
-        "main_ratio": 2.01
+        "main_ratio": 2.01,
+        "up_count": 397,
+        "down_count": 38,
+        "flat_count": 4,
+        "breadth_pct": 90.43
       },
       {
         "code": "BK1184",
@@ -5620,7 +8096,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.92,
         "amount_yi": 2041.561,
         "market_cap_yi": 64678.313,
-        "main_ratio": 3.5
+        "main_ratio": 3.5,
+        "up_count": 291,
+        "down_count": 20,
+        "flat_count": 1,
+        "breadth_pct": 93.27
       },
       {
         "code": "BK0804",
@@ -5629,7 +8109,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.29,
         "amount_yi": 9274.6001,
         "market_cap_yi": 367573.1328,
-        "main_ratio": 0.76
+        "main_ratio": 0.76,
+        "up_count": 1595,
+        "down_count": 255,
+        "flat_count": 37,
+        "breadth_pct": 84.53
       },
       {
         "code": "BK1090",
@@ -5638,7 +8122,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.72,
         "amount_yi": 3440.7231,
         "market_cap_yi": 130663.3882,
-        "main_ratio": 1.74
+        "main_ratio": 1.74,
+        "up_count": 710,
+        "down_count": 68,
+        "flat_count": 8,
+        "breadth_pct": 90.33
       },
       {
         "code": "BK1637",
@@ -5647,7 +8135,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 2950.5567,
         "market_cap_yi": 144976.0998,
-        "main_ratio": 1.97
+        "main_ratio": 1.97,
+        "up_count": 59,
+        "down_count": 40,
+        "flat_count": 1,
+        "breadth_pct": 59.0
       },
       {
         "code": "BK0568",
@@ -5656,7 +8148,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.62,
         "amount_yi": 5446.2537,
         "market_cap_yi": 256087.5878,
-        "main_ratio": 1.06
+        "main_ratio": 1.06,
+        "up_count": 438,
+        "down_count": 54,
+        "flat_count": 8,
+        "breadth_pct": 87.6
       },
       {
         "code": "BK0722",
@@ -5665,7 +8161,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.62,
         "amount_yi": 1271.0642,
         "market_cap_yi": 37323.2317,
-        "main_ratio": 4.36
+        "main_ratio": 4.36,
+        "up_count": 198,
+        "down_count": 20,
+        "flat_count": 4,
+        "breadth_pct": 89.19
       },
       {
         "code": "BK0743",
@@ -5674,7 +8174,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.55,
         "amount_yi": 2537.3574,
         "market_cap_yi": 147275.799,
-        "main_ratio": 2.15
+        "main_ratio": 2.15,
+        "up_count": 84,
+        "down_count": 16,
+        "flat_count": 0,
+        "breadth_pct": 84.0
       },
       {
         "code": "BK0641",
@@ -5683,7 +8187,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.91,
         "amount_yi": 1226.3435,
         "market_cap_yi": 36513.6022,
-        "main_ratio": 4.42
+        "main_ratio": 4.42,
+        "up_count": 120,
+        "down_count": 10,
+        "flat_count": 3,
+        "breadth_pct": 90.23
       },
       {
         "code": "BK1713",
@@ -5692,7 +8200,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.81,
         "amount_yi": 3577.5244,
         "market_cap_yi": 175615.1373,
-        "main_ratio": 1.51
+        "main_ratio": 1.51,
+        "up_count": 88,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 88.0
       },
       {
         "code": "BK1059",
@@ -5701,7 +8213,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.39,
         "amount_yi": 4097.4489,
         "market_cap_yi": 169100.5491,
-        "main_ratio": 1.31
+        "main_ratio": 1.31,
+        "up_count": 131,
+        "down_count": 25,
+        "flat_count": 0,
+        "breadth_pct": 83.97
       },
       {
         "code": "BK1629",
@@ -5710,7 +8226,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.74,
         "amount_yi": 1463.1776,
         "market_cap_yi": 42387.3309,
-        "main_ratio": 3.44
+        "main_ratio": 3.44,
+        "up_count": 276,
+        "down_count": 31,
+        "flat_count": 1,
+        "breadth_pct": 89.61
       },
       {
         "code": "BK0917",
@@ -5719,7 +8239,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.7,
         "amount_yi": 4335.4671,
         "market_cap_yi": 182548.4237,
-        "main_ratio": 1.13
+        "main_ratio": 1.13,
+        "up_count": 480,
+        "down_count": 60,
+        "flat_count": 3,
+        "breadth_pct": 88.4
       },
       {
         "code": "BK0893",
@@ -5728,7 +8252,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.81,
         "amount_yi": 821.0786,
         "market_cap_yi": 26722.0878,
-        "main_ratio": 5.75
+        "main_ratio": 5.75,
+        "up_count": 77,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 89.53
       },
       {
         "code": "BK0833",
@@ -5737,7 +8265,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.3,
         "amount_yi": 1593.3255,
         "market_cap_yi": 71366.4998,
-        "main_ratio": 2.92
+        "main_ratio": 2.92,
+        "up_count": 210,
+        "down_count": 23,
+        "flat_count": 2,
+        "breadth_pct": 89.36
       },
       {
         "code": "BK1104",
@@ -5746,7 +8278,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.93,
         "amount_yi": 1227.0448,
         "market_cap_yi": 35732.2718,
-        "main_ratio": 3.67
+        "main_ratio": 3.67,
+        "up_count": 222,
+        "down_count": 24,
+        "flat_count": 2,
+        "breadth_pct": 89.52
       },
       {
         "code": "BK1722",
@@ -5755,7 +8291,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.29,
         "amount_yi": 2606.433,
         "market_cap_yi": 107231.2627,
-        "main_ratio": 1.72
+        "main_ratio": 1.72,
+        "up_count": 158,
+        "down_count": 39,
+        "flat_count": 3,
+        "breadth_pct": 79.0
       },
       {
         "code": "BK1009",
@@ -5764,7 +8304,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.24,
         "amount_yi": 843.9612,
         "market_cap_yi": 41466.1125,
-        "main_ratio": 5.32
+        "main_ratio": 5.32,
+        "up_count": 131,
+        "down_count": 10,
+        "flat_count": 3,
+        "breadth_pct": 90.97
       },
       {
         "code": "BK1178",
@@ -5773,7 +8317,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.1,
         "amount_yi": 1212.047,
         "market_cap_yi": 35317.9835,
-        "main_ratio": 3.63
+        "main_ratio": 3.63,
+        "up_count": 135,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 94.41
       },
       {
         "code": "BK0923",
@@ -5782,7 +8330,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.32,
         "amount_yi": 901.2658,
         "market_cap_yi": 50759.8464,
-        "main_ratio": 4.74
+        "main_ratio": 4.74,
+        "up_count": 99,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 89.19
       },
       {
         "code": "BK0696",
@@ -5791,7 +8343,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.83,
         "amount_yi": 922.1766,
         "market_cap_yi": 26900.1562,
-        "main_ratio": 4.43
+        "main_ratio": 4.43,
+        "up_count": 211,
+        "down_count": 22,
+        "flat_count": 1,
+        "breadth_pct": 90.17
       },
       {
         "code": "BK0742",
@@ -5800,7 +8356,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.67,
         "amount_yi": 5344.8319,
         "market_cap_yi": 162088.471,
-        "main_ratio": 0.74
+        "main_ratio": 0.74,
+        "up_count": 1194,
+        "down_count": 158,
+        "flat_count": 18,
+        "breadth_pct": 87.15
       },
       {
         "code": "BK0854",
@@ -5809,7 +8369,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.76,
         "amount_yi": 4286.8344,
         "market_cap_yi": 138123.8426,
-        "main_ratio": 0.92
+        "main_ratio": 0.92,
+        "up_count": 575,
+        "down_count": 88,
+        "flat_count": 8,
+        "breadth_pct": 85.69
       },
       {
         "code": "BK0501",
@@ -5818,7 +8382,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.52,
         "amount_yi": 711.2057,
         "market_cap_yi": 65454.4666,
-        "main_ratio": 5.38
+        "main_ratio": 5.38,
+        "up_count": 151,
+        "down_count": 13,
+        "flat_count": 0,
+        "breadth_pct": 92.07
       },
       {
         "code": "BK1111",
@@ -5827,7 +8395,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.88,
         "amount_yi": 845.9871,
         "market_cap_yi": 19786.175,
-        "main_ratio": 4.47
+        "main_ratio": 4.47,
+        "up_count": 113,
+        "down_count": 17,
+        "flat_count": 3,
+        "breadth_pct": 84.96
       },
       {
         "code": "BK0638",
@@ -5836,7 +8408,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.05,
         "amount_yi": 2301.222,
         "market_cap_yi": 80527.913,
-        "main_ratio": 1.6
+        "main_ratio": 1.6,
+        "up_count": 94,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 94.0
       },
       {
         "code": "BK0554",
@@ -5845,7 +8421,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.2,
         "amount_yi": 2187.522,
         "market_cap_yi": 94468.969,
-        "main_ratio": 1.63
+        "main_ratio": 1.63,
+        "up_count": 344,
+        "down_count": 36,
+        "flat_count": 6,
+        "breadth_pct": 89.12
       },
       {
         "code": "BK0689",
@@ -5854,7 +8434,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.36,
         "amount_yi": 1207.3829,
         "market_cap_yi": 71231.3754,
-        "main_ratio": 2.91
+        "main_ratio": 2.91,
+        "up_count": 173,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 93.51
       },
       {
         "code": "BK1141",
@@ -5863,7 +8447,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.33,
         "amount_yi": 371.4796,
         "market_cap_yi": 13461.4192,
-        "main_ratio": 9.1
+        "main_ratio": 9.1,
+        "up_count": 32,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 94.12
       },
       {
         "code": "BK1061",
@@ -5872,7 +8460,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.09,
         "amount_yi": 694.8137,
         "market_cap_yi": 17982.7382,
-        "main_ratio": 4.81
+        "main_ratio": 4.81,
+        "up_count": 168,
+        "down_count": 24,
+        "flat_count": 4,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK0634",
@@ -5881,7 +8473,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.27,
         "amount_yi": 1451.4854,
         "market_cap_yi": 52363.0336,
-        "main_ratio": 2.29
+        "main_ratio": 2.29,
+        "up_count": 259,
+        "down_count": 30,
+        "flat_count": 5,
+        "breadth_pct": 88.1
       },
       {
         "code": "BK1665",
@@ -5890,7 +8486,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.75,
         "amount_yi": 3373.8943,
         "market_cap_yi": 164003.1258,
-        "main_ratio": 0.98
+        "main_ratio": 0.98,
+        "up_count": 99,
+        "down_count": 14,
+        "flat_count": 0,
+        "breadth_pct": 87.61
       },
       {
         "code": "BK1188",
@@ -5899,7 +8499,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.82,
         "amount_yi": 1258.5717,
         "market_cap_yi": 44439.5571,
-        "main_ratio": 2.58
+        "main_ratio": 2.58,
+        "up_count": 239,
+        "down_count": 24,
+        "flat_count": 1,
+        "breadth_pct": 90.53
       },
       {
         "code": "BK1135",
@@ -5908,7 +8512,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.22,
         "amount_yi": 754.3284,
         "market_cap_yi": 21355.5789,
-        "main_ratio": 4.18
+        "main_ratio": 4.18,
+        "up_count": 154,
+        "down_count": 34,
+        "flat_count": 1,
+        "breadth_pct": 81.48
       },
       {
         "code": "BK0845",
@@ -5917,7 +8525,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.77,
         "amount_yi": 861.638,
         "market_cap_yi": 28496.66,
-        "main_ratio": 3.58
+        "main_ratio": 3.58,
+        "up_count": 137,
+        "down_count": 10,
+        "flat_count": 2,
+        "breadth_pct": 91.95
       },
       {
         "code": "BK1055",
@@ -5926,7 +8538,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.69,
         "amount_yi": 522.0224,
         "market_cap_yi": 32347.1202,
-        "main_ratio": 5.85
+        "main_ratio": 5.85,
+        "up_count": 82,
+        "down_count": 4,
+        "flat_count": 2,
+        "breadth_pct": 93.18
       },
       {
         "code": "BK0905",
@@ -5935,7 +8551,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.62,
         "amount_yi": 826.0433,
         "market_cap_yi": 22746.4266,
-        "main_ratio": 3.6
+        "main_ratio": 3.6,
+        "up_count": 124,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 91.18
       },
       {
         "code": "BK0859",
@@ -5944,7 +8564,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.61,
         "amount_yi": 758.8871,
         "market_cap_yi": 26683.3805,
-        "main_ratio": 3.88
+        "main_ratio": 3.88,
+        "up_count": 90,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 91.84
       },
       {
         "code": "BK0969",
@@ -5953,7 +8577,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.17,
         "amount_yi": 694.2198,
         "market_cap_yi": 18767.343,
-        "main_ratio": 4.24
+        "main_ratio": 4.24,
+        "up_count": 71,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 92.21
       },
       {
         "code": "BK1126",
@@ -5962,7 +8590,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.2,
         "amount_yi": 435.187,
         "market_cap_yi": 10700.5678,
-        "main_ratio": 6.65
+        "main_ratio": 6.65,
+        "up_count": 59,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 95.16
       },
       {
         "code": "BK1134",
@@ -5971,7 +8603,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.42,
         "amount_yi": 2121.8639,
         "market_cap_yi": 103615.5776,
-        "main_ratio": 1.36
+        "main_ratio": 1.36,
+        "up_count": 208,
+        "down_count": 36,
+        "flat_count": 5,
+        "breadth_pct": 83.53
       },
       {
         "code": "BK0809",
@@ -5980,7 +8616,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.85,
         "amount_yi": 771.2354,
         "market_cap_yi": 23157.973,
-        "main_ratio": 3.64
+        "main_ratio": 3.64,
+        "up_count": 168,
+        "down_count": 13,
+        "flat_count": 3,
+        "breadth_pct": 91.3
       },
       {
         "code": "BK0953",
@@ -5989,7 +8629,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.49,
         "amount_yi": 582.7005,
         "market_cap_yi": 22914.5536,
-        "main_ratio": 4.81
+        "main_ratio": 4.81,
+        "up_count": 118,
+        "down_count": 13,
+        "flat_count": 0,
+        "breadth_pct": 90.08
       },
       {
         "code": "BK0447",
@@ -5998,7 +8642,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.67,
         "amount_yi": 631.6985,
         "market_cap_yi": 17334.9302,
-        "main_ratio": 4.34
+        "main_ratio": 4.34,
+        "up_count": 132,
+        "down_count": 13,
+        "flat_count": 2,
+        "breadth_pct": 89.8
       },
       {
         "code": "BK1699",
@@ -6007,7 +8655,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.05,
         "amount_yi": 1217.8395,
         "market_cap_yi": 34981.6003,
-        "main_ratio": 2.24
+        "main_ratio": 2.24,
+        "up_count": 187,
+        "down_count": 36,
+        "flat_count": 8,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK0644",
@@ -6016,7 +8668,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.18,
         "amount_yi": 1436.6732,
         "market_cap_yi": 51941.2429,
-        "main_ratio": 1.87
+        "main_ratio": 1.87,
+        "up_count": 197,
+        "down_count": 19,
+        "flat_count": 1,
+        "breadth_pct": 90.78
       },
       {
         "code": "BK1137",
@@ -6025,7 +8681,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.69,
         "amount_yi": 2140.0212,
         "market_cap_yi": 97038.377,
-        "main_ratio": 1.24
+        "main_ratio": 1.24,
+        "up_count": 124,
+        "down_count": 18,
+        "flat_count": 1,
+        "breadth_pct": 86.71
       },
       {
         "code": "BK0999",
@@ -6034,7 +8694,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.08,
         "amount_yi": 1263.5227,
         "market_cap_yi": 122055.7645,
-        "main_ratio": 2.06
+        "main_ratio": 2.06,
+        "up_count": 38,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 90.48
       },
       {
         "code": "BK0680",
@@ -6043,7 +8707,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.6,
         "amount_yi": 748.2785,
         "market_cap_yi": 36995.0229,
-        "main_ratio": 3.47
+        "main_ratio": 3.47,
+        "up_count": 140,
+        "down_count": 23,
+        "flat_count": 4,
+        "breadth_pct": 83.83
       },
       {
         "code": "BK0594",
@@ -6052,7 +8720,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.58,
         "amount_yi": 1717.5944,
         "market_cap_yi": 88260.1907,
-        "main_ratio": 1.49
+        "main_ratio": 1.49,
+        "up_count": 322,
+        "down_count": 69,
+        "flat_count": 17,
+        "breadth_pct": 78.92
       },
       {
         "code": "BK1750",
@@ -6061,7 +8733,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.7,
         "amount_yi": 969.8735,
         "market_cap_yi": 53671.3318,
-        "main_ratio": 2.59
+        "main_ratio": 2.59,
+        "up_count": 161,
+        "down_count": 36,
+        "flat_count": 7,
+        "breadth_pct": 78.92
       },
       {
         "code": "BK1155",
@@ -6070,7 +8746,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.11,
         "amount_yi": 883.8922,
         "market_cap_yi": 40534.208,
-        "main_ratio": 2.72
+        "main_ratio": 2.72,
+        "up_count": 118,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 90.77
       },
       {
         "code": "BK1127",
@@ -6079,7 +8759,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.81,
         "amount_yi": 569.6206,
         "market_cap_yi": 24211.0174,
-        "main_ratio": 4.19
+        "main_ratio": 4.19,
+        "up_count": 36,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK0567",
@@ -6088,7 +8772,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.83,
         "amount_yi": 1116.0848,
         "market_cap_yi": 49341.5526,
-        "main_ratio": 2.01
+        "main_ratio": 2.01,
+        "up_count": 187,
+        "down_count": 24,
+        "flat_count": 1,
+        "breadth_pct": 88.21
       },
       {
         "code": "BK1100",
@@ -6097,7 +8785,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.13,
         "amount_yi": 463.3755,
         "market_cap_yi": 10806.5086,
-        "main_ratio": 4.79
+        "main_ratio": 4.79,
+        "up_count": 86,
+        "down_count": 4,
+        "flat_count": 2,
+        "breadth_pct": 93.48
       },
       {
         "code": "BK1632",
@@ -6106,7 +8798,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 763.0072,
         "market_cap_yi": 6340.1912,
-        "main_ratio": 2.84
+        "main_ratio": 2.84,
+        "up_count": 35,
+        "down_count": 37,
+        "flat_count": 1,
+        "breadth_pct": 47.95
       },
       {
         "code": "BK0812",
@@ -6115,7 +8811,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.68,
         "amount_yi": 1084.3905,
         "market_cap_yi": 66322.9568,
-        "main_ratio": 1.98
+        "main_ratio": 1.98,
+        "up_count": 150,
+        "down_count": 38,
+        "flat_count": 4,
+        "breadth_pct": 78.12
       },
       {
         "code": "BK1153",
@@ -6124,7 +8824,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.28,
         "amount_yi": 495.4615,
         "market_cap_yi": 15892.8256,
-        "main_ratio": 4.29
+        "main_ratio": 4.29,
+        "up_count": 79,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 87.78
       },
       {
         "code": "BK1757",
@@ -6133,7 +8837,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.8,
         "amount_yi": 393.6581,
         "market_cap_yi": 35011.1386,
-        "main_ratio": 5.15
+        "main_ratio": 5.15,
+        "up_count": 14,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 93.33
       },
       {
         "code": "BK1177",
@@ -6142,7 +8850,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.48,
         "amount_yi": 551.6983,
         "market_cap_yi": 40490.6949,
-        "main_ratio": 3.61
+        "main_ratio": 3.61,
+        "up_count": 46,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 83.64
       },
       {
         "code": "BK1662",
@@ -6151,7 +8863,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.65,
         "amount_yi": 2506.3066,
         "market_cap_yi": 402176.4454,
-        "main_ratio": 0.79
+        "main_ratio": 0.79,
+        "up_count": 37,
+        "down_count": 13,
+        "flat_count": 0,
+        "breadth_pct": 74.0
       },
       {
         "code": "BK0662",
@@ -6160,7 +8876,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.9,
         "amount_yi": 458.1139,
         "market_cap_yi": 12775.4867,
-        "main_ratio": 4.28
+        "main_ratio": 4.28,
+        "up_count": 90,
+        "down_count": 18,
+        "flat_count": 4,
+        "breadth_pct": 80.36
       },
       {
         "code": "BK1164",
@@ -6169,7 +8889,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.52,
         "amount_yi": 660.5735,
         "market_cap_yi": 23849.2912,
-        "main_ratio": 2.94
+        "main_ratio": 2.94,
+        "up_count": 61,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 96.83
       },
       {
         "code": "BK1633",
@@ -6178,7 +8902,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.02,
         "amount_yi": 4446.6626,
         "market_cap_yi": 96126.3334,
-        "main_ratio": 0.42
+        "main_ratio": 0.42,
+        "up_count": 419,
+        "down_count": 230,
+        "flat_count": 9,
+        "breadth_pct": 63.68
       },
       {
         "code": "BK1190",
@@ -6187,7 +8915,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.34,
         "amount_yi": 251.1329,
         "market_cap_yi": 6158.915,
-        "main_ratio": 7.4
+        "main_ratio": 7.4,
+        "up_count": 15,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 93.75
       },
       {
         "code": "BK1743",
@@ -6196,7 +8928,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.5,
         "amount_yi": 832.2973,
         "market_cap_yi": 36641.9592,
-        "main_ratio": 2.2
+        "main_ratio": 2.2,
+        "up_count": 24,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK0666",
@@ -6205,7 +8941,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.88,
         "amount_yi": 1047.9058,
         "market_cap_yi": 41780.5418,
-        "main_ratio": 1.74
+        "main_ratio": 1.74,
+        "up_count": 114,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 91.2
       },
       {
         "code": "BK0802",
@@ -6214,7 +8954,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.86,
         "amount_yi": 1715.3373,
         "market_cap_yi": 67884.7181,
-        "main_ratio": 1.04
+        "main_ratio": 1.04,
+        "up_count": 269,
+        "down_count": 33,
+        "flat_count": 2,
+        "breadth_pct": 88.49
       },
       {
         "code": "BK0920",
@@ -6223,7 +8967,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.34,
         "amount_yi": 943.8824,
         "market_cap_yi": 50380.2112,
-        "main_ratio": 1.86
+        "main_ratio": 1.86,
+        "up_count": 193,
+        "down_count": 19,
+        "flat_count": 1,
+        "breadth_pct": 90.61
       },
       {
         "code": "BK1110",
@@ -6232,7 +8980,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.86,
         "amount_yi": 208.5847,
         "market_cap_yi": 3867.7147,
-        "main_ratio": 8.39
+        "main_ratio": 8.39,
+        "up_count": 47,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 97.92
       },
       {
         "code": "BK1661",
@@ -6241,7 +8993,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.28,
         "amount_yi": 2226.2192,
         "market_cap_yi": 289216.9958,
-        "main_ratio": 0.78
+        "main_ratio": 0.78,
+        "up_count": 79,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 84.95
       },
       {
         "code": "BK1151",
@@ -6250,7 +9006,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.92,
         "amount_yi": 301.4549,
         "market_cap_yi": 6174.5115,
-        "main_ratio": 5.79
+        "main_ratio": 5.79,
+        "up_count": 39,
+        "down_count": 8,
+        "flat_count": 2,
+        "breadth_pct": 79.59
       },
       {
         "code": "BK1654",
@@ -6259,7 +9019,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.0,
         "amount_yi": 414.7368,
         "market_cap_yi": 10068.7013,
-        "main_ratio": 4.15
+        "main_ratio": 4.15,
+        "up_count": 83,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 89.25
       },
       {
         "code": "BK0835",
@@ -6268,7 +9032,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.41,
         "amount_yi": 741.3354,
         "market_cap_yi": 43716.9306,
-        "main_ratio": 2.31
+        "main_ratio": 2.31,
+        "up_count": 89,
+        "down_count": 11,
+        "flat_count": 4,
+        "breadth_pct": 85.58
       },
       {
         "code": "BK0860",
@@ -6277,7 +9045,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.56,
         "amount_yi": 761.1139,
         "market_cap_yi": 30992.6958,
-        "main_ratio": 2.23
+        "main_ratio": 2.23,
+        "up_count": 115,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 92.0
       },
       {
         "code": "BK0579",
@@ -6286,7 +9058,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.51,
         "amount_yi": 978.2798,
         "market_cap_yi": 66122.112,
-        "main_ratio": 1.72
+        "main_ratio": 1.72,
+        "up_count": 132,
+        "down_count": 17,
+        "flat_count": 0,
+        "breadth_pct": 88.59
       },
       {
         "code": "BK0655",
@@ -6295,7 +9071,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.4,
         "amount_yi": 772.132,
         "market_cap_yi": 47167.5853,
-        "main_ratio": 2.17
+        "main_ratio": 2.17,
+        "up_count": 123,
+        "down_count": 14,
+        "flat_count": 0,
+        "breadth_pct": 89.78
       },
       {
         "code": "BK1721",
@@ -6304,7 +9084,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 1053.2025,
         "market_cap_yi": 47147.6506,
-        "main_ratio": 1.57
+        "main_ratio": 1.57,
+        "up_count": 90,
+        "down_count": 10,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1689",
@@ -6313,7 +9097,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 3041.4572,
         "market_cap_yi": 161742.1107,
-        "main_ratio": 0.54
+        "main_ratio": 0.54,
+        "up_count": 545,
+        "down_count": 91,
+        "flat_count": 21,
+        "breadth_pct": 82.95
       },
       {
         "code": "BK1187",
@@ -6322,7 +9110,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.66,
         "amount_yi": 291.3378,
         "market_cap_yi": 7411.337,
-        "main_ratio": 5.57
+        "main_ratio": 5.57,
+        "up_count": 63,
+        "down_count": 13,
+        "flat_count": 0,
+        "breadth_pct": 82.89
       },
       {
         "code": "BK0832",
@@ -6331,7 +9123,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.21,
         "amount_yi": 669.8475,
         "market_cap_yi": 36159.3264,
-        "main_ratio": 2.4
+        "main_ratio": 2.4,
+        "up_count": 111,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 90.24
       },
       {
         "code": "BK1052",
@@ -6340,7 +9136,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.8,
         "amount_yi": 467.5102,
         "market_cap_yi": 19261.7322,
-        "main_ratio": 3.33
+        "main_ratio": 3.33,
+        "up_count": 45,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 93.75
       },
       {
         "code": "BK1143",
@@ -6349,7 +9149,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.03,
         "amount_yi": 163.2771,
         "market_cap_yi": 2702.4701,
-        "main_ratio": 9.1
+        "main_ratio": 9.1,
+        "up_count": 22,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK0801",
@@ -6358,7 +9162,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.19,
         "amount_yi": 252.9829,
         "market_cap_yi": 7123.2213,
-        "main_ratio": 5.78
+        "main_ratio": 5.78,
+        "up_count": 44,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 97.78
       },
       {
         "code": "BK1172",
@@ -6367,7 +9175,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.33,
         "amount_yi": 283.3491,
         "market_cap_yi": 4695.072,
-        "main_ratio": 5.1
+        "main_ratio": 5.1,
+        "up_count": 31,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 83.78
       },
       {
         "code": "BK0900",
@@ -6376,7 +9188,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.68,
         "amount_yi": 3155.4635,
         "market_cap_yi": 131980.3264,
-        "main_ratio": 0.44
+        "main_ratio": 0.44,
+        "up_count": 636,
+        "down_count": 77,
+        "flat_count": 7,
+        "breadth_pct": 88.33
       },
       {
         "code": "BK0596",
@@ -6385,7 +9201,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.19,
         "amount_yi": 17251.191,
         "market_cap_yi": 1119673.7126,
-        "main_ratio": 0.08
+        "main_ratio": 0.08,
+        "up_count": 3282,
+        "down_count": 527,
+        "flat_count": 79,
+        "breadth_pct": 84.41
       },
       {
         "code": "BK1183",
@@ -6394,7 +9214,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.88,
         "amount_yi": 292.1815,
         "market_cap_yi": 5904.3563,
-        "main_ratio": 4.68
+        "main_ratio": 4.68,
+        "up_count": 67,
+        "down_count": 14,
+        "flat_count": 2,
+        "breadth_pct": 80.72
       },
       {
         "code": "BK1749",
@@ -6403,7 +9227,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.01,
         "amount_yi": 4912.2967,
         "market_cap_yi": 216070.3846,
-        "main_ratio": 0.27
+        "main_ratio": 0.27,
+        "up_count": 483,
+        "down_count": 84,
+        "flat_count": 9,
+        "breadth_pct": 83.85
       },
       {
         "code": "BK1092",
@@ -6412,7 +9240,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.97,
         "amount_yi": 280.0488,
         "market_cap_yi": 11979.2358,
-        "main_ratio": 4.71
+        "main_ratio": 4.71,
+        "up_count": 8,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1088",
@@ -6421,7 +9253,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.78,
         "amount_yi": 620.3358,
         "market_cap_yi": 15163.8198,
-        "main_ratio": 2.07
+        "main_ratio": 2.07,
+        "up_count": 22,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK0821",
@@ -6430,7 +9266,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.17,
         "amount_yi": 8854.806,
         "market_cap_yi": 782804.1728,
-        "main_ratio": 0.14
+        "main_ratio": 0.14,
+        "up_count": 468,
+        "down_count": 90,
+        "flat_count": 6,
+        "breadth_pct": 82.98
       },
       {
         "code": "BK1684",
@@ -6439,7 +9279,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 2483.2496,
         "market_cap_yi": 78070.2464,
-        "main_ratio": 0.5
+        "main_ratio": 0.5,
+        "up_count": 542,
+        "down_count": 104,
+        "flat_count": 15,
+        "breadth_pct": 82.0
       },
       {
         "code": "BK0509",
@@ -6448,7 +9292,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.65,
         "amount_yi": 348.0124,
         "market_cap_yi": 10137.6477,
-        "main_ratio": 3.57
+        "main_ratio": 3.57,
+        "up_count": 60,
+        "down_count": 5,
+        "flat_count": 2,
+        "breadth_pct": 89.55
       },
       {
         "code": "BK0711",
@@ -6457,7 +9305,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.68,
         "amount_yi": 385.2866,
         "market_cap_yi": 35070.3811,
-        "main_ratio": 3.21
+        "main_ratio": 3.21,
+        "up_count": 46,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 86.79
       },
       {
         "code": "BK0948",
@@ -6466,7 +9318,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.13,
         "amount_yi": 260.2834,
         "market_cap_yi": 8360.724,
-        "main_ratio": 4.75
+        "main_ratio": 4.75,
+        "up_count": 37,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 92.5
       },
       {
         "code": "BK0968",
@@ -6475,7 +9331,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.97,
         "amount_yi": 1361.0727,
         "market_cap_yi": 50805.5398,
-        "main_ratio": 0.9
+        "main_ratio": 0.9,
+        "up_count": 214,
+        "down_count": 15,
+        "flat_count": 2,
+        "breadth_pct": 92.64
       },
       {
         "code": "BK1118",
@@ -6484,7 +9344,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.59,
         "amount_yi": 146.4756,
         "market_cap_yi": 2715.7317,
-        "main_ratio": 8.23
+        "main_ratio": 8.23,
+        "up_count": 35,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 89.74
       },
       {
         "code": "BK1115",
@@ -6493,7 +9357,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.13,
         "amount_yi": 367.217,
         "market_cap_yi": 15400.431,
-        "main_ratio": 3.27
+        "main_ratio": 3.27,
+        "up_count": 137,
+        "down_count": 31,
+        "flat_count": 2,
+        "breadth_pct": 80.59
       },
       {
         "code": "BK1150",
@@ -6502,7 +9370,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.1,
         "amount_yi": 502.9537,
         "market_cap_yi": 25676.6515,
-        "main_ratio": 2.38
+        "main_ratio": 2.38,
+        "up_count": 103,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 93.64
       },
       {
         "code": "BK0853",
@@ -6511,7 +9383,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.76,
         "amount_yi": 193.2462,
         "market_cap_yi": 28400.6467,
-        "main_ratio": 6.03
+        "main_ratio": 6.03,
+        "up_count": 32,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 91.43
       },
       {
         "code": "BK1136",
@@ -6520,7 +9396,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.81,
         "amount_yi": 2048.4564,
         "market_cap_yi": 51605.7549,
-        "main_ratio": 0.53
+        "main_ratio": 0.53,
+        "up_count": 92,
+        "down_count": 29,
+        "flat_count": 1,
+        "breadth_pct": 75.41
       },
       {
         "code": "BK0500",
@@ -6529,7 +9409,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.86,
         "amount_yi": 5582.0498,
         "market_cap_yi": 643409.303,
-        "main_ratio": 0.19
+        "main_ratio": 0.19,
+        "up_count": 240,
+        "down_count": 56,
+        "flat_count": 4,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1686",
@@ -6538,7 +9422,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.25,
         "amount_yi": 774.1477,
         "market_cap_yi": 38734.8854,
-        "main_ratio": 1.38
+        "main_ratio": 1.38,
+        "up_count": 92,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 85.19
       },
       {
         "code": "BK0984",
@@ -6547,7 +9435,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.96,
         "amount_yi": 426.9413,
         "market_cap_yi": 16455.7382,
-        "main_ratio": 2.5
+        "main_ratio": 2.5,
+        "up_count": 115,
+        "down_count": 11,
+        "flat_count": 0,
+        "breadth_pct": 91.27
       },
       {
         "code": "BK1064",
@@ -6556,7 +9448,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.43,
         "amount_yi": 456.3233,
         "market_cap_yi": 16523.8474,
-        "main_ratio": 2.3
+        "main_ratio": 2.3,
+        "up_count": 62,
+        "down_count": 11,
+        "flat_count": 0,
+        "breadth_pct": 84.93
       },
       {
         "code": "BK0861",
@@ -6565,7 +9461,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.55,
         "amount_yi": 357.6741,
         "market_cap_yi": 12582.5866,
-        "main_ratio": 2.92
+        "main_ratio": 2.92,
+        "up_count": 89,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 91.75
       },
       {
         "code": "BK1160",
@@ -6574,7 +9474,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.6,
         "amount_yi": 668.8525,
         "market_cap_yi": 16915.149,
-        "main_ratio": 1.51
+        "main_ratio": 1.51,
+        "up_count": 79,
+        "down_count": 13,
+        "flat_count": 0,
+        "breadth_pct": 85.87
       },
       {
         "code": "BK0998",
@@ -6583,7 +9487,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.89,
         "amount_yi": 424.3539,
         "market_cap_yi": 10891.1917,
-        "main_ratio": 2.38
+        "main_ratio": 2.38,
+        "up_count": 98,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 98.0
       },
       {
         "code": "BK1145",
@@ -6592,7 +9500,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.92,
         "amount_yi": 269.99,
         "market_cap_yi": 6611.0856,
-        "main_ratio": 3.74
+        "main_ratio": 3.74,
+        "up_count": 35,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 94.59
       },
       {
         "code": "BK0988",
@@ -6601,7 +9513,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.4,
         "amount_yi": 561.6803,
         "market_cap_yi": 23617.8389,
-        "main_ratio": 1.78
+        "main_ratio": 1.78,
+        "up_count": 71,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 89.87
       },
       {
         "code": "BK0901",
@@ -6610,7 +9526,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.85,
         "amount_yi": 140.8567,
         "market_cap_yi": 6224.0,
-        "main_ratio": 7.07
+        "main_ratio": 7.07,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0704",
@@ -6619,7 +9539,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.22,
         "amount_yi": 998.21,
         "market_cap_yi": 35326.0629,
-        "main_ratio": 1.0
+        "main_ratio": 1.0,
+        "up_count": 200,
+        "down_count": 36,
+        "flat_count": 1,
+        "breadth_pct": 84.39
       },
       {
         "code": "BK1000",
@@ -6628,7 +9552,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.36,
         "amount_yi": 710.7499,
         "market_cap_yi": 41933.7904,
-        "main_ratio": 1.39
+        "main_ratio": 1.39,
+        "up_count": 21,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1186",
@@ -6637,7 +9565,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.24,
         "amount_yi": 145.1937,
         "market_cap_yi": 3006.1272,
-        "main_ratio": 6.65
+        "main_ratio": 6.65,
+        "up_count": 36,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 87.8
       },
       {
         "code": "BK0494",
@@ -6646,7 +9578,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.09,
         "amount_yi": 1119.1995,
         "market_cap_yi": 46578.8851,
-        "main_ratio": 0.85
+        "main_ratio": 0.85,
+        "up_count": 315,
+        "down_count": 98,
+        "flat_count": 10,
+        "breadth_pct": 74.47
       },
       {
         "code": "BK0970",
@@ -6655,7 +9591,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.39,
         "amount_yi": 294.8026,
         "market_cap_yi": 10575.0405,
-        "main_ratio": 3.22
+        "main_ratio": 3.22,
+        "up_count": 45,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 88.24
       },
       {
         "code": "BK0656",
@@ -6664,7 +9604,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.95,
         "amount_yi": 57.3631,
         "market_cap_yi": 2817.5027,
-        "main_ratio": 16.47
+        "main_ratio": 16.47,
+        "up_count": 13,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1048",
@@ -6673,7 +9617,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.49,
         "amount_yi": 328.5576,
         "market_cap_yi": 19569.9626,
-        "main_ratio": 2.87
+        "main_ratio": 2.87,
+        "up_count": 38,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 86.36
       },
       {
         "code": "BK0960",
@@ -6682,7 +9630,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.02,
         "amount_yi": 300.8578,
         "market_cap_yi": 19393.424,
-        "main_ratio": 3.08
+        "main_ratio": 3.08,
+        "up_count": 38,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 90.48
       },
       {
         "code": "BK1142",
@@ -6691,7 +9643,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.34,
         "amount_yi": 185.5353,
         "market_cap_yi": 3388.693,
-        "main_ratio": 4.58
+        "main_ratio": 4.58,
+        "up_count": 19,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 79.17
       },
       {
         "code": "BK0535",
@@ -6700,7 +9656,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.72,
         "amount_yi": 2825.3415,
         "market_cap_yi": 96120.8704,
-        "main_ratio": 0.29
+        "main_ratio": 0.29,
+        "up_count": 686,
+        "down_count": 174,
+        "flat_count": 17,
+        "breadth_pct": 78.22
       },
       {
         "code": "BK0865",
@@ -6709,7 +9669,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.07,
         "amount_yi": 267.2632,
         "market_cap_yi": 9790.9232,
-        "main_ratio": 3.01
+        "main_ratio": 3.01,
+        "up_count": 31,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 79.49
       },
       {
         "code": "BK0937",
@@ -6718,7 +9682,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.53,
         "amount_yi": 492.5723,
         "market_cap_yi": 48110.2054,
-        "main_ratio": 1.6
+        "main_ratio": 1.6,
+        "up_count": 53,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 85.48
       },
       {
         "code": "BK1138",
@@ -6727,7 +9695,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.37,
         "amount_yi": 1389.5059,
         "market_cap_yi": 61525.3504,
-        "main_ratio": 0.56
+        "main_ratio": 0.56,
+        "up_count": 166,
+        "down_count": 26,
+        "flat_count": 1,
+        "breadth_pct": 86.01
       },
       {
         "code": "BK0897",
@@ -6736,7 +9708,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.51,
         "amount_yi": 174.1672,
         "market_cap_yi": 5616.987,
-        "main_ratio": 4.47
+        "main_ratio": 4.47,
+        "up_count": 17,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.44
       },
       {
         "code": "BK0830",
@@ -6745,7 +9721,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.78,
         "amount_yi": 1424.5199,
         "market_cap_yi": 189515.7734,
-        "main_ratio": 0.54
+        "main_ratio": 0.54,
+        "up_count": 206,
+        "down_count": 29,
+        "flat_count": 5,
+        "breadth_pct": 85.83
       },
       {
         "code": "BK1182",
@@ -6754,7 +9734,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.53,
         "amount_yi": 191.982,
         "market_cap_yi": 5536.3494,
-        "main_ratio": 3.65
+        "main_ratio": 3.65,
+        "up_count": 32,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 91.43
       },
       {
         "code": "BK0886",
@@ -6763,7 +9747,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.78,
         "amount_yi": 286.7228,
         "market_cap_yi": 6790.1432,
-        "main_ratio": 2.42
+        "main_ratio": 2.42,
+        "up_count": 86,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 88.66
       },
       {
         "code": "BK0940",
@@ -6772,7 +9760,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 400.5633,
         "market_cap_yi": 11606.6538,
-        "main_ratio": 1.72
+        "main_ratio": 1.72,
+        "up_count": 106,
+        "down_count": 23,
+        "flat_count": 5,
+        "breadth_pct": 79.1
       },
       {
         "code": "BK1669",
@@ -6781,7 +9773,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.11,
         "amount_yi": 2257.52,
         "market_cap_yi": 78835.2512,
-        "main_ratio": 0.3
+        "main_ratio": 0.3,
+        "up_count": 194,
+        "down_count": 21,
+        "flat_count": 3,
+        "breadth_pct": 88.99
       },
       {
         "code": "BK1716",
@@ -6790,7 +9786,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 8.1,
         "amount_yi": 138.0655,
         "market_cap_yi": 1239.1745,
-        "main_ratio": 4.83
+        "main_ratio": 4.83,
+        "up_count": 7,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK0499",
@@ -6799,7 +9799,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.75,
         "amount_yi": 3081.7141,
         "market_cap_yi": 444075.3766,
-        "main_ratio": 0.21
+        "main_ratio": 0.21,
+        "up_count": 163,
+        "down_count": 40,
+        "flat_count": 7,
+        "breadth_pct": 77.62
       },
       {
         "code": "BK0493",
@@ -6808,7 +9812,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.84,
         "amount_yi": 1033.5637,
         "market_cap_yi": 76770.6598,
-        "main_ratio": 0.58
+        "main_ratio": 0.58,
+        "up_count": 154,
+        "down_count": 56,
+        "flat_count": 10,
+        "breadth_pct": 70.0
       },
       {
         "code": "BK1651",
@@ -6817,7 +9825,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.95,
         "amount_yi": 276.197,
         "market_cap_yi": 7962.6499,
-        "main_ratio": 2.15
+        "main_ratio": 2.15,
+        "up_count": 41,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 85.42
       },
       {
         "code": "BK0628",
@@ -6826,7 +9838,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.51,
         "amount_yi": 746.2382,
         "market_cap_yi": 23428.3736,
-        "main_ratio": 0.78
+        "main_ratio": 0.78,
+        "up_count": 181,
+        "down_count": 34,
+        "flat_count": 3,
+        "breadth_pct": 83.03
       },
       {
         "code": "BK1047",
@@ -6835,7 +9851,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.68,
         "amount_yi": 397.9614,
         "market_cap_yi": 11832.179,
-        "main_ratio": 1.42
+        "main_ratio": 1.42,
+        "up_count": 74,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 89.16
       },
       {
         "code": "BK0667",
@@ -6844,7 +9864,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.22,
         "amount_yi": 553.9564,
         "market_cap_yi": 20695.845,
-        "main_ratio": 1.0
+        "main_ratio": 1.0,
+        "up_count": 130,
+        "down_count": 10,
+        "flat_count": 3,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1129",
@@ -6853,7 +9877,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.77,
         "amount_yi": 154.0403,
         "market_cap_yi": 2265.1773,
-        "main_ratio": 3.6
+        "main_ratio": 3.6,
+        "up_count": 28,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 84.85
       },
       {
         "code": "BK1717",
@@ -6862,7 +9890,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.44,
         "amount_yi": 497.4972,
         "market_cap_yi": 3245.8658,
-        "main_ratio": 1.09
+        "main_ratio": 1.09,
+        "up_count": 20,
+        "down_count": 18,
+        "flat_count": 0,
+        "breadth_pct": 52.63
       },
       {
         "code": "BK1173",
@@ -6871,7 +9903,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.56,
         "amount_yi": 550.6177,
         "market_cap_yi": 29429.3218,
-        "main_ratio": 0.93
+        "main_ratio": 0.93,
+        "up_count": 36,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK0524",
@@ -6880,7 +9916,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.2,
         "amount_yi": 207.7718,
         "market_cap_yi": 27011.9122,
-        "main_ratio": 2.43
+        "main_ratio": 2.43,
+        "up_count": 37,
+        "down_count": 6,
+        "flat_count": 3,
+        "breadth_pct": 80.43
       },
       {
         "code": "BK0922",
@@ -6889,7 +9929,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.1,
         "amount_yi": 2168.5747,
         "market_cap_yi": 107898.1043,
-        "main_ratio": 0.23
+        "main_ratio": 0.23,
+        "up_count": 284,
+        "down_count": 47,
+        "flat_count": 6,
+        "breadth_pct": 84.27
       },
       {
         "code": "BK0867",
@@ -6898,7 +9942,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.89,
         "amount_yi": 8910.6605,
         "market_cap_yi": 674539.223,
-        "main_ratio": 0.05
+        "main_ratio": 0.05,
+        "up_count": 1045,
+        "down_count": 189,
+        "flat_count": 45,
+        "breadth_pct": 81.7
       },
       {
         "code": "BK0896",
@@ -6907,7 +9955,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.74,
         "amount_yi": 203.3498,
         "market_cap_yi": 26136.4712,
-        "main_ratio": 2.32
+        "main_ratio": 2.32,
+        "up_count": 37,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 90.24
       },
       {
         "code": "BK1161",
@@ -6916,7 +9968,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.15,
         "amount_yi": 736.1302,
         "market_cap_yi": 28726.8571,
-        "main_ratio": 0.63
+        "main_ratio": 0.63,
+        "up_count": 59,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 88.06
       },
       {
         "code": "BK1076",
@@ -6925,7 +9981,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.6,
         "amount_yi": 86.5253,
         "market_cap_yi": 3023.933,
-        "main_ratio": 5.25
+        "main_ratio": 5.25,
+        "up_count": 45,
+        "down_count": 8,
+        "flat_count": 3,
+        "breadth_pct": 80.36
       },
       {
         "code": "BK0811",
@@ -6934,7 +9994,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.46,
         "amount_yi": 321.6602,
         "market_cap_yi": 73034.3808,
-        "main_ratio": 1.39
+        "main_ratio": 1.39,
+        "up_count": 27,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1162",
@@ -6943,7 +10007,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.29,
         "amount_yi": 262.3781,
         "market_cap_yi": 10266.8171,
-        "main_ratio": 1.68
+        "main_ratio": 1.68,
+        "up_count": 30,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 96.77
       },
       {
         "code": "BK0477",
@@ -6952,7 +10020,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.9,
         "amount_yi": 192.9496,
         "market_cap_yi": 26619.4832,
-        "main_ratio": 2.29
+        "main_ratio": 2.29,
+        "up_count": 34,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 89.47
       },
       {
         "code": "BK1125",
@@ -6961,7 +10033,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.99,
         "amount_yi": 96.1511,
         "market_cap_yi": 3155.4494,
-        "main_ratio": 4.44
+        "main_ratio": 4.44,
+        "up_count": 23,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 88.46
       },
       {
         "code": "BK1004",
@@ -6970,7 +10046,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.04,
         "amount_yi": 435.9754,
         "market_cap_yi": 16042.2302,
-        "main_ratio": 0.97
+        "main_ratio": 0.97,
+        "up_count": 85,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 93.41
       },
       {
         "code": "BK1022",
@@ -6979,7 +10059,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.53,
         "amount_yi": 198.6344,
         "market_cap_yi": 6048.4912,
-        "main_ratio": 2.09
+        "main_ratio": 2.09,
+        "up_count": 59,
+        "down_count": 7,
+        "flat_count": 4,
+        "breadth_pct": 84.29
       },
       {
         "code": "BK1176",
@@ -6988,7 +10072,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.28,
         "amount_yi": 162.3274,
         "market_cap_yi": 4096.8966,
-        "main_ratio": 2.47
+        "main_ratio": 2.47,
+        "up_count": 38,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 92.68
       },
       {
         "code": "BK1682",
@@ -6997,7 +10085,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.1,
         "amount_yi": 164.5874,
         "market_cap_yi": 3870.5651,
-        "main_ratio": 2.4
+        "main_ratio": 2.4,
+        "up_count": 9,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1101",
@@ -7006,7 +10098,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.53,
         "amount_yi": 1017.3219,
         "market_cap_yi": 36266.4302,
-        "main_ratio": 0.36
+        "main_ratio": 0.36,
+        "up_count": 84,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 91.3
       },
       {
         "code": "BK0915",
@@ -7015,7 +10111,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.77,
         "amount_yi": 259.8774,
         "market_cap_yi": 7966.8563,
-        "main_ratio": 1.4
+        "main_ratio": 1.4,
+        "up_count": 34,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 82.93
       },
       {
         "code": "BK0847",
@@ -7024,7 +10124,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.75,
         "amount_yi": 236.4048,
         "market_cap_yi": 5422.8661,
-        "main_ratio": 1.47
+        "main_ratio": 1.47,
+        "up_count": 57,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 87.69
       },
       {
         "code": "BK0665",
@@ -7033,7 +10137,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.63,
         "amount_yi": 955.8006,
         "market_cap_yi": 54608.2022,
-        "main_ratio": 0.36
+        "main_ratio": 0.36,
+        "up_count": 268,
+        "down_count": 64,
+        "flat_count": 12,
+        "breadth_pct": 77.91
       },
       {
         "code": "BK1642",
@@ -7042,7 +10150,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.57,
         "amount_yi": 228.4789,
         "market_cap_yi": 7989.8285,
-        "main_ratio": 1.49
+        "main_ratio": 1.49,
+        "up_count": 79,
+        "down_count": 16,
+        "flat_count": 5,
+        "breadth_pct": 79.0
       },
       {
         "code": "BK0972",
@@ -7051,7 +10163,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.79,
         "amount_yi": 164.7572,
         "market_cap_yi": 2875.5371,
-        "main_ratio": 2.05
+        "main_ratio": 2.05,
+        "up_count": 30,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK0580",
@@ -7060,7 +10176,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.49,
         "amount_yi": 537.679,
         "market_cap_yi": 17045.6488,
-        "main_ratio": 0.61
+        "main_ratio": 0.61,
+        "up_count": 80,
+        "down_count": 13,
+        "flat_count": 0,
+        "breadth_pct": 86.02
       },
       {
         "code": "BK1133",
@@ -7069,7 +10189,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.55,
         "amount_yi": 85.0172,
         "market_cap_yi": 2360.5044,
-        "main_ratio": 3.71
+        "main_ratio": 3.71,
+        "up_count": 20,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK0883",
@@ -7078,7 +10202,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.64,
         "amount_yi": 320.1402,
         "market_cap_yi": 8444.9016,
-        "main_ratio": 0.97
+        "main_ratio": 0.97,
+        "up_count": 76,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 92.68
       },
       {
         "code": "BK1053",
@@ -7087,7 +10215,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.81,
         "amount_yi": 294.5375,
         "market_cap_yi": 20550.5786,
-        "main_ratio": 1.04
+        "main_ratio": 1.04,
+        "up_count": 174,
+        "down_count": 33,
+        "flat_count": 33,
+        "breadth_pct": 72.5
       },
       {
         "code": "BK1089",
@@ -7096,7 +10228,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.81,
         "amount_yi": 273.015,
         "market_cap_yi": 9382.9134,
-        "main_ratio": 1.11
+        "main_ratio": 1.11,
+        "up_count": 93,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 92.08
       },
       {
         "code": "BK0983",
@@ -7105,7 +10241,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.9,
         "amount_yi": 96.9468,
         "market_cap_yi": 4313.8581,
-        "main_ratio": 3.12
+        "main_ratio": 3.12,
+        "up_count": 25,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 78.12
       },
       {
         "code": "BK0729",
@@ -7114,7 +10254,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.21,
         "amount_yi": 109.3522,
         "market_cap_yi": 7396.7714,
-        "main_ratio": 2.47
+        "main_ratio": 2.47,
+        "up_count": 14,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1128",
@@ -7123,7 +10267,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.64,
         "amount_yi": 2111.9474,
         "market_cap_yi": 60460.1677,
-        "main_ratio": 0.13
+        "main_ratio": 0.13,
+        "up_count": 83,
+        "down_count": 15,
+        "flat_count": 0,
+        "breadth_pct": 84.69
       },
       {
         "code": "BK0955",
@@ -7132,7 +10280,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.76,
         "amount_yi": 97.3968,
         "market_cap_yi": 2648.9102,
-        "main_ratio": 2.72
+        "main_ratio": 2.72,
+        "up_count": 21,
+        "down_count": 13,
+        "flat_count": 3,
+        "breadth_pct": 56.76
       },
       {
         "code": "BK0813",
@@ -7141,7 +10293,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.23,
         "amount_yi": 311.5633,
         "market_cap_yi": 20385.283,
-        "main_ratio": 0.82
+        "main_ratio": 0.82,
+        "up_count": 106,
+        "down_count": 31,
+        "flat_count": 11,
+        "breadth_pct": 71.62
       },
       {
         "code": "BK0706",
@@ -7150,7 +10306,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.96,
         "amount_yi": 241.3598,
         "market_cap_yi": 9641.3446,
-        "main_ratio": 1.03
+        "main_ratio": 1.03,
+        "up_count": 56,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 91.8
       },
       {
         "code": "BK1168",
@@ -7159,7 +10319,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.72,
         "amount_yi": 356.1702,
         "market_cap_yi": 10916.1634,
-        "main_ratio": 0.7
+        "main_ratio": 0.7,
+        "up_count": 36,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 87.8
       },
       {
         "code": "BK0880",
@@ -7168,7 +10332,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.52,
         "amount_yi": 135.9013,
         "market_cap_yi": 4049.1926,
-        "main_ratio": 1.7
+        "main_ratio": 1.7,
+        "up_count": 18,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.74
       },
       {
         "code": "BK0995",
@@ -7177,7 +10345,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.22,
         "amount_yi": 265.104,
         "market_cap_yi": 8339.2965,
-        "main_ratio": 0.86
+        "main_ratio": 0.86,
+        "up_count": 60,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK1075",
@@ -7186,7 +10358,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.34,
         "amount_yi": 128.5029,
         "market_cap_yi": 2748.7715,
-        "main_ratio": 1.7
+        "main_ratio": 1.7,
+        "up_count": 32,
+        "down_count": 4,
+        "flat_count": 2,
+        "breadth_pct": 84.21
       },
       {
         "code": "BK0991",
@@ -7195,7 +10371,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.92,
         "amount_yi": 143.7363,
         "market_cap_yi": 9957.2786,
-        "main_ratio": 1.51
+        "main_ratio": 1.51,
+        "up_count": 49,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 84.48
       },
       {
         "code": "BK1663",
@@ -7204,7 +10384,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.75,
         "amount_yi": 6427.4736,
         "market_cap_yi": 678286.1773,
-        "main_ratio": 0.03
+        "main_ratio": 0.03,
+        "up_count": 236,
+        "down_count": 61,
+        "flat_count": 3,
+        "breadth_pct": 78.67
       },
       {
         "code": "BK1653",
@@ -7213,7 +10397,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.48,
         "amount_yi": 321.1227,
         "market_cap_yi": 34674.399,
-        "main_ratio": 0.66
+        "main_ratio": 0.66,
+        "up_count": 75,
+        "down_count": 12,
+        "flat_count": 3,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1648",
@@ -7222,7 +10410,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.26,
         "amount_yi": 2542.2931,
         "market_cap_yi": 114944.1997,
-        "main_ratio": 0.08
+        "main_ratio": 0.08,
+        "up_count": 496,
+        "down_count": 63,
+        "flat_count": 14,
+        "breadth_pct": 86.56
       },
       {
         "code": "BK0803",
@@ -7231,7 +10423,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.24,
         "amount_yi": 57.7029,
         "market_cap_yi": 1682.5015,
-        "main_ratio": 3.45
+        "main_ratio": 3.45,
+        "up_count": 33,
+        "down_count": 4,
+        "flat_count": 4,
+        "breadth_pct": 80.49
       },
       {
         "code": "BK0916",
@@ -7240,7 +10436,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.0,
         "amount_yi": 383.537,
         "market_cap_yi": 11903.7819,
-        "main_ratio": 0.5
+        "main_ratio": 0.5,
+        "up_count": 43,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 91.49
       },
       {
         "code": "BK0885",
@@ -7249,7 +10449,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.74,
         "amount_yi": 120.7135,
         "market_cap_yi": 3264.8466,
-        "main_ratio": 1.56
+        "main_ratio": 1.56,
+        "up_count": 17,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 89.47
       },
       {
         "code": "BK1157",
@@ -7258,7 +10462,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.59,
         "amount_yi": 298.3404,
         "market_cap_yi": 10786.1957,
-        "main_ratio": 0.63
+        "main_ratio": 0.63,
+        "up_count": 80,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK0933",
@@ -7267,7 +10475,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.41,
         "amount_yi": 44.8121,
         "market_cap_yi": 2886.4691,
-        "main_ratio": 4.18
+        "main_ratio": 4.18,
+        "up_count": 18,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK0943",
@@ -7276,7 +10488,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.59,
         "amount_yi": 31.8337,
         "market_cap_yi": 2040.5146,
-        "main_ratio": 5.53
+        "main_ratio": 5.53,
+        "up_count": 15,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 88.24
       },
       {
         "code": "BK0825",
@@ -7285,7 +10501,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.55,
         "amount_yi": 422.9648,
         "market_cap_yi": 21012.388,
-        "main_ratio": 0.41
+        "main_ratio": 0.41,
+        "up_count": 124,
+        "down_count": 25,
+        "flat_count": 4,
+        "breadth_pct": 81.05
       },
       {
         "code": "BK1131",
@@ -7294,7 +10514,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.79,
         "amount_yi": 29.5336,
         "market_cap_yi": 823.0366,
-        "main_ratio": 5.72
+        "main_ratio": 5.72,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0959",
@@ -7303,7 +10527,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.34,
         "amount_yi": 79.854,
         "market_cap_yi": 1812.1583,
-        "main_ratio": 2.02
+        "main_ratio": 2.02,
+        "up_count": 15,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 78.95
       },
       {
         "code": "BK0623",
@@ -7312,7 +10540,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.38,
         "amount_yi": 480.0438,
         "market_cap_yi": 21436.1893,
-        "main_ratio": 0.33
+        "main_ratio": 0.33,
+        "up_count": 84,
+        "down_count": 24,
+        "flat_count": 5,
+        "breadth_pct": 74.34
       },
       {
         "code": "BK0837",
@@ -7321,7 +10553,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.56,
         "amount_yi": 405.7422,
         "market_cap_yi": 44700.2752,
-        "main_ratio": 0.39
+        "main_ratio": 0.39,
+        "up_count": 85,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 85.0
       },
       {
         "code": "BK1132",
@@ -7330,7 +10566,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.45,
         "amount_yi": 55.5902,
         "market_cap_yi": 1438.6774,
-        "main_ratio": 2.73
+        "main_ratio": 2.73,
+        "up_count": 9,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1668",
@@ -7339,7 +10579,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 805.3966,
         "market_cap_yi": 42729.6451,
-        "main_ratio": 0.19
+        "main_ratio": 0.19,
+        "up_count": 234,
+        "down_count": 48,
+        "flat_count": 14,
+        "breadth_pct": 79.05
       },
       {
         "code": "BK0606",
@@ -7348,7 +10592,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.05,
         "amount_yi": 143.7807,
         "market_cap_yi": 21795.3322,
-        "main_ratio": 1.03
+        "main_ratio": 1.03,
+        "up_count": 34,
+        "down_count": 16,
+        "flat_count": 4,
+        "breadth_pct": 62.96
       },
       {
         "code": "BK1180",
@@ -7357,7 +10605,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.09,
         "amount_yi": 406.5618,
         "market_cap_yi": 11401.5146,
-        "main_ratio": 0.35
+        "main_ratio": 0.35,
+        "up_count": 39,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 84.78
       },
       {
         "code": "BK1693",
@@ -7366,7 +10618,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.57,
         "amount_yi": 105.5193,
         "market_cap_yi": 3569.2502,
-        "main_ratio": 1.32
+        "main_ratio": 1.32,
+        "up_count": 53,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 76.81
       },
       {
         "code": "BK0947",
@@ -7375,7 +10631,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.79,
         "amount_yi": 103.5975,
         "market_cap_yi": 4758.9158,
-        "main_ratio": 1.31
+        "main_ratio": 1.31,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1169",
@@ -7384,7 +10644,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.85,
         "amount_yi": 124.4793,
         "market_cap_yi": 4128.097,
-        "main_ratio": 1.03
+        "main_ratio": 1.03,
+        "up_count": 17,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1124",
@@ -7393,7 +10657,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.25,
         "amount_yi": 451.5418,
         "market_cap_yi": 10859.1118,
-        "main_ratio": 0.27
+        "main_ratio": 0.27,
+        "up_count": 49,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK0632",
@@ -7402,7 +10670,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.14,
         "amount_yi": 72.298,
         "market_cap_yi": 3756.6955,
-        "main_ratio": 1.69
+        "main_ratio": 1.69,
+        "up_count": 34,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 75.56
       },
       {
         "code": "BK0682",
@@ -7411,7 +10683,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.31,
         "amount_yi": 600.3597,
         "market_cap_yi": 26706.1202,
-        "main_ratio": 0.2
+        "main_ratio": 0.2,
+        "up_count": 115,
+        "down_count": 24,
+        "flat_count": 3,
+        "breadth_pct": 80.99
       },
       {
         "code": "BK0881",
@@ -7420,7 +10696,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.71,
         "amount_yi": 107.4966,
         "market_cap_yi": 3296.9776,
-        "main_ratio": 1.06
+        "main_ratio": 1.06,
+        "up_count": 14,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0873",
@@ -7429,7 +10709,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.5,
         "amount_yi": 122.3772,
         "market_cap_yi": 7446.9981,
-        "main_ratio": 0.92
+        "main_ratio": 0.92,
+        "up_count": 80,
+        "down_count": 12,
+        "flat_count": 4,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1002",
@@ -7438,7 +10722,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.96,
         "amount_yi": 326.6239,
         "market_cap_yi": 8623.2674,
-        "main_ratio": 0.33
+        "main_ratio": 0.33,
+        "up_count": 39,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 90.7
       },
       {
         "code": "BK0693",
@@ -7447,7 +10735,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.07,
         "amount_yi": 123.0403,
         "market_cap_yi": 4116.8382,
-        "main_ratio": 0.84
+        "main_ratio": 0.84,
+        "up_count": 39,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 84.78
       },
       {
         "code": "BK1631",
@@ -7456,7 +10748,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 178.8251,
         "market_cap_yi": 1554.086,
-        "main_ratio": 0.56
+        "main_ratio": 0.56,
+        "up_count": 13,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 56.52
       },
       {
         "code": "BK0898",
@@ -7465,7 +10761,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.45,
         "amount_yi": 77.8959,
         "market_cap_yi": 2858.0677,
-        "main_ratio": 1.22
+        "main_ratio": 1.22,
+        "up_count": 26,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 92.86
       },
       {
         "code": "BK0710",
@@ -7474,7 +10774,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.27,
         "amount_yi": 627.0526,
         "market_cap_yi": 30205.0507,
-        "main_ratio": 0.15
+        "main_ratio": 0.15,
+        "up_count": 72,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK1072",
@@ -7483,7 +10787,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.24,
         "amount_yi": 165.0803,
         "market_cap_yi": 6259.4371,
-        "main_ratio": 0.51
+        "main_ratio": 0.51,
+        "up_count": 67,
+        "down_count": 22,
+        "flat_count": 2,
+        "breadth_pct": 73.63
       },
       {
         "code": "BK1008",
@@ -7492,7 +10800,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.54,
         "amount_yi": 102.5511,
         "market_cap_yi": 3760.9122,
-        "main_ratio": 0.72
+        "main_ratio": 0.72,
+        "up_count": 12,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK0951",
@@ -7501,7 +10813,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 85.2404,
         "market_cap_yi": 9760.3526,
-        "main_ratio": 0.85
+        "main_ratio": 0.85,
+        "up_count": 16,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0875",
@@ -7510,7 +10826,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.12,
         "amount_yi": 117.7298,
         "market_cap_yi": 3068.8605,
-        "main_ratio": 0.6
+        "main_ratio": 0.6,
+        "up_count": 36,
+        "down_count": 3,
+        "flat_count": 3,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK0699",
@@ -7519,7 +10839,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.21,
         "amount_yi": 61.6438,
         "market_cap_yi": 1687.2465,
-        "main_ratio": 1.02
+        "main_ratio": 1.02,
+        "up_count": 10,
+        "down_count": 0,
+        "flat_count": 1,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK0817",
@@ -7528,7 +10852,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 204.0972,
         "market_cap_yi": 1813.0297,
-        "main_ratio": 0.27
+        "main_ratio": 0.27,
+        "up_count": 14,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 53.85
       },
       {
         "code": "BK0980",
@@ -7537,7 +10865,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.07,
         "amount_yi": 129.6593,
         "market_cap_yi": 7800.777,
-        "main_ratio": 0.4
+        "main_ratio": 0.4,
+        "up_count": 40,
+        "down_count": 12,
+        "flat_count": 4,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK0967",
@@ -7546,7 +10878,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.08,
         "amount_yi": 44.6573,
         "market_cap_yi": 2992.5022,
-        "main_ratio": 1.12
+        "main_ratio": 1.12,
+        "up_count": 9,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 52.94
       },
       {
         "code": "BK0697",
@@ -7555,7 +10891,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.19,
         "amount_yi": 240.1281,
         "market_cap_yi": 21228.7736,
-        "main_ratio": 0.2
+        "main_ratio": 0.2,
+        "up_count": 44,
+        "down_count": 9,
+        "flat_count": 2,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1073",
@@ -7564,7 +10904,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.71,
         "amount_yi": 37.5432,
         "market_cap_yi": 2176.4408,
-        "main_ratio": 1.19
+        "main_ratio": 1.19,
+        "up_count": 15,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 78.95
       },
       {
         "code": "BK0637",
@@ -7573,7 +10917,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.19,
         "amount_yi": 1209.2514,
         "market_cap_yi": 214232.471,
-        "main_ratio": 0.04
+        "main_ratio": 0.04,
+        "up_count": 148,
+        "down_count": 37,
+        "flat_count": 4,
+        "breadth_pct": 78.31
       },
       {
         "code": "BK1692",
@@ -7582,7 +10930,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.28,
         "amount_yi": 43.0462,
         "market_cap_yi": 5545.7446,
-        "main_ratio": 0.85
+        "main_ratio": 0.85,
+        "up_count": 16,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0982",
@@ -7591,7 +10943,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.11,
         "amount_yi": 38.1326,
         "market_cap_yi": 1231.1573,
-        "main_ratio": 0.96
+        "main_ratio": 0.96,
+        "up_count": 13,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 76.47
       },
       {
         "code": "BK0724",
@@ -7600,7 +10956,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.43,
         "amount_yi": 50.8697,
         "market_cap_yi": 2346.2761,
-        "main_ratio": 0.67
+        "main_ratio": 0.67,
+        "up_count": 24,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK0946",
@@ -7609,7 +10969,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.45,
         "amount_yi": 64.5478,
         "market_cap_yi": 3227.1126,
-        "main_ratio": 0.43
+        "main_ratio": 0.43,
+        "up_count": 11,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK1688",
@@ -7618,7 +10982,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.89,
         "amount_yi": 672.6254,
         "market_cap_yi": 31702.6139,
-        "main_ratio": 0.04
+        "main_ratio": 0.04,
+        "up_count": 29,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 93.55
       },
       {
         "code": "BK1095",
@@ -7627,7 +10995,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.02,
         "amount_yi": 67.9324,
         "market_cap_yi": 4832.6843,
-        "main_ratio": 0.38
+        "main_ratio": 0.38,
+        "up_count": 17,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1102",
@@ -7636,7 +11008,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.32,
         "amount_yi": 199.4749,
         "market_cap_yi": 14748.9594,
-        "main_ratio": 0.11
+        "main_ratio": 0.11,
+        "up_count": 25,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 67.57
       },
       {
         "code": "BK0629",
@@ -7645,7 +11021,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.8,
         "amount_yi": 247.7176,
         "market_cap_yi": 10982.6298,
-        "main_ratio": 0.08
+        "main_ratio": 0.08,
+        "up_count": 64,
+        "down_count": 12,
+        "flat_count": 2,
+        "breadth_pct": 82.05
       },
       {
         "code": "BK1638",
@@ -7654,7 +11034,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.56,
         "amount_yi": 865.3565,
         "market_cap_yi": 7520.5608,
-        "main_ratio": 0.02
+        "main_ratio": 0.02,
+        "up_count": 45,
+        "down_count": 43,
+        "flat_count": 1,
+        "breadth_pct": 50.56
       },
       {
         "code": "BK0574",
@@ -7663,7 +11047,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.35,
         "amount_yi": 2025.8207,
         "market_cap_yi": 91543.2243,
-        "main_ratio": 0.01
+        "main_ratio": 0.01,
+        "up_count": 391,
+        "down_count": 43,
+        "flat_count": 10,
+        "breadth_pct": 88.06
       },
       {
         "code": "BK1074",
@@ -7672,7 +11060,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.42,
         "amount_yi": 11.0894,
         "market_cap_yi": 252.6571,
-        "main_ratio": 1.58
+        "main_ratio": 1.58,
+        "up_count": 3,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK1119",
@@ -7681,7 +11073,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 6.14,
         "amount_yi": 75.0667,
         "market_cap_yi": 3188.376,
-        "main_ratio": 0.22
+        "main_ratio": 0.22,
+        "up_count": 10,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 90.91
       },
       {
         "code": "BK1754",
@@ -7690,7 +11086,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 6.58,
         "amount_yi": 5.4251,
         "market_cap_yi": 288.7758,
-        "main_ratio": 2.53
+        "main_ratio": 2.53,
+        "up_count": 7,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1001",
@@ -7699,7 +11099,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 265.2846,
         "market_cap_yi": 12181.9578,
-        "main_ratio": 0.05
+        "main_ratio": 0.05,
+        "up_count": 126,
+        "down_count": 28,
+        "flat_count": 7,
+        "breadth_pct": 78.26
       },
       {
         "code": "BK0674",
@@ -7708,7 +11112,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.81,
         "amount_yi": 173.0857,
         "market_cap_yi": 6022.6486,
-        "main_ratio": 0.07
+        "main_ratio": 0.07,
+        "up_count": 17,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.44
       },
       {
         "code": "BK0818",
@@ -7717,7 +11125,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.38,
         "amount_yi": 17.6758,
         "market_cap_yi": 2060.2328,
-        "main_ratio": 0.72
+        "main_ratio": 0.72,
+        "up_count": 4,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 44.44
       },
       {
         "code": "BK1189",
@@ -7726,7 +11138,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.51,
         "amount_yi": 115.8961,
         "market_cap_yi": 5046.0061,
-        "main_ratio": 0.06
+        "main_ratio": 0.06,
+        "up_count": 21,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1175",
@@ -7735,7 +11151,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.5,
         "amount_yi": 621.2734,
         "market_cap_yi": 15743.2955,
-        "main_ratio": 0.01
+        "main_ratio": 0.01,
+        "up_count": 60,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK0994",
@@ -7744,7 +11164,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.36,
         "amount_yi": 81.5066,
         "market_cap_yi": 3508.8456,
-        "main_ratio": 0.08
+        "main_ratio": 0.08,
+        "up_count": 22,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 91.67
       },
       {
         "code": "BK1013",
@@ -7753,7 +11177,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.7,
         "amount_yi": 62.1841,
         "market_cap_yi": 2151.7776,
-        "main_ratio": 0.07
+        "main_ratio": 0.07,
+        "up_count": 20,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK1057",
@@ -7762,7 +11190,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.07,
         "amount_yi": 99.341,
         "market_cap_yi": 5034.6805,
-        "main_ratio": 0.03
+        "main_ratio": 0.03,
+        "up_count": 13,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 81.25
       },
       {
         "code": "BK1130",
@@ -7771,7 +11203,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.84,
         "amount_yi": 61.5753,
         "market_cap_yi": 2535.0077,
-        "main_ratio": 0.01
+        "main_ratio": 0.01,
+        "up_count": 25,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 89.29
       },
       {
         "code": "BK0636",
@@ -7780,7 +11216,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.69,
         "amount_yi": 1.5787,
         "market_cap_yi": 6543.2982,
-        "main_ratio": -0.43
+        "main_ratio": -0.43,
+        "up_count": 42,
+        "down_count": 26,
+        "flat_count": 9,
+        "breadth_pct": 54.55
       },
       {
         "code": "BK1644",
@@ -7789,7 +11229,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 24.9783,
         "market_cap_yi": 820.3649,
-        "main_ratio": -0.06
+        "main_ratio": -0.06,
+        "up_count": 35,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 85.37
       },
       {
         "code": "BK1116",
@@ -7798,7 +11242,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.72,
         "amount_yi": 24.7011,
         "market_cap_yi": 1091.1571,
-        "main_ratio": -0.34
+        "main_ratio": -0.34,
+        "up_count": 13,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 81.25
       },
       {
         "code": "BK0625",
@@ -7807,7 +11255,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.25,
         "amount_yi": 123.9338,
         "market_cap_yi": 8443.6286,
-        "main_ratio": -0.07
+        "main_ratio": -0.07,
+        "up_count": 30,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 83.33
       },
       {
         "code": "BK1049",
@@ -7816,7 +11268,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.56,
         "amount_yi": 127.7106,
         "market_cap_yi": 3373.3509,
-        "main_ratio": -0.08
+        "main_ratio": -0.08,
+        "up_count": 11,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 78.57
       },
       {
         "code": "BK1166",
@@ -7825,7 +11281,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.23,
         "amount_yi": 1022.1711,
         "market_cap_yi": 39238.8611,
-        "main_ratio": -0.01
+        "main_ratio": -0.01,
+        "up_count": 279,
+        "down_count": 40,
+        "flat_count": 3,
+        "breadth_pct": 86.65
       },
       {
         "code": "BK1070",
@@ -7834,7 +11294,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.44,
         "amount_yi": 47.1715,
         "market_cap_yi": 2116.8888,
-        "main_ratio": -0.3
+        "main_ratio": -0.3,
+        "up_count": 29,
+        "down_count": 5,
+        "flat_count": 2,
+        "breadth_pct": 80.56
       },
       {
         "code": "BK0578",
@@ -7843,7 +11307,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.0,
         "amount_yi": 222.2514,
         "market_cap_yi": 10346.8166,
-        "main_ratio": -0.07
+        "main_ratio": -0.07,
+        "up_count": 44,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 93.62
       },
       {
         "code": "BK0805",
@@ -7852,7 +11320,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 29.3198,
         "market_cap_yi": 1642.3382,
-        "main_ratio": -0.64
+        "main_ratio": -0.64,
+        "up_count": 9,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1058",
@@ -7861,7 +11333,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.68,
         "amount_yi": 74.3021,
         "market_cap_yi": 3748.8232,
-        "main_ratio": -0.25
+        "main_ratio": -0.25,
+        "up_count": 37,
+        "down_count": 15,
+        "flat_count": 4,
+        "breadth_pct": 66.07
       },
       {
         "code": "BK0965",
@@ -7870,7 +11346,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.22,
         "amount_yi": 57.9053,
         "market_cap_yi": 4652.1854,
-        "main_ratio": -0.36
+        "main_ratio": -0.36,
+        "up_count": 32,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 82.05
       },
       {
         "code": "BK1756",
@@ -7879,7 +11359,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.98,
         "amount_yi": 34.617,
         "market_cap_yi": 1506.6394,
-        "main_ratio": -0.6
+        "main_ratio": -0.6,
+        "up_count": 11,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK0806",
@@ -7888,7 +11372,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.11,
         "amount_yi": 117.2968,
         "market_cap_yi": 5169.9781,
-        "main_ratio": -0.18
+        "main_ratio": -0.18,
+        "up_count": 38,
+        "down_count": 3,
+        "flat_count": 3,
+        "breadth_pct": 86.36
       },
       {
         "code": "BK0684",
@@ -7897,7 +11385,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 100.2228,
         "market_cap_yi": 6565.7874,
-        "main_ratio": -0.21
+        "main_ratio": -0.21,
+        "up_count": 47,
+        "down_count": 6,
+        "flat_count": 7,
+        "breadth_pct": 78.33
       },
       {
         "code": "BK0914",
@@ -7906,7 +11398,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.04,
         "amount_yi": 33.6957,
         "market_cap_yi": 1922.4062,
-        "main_ratio": -0.64
+        "main_ratio": -0.64,
+        "up_count": 21,
+        "down_count": 8,
+        "flat_count": 3,
+        "breadth_pct": 65.62
       },
       {
         "code": "BK1179",
@@ -7915,7 +11411,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 54.9323,
         "market_cap_yi": 2308.9365,
-        "main_ratio": -0.48
+        "main_ratio": -0.48,
+        "up_count": 30,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK0894",
@@ -7924,7 +11424,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.15,
         "amount_yi": 46.5685,
         "market_cap_yi": 2353.3524,
-        "main_ratio": -0.61
+        "main_ratio": -0.61,
+        "up_count": 17,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1099",
@@ -7933,7 +11437,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.76,
         "amount_yi": 10.9467,
         "market_cap_yi": 587.8136,
-        "main_ratio": -2.69
+        "main_ratio": -2.69,
+        "up_count": 9,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0619",
@@ -7942,7 +11450,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.65,
         "amount_yi": 422.6362,
         "market_cap_yi": 12653.1624,
-        "main_ratio": -0.08
+        "main_ratio": -0.08,
+        "up_count": 78,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 91.76
       },
       {
         "code": "BK1054",
@@ -7951,7 +11463,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 57.0084,
         "market_cap_yi": 1210.7008,
-        "main_ratio": -0.62
+        "main_ratio": -0.62,
+        "up_count": 12,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1710",
@@ -7960,7 +11476,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.65,
         "amount_yi": 1395.1485,
         "market_cap_yi": 88846.2694,
-        "main_ratio": -0.03
+        "main_ratio": -0.03,
+        "up_count": 94,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 94.0
       },
       {
         "code": "BK0890",
@@ -7969,7 +11489,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.04,
         "amount_yi": 349.4585,
         "market_cap_yi": 8504.8965,
-        "main_ratio": -0.11
+        "main_ratio": -0.11,
+        "up_count": 37,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 92.5
       },
       {
         "code": "BK1094",
@@ -7978,7 +11502,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.78,
         "amount_yi": 174.1284,
         "market_cap_yi": 7232.7579,
-        "main_ratio": -0.22
+        "main_ratio": -0.22,
+        "up_count": 43,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 87.76
       },
       {
         "code": "BK1192",
@@ -7987,7 +11515,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.23,
         "amount_yi": 233.6436,
         "market_cap_yi": 16424.6992,
-        "main_ratio": -0.17
+        "main_ratio": -0.17,
+        "up_count": 39,
+        "down_count": 13,
+        "flat_count": 4,
+        "breadth_pct": 69.64
       },
       {
         "code": "BK1025",
@@ -7996,7 +11528,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 127.1274,
         "market_cap_yi": 5996.8421,
-        "main_ratio": -0.32
+        "main_ratio": -0.32,
+        "up_count": 46,
+        "down_count": 15,
+        "flat_count": 6,
+        "breadth_pct": 68.66
       },
       {
         "code": "BK0603",
@@ -8005,7 +11541,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.74,
         "amount_yi": 120.894,
         "market_cap_yi": 33692.9885,
-        "main_ratio": -0.34
+        "main_ratio": -0.34,
+        "up_count": 23,
+        "down_count": 6,
+        "flat_count": 3,
+        "breadth_pct": 71.88
       },
       {
         "code": "BK0498",
@@ -8014,7 +11554,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.16,
         "amount_yi": 171.0451,
         "market_cap_yi": 11773.2326,
-        "main_ratio": -0.27
+        "main_ratio": -0.27,
+        "up_count": 54,
+        "down_count": 14,
+        "flat_count": 3,
+        "breadth_pct": 76.06
       },
       {
         "code": "BK0918",
@@ -8023,7 +11567,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.67,
         "amount_yi": 412.0058,
         "market_cap_yi": 16519.5602,
-        "main_ratio": -0.13
+        "main_ratio": -0.13,
+        "up_count": 76,
+        "down_count": 13,
+        "flat_count": 2,
+        "breadth_pct": 83.52
       },
       {
         "code": "BK0927",
@@ -8032,7 +11580,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.07,
         "amount_yi": 39.7293,
         "market_cap_yi": 5897.5213,
-        "main_ratio": -1.34
+        "main_ratio": -1.34,
+        "up_count": 17,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 94.44
       },
       {
         "code": "BK0924",
@@ -8041,7 +11593,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 83.3621,
         "market_cap_yi": 3789.6203,
-        "main_ratio": -0.65
+        "main_ratio": -0.65,
+        "up_count": 23,
+        "down_count": 4,
+        "flat_count": 3,
+        "breadth_pct": 76.67
       },
       {
         "code": "BK1079",
@@ -8050,7 +11606,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.71,
         "amount_yi": 64.76,
         "market_cap_yi": 4340.0704,
-        "main_ratio": -0.84
+        "main_ratio": -0.84,
+        "up_count": 29,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 85.29
       },
       {
         "code": "BK1068",
@@ -8059,7 +11619,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.25,
         "amount_yi": 102.3664,
         "market_cap_yi": 11302.6139,
-        "main_ratio": -0.54
+        "main_ratio": -0.54,
+        "up_count": 13,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 61.9
       },
       {
         "code": "BK0961",
@@ -8068,7 +11632,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.21,
         "amount_yi": 101.2477,
         "market_cap_yi": 4077.501,
-        "main_ratio": -0.57
+        "main_ratio": -0.57,
+        "up_count": 30,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 76.92
       },
       {
         "code": "BK0944",
@@ -8077,7 +11645,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.28,
         "amount_yi": 22.6594,
         "market_cap_yi": 1782.7747,
-        "main_ratio": -2.57
+        "main_ratio": -2.57,
+        "up_count": 11,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK0872",
@@ -8086,7 +11658,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.44,
         "amount_yi": 44.6781,
         "market_cap_yi": 2888.8755,
-        "main_ratio": -1.32
+        "main_ratio": -1.32,
+        "up_count": 9,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1066",
@@ -8095,7 +11671,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.66,
         "amount_yi": 49.0391,
         "market_cap_yi": 3210.819,
-        "main_ratio": -1.21
+        "main_ratio": -1.21,
+        "up_count": 16,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 72.73
       },
       {
         "code": "BK1082",
@@ -8104,7 +11684,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.88,
         "amount_yi": 16.6263,
         "market_cap_yi": 479.7328,
-        "main_ratio": -3.57
+        "main_ratio": -3.57,
+        "up_count": 5,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 55.56
       },
       {
         "code": "BK0822",
@@ -8113,7 +11697,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.76,
         "amount_yi": 55.1707,
         "market_cap_yi": 3315.3227,
-        "main_ratio": -1.11
+        "main_ratio": -1.11,
+        "up_count": 17,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 73.91
       },
       {
         "code": "BK1098",
@@ -8122,7 +11710,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.32,
         "amount_yi": 34.835,
         "market_cap_yi": 2391.9397,
-        "main_ratio": -1.79
+        "main_ratio": -1.79,
+        "up_count": 21,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 63.64
       },
       {
         "code": "BK1023",
@@ -8131,7 +11723,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.06,
         "amount_yi": 74.9848,
         "market_cap_yi": 2500.161,
-        "main_ratio": -0.87
+        "main_ratio": -0.87,
+        "up_count": 18,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1697",
@@ -8140,7 +11736,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.58,
         "amount_yi": 69.4469,
         "market_cap_yi": 7980.1362,
-        "main_ratio": -0.95
+        "main_ratio": -0.95,
+        "up_count": 17,
+        "down_count": 12,
+        "flat_count": 4,
+        "breadth_pct": 51.52
       },
       {
         "code": "BK0807",
@@ -8149,7 +11749,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.46,
         "amount_yi": 40.4421,
         "market_cap_yi": 2115.2698,
-        "main_ratio": -1.63
+        "main_ratio": -1.63,
+        "up_count": 17,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 85.0
       },
       {
         "code": "BK0715",
@@ -8158,7 +11762,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.8,
         "amount_yi": 156.3694,
         "market_cap_yi": 10603.2107,
-        "main_ratio": -0.45
+        "main_ratio": -0.45,
+        "up_count": 28,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 87.5
       },
       {
         "code": "BK1103",
@@ -8167,7 +11775,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.74,
         "amount_yi": 17.8741,
         "market_cap_yi": 968.047,
-        "main_ratio": -4.07
+        "main_ratio": -4.07,
+        "up_count": 8,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 72.73
       },
       {
         "code": "BK0733",
@@ -8176,7 +11788,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.96,
         "amount_yi": 42.8682,
         "market_cap_yi": 1770.8893,
-        "main_ratio": -1.73
+        "main_ratio": -1.73,
+        "up_count": 26,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 86.67
       },
       {
         "code": "BK0996",
@@ -8185,7 +11801,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.82,
         "amount_yi": 34.5953,
         "market_cap_yi": 1507.4375,
-        "main_ratio": -2.16
+        "main_ratio": -2.16,
+        "up_count": 16,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0614",
@@ -8194,7 +11814,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.87,
         "amount_yi": 106.8865,
         "market_cap_yi": 3643.516,
-        "main_ratio": -0.7
+        "main_ratio": -0.7,
+        "up_count": 40,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1109",
@@ -8203,7 +11827,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 58.9929,
         "market_cap_yi": 1942.0798,
-        "main_ratio": -1.31
+        "main_ratio": -1.31,
+        "up_count": 14,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK0979",
@@ -8212,7 +11840,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.23,
         "amount_yi": 15.1585,
         "market_cap_yi": 2466.869,
-        "main_ratio": -5.15
+        "main_ratio": -5.15,
+        "up_count": 4,
+        "down_count": 2,
+        "flat_count": 1,
+        "breadth_pct": 57.14
       },
       {
         "code": "BK0990",
@@ -8221,7 +11853,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.47,
         "amount_yi": 70.3093,
         "market_cap_yi": 5291.9907,
-        "main_ratio": -1.13
+        "main_ratio": -1.13,
+        "up_count": 30,
+        "down_count": 8,
+        "flat_count": 2,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1014",
@@ -8230,7 +11866,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.87,
         "amount_yi": 39.9439,
         "market_cap_yi": 1778.9466,
-        "main_ratio": -2.02
+        "main_ratio": -2.02,
+        "up_count": 19,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 82.61
       },
       {
         "code": "BK1158",
@@ -8239,7 +11879,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.49,
         "amount_yi": 253.1951,
         "market_cap_yi": 8062.8965,
-        "main_ratio": -0.32
+        "main_ratio": -0.32,
+        "up_count": 334,
+        "down_count": 57,
+        "flat_count": 9,
+        "breadth_pct": 83.5
       },
       {
         "code": "BK0866",
@@ -8248,7 +11892,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.0,
         "amount_yi": 42.3917,
         "market_cap_yi": 1816.1437,
-        "main_ratio": -1.96
+        "main_ratio": -1.96,
+        "up_count": 10,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 55.56
       },
       {
         "code": "BK0952",
@@ -8257,7 +11905,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.21,
         "amount_yi": 828.4173,
         "market_cap_yi": 26540.7035,
-        "main_ratio": -0.1
+        "main_ratio": -0.1,
+        "up_count": 105,
+        "down_count": 15,
+        "flat_count": 2,
+        "breadth_pct": 86.07
       },
       {
         "code": "BK0708",
@@ -8266,7 +11918,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.27,
         "amount_yi": 162.909,
         "market_cap_yi": 7907.1787,
-        "main_ratio": -0.54
+        "main_ratio": -0.54,
+        "up_count": 63,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK0671",
@@ -8275,7 +11931,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.69,
         "amount_yi": 49.9998,
         "market_cap_yi": 1660.4569,
-        "main_ratio": -1.78
+        "main_ratio": -1.78,
+        "up_count": 18,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1121",
@@ -8284,7 +11944,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.07,
         "amount_yi": 19.6166,
         "market_cap_yi": 937.0784,
-        "main_ratio": -4.7
+        "main_ratio": -4.7,
+        "up_count": 4,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0692",
@@ -8293,7 +11957,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.35,
         "amount_yi": 128.9456,
         "market_cap_yi": 5103.856,
-        "main_ratio": -0.72
+        "main_ratio": -0.72,
+        "up_count": 48,
+        "down_count": 11,
+        "flat_count": 5,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK1643",
@@ -8302,7 +11970,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.27,
         "amount_yi": 3799.7661,
         "market_cap_yi": 140515.2154,
-        "main_ratio": -0.03
+        "main_ratio": -0.03,
+        "up_count": 847,
+        "down_count": 129,
+        "flat_count": 24,
+        "breadth_pct": 84.7
       },
       {
         "code": "BK1093",
@@ -8311,7 +11983,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.78,
         "amount_yi": 79.0683,
         "market_cap_yi": 2924.5856,
-        "main_ratio": -1.22
+        "main_ratio": -1.22,
+        "up_count": 23,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 79.31
       },
       {
         "code": "BK0954",
@@ -8320,7 +11996,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.4,
         "amount_yi": 72.6468,
         "market_cap_yi": 1249.7047,
-        "main_ratio": -1.34
+        "main_ratio": -1.34,
+        "up_count": 10,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 76.92
       },
       {
         "code": "BK0685",
@@ -8329,7 +12009,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.5,
         "amount_yi": 24.888,
         "market_cap_yi": 1253.6652,
-        "main_ratio": -3.92
+        "main_ratio": -3.92,
+        "up_count": 13,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 72.22
       },
       {
         "code": "BK0993",
@@ -8338,7 +12022,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.64,
         "amount_yi": 98.1134,
         "market_cap_yi": 4020.484,
-        "main_ratio": -1.0
+        "main_ratio": -1.0,
+        "up_count": 57,
+        "down_count": 13,
+        "flat_count": 4,
+        "breadth_pct": 77.03
       },
       {
         "code": "BK0664",
@@ -8347,7 +12035,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.46,
         "amount_yi": 260.4204,
         "market_cap_yi": 12309.1158,
-        "main_ratio": -0.38
+        "main_ratio": -0.38,
+        "up_count": 128,
+        "down_count": 29,
+        "flat_count": 3,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0600",
@@ -8356,7 +12048,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.84,
         "amount_yi": 336.4091,
         "market_cap_yi": 13491.7118,
-        "main_ratio": -0.3
+        "main_ratio": -0.3,
+        "up_count": 89,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 85.58
       },
       {
         "code": "BK1077",
@@ -8365,7 +12061,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.01,
         "amount_yi": 63.7529,
         "market_cap_yi": 3856.6389,
-        "main_ratio": -1.65
+        "main_ratio": -1.65,
+        "up_count": 32,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 69.57
       },
       {
         "code": "BK0852",
@@ -8374,7 +12074,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.1,
         "amount_yi": 409.9359,
         "market_cap_yi": 16814.2314,
-        "main_ratio": -0.26
+        "main_ratio": -0.26,
+        "up_count": 92,
+        "down_count": 24,
+        "flat_count": 10,
+        "breadth_pct": 73.02
       },
       {
         "code": "BK1029",
@@ -8383,7 +12087,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.66,
         "amount_yi": 108.9426,
         "market_cap_yi": 15013.6122,
-        "main_ratio": -0.97
+        "main_ratio": -0.97,
+        "up_count": 24,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 92.31
       },
       {
         "code": "BK0622",
@@ -8392,7 +12100,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.98,
         "amount_yi": 28.5792,
         "market_cap_yi": 974.2877,
-        "main_ratio": -3.73
+        "main_ratio": -3.73,
+        "up_count": 5,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 55.56
       },
       {
         "code": "BK0470",
@@ -8401,7 +12113,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.11,
         "amount_yi": 37.5162,
         "market_cap_yi": 2300.5095,
-        "main_ratio": -2.88
+        "main_ratio": -2.88,
+        "up_count": 33,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 80.49
       },
       {
         "code": "BK0520",
@@ -8410,7 +12126,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.56,
         "amount_yi": 38.2496,
         "market_cap_yi": 2371.7887,
-        "main_ratio": -2.86
+        "main_ratio": -2.86,
+        "up_count": 17,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 89.47
       },
       {
         "code": "BK0939",
@@ -8419,7 +12139,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.2,
         "amount_yi": 141.5235,
         "market_cap_yi": 4935.1891,
-        "main_ratio": -0.78
+        "main_ratio": -0.78,
+        "up_count": 42,
+        "down_count": 9,
+        "flat_count": 3,
+        "breadth_pct": 77.78
       },
       {
         "code": "BK1007",
@@ -8428,7 +12152,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.17,
         "amount_yi": 46.8631,
         "market_cap_yi": 1661.0328,
-        "main_ratio": -2.38
+        "main_ratio": -2.38,
+        "up_count": 16,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0950",
@@ -8437,7 +12165,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.89,
         "amount_yi": 21.0752,
         "market_cap_yi": 1551.8215,
-        "main_ratio": -5.31
+        "main_ratio": -5.31,
+        "up_count": 11,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK0936",
@@ -8446,7 +12178,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.25,
         "amount_yi": 28.5561,
         "market_cap_yi": 1336.816,
-        "main_ratio": -3.97
+        "main_ratio": -3.97,
+        "up_count": 12,
+        "down_count": 1,
+        "flat_count": 1,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK0895",
@@ -8455,7 +12191,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.9,
         "amount_yi": 79.2327,
         "market_cap_yi": 4554.4258,
-        "main_ratio": -1.43
+        "main_ratio": -1.43,
+        "up_count": 24,
+        "down_count": 7,
+        "flat_count": 3,
+        "breadth_pct": 70.59
       },
       {
         "code": "BK1681",
@@ -8464,7 +12204,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.67,
         "amount_yi": 34.1151,
         "market_cap_yi": 1606.1761,
-        "main_ratio": -3.43
+        "main_ratio": -3.43,
+        "up_count": 11,
+        "down_count": 1,
+        "flat_count": 0,
+        "breadth_pct": 91.67
       },
       {
         "code": "BK0938",
@@ -8473,7 +12217,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.04,
         "amount_yi": 43.9271,
         "market_cap_yi": 2463.2909,
-        "main_ratio": -2.68
+        "main_ratio": -2.68,
+        "up_count": 20,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK1017",
@@ -8482,7 +12230,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.02,
         "amount_yi": 95.7825,
         "market_cap_yi": 34475.7624,
-        "main_ratio": -1.24
+        "main_ratio": -1.24,
+        "up_count": 13,
+        "down_count": 8,
+        "flat_count": 5,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK0992",
@@ -8491,7 +12243,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.82,
         "amount_yi": 59.7249,
         "market_cap_yi": 6025.7422,
-        "main_ratio": -2.02
+        "main_ratio": -2.02,
+        "up_count": 17,
+        "down_count": 5,
+        "flat_count": 2,
+        "breadth_pct": 70.83
       },
       {
         "code": "BK0957",
@@ -8500,7 +12256,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.97,
         "amount_yi": 71.025,
         "market_cap_yi": 1711.3768,
-        "main_ratio": -1.73
+        "main_ratio": -1.73,
+        "up_count": 21,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK0856",
@@ -8509,7 +12269,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.15,
         "amount_yi": 76.4644,
         "market_cap_yi": 3734.4206,
-        "main_ratio": -1.62
+        "main_ratio": -1.62,
+        "up_count": 21,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK1006",
@@ -8518,7 +12282,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.33,
         "amount_yi": 52.8251,
         "market_cap_yi": 1761.066,
-        "main_ratio": -2.35
+        "main_ratio": -2.35,
+        "up_count": 19,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 90.48
       },
       {
         "code": "BK1056",
@@ -8527,7 +12295,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.6,
         "amount_yi": 145.5656,
         "market_cap_yi": 5201.0474,
-        "main_ratio": -0.86
+        "main_ratio": -0.86,
+        "up_count": 48,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0887",
@@ -8536,7 +12308,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.69,
         "amount_yi": 36.6036,
         "market_cap_yi": 3368.0293,
-        "main_ratio": -3.55
+        "main_ratio": -3.55,
+        "up_count": 12,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK0669",
@@ -8545,7 +12321,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.38,
         "amount_yi": 68.7325,
         "market_cap_yi": 3486.3275,
-        "main_ratio": -1.91
+        "main_ratio": -1.91,
+        "up_count": 31,
+        "down_count": 14,
+        "flat_count": 4,
+        "breadth_pct": 63.27
       },
       {
         "code": "BK1147",
@@ -8554,7 +12334,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.29,
         "amount_yi": 20.1292,
         "market_cap_yi": 1402.2757,
-        "main_ratio": -6.51
+        "main_ratio": -6.51,
+        "up_count": 10,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 71.43
       },
       {
         "code": "BK0902",
@@ -8563,7 +12347,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.3,
         "amount_yi": 490.4079,
         "market_cap_yi": 15627.4851,
-        "main_ratio": -0.27
+        "main_ratio": -0.27,
+        "up_count": 57,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 82.61
       },
       {
         "code": "BK1069",
@@ -8572,7 +12360,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.62,
         "amount_yi": 139.9479,
         "market_cap_yi": 3312.7666,
-        "main_ratio": -1.0
+        "main_ratio": -1.0,
+        "up_count": 23,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 82.14
       },
       {
         "code": "BK0925",
@@ -8581,7 +12373,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.58,
         "amount_yi": 43.7,
         "market_cap_yi": 2682.093,
-        "main_ratio": -3.22
+        "main_ratio": -3.22,
+        "up_count": 22,
+        "down_count": 0,
+        "flat_count": 2,
+        "breadth_pct": 91.67
       },
       {
         "code": "BK1026",
@@ -8590,7 +12386,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.24,
         "amount_yi": 68.7277,
         "market_cap_yi": 6185.4341,
-        "main_ratio": -2.06
+        "main_ratio": -2.06,
+        "up_count": 24,
+        "down_count": 7,
+        "flat_count": 2,
+        "breadth_pct": 72.73
       },
       {
         "code": "BK1011",
@@ -8599,7 +12399,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.15,
         "amount_yi": 48.834,
         "market_cap_yi": 5516.6515,
-        "main_ratio": -3.04
+        "main_ratio": -3.04,
+        "up_count": 20,
+        "down_count": 1,
+        "flat_count": 2,
+        "breadth_pct": 86.96
       },
       {
         "code": "BK1086",
@@ -8608,7 +12412,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.41,
         "amount_yi": 70.4151,
         "market_cap_yi": 3913.5941,
-        "main_ratio": -2.15
+        "main_ratio": -2.15,
+        "up_count": 24,
+        "down_count": 12,
+        "flat_count": 1,
+        "breadth_pct": 64.86
       },
       {
         "code": "BK0909",
@@ -8617,7 +12425,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.07,
         "amount_yi": 143.9831,
         "market_cap_yi": 7417.9874,
-        "main_ratio": -1.06
+        "main_ratio": -1.06,
+        "up_count": 49,
+        "down_count": 16,
+        "flat_count": 2,
+        "breadth_pct": 73.13
       },
       {
         "code": "BK0907",
@@ -8626,7 +12438,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.77,
         "amount_yi": 27.828,
         "market_cap_yi": 1408.9259,
-        "main_ratio": -5.68
+        "main_ratio": -5.68,
+        "up_count": 14,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 70.0
       },
       {
         "code": "BK1655",
@@ -8635,7 +12451,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.95,
         "amount_yi": 139.9886,
         "market_cap_yi": 30719.5594,
-        "main_ratio": -1.14
+        "main_ratio": -1.14,
+        "up_count": 56,
+        "down_count": 4,
+        "flat_count": 3,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK1078",
@@ -8644,7 +12464,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 149.2063,
         "market_cap_yi": 5819.2722,
-        "main_ratio": -1.1
+        "main_ratio": -1.1,
+        "up_count": 47,
+        "down_count": 10,
+        "flat_count": 2,
+        "breadth_pct": 79.66
       },
       {
         "code": "BK0566",
@@ -8653,7 +12477,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.62,
         "amount_yi": 42.5556,
         "market_cap_yi": 1990.2478,
-        "main_ratio": -4.09
+        "main_ratio": -4.09,
+        "up_count": 16,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 76.19
       },
       {
         "code": "BK0932",
@@ -8662,7 +12490,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.78,
         "amount_yi": 108.1804,
         "market_cap_yi": 2826.8997,
-        "main_ratio": -1.62
+        "main_ratio": -1.62,
+        "up_count": 29,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 82.86
       },
       {
         "code": "BK0834",
@@ -8671,7 +12503,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.13,
         "amount_yi": 382.8218,
         "market_cap_yi": 34978.7632,
-        "main_ratio": -0.47
+        "main_ratio": -0.47,
+        "up_count": 114,
+        "down_count": 33,
+        "flat_count": 6,
+        "breadth_pct": 74.51
       },
       {
         "code": "BK0730",
@@ -8680,7 +12516,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.58,
         "amount_yi": 43.3694,
         "market_cap_yi": 2801.0371,
-        "main_ratio": -4.14
+        "main_ratio": -4.14,
+        "up_count": 37,
+        "down_count": 11,
+        "flat_count": 1,
+        "breadth_pct": 75.51
       },
       {
         "code": "BK1647",
@@ -8689,7 +12529,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.94,
         "amount_yi": 766.9662,
         "market_cap_yi": 26913.1326,
-        "main_ratio": -0.23
+        "main_ratio": -0.23,
+        "up_count": 199,
+        "down_count": 27,
+        "flat_count": 3,
+        "breadth_pct": 86.9
       },
       {
         "code": "BK1185",
@@ -8698,7 +12542,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 127.8331,
         "market_cap_yi": 2932.5395,
-        "main_ratio": -1.41
+        "main_ratio": -1.41,
+        "up_count": 34,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 80.95
       },
       {
         "code": "BK1659",
@@ -8707,7 +12555,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.74,
         "amount_yi": 172.0859,
         "market_cap_yi": 7733.7275,
-        "main_ratio": -1.1
+        "main_ratio": -1.1,
+        "up_count": 54,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 87.1
       },
       {
         "code": "BK1711",
@@ -8716,7 +12568,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.7,
         "amount_yi": 567.5607,
         "market_cap_yi": 65753.9226,
-        "main_ratio": -0.35
+        "main_ratio": -0.35,
+        "up_count": 82,
+        "down_count": 17,
+        "flat_count": 1,
+        "breadth_pct": 82.0
       },
       {
         "code": "BK1700",
@@ -8725,7 +12581,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.24,
         "amount_yi": 311.8342,
         "market_cap_yi": 18431.7342,
-        "main_ratio": -0.64
+        "main_ratio": -0.64,
+        "up_count": 16,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 84.21
       },
       {
         "code": "BK0977",
@@ -8734,7 +12594,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.87,
         "amount_yi": 298.8917,
         "market_cap_yi": 12305.5562,
-        "main_ratio": -0.67
+        "main_ratio": -0.67,
+        "up_count": 40,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 85.11
       },
       {
         "code": "BK1193",
@@ -8743,7 +12607,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.79,
         "amount_yi": 223.0633,
         "market_cap_yi": 11520.9304,
-        "main_ratio": -0.9
+        "main_ratio": -0.9,
+        "up_count": 63,
+        "down_count": 20,
+        "flat_count": 4,
+        "breadth_pct": 72.41
       },
       {
         "code": "BK1694",
@@ -8752,7 +12620,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.19,
         "amount_yi": 908.6504,
         "market_cap_yi": 34684.3342,
-        "main_ratio": -0.22
+        "main_ratio": -0.22,
+        "up_count": 145,
+        "down_count": 24,
+        "flat_count": 3,
+        "breadth_pct": 84.3
       },
       {
         "code": "BK0676",
@@ -8761,7 +12633,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.1,
         "amount_yi": 70.8598,
         "market_cap_yi": 6444.0789,
-        "main_ratio": -2.86
+        "main_ratio": -2.86,
+        "up_count": 33,
+        "down_count": 9,
+        "flat_count": 1,
+        "breadth_pct": 76.74
       },
       {
         "code": "BK0677",
@@ -8770,7 +12646,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 193.8183,
         "market_cap_yi": 14783.3288,
-        "main_ratio": -1.08
+        "main_ratio": -1.08,
+        "up_count": 70,
+        "down_count": 17,
+        "flat_count": 5,
+        "breadth_pct": 76.09
       },
       {
         "code": "BK0841",
@@ -8779,7 +12659,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.66,
         "amount_yi": 175.2022,
         "market_cap_yi": 7851.0227,
-        "main_ratio": -1.27
+        "main_ratio": -1.27,
+        "up_count": 59,
+        "down_count": 7,
+        "flat_count": 3,
+        "breadth_pct": 85.51
       },
       {
         "code": "BK1658",
@@ -8788,7 +12672,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.78,
         "amount_yi": 353.7554,
         "market_cap_yi": 15169.6384,
-        "main_ratio": -0.63
+        "main_ratio": -0.63,
+        "up_count": 61,
+        "down_count": 18,
+        "flat_count": 0,
+        "breadth_pct": 77.22
       },
       {
         "code": "BK0643",
@@ -8797,7 +12685,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.38,
         "amount_yi": 91.399,
         "market_cap_yi": 8663.8099,
-        "main_ratio": -2.49
+        "main_ratio": -2.49,
+        "up_count": 30,
+        "down_count": 3,
+        "flat_count": 2,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK0814",
@@ -8806,7 +12698,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.96,
         "amount_yi": 323.5718,
         "market_cap_yi": 18840.2306,
-        "main_ratio": -0.7
+        "main_ratio": -0.7,
+        "up_count": 91,
+        "down_count": 11,
+        "flat_count": 0,
+        "breadth_pct": 89.22
       },
       {
         "code": "BK0949",
@@ -8815,7 +12711,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.53,
         "amount_yi": 101.2352,
         "market_cap_yi": 3444.4853,
-        "main_ratio": -2.27
+        "main_ratio": -2.27,
+        "up_count": 12,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK0653",
@@ -8824,7 +12724,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.8,
         "amount_yi": 420.1835,
         "market_cap_yi": 31434.6702,
-        "main_ratio": -0.55
+        "main_ratio": -0.55,
+        "up_count": 121,
+        "down_count": 21,
+        "flat_count": 5,
+        "breadth_pct": 82.31
       },
       {
         "code": "BK0698",
@@ -8833,7 +12737,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.76,
         "amount_yi": 106.1015,
         "market_cap_yi": 8568.6651,
-        "main_ratio": -2.18
+        "main_ratio": -2.18,
+        "up_count": 41,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 83.67
       },
       {
         "code": "BK0668",
@@ -8842,7 +12750,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.16,
         "amount_yi": 951.4658,
         "market_cap_yi": 46477.3171,
-        "main_ratio": -0.25
+        "main_ratio": -0.25,
+        "up_count": 291,
+        "down_count": 42,
+        "flat_count": 7,
+        "breadth_pct": 85.59
       },
       {
         "code": "BK1656",
@@ -8851,7 +12763,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.95,
         "amount_yi": 68.3676,
         "market_cap_yi": 6888.1742,
-        "main_ratio": -3.45
+        "main_ratio": -3.45,
+        "up_count": 34,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 79.07
       },
       {
         "code": "BK1087",
@@ -8860,7 +12776,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.32,
         "amount_yi": 147.1119,
         "market_cap_yi": 14531.5752,
-        "main_ratio": -1.64
+        "main_ratio": -1.64,
+        "up_count": 30,
+        "down_count": 21,
+        "flat_count": 7,
+        "breadth_pct": 51.72
       },
       {
         "code": "BK0839",
@@ -8869,7 +12789,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.26,
         "amount_yi": 198.81,
         "market_cap_yi": 3509.921,
-        "main_ratio": -1.21
+        "main_ratio": -1.21,
+        "up_count": 31,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 72.09
       },
       {
         "code": "BK0672",
@@ -8878,7 +12802,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 93.7421,
         "market_cap_yi": 7797.0662,
-        "main_ratio": -2.58
+        "main_ratio": -2.58,
+        "up_count": 29,
+        "down_count": 7,
+        "flat_count": 3,
+        "breadth_pct": 74.36
       },
       {
         "code": "BK0556",
@@ -8887,7 +12815,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.77,
         "amount_yi": 316.3293,
         "market_cap_yi": 30661.9832,
-        "main_ratio": -0.78
+        "main_ratio": -0.78,
+        "up_count": 61,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 88.41
       },
       {
         "code": "BK0892",
@@ -8896,7 +12828,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.69,
         "amount_yi": 83.0548,
         "market_cap_yi": 4338.1093,
-        "main_ratio": -3.03
+        "main_ratio": -3.03,
+        "up_count": 25,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 75.76
       },
       {
         "code": "BK1144",
@@ -8905,7 +12841,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.97,
         "amount_yi": 211.3296,
         "market_cap_yi": 6818.7178,
-        "main_ratio": -1.23
+        "main_ratio": -1.23,
+        "up_count": 49,
+        "down_count": 11,
+        "flat_count": 0,
+        "breadth_pct": 81.67
       },
       {
         "code": "BK0974",
@@ -8914,7 +12854,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.57,
         "amount_yi": 99.9092,
         "market_cap_yi": 5602.4258,
-        "main_ratio": -2.64
+        "main_ratio": -2.64,
+        "up_count": 56,
+        "down_count": 8,
+        "flat_count": 2,
+        "breadth_pct": 84.85
       },
       {
         "code": "BK0838",
@@ -8923,7 +12867,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.4,
         "amount_yi": 150.7312,
         "market_cap_yi": 6285.0466,
-        "main_ratio": -1.78
+        "main_ratio": -1.78,
+        "up_count": 33,
+        "down_count": 17,
+        "flat_count": 6,
+        "breadth_pct": 58.93
       },
       {
         "code": "BK0816",
@@ -8932,7 +12880,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -5.01,
         "amount_yi": 41.5586,
         "market_cap_yi": 227.0333,
-        "main_ratio": -6.55
+        "main_ratio": -6.55,
+        "up_count": 1,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 16.67
       },
       {
         "code": "BK1108",
@@ -8941,7 +12893,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.34,
         "amount_yi": 292.4488,
         "market_cap_yi": 20971.3693,
-        "main_ratio": -0.95
+        "main_ratio": -0.95,
+        "up_count": 40,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 88.89
       },
       {
         "code": "BK0485",
@@ -8950,7 +12906,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.58,
         "amount_yi": 49.8274,
         "market_cap_yi": 2798.3192,
-        "main_ratio": -5.83
+        "main_ratio": -5.83,
+        "up_count": 29,
+        "down_count": 8,
+        "flat_count": 2,
+        "breadth_pct": 74.36
       },
       {
         "code": "BK0985",
@@ -8959,7 +12919,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.38,
         "amount_yi": 128.3615,
         "market_cap_yi": 7265.0462,
-        "main_ratio": -2.28
+        "main_ratio": -2.28,
+        "up_count": 37,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 84.09
       },
       {
         "code": "BK0888",
@@ -8968,7 +12932,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 121.3303,
         "market_cap_yi": 6708.053,
-        "main_ratio": -2.43
+        "main_ratio": -2.43,
+        "up_count": 66,
+        "down_count": 19,
+        "flat_count": 3,
+        "breadth_pct": 75.0
       },
       {
         "code": "BK0986",
@@ -8977,7 +12945,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.93,
         "amount_yi": 152.0367,
         "market_cap_yi": 8385.9645,
-        "main_ratio": -1.95
+        "main_ratio": -1.95,
+        "up_count": 23,
+        "down_count": 6,
+        "flat_count": 2,
+        "breadth_pct": 74.19
       },
       {
         "code": "BK0882",
@@ -8986,7 +12958,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.38,
         "amount_yi": 81.0242,
         "market_cap_yi": 7519.0101,
-        "main_ratio": -3.68
+        "main_ratio": -3.68,
+        "up_count": 22,
+        "down_count": 13,
+        "flat_count": 4,
+        "breadth_pct": 56.41
       },
       {
         "code": "BK0536",
@@ -8995,7 +12971,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.56,
         "amount_yi": 2238.5031,
         "market_cap_yi": 79756.4058,
-        "main_ratio": -0.13
+        "main_ratio": -0.13,
+        "up_count": 214,
+        "down_count": 39,
+        "flat_count": 0,
+        "breadth_pct": 84.58
       },
       {
         "code": "BK0870",
@@ -9004,7 +12984,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.15,
         "amount_yi": 160.9526,
         "market_cap_yi": 15711.8202,
-        "main_ratio": -1.91
+        "main_ratio": -1.91,
+        "up_count": 44,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 89.8
       },
       {
         "code": "BK1673",
@@ -9013,7 +12997,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.76,
         "amount_yi": 2739.8684,
         "market_cap_yi": 136933.2736,
-        "main_ratio": -0.11
+        "main_ratio": -0.11,
+        "up_count": 777,
+        "down_count": 134,
+        "flat_count": 41,
+        "breadth_pct": 81.62
       },
       {
         "code": "BK0958",
@@ -9022,7 +13010,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.57,
         "amount_yi": 193.351,
         "market_cap_yi": 10560.0381,
-        "main_ratio": -1.64
+        "main_ratio": -1.64,
+        "up_count": 56,
+        "down_count": 18,
+        "flat_count": 5,
+        "breadth_pct": 70.89
       },
       {
         "code": "BK1170",
@@ -9031,7 +13023,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.05,
         "amount_yi": 328.3756,
         "market_cap_yi": 13445.1062,
-        "main_ratio": -0.97
+        "main_ratio": -0.97,
+        "up_count": 70,
+        "down_count": 10,
+        "flat_count": 1,
+        "breadth_pct": 86.42
       },
       {
         "code": "BK1012",
@@ -9040,7 +13036,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.38,
         "amount_yi": 73.6554,
         "market_cap_yi": 3824.1208,
-        "main_ratio": -4.33
+        "main_ratio": -4.33,
+        "up_count": 12,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0855",
@@ -9049,7 +13049,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.62,
         "amount_yi": 77.9845,
         "market_cap_yi": 1202.8972,
-        "main_ratio": -4.1
+        "main_ratio": -4.1,
+        "up_count": 7,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 70.0
       },
       {
         "code": "BK0548",
@@ -9058,7 +13062,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.26,
         "amount_yi": 166.1454,
         "market_cap_yi": 10177.3331,
-        "main_ratio": -1.95
+        "main_ratio": -1.95,
+        "up_count": 59,
+        "down_count": 11,
+        "flat_count": 2,
+        "breadth_pct": 81.94
       },
       {
         "code": "BK1148",
@@ -9067,7 +13075,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.32,
         "amount_yi": 134.9188,
         "market_cap_yi": 5034.1104,
-        "main_ratio": -2.42
+        "main_ratio": -2.42,
+        "up_count": 22,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 78.57
       },
       {
         "code": "BK0511",
@@ -9076,7 +13088,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 93.0678,
         "market_cap_yi": 6333.5357,
-        "main_ratio": -3.55
+        "main_ratio": -3.55,
+        "up_count": 120,
+        "down_count": 55,
+        "flat_count": 22,
+        "breadth_pct": 60.91
       },
       {
         "code": "BK0581",
@@ -9085,7 +13101,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.94,
         "amount_yi": 605.6926,
         "market_cap_yi": 24426.8464,
-        "main_ratio": -0.55
+        "main_ratio": -0.55,
+        "up_count": 180,
+        "down_count": 21,
+        "flat_count": 1,
+        "breadth_pct": 89.11
       },
       {
         "code": "BK1063",
@@ -9094,7 +13114,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.8,
         "amount_yi": 103.242,
         "market_cap_yi": 4325.5571,
-        "main_ratio": -3.25
+        "main_ratio": -3.25,
+        "up_count": 30,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 85.71
       },
       {
         "code": "BK0906",
@@ -9103,7 +13127,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.35,
         "amount_yi": 269.7984,
         "market_cap_yi": 14133.2493,
-        "main_ratio": -1.3
+        "main_ratio": -1.3,
+        "up_count": 103,
+        "down_count": 21,
+        "flat_count": 7,
+        "breadth_pct": 78.63
       },
       {
         "code": "BK1171",
@@ -9112,7 +13140,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.92,
         "amount_yi": 142.3635,
         "market_cap_yi": 5044.6218,
-        "main_ratio": -2.52
+        "main_ratio": -2.52,
+        "up_count": 37,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 80.43
       },
       {
         "code": "BK1080",
@@ -9121,7 +13153,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.15,
         "amount_yi": 147.997,
         "market_cap_yi": 4717.1218,
-        "main_ratio": -2.49
+        "main_ratio": -2.49,
+        "up_count": 80,
+        "down_count": 21,
+        "flat_count": 4,
+        "breadth_pct": 76.19
       },
       {
         "code": "BK1652",
@@ -9130,7 +13166,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.09,
         "amount_yi": 169.8405,
         "market_cap_yi": 7015.5499,
-        "main_ratio": -2.19
+        "main_ratio": -2.19,
+        "up_count": 64,
+        "down_count": 17,
+        "flat_count": 1,
+        "breadth_pct": 78.05
       },
       {
         "code": "BK1113",
@@ -9139,7 +13179,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.53,
         "amount_yi": 138.1985,
         "market_cap_yi": 3776.6763,
-        "main_ratio": -2.71
+        "main_ratio": -2.71,
+        "up_count": 27,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK1649",
@@ -9148,7 +13192,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.28,
         "amount_yi": 348.8596,
         "market_cap_yi": 63689.8253,
-        "main_ratio": -1.09
+        "main_ratio": -1.09,
+        "up_count": 103,
+        "down_count": 43,
+        "flat_count": 10,
+        "breadth_pct": 66.03
       },
       {
         "code": "BK0899",
@@ -9157,7 +13205,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.28,
         "amount_yi": 263.1044,
         "market_cap_yi": 10504.3597,
-        "main_ratio": -1.46
+        "main_ratio": -1.46,
+        "up_count": 38,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 73.08
       },
       {
         "code": "BK1630",
@@ -9166,7 +13218,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.34,
         "amount_yi": 154.1674,
         "market_cap_yi": 1962.1622,
-        "main_ratio": -2.55
+        "main_ratio": -2.55,
+        "up_count": 17,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 77.27
       },
       {
         "code": "BK0679",
@@ -9175,7 +13231,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.36,
         "amount_yi": 163.7803,
         "market_cap_yi": 5681.0565,
-        "main_ratio": -2.4
+        "main_ratio": -2.4,
+        "up_count": 22,
+        "down_count": 4,
+        "flat_count": 0,
+        "breadth_pct": 84.62
       },
       {
         "code": "BK1752",
@@ -9184,7 +13244,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.06,
         "amount_yi": 449.0043,
         "market_cap_yi": 21919.5834,
-        "main_ratio": -0.91
+        "main_ratio": -0.91,
+        "up_count": 157,
+        "down_count": 48,
+        "flat_count": 8,
+        "breadth_pct": 73.71
       },
       {
         "code": "BK1698",
@@ -9193,7 +13257,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 220.0696,
         "market_cap_yi": 49572.7923,
-        "main_ratio": -1.85
+        "main_ratio": -1.85,
+        "up_count": 56,
+        "down_count": 22,
+        "flat_count": 6,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK0480",
@@ -9202,7 +13270,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.12,
         "amount_yi": 209.0867,
         "market_cap_yi": 13193.0814,
-        "main_ratio": -1.97
+        "main_ratio": -1.97,
+        "up_count": 57,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 91.94
       },
       {
         "code": "BK0823",
@@ -9211,7 +13283,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.3,
         "amount_yi": 709.3714,
         "market_cap_yi": 45143.6749,
-        "main_ratio": -0.61
+        "main_ratio": -0.61,
+        "up_count": 158,
+        "down_count": 25,
+        "flat_count": 4,
+        "breadth_pct": 84.49
       },
       {
         "code": "BK1146",
@@ -9220,7 +13296,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.74,
         "amount_yi": 168.0958,
         "market_cap_yi": 9091.8886,
-        "main_ratio": -2.64
+        "main_ratio": -2.64,
+        "up_count": 38,
+        "down_count": 4,
+        "flat_count": 1,
+        "breadth_pct": 88.37
       },
       {
         "code": "BK0597",
@@ -9229,7 +13309,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.79,
         "amount_yi": 402.9449,
         "market_cap_yi": 26070.2541,
-        "main_ratio": -1.12
+        "main_ratio": -1.12,
+        "up_count": 77,
+        "down_count": 31,
+        "flat_count": 7,
+        "breadth_pct": 66.96
       },
       {
         "code": "BK1672",
@@ -9238,7 +13322,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.71,
         "amount_yi": 912.1859,
         "market_cap_yi": 48373.2275,
-        "main_ratio": -0.5
+        "main_ratio": -0.5,
+        "up_count": 709,
+        "down_count": 116,
+        "flat_count": 32,
+        "breadth_pct": 82.73
       },
       {
         "code": "BK1695",
@@ -9247,7 +13335,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.25,
         "amount_yi": 1053.4246,
         "market_cap_yi": 45241.1597,
-        "main_ratio": -0.44
+        "main_ratio": -0.44,
+        "up_count": 305,
+        "down_count": 45,
+        "flat_count": 6,
+        "breadth_pct": 85.67
       },
       {
         "code": "BK0675",
@@ -9256,7 +13348,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.4,
         "amount_yi": 226.0466,
         "market_cap_yi": 11752.7352,
-        "main_ratio": -2.09
+        "main_ratio": -2.09,
+        "up_count": 91,
+        "down_count": 14,
+        "flat_count": 4,
+        "breadth_pct": 83.49
       },
       {
         "code": "BK0945",
@@ -9265,7 +13361,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 148.8549,
         "market_cap_yi": 11784.3794,
-        "main_ratio": -3.18
+        "main_ratio": -3.18,
+        "up_count": 68,
+        "down_count": 18,
+        "flat_count": 5,
+        "breadth_pct": 74.73
       },
       {
         "code": "BK1671",
@@ -9274,7 +13374,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.58,
         "amount_yi": 396.312,
         "market_cap_yi": 16403.9504,
-        "main_ratio": -1.2
+        "main_ratio": -1.2,
+        "up_count": 186,
+        "down_count": 26,
+        "flat_count": 7,
+        "breadth_pct": 84.93
       },
       {
         "code": "BK1097",
@@ -9283,7 +13387,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.1,
         "amount_yi": 150.5007,
         "market_cap_yi": 5620.015,
-        "main_ratio": -3.19
+        "main_ratio": -3.19,
+        "up_count": 31,
+        "down_count": 10,
+        "flat_count": 0,
+        "breadth_pct": 75.61
       },
       {
         "code": "BK1010",
@@ -9292,7 +13400,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.17,
         "amount_yi": 152.4182,
         "market_cap_yi": 10461.1934,
-        "main_ratio": -3.2
+        "main_ratio": -3.2,
+        "up_count": 42,
+        "down_count": 7,
+        "flat_count": 1,
+        "breadth_pct": 84.0
       },
       {
         "code": "BK0534",
@@ -9301,7 +13413,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.78,
         "amount_yi": 245.362,
         "market_cap_yi": 17683.7774,
-        "main_ratio": -2.0
+        "main_ratio": -2.0,
+        "up_count": 55,
+        "down_count": 22,
+        "flat_count": 7,
+        "breadth_pct": 65.48
       },
       {
         "code": "BK0889",
@@ -9310,7 +13426,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.79,
         "amount_yi": 237.1718,
         "market_cap_yi": 10350.6886,
-        "main_ratio": -2.08
+        "main_ratio": -2.08,
+        "up_count": 63,
+        "down_count": 17,
+        "flat_count": 0,
+        "breadth_pct": 78.75
       },
       {
         "code": "BK0981",
@@ -9319,7 +13439,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.59,
         "amount_yi": 136.2423,
         "market_cap_yi": 6113.7488,
-        "main_ratio": -3.69
+        "main_ratio": -3.69,
+        "up_count": 24,
+        "down_count": 6,
+        "flat_count": 3,
+        "breadth_pct": 72.73
       },
       {
         "code": "BK0429",
@@ -9328,7 +13452,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.99,
         "amount_yi": 227.3611,
         "market_cap_yi": 19810.4682,
-        "main_ratio": -2.21
+        "main_ratio": -2.21,
+        "up_count": 62,
+        "down_count": 15,
+        "flat_count": 3,
+        "breadth_pct": 77.5
       },
       {
         "code": "BK0808",
@@ -9337,7 +13465,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.7,
         "amount_yi": 688.2254,
         "market_cap_yi": 29969.7626,
-        "main_ratio": -0.74
+        "main_ratio": -0.74,
+        "up_count": 152,
+        "down_count": 27,
+        "flat_count": 1,
+        "breadth_pct": 84.44
       },
       {
         "code": "BK1107",
@@ -9346,7 +13478,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.03,
         "amount_yi": 108.4029,
         "market_cap_yi": 17517.86,
-        "main_ratio": -4.76
+        "main_ratio": -4.76,
+        "up_count": 14,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 100.0
       },
       {
         "code": "BK0610",
@@ -9355,7 +13491,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.66,
         "amount_yi": 883.6282,
         "market_cap_yi": 173484.6182,
-        "main_ratio": -0.59
+        "main_ratio": -0.59,
+        "up_count": 40,
+        "down_count": 10,
+        "flat_count": 0,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0908",
@@ -9364,7 +13504,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 182.6753,
         "market_cap_yi": 7371.9963,
-        "main_ratio": -2.95
+        "main_ratio": -2.95,
+        "up_count": 44,
+        "down_count": 7,
+        "flat_count": 0,
+        "breadth_pct": 86.27
       },
       {
         "code": "BK0976",
@@ -9373,7 +13517,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.03,
         "amount_yi": 251.3455,
         "market_cap_yi": 6769.9014,
-        "main_ratio": -2.17
+        "main_ratio": -2.17,
+        "up_count": 27,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 90.0
       },
       {
         "code": "BK0989",
@@ -9382,7 +13530,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.89,
         "amount_yi": 2013.5341,
         "market_cap_yi": 100890.9184,
-        "main_ratio": -0.27
+        "main_ratio": -0.27,
+        "up_count": 392,
+        "down_count": 82,
+        "flat_count": 13,
+        "breadth_pct": 80.49
       },
       {
         "code": "BK0514",
@@ -9391,7 +13543,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 444.7683,
         "market_cap_yi": 34525.4848,
-        "main_ratio": -1.28
+        "main_ratio": -1.28,
+        "up_count": 90,
+        "down_count": 30,
+        "flat_count": 7,
+        "breadth_pct": 70.87
       },
       {
         "code": "BK0975",
@@ -9400,7 +13556,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.27,
         "amount_yi": 135.2412,
         "market_cap_yi": 8056.2301,
-        "main_ratio": -4.29
+        "main_ratio": -4.29,
+        "up_count": 30,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 81.08
       },
       {
         "code": "BK1005",
@@ -9409,7 +13569,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.6,
         "amount_yi": 3508.093,
         "market_cap_yi": 112099.6915,
-        "main_ratio": -0.17
+        "main_ratio": -0.17,
+        "up_count": 1099,
+        "down_count": 141,
+        "flat_count": 13,
+        "breadth_pct": 87.71
       },
       {
         "code": "BK1156",
@@ -9418,7 +13582,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 208.7044,
         "market_cap_yi": 7511.6363,
-        "main_ratio": -2.81
+        "main_ratio": -2.81,
+        "up_count": 40,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 81.63
       },
       {
         "code": "BK0615",
@@ -9427,7 +13595,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 260.0893,
         "market_cap_yi": 17144.4968,
-        "main_ratio": -2.29
+        "main_ratio": -2.29,
+        "up_count": 110,
+        "down_count": 30,
+        "flat_count": 6,
+        "breadth_pct": 75.34
       },
       {
         "code": "BK0703",
@@ -9436,7 +13608,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.0,
         "amount_yi": 230.1886,
         "market_cap_yi": 8373.8642,
-        "main_ratio": -2.62
+        "main_ratio": -2.62,
+        "up_count": 37,
+        "down_count": 5,
+        "flat_count": 1,
+        "breadth_pct": 86.05
       },
       {
         "code": "BK1163",
@@ -9445,7 +13621,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.41,
         "amount_yi": 439.0753,
         "market_cap_yi": 20273.4819,
-        "main_ratio": -1.38
+        "main_ratio": -1.38,
+        "up_count": 73,
+        "down_count": 15,
+        "flat_count": 3,
+        "breadth_pct": 80.22
       },
       {
         "code": "BK0966",
@@ -9454,7 +13634,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 363.5304,
         "market_cap_yi": 25246.5462,
-        "main_ratio": -1.67
+        "main_ratio": -1.67,
+        "up_count": 97,
+        "down_count": 34,
+        "flat_count": 12,
+        "breadth_pct": 67.83
       },
       {
         "code": "BK1657",
@@ -9463,7 +13647,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.44,
         "amount_yi": 394.9951,
         "market_cap_yi": 16026.2115,
-        "main_ratio": -1.55
+        "main_ratio": -1.55,
+        "up_count": 138,
+        "down_count": 26,
+        "flat_count": 4,
+        "breadth_pct": 82.14
       },
       {
         "code": "BK0840",
@@ -9472,7 +13660,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.25,
         "amount_yi": 695.8459,
         "market_cap_yi": 21671.4477,
-        "main_ratio": -0.91
+        "main_ratio": -0.91,
+        "up_count": 86,
+        "down_count": 10,
+        "flat_count": 2,
+        "breadth_pct": 87.76
       },
       {
         "code": "BK1753",
@@ -9481,7 +13673,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.93,
         "amount_yi": 214.8053,
         "market_cap_yi": 7088.9742,
-        "main_ratio": -3.01
+        "main_ratio": -3.01,
+        "up_count": 59,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 93.65
       },
       {
         "code": "BK0617",
@@ -9490,7 +13686,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.56,
         "amount_yi": 284.0521,
         "market_cap_yi": 9552.1035,
-        "main_ratio": -2.28
+        "main_ratio": -2.28,
+        "up_count": 61,
+        "down_count": 12,
+        "flat_count": 2,
+        "breadth_pct": 81.33
       },
       {
         "code": "BK0512",
@@ -9499,7 +13699,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.87,
         "amount_yi": 219.3404,
         "market_cap_yi": 16548.443,
-        "main_ratio": -2.97
+        "main_ratio": -2.97,
+        "up_count": 81,
+        "down_count": 11,
+        "flat_count": 2,
+        "breadth_pct": 86.17
       },
       {
         "code": "BK0601",
@@ -9508,7 +13712,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.31,
         "amount_yi": 492.6069,
         "market_cap_yi": 37564.0757,
-        "main_ratio": -1.36
+        "main_ratio": -1.36,
+        "up_count": 67,
+        "down_count": 20,
+        "flat_count": 5,
+        "breadth_pct": 72.83
       },
       {
         "code": "BK0590",
@@ -9517,7 +13725,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.37,
         "amount_yi": 2074.5939,
         "market_cap_yi": 114882.4141,
-        "main_ratio": -0.32
+        "main_ratio": -0.32,
+        "up_count": 465,
+        "down_count": 123,
+        "flat_count": 20,
+        "breadth_pct": 76.48
       },
       {
         "code": "BK1670",
@@ -9526,7 +13738,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.41,
         "amount_yi": 457.5717,
         "market_cap_yi": 38836.7018,
-        "main_ratio": -1.49
+        "main_ratio": -1.49,
+        "up_count": 99,
+        "down_count": 22,
+        "flat_count": 4,
+        "breadth_pct": 79.2
       },
       {
         "code": "BK0926",
@@ -9535,7 +13751,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.5,
         "amount_yi": 193.2246,
         "market_cap_yi": 5200.4019,
-        "main_ratio": -3.55
+        "main_ratio": -3.55,
+        "up_count": 25,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 89.29
       },
       {
         "code": "BK0528",
@@ -9544,7 +13764,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.87,
         "amount_yi": 990.3303,
         "market_cap_yi": 54989.225,
-        "main_ratio": -0.69
+        "main_ratio": -0.69,
+        "up_count": 253,
+        "down_count": 56,
+        "flat_count": 10,
+        "breadth_pct": 79.31
       },
       {
         "code": "BK1755",
@@ -9553,7 +13777,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.63,
         "amount_yi": 1427.9949,
         "market_cap_yi": 54118.5075,
-        "main_ratio": -0.48
+        "main_ratio": -0.48,
+        "up_count": 93,
+        "down_count": 12,
+        "flat_count": 2,
+        "breadth_pct": 86.92
       },
       {
         "code": "BK0714",
@@ -9562,7 +13790,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.08,
         "amount_yi": 3296.1521,
         "market_cap_yi": 122174.1312,
-        "main_ratio": -0.21
+        "main_ratio": -0.21,
+        "up_count": 263,
+        "down_count": 46,
+        "flat_count": 4,
+        "breadth_pct": 84.03
       },
       {
         "code": "BK1174",
@@ -9571,7 +13803,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 329.2615,
         "market_cap_yi": 14037.4976,
-        "main_ratio": -2.13
+        "main_ratio": -2.13,
+        "up_count": 97,
+        "down_count": 27,
+        "flat_count": 2,
+        "breadth_pct": 76.98
       },
       {
         "code": "BK1639",
@@ -9580,7 +13816,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.98,
         "amount_yi": 1921.3456,
         "market_cap_yi": 217455.4675,
-        "main_ratio": -0.37
+        "main_ratio": -0.37,
+        "up_count": 93,
+        "down_count": 6,
+        "flat_count": 1,
+        "breadth_pct": 93.0
       },
       {
         "code": "BK1645",
@@ -9589,7 +13829,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.11,
         "amount_yi": 75.8488,
         "market_cap_yi": 269.6906,
-        "main_ratio": -9.53
+        "main_ratio": -9.53,
+        "up_count": 3,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK0506",
@@ -9598,7 +13842,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.84,
         "amount_yi": 1167.3069,
         "market_cap_yi": 50205.2941,
-        "main_ratio": -0.62
+        "main_ratio": -0.62,
+        "up_count": 242,
+        "down_count": 49,
+        "flat_count": 10,
+        "breadth_pct": 80.4
       },
       {
         "code": "BK0843",
@@ -9607,7 +13855,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.42,
         "amount_yi": 336.0684,
         "market_cap_yi": 61653.0893,
-        "main_ratio": -2.23
+        "main_ratio": -2.23,
+        "up_count": 85,
+        "down_count": 37,
+        "flat_count": 9,
+        "breadth_pct": 64.89
       },
       {
         "code": "BK1181",
@@ -9616,7 +13868,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.94,
         "amount_yi": 783.5983,
         "market_cap_yi": 34280.6784,
-        "main_ratio": -0.97
+        "main_ratio": -0.97,
+        "up_count": 135,
+        "down_count": 41,
+        "flat_count": 5,
+        "breadth_pct": 74.59
       },
       {
         "code": "BK0492",
@@ -9625,7 +13881,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.6,
         "amount_yi": 227.7741,
         "market_cap_yi": 30092.3354,
-        "main_ratio": -3.37
+        "main_ratio": -3.37,
+        "up_count": 62,
+        "down_count": 15,
+        "flat_count": 3,
+        "breadth_pct": 77.5
       },
       {
         "code": "BK1667",
@@ -9634,7 +13894,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.65,
         "amount_yi": 1745.4235,
         "market_cap_yi": 52500.7027,
-        "main_ratio": -0.44
+        "main_ratio": -0.44,
+        "up_count": 321,
+        "down_count": 49,
+        "flat_count": 4,
+        "breadth_pct": 85.83
       },
       {
         "code": "BK1675",
@@ -9643,7 +13907,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.91,
         "amount_yi": 122.2254,
         "market_cap_yi": 59729.5232,
-        "main_ratio": -6.4
+        "main_ratio": -6.4,
+        "up_count": 1,
+        "down_count": 3,
+        "flat_count": 0,
+        "breadth_pct": 25.0
       },
       {
         "code": "BK0690",
@@ -9652,7 +13920,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.88,
         "amount_yi": 215.0973,
         "market_cap_yi": 9831.0882,
-        "main_ratio": -3.74
+        "main_ratio": -3.74,
+        "up_count": 36,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK0425",
@@ -9661,7 +13933,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.74,
         "amount_yi": 159.5976,
         "market_cap_yi": 12388.0136,
-        "main_ratio": -5.2
+        "main_ratio": -5.2,
+        "up_count": 45,
+        "down_count": 16,
+        "flat_count": 7,
+        "breadth_pct": 66.18
       },
       {
         "code": "BK0964",
@@ -9670,7 +13946,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.91,
         "amount_yi": 436.4742,
         "market_cap_yi": 33635.0459,
-        "main_ratio": -2.0
+        "main_ratio": -2.0,
+        "up_count": 44,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 89.8
       },
       {
         "code": "BK0695",
@@ -9679,7 +13959,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.47,
         "amount_yi": 754.8226,
         "market_cap_yi": 44776.0358,
-        "main_ratio": -1.17
+        "main_ratio": -1.17,
+        "up_count": 104,
+        "down_count": 13,
+        "flat_count": 6,
+        "breadth_pct": 84.55
       },
       {
         "code": "BK1712",
@@ -9688,7 +13972,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.96,
         "amount_yi": 555.392,
         "market_cap_yi": 43063.4778,
-        "main_ratio": -1.66
+        "main_ratio": -1.66,
+        "up_count": 80,
+        "down_count": 18,
+        "flat_count": 2,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1751",
@@ -9697,7 +13985,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.25,
         "amount_yi": 584.8615,
         "market_cap_yi": 20985.391,
-        "main_ratio": -1.59
+        "main_ratio": -1.59,
+        "up_count": 203,
+        "down_count": 57,
+        "flat_count": 18,
+        "breadth_pct": 73.02
       },
       {
         "code": "BK0700",
@@ -9706,7 +13998,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.67,
         "amount_yi": 949.3976,
         "market_cap_yi": 43554.345,
-        "main_ratio": -0.99
+        "main_ratio": -0.99,
+        "up_count": 212,
+        "down_count": 49,
+        "flat_count": 5,
+        "breadth_pct": 79.7
       },
       {
         "code": "BK0815",
@@ -9715,7 +14011,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.92,
         "amount_yi": 269.5033,
         "market_cap_yi": 2628.5328,
-        "main_ratio": -3.5
+        "main_ratio": -3.5,
+        "up_count": 22,
+        "down_count": 9,
+        "flat_count": 0,
+        "breadth_pct": 70.97
       },
       {
         "code": "BK1003",
@@ -9724,7 +14024,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.34,
         "amount_yi": 191.6492,
         "market_cap_yi": 17131.2507,
-        "main_ratio": -4.94
+        "main_ratio": -4.94,
+        "up_count": 23,
+        "down_count": 15,
+        "flat_count": 4,
+        "breadth_pct": 54.76
       },
       {
         "code": "BK1664",
@@ -9733,7 +14037,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.42,
         "amount_yi": 3604.7426,
         "market_cap_yi": 171034.0378,
-        "main_ratio": -0.26
+        "main_ratio": -0.26,
+        "up_count": 420,
+        "down_count": 70,
+        "flat_count": 10,
+        "breadth_pct": 84.0
       },
       {
         "code": "BK0868",
@@ -9742,7 +14050,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 132.7649,
         "market_cap_yi": 14711.8458,
-        "main_ratio": -7.34
+        "main_ratio": -7.34,
+        "up_count": 9,
+        "down_count": 2,
+        "flat_count": 0,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK0604",
@@ -9751,7 +14063,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.95,
         "amount_yi": 303.9997,
         "market_cap_yi": 68640.1818,
-        "main_ratio": -3.35
+        "main_ratio": -3.35,
+        "up_count": 53,
+        "down_count": 16,
+        "flat_count": 6,
+        "breadth_pct": 70.67
       },
       {
         "code": "BK1051",
@@ -9760,7 +14076,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.8,
         "amount_yi": 95.7995,
         "market_cap_yi": 433.6669,
-        "main_ratio": -10.99
+        "main_ratio": -10.99,
+        "up_count": 3,
+        "down_count": 6,
+        "flat_count": 0,
+        "breadth_pct": 33.33
       },
       {
         "code": "BK1680",
@@ -9769,7 +14089,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.24,
         "amount_yi": 941.778,
         "market_cap_yi": 36275.9194,
-        "main_ratio": -1.12
+        "main_ratio": -1.12,
+        "up_count": 95,
+        "down_count": 14,
+        "flat_count": 1,
+        "breadth_pct": 86.36
       },
       {
         "code": "BK0884",
@@ -9778,7 +14102,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.71,
         "amount_yi": 297.7957,
         "market_cap_yi": 11627.8011,
-        "main_ratio": -3.66
+        "main_ratio": -3.66,
+        "up_count": 39,
+        "down_count": 3,
+        "flat_count": 1,
+        "breadth_pct": 90.7
       },
       {
         "code": "BK0963",
@@ -9787,7 +14115,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.01,
         "amount_yi": 1526.3999,
         "market_cap_yi": 53685.9187,
-        "main_ratio": -0.73
+        "main_ratio": -0.73,
+        "up_count": 274,
+        "down_count": 47,
+        "flat_count": 2,
+        "breadth_pct": 84.83
       },
       {
         "code": "BK1696",
@@ -9796,7 +14128,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.73,
         "amount_yi": 916.678,
         "market_cap_yi": 40080.2029,
-        "main_ratio": -1.25
+        "main_ratio": -1.25,
+        "up_count": 250,
+        "down_count": 53,
+        "flat_count": 7,
+        "breadth_pct": 80.65
       },
       {
         "code": "BK0592",
@@ -9805,7 +14141,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.83,
         "amount_yi": 296.822,
         "market_cap_yi": 30547.7443,
-        "main_ratio": -3.96
+        "main_ratio": -3.96,
+        "up_count": 89,
+        "down_count": 30,
+        "flat_count": 7,
+        "breadth_pct": 70.63
       },
       {
         "code": "BK1152",
@@ -9814,7 +14154,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.41,
         "amount_yi": 406.2384,
         "market_cap_yi": 16776.7435,
-        "main_ratio": -2.91
+        "main_ratio": -2.91,
+        "up_count": 23,
+        "down_count": 5,
+        "flat_count": 0,
+        "breadth_pct": 82.14
       },
       {
         "code": "BK0721",
@@ -9823,7 +14167,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.94,
         "amount_yi": 283.3521,
         "market_cap_yi": 23643.7555,
-        "main_ratio": -4.18
+        "main_ratio": -4.18,
+        "up_count": 110,
+        "down_count": 34,
+        "flat_count": 15,
+        "breadth_pct": 69.18
       },
       {
         "code": "BK0547",
@@ -9832,7 +14180,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.76,
         "amount_yi": 392.5463,
         "market_cap_yi": 27051.9118,
-        "main_ratio": -3.09
+        "main_ratio": -3.09,
+        "up_count": 58,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 78.38
       },
       {
         "code": "BK0935",
@@ -9841,7 +14193,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.31,
         "amount_yi": 815.1408,
         "market_cap_yi": 37250.2627,
-        "main_ratio": -1.51
+        "main_ratio": -1.51,
+        "up_count": 58,
+        "down_count": 8,
+        "flat_count": 0,
+        "breadth_pct": 87.88
       },
       {
         "code": "BK1640",
@@ -9850,7 +14206,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.37,
         "amount_yi": 371.4439,
         "market_cap_yi": 66358.5229,
-        "main_ratio": -3.38
+        "main_ratio": -3.38,
+        "up_count": 59,
+        "down_count": 38,
+        "flat_count": 3,
+        "breadth_pct": 59.0
       },
       {
         "code": "BK0588",
@@ -9859,7 +14219,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.22,
         "amount_yi": 1585.7431,
         "market_cap_yi": 90899.8707,
-        "main_ratio": -0.81
+        "main_ratio": -0.81,
+        "up_count": 368,
+        "down_count": 100,
+        "flat_count": 17,
+        "breadth_pct": 75.88
       },
       {
         "code": "BK1690",
@@ -9868,7 +14232,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.38,
         "amount_yi": 9329.1034,
         "market_cap_yi": 533841.4669,
-        "main_ratio": -0.14
+        "main_ratio": -0.14,
+        "up_count": 1281,
+        "down_count": 203,
+        "flat_count": 16,
+        "breadth_pct": 85.4
       },
       {
         "code": "BK1197",
@@ -9877,7 +14245,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.62,
         "amount_yi": 462.7315,
         "market_cap_yi": 48040.4838,
-        "main_ratio": -2.97
+        "main_ratio": -2.97,
+        "up_count": 112,
+        "down_count": 32,
+        "flat_count": 14,
+        "breadth_pct": 70.89
       },
       {
         "code": "BK1050",
@@ -9886,7 +14258,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.38,
         "amount_yi": 294.576,
         "market_cap_yi": 2721.971,
-        "main_ratio": -4.66
+        "main_ratio": -4.66,
+        "up_count": 22,
+        "down_count": 11,
+        "flat_count": 0,
+        "breadth_pct": 66.67
       },
       {
         "code": "BK0921",
@@ -9895,7 +14271,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.22,
         "amount_yi": 624.6258,
         "market_cap_yi": 25338.5256,
-        "main_ratio": -2.28
+        "main_ratio": -2.28,
+        "up_count": 87,
+        "down_count": 15,
+        "flat_count": 1,
+        "breadth_pct": 84.47
       },
       {
         "code": "BK1650",
@@ -9904,7 +14284,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.02,
         "amount_yi": 3837.3161,
         "market_cap_yi": 126262.5869,
-        "main_ratio": -0.38
+        "main_ratio": -0.38,
+        "up_count": 320,
+        "down_count": 58,
+        "flat_count": 4,
+        "breadth_pct": 83.77
       },
       {
         "code": "BK0519",
@@ -9913,7 +14297,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.05,
         "amount_yi": 570.6114,
         "market_cap_yi": 46743.488,
-        "main_ratio": -2.57
+        "main_ratio": -2.57,
+        "up_count": 64,
+        "down_count": 11,
+        "flat_count": 5,
+        "breadth_pct": 80.0
       },
       {
         "code": "BK1660",
@@ -9922,7 +14310,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.3,
         "amount_yi": 1084.9376,
         "market_cap_yi": 33260.3949,
-        "main_ratio": -1.36
+        "main_ratio": -1.36,
+        "up_count": 64,
+        "down_count": 19,
+        "flat_count": 0,
+        "breadth_pct": 77.11
       },
       {
         "code": "BK1106",
@@ -9931,7 +14323,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.63,
         "amount_yi": 645.169,
         "market_cap_yi": 40178.2358,
-        "main_ratio": -2.29
+        "main_ratio": -2.29,
+        "up_count": 182,
+        "down_count": 35,
+        "flat_count": 4,
+        "breadth_pct": 82.35
       },
       {
         "code": "BK0549",
@@ -9940,7 +14336,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.09,
         "amount_yi": 1673.86,
         "market_cap_yi": 99481.1392,
-        "main_ratio": -0.91
+        "main_ratio": -0.91,
+        "up_count": 283,
+        "down_count": 53,
+        "flat_count": 10,
+        "breadth_pct": 81.79
       },
       {
         "code": "BK0577",
@@ -9949,7 +14349,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.25,
         "amount_yi": 732.7356,
         "market_cap_yi": 47079.9053,
-        "main_ratio": -2.31
+        "main_ratio": -2.31,
+        "up_count": 162,
+        "down_count": 41,
+        "flat_count": 10,
+        "breadth_pct": 76.06
       },
       {
         "code": "BK0490",
@@ -9958,7 +14362,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.04,
         "amount_yi": 1540.4445,
         "market_cap_yi": 56307.7658,
-        "main_ratio": -1.11
+        "main_ratio": -1.11,
+        "up_count": 381,
+        "down_count": 57,
+        "flat_count": 5,
+        "breadth_pct": 86.0
       },
       {
         "code": "BK1024",
@@ -9967,7 +14375,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.26,
         "amount_yi": 483.419,
         "market_cap_yi": 62670.167,
-        "main_ratio": -3.59
+        "main_ratio": -3.59,
+        "up_count": 108,
+        "down_count": 58,
+        "flat_count": 14,
+        "breadth_pct": 60.0
       },
       {
         "code": "BK0505",
@@ -9976,7 +14388,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.97,
         "amount_yi": 631.3288,
         "market_cap_yi": 166579.031,
-        "main_ratio": -2.86
+        "main_ratio": -2.86,
+        "up_count": 82,
+        "down_count": 14,
+        "flat_count": 6,
+        "breadth_pct": 80.39
       },
       {
         "code": "BK0523",
@@ -9985,7 +14401,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.49,
         "amount_yi": 1571.2502,
         "market_cap_yi": 59875.5251,
-        "main_ratio": -1.15
+        "main_ratio": -1.15,
+        "up_count": 332,
+        "down_count": 60,
+        "flat_count": 7,
+        "breadth_pct": 83.21
       },
       {
         "code": "BK0525",
@@ -9994,7 +14414,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.92,
         "amount_yi": 931.222,
         "market_cap_yi": 113824.1997,
-        "main_ratio": -1.99
+        "main_ratio": -1.99,
+        "up_count": 160,
+        "down_count": 56,
+        "flat_count": 10,
+        "breadth_pct": 70.8
       },
       {
         "code": "BK0611",
@@ -10003,7 +14427,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.51,
         "amount_yi": 1704.8592,
         "market_cap_yi": 283271.4061,
-        "main_ratio": -1.13
+        "main_ratio": -1.13,
+        "up_count": 41,
+        "down_count": 8,
+        "flat_count": 1,
+        "breadth_pct": 82.0
       },
       {
         "code": "BK0701",
@@ -10012,7 +14440,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.21,
         "amount_yi": 3369.4093,
         "market_cap_yi": 163775.0707,
-        "main_ratio": -0.6
+        "main_ratio": -0.6,
+        "up_count": 413,
+        "down_count": 71,
+        "flat_count": 16,
+        "breadth_pct": 82.6
       },
       {
         "code": "BK0864",
@@ -10021,7 +14453,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.26,
         "amount_yi": 912.3891,
         "market_cap_yi": 53095.6672,
-        "main_ratio": -2.27
+        "main_ratio": -2.27,
+        "up_count": 207,
+        "down_count": 63,
+        "flat_count": 16,
+        "breadth_pct": 72.38
       },
       {
         "code": "BK0552",
@@ -10030,7 +14466,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.51,
         "amount_yi": 3738.6238,
         "market_cap_yi": 361317.3939,
-        "main_ratio": -0.56
+        "main_ratio": -0.56,
+        "up_count": 837,
+        "down_count": 213,
+        "flat_count": 21,
+        "breadth_pct": 78.15
       },
       {
         "code": "BK0595",
@@ -10039,7 +14479,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.31,
         "amount_yi": 1133.5762,
         "market_cap_yi": 82845.3683,
-        "main_ratio": -1.86
+        "main_ratio": -1.86,
+        "up_count": 186,
+        "down_count": 58,
+        "flat_count": 13,
+        "breadth_pct": 72.37
       },
       {
         "code": "BK1071",
@@ -10048,7 +14492,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.84,
         "amount_yi": 504.5614,
         "market_cap_yi": 143038.551,
-        "main_ratio": -4.22
+        "main_ratio": -4.22,
+        "up_count": 54,
+        "down_count": 12,
+        "flat_count": 0,
+        "breadth_pct": 81.82
       },
       {
         "code": "BK1674",
@@ -10057,7 +14505,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.21,
         "amount_yi": 558.5951,
         "market_cap_yi": 98717.4528,
-        "main_ratio": -3.99
+        "main_ratio": -3.99,
+        "up_count": 21,
+        "down_count": 21,
+        "flat_count": 0,
+        "breadth_pct": 50.0
       },
       {
         "code": "BK0718",
@@ -10066,7 +14518,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.15,
         "amount_yi": 538.4808,
         "market_cap_yi": 215221.6218,
-        "main_ratio": -4.3
+        "main_ratio": -4.3,
+        "up_count": 20,
+        "down_count": 13,
+        "flat_count": 1,
+        "breadth_pct": 58.82
       },
       {
         "code": "BK1723",
@@ -10075,7 +14531,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.51,
         "amount_yi": 451.4587,
         "market_cap_yi": 70369.3517,
-        "main_ratio": -5.23
+        "main_ratio": -5.23,
+        "up_count": 135,
+        "down_count": 44,
+        "flat_count": 21,
+        "breadth_pct": 67.5
       },
       {
         "code": "BK1636",
@@ -10084,7 +14544,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.28,
         "amount_yi": 423.6326,
         "market_cap_yi": 157493.7216,
-        "main_ratio": -5.6
+        "main_ratio": -5.6,
+        "up_count": 19,
+        "down_count": 24,
+        "flat_count": 2,
+        "breadth_pct": 42.22
       },
       {
         "code": "BK0705",
@@ -10093,7 +14557,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.85,
         "amount_yi": 1803.638,
         "market_cap_yi": 111360.809,
-        "main_ratio": -1.34
+        "main_ratio": -1.34,
+        "up_count": 303,
+        "down_count": 65,
+        "flat_count": 12,
+        "breadth_pct": 79.74
       },
       {
         "code": "BK1685",
@@ -10102,7 +14570,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.59,
         "amount_yi": 439.7273,
         "market_cap_yi": 118919.3549,
-        "main_ratio": -5.61
+        "main_ratio": -5.61,
+        "up_count": 37,
+        "down_count": 22,
+        "flat_count": 5,
+        "breadth_pct": 57.81
       },
       {
         "code": "BK1676",
@@ -10111,7 +14583,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.01,
         "amount_yi": 472.3713,
         "market_cap_yi": 97361.0752,
-        "main_ratio": -5.43
+        "main_ratio": -5.43,
+        "up_count": 17,
+        "down_count": 23,
+        "flat_count": 0,
+        "breadth_pct": 42.5
       },
       {
         "code": "BK0712",
@@ -10120,7 +14596,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.03,
         "amount_yi": 1774.5067,
         "market_cap_yi": 161388.736,
-        "main_ratio": -1.53
+        "main_ratio": -1.53,
+        "up_count": 395,
+        "down_count": 103,
+        "flat_count": 33,
+        "breadth_pct": 74.39
       },
       {
         "code": "BK1715",
@@ -10129,7 +14609,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.28,
         "amount_yi": 529.499,
         "market_cap_yi": 127560.3968,
-        "main_ratio": -5.12
+        "main_ratio": -5.12,
+        "up_count": 19,
+        "down_count": 26,
+        "flat_count": 0,
+        "breadth_pct": 42.22
       },
       {
         "code": "BK1714",
@@ -10138,7 +14622,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.69,
         "amount_yi": 874.712,
         "market_cap_yi": 229981.2915,
-        "main_ratio": -3.29
+        "main_ratio": -3.29,
+        "up_count": 68,
+        "down_count": 30,
+        "flat_count": 2,
+        "breadth_pct": 68.0
       },
       {
         "code": "BK1641",
@@ -10147,7 +14635,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.19,
         "amount_yi": 613.3834,
         "market_cap_yi": 210076.3136,
-        "main_ratio": -4.73
+        "main_ratio": -4.73,
+        "up_count": 49,
+        "down_count": 49,
+        "flat_count": 2,
+        "breadth_pct": 49.0
       },
       {
         "code": "BK1635",
@@ -10156,7 +14648,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.34,
         "amount_yi": 563.8745,
         "market_cap_yi": 153723.4406,
-        "main_ratio": -5.51
+        "main_ratio": -5.51,
+        "up_count": 112,
+        "down_count": 59,
+        "flat_count": 19,
+        "breadth_pct": 58.95
       },
       {
         "code": "BK1139",
@@ -10165,7 +14661,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.14,
         "amount_yi": 805.2687,
         "market_cap_yi": 271751.4803,
-        "main_ratio": -3.99
+        "main_ratio": -3.99,
+        "up_count": 47,
+        "down_count": 28,
+        "flat_count": 6,
+        "breadth_pct": 58.02
       },
       {
         "code": "BK1666",
@@ -10174,7 +14674,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 1037.6857,
         "market_cap_yi": 266205.7907,
-        "main_ratio": -3.61
+        "main_ratio": -3.61,
+        "up_count": 52,
+        "down_count": 29,
+        "flat_count": 2,
+        "breadth_pct": 62.65
       },
       {
         "code": "BK0877",
@@ -10183,7 +14687,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.39,
         "amount_yi": 1728.2653,
         "market_cap_yi": 52192.3277,
-        "main_ratio": -2.36
+        "main_ratio": -2.36,
+        "up_count": 161,
+        "down_count": 42,
+        "flat_count": 2,
+        "breadth_pct": 78.54
       },
       {
         "code": "BK0612",
@@ -10192,7 +14700,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.35,
         "amount_yi": 2961.6951,
         "market_cap_yi": 489625.9354,
-        "main_ratio": -1.48
+        "main_ratio": -1.48,
+        "up_count": 136,
+        "down_count": 41,
+        "flat_count": 3,
+        "breadth_pct": 75.56
       },
       {
         "code": "BK1112",
@@ -10201,7 +14713,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.61,
         "amount_yi": 1200.5355,
         "market_cap_yi": 256311.2883,
-        "main_ratio": -3.97
+        "main_ratio": -3.97,
+        "up_count": 336,
+        "down_count": 122,
+        "flat_count": 41,
+        "breadth_pct": 67.33
       },
       {
         "code": "BK0879",
@@ -10210,7 +14726,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.38,
         "amount_yi": 6211.8325,
         "market_cap_yi": 616628.3494,
-        "main_ratio": -0.9
+        "main_ratio": -0.9,
+        "up_count": 813,
+        "down_count": 187,
+        "flat_count": 47,
+        "breadth_pct": 77.65
       },
       {
         "code": "BK0683",
@@ -10219,7 +14739,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.08,
         "amount_yi": 4668.7052,
         "market_cap_yi": 477175.7005,
-        "main_ratio": -1.67
+        "main_ratio": -1.67,
+        "up_count": 1086,
+        "down_count": 292,
+        "flat_count": 72,
+        "breadth_pct": 74.9
       },
       {
         "code": "BK0707",
@@ -10228,7 +14752,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.88,
         "amount_yi": 7795.5344,
         "market_cap_yi": 712423.8746,
-        "main_ratio": -1.16
+        "main_ratio": -1.16,
+        "up_count": 1325,
+        "down_count": 272,
+        "flat_count": 45,
+        "breadth_pct": 80.69
       }
     ]
   },
@@ -10246,7 +14774,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.82,
         "amount_yi": 279.1848,
         "market_cap_yi": 7216.2278,
-        "main_ratio": 5.88
+        "main_ratio": 5.88,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688825",
@@ -10255,7 +14787,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.93,
         "amount_yi": 197.9806,
         "market_cap_yi": 29088.3365,
-        "main_ratio": 8.14
+        "main_ratio": 8.14,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300750",
@@ -10264,7 +14800,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.8,
         "amount_yi": 253.9624,
         "market_cap_yi": 10994.3453,
-        "main_ratio": 5.11
+        "main_ratio": 5.11,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "603986",
@@ -10273,7 +14813,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.51,
         "amount_yi": 129.0592,
         "market_cap_yi": 2055.5966,
-        "main_ratio": 10.03
+        "main_ratio": 10.03,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002354",
@@ -10282,7 +14826,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 10.0,
         "amount_yi": 23.1001,
         "market_cap_yi": 132.8632,
-        "main_ratio": 49.68
+        "main_ratio": 49.68,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "301660",
@@ -10291,7 +14839,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 20.01,
         "amount_yi": 36.1754,
         "market_cap_yi": 968.2391,
-        "main_ratio": 28.64
+        "main_ratio": 28.64,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002241",
@@ -10300,7 +14852,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 10.0,
         "amount_yi": 28.7344,
         "market_cap_yi": 824.824,
-        "main_ratio": 27.82
+        "main_ratio": 27.82,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300059",
@@ -10309,7 +14865,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 4.33,
         "amount_yi": 69.4156,
         "market_cap_yi": 2935.0181,
-        "main_ratio": 11.14
+        "main_ratio": 11.14,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688256",
@@ -10318,7 +14878,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.46,
         "amount_yi": 125.3418,
         "market_cap_yi": 5862.1771,
-        "main_ratio": 5.68
+        "main_ratio": 5.68,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300296",
@@ -10327,7 +14891,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 20.0,
         "amount_yi": 42.2346,
         "market_cap_yi": 198.5167,
-        "main_ratio": 14.81
+        "main_ratio": 14.81,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300033",
@@ -10336,7 +14904,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 12.39,
         "amount_yi": 54.7362,
         "market_cap_yi": 1609.5206,
-        "main_ratio": 11.17
+        "main_ratio": 11.17,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002421",
@@ -10345,7 +14917,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 9.94,
         "amount_yi": 18.0686,
         "market_cap_yi": 72.736,
-        "main_ratio": 32.04
+        "main_ratio": 32.04,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688836",
@@ -10354,7 +14930,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 20.0,
         "amount_yi": 47.6954,
         "market_cap_yi": 2523.8575,
-        "main_ratio": 10.24
+        "main_ratio": 10.24,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002475",
@@ -10363,7 +14943,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 7.25,
         "amount_yi": 63.901,
         "market_cap_yi": 3904.132,
-        "main_ratio": 7.54
+        "main_ratio": 7.54,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688041",
@@ -10372,7 +14956,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.28,
         "amount_yi": 53.9374,
         "market_cap_yi": 4674.2439,
-        "main_ratio": 8.63
+        "main_ratio": 8.63,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300115",
@@ -10381,7 +14969,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 14.82,
         "amount_yi": 46.3055,
         "market_cap_yi": 402.9596,
-        "main_ratio": 8.53
+        "main_ratio": 8.53,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "003006",
@@ -10390,7 +14982,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 6.42,
         "amount_yi": 12.364,
         "market_cap_yi": 101.8265,
-        "main_ratio": 31.2
+        "main_ratio": 31.2,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688766",
@@ -10399,7 +14995,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 9.59,
         "amount_yi": 37.1896,
         "market_cap_yi": 440.0138,
-        "main_ratio": 10.25
+        "main_ratio": 10.25,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002428",
@@ -10408,7 +15008,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 5.82,
         "amount_yi": 53.1628,
         "market_cap_yi": 553.062,
-        "main_ratio": 7.11
+        "main_ratio": 7.11,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688795",
@@ -10417,7 +15021,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 11.36,
         "amount_yi": 27.3534,
         "market_cap_yi": 1805.7544,
-        "main_ratio": 13.3
+        "main_ratio": 13.3,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       }
     ],
     "top_outflow": [
@@ -10428,7 +15036,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.95,
         "amount_yi": 31.8298,
         "market_cap_yi": 7113.2846,
-        "main_ratio": -17.92
+        "main_ratio": -17.92,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600900",
@@ -10437,7 +15049,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.24,
         "amount_yi": 53.3764,
         "market_cap_yi": 7205.8901,
-        "main_ratio": -10.52
+        "main_ratio": -10.52,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601899",
@@ -10446,7 +15062,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 3.41,
         "amount_yi": 74.5598,
         "market_cap_yi": 7655.4908,
-        "main_ratio": -6.59
+        "main_ratio": -6.59,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601398",
@@ -10455,7 +15075,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -3.14,
         "amount_yi": 58.3338,
         "market_cap_yi": 29653.0006,
-        "main_ratio": -7.87
+        "main_ratio": -7.87,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600293",
@@ -10464,7 +15088,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -6.12,
         "amount_yi": 20.3309,
         "market_cap_yi": 56.9631,
-        "main_ratio": -21.32
+        "main_ratio": -21.32,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601091",
@@ -10473,7 +15101,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -4.59,
         "amount_yi": 16.8503,
         "market_cap_yi": 640.3495,
-        "main_ratio": -23.34
+        "main_ratio": -23.34,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600036",
@@ -10482,7 +15114,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.12,
         "amount_yi": 51.6087,
         "market_cap_yi": 10534.3295,
-        "main_ratio": -7.38
+        "main_ratio": -7.38,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300857",
@@ -10491,7 +15127,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -1.11,
         "amount_yi": 39.5776,
         "market_cap_yi": 953.3771,
-        "main_ratio": -8.29
+        "main_ratio": -8.29,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002371",
@@ -10500,7 +15140,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.83,
         "amount_yi": 51.7268,
         "market_cap_yi": 3912.6789,
-        "main_ratio": -5.66
+        "main_ratio": -5.66,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600183",
@@ -10509,7 +15153,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.5,
         "amount_yi": 76.1052,
         "market_cap_yi": 2691.579,
-        "main_ratio": -3.81
+        "main_ratio": -3.81,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300757",
@@ -10518,7 +15166,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.41,
         "amount_yi": 33.6691,
         "market_cap_yi": 747.7308,
-        "main_ratio": -8.54
+        "main_ratio": -8.54,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002384",
@@ -10527,7 +15179,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.63,
         "amount_yi": 86.2559,
         "market_cap_yi": 2092.0621,
-        "main_ratio": -3.1
+        "main_ratio": -3.1,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601869",
@@ -10536,7 +15192,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.42,
         "amount_yi": 37.1094,
         "market_cap_yi": 2672.0637,
-        "main_ratio": -7.09
+        "main_ratio": -7.09,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300604",
@@ -10545,7 +15205,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.64,
         "amount_yi": 53.1651,
         "market_cap_yi": 1310.8497,
-        "main_ratio": -4.95
+        "main_ratio": -4.95,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601668",
@@ -10554,7 +15218,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.0,
         "amount_yi": 18.2431,
         "market_cap_yi": 1859.4176,
-        "main_ratio": -13.62
+        "main_ratio": -13.62,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "601166",
@@ -10563,7 +15231,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": -0.65,
         "amount_yi": 30.5446,
         "market_cap_yi": 3887.6182,
-        "main_ratio": -8.03
+        "main_ratio": -8.03,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "002463",
@@ -10572,7 +15244,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 0.09,
         "amount_yi": 59.8801,
         "market_cap_yi": 2060.2236,
-        "main_ratio": -4.0
+        "main_ratio": -4.0,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "600176",
@@ -10581,7 +15257,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 1.04,
         "amount_yi": 50.8914,
         "market_cap_yi": 1317.032,
-        "main_ratio": -4.28
+        "main_ratio": -4.28,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "688008",
@@ -10590,7 +15270,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.78,
         "amount_yi": 77.607,
         "market_cap_yi": 2196.9684,
-        "main_ratio": -2.63
+        "main_ratio": -2.63,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       },
       {
         "code": "300408",
@@ -10599,7 +15283,11 @@ window.FULL_MARKET_DATA = {
         "change_pct": 2.2,
         "amount_yi": 41.473,
         "market_cap_yi": 1876.7158,
-        "main_ratio": -4.82
+        "main_ratio": -4.82,
+        "up_count": 0,
+        "down_count": 0,
+        "flat_count": 0,
+        "breadth_pct": 0.0
       }
     ]
   },

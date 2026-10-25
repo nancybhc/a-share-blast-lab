@@ -244,6 +244,7 @@ const marketData = {
 const fundData = window.GROUP_FUND_DATA || null;
 const boardFundData = window.BOARD_FUND_DATA || null;
 const fullMarketData = window.FULL_MARKET_DATA || null;
+const chipSegmentData = window.CHIP_SEGMENTS_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
 let fiveBreak10Monitor = window.FIVE_BREAK_10_MONITOR || null;
 const rankList = document.getElementById("rankList");
@@ -257,6 +258,7 @@ let activeSort = "score";
 let activeGroupId = "semiconductor";
 let activeMarketScope = "concept";
 let activeMarketDirection = "inflow";
+let activeChipSort = "flow_yi";
 let lastCollectorCapture = 0;
 let fiveBreak10ControlStatus = null;
 let fiveBreak10LastGeneratedAt = "";
@@ -622,6 +624,154 @@ function updateMarketPanel() {
   renderIntradayReadout();
 }
 
+function chipPct(value) {
+  const number = Number(value);
+  return Number.isFinite(number)
+    ? `${number > 0 ? "+" : ""}${number.toFixed(2)}%`
+    : "—";
+}
+
+function chipHighlightCard(label, name, value, details, tone) {
+  return `
+    <article class="chip-highlight-card" data-tone="${tone}">
+      <span>${label}</span>
+      <strong>${name}</strong>
+      <b class="${fundTone(value)}">${formatFund(value)}</b>
+      <small>${details}</small>
+    </article>
+  `;
+}
+
+function renderChipHighlights() {
+  const container = document.getElementById("chipHighlightGrid");
+  if (!container || !chipSegmentData) return;
+
+  const segments = chipSegmentData.segments || [];
+  const domestic =
+    segments.find((row) => row.code === "BK0891") ||
+    chipSegmentData.highlights?.single_day_concept_leader;
+  const fiveDay = chipSegmentData.highlights?.five_day_leader;
+  const storage = segments.find((row) => row.code === "BK1137");
+  const weakest = chipSegmentData.highlights?.weakest_five_day;
+
+  container.innerHTML = [
+    chipHighlightCard(
+      "SINGLE-DAY FLOW / 单日资金第一",
+      domestic?.name || "国产芯片",
+      domestic?.flow_yi,
+      domestic
+        ? `上涨广度 ${domestic.breadth_pct.toFixed(2)}% · 5日 ${formatFund(domestic.five_day_main_net_yi)}`
+        : "暂无数据",
+      "lime",
+    ),
+    chipHighlightCard(
+      "FIVE-DAY FLOW / 5日累计第一",
+      fiveDay?.name || "数字芯片设计",
+      fiveDay?.five_day_main_net_yi,
+      fiveDay
+        ? `资金效率 ${fiveDay.main_ratio.toFixed(2)}% · 涨幅 ${chipPct(fiveDay.change_pct)}`
+        : "暂无数据",
+      "cyan",
+    ),
+    chipHighlightCard(
+      "STORAGE CHIP / 存储芯片",
+      storage?.name || "存储芯片",
+      storage?.flow_yi,
+      storage
+        ? `5日 ${formatFund(storage.five_day_main_net_yi)} · 资金效率 ${storage.main_ratio.toFixed(2)}%`
+        : "暂无数据",
+      "amber",
+    ),
+    chipHighlightCard(
+      "WEAKEST FIVE-DAY / 5日最弱",
+      weakest?.name || "半导体设备",
+      weakest?.five_day_main_net_yi,
+      weakest
+        ? `当日 ${formatFund(weakest.flow_yi)} · 上涨广度 ${weakest.breadth_pct.toFixed(2)}%`
+        : "暂无数据",
+      "red",
+    ),
+  ].join("");
+}
+
+function renderChipSegmentTable() {
+  const container = document.getElementById("chipSegmentTable");
+  if (!container || !chipSegmentData) return;
+
+  const sortKeys = new Set([
+    "flow_yi",
+    "five_day_main_net_yi",
+    "main_ratio",
+    "change_pct",
+  ]);
+  const sortKey = sortKeys.has(activeChipSort) ? activeChipSort : "flow_yi";
+  const rows = [...chipSegmentData.segments].sort(
+    (a, b) => (Number(b[sortKey]) || 0) - (Number(a[sortKey]) || 0),
+  );
+
+  container.innerHTML = `
+    <table class="fund-table chip-segment-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>芯片细分</th>
+          <th>当日主力</th>
+          <th>较前日</th>
+          <th>5日累计</th>
+          <th>涨幅</th>
+          <th>资金效率</th>
+          <th>上涨广度</th>
+          <th>上涨 / 下跌</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map((row, index) => `
+          <tr class="${row.code === "BK0891" ? "is-domestic" : ""}${row.code === "BK1137" ? "is-storage" : ""}">
+            <td>${String(index + 1).padStart(2, "0")}</td>
+            <td>
+              <span class="fund-group-name">
+                <strong>${row.name}</strong>
+                <small>${row.code}</small>
+                <span class="chip-taxonomy">${row.taxonomy === "concept" ? "概念" : "行业"}</span>
+              </span>
+            </td>
+            <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
+            <td><span class="fund-number ${fundTone(row.day_change_yi)}">${formatFund(row.day_change_yi)}</span></td>
+            <td><span class="fund-number ${fundTone(row.five_day_main_net_yi)}">${formatFund(row.five_day_main_net_yi)}</span></td>
+            <td>${chipPct(row.change_pct)}</td>
+            <td>${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
+            <td>${Number(row.breadth_pct).toFixed(2)}%</td>
+            <td>${row.up_count} / ${row.down_count}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderChipCustomReference() {
+  const container = document.getElementById("chipCustomReference");
+  const custom = chipSegmentData?.custom_reference;
+  if (!container || !custom) return;
+  container.innerHTML = `
+    <span>CUSTOM GROUP / 自定义分组对照</span>
+    <div>
+      <strong>${custom.name} · ${custom.constituents}只</strong>
+      <b>当日 ${formatFund(custom.single_day_yi)}</b>
+      <b>较前日 ${formatFund(custom.day_change_yi)}</b>
+      <b>5日 ${formatFund(custom.five_day_main_net_yi)}</b>
+      <b>结构强度 ${custom.structure_strength.toFixed(1)}</b>
+      <small>${custom.note}</small>
+    </div>
+  `;
+}
+
+function renderChipSegmentSection() {
+  renderChipHighlights();
+  renderChipSegmentTable();
+  renderChipCustomReference();
+}
+
 async function collectorApi(path, method = "GET") {
   const response = await fetch(path, {
     method,
@@ -967,6 +1117,16 @@ document.getElementById("marketDirectionTabs").addEventListener("click", (event)
   renderMarketTable();
 });
 
+document.getElementById("chipSortTabs").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-chip-sort]");
+  if (!button) return;
+  activeChipSort = button.dataset.chipSort;
+  document.querySelectorAll("#chipSortTabs button").forEach((item) => {
+    item.classList.toggle("active", item === button);
+  });
+  renderChipSegmentTable();
+});
+
 function svgEl(tag, attrs = {}) {
   const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
   Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, value));
@@ -1120,10 +1280,18 @@ async function copyBrief() {
   const marketLine = broadMarket
     ? `全市场：${formatFund(broadMarket.main_net_yi)}，流入 ${broadMarket.inflow_count} 只 / 流出 ${broadMarket.outflow_count} 只（有效 ${broadMarket.count} 只）。`
     : "";
+  const chipDomestic = chipSegmentData?.segments?.find((row) => row.code === "BK0891");
+  const chipFiveDay = chipSegmentData?.highlights?.five_day_leader;
+  const chipStorage = chipSegmentData?.segments?.find((row) => row.code === "BK1137");
+  const chipLine =
+    chipDomestic && chipFiveDay && chipStorage
+      ? `芯片细分：国产芯片单日 ${formatFund(chipDomestic.flow_yi)}、5日 ${formatFund(chipDomestic.five_day_main_net_yi)}；${chipFiveDay.name} 5日 ${formatFund(chipFiveDay.five_day_main_net_yi)}；存储芯片单日 ${formatFund(chipStorage.flow_yi)}、5日 ${formatFund(chipStorage.five_day_main_net_yi)}。`
+      : "";
   const text = [
     "大A爆破实验室｜2026-10-23 结构简报",
     "机器人：净强度 72.9，多头 49/70，高位加速但拥挤度上升。",
     "半导体芯片：净强度 59.6，空转多候选 0→30，周五转多确认 0→7，低位点火。",
+    chipLine,
     marketLine,
     "资金：半导体芯片主力净流入 +44.86亿，较前日 +33.07亿，近5日累计 +116.06亿（新浪财经 r0_net / 52只成分股汇总）。",
     "结论：机器人看转多确认持续性，芯片看扩散；商业航天、AI应用需防反向转空。",
@@ -1211,5 +1379,6 @@ renderTransitionChart();
 renderFundTable();
 renderBoardComparison();
 updateMarketPanel();
+renderChipSegmentSection();
 initCollectorControl();
 initFiveBreak10Control();

@@ -12,6 +12,7 @@
   <script src="data/board_daily_fund_flows_2026-10-23.js"></script>
   <script src="data/full_market_daily_2026-10-23.js"></script>
   <script src="data/full_market_intraday_latest.js"></script>
+  <script src="data/chip_segments_2026-10-23.js"></script>
   <script src="data/five_break_10_monitor.js"></script>
   <script src="app.js" defer></script>
 </head>
@@ -37,6 +38,7 @@
       <a href="#radar">阶段雷达</a>
       <a href="#migration">结构迁移</a>
       <a href="#capital">资金脉冲</a>
+      <a href="#chip-segments">芯片拆解</a>
       <a href="#five-break-10">5破10监控</a>
       <a href="#playbook">条件剧本</a>
     </nav>
@@ -453,10 +455,70 @@
       </article>
     </section>
 
+    <section class="section shell chip-segment-section" id="chip-segments">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / CHIP DECOMPOSITION</div>
+          <h2>芯片不是一个板块</h2>
+        </div>
+        <p>拆开概念与行业分类后，单日爆发、持续吸金和资金效率会给出不同答案。</p>
+      </div>
+
+      <article class="chip-verdict reveal">
+        <span class="chip-verdict-label">DATA VERDICT / 2026-10-23</span>
+        <h3>国产芯片是单日资金第一，但不是所有维度的第一。</h3>
+        <p>
+          国产芯片在 13 个官方细分中单日主力净流入第一，当日流入广度 90.43%；
+          但近 5 日仍为净流出。数字芯片设计的 5 日累计资金、主力净流入率和涨幅都更强。
+          存储芯片当日转正，5 日仍偏弱；半导体设备则是 5 日资金最弱分支。
+        </p>
+      </article>
+
+      <div class="chip-highlight-grid reveal" id="chipHighlightGrid"></div>
+
+      <article class="panel chip-segment-panel reveal">
+        <div class="fund-table-head">
+          <div>
+            <span class="panel-label">OFFICIAL SEGMENTS / 13 个芯片细分</span>
+            <h3>单日资金、5 日资金与资金效率</h3>
+          </div>
+          <div class="fund-table-meta">
+            <span>官方概念 / 行业分类</span>
+            <span>不跨板块相加</span>
+            <a href="data/full_market/chip_segments_2026-10-23.csv" download>细分数据 CSV ↘</a>
+          </div>
+        </div>
+
+        <div class="chip-table-toolbar">
+          <div class="segmented" id="chipSortTabs">
+            <button type="button" data-chip-sort="flow_yi" class="active">当日资金</button>
+            <button type="button" data-chip-sort="five_day_main_net_yi">5 日累计</button>
+            <button type="button" data-chip-sort="main_ratio">资金效率</button>
+            <button type="button" data-chip-sort="change_pct">涨幅</button>
+          </div>
+          <span>主力净流入率 = 主力净流入 ÷ 板块成交额</span>
+        </div>
+
+        <div class="fund-table-scroll chip-segment-table-scroll" id="chipSegmentTable"></div>
+
+        <div class="chip-custom-reference" id="chipCustomReference"></div>
+
+        <div class="fund-source-note">
+          <span>METHOD / 分层比较</span>
+          <p>官方板块成分彼此重叠，不能把国产芯片、半导体概念和存储芯片相加。该表只比较单板块资金与市场表现；远航版“半导体芯片”是自定义 52 只成分组，单独列出，不参与官方排名。</p>
+          <div class="fund-source-links">
+            <a href="data/chip_segments_2026-10-23.json" target="_blank">原始 JSON ↗</a>
+            <a href="data/build_chip_segment_strength.py" target="_blank">计算脚本 ↗</a>
+            <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全市场明细 ↘</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
     <section class="section shell five-break-10-section" id="five-break-10">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / LIVE 5-BREAK-10 MONITOR</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / LIVE 5-BREAK-10 MONITOR</div>
           <h2>5破10<br>盘中达标监控</h2>
         </div>
         <p>
@@ -547,7 +609,7 @@
     <section class="section shell" id="playbook">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / NEXT-SESSION PLAYBOOK</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / NEXT-SESSION PLAYBOOK</div>
           <h2>条件剧本，不做单点预测</h2>
         </div>
         <p>每个方向只定义验证条件与失效条件，让盘面自己给出答案。</p>
@@ -559,17 +621,17 @@
             <span>01 / ATTACK</span>
             <span class="play-state">主攻观察</span>
           </div>
-          <h3>半导体芯片</h3>
-          <p class="play-thesis">从蓄势切向转多确认，重点是“扩散”能否继续，而不是预期一把走完。</p>
+          <h3>国产芯片 / 数字芯片设计</h3>
+          <p class="play-thesis">国产芯片看单日资金脉冲能否延续；数字芯片设计看 5 日持续吸金和资金效率能否保持。</p>
           <div class="condition">
             <span>确认条件</span>
-            <p>空转多候选维持 30 附近，多头数量继续增加，资金保持净流入。</p>
+            <p>国产芯片保持净流入且上涨广度不降；数字芯片设计维持资金净流入率 4% 以上。</p>
           </div>
           <div class="condition risk">
             <span>失效条件</span>
-            <p>新增转多确认快速回落，资金重新转负，或强组集体转弱。</p>
+            <p>国产芯片单日流入快速回吐，或数字芯片设计 5 日资金趋势重新转弱。</p>
           </div>
-          <div class="play-score"><span>BLACK HORSE</span><strong>59.6</strong></div>
+          <div class="play-score"><span>DOMESTIC CHIP / 单日资金</span><strong>+79.92</strong></div>
         </article>
 
         <article class="play-card fade reveal">
