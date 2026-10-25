@@ -2255,6 +2255,163 @@ button {
   gap: 12px;
 }
 
+.five-break-10-section .section-heading h2 {
+  max-width: 760px;
+}
+
+.fbl-command-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(440px, 1.35fr) auto;
+  gap: 28px;
+  align-items: center;
+  padding: 24px 26px;
+  background:
+    linear-gradient(110deg, rgba(73, 217, 231, 0.075), transparent 48%),
+    linear-gradient(290deg, rgba(185, 255, 69, 0.04), transparent 40%),
+    var(--panel);
+}
+
+.fbl-command-copy {
+  min-width: 0;
+}
+
+.fbl-command-copy .system-state.is-live i {
+  background: var(--lime);
+  box-shadow: 0 0 12px rgba(185, 255, 69, 0.72);
+}
+
+.fbl-command-copy > strong {
+  display: block;
+  margin-top: 13px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.fbl-command-copy > p {
+  margin: 8px 0 0;
+  color: var(--muted-2);
+  font-size: 9px;
+  line-height: 1.7;
+}
+
+.fbl-command-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--line);
+}
+
+.fbl-command-metrics > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 13px 14px;
+  background: rgba(6, 11, 12, 0.88);
+}
+
+.fbl-command-metrics span,
+.fbl-command-actions small {
+  color: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 6px;
+  letter-spacing: 0.07em;
+}
+
+.fbl-command-metrics strong {
+  overflow: hidden;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fbl-command-actions {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fbl-logic-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.fbl-logic-card {
+  min-height: 190px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background:
+    linear-gradient(145deg, rgba(73, 217, 231, 0.04), transparent 48%),
+    rgba(10, 16, 18, 0.82);
+}
+
+.fbl-logic-card span {
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 7px;
+  letter-spacing: 0.07em;
+}
+
+.fbl-logic-card h3 {
+  margin: 28px 0 11px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fbl-logic-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.8;
+}
+
+.fbl-results-panel {
+  margin-top: 18px;
+  padding: 26px;
+}
+
+.fbl-results-panel .fund-table-head {
+  margin-bottom: 12px;
+}
+
+.fbl-empty {
+  margin: 12px 0 4px;
+  padding: 22px;
+  border: 1px dashed var(--line);
+  border-radius: 9px;
+  color: var(--muted-2);
+  font-size: 9px;
+  text-align: center;
+}
+
+.fbl-table-scroll {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.fbl-active-table {
+  min-width: 1060px;
+}
+
+.fbl-qualified-row {
+  background: rgba(185, 255, 69, 0.055);
+  box-shadow: inset 2px 0 var(--lime);
+}
+
+.fbl-positive {
+  color: var(--lime) !important;
+}
+
 .playbook-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -3077,6 +3234,20 @@ button {
   .market-overview {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .fbl-command-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .fbl-command-actions {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fbl-logic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
@@ -3102,6 +3273,20 @@ button {
   .intraday-live-head {
     flex-direction: column;
     gap: 14px;
+  }
+
+  .fbl-command-metrics,
+  .fbl-logic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .fbl-command-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .fbl-results-panel {
+    padding: 20px 15px;
   }
 
   .pending-metrics {

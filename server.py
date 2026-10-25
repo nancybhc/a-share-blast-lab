@@ -24,8 +24,15 @@ FULL_DIR = DATA_DIR / "full_market"
 COLLECTOR = DATA_DIR / "capture_full_market_fund_flow.py"
 PID_FILE = DATA_DIR / ".collector.pid"
 LOG_FILE = DATA_DIR / "collector.log"
+FIVE_BREAK_10_SCRIPT = (
+    Path(r"C:\Users\jiach\Desktop\今日盘中") / "5break10_monitor.py"
+)
+FIVE_BREAK_10_PID_FILE = DATA_DIR / ".five_break_10_monitor.pid"
+FIVE_BREAK_10_LOG = DATA_DIR / "five_break_10_monitor.log"
+FIVE_BREAK_10_STATUS = DATA_DIR / "five_break_10_monitor.json"
 CHINA_TZ = ZoneInfo("Asia/Shanghai")
 PROCESS_LOCK = threading.Lock()
+FIVE_BREAK_10_LOCK = threading.Lock()
 
 
 def is_trading_window(now: datetime) -> bool:
@@ -151,6 +158,107 @@ def stop_collector() -> dict[str, Any]:
         return collector_state()
 
 
+def read_monitor_payload() -> dict[str, Any]:
+    try:
+        payload = json.loads(FIVE_BREAK_10_STATUS.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def monitor_state() -> dict[str, Any]:
+    payload = read_monitor_payload()
+    now = datetime.now(CHINA_TZ)
+    heartbeat_at: datetime | None = None
+    generated_at = str(payload.get("generated_at") or "")
+    if generated_at:
+        try:
+            heartbeat_at = datetime.fromisoformat(generated_at)
+            if heartbeat_at.tzinfo is None:
+                heartbeat_at = heartbeat_at.replace(tzinfo=CHINA_TZ)
+        except ValueError:
+            heartbeat_at = None
+    heartbeat_age = (
+        max(0, int((now - heartbeat_at).total_seconds()))
+        if heartbeat_at
+        else None
+    )
+
+    payload_pid = int(payload.get("process_id") or 0)
+    try:
+        file_pid = int(FIVE_BREAK_10_PID_FILE.read_text(encoding="ascii").strip())
+    except (OSError, ValueError):
+        file_pid = 0
+    running_pid = payload_pid if pid_is_running(payload_pid) else 0
+    if not running_pid and pid_is_running(file_pid):
+        running_pid = file_pid
+    if not running_pid:
+        FIVE_BREAK_10_PID_FILE.unlink(missing_ok=True)
+
+    return {
+        "running": bool(running_pid),
+        "state": "running" if running_pid else "stopped",
+        "pid": running_pid or None,
+        "monitor_status": payload.get("status", "unavailable"),
+        "heartbeat_age_seconds": heartbeat_age,
+        "server_time": now.isoformat(timespec="seconds"),
+        "signal_date": payload.get("signal_date"),
+        "market_date": payload.get("market_date"),
+        "generated_at": payload.get("generated_at"),
+        "interval_seconds": payload.get("interval_seconds", 60),
+        "plan_count": payload.get("plan_count", 0),
+        "active_count": payload.get("active_count", 0),
+    }
+
+
+def start_monitor() -> dict[str, Any]:
+    with FIVE_BREAK_10_LOCK:
+        current = monitor_state()
+        if current["running"]:
+            return current
+        if not FIVE_BREAK_10_SCRIPT.exists():
+            raise FileNotFoundError(f"监控脚本不存在：{FIVE_BREAK_10_SCRIPT}")
+
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        log_handle = FIVE_BREAK_10_LOG.open("a", encoding="utf-8")
+        creation_flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
+        process = subprocess.Popen(
+            [
+                sys.executable,
+                "-X",
+                "utf8",
+                str(FIVE_BREAK_10_SCRIPT),
+                "--interval",
+                "60",
+            ],
+            cwd=str(FIVE_BREAK_10_SCRIPT.parent),
+            stdout=log_handle,
+            stderr=subprocess.STDOUT,
+            creationflags=creation_flags,
+        )
+        log_handle.close()
+        FIVE_BREAK_10_PID_FILE.write_text(str(process.pid), encoding="ascii")
+        time.sleep(0.4)
+        return monitor_state()
+
+
+def stop_monitor() -> dict[str, Any]:
+    with FIVE_BREAK_10_LOCK:
+        state = monitor_state()
+        pid = int(state.get("pid") or 0)
+        if pid:
+            if os.name == "nt":
+                subprocess.run(
+                    ["taskkill", "/PID", str(pid), "/T", "/F"],
+                    capture_output=True,
+                    check=False,
+                )
+            else:
+                os.kill(pid, 15)
+        FIVE_BREAK_10_PID_FILE.unlink(missing_ok=True)
+        return monitor_state()
+
+
 class DashboardHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(BASE_DIR), **kwargs)
@@ -169,6 +277,9 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         if path == "/api/collector/status":
             self.send_json(collector_state())
             return
+        if path == "/api/five-break-10/status":
+            self.send_json(monitor_state())
+            return
         super().do_GET()
 
     def do_POST(self) -> None:
@@ -179,6 +290,12 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 return
             if path == "/api/collector/stop":
                 self.send_json(stop_collector())
+                return
+            if path == "/api/five-break-10/start":
+                self.send_json(start_monitor())
+                return
+            if path == "/api/five-break-10/stop":
+                self.send_json(stop_monitor())
                 return
             self.send_json({"error": "not found"}, HTTPStatus.NOT_FOUND)
         except Exception as exc:  # noqa: BLE001

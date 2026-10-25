@@ -79,7 +79,7 @@ const marketData = {
       setupCaption: "今日空转多",
       confirm: "9",
       confirmCaption: "今日转多确认",
-      thesis: "候选池和兑现数量同时靠前，并出现一只空→多直接跳级。强度低于芯片，但扩散面更宽。",
+      thesis: "候选池和转多确认数同时靠前，并出现一只空→多直接跳级。强度低于芯片，但扩散面更宽。",
     },
     {
       id: "optics",
@@ -99,7 +99,7 @@ const marketData = {
       setupCaption: "今日空转多",
       confirm: "2",
       confirmCaption: "今日转多确认",
-      thesis: "AI 硬件链的跟随修复方向，无反向转空，但多头占比仍低，需要等待兑现数量继续抬升。",
+      thesis: "AI 硬件链的跟随修复方向，无反向转空，但多头占比仍低，需要等待转多确认数继续抬升。",
     },
     {
       id: "mlcc",
@@ -118,8 +118,8 @@ const marketData = {
       setup: "6",
       setupCaption: "今日空转多",
       confirm: "0",
-      confirmCaption: "尚未兑现",
-      thesis: "候选开始增加但尚无多头确认，属于更早期的准备阶段。可以观察，不应急于把蓄势当成兑现。",
+      confirmCaption: "尚未转多确认",
+      thesis: "候选开始增加但尚无多头确认，属于更早期的准备阶段。可以观察，不应急于把蓄势当成转多确认。",
     },
     {
       id: "pharma",
@@ -139,7 +139,7 @@ const marketData = {
       setupCaption: "今日空转多",
       confirm: "3",
       confirmCaption: "今日转多确认",
-      thesis: "候选池很大，说明有资金试探，但兑现仍少。大池子的修复需要更长确认周期。",
+      thesis: "候选池很大，说明有资金试探，但转多确认仍少。大池子的修复需要更长确认周期。",
     },
     {
       id: "equipment",
@@ -159,7 +159,7 @@ const marketData = {
       setupCaption: "今日空转多",
       confirm: "2",
       confirmCaption: "今日转多确认",
-      thesis: "无反向转空，候选池持续存在，是半导体主线的次生观察方向，当前兑现强度弱于芯片本体。",
+      thesis: "无反向转空，候选池持续存在，是半导体主线的次生观察方向，当前转多确认强度弱于芯片本体。",
     },
     {
       id: "ai-app",
@@ -219,7 +219,7 @@ const marketData = {
       setupCaption: "今日空转多",
       confirm: "9",
       confirmCaption: "今日转多确认",
-      thesis: "兑现数量不少，但反向转空达到 10 只。结构正在分歧，不能只看多头增加而忽略同日失血。",
+      thesis: "转多确认数不少，但反向转空达到 10 只。结构正在分歧，不能只看多头增加而忽略同日失血。",
     },
   ],
   transition: {
@@ -245,6 +245,7 @@ const fundData = window.GROUP_FUND_DATA || null;
 const boardFundData = window.BOARD_FUND_DATA || null;
 const fullMarketData = window.FULL_MARKET_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
+let fiveBreak10Monitor = window.FIVE_BREAK_10_MONITOR || null;
 const rankList = document.getElementById("rankList");
 const rankTabs = document.getElementById("rankTabs");
 const rankValueHead = document.getElementById("rankValueHead");
@@ -257,8 +258,11 @@ let activeGroupId = "semiconductor";
 let activeMarketScope = "concept";
 let activeMarketDirection = "inflow";
 let lastCollectorCapture = 0;
+let fiveBreak10ControlStatus = null;
+let fiveBreak10LastGeneratedAt = "";
 let toastTimer = null;
 const COLLECTOR_STATUS_INTERVAL_MS = 60000;
+const FIVE_BREAK_10_INTERVAL_MS = 60000;
 
 const toneColors = {
   lime: "#b9ff45",
@@ -269,7 +273,7 @@ const toneColors = {
 
 const sortConfig = {
   score: { label: "净强度", suffix: "", max: 80, metricLabel: "净强度" },
-  fulfilled: { label: "兑现", suffix: "只", max: 25, metricLabel: "转多确认" },
+  fulfilled: { label: "转多确认", suffix: "只", max: 25, metricLabel: "转多确认数" },
   bullPct: { label: "多头占比", suffix: "%", max: 100, metricLabel: "多头占比" },
 };
 
@@ -723,6 +727,212 @@ async function initCollectorControl() {
   window.setInterval(pollCollectorStatus, COLLECTOR_STATUS_INTERVAL_MS);
 }
 
+function escapeMonitorText(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function monitorNumber(value, digits = 2) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number.toFixed(digits) : "—";
+}
+
+function monitorPct(value, digits = 2) {
+  const number = Number(value);
+  return Number.isFinite(number)
+    ? `${number > 0 ? "+" : ""}${number.toFixed(digits)}%`
+    : "—";
+}
+
+function monitorTime(value) {
+  return String(value || "—").replace("T", " ").slice(0, 19);
+}
+
+function setFiveBreak10Button(state, label, disabled = false) {
+  const button = document.getElementById("fiveBreak10Button");
+  if (!button) return;
+  button.dataset.state = state;
+  button.disabled = disabled;
+  button.querySelector("span").textContent = label;
+}
+
+function fiveBreak10IsStale(data) {
+  if (!data?.generated_at) return true;
+  const generated = Date.parse(data.generated_at);
+  if (!Number.isFinite(generated)) return true;
+  const interval = Math.max(60, Number(data.interval_seconds || 60));
+  return Date.now() - generated > interval * 2600;
+}
+
+function renderFiveBreak10() {
+  const data = fiveBreak10Monitor;
+  const control = fiveBreak10ControlStatus;
+  if (!data?.available) {
+    document.getElementById("fiveBreak10Headline").textContent = "暂无监控快照";
+    document.getElementById("fiveBreak10Subline").textContent =
+      "先运行 5破10 达标监控，页面会在下一轮自动读取名单。";
+    return;
+  }
+
+  const stale = fiveBreak10IsStale(data);
+  const running = Boolean(control?.running);
+  const monitorStatus = control?.monitor_status || data.status;
+  const statusText =
+    stale && !running
+      ? "MONITOR STALE"
+      : monitorStatus === "waiting_market"
+        ? "WAITING FOR NEXT SESSION"
+        : monitorStatus === "scanning"
+          ? "LIVE FILTER ACTIVE"
+          : monitorStatus === "starting"
+            ? "MONITOR STARTING"
+            : monitorStatus === "no_quotes"
+              ? "WAITING FOR QUOTES"
+              : monitorStatus === "error"
+                ? "MONITOR ERROR"
+                : running
+                  ? "MONITOR RUNNING"
+                  : "SNAPSHOT READY";
+  const stateNode = document.getElementById("fiveBreak10State");
+  stateNode.classList.toggle("is-live", running && !stale);
+  stateNode.querySelector("span").textContent = statusText;
+
+  const headline =
+    monitorStatus === "waiting_market"
+      ? "门槛名单已就绪 · 等待下一交易日"
+      : monitorStatus === "scanning"
+        ? `动态达标 ${Number(data.active_count || 0)} 只`
+        : stale
+          ? "监控快照已过期"
+          : "监控快照已就绪";
+  document.getElementById("fiveBreak10Headline").textContent = headline;
+  document.getElementById("fiveBreak10Subline").textContent =
+    stale && !running
+      ? "页面保留最后一轮名单，但当前没有检测到运行中的监控进程。"
+      : `每 ${Number(data.interval_seconds || 60)} 秒核对一次最新现价；回落即剔除。`;
+  document.getElementById("fiveBreak10SignalDate").textContent =
+    data.signal_date || "—";
+  document.getElementById("fiveBreak10MarketDate").textContent =
+    data.market_date || "—";
+  document.getElementById("fiveBreak10PlanCount").textContent =
+    `${Number(data.plan_count || 0)} 只`;
+  document.getElementById("fiveBreak10ActiveCount").textContent =
+    `${Number(data.active_count || 0)} 只`;
+  document.getElementById("fiveBreak10LastScan").textContent =
+    `LAST SCAN / ${monitorTime(data.generated_at)}`;
+  document.getElementById("fiveBreak10RefreshHint").textContent =
+    `每 ${Number(data.interval_seconds || 60)} 秒刷新 · ${monitorTime(data.generated_at)}`;
+
+  const active = Array.isArray(data.active) ? data.active : [];
+  const activeBody = document.getElementById("fiveBreak10ActiveBody");
+  activeBody.innerHTML = active
+    .map(
+      (row) => `
+        <tr class="fbl-qualified-row">
+          <td>${escapeMonitorText(monitorTime(row["扫描时间"]))}</td>
+          <td>${escapeMonitorText(row["判定分组"])}</td>
+          <td>${escapeMonitorText(row["代码"])}</td>
+          <td>${escapeMonitorText(row["名称"])}</td>
+          <td>${monitorNumber(row["当前价"])}</td>
+          <td class="fbl-positive">${monitorPct(row["当前涨幅%"])}</td>
+          <td>${monitorNumber(row["目标价"])}</td>
+          <td class="fbl-positive">${monitorPct(row["最低涨幅%"])}</td>
+          <td class="fbl-positive">${monitorPct(row["超过目标百分点"])}</td>
+          <td>${escapeMonitorText(row["行情时间"])}</td>
+        </tr>`,
+    )
+    .join("");
+  document.getElementById("fiveBreak10Empty").hidden = active.length > 0;
+}
+
+function refreshFiveBreak10Data() {
+  const script = document.createElement("script");
+  script.src = `data/five_break_10_monitor.js?t=${Date.now()}`;
+  script.onload = () => {
+    fiveBreak10Monitor =
+      window.FIVE_BREAK_10_MONITOR || fiveBreak10Monitor;
+    fiveBreak10LastGeneratedAt =
+      fiveBreak10Monitor?.generated_at || fiveBreak10LastGeneratedAt;
+    renderFiveBreak10();
+    script.remove();
+  };
+  script.onerror = () => script.remove();
+  document.head.append(script);
+}
+
+function applyFiveBreak10Status(status) {
+  fiveBreak10ControlStatus = status;
+  if (status.running) {
+    setFiveBreak10Button("running", "停止盘中监控");
+  } else {
+    setFiveBreak10Button("stopped", "启动盘中监控");
+  }
+  if (
+    status.generated_at &&
+    status.generated_at !== fiveBreak10LastGeneratedAt
+  ) {
+    fiveBreak10LastGeneratedAt = status.generated_at;
+    refreshFiveBreak10Data();
+  } else {
+    renderFiveBreak10();
+  }
+}
+
+async function pollFiveBreak10Status() {
+  try {
+    applyFiveBreak10Status(
+      await collectorApi("/api/five-break-10/status"),
+    );
+  } catch {
+    fiveBreak10ControlStatus = null;
+    setFiveBreak10Button("offline", "需用启动网站.cmd", true);
+  }
+}
+
+async function initFiveBreak10Control() {
+  const button = document.getElementById("fiveBreak10Button");
+  if (!button) return;
+  renderFiveBreak10();
+
+  const localHosts = new Set(["127.0.0.1", "localhost", "::1"]);
+  if (
+    !["http:", "https:"].includes(location.protocol) ||
+    !localHosts.has(location.hostname)
+  ) {
+    setFiveBreak10Button("offline", "GitHub 只读模式", true);
+    window.setInterval(refreshFiveBreak10Data, FIVE_BREAK_10_INTERVAL_MS);
+    return;
+  }
+
+  await pollFiveBreak10Status();
+  button.addEventListener("click", async () => {
+    const running = Boolean(fiveBreak10ControlStatus?.running);
+    button.disabled = true;
+    try {
+      const status = await collectorApi(
+        running
+          ? "/api/five-break-10/stop"
+          : "/api/five-break-10/start",
+        "POST",
+      );
+      applyFiveBreak10Status(status);
+      showToast(running ? "盘中监控已停止" : "盘中监控已启动，每 60 秒更新");
+      window.setTimeout(refreshFiveBreak10Data, 1200);
+    } catch (error) {
+      setFiveBreak10Button("offline", "监控连接失败", false);
+      showToast(`无法控制盘中监控：${error.message}`);
+    }
+  });
+
+  window.setInterval(() => {
+    pollFiveBreak10Status();
+    refreshFiveBreak10Data();
+  }, FIVE_BREAK_10_INTERVAL_MS);
+}
+
 rankTabs.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-sort]");
   if (!button) return;
@@ -913,10 +1123,10 @@ async function copyBrief() {
   const text = [
     "大A爆破实验室｜2026-10-23 结构简报",
     "机器人：净强度 72.9，多头 49/70，高位加速但拥挤度上升。",
-    "半导体芯片：净强度 59.6，空转多候选 0→30，周五兑现 0→7，低位点火。",
+    "半导体芯片：净强度 59.6，空转多候选 0→30，周五转多确认 0→7，低位点火。",
     marketLine,
     "资金：半导体芯片主力净流入 +44.86亿，较前日 +33.07亿，近5日累计 +116.06亿（新浪财经 r0_net / 52只成分股汇总）。",
-    "结论：机器人看兑现，芯片看扩散；商业航天、AI应用需防反向转空。",
+    "结论：机器人看转多确认持续性，芯片看扩散；商业航天、AI应用需防反向转空。",
     "仅作 MA 结构研究，不构成投资建议。",
   ].join("\n");
 
@@ -1002,3 +1212,4 @@ renderFundTable();
 renderBoardComparison();
 updateMarketPanel();
 initCollectorControl();
+initFiveBreak10Control();

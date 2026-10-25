@@ -35,10 +35,48 @@ python "server.py" --port 8771
 - 页面每 60 秒同步采集状态，并在有新快照时自动刷新盘中数据
 - 运行日志位于 `data/collector.log`
 
+## 5破10 盘中达标监控
+
+页面新增独立章节“5破10 盘中达标监控”，数据来自
+`C:\Users\jiach\Desktop\今日盘中\5break10_monitor.py`。
+
+- 自动读取最新 `多空阶段_YYYY-MM-DD.xlsx` 的 `量化5破10推演` sheet
+- 名单口径：明日最低收盘要达到量化 5破10 进度 3 门槛，后天按明日收盘价平盘推演时
+  MA5 > MA10，且后天 5-10 间距比明日扩大超过 1.5pp
+- 盘中每 60 秒取一次实时行情，只按最新现价动态判断
+- 现价达到目标价才保留，跌回目标价下方立即剔除
+- 不使用盘中最高价永久锁定，避免冲高回落但收盘不达标的股票被误留
+- 页面每 60 秒刷新当前动态达标名单
+- 161 只完整目标池不在页面铺开，通过“下载完整名单 XLSX / CSV”按钮获取
+
+本地页面可直接点击“启动盘中监控”或“停止盘中监控”。控制接口：
+
+```text
+GET  /api/five-break-10/status
+POST /api/five-break-10/start
+POST /api/five-break-10/stop
+```
+
+桌面原有启动程序仍可单独使用：
+
+```text
+C:\Users\jiach\Desktop\今日盘中\启动_5破10达标监控.cmd
+```
+
+监控数据文件：
+
+```text
+data/five_break_10_monitor.json
+data/five_break_10_monitor.js
+data/five_break_10_monitor.log
+data/five_break_10_targets.xlsx
+data/five_break_10_targets.csv
+```
+
 ## 当前版本
 
 - 接入 2026-10-23 多空阶段简报的核心数据
-- 强弱雷达支持按净强度、兑现数量、多头占比重排
+- 强弱雷达支持按净强度、转多确认数、多头占比重排
 - 点击板块可切换首页核心观察窗
 - 展示机器人与半导体芯片的五日空转多候选曲线
 - 展示 17 个分组、891 只去重个股的主力资金流实际汇总

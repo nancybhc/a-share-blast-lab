@@ -12,6 +12,7 @@
   <script src="data/board_daily_fund_flows_2026-10-23.js"></script>
   <script src="data/full_market_daily_2026-10-23.js"></script>
   <script src="data/full_market_intraday_latest.js"></script>
+  <script src="data/five_break_10_monitor.js"></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -36,6 +37,7 @@
       <a href="#radar">阶段雷达</a>
       <a href="#migration">结构迁移</a>
       <a href="#capital">资金脉冲</a>
+      <a href="#five-break-10">5破10监控</a>
       <a href="#playbook">条件剧本</a>
     </nav>
 
@@ -59,7 +61,7 @@
         <h1>大A<span>爆破</span><br>实验室</h1>
         <p class="hero-lead">
           从 MA5 / MA10 阶段迁移里找临界点。机器人仍是强度榜首，
-          但半导体芯片已经从连续蓄势切进兑现窗口——这不是同一种“强”。
+          但半导体芯片已经从连续蓄势进入转多确认窗口——这不是同一种“强”。
         </p>
         <div class="hero-actions">
           <a class="primary-cta" href="#radar">
@@ -121,7 +123,7 @@
           </div>
           <span class="route-arrow">→</span>
           <div>
-            <small>兑现</small>
+            <small>转多确认</small>
             <strong id="focusConfirm">0 → 7</strong>
             <span id="focusConfirmCaption">周五转多确认</span>
           </div>
@@ -139,11 +141,11 @@
       <div class="tape-label">SIGNAL TAPE</div>
       <div class="tape-window">
         <div class="tape-track">
-          <span><b>半导体芯片</b> 蓄势 0 → 30 / 兑现 0 → 7</span>
+          <span><b>半导体芯片</b> 蓄势 0 → 30 / 转多确认 0 → 7</span>
           <span><b>机器人</b> 强度 72.9 / 多头占比 70.0%</span>
           <span><b>芯片主力</b> 10/23 +44.86亿 / 5日 +116.06亿</span>
           <span><b>反向压力</b> 商业航天转空 10</span>
-          <span aria-hidden="true"><b>半导体芯片</b> 蓄势 0 → 30 / 兑现 0 → 7</span>
+          <span aria-hidden="true"><b>半导体芯片</b> 蓄势 0 → 30 / 转多确认 0 → 7</span>
           <span aria-hidden="true"><b>机器人</b> 强度 72.9 / 多头占比 70.0%</span>
           <span aria-hidden="true"><b>芯片主力</b> 10/23 +44.86亿 / 5日 +116.06亿</span>
           <span aria-hidden="true"><b>反向压力</b> 商业航天转空 10</span>
@@ -184,7 +186,7 @@
           <div class="eyebrow"><span class="eyebrow-line"></span> 01 / MARKET MAP</div>
           <h2>多空阶段雷达</h2>
         </div>
-        <p>先看绝对强度，再看边际兑现。点击任一板块，切换左侧核心观察窗。</p>
+        <p>先看绝对强度，再看边际转多确认。点击任一板块，切换左侧核心观察窗。</p>
       </div>
 
       <div class="radar-layout">
@@ -192,7 +194,7 @@
           <div class="panel-toolbar">
             <div class="segmented" id="rankTabs" role="tablist" aria-label="排行口径">
               <button class="active" type="button" data-sort="score" role="tab" aria-selected="true">净强度</button>
-              <button type="button" data-sort="fulfilled" role="tab" aria-selected="false">兑现数量</button>
+              <button type="button" data-sort="fulfilled" role="tab" aria-selected="false">转多确认数</button>
               <button type="button" data-sort="bullPct" role="tab" aria-selected="false">多头占比</button>
             </div>
             <span class="rank-count">TOP 11 / 17 GROUPS</span>
@@ -204,7 +206,7 @@
           </div>
           <div class="rank-list" id="rankList"></div>
           <div class="panel-footnote">
-            <span>强度 = 跳级 ×3 + 兑现 ×2 + 蓄势 ×1 − 反向转空加权，并按分组规模标准化。</span>
+            <span>强度 = 跳级 ×3 + 转多确认 ×2 + 蓄势 ×1 − 反向转空加权，并按分组规模标准化。</span>
             <button id="copyBrief" type="button">复制简报 <span>⌘</span></button>
           </div>
         </article>
@@ -217,7 +219,7 @@
             </div>
             <h3>芯片的强，<br>来自“刚开始”。</h3>
             <p>
-              半导体芯片的多头占比仍只有 13.5%，但周五从 0 到 7 只完成兑现，
+              半导体芯片的多头占比仍只有 13.5%，但周五从 0 到 7 只完成转多确认，
               且此前空转多候选从 0 增至 30。当日主力净流入 +44.86 亿，较前日增加
               +33.07 亿，结构迁移与资金加速同时出现，才是黑马信号。
             </p>
@@ -235,7 +237,7 @@
               <p>空转多候选增加，尚未形成多头</p>
             </div>
             <div class="legend-row">
-              <span><i class="stage-dot confirm"></i>兑现</span>
+              <span><i class="stage-dot confirm"></i>转多确认</span>
               <p>空转多转为多头，开始扩散</p>
             </div>
             <div class="legend-row">
@@ -345,7 +347,7 @@
           </div>
           <div class="fund-reading">
             <span>数据判断</span>
-            <p>自定义 52 只芯片组 10 月 23 日主力净流入 +44.86 亿元，近五日累计 +116.06 亿元。资金方向与结构兑现一致，但 17 个分组当日均为净流入，正向资金本身不具唯一性。</p>
+            <p>自定义 52 只芯片组 10 月 23 日主力净流入 +44.86 亿元，近五日累计 +116.06 亿元。资金方向与结构转多确认一致，但 17 个分组当日均为净流入，正向资金本身不具唯一性。</p>
           </div>
         </article>
 
@@ -386,7 +388,7 @@
           </div>
           <div class="crowd-note">
             <span class="note-cross">✚</span>
-            <p>机器人是“高占比高位”，芯片是“低占比上拐”。前者看兑现，后者看扩散。</p>
+            <p>机器人是“高占比高位”，芯片是“低占比上拐”。前者看转多确认持续性，后者看扩散。</p>
           </div>
         </article>
       </div>
@@ -451,10 +453,101 @@
       </article>
     </section>
 
+    <section class="section shell five-break-10-section" id="five-break-10">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / LIVE 5-BREAK-10 MONITOR</div>
+          <h2>5破10<br>盘中达标监控</h2>
+        </div>
+        <p>
+          从多空阶段的“量化5破10推演”名单出发，盘中每 60 秒按最新现价动态核对。
+          达到明日最低收盘门槛才留下，跌回即剔除；收盘前达不到的股票不会进入次日量化名单。
+        </p>
+      </div>
+
+      <article class="panel fbl-command-panel reveal">
+        <div class="fbl-command-copy">
+          <span class="system-state" id="fiveBreak10State"><i></i><span>MONITOR OFFLINE</span></span>
+          <strong id="fiveBreak10Headline">等待监控快照</strong>
+          <p id="fiveBreak10Subline">读取最新多空阶段报告与盘中行情快照。</p>
+        </div>
+        <div class="fbl-command-metrics">
+          <div><span>SIGNAL DATE</span><strong id="fiveBreak10SignalDate">—</strong></div>
+          <div><span>MARKET DATE</span><strong id="fiveBreak10MarketDate">—</strong></div>
+          <div><span>TARGET POOL</span><strong id="fiveBreak10PlanCount">—</strong></div>
+          <div><span>CURRENT HIT</span><strong id="fiveBreak10ActiveCount">—</strong></div>
+        </div>
+        <div class="fbl-command-actions">
+          <small id="fiveBreak10LastScan">LAST SCAN / —</small>
+          <button class="collector-button" id="fiveBreak10Button" type="button" data-state="offline">
+            <i></i><span>启动盘中监控</span>
+          </button>
+        </div>
+      </article>
+
+      <div class="fbl-logic-grid reveal">
+        <article class="fbl-logic-card">
+          <span>01 / SIGNAL BASE</span>
+          <h3>空或空转多</h3>
+          <p>读取最新多空阶段报告中仍处于“空 / 空转多”的标的，并只保留涨停内可达项。</p>
+        </article>
+        <article class="fbl-logic-card">
+          <span>02 / TOMORROW THRESHOLD</span>
+          <h3>明日最低收盘</h3>
+          <p>反解明日收盘价：明日 MA5、MA10 同时抬升，且 MA5 仍不高于 MA10，保持进度 3 结构。</p>
+        </article>
+        <article class="fbl-logic-card">
+          <span>03 / DAY-AFTER CHECK</span>
+          <h3>后天完成 5破10</h3>
+          <p>假设后天按明日收盘价平盘，推演 MA5 &gt; MA10，且后天 5-10 间距比明日扩大超过 1.5pp。</p>
+        </article>
+        <article class="fbl-logic-card">
+          <span>04 / LIVE FILTER</span>
+          <h3>现价动态达标</h3>
+          <p>每 60 秒只按最新现价判断。达到目标价才进入当前名单，跌回目标下方立即移除，不用盘中最高价永久锁定。</p>
+        </article>
+      </div>
+
+      <article class="panel fbl-results-panel reveal">
+        <div class="fund-table-head">
+          <div>
+            <span class="panel-label">LIVE QUALIFIED / 当前动态达标</span>
+            <h3>本次扫描达到明日最低收盘的股票</h3>
+          </div>
+          <div class="fund-table-meta">
+            <span id="fiveBreak10RefreshHint">每 60 秒刷新</span>
+            <a href="data/five_break_10_targets.xlsx" download>下载完整名单 XLSX ↓</a>
+            <a href="data/five_break_10_targets.csv" download>CSV ↓</a>
+          </div>
+        </div>
+        <div class="fbl-empty" id="fiveBreak10Empty">当前没有动态达标标的。</div>
+        <div class="fund-table-scroll fbl-table-scroll">
+          <table class="fund-table fbl-active-table">
+            <thead>
+              <tr>
+                <th>扫描时间</th>
+                <th>分组</th>
+                <th>代码</th>
+                <th>名称</th>
+                <th>当前价</th>
+                <th>当前涨幅</th>
+                <th>目标价</th>
+                <th>最低涨幅</th>
+                <th>超过目标</th>
+                <th>行情时间</th>
+              </tr>
+            </thead>
+            <tbody id="fiveBreak10ActiveBody"></tbody>
+          </table>
+        </div>
+
+      </article>
+    </section>
+
     <section class="section shell" id="playbook">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / NEXT-SESSION PLAYBOOK</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / NEXT-SESSION PLAYBOOK</div>
           <h2>条件剧本，不做单点预测</h2>
         </div>
         <p>每个方向只定义验证条件与失效条件，让盘面自己给出答案。</p>
@@ -467,14 +560,14 @@
             <span class="play-state">主攻观察</span>
           </div>
           <h3>半导体芯片</h3>
-          <p class="play-thesis">从蓄势切兑现，重点是“扩散”能否继续，而不是预期一把走完。</p>
+          <p class="play-thesis">从蓄势切向转多确认，重点是“扩散”能否继续，而不是预期一把走完。</p>
           <div class="condition">
             <span>确认条件</span>
             <p>空转多候选维持 30 附近，多头数量继续增加，资金保持净流入。</p>
           </div>
           <div class="condition risk">
             <span>失效条件</span>
-            <p>新增兑现快速回落，资金重新转负，或强组集体转弱。</p>
+            <p>新增转多确认快速回落，资金重新转负，或强组集体转弱。</p>
           </div>
           <div class="play-score"><span>BLACK HORSE</span><strong>59.6</strong></div>
         </article>
@@ -482,7 +575,7 @@
         <article class="play-card fade reveal">
           <div class="play-top">
             <span>02 / HARVEST</span>
-            <span class="play-state">高位兑现</span>
+            <span class="play-state">高位确认</span>
           </div>
           <h3>机器人</h3>
           <p class="play-thesis">绝对强度仍是第一，但强势已持续一周，下一步更像分化而非全面加速。</p>
@@ -503,7 +596,7 @@
             <span class="play-state">反向压力</span>
           </div>
           <h3>商业航天 / AI应用</h3>
-          <p class="play-thesis">兑现并不等于安全。部分强势组已经出现明显反向转空，需要先排除陷阱。</p>
+          <p class="play-thesis">转多确认并不等于安全。部分强势组已经出现明显反向转空，需要先排除陷阱。</p>
           <div class="condition">
             <span>压力读数</span>
             <p>商业航天转空 10 只；AI应用转空 5 只；电力、电网设备各 4 只。</p>
@@ -524,8 +617,8 @@
       </div>
       <div class="closing-copy">
         <p>
-          这是“大A爆破实验室”的第一版。下一阶段可以接入多空阶段源数据、
-          自动生成每日简报、策略信号和盘中告警，把静态复盘变成持续运行的市场雷达。
+          现已接入多空阶段、全市场资金和 5破10 盘中动态监控。
+          网页每 60 秒同步最新现价达标名单，把静态复盘继续推进为持续运行的市场雷达。
         </p>
         <button class="primary-cta" id="copyBriefBottom" type="button">
           <span>复制今日简报</span>
@@ -570,7 +663,7 @@
       <div>
         <span>02 / 迁移权重</span>
         <h3>越早的结构，权重越高</h3>
-        <p>空→多直接跳级权重最高，空转多→多代表兑现，空→空转多代表蓄势，反向转空计负分，再按分组规模标准化。</p>
+        <p>空→多直接跳级权重最高，空转多→多代表转多确认，空→空转多代表蓄势，反向转空计负分，再按分组规模标准化。</p>
       </div>
       <div>
         <span>03 / 资金确认</span>
