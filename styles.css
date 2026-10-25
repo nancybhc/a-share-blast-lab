@@ -2449,6 +2449,13 @@ button {
   color: var(--lime);
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
 .site-footer p {
   margin: 0;
   font-size: 9px;

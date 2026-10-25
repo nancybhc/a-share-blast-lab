@@ -2,6 +2,12 @@
 
 这是“大A爆破实验室”的第一版静态原型，重点不是展示复杂指标，而是把“阶段、边际变化、资金确认”放在同一个决策界面里。
 
+## 在线地址
+
+- 本地完整版（支持启动采集器）：`http://127.0.0.1:8771/`
+- GitHub Pages（只读页面）：`https://nancybhc.github.io/a-share-blast-lab/`
+- GitHub 仓库：`https://github.com/nancybhc/a-share-blast-lab`
+
 ## 打开方式
 
 如需使用网页上的“启动全市场采集”按钮，双击 `启动网站.cmd`。它会启动本地控制服务并自动打开：
