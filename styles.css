@@ -189,6 +189,76 @@ button {
   transform: scaleX(1);
 }
 
+.nav-group {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.main-nav .nav-group > .nav-parent {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+}
+
+.nav-parent > span {
+  color: var(--muted-2);
+  font-size: 8px;
+}
+
+.nav-submenu {
+  position: absolute;
+  top: calc(100% - 12px);
+  left: -14px;
+  display: flex;
+  width: 156px;
+  padding: 7px;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid var(--line-strong);
+  border-radius: 9px;
+  background: rgba(8, 13, 14, 0.98);
+  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.42);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.nav-group:hover .nav-submenu,
+.nav-group:focus-within .nav-submenu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.main-nav .nav-submenu a {
+  padding: 9px 11px;
+  border-radius: 5px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.main-nav .nav-submenu a::after {
+  display: none;
+}
+
+.main-nav .nav-submenu a:hover,
+.main-nav .nav-submenu a.active {
+  color: var(--text);
+  background: rgba(185, 255, 69, 0.06);
+}
+
+.nav-group:has(.nav-submenu a.active) > .nav-parent {
+  color: var(--text);
+}
+
+.nav-group:has(.nav-submenu a.active) > .nav-parent::after {
+  transform: scaleX(1);
+}
+
 .topbar-meta {
   display: flex;
   align-items: center;
@@ -2708,6 +2778,22 @@ button {
   letter-spacing: 0.05em;
 }
 
+.theme-data-meta > a {
+  padding: 6px 9px;
+  border: 1px solid rgba(73, 217, 231, 0.22);
+  border-radius: 4px;
+  color: var(--cyan);
+  background: rgba(73, 217, 231, 0.035);
+  font-family: var(--mono);
+  font-size: 7px;
+  letter-spacing: 0.04em;
+}
+
+.theme-data-meta > a:hover {
+  border-color: var(--cyan);
+  background: rgba(73, 217, 231, 0.08);
+}
+
 .theme-data-meta b {
   margin-left: 4px;
   color: var(--text);
@@ -3563,6 +3649,36 @@ button {
   .main-nav a:hover,
   .main-nav a.active {
     background: rgba(185, 255, 69, 0.06);
+  }
+
+  .main-nav .nav-group {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .main-nav .nav-group > .nav-parent {
+    width: 100%;
+    height: auto;
+    padding: 14px 12px;
+  }
+
+  .main-nav .nav-submenu {
+    position: static;
+    display: flex;
+    width: auto;
+    padding: 0 0 5px 18px;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+  }
+
+  .main-nav .nav-submenu a {
+    padding: 9px 12px;
   }
 
   .menu-toggle {

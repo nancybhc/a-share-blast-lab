@@ -864,7 +864,8 @@ function renderBottomReversal() {
   const hitCount = Number(data.hit_count || 0);
   const hitRate = sampleCount ? (hitCount / sampleCount) * 100 : 0;
   const themes = data.themes || [];
-  const strongestTheme = themes.find((row) => !row.generic) || themes[0];
+  const specificThemes = themes.filter((row) => !row.generic);
+  const strongestTheme = specificThemes[0];
 
   document.getElementById("reversalKpis").innerHTML = `
     <article class="reversal-kpi"><span>全市场样本</span><strong>${sampleCount.toLocaleString("zh-CN")}</strong><small>有完整日线数据</small></article>
@@ -873,7 +874,7 @@ function renderBottomReversal() {
     <article class="reversal-kpi"><span>非泛题材共振第一</span><strong>${strongestTheme?.theme || "—"}</strong><small>${strongestTheme ? `${strongestTheme.hits}/${strongestTheme.members} · ${chipPct(strongestTheme.change_pct)}` : "暂无数据"}</small></article>
   `;
 
-  document.getElementById("reversalThemeList").innerHTML = themes
+  document.getElementById("reversalThemeList").innerHTML = specificThemes
     .slice(0, 10)
     .map((row) => `
       <article class="reversal-theme-row">
@@ -889,7 +890,7 @@ function renderBottomReversal() {
         ${row.generic ? '<span class="generic-theme">泛题材</span>' : ""}
       </article>
     `)
-    .join("");
+    .join("") || '<div class="fbl-empty">当前没有多只同步启动的具体细分题材。</div>';
 
   document.getElementById("reversalStockBody").innerHTML = (data.stocks || [])
     .map((row) => `
@@ -1050,7 +1051,7 @@ function refreshIntradayData() {
 function shortDateTime(value) {
   if (!value) return "—";
   const text = String(value).replace("T", " ");
-  return text.length >= 16 ? text.slice(5, 16) : text;
+  return text.length >= 16 ? text.slice(0, 16) : text;
 }
 
 function updateRuntimeDisplay(serverStatus = null) {

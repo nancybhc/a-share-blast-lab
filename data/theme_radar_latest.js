@@ -479,7 +479,7 @@ window.THEME_RADAR_DATA = {
         "leader": "002196 方正电机",
         "hit_stocks": "安乃达(17.1%/7.9/+12%) 山河智能(13.6%/6.6/+14%) 智能自控(16.8%/5.5/+8%) 三变科技(16.1%/3.3/+14%) 方正电机(14.0%/3.2/+15%) 晶科科技(7.6%/2.3/+12%)",
         "resonance_score": 36.6,
-        "generic": false
+        "generic": true
       },
       {
         "theme": "昨日触板",
@@ -778,7 +778,7 @@ window.THEME_RADAR_DATA = {
         "leader": "000065 北方国际",
         "hit_stocks": "北方国际(5.4%/3.1/+8%) 晶科科技(7.6%/2.3/+12%)",
         "resonance_score": 1.8,
-        "generic": false
+        "generic": true
       },
       {
         "theme": "无人机",

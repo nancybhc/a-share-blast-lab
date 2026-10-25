@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import re
+import shutil
 import time
 from datetime import datetime
 from pathlib import Path
@@ -17,6 +18,45 @@ OUTPUT_JSON = DATA_DIR / "theme_radar_latest.json"
 OUTPUT_JS = DATA_DIR / "theme_radar_latest.js"
 STATUS_JSON = DATA_DIR / "theme_radar_status.json"
 OUTPUT_CSV = DATA_DIR / "full_market" / "theme_radar_latest.csv"
+THEME_TOP_CSV = DATA_DIR / "full_market" / "theme_strength_daily_top.csv"
+THEME_DETAIL_CSV = DATA_DIR / "full_market" / "theme_strength_daily_detail.csv"
+THEME_XLSX = DATA_DIR / "theme_strength_latest.xlsx"
+GENERIC_THEME_TERMS = (
+    "东方财富热股",
+    "昨日",
+    "涨停",
+    "首板",
+    "炸板",
+    "触板",
+    "高振幅",
+    "高换手",
+    "融资融券",
+    "深股通",
+    "沪股通",
+    "QFII",
+    "标准普尔",
+    "富时",
+    "MSCI",
+    "专精特新",
+    "一带一路",
+    "股权激励",
+    "破净",
+    "中报",
+    "年报",
+    "季报",
+    "预盈",
+    "预亏",
+    "指数",
+    "题材股",
+)
+BROAD_THEME_NAMES = {
+    "机器人概念",
+    "人工智能",
+    "新能源",
+    "大盘股",
+    "中盘股",
+    "小盘股",
+}
 
 
 def as_float(value: Any) -> float | None:
@@ -127,9 +167,15 @@ def build_payload() -> dict[str, Any]:
         hits = int(as_float(row.get("命中数")) or 0)
         if hits < 2:
             continue
+        theme_name = row.get("题材", "")
+        generic = (
+            str(row.get("泛板块", "")).lower() == "true"
+            or theme_name in BROAD_THEME_NAMES
+            or any(term.lower() in theme_name.lower() for term in GENERIC_THEME_TERMS)
+        )
         reversal_themes.append(
             {
-                "theme": row.get("题材", ""),
+                "theme": theme_name,
                 "code": row.get("板块代码", ""),
                 "members": int(as_float(row.get("成分数")) or 0),
                 "hits": hits,
@@ -139,7 +185,7 @@ def build_payload() -> dict[str, Any]:
                 "leader": row.get("龙头(当日)", ""),
                 "hit_stocks": row.get("命中股(换手/量比/5日)", ""),
                 "resonance_score": as_float(row.get("共振分")),
-                "generic": str(row.get("泛板块", "")).lower() == "true",
+                "generic": generic,
             }
         )
     reversal_themes.sort(
@@ -183,6 +229,16 @@ def write_payload() -> dict[str, Any]:
         "window.THEME_RADAR_DATA = " + text + ";\n",
         encoding="utf-8",
     )
+    source_dir = SOURCE_ROOT / payload["date"] / "原始数据"
+    result_dir = SOURCE_ROOT / payload["date"]
+    for source_name, target in (
+        ("当日题材强度_每日题材前五.csv", THEME_TOP_CSV),
+        ("当日题材强度_每日明细.csv", THEME_DETAIL_CSV),
+        ("题材雷达_当日题材强度.xlsx", THEME_XLSX),
+    ):
+        target.parent.mkdir(parents=True, exist_ok=True)
+        source = source_dir / source_name if source_name.endswith(".csv") else result_dir / source_name
+        shutil.copy2(source, target)
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_CSV.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.writer(handle)
