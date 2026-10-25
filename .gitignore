@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+*.pid
+data/github_publish_status.json
+data/full_market/full_market_intraday_*.json

@@ -9,7 +9,7 @@ import sys
 import threading
 import time
 import webbrowser
-from datetime import datetime, time as clock_time
+from datetime import datetime, time as clock_time, timedelta
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -22,8 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 FULL_DIR = DATA_DIR / "full_market"
 COLLECTOR = DATA_DIR / "capture_full_market_fund_flow.py"
+PUBLISHER = BASE_DIR / "publish_github.py"
 PID_FILE = DATA_DIR / ".collector.pid"
 LOG_FILE = DATA_DIR / "collector.log"
+PUBLISH_STATUS_FILE = DATA_DIR / "github_publish_status.json"
 FIVE_BREAK_10_SCRIPT = (
     Path(r"C:\Users\jiach\Desktop\今日盘中") / "5break10_monitor.py"
 )
@@ -33,6 +35,26 @@ FIVE_BREAK_10_STATUS = DATA_DIR / "five_break_10_monitor.json"
 CHINA_TZ = ZoneInfo("Asia/Shanghai")
 PROCESS_LOCK = threading.Lock()
 FIVE_BREAK_10_LOCK = threading.Lock()
+PUBLISH_LOCK = threading.Lock()
+PUBLISH_SLOTS = (
+    clock_time(9, 30),
+    clock_time(9, 50),
+    clock_time(10, 10),
+    clock_time(10, 30),
+    clock_time(10, 50),
+    clock_time(11, 10),
+    clock_time(11, 30),
+    clock_time(13, 0),
+    clock_time(13, 20),
+    clock_time(13, 40),
+    clock_time(14, 0),
+    clock_time(14, 20),
+    clock_time(14, 40),
+    clock_time(15, 0),
+)
+LAST_ATTEMPTED_SLOT: str | None = None
+PUBLISH_RUNNING = False
+LAST_PUBLISH_ERROR: str | None = None
 
 
 def is_trading_window(now: datetime) -> bool:
@@ -43,6 +65,44 @@ def is_trading_window(now: datetime) -> bool:
         clock_time(9, 20) <= current <= clock_time(11, 35)
         or clock_time(12, 55) <= current <= clock_time(15, 5)
     )
+
+
+def slot_datetime(now: datetime, slot: clock_time) -> datetime:
+    return datetime.combine(now.date(), slot, tzinfo=CHINA_TZ)
+
+
+def latest_due_slot(now: datetime) -> datetime | None:
+    if now.weekday() >= 5:
+        return None
+    due = [
+        slot_datetime(now, slot) + timedelta(seconds=15)
+        for slot in PUBLISH_SLOTS
+        if now >= slot_datetime(now, slot) + timedelta(seconds=15)
+    ]
+    return due[-1] if due else None
+
+
+def next_publish_slot(now: datetime) -> datetime:
+    for offset in range(0, 8):
+        day = (now + timedelta(days=offset)).date()
+        day_midnight = datetime.combine(day, clock_time(0, 0), tzinfo=CHINA_TZ)
+        if day_midnight.weekday() >= 5:
+            continue
+        for slot in PUBLISH_SLOTS:
+            candidate = slot_datetime(day_midnight, slot)
+            if candidate > now:
+                return candidate
+    return now + timedelta(days=1)
+
+
+def read_publish_status() -> dict[str, Any]:
+    if not PUBLISH_STATUS_FILE.exists():
+        return {}
+    try:
+        payload = json.loads(PUBLISH_STATUS_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
 
 
 def pid_is_running(pid: int) -> bool:
@@ -84,6 +144,7 @@ def read_pid() -> int | None:
 def collector_state() -> dict[str, Any]:
     pid = read_pid()
     now = datetime.now(CHINA_TZ)
+    publish_status = read_publish_status()
     live_summary: dict[str, Any] = {}
     summary_path = FULL_DIR / "full_market_intraday_latest.json"
     if summary_path.exists():
@@ -106,6 +167,12 @@ def collector_state() -> dict[str, Any]:
         "capture_count": live_summary.get("capture_count", 0),
         "last_capture_at": live_summary.get("last_capture_at"),
         "log_file": str(LOG_FILE),
+        "publish": {
+            **publish_status,
+            "running": PUBLISH_RUNNING,
+            "last_error": LAST_PUBLISH_ERROR,
+        },
+        "next_publish_at": next_publish_slot(now).isoformat(timespec="seconds"),
     }
 
 
@@ -156,6 +223,60 @@ def stop_collector() -> dict[str, Any]:
                 os.kill(pid, 15)
         PID_FILE.unlink(missing_ok=True)
         return collector_state()
+
+
+def publish_to_github(slot: datetime) -> bool:
+    global PUBLISH_RUNNING, LAST_PUBLISH_ERROR
+    with PUBLISH_LOCK:
+        PUBLISH_RUNNING = True
+        slot_key = slot.strftime("%Y-%m-%d %H:%M")
+        log_path = DATA_DIR / "github_publish.log"
+        try:
+            with log_path.open("a", encoding="utf-8") as log:
+                log.write(f"\n[{datetime.now(CHINA_TZ).isoformat()}] start {slot_key}\n")
+                log.flush()
+                process = subprocess.run(
+                    [
+                        sys.executable,
+                        "-X",
+                        "utf8",
+                        str(PUBLISHER),
+                        "--slot",
+                        slot_key,
+                    ],
+                    cwd=BASE_DIR,
+                    stdout=log,
+                    stderr=subprocess.STDOUT,
+                    timeout=300,
+                    check=False,
+                )
+            if process.returncode == 0:
+                LAST_PUBLISH_ERROR = None
+                print(f"[PUBLISH] GitHub synced for {slot_key}", flush=True)
+                return True
+            LAST_PUBLISH_ERROR = f"publisher exited {process.returncode}"
+        except Exception as exc:  # noqa: BLE001
+            LAST_PUBLISH_ERROR = f"{type(exc).__name__}: {exc}"
+        finally:
+            PUBLISH_RUNNING = False
+        print(f"[PUBLISH] failed for {slot_key}: {LAST_PUBLISH_ERROR}", flush=True)
+        return False
+
+
+def publish_scheduler_loop() -> None:
+    global LAST_ATTEMPTED_SLOT
+    while True:
+        now = datetime.now(CHINA_TZ)
+        if is_trading_window(now):
+            slot = latest_due_slot(now)
+            if slot is not None:
+                slot_key = slot.strftime("%Y-%m-%d %H:%M")
+                persisted = read_publish_status().get("last_slot")
+                if slot_key != persisted and slot_key != LAST_ATTEMPTED_SLOT:
+                    LAST_ATTEMPTED_SLOT = slot_key
+                    if collector_state().get("running"):
+                        publish_to_github(slot)
+        time.sleep(10)
 
 
 def read_monitor_payload() -> dict[str, Any]:
@@ -317,6 +438,7 @@ def main() -> None:
     url = f"http://127.0.0.1:{args.port}/"
     if not args.no_browser:
         threading.Timer(0.8, lambda: webbrowser.open(url)).start()
+    threading.Thread(target=publish_scheduler_loop, daemon=True).start()
     server = ThreadingHTTPServer(("127.0.0.1", args.port), DashboardHandler)
     print(f"[READY] {url}", flush=True)
     print("[INFO] 关闭此窗口将停止网页服务；采集器可单独停止。", flush=True)

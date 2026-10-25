@@ -246,6 +246,7 @@ const boardFundData = window.BOARD_FUND_DATA || null;
 const fullMarketData = window.FULL_MARKET_DATA || null;
 const chipSegmentData = window.CHIP_SEGMENTS_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
+const siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
 let fiveBreak10Monitor = window.FIVE_BREAK_10_MONITOR || null;
 const rankList = document.getElementById("rankList");
 const rankTabs = document.getElementById("rankTabs");
@@ -804,7 +805,44 @@ function refreshIntradayData() {
   document.head.append(script);
 }
 
+function shortDateTime(value) {
+  if (!value) return "—";
+  const text = String(value).replace("T", " ");
+  return text.length >= 16 ? text.slice(5, 16) : text;
+}
+
+function updateRuntimeDisplay(serverStatus = null) {
+  const element = document.getElementById("runtimeTime");
+  if (!element) return;
+
+  if (serverStatus) {
+    const dataTime = serverStatus.last_capture_at || serverStatus.server_time;
+    const publishTime = serverStatus.publish?.last_publish_at;
+    const nextPublish = serverStatus.next_publish_at;
+    element.textContent =
+      `${serverStatus.state === "running" ? "运行" : "本地"} ${shortDateTime(dataTime)}`;
+    element.title = [
+      `本地运行时间：${String(dataTime || "—").replace("T", " ").slice(0, 19)}`,
+      `GitHub 最近同步：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
+      `下次自动同步：${nextPublish ? String(nextPublish).replace("T", " ").slice(0, 19) : "非交易日"}`,
+    ].join("\n");
+    return;
+  }
+
+  const published = siteRuntimeStatus;
+  const publishTime = published?.published_at || published?.published_at_display;
+  const captureTime = published?.last_collector_capture_at;
+  element.textContent = publishTime
+    ? `同步 ${shortDateTime(publishTime)}`
+    : "运行时间 —";
+  element.title = [
+    `GitHub 同步时间：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
+    `本地最后采集：${captureTime ? String(captureTime).replace("T", " ").slice(0, 19) : "尚未采集"}`,
+  ].join("\n");
+}
+
 function applyCollectorStatus(status) {
+  updateRuntimeDisplay(status);
   if (status.running && status.state === "running") {
     setCollectorButton("running", "采集中 · 点击停止");
     document.getElementById("marketCaptureStatus").textContent = "COLLECTOR RUNNING";
@@ -829,6 +867,7 @@ async function pollCollectorStatus() {
   try {
     applyCollectorStatus(await collectorApi("/api/collector/status"));
   } catch {
+    updateRuntimeDisplay();
     setCollectorButton("offline", "需用启动网站.cmd", true);
     document.getElementById("collectorButton").title =
       "本地采集器需要先双击“启动网站.cmd”";
@@ -840,6 +879,7 @@ async function initCollectorControl() {
   if (!button) return;
 
   if (location.protocol !== "http:" && location.protocol !== "https:") {
+    updateRuntimeDisplay();
     setCollectorButton("offline", "需用启动网站.cmd", true);
     button.title = "浏览器不能直接启动本地程序，请双击“启动网站.cmd”";
     return;
@@ -847,6 +887,7 @@ async function initCollectorControl() {
 
   const localHosts = new Set(["127.0.0.1", "localhost", "::1"]);
   if (!localHosts.has(location.hostname)) {
+    updateRuntimeDisplay();
     setCollectorButton("offline", "GitHub 只读模式", true);
     button.title = "采集器只能在本地运行；GitHub 页面用于查看已发布数据";
     return;

@@ -222,6 +222,18 @@ button {
   letter-spacing: 0.05em;
 }
 
+.runtime-time {
+  padding: 5px 8px;
+  border: 1px solid rgba(73, 217, 231, 0.22);
+  border-radius: 4px;
+  color: var(--cyan);
+  background: rgba(73, 217, 231, 0.035);
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
 .menu-toggle {
   display: none;
   width: 38px;
