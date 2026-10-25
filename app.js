@@ -1056,6 +1056,8 @@ function shortDateTime(value) {
 
 function updateRuntimeDisplay(serverStatus = null) {
   const element = document.getElementById("runtimeTime");
+  const mobileLabel = document.getElementById("mobileRuntimeLabel");
+  const mobileTime = document.getElementById("mobileRuntimeTime");
   if (!element) return;
 
   if (serverStatus) {
@@ -1069,6 +1071,13 @@ function updateRuntimeDisplay(serverStatus = null) {
       `GitHub 最近同步：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
       `下次自动同步：${nextPublish ? String(nextPublish).replace("T", " ").slice(0, 19) : "非交易日"}`,
     ].join("\n");
+    if (mobileLabel) {
+      mobileLabel.textContent =
+        serverStatus.state === "running" ? "本地运行" : "本地时间";
+    }
+    if (mobileTime) {
+      mobileTime.textContent = shortDateTime(dataTime);
+    }
     return;
   }
 
@@ -1082,6 +1091,8 @@ function updateRuntimeDisplay(serverStatus = null) {
     `GitHub 同步时间：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
     `本地最后采集：${captureTime ? String(captureTime).replace("T", " ").slice(0, 19) : "尚未采集"}`,
   ].join("\n");
+  if (mobileLabel) mobileLabel.textContent = "GitHub 同步";
+  if (mobileTime) mobileTime.textContent = shortDateTime(publishTime);
 }
 
 function applyCollectorStatus(status) {
