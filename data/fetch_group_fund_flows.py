@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import math
@@ -15,12 +16,11 @@ import requests
 from openpyxl import load_workbook
 
 
-WORKBOOK = Path(r"C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-23.xlsx")
+DEFAULT_WORKBOOK_DIR = Path(r"C:\Users\jiach\多空趋势分析结果")
 WEBSITE_DATA = Path(
     r"C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data"
 )
 DELIVERABLE_DIR = Path(r"C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs")
-TARGET_DATE = "2026-10-23"
 API = (
     "https://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/"
     "MoneyFlow.ssl_qsfx_zjlrqs"
@@ -46,8 +46,8 @@ class Stock:
         return f"sz{self.code}"
 
 
-def load_groups() -> tuple[dict[str, list[Stock]], dict[str, int]]:
-    workbook = load_workbook(WORKBOOK, read_only=True, data_only=True)
+def load_groups(workbook_path: Path) -> tuple[dict[str, list[Stock]], dict[str, int]]:
+    workbook = load_workbook(workbook_path, read_only=True, data_only=True)
     groups: dict[str, list[Stock]] = {}
     expected: dict[str, int] = {}
 
@@ -115,7 +115,18 @@ def numeric(row: dict[str, Any], field: str) -> float | None:
 
 
 def main() -> None:
-    groups, expected = load_groups()
+    parser = argparse.ArgumentParser(description="汇总多空阶段分组的逐股资金流")
+    parser.add_argument("--date", default=datetime.now().strftime("%Y-%m-%d"))
+    parser.add_argument("--workbook", type=Path)
+    args = parser.parse_args()
+    target_date = args.date
+    workbook_path = args.workbook or (
+        DEFAULT_WORKBOOK_DIR / f"多空阶段_{target_date}.xlsx"
+    )
+    if not workbook_path.is_file():
+        raise FileNotFoundError(f"多空阶段报告不存在：{workbook_path}")
+
+    groups, expected = load_groups(workbook_path)
     unique = {
         stock.code: stock
         for members in groups.values()
@@ -156,8 +167,8 @@ def main() -> None:
     )
     last_six = all_dates[-6:]
     last_five = all_dates[-5:]
-    if TARGET_DATE not in all_dates:
-        raise RuntimeError(f"target date {TARGET_DATE} missing from source")
+    if target_date not in all_dates:
+        raise RuntimeError(f"target date {target_date} missing from source")
 
     website_dir = WEBSITE_DATA
     website_dir.mkdir(parents=True, exist_ok=True)
@@ -178,7 +189,7 @@ def main() -> None:
         for stock in members:
             rows = raw_by_code.get(stock.code, [])
             by_date = {str(row.get("opendate")): row for row in rows}
-            if TARGET_DATE not in by_date:
+            if target_date not in by_date:
                 missing.append(stock)
                 continue
             available.append(stock)
@@ -195,7 +206,7 @@ def main() -> None:
                 if total is not None:
                     daily_total[day] += total
 
-            target = by_date[TARGET_DATE]
+            target = by_date[target_date]
             main = numeric(target, "r0_net")
             total = numeric(target, "netamount")
             stock_rows.append(
@@ -203,7 +214,7 @@ def main() -> None:
                     "group": group,
                     "code": stock.code,
                     "name": stock.name,
-                    "date": TARGET_DATE,
+                    "date": target_date,
                     "main_net_yuan": main,
                     "main_net_yi": round(main / 1e8, 4) if main is not None else None,
                     "main_net_ratio": numeric(target, "r0_ratio"),
@@ -235,7 +246,7 @@ def main() -> None:
             }
             for day in last_six
         ]
-        target_main = daily_main[TARGET_DATE]
+        target_main = daily_main[target_date]
         previous_day = last_six[-2] if len(last_six) > 1 else None
         previous_main = daily_main.get(previous_day, 0.0) if previous_day else 0.0
         cumulative_main = sum(daily_main[day] for day in last_five)
@@ -248,7 +259,7 @@ def main() -> None:
             "covered": len(available),
             "missing": [s.code for s in missing],
             "coverage_pct": round(len(available) / len(members) * 100, 2) if members else 0,
-            "date": TARGET_DATE,
+            "date": target_date,
             "main_net_yi": round(target_main / 1e8, 2),
             "main_net_change_yi": round((target_main - previous_main) / 1e8, 2),
             "five_day_main_net_yi": round(cumulative_main / 1e8, 2),
@@ -269,7 +280,7 @@ def main() -> None:
         summary_rows.append(
             {
                 "分组": group,
-                "交易日": TARGET_DATE,
+                "交易日": target_date,
                 "数据源": "新浪财经 MoneyFlow",
                 "口径": "主力净流入 r0_net",
                 "分组成分数": len(members),
@@ -289,19 +300,19 @@ def main() -> None:
         "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs",
         "definition": "r0_net，即新浪财经页面标注的“主力净流入”",
         "retrieved_at": retrieved_at,
-        "date": TARGET_DATE,
+        "date": target_date,
         "dates": last_six,
         "groups": group_payload,
         "errors": errors,
         "expected_group_sizes": expected,
     }
 
-    json_path = website_dir / f"group_fund_flows_{TARGET_DATE}.json"
+    json_path = website_dir / f"group_fund_flows_{target_date}.json"
     json_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    js_path = website_dir / f"group_fund_flows_{TARGET_DATE}.js"
+    js_path = website_dir / f"group_fund_flows_{target_date}.js"
     js_path.write_text(
         "window.GROUP_FUND_DATA = "
         + json.dumps(payload, ensure_ascii=False, indent=2)
@@ -309,13 +320,13 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    stock_csv = website_dir / f"stock_fund_flows_{TARGET_DATE}.csv"
+    stock_csv = website_dir / f"stock_fund_flows_{target_date}.csv"
     with stock_csv.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(stock_rows[0].keys()))
         writer.writeheader()
         writer.writerows(stock_rows)
 
-    summary_csv = DELIVERABLE_DIR / f"多空分组资金流_{TARGET_DATE}.csv"
+    summary_csv = DELIVERABLE_DIR / f"多空分组资金流_{target_date}.csv"
     with summary_csv.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(summary_rows[0].keys()))
         writer.writeheader()

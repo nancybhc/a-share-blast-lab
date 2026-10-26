@@ -361,6 +361,157 @@ function renderRanking() {
   });
 }
 
+function renderOverviewNarrative() {
+  const top = marketData.groups[0];
+  const runnerUp = marketData.groups[1];
+  const chip = marketData.groups.find((group) => group.id === "semiconductor");
+  const robot = marketData.groups.find((group) => group.id === "robot");
+  const chipFund = fundData?.groups?.["半导体芯片"];
+  const chipReference = chipSegmentData?.custom_reference;
+  if (!top || !runnerUp || !chip || !robot) return;
+
+  const heroLead = document.querySelector(".hero-lead");
+  if (heroLead) {
+    heroLead.textContent =
+      `盘后结构显示，${top.name}与${runnerUp.name}位于净转多前列；` +
+      `${chip.name}降至第 ${marketData.groups.indexOf(chip) + 1}，` +
+      `空转多候选从 30 回落至 ${chip.turnBull}，资金同步转弱。`;
+  }
+
+  const heroNotes = document.querySelector(".hero-footnotes");
+  if (heroNotes) {
+    heroNotes.innerHTML = `
+      <span><b>${marketData.dataDate}</b> 盘后数据</span>
+      <span><b>${marketData.overview.groups}</b> 分组</span>
+      <span><b>${marketData.overview.uniqueStocks}</b> 去重标的</span>
+      <span class="verified"><i></i> ${marketData.generatedAt}</span>
+    `;
+  }
+
+  const tapeTrack = document.querySelector(".tape-track");
+  if (tapeTrack) {
+    const tapeItems = [
+      `${top.name} 强度 ${top.score.toFixed(1)} / 多头 ${top.bull}/${top.total}`,
+      `${runnerUp.name} 强度 ${runnerUp.score.toFixed(1)} / 确认 ${runnerUp.confirm} 只`,
+      `半导体芯片 空转多 ${chip.turnBull} / 确认 ${chip.confirm} 只`,
+      chipFund
+        ? `芯片主力 ${formatFund(chipFund.main_net_yi)} / 较前日 ${formatFund(chipFund.main_net_change_yi)}`
+        : "芯片资金数据待更新",
+      `全组转多 ${marketData.overview.positiveTransitions} / 转空 ${marketData.overview.negativeTransitions}`,
+    ];
+    tapeTrack.innerHTML = [...tapeItems, ...tapeItems]
+      .map(
+        (text, index) =>
+          `<span${index >= tapeItems.length ? ' aria-hidden="true"' : ""}><b>${text.split(" ")[0]}</b> ${text.split(" ").slice(1).join(" ")}</span>`,
+      )
+      .join("");
+  }
+
+  const metricRow = document.querySelector(".metric-row");
+  if (metricRow) {
+    const previousChip = Number(
+      chipFund ? chipFund.main_net_yi - chipFund.main_net_change_yi : 0,
+    );
+    metricRow.innerHTML = `
+      <article class="metric-card" data-accent="red">
+        <span class="metric-index">01</span>
+        <span class="metric-label">半导体芯片当日主力</span>
+        <strong class="fund-number ${fundTone(chipFund?.main_net_yi)}">${formatFund(chipFund?.main_net_yi)}</strong>
+        <p>${formatFund(previousChip)} → ${formatFund(chipFund?.main_net_yi)}</p>
+      </article>
+      <article class="metric-card" data-accent="cyan">
+        <span class="metric-index">02</span>
+        <span class="metric-label">半导体芯片近 5 日</span>
+        <strong class="fund-number ${fundTone(chipFund?.five_day_main_net_yi)}">${formatFund(chipFund?.five_day_main_net_yi)}</strong>
+        <p>${chipReference ? `${chipReference.constituents} 只自定义成分` : "自定义分组"}</p>
+      </article>
+      <article class="metric-card" data-accent="lime">
+        <span class="metric-index">03</span>
+        <span class="metric-label">机器人多头占比</span>
+        <strong>${robot.bullPct.toFixed(1)}<small>%</small></strong>
+        <p>${robot.bull} 只多头 / ${robot.total} 只样本</p>
+      </article>
+      <article class="metric-card" data-accent="amber">
+        <span class="metric-index">04</span>
+        <span class="metric-label">正负分组</span>
+        <strong>${marketData.overview.positiveGroups}<small> / ${marketData.overview.groups}</small></strong>
+        <p>正 ${marketData.overview.positiveGroups} · 负 ${marketData.overview.negativeGroups}</p>
+      </article>
+    `;
+  }
+
+  const insight = document.querySelector(".insight-card");
+  if (insight) {
+    const heading = insight.querySelector("h3");
+    const paragraph = insight.querySelector("p");
+    const code = insight.querySelector(".mini-code");
+    if (heading) heading.innerHTML = `${top.name}暂时领跑，<br>${runnerUp.name}紧追。`;
+    if (paragraph) {
+      paragraph.textContent =
+        `${top.name}以 ${top.score.toFixed(1)} 居首，${runnerUp.name}仅以 ` +
+        `${(top.score - runnerUp.score).toFixed(1)} 分差紧随；` +
+        `全组转多 ${marketData.overview.positiveTransitions} 次、转空 ` +
+        `${marketData.overview.negativeTransitions} 次，修复仍集中在少数分组。`;
+    }
+    if (code) code.textContent = marketData.dataDate.slice(5).replace("-", "");
+  }
+
+  const robotSeries = marketData.transition.series.find((item) => item.id === "robot");
+  const chipSeries = marketData.transition.series.find((item) => item.id === "semiconductor");
+  const negativeCard = document.querySelector(".shift-card.negative");
+  const positiveCard = document.querySelector(".shift-card.positive");
+  if (robotSeries && negativeCard) {
+    const start = robotSeries.values[0];
+    const end = robotSeries.values.at(-1);
+    negativeCard.querySelector(".shift-label").textContent = "机器人 / 降温";
+    negativeCard.querySelector(".shift-value strong").textContent = `${start} → ${end}`;
+    negativeCard.querySelector(".shift-value span").textContent =
+      `${(((end - start) / Math.max(start, 1)) * 100).toFixed(1)}%`;
+    negativeCard.querySelector("h3").textContent = "机器人：候选池继续收缩";
+    negativeCard.querySelector("p").textContent =
+      `本周空转多候选从 ${start} 降至 ${end}，强度仍靠前，但新增供给持续减少。`;
+  }
+  if (chipSeries && positiveCard) {
+    const start = chipSeries.values[0];
+    const end = chipSeries.values.at(-1);
+    positiveCard.classList.toggle("negative", end < start);
+    positiveCard.classList.toggle("positive", end >= start);
+    positiveCard.querySelector(".shift-label").textContent =
+      end >= start ? "半导体芯片 / 回暖" : "半导体芯片 / 回落";
+    positiveCard.querySelector(".shift-value strong").textContent = `${start} → ${end}`;
+    positiveCard.querySelector(".shift-value span").textContent =
+      end >= start ? "改善" : "减弱";
+    positiveCard.querySelector("h3").textContent =
+      end >= start ? "半导体芯片：候选回升" : "半导体芯片：蓄势回落";
+    positiveCard.querySelector("p").textContent =
+      `空转多候选从 ${start} 降至 ${end}，转多确认仅 ${chip.confirm} 只，暂未形成新的扩散。`;
+  }
+
+  const caption = document.querySelector(".chart-caption");
+  if (caption && robotSeries && chipSeries) {
+    const firstLabel = marketData.transition.labels[0];
+    const lastLabel = marketData.transition.labels.at(-1);
+    caption.innerHTML = `
+      <span><b>${firstLabel}</b> 芯片 ${chipSeries.values[0]}</span>
+      <span class="caption-arrow">→</span>
+      <span><b>${lastLabel}</b> 芯片 ${chipSeries.values.at(-1)} / 机器人 ${robotSeries.values.at(-1)}</span>
+    `;
+  }
+
+  const footerText = document.querySelector(".site-footer p");
+  if (footerText) {
+    footerText.textContent =
+      `结构来源：MA5 / MA10 四阶段及 ${marketData.dataDate} 盘后多空阶段报告。` +
+      "结构、资金与题材统一使用当日收盘口径。颜色规则：红涨、红流入、红改善；" +
+      "绿跌、绿流出、绿转弱。本页面仅作结构研究，不构成投资建议。";
+  }
+  const methodSnapshot = document.querySelector(".dialog-foot > span");
+  if (methodSnapshot) {
+    methodSnapshot.textContent =
+      `结构快照 / ${marketData.generatedAt}`;
+  }
+}
+
 function updateSpotlight(group) {
   activeGroupId = group.id;
   const accent = toneColors[group.tone] || toneColors.cyan;
@@ -731,10 +882,10 @@ function renderChipHighlights() {
     : `数据结论 / ${chipSegmentData.date}`;
   document.getElementById("chipVerdictTitle").textContent = isLive
     ? `${currentLeader?.name || "当前细分"}是盘中资金第一，${fiveDay?.name || "当前细分"}是 5 日滚动第一。`
-    : "国产芯片是单日资金第一，但不是所有维度的第一。";
+    : `${currentLeader?.name || "当前细分"}是收盘资金第一，${fiveDay?.name || "当前细分"}是 5 日累计第一。`;
   document.getElementById("chipVerdictBody").textContent = isLive
     ? `盘中资金更新时间 ${liveTime}；较前日以 ${chipSegmentData.date} 收盘为基准，5 日滚动包含当前盘中资金。不同时间维度的排名必须分开看。`
-    : "国产芯片在 13 个官方细分中单日主力净流入第一，当日流入广度 90.43%；但近 5 日仍为净流出。数字芯片设计的资金效率与涨幅更强，存储芯片仍是跟随修复。";
+    : `${currentLeader?.name || "当前细分"}当日主力 ${formatFund(currentLeader?.flow_yi)}，${fiveDay?.name || "当前细分"}近 5 日累计 ${formatFund(fiveDay?.five_day_main_net_yi)}；国产芯片当日 ${formatFund(domestic.flow_yi)}，${weakest?.name || "最弱细分"}为 5 日最弱。芯片内部仍在明显分化。`;
   document.getElementById("chipDataBasis").textContent = isLive
     ? `盘中 ${liveTime} · 前收 ${chipSegmentData.date}`
     : `基准 ${chipSegmentData.date}`;
@@ -1036,6 +1187,8 @@ function renderValidationChecklist() {
   if (!container || !chipSegmentData) return;
 
   const segments = chipSegmentData.segments || [];
+  const aiChip = segments.find((row) => row.code === "BK1127");
+  const digital = segments.find((row) => row.code === "BK1331");
   const domestic = segments.find((row) => row.code === "BK0891");
   const storage = segments.find((row) => row.code === "BK1137");
   const chip = marketData.groups.find((row) => row.id === "semiconductor");
@@ -1048,16 +1201,16 @@ function renderValidationChecklist() {
     validationCard({
       priority: "A",
       index: "01",
-      title: "半导体芯片 / 国产芯片",
-      state: `10-26 分组净转多强度 ${chip.score.toFixed(1)}：空转多候选 ${chip.turnBull} 只，但确认只有 ${chip.confirm} 只、反向转空 ${chip.turnBear} 只。资金读数仍以 10-23 收盘为基准。`,
+      title: "AI芯片 / 数字芯片设计",
+      state: `芯片整体仍在收缩：${marketData.dataDate.slice(5)} 分组净转多 ${chip.score.toFixed(1)}，空转多候选 ${chip.turnBull} 只、确认仅 ${chip.confirm} 只。资金只集中在少数细分。`,
       readings: [
-        validationReading("结构 · 多头占比", `${chip.bullPct.toFixed(1)}%`, `${chip.bull} 多 / ${chip.bear} 空`),
-        validationReading("结构 · 空转多", `${chip.turnBull}只`, `${chip.confirm} 只今日确认`),
-        validationReading("结构 · 反向转空", `${chip.turnBear}只`, `净转多 ${chip.score.toFixed(1)}`),
-        validationReading("国产芯片 · 10/23", formatFund(domestic.flow_yi), `5日 ${formatFund(domestic.five_day_main_net_yi)}`),
+        validationReading("AI芯片 · 收盘", formatFund(aiChip.flow_yi), `5日 ${formatFund(aiChip.five_day_main_net_yi)}`),
+        validationReading("数字设计 · 收盘", formatFund(digital.flow_yi), `5日 ${formatFund(digital.five_day_main_net_yi)}`),
+        validationReading("国产芯片 · 收盘", formatFund(domestic.flow_yi), `5日 ${formatFund(domestic.five_day_main_net_yi)}`),
+        validationReading("芯片结构 · 净转多", chip.score.toFixed(1), `${chip.bullPct.toFixed(1)}% 多头占比`),
       ].join(""),
-      confirmation: "半导体芯片反向转空不超过 2 只，空转多候选继续向多头兑现，净转多强度回到正值；国产芯片资金维持净流入。",
-      invalidation: "反向转空达到 4 只以上，或多头占比跌破 15%；国产芯片资金转净流出，视为结构修复未确认。",
+      confirmation: "AI芯片与数字芯片设计保持净流入，国产芯片跌幅收窄；半导体芯片净转多强度回到正值且确认数继续增加。",
+      invalidation: "国产芯片、半导体概念和存储芯片继续扩大净流出；半导体芯片反向转空增加或净转多强度继续下探。",
     }),
     validationCard({
       priority: "B",
@@ -1081,7 +1234,7 @@ function renderValidationChecklist() {
       readings: [
         validationReading("存储 · 净转多", memory.score.toFixed(1), `${memory.bullPct.toFixed(1)}% 多头占比`),
         validationReading("半导体设备 · 净转多", equipment.score.toFixed(1), `${equipment.bull} 多 / ${equipment.bear} 空`),
-        validationReading("存储 · 资金基准", formatFund(storage.five_day_main_net_yi), "10/23 五日累计"),
+        validationReading("存储 · 收盘资金", formatFund(storage.five_day_main_net_yi), `${chipSegmentData.date.slice(5)} 五日累计`),
         validationReading("商业航天 · 转空", `${aerospace.turnBear}只`, "结构分歧"),
       ].join(""),
       confirmation: "存储与半导体设备净转多强度同步转正；商业航天反向转空降至 5 只以下，才考虑升级。",
@@ -1878,6 +2031,7 @@ const sectionObserver = new IntersectionObserver(
 sections.forEach((section) => sectionObserver.observe(section));
 
 const initialGroup = marketData.groups.find((group) => group.id === activeGroupId) || marketData.groups[0];
+renderOverviewNarrative();
 if (initialGroup) updateSpotlight(initialGroup);
 renderRanking();
 renderTransitionChart();

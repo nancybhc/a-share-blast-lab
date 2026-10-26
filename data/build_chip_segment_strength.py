@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import time
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -11,7 +13,6 @@ import requests
 
 DATA_DIR = Path(__file__).resolve().parent
 FULL_DIR = DATA_DIR / "full_market"
-DATE = "2026-10-23"
 API = "https://push2his.eastmoney.com/api/qt/stock/fflow/daykline/get"
 FALLBACK_API = "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get"
 HEADERS = {
@@ -80,9 +81,56 @@ def request_daily(code: str) -> tuple[list[dict[str, Any]], str]:
     raise RuntimeError("; ".join(errors))
 
 
-def main() -> None:
-    full_path = next(FULL_DIR.glob(f"full_market_daily_{DATE}.json"))
-    full = json.loads(full_path.read_text(encoding="utf-8"))
+def build_custom_reference(target_date: str) -> dict[str, Any]:
+    fund_path = DATA_DIR / f"group_fund_flows_{target_date}.json"
+    trend_path = DATA_DIR / "market_trend_latest.json"
+    if not fund_path.is_file():
+        raise FileNotFoundError(f"缺少分组资金数据：{fund_path}")
+    if not trend_path.is_file():
+        raise FileNotFoundError(f"缺少多空结构数据：{trend_path}")
+
+    fund_payload = json.loads(fund_path.read_text(encoding="utf-8"))
+    trend_payload = json.loads(trend_path.read_text(encoding="utf-8"))
+    group_fund = (fund_payload.get("groups") or {}).get("半导体芯片") or {}
+    group_trend = next(
+        (
+            row
+            for row in trend_payload.get("groups") or []
+            if row.get("name") == "半导体芯片"
+        ),
+        {},
+    )
+    if not group_fund or not group_trend:
+        raise RuntimeError("资金或结构数据中缺少“半导体芯片”分组")
+
+    return {
+        "name": "远航版·半导体芯片",
+        "constituents": int(group_fund.get("constituents") or 0),
+        "single_day_yi": float(group_fund.get("main_net_yi") or 0),
+        "day_change_yi": float(group_fund.get("main_net_change_yi") or 0),
+        "five_day_main_net_yi": float(
+            group_fund.get("five_day_main_net_yi") or 0
+        ),
+        "structure_strength": float(group_trend.get("score") or 0),
+        "note": "自定义成分与官方板块不同，只作结构参照，不参与官方细分排名。",
+    }
+
+
+def build_segments_from_live(
+    full: dict[str, Any],
+    target_date: str,
+) -> list[dict[str, Any]]:
+    baseline_paths = sorted(
+        path
+        for path in DATA_DIR.glob("chip_segments_*.json")
+        if path.stem.removeprefix("chip_segments_") < target_date
+    )
+    if not baseline_paths:
+        raise FileNotFoundError("没有可用的上一交易日芯片细分基准")
+    baseline = json.loads(baseline_paths[-1].read_text(encoding="utf-8"))
+    baseline_by_code = {
+        row["code"]: row for row in baseline.get("segments") or []
+    }
     lookup = {
         row["code"]: row
         for scope in ("concept", "industry")
@@ -92,33 +140,108 @@ def main() -> None:
     segments = []
     for code, name, taxonomy in SEGMENTS:
         live = lookup.get(code)
+        previous = baseline_by_code.get(code)
         if not live:
             raise RuntimeError(f"{code} {name} missing from full-market snapshot")
-        history, host = request_daily(code)
-        target_index = next(i for i, row in enumerate(history) if row["date"] == DATE)
-        target = history[target_index]
-        previous = history[target_index - 1] if target_index > 0 else None
-        five_day = history[max(0, target_index - 4) : target_index + 1]
+        if not previous:
+            raise RuntimeError(f"{code} {name} missing from chip baseline")
+        current_history = {
+            "date": target_date,
+            "main_net_yi": round(float(live.get("flow_yi") or 0), 4),
+            "small_net_yi": None,
+            "medium_net_yi": None,
+            "large_net_yi": None,
+            "super_large_net_yi": None,
+        }
+        history = [
+            *[
+                row
+                for row in previous.get("history") or []
+                if row.get("date") != target_date
+            ],
+            current_history,
+        ][-6:]
+        five_day = history[-5:]
+        previous_main = float(previous.get("flow_yi") or 0)
+        current_main = float(live.get("flow_yi") or 0)
         segments.append(
             {
                 **live,
                 "code": code,
                 "name": name,
                 "taxonomy": taxonomy,
-                "source_host": host,
-                "previous_day_yi": previous["main_net_yi"] if previous else None,
-                "day_change_yi": (
-                    round(target["main_net_yi"] - previous["main_net_yi"], 4)
-                    if previous
-                    else None
-                ),
+                "source_host": "local_live_close_snapshot",
+                "previous_day_yi": previous_main,
+                "day_change_yi": round(current_main - previous_main, 4),
                 "five_day_main_net_yi": round(
-                    sum(row["main_net_yi"] for row in five_day),
+                    sum(float(row.get("main_net_yi") or 0) for row in five_day),
                     4,
                 ),
-                "history": history[-6:],
+                "history": history,
             }
         )
+    return segments
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="生成芯片官方细分强弱数据")
+    parser.add_argument("--date", default=datetime.now().strftime("%Y-%m-%d"))
+    parser.add_argument(
+        "--from-live",
+        action="store_true",
+        help="接口不可用时，以本地收盘快照叠加上一交易日细分基准",
+    )
+    args = parser.parse_args()
+    target_date = args.date
+
+    full_path = FULL_DIR / f"full_market_daily_{target_date}.json"
+    if not full_path.is_file():
+        raise FileNotFoundError(f"缺少全市场收盘快照：{full_path}")
+    full = json.loads(full_path.read_text(encoding="utf-8"))
+    lookup = {
+        row["code"]: row
+        for scope in ("concept", "industry")
+        for row in full[scope]["all"]
+    }
+
+    if args.from_live:
+        segments = build_segments_from_live(full, target_date)
+    else:
+        segments = []
+        for code, name, taxonomy in SEGMENTS:
+            live = lookup.get(code)
+            if not live:
+                raise RuntimeError(f"{code} {name} missing from full-market snapshot")
+            history, host = request_daily(code)
+            target_index = next(
+                (i for i, row in enumerate(history) if row["date"] == target_date),
+                -1,
+            )
+            if target_index < 0:
+                raise RuntimeError(f"{code} {name} 缺少 {target_date} 日线资金")
+            target = history[target_index]
+            previous = history[target_index - 1] if target_index > 0 else None
+            five_day = history[max(0, target_index - 4) : target_index + 1]
+            segments.append(
+                {
+                    **live,
+                    "code": code,
+                    "name": name,
+                    "taxonomy": taxonomy,
+                    "source_host": host,
+                    "previous_day_yi": previous["main_net_yi"] if previous else None,
+                    "day_change_yi": (
+                        round(target["main_net_yi"] - previous["main_net_yi"], 4)
+                        if previous
+                        else None
+                    ),
+                    "five_day_main_net_yi": round(
+                        sum(row["main_net_yi"] for row in five_day),
+                        4,
+                    ),
+                    "history": history[-6:],
+                }
+            )
 
     concept_rows = sorted(
         (row for row in segments if row["taxonomy"] == "concept"),
@@ -138,10 +261,14 @@ def main() -> None:
 
     by_code = {row["code"]: row for row in segments}
     payload = {
-        "date": DATE,
+        "date": target_date,
         "source": (
-            "东方财富板块收盘快照 f62、涨跌幅与上涨家数；"
-            "日级资金趋势来自 fflow/daykline f52"
+            "本地收盘快照叠加上一交易日芯片细分基准"
+            if args.from_live
+            else (
+                "东方财富板块收盘快照 f62、涨跌幅与上涨家数；"
+                "日级资金趋势来自 fflow/daykline f52"
+            )
         ),
         "method": (
             "单个官方板块独立统计。当日主力、资金强度、涨跌幅、上涨广度和"
@@ -169,20 +296,12 @@ def main() -> None:
                 key=lambda row: row["five_day_main_net_yi"],
             ),
         },
-        "custom_reference": {
-            "name": "远航版·半导体芯片",
-            "constituents": 52,
-            "single_day_yi": 44.86,
-            "day_change_yi": 33.07,
-            "five_day_main_net_yi": 116.06,
-            "structure_strength": 59.6,
-            "note": "自定义成分与官方板块不同，只作结构参照，不参与官方细分排名。",
-        },
+        "custom_reference": build_custom_reference(target_date),
     }
 
-    json_path = DATA_DIR / f"chip_segments_{DATE}.json"
-    js_path = DATA_DIR / f"chip_segments_{DATE}.js"
-    csv_path = FULL_DIR / f"chip_segments_{DATE}.csv"
+    json_path = DATA_DIR / f"chip_segments_{target_date}.json"
+    js_path = DATA_DIR / f"chip_segments_{target_date}.js"
+    csv_path = FULL_DIR / f"chip_segments_{target_date}.csv"
     text = json.dumps(payload, ensure_ascii=False, indent=2)
     json_path.write_text(text, encoding="utf-8")
     js_path.write_text(f"window.CHIP_SEGMENTS_DATA = {text};\n", encoding="utf-8")

@@ -89,69 +89,75 @@ def fetch_scope(
     }
     errors: list[str] = []
     for host in HOSTS:
-        try:
-            records: dict[str, dict[str, Any]] = {}
-            total = 0
-            page = 1
-            while page <= 100:
-                response = requests.get(
-                    host + API_PATH,
-                    params={**params, "pn": page},
-                    headers=HEADERS,
-                    timeout=timeout,
+        for attempt in range(3):
+            try:
+                records: dict[str, dict[str, Any]] = {}
+                total = 0
+                page = 1
+                while page <= 100:
+                    response = requests.get(
+                        host + API_PATH,
+                        params={**params, "pn": page},
+                        headers=HEADERS,
+                        timeout=timeout,
+                    )
+                    response.raise_for_status()
+                    data = response.json().get("data") or {}
+                    rows = data.get("diff") or []
+                    total = int(data.get("total") or total or len(rows))
+                    if not rows:
+                        break
+                    before = len(records)
+                    for row in rows:
+                        flow = numeric(row.get("f62"), 1e8)
+                        if flow is None:
+                            continue
+                        code = str(row.get("f12") or "").strip()
+                        name = str(row.get("f14") or "").strip()
+                        if not code or not name:
+                            continue
+                        up_count = integer(row.get("f104"))
+                        down_count = integer(row.get("f105"))
+                        flat_count = integer(row.get("f106"))
+                        records[code] = {
+                            "code": code,
+                            "name": name,
+                            "flow_yi": flow,
+                            "change_pct": numeric(row.get("f3")),
+                            "amount_yi": numeric(row.get("f6"), 1e8),
+                            "market_cap_yi": numeric(row.get("f20"), 1e8),
+                            "main_ratio": numeric(row.get("f184")),
+                            "up_count": up_count,
+                            "down_count": down_count,
+                            "flat_count": flat_count,
+                            "breadth_pct": (
+                                round(
+                                    up_count
+                                    / max(up_count + down_count + flat_count, 1)
+                                    * 100,
+                                    2,
+                                )
+                            ),
+                        }
+                    if len(records) >= total:
+                        break
+                    if page > 1 and len(records) == before:
+                        raise ValueError(f"pagination stalled at page {page}")
+                    page += 1
+                if not records:
+                    raise ValueError("empty result")
+                if total and len(records) < total * 0.9:
+                    raise ValueError(
+                        f"incomplete result: received {len(records)}/{total}"
+                    )
+                return list(records.values()), host, total
+            except Exception as exc:  # noqa: BLE001
+                errors.append(
+                    f"{host} attempt {attempt + 1}: "
+                    f"{type(exc).__name__}: {exc}"
                 )
-                response.raise_for_status()
-                data = response.json().get("data") or {}
-                rows = data.get("diff") or []
-                total = int(data.get("total") or total or len(rows))
-                if not rows:
-                    break
-                before = len(records)
-                for row in rows:
-                    flow = numeric(row.get("f62"), 1e8)
-                    if flow is None:
-                        continue
-                    code = str(row.get("f12") or "").strip()
-                    name = str(row.get("f14") or "").strip()
-                    if not code or not name:
-                        continue
-                    up_count = integer(row.get("f104"))
-                    down_count = integer(row.get("f105"))
-                    flat_count = integer(row.get("f106"))
-                    records[code] = {
-                        "code": code,
-                        "name": name,
-                        "flow_yi": flow,
-                        "change_pct": numeric(row.get("f3")),
-                        "amount_yi": numeric(row.get("f6"), 1e8),
-                        "market_cap_yi": numeric(row.get("f20"), 1e8),
-                        "main_ratio": numeric(row.get("f184")),
-                        "up_count": up_count,
-                        "down_count": down_count,
-                        "flat_count": flat_count,
-                        "breadth_pct": (
-                            round(
-                                up_count
-                                / max(up_count + down_count + flat_count, 1)
-                                * 100,
-                                2,
-                            )
-                        ),
-                    }
-                if len(records) >= total:
-                    break
-                if page > 1 and len(records) == before:
-                    raise ValueError(f"pagination stalled at page {page}")
-                page += 1
-            if not records:
-                raise ValueError("empty result")
-            if total and len(records) < total * 0.9:
-                raise ValueError(
-                    f"incomplete result: received {len(records)}/{total}"
-                )
-            return list(records.values()), host, total
-        except Exception as exc:  # noqa: BLE001
-            errors.append(f"{host}: {type(exc).__name__}: {exc}")
+                if attempt < 2:
+                    time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"{scope}: " + "; ".join(errors))
 
 
@@ -217,6 +223,114 @@ def snapshot_once(target_date: str | None = None) -> dict[str, Any]:
         },
         "intraday_available": False,
         "intraday_note": "该文件为收盘/最近快照，不包含历史分钟序列。",
+    }
+    save_daily(payload)
+    return payload
+
+
+def snapshot_from_live_state(target_date: str | None = None) -> dict[str, Any]:
+    date = target_date or now_cn().date().isoformat()
+    state_path = FULL_DIR / f"full_market_intraday_{date}.json"
+    if not state_path.is_file():
+        raise FileNotFoundError(f"缺少盘中完整状态文件：{state_path}")
+    state = json.loads(state_path.read_text(encoding="utf-8"))
+
+    board_rows: dict[str, dict[str, Any]] = {}
+    for track in (state.get("boards") or {}).values():
+        points = track.get("points") or []
+        if not points:
+            continue
+        latest = points[-1]
+        board_rows[str(track["code"])] = {
+            "code": str(track["code"]),
+            "name": str(track.get("name") or ""),
+            "kind": str(track.get("kind") or ""),
+            "flow_yi": latest.get("flow_yi"),
+            "change_pct": latest.get("change_pct"),
+            "amount_yi": latest.get("amount_yi"),
+            "market_cap_yi": latest.get("market_cap_yi"),
+            "main_ratio": latest.get("main_ratio"),
+            "up_count": integer(latest.get("up_count")),
+            "down_count": integer(latest.get("down_count")),
+            "flat_count": integer(latest.get("flat_count")),
+            "breadth_pct": latest.get("breadth_pct"),
+            "time": latest.get("time"),
+        }
+
+    industry = [row for row in board_rows.values() if row["kind"] == "industry"]
+    concept = [row for row in board_rows.values() if row["kind"] == "concept"]
+    stock_snapshot = state.get("latest_stock_snapshot") or {}
+    top_inflow = stock_snapshot.get("top_inflow") or []
+    top_outflow = stock_snapshot.get("top_outflow") or []
+    stock_by_code = {
+        row["code"]: row
+        for row in [*top_inflow, *top_outflow]
+        if row.get("code")
+    }
+    stocks = sorted(
+        stock_by_code.values(),
+        key=lambda item: float(item.get("flow_yi") or 0),
+        reverse=True,
+    )
+    stock_count = int(stock_snapshot.get("count") or 0)
+    inflow_count = int(stock_snapshot.get("inflow_count") or 0)
+    outflow_count = int(stock_snapshot.get("outflow_count") or 0)
+    market = {
+        "count": stock_count,
+        "main_net_yi": round(float(stock_snapshot.get("main_net_yi") or 0), 2),
+        "inflow_count": inflow_count,
+        "outflow_count": outflow_count,
+        "flat_count": max(stock_count - inflow_count - outflow_count, 0),
+        "top_inflow": top_inflow,
+        "top_outflow": top_outflow,
+    }
+    captured_at = (
+        stock_snapshot.get("captured_at")
+        or state.get("last_capture_at")
+        or now_cn().isoformat(timespec="seconds")
+    )
+    payload = {
+        "date": date,
+        "captured_at": captured_at,
+        "source": "东方财富 clist f62 / 交易时段最后一轮完整快照",
+        "source_hosts": ["local_live_state"],
+        "counts": {
+            "industry": len(industry),
+            "concept": len(concept),
+            "stock": stock_count,
+        },
+        "valid_counts": {
+            "industry": len(industry),
+            "concept": len(concept),
+            "stock": stock_count,
+        },
+        "market": market,
+        "industry": {
+            "count": len(industry),
+            "top_inflow": sorted(
+                industry, key=lambda item: item["flow_yi"], reverse=True
+            )[:20],
+            "top_outflow": sorted(industry, key=lambda item: item["flow_yi"])[:20],
+            "all": sorted(industry, key=lambda item: item["flow_yi"], reverse=True),
+        },
+        "concept": {
+            "count": len(concept),
+            "top_inflow": sorted(
+                concept, key=lambda item: item["flow_yi"], reverse=True
+            )[:20],
+            "top_outflow": sorted(concept, key=lambda item: item["flow_yi"])[:20],
+            "all": sorted(concept, key=lambda item: item["flow_yi"], reverse=True),
+        },
+        "stock": {
+            **market,
+            "all": stocks,
+            "export_complete": False,
+        },
+        "intraday_available": True,
+        "intraday_note": (
+            "收盘接口暂不可用，使用交易时段最后一轮完整快照；"
+            "个股导出仅包含资金流入与流出榜单。"
+        ),
     }
     save_daily(payload)
     return payload
@@ -599,6 +713,11 @@ def ensure_placeholder() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="全市场板块与个股资金流采集")
     parser.add_argument("--snapshot", action="store_true", help="抓取一次收盘/当前快照")
+    parser.add_argument(
+        "--from-live",
+        action="store_true",
+        help="从当日最后一轮完整盘中快照生成收盘文件",
+    )
     parser.add_argument("--watch", action="store_true", help="交易时段持续采集")
     parser.add_argument("--date", help="快照交易日，例如 2026-10-23")
     parser.add_argument("--interval", type=int, default=60, help="板块采样间隔秒")
@@ -611,6 +730,14 @@ def main() -> None:
     )
     args = parser.parse_args()
     ensure_placeholder()
+    if args.from_live:
+        payload = snapshot_from_live_state(args.date)
+        print(
+            f"[OK] 本地收盘快照 {payload['date']} "
+            f"captured_at={payload['captured_at']}",
+            flush=True,
+        )
+        return
     if args.snapshot:
         snapshot_once(args.date)
         return

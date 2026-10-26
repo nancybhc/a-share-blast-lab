@@ -1,0 +1,114 @@
+[2026-10-26 18:38:29] [INFO] target=2026-10-26 report=C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-26.xlsx
+[2026-10-26 18:38:29] [START] structure: C:\Python314\python.exe -X utf8 data/build_market_trend.py --source-dir C:\Users\jiach\多空趋势分析结果 --date 2026-10-26
+[2026-10-26 18:38:30]   [OK] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\market_trend_latest.json
+[2026-10-26 18:38:30]   [OK] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\market_trend_latest.js
+[2026-10-26 18:38:30]   [OK] 2026-10-26 / 2026-10-26 18:09 / 17 groups / 891 stocks
+[2026-10-26 18:38:30] [OK] structure
+[2026-10-26 18:38:30] [START] theme: C:\Python314\python.exe -X utf8 data/build_theme_radar_web.py
+[2026-10-26 18:38:30]   [OK] 题材雷达 2026-10-26 当日前五=5 反转命中=22
+[2026-10-26 18:38:30] [OK] theme
+[2026-10-26 18:38:30] [START] board-daily: C:\Python314\python.exe -X utf8 data/capture_intraday_fund_flow.py --backfill-daily --date 2026-10-26
+[2026-10-26 18:38:32]   [OK] 半导体概念 2026-10-26 主力=-106.70亿
+[2026-10-26 18:38:32]   [OK] 国产芯片 2026-10-26 主力=-86.82亿
+[2026-10-26 18:38:32]   [OK] 半导体 2026-10-26 主力=-48.73亿
+[2026-10-26 18:38:32]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\board_daily_fund_flows_2026-10-26.json
+[2026-10-26 18:38:32]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\board_daily_fund_flows_2026-10-26.js
+[2026-10-26 18:38:32]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\board_daily_fund_flows_2026-10-26.csv
+[2026-10-26 18:38:32] [OK] board-daily
+[2026-10-26 18:38:32] [START] group-fund: C:\Python314\python.exe -X utf8 data/fetch_group_fund_flows.py --date 2026-10-26 --workbook C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-26.xlsx
+[2026-10-26 18:38:43]   [INFO] groups=17 memberships=915 unique=891
+[2026-10-26 18:38:43]   [INFO] fetched 75/891 ok=75 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 150/891 ok=150 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 225/891 ok=225 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 300/891 ok=300 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 375/891 ok=375 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 450/891 ok=450 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 525/891 ok=525 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 600/891 ok=600 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 675/891 ok=675 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 750/891 ok=750 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 825/891 ok=825 failed=0
+[2026-10-26 18:38:43]   [INFO] fetched 891/891 ok=891 failed=0
+[2026-10-26 18:38:43]   [DONE] json=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\group_fund_flows_2026-10-26.json
+[2026-10-26 18:38:43]   [DONE] js=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\group_fund_flows_2026-10-26.js
+[2026-10-26 18:38:43]   [DONE] stock_csv=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\stock_fund_flows_2026-10-26.csv
+[2026-10-26 18:38:43]   [DONE] summary_csv=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\多空分组资金流_2026-10-26.csv
+[2026-10-26 18:38:43]   [DONE] groups_ok=17/17 stock_errors=0
+[2026-10-26 18:38:43] [OK] group-fund
+[2026-10-26 18:38:43] [START] next-session-plan: C:\Python314\python.exe -X utf8 C:\Users\jiach\Desktop\今日盘中\5break10_monitor.py --report C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-26.xlsx --interval 60 --once
+[2026-10-26 18:38:45]   [2026-10-26 18:38:43] 监控启动｜信号日 2026-10-26｜名单 75 只｜报告 多空阶段_2026-10-26.xlsx
+[2026-10-26 18:38:45]   [2026-10-26 18:38:43] 规则：每次扫描只按最新现价判断；达到目标才保留，跌回后立即剔除。
+[2026-10-26 18:38:45]   [2026-10-26 18:38:44] 行情日 2026-10-26 尚未超过信号日 2026-10-26；这份门槛从下一交易日开始监控。
+[2026-10-26 18:38:45] [OK] next-session-plan
+[2026-10-26 18:38:45] [START] full-market-close: C:\Python314\python.exe -X utf8 data/capture_full_market_fund_flow.py --snapshot --date 2026-10-26
+[2026-10-26 18:39:03]   [OK] 行业板块 valid=496 total=496
+[2026-10-26 18:39:03]   [OK] 概念板块 valid=516 total=516
+[2026-10-26 18:39:03]   [OK] 全市场个股 valid=5570 total=5925
+[2026-10-26 18:39:03]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market\full_market_daily_2026-10-26.json
+[2026-10-26 18:39:03]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market_daily_2026-10-26.js
+[2026-10-26 18:39:03]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market\full_market_daily_2026-10-26.csv
+[2026-10-26 18:39:03] [OK] full-market-close
+[2026-10-26 18:39:03] [START] chip-segments: C:\Python314\python.exe -X utf8 data/build_chip_segment_strength.py --date 2026-10-26
+[2026-10-26 18:39:11]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\chip_segments_2026-10-26.json
+[2026-10-26 18:39:11]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\chip_segments_2026-10-26.js
+[2026-10-26 18:39:11]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market\chip_segments_2026-10-26.csv
+[2026-10-26 18:39:11] [OK] chip-segments
+[2026-10-26 18:39:11] [OK] index data references -> 2026-10-26
+[2026-10-26 18:39:11] [DONE] 盘后网页更新完成
+[2026-10-26 18:39:32] [INFO] target=2026-10-26 report=C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-26.xlsx
+[2026-10-26 18:39:32] [START] structure: C:\Python314\pythonw.exe -X utf8 data/build_market_trend.py --source-dir C:\Users\jiach\多空趋势分析结果 --date 2026-10-26
+[2026-10-26 18:39:33]   [OK] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\market_trend_latest.json
+[2026-10-26 18:39:33]   [OK] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\market_trend_latest.js
+[2026-10-26 18:39:33]   [OK] 2026-10-26 / 2026-10-26 18:09 / 17 groups / 891 stocks
+[2026-10-26 18:39:33] [OK] structure
+[2026-10-26 18:39:33] [START] theme: C:\Python314\pythonw.exe -X utf8 data/build_theme_radar_web.py
+[2026-10-26 18:39:33]   [OK] 题材雷达 2026-10-26 当日前五=5 反转命中=22
+[2026-10-26 18:39:33] [OK] theme
+[2026-10-26 18:39:33] [START] board-daily: C:\Python314\pythonw.exe -X utf8 data/capture_intraday_fund_flow.py --backfill-daily --date 2026-10-26
+[2026-10-26 18:39:35]   [OK] 半导体概念 2026-10-26 主力=-106.70亿
+[2026-10-26 18:39:35]   [OK] 国产芯片 2026-10-26 主力=-86.82亿
+[2026-10-26 18:39:35]   [OK] 半导体 2026-10-26 主力=-48.73亿
+[2026-10-26 18:39:35]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\board_daily_fund_flows_2026-10-26.json
+[2026-10-26 18:39:35]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\board_daily_fund_flows_2026-10-26.js
+[2026-10-26 18:39:35]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\board_daily_fund_flows_2026-10-26.csv
+[2026-10-26 18:39:35] [OK] board-daily
+[2026-10-26 18:39:35] [START] group-fund: C:\Python314\pythonw.exe -X utf8 data/fetch_group_fund_flows.py --date 2026-10-26 --workbook C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-26.xlsx
+[2026-10-26 18:39:48]   [INFO] groups=17 memberships=915 unique=891
+[2026-10-26 18:39:48]   [INFO] fetched 75/891 ok=75 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 150/891 ok=150 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 225/891 ok=225 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 300/891 ok=300 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 375/891 ok=375 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 450/891 ok=450 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 525/891 ok=525 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 600/891 ok=600 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 675/891 ok=675 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 750/891 ok=750 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 825/891 ok=825 failed=0
+[2026-10-26 18:39:48]   [INFO] fetched 891/891 ok=891 failed=0
+[2026-10-26 18:39:48]   [DONE] json=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\group_fund_flows_2026-10-26.json
+[2026-10-26 18:39:48]   [DONE] js=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\group_fund_flows_2026-10-26.js
+[2026-10-26 18:39:48]   [DONE] stock_csv=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\stock_fund_flows_2026-10-26.csv
+[2026-10-26 18:39:48]   [DONE] summary_csv=C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\多空分组资金流_2026-10-26.csv
+[2026-10-26 18:39:48]   [DONE] groups_ok=17/17 stock_errors=0
+[2026-10-26 18:39:48] [OK] group-fund
+[2026-10-26 18:39:48] [START] next-session-plan: C:\Python314\pythonw.exe -X utf8 C:\Users\jiach\Desktop\今日盘中\5break10_monitor.py --report C:\Users\jiach\多空趋势分析结果\多空阶段_2026-10-26.xlsx --interval 60 --once
+[2026-10-26 18:39:52]   [2026-10-26 18:39:49] 监控启动｜信号日 2026-10-26｜名单 75 只｜报告 多空阶段_2026-10-26.xlsx
+[2026-10-26 18:39:52]   [2026-10-26 18:39:49] 规则：每次扫描只按最新现价判断；达到目标才保留，跌回后立即剔除。
+[2026-10-26 18:39:52]   [2026-10-26 18:39:50] 行情日 2026-10-26 尚未超过信号日 2026-10-26；这份门槛从下一交易日开始监控。
+[2026-10-26 18:39:52] [OK] next-session-plan
+[2026-10-26 18:39:52] [START] full-market-close: C:\Python314\pythonw.exe -X utf8 data/capture_full_market_fund_flow.py --snapshot --date 2026-10-26
+[2026-10-26 18:40:12]   [OK] 行业板块 valid=496 total=496
+[2026-10-26 18:40:12]   [OK] 概念板块 valid=516 total=516
+[2026-10-26 18:40:12]   [OK] 全市场个股 valid=5570 total=5925
+[2026-10-26 18:40:12]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market\full_market_daily_2026-10-26.json
+[2026-10-26 18:40:12]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market_daily_2026-10-26.js
+[2026-10-26 18:40:12]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market\full_market_daily_2026-10-26.csv
+[2026-10-26 18:40:12] [OK] full-market-close
+[2026-10-26 18:40:12] [START] chip-segments: C:\Python314\pythonw.exe -X utf8 data/build_chip_segment_strength.py --date 2026-10-26
+[2026-10-26 18:40:22]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\chip_segments_2026-10-26.json
+[2026-10-26 18:40:22]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\chip_segments_2026-10-26.js
+[2026-10-26 18:40:22]   [DONE] C:\Users\jiach\Documents\Codex\2026-10-24\d\outputs\a-share-blast-lab\data\full_market\chip_segments_2026-10-26.csv
+[2026-10-26 18:40:22] [OK] chip-segments
+[2026-10-26 18:40:22] [OK] index data references -> 2026-10-26
+[2026-10-26 18:40:22] [START] github-publish: C:\Python314\pythonw.exe -X utf8 publish_github.py --slot 2026-10-26 daily-18:05
