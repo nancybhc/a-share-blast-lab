@@ -1,13 +1,13 @@
 :root {
   --bg: #070b0c;
   --bg-soft: #0b1112;
-  --panel: rgba(13, 20, 22, 0.86);
+  --panel: rgba(14, 22, 24, 0.94);
   --panel-solid: #0d1416;
-  --line: rgba(195, 225, 215, 0.13);
-  --line-strong: rgba(195, 225, 215, 0.22);
-  --text: #eef6f2;
-  --muted: #8d9d99;
-  --muted-2: #61716d;
+  --line: rgba(205, 232, 223, 0.18);
+  --line-strong: rgba(205, 232, 223, 0.29);
+  --text: #f4faf7;
+  --muted: #b4c2be;
+  --muted-2: #8d9c98;
   --lime: #b9ff45;
   --cyan: #49d9e7;
   --red: #ff536b;
@@ -2056,7 +2056,7 @@ button {
   width: 100%;
   min-width: 820px;
   border-collapse: collapse;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .fund-table th {
@@ -2064,7 +2064,7 @@ button {
   border-bottom: 1px solid var(--line);
   color: var(--muted-2);
   font-family: var(--mono);
-  font-size: 7px;
+  font-size: 8px;
   font-weight: 400;
   letter-spacing: 0.06em;
   text-align: right;
@@ -2114,7 +2114,7 @@ button {
 
 .fund-group-name small {
   color: var(--muted-2);
-  font-size: 7px;
+  font-size: 8px;
 }
 
 .fund-number {
@@ -2175,7 +2175,7 @@ button {
 
 .market-stat > small {
   color: var(--muted-2);
-  font-size: 8px;
+  font-size: 9px;
   line-height: 1.55;
 }
 
@@ -2378,7 +2378,7 @@ button {
 .fund-source-note p {
   margin: 0;
   color: var(--muted-2);
-  font-size: 8px;
+  font-size: 9px;
   line-height: 1.7;
 }
 
@@ -2912,7 +2912,7 @@ button {
 .theme-top-row small {
   overflow: hidden;
   color: var(--muted-2);
-  font-size: 7px;
+  font-size: 8px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -3023,7 +3023,7 @@ button {
 .reversal-theme-row small {
   overflow: hidden;
   color: var(--muted-2);
-  font-size: 7px;
+  font-size: 8px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }

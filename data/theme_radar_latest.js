@@ -1,51 +1,51 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T10:30:06+08:00",
+  "generated_at": "2026-10-26T10:30:30+08:00",
   "source": "题材雷达当日强度 / 底部反转结果",
   "daily_top": [
     {
       "date": "2026-10-26",
       "theme": "SPD概念",
       "representative": "SPD概念",
-      "change_pct": 1.81,
+      "change_pct": 2.15,
       "constituents": 14,
-      "members": "SPD概念 +1.81%",
+      "members": "SPD概念 +2.15%",
       "rank": 1
     },
     {
       "date": "2026-10-26",
-      "theme": "体外诊断概念/精准诊断/精准医疗",
-      "representative": "精准诊断",
-      "change_pct": 1.54,
-      "constituents": 95,
-      "members": "精准诊断 +1.54% / 体外诊断概念 +1.35% / 精准医疗 +0.82%",
+      "theme": "乳业",
+      "representative": "乳业",
+      "change_pct": 1.59,
+      "constituents": 33,
+      "members": "乳业 +1.59%",
       "rank": 2
-    },
-    {
-      "date": "2026-10-26",
-      "theme": "CRO",
-      "representative": "CRO",
-      "change_pct": 0.95,
-      "constituents": 52,
-      "members": "CRO +0.95%",
-      "rank": 3
-    },
-    {
-      "date": "2026-10-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 0.91,
-      "constituents": 17,
-      "members": "水产概念 +0.91%",
-      "rank": 4
     },
     {
       "date": "2026-10-26",
       "theme": "快递概念",
       "representative": "快递概念",
-      "change_pct": 0.88,
+      "change_pct": 0.97,
       "constituents": 40,
-      "members": "快递概念 +0.88%",
+      "members": "快递概念 +0.97%",
+      "rank": 3
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "体外诊断概念/精准诊断/精准医疗",
+      "representative": "精准诊断",
+      "change_pct": 0.84,
+      "constituents": 95,
+      "members": "精准诊断 +0.84% / 体外诊断概念 +0.75% / 精准医疗 +0.48%",
+      "rank": 4
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "免税概念",
+      "representative": "免税概念",
+      "change_pct": 0.72,
+      "constituents": 18,
+      "members": "免税概念 +0.72%",
       "rank": 5
     }
   ],
@@ -88,42 +88,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.81,
+      "avg_change_pct": 2.15,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "reversal_count": 1,
+      "reversal_count": 2,
       "dates": "10-26"
     },
     {
-      "theme": "体外诊断概念/精准诊断/精准医疗",
+      "theme": "乳业",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.54,
+      "avg_change_pct": 1.59,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "reversal_count": 1,
-      "dates": "10-26"
-    },
-    {
-      "theme": "CRO",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.95,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "reversal_count": 0,
-      "dates": "10-26"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.91,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "reversal_count": 0,
       "dates": "10-26"
     },
@@ -132,7 +110,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.88,
+      "avg_change_pct": 0.97,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "reversal_count": 0,
+      "dates": "10-26"
+    },
+    {
+      "theme": "体外诊断概念/精准诊断/精准医疗",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.84,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "reversal_count": 2,
+      "dates": "10-26"
+    },
+    {
+      "theme": "免税概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.72,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "reversal_count": 0,

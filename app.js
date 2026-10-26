@@ -659,10 +659,23 @@ function chipPct(value) {
 
 function chipRowWithLive(row) {
   const track = marketTrackMap().get(`${row.taxonomy}:${row.code}`);
-  if (!track) return row;
+  const live =
+    Boolean(track) &&
+    Boolean(fullMarketIntraday?.date) &&
+    fullMarketIntraday.date > chipSegmentData.date;
+  if (!live) return { ...row, live: false };
+  const completedFive = Array.isArray(row.history) ? row.history.slice(-4) : [];
+  const fiveDayRolling =
+    completedFive.reduce(
+      (total, item) => total + (Number(item.main_net_yi) || 0),
+      0,
+    ) + Number(track.close_yi || 0);
   return {
     ...row,
+    live: true,
     flow_yi: track.close_yi ?? row.flow_yi,
+    day_change_yi: Number(track.close_yi || 0) - Number(row.flow_yi || 0),
+    five_day_main_net_yi: fiveDayRolling,
     change_pct: track.change_pct ?? row.change_pct,
     main_ratio: track.main_ratio ?? row.main_ratio,
     up_count: track.up_count ?? row.up_count,
@@ -688,25 +701,45 @@ function renderChipHighlights() {
   if (!container || !chipSegmentData) return;
 
   const segments = (chipSegmentData.segments || []).map(chipRowWithLive);
+  const isLive = segments.some((row) => row.live);
   const domestic =
     segments.find((row) => row.code === "BK0891") ||
     chipSegmentData.highlights?.single_day_concept_leader;
-  const fiveDay = chipSegmentData.highlights?.five_day_leader;
+  const fiveDay = [...segments].sort(
+    (a, b) => b.five_day_main_net_yi - a.five_day_main_net_yi,
+  )[0];
   const storage = segments.find((row) => row.code === "BK1137");
-  const weakest = chipSegmentData.highlights?.weakest_five_day;
+  const weakest = [...segments].sort(
+    (a, b) => a.five_day_main_net_yi - b.five_day_main_net_yi,
+  )[0];
+
+  const currentLeader = [...segments].sort((a, b) => b.flow_yi - a.flow_yi)[0];
+  const liveTime = fullMarketIntraday?.last_capture_at?.slice(11, 19);
+  document.getElementById("chipAsOfLabel").textContent = isLive
+    ? `LIVE SNAPSHOT / ${liveTime} · BASE ${chipSegmentData.date}`
+    : `DATA VERDICT / ${chipSegmentData.date}`;
+  document.getElementById("chipVerdictTitle").textContent = isLive
+    ? `${currentLeader?.name || "当前细分"}是盘中资金第一，${fiveDay?.name || "当前细分"}是 5 日滚动第一。`
+    : "国产芯片是单日资金第一，但不是所有维度的第一。";
+  document.getElementById("chipVerdictBody").textContent = isLive
+    ? `盘中资金更新时间 ${liveTime}；较前日以 ${chipSegmentData.date} 收盘为基准，5 日滚动包含当前盘中资金。不同时间维度的排名必须分开看。`
+    : "国产芯片在 13 个官方细分中单日主力净流入第一，当日流入广度 90.43%；但近 5 日仍为净流出。数字芯片设计的资金效率与涨幅更强，存储芯片仍是跟随修复。";
+  document.getElementById("chipDataBasis").textContent = isLive
+    ? `盘中 ${liveTime} · 前收 ${chipSegmentData.date}`
+    : `基准 ${chipSegmentData.date}`;
 
   container.innerHTML = [
     chipHighlightCard(
-      "SINGLE-DAY FLOW / 单日资金第一",
-      domestic?.name || "国产芯片",
-      domestic?.flow_yi,
-      domestic
-        ? `上涨广度 ${domestic.breadth_pct.toFixed(2)}% · 5日 ${formatFund(domestic.five_day_main_net_yi)}`
+      isLive ? "LIVE FLOW / 盘中资金第一" : "SINGLE-DAY FLOW / 单日资金第一",
+      currentLeader?.name || "国产芯片",
+      currentLeader?.flow_yi,
+      currentLeader
+        ? `上涨广度 ${currentLeader.breadth_pct.toFixed(2)}% · 5日滚动 ${formatFund(currentLeader.five_day_main_net_yi)}`
         : "暂无数据",
       "lime",
     ),
     chipHighlightCard(
-      "FIVE-DAY FLOW / 5日累计第一",
+      isLive ? "5-DAY ROLLING / 5日滚动第一" : "FIVE-DAY FLOW / 5日累计第一",
       fiveDay?.name || "数字芯片设计",
       fiveDay?.five_day_main_net_yi,
       fiveDay
@@ -749,6 +782,13 @@ function renderChipSegmentTable() {
   const rows = chipSegmentData.segments.map(chipRowWithLive).sort(
     (a, b) => (Number(b[sortKey]) || 0) - (Number(a[sortKey]) || 0),
   );
+  const isLive = rows.some((row) => row.live);
+  const basisDate = chipSegmentData.date.slice(5);
+  document.querySelector('#chipSortTabs [data-chip-sort="flow_yi"]').textContent =
+    isLive ? "盘中资金" : "当日资金";
+  document.querySelector(
+    '#chipSortTabs [data-chip-sort="five_day_main_net_yi"]',
+  ).textContent = isLive ? "5日滚动" : "5日累计";
 
   container.innerHTML = `
     <table class="fund-table chip-segment-table">
@@ -756,9 +796,9 @@ function renderChipSegmentTable() {
         <tr>
           <th>#</th>
           <th>芯片细分</th>
-          <th>当日主力</th>
-          <th>较前日</th>
-          <th>5日累计</th>
+          <th>${isLive ? "盘中主力" : "当日主力"}</th>
+          <th>${isLive ? `较 ${basisDate}` : "较前日"}</th>
+          <th>${isLive ? "5日滚动" : "5日累计"}</th>
           <th>涨幅</th>
           <th>资金效率</th>
           <th>上涨广度</th>
@@ -1620,7 +1660,7 @@ function renderTransitionChart() {
     const label = svgEl("text", {
       x: padding.left - 13,
       y: gridY + 3,
-      fill: "#61716d",
+      fill: "#91a09c",
       "font-size": "8",
       "font-family": "Cascadia Code, Consolas, monospace",
       "text-anchor": "end",
@@ -1633,7 +1673,7 @@ function renderTransitionChart() {
     const text = svgEl("text", {
       x: x(index),
       y: height - 18,
-      fill: "#72817d",
+      fill: "#a2b0ac",
       "font-size": "9",
       "font-family": "Cascadia Code, Consolas, monospace",
       "text-anchor": "middle",
