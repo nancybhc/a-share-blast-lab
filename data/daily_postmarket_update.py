@@ -7,7 +7,7 @@ import re
 import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, time as clock_time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -20,6 +20,7 @@ FIVE_BREAK_SCRIPT = Path(r"C:\Users\jiach\Desktop\今日盘中\5break10_monitor.
 LOG_PATH = DATA_DIR / "daily_postmarket_update.log"
 STATUS_PATH = DATA_DIR / "daily_postmarket_status.json"
 LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
+MIN_REPORT_TIME = clock_time(17, 30)
 
 
 def now_text() -> str:
@@ -114,6 +115,10 @@ def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Pat
                 path
                 for path in reports
                 if today in path.name
+                and datetime.fromtimestamp(
+                    path.stat().st_mtime,
+                    CHINA_TZ,
+                ).time() >= MIN_REPORT_TIME
             ]
             if today_matches:
                 path = max(today_matches, key=lambda item: item.stat().st_mtime)
@@ -131,7 +136,10 @@ def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Pat
                 return match.group(1), path
             expected = target_date or today
             raise FileNotFoundError(f"等待超时，未找到 {expected} 多空阶段报告")
-        log(f"[WAIT] 等待 {target_date or '最新'} 多空阶段报告")
+        log(
+            f"[WAIT] 等待 {target_date or '今日 17:30 后生成的'}"
+            "多空阶段报告"
+        )
         time.sleep(60)
 
 
