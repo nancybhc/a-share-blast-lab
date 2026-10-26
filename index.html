@@ -7,17 +7,17 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261026185614">
-  <script src="data/group_fund_flows_2026-10-26.js?v=20261026185614"></script>
-  <script src="data/board_daily_fund_flows_2026-10-26.js?v=20261026185614"></script>
-  <script src="data/full_market_daily_2026-10-26.js?v=20261026185614"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261026185614"></script>
-  <script src="data/chip_segments_2026-10-26.js?v=20261026185614"></script>
-  <script src="data/theme_radar_latest.js?v=20261026185614"></script>
-  <script src="data/runtime_status.js?v=20261026185614"></script>
-  <script src="data/five_break_10_monitor.js?v=20261026185614"></script>
-  <script src="data/market_trend_latest.js?v=20261026185614"></script>
-  <script src="app.js?v=20261026185614" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261026190954">
+  <script src="data/group_fund_flows_2026-10-26.js?v=20261026190954"></script>
+  <script src="data/board_daily_fund_flows_2026-10-26.js?v=20261026190954"></script>
+  <script src="data/full_market_daily_2026-10-26.js?v=20261026190954"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261026190954"></script>
+  <script src="data/chip_segments_2026-10-26.js?v=20261026190954"></script>
+  <script src="data/theme_radar_latest.js?v=20261026190954"></script>
+  <script src="data/runtime_status.js?v=20261026190954"></script>
+  <script src="data/five_break_10_monitor.js?v=20261026190954"></script>
+  <script src="data/market_trend_latest.js?v=20261026190954"></script>
+  <script src="app.js?v=20261026190954" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -43,13 +43,7 @@
       <a href="#chip-segments">芯片拆解</a>
       <a href="#five-break-10">5破10监控</a>
       <a href="#capital">资金流向监控</a>
-      <div class="nav-group">
-        <a class="nav-parent" href="#theme-strength">题材雷达 <span>⌄</span></a>
-        <div class="nav-submenu">
-          <a href="#theme-strength">当日题材强度</a>
-          <a href="#bottom-reversal">底部反转</a>
-        </div>
-      </div>
+      <a href="#theme-strength">题材强度</a>
     </nav>
 
     <div class="topbar-meta">
@@ -94,7 +88,7 @@
         <div class="hero-footnotes">
           <span><b>MA5 / MA10</b> 四阶段</span>
           <span><b>17</b> 分组</span>
-          <span><b>891</b> 去重标的</span>
+          <span><b>811</b> 去重标的</span>
           <span class="verified"><i></i> 盘后快照</span>
         </div>
       </div>
@@ -235,7 +229,7 @@
             </div>
             <h3>今天的强，<br>只属于少数。</h3>
             <p>
-              17 个分组中只有 6 个净转多强度为正。算力、AI 应用、药和机器人居前，
+              15 个分组中只有 4 个净转多强度为正。药、机器人和 AI 应用居前，
               但药同时出现 1 只空→多跳级；全组转多 82 次、转空 104 次，
               修复集中，整体扩散仍不足。
             </p>
@@ -588,7 +582,6 @@
                   <th>连续</th>
                   <th>平均涨幅</th>
                   <th>平均排名</th>
-                  <th>反转股</th>
                 </tr>
               </thead>
               <tbody id="themeRepeatBody"></tbody>
@@ -598,82 +591,14 @@
       </div>
 
       <div class="fund-source-note reveal">
-        <span>来源 / 题材雷达</span>
-        <p>数据来自题材雷达“当日题材强度”工作流。页面每 60 秒读取最新生成结果；完整全市场重算仍由原题材雷达工作流执行，不在浏览器内重复计算。</p>
+        <span>来源 / 题材强度</span>
+        <p>数据来自“当日题材强度”工作流。页面每 60 秒读取最新生成结果；完整全市场重算仍由原工作流执行，不在浏览器内重复计算。</p>
         <div class="fund-source-links">
           <a href="data/theme_radar_latest.json" target="_blank">原始 JSON ↗</a>
           <a href="data/build_theme_radar_web.py" target="_blank">导出脚本 ↗</a>
         </div>
       </div>
     </section>
-
-    <section class="section shell bottom-reversal-section" id="bottom-reversal">
-      <div class="section-heading reveal">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 08 / 底部反转</div>
-          <h2>底部反转</h2>
-        </div>
-        <p>长期下跌、贴近底部、完成 5破10、量能连续确认，并且只筛选沪深主板。</p>
-      </div>
-
-      <div class="reversal-kpis reveal" id="reversalKpis"></div>
-
-      <div class="reversal-grid">
-        <article class="panel reversal-theme-panel reveal">
-          <div class="fund-table-head">
-            <div>
-              <span class="panel-label">题材共振</span>
-              <h3>哪些题材出现多只同步启动</h3>
-            </div>
-            <span class="data-origin">仅具体细分</span>
-          </div>
-          <div class="reversal-theme-list" id="reversalThemeList"></div>
-        </article>
-
-        <article class="panel reversal-stock-panel reveal">
-          <div class="fund-table-head">
-            <div>
-              <span class="panel-label">反转命中个股</span>
-              <h3>通过完整模板的沪深主板股票</h3>
-            </div>
-            <a class="data-origin" href="data/full_market/theme_radar_latest.csv" download>下载 CSV ↗</a>
-          </div>
-          <div class="fund-table-scroll reversal-stock-scroll">
-            <table class="fund-table reversal-stock-table">
-              <thead>
-                <tr>
-                  <th>股票</th>
-                  <th>主题材</th>
-                  <th>涨幅</th>
-                  <th>换手</th>
-                  <th>量比</th>
-                  <th>距250高</th>
-                  <th>距250低</th>
-                </tr>
-              </thead>
-              <tbody id="reversalStockBody"></tbody>
-            </table>
-          </div>
-        </article>
-      </div>
-
-      <div class="fund-source-note reveal">
-        <span>来源 / 底部反转雷达</span>
-        <p>底部反转完整条件来自题材雷达工作流；页面只展示最新结果并在总控启动后每 60 秒重新读取。下表中“底部”与“反转”是结构条件，不代表收益保证。</p>
-        <div class="fund-source-links">
-          <a href="data/theme_radar_latest.json" target="_blank">原始 JSON ↗</a>
-          <a href="data/build_theme_radar_web.py" target="_blank">导出脚本 ↗</a>
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
 
 
 
@@ -736,7 +661,7 @@
       <div>
         <span>03 / 资金确认</span>
         <h3>资金只作第二确认</h3>
-        <p>多空结构快照为 2026-10-26 18:09，覆盖 17 个自定义分组、891 只去重标的；自定义分组资金采用新浪财经 r0_net 逐股汇总，结构、资金和题材均使用 10-26 收盘口径。</p>
+        <p>多空结构快照为 2026-10-26 18:09，覆盖 15 个自定义分组、811 只去重标的；结构、资金和题材均使用 10-26 收盘口径。</p>
       </div>
       <div>
         <span>04 / 使用边界</span>

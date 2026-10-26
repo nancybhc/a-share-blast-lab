@@ -27,11 +27,10 @@ GROUP_META = {
     "AI应用": ("ai-app", "AI APPS"),
     "机器人": ("robot", "ROBOTICS"),
     "药": ("pharma", "PHARMA"),
-    "黄金白银": ("gold", "PRECIOUS METALS"),
     "电力": ("power", "POWER"),
     "电网设备": ("grid-equipment", "GRID EQUIPMENT"),
-    "商业航天": ("aerospace", "AEROSPACE"),
 }
+EXCLUDED_GROUPS = {"黄金白银", "商业航天"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -65,6 +64,8 @@ def read_group_rows(workbook: openpyxl.Workbook) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
     for values in sheet.iter_rows(min_row=3, values_only=True):
         if not values[0] or not values[1]:
+            continue
+        if str(values[0]) in EXCLUDED_GROUPS:
             continue
         rows.append(
             {
@@ -186,8 +187,6 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
             }
         )
 
-    title = cycle["总览"].cell(1, 1).value or ""
-    runtime_match = re.search(r"运行时间\s+([0-9-]+\s+[0-9:]+)", str(title))
     summary_lines = [str(cycle["多空趋势"].cell(2, 1).value or "")]
     summary_date = groups[0]["date"]
     detailed_codes: set[str] = set()
@@ -203,6 +202,10 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
         str(values[0])
         for values in cycle["总览"].iter_rows(values_only=True)
         if values and values[0] is not None
+    )
+    runtime_match = re.search(
+        r"运行时间\s+([0-9-]+\s+[0-9:]+)",
+        summary_text,
     )
     generated_at = ""
     if runtime_match:

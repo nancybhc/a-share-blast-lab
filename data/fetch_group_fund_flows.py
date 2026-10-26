@@ -29,6 +29,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     "Referer": "https://finance.sina.com.cn/",
 }
+EXCLUDED_GROUPS = {"黄金白银", "商业航天"}
 
 
 @dataclass(frozen=True)
@@ -54,10 +55,16 @@ def load_groups(workbook_path: Path) -> tuple[dict[str, list[Stock]], dict[str, 
     overview = workbook["总览"]
     for row in overview.iter_rows(min_row=3, values_only=True):
         group, count = row[0], row[1]
-        if group and isinstance(count, (int, float)):
+        if (
+            group
+            and str(group).strip() not in EXCLUDED_GROUPS
+            and isinstance(count, (int, float))
+        ):
             expected[str(group).strip()] = int(count)
 
     for sheet in workbook.worksheets[3:]:
+        if sheet.title in EXCLUDED_GROUPS:
+            continue
         members: list[Stock] = []
         for row in sheet.iter_rows(min_row=5, values_only=True):
             code = str(row[3] or "").strip()

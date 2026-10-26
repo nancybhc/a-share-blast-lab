@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-import re
 import shutil
 import time
 from datetime import datetime
@@ -17,46 +16,9 @@ DATA_DIR = Path(__file__).resolve().parent
 OUTPUT_JSON = DATA_DIR / "theme_radar_latest.json"
 OUTPUT_JS = DATA_DIR / "theme_radar_latest.js"
 STATUS_JSON = DATA_DIR / "theme_radar_status.json"
-OUTPUT_CSV = DATA_DIR / "full_market" / "theme_radar_latest.csv"
 THEME_TOP_CSV = DATA_DIR / "full_market" / "theme_strength_daily_top.csv"
 THEME_DETAIL_CSV = DATA_DIR / "full_market" / "theme_strength_daily_detail.csv"
 THEME_XLSX = DATA_DIR / "theme_strength_latest.xlsx"
-GENERIC_THEME_TERMS = (
-    "东方财富热股",
-    "昨日",
-    "涨停",
-    "首板",
-    "炸板",
-    "触板",
-    "高振幅",
-    "高换手",
-    "融资融券",
-    "深股通",
-    "沪股通",
-    "QFII",
-    "标准普尔",
-    "富时",
-    "MSCI",
-    "专精特新",
-    "一带一路",
-    "股权激励",
-    "破净",
-    "中报",
-    "年报",
-    "季报",
-    "预盈",
-    "预亏",
-    "指数",
-    "题材股",
-)
-BROAD_THEME_NAMES = {
-    "机器人概念",
-    "人工智能",
-    "新能源",
-    "大盘股",
-    "中盘股",
-    "小盘股",
-}
 
 
 def as_float(value: Any) -> float | None:
@@ -120,7 +82,6 @@ def build_payload() -> dict[str, Any]:
             "avg_change_pct": as_float(row.get("平均涨幅%")),
             "avg_rank": as_float(row.get("平均排名")),
             "latest_rank": int(as_float(row.get("最近排名")) or 0),
-            "reversal_count": int(as_float(row.get("今日反转股数")) or 0),
             "dates": row.get("出现日期", ""),
         }
         for row in read_csv(raw_dir / "当日题材强度_五日题材汇总.csv")
@@ -134,73 +95,10 @@ def build_payload() -> dict[str, Any]:
         reverse=True,
     )
 
-    reverse_stocks = []
-    for row in read_csv(raw_dir / "命中个股.csv"):
-        reverse_stocks.append(
-            {
-                "code": row.get("代码", ""),
-                "name": row.get("名称", ""),
-                "industry": row.get("东财行业", ""),
-                "theme": row.get("主题材", ""),
-                "change_pct": as_float(row.get("涨幅%")),
-                "close": as_float(row.get("收盘")),
-                "turnover_pct": as_float(row.get("换手")),
-                "volume_ratio": as_float(row.get("量比20")),
-                "volume_5_20": as_float(row.get("量5比20")),
-                "from_high_pct": as_float(row.get("距250高%")),
-                "from_low_pct": as_float(row.get("距250低%")),
-                "amount_yi": as_float(row.get("成交额亿")),
-                "strength": int(as_float(row.get("命中强度")) or 0),
-                "themes": row.get("所属题材", ""),
-            }
-        )
-    reverse_stocks.sort(
-        key=lambda row: (
-            row["strength"],
-            row["change_pct"] if row["change_pct"] is not None else -999,
-        ),
-        reverse=True,
-    )
-
-    reversal_themes = []
-    for row in read_csv(raw_dir / "题材共振.csv"):
-        hits = int(as_float(row.get("命中数")) or 0)
-        if hits < 2:
-            continue
-        theme_name = row.get("题材", "")
-        generic = (
-            str(row.get("泛板块", "")).lower() == "true"
-            or theme_name in BROAD_THEME_NAMES
-            or any(term.lower() in theme_name.lower() for term in GENERIC_THEME_TERMS)
-        )
-        reversal_themes.append(
-            {
-                "theme": theme_name,
-                "code": row.get("板块代码", ""),
-                "members": int(as_float(row.get("成分数")) or 0),
-                "hits": hits,
-                "hit_rate_pct": as_float(row.get("命中率%")),
-                "change_pct": as_float(row.get("板块涨幅%")),
-                "main_net_yi": as_float(row.get("主力净流入亿")),
-                "leader": row.get("龙头(当日)", ""),
-                "hit_stocks": row.get("命中股(换手/量比/5日)", ""),
-                "resonance_score": as_float(row.get("共振分")),
-                "generic": generic,
-            }
-        )
-    reversal_themes.sort(
-        key=lambda row: row["resonance_score"] if row["resonance_score"] is not None else -999,
-        reverse=True,
-    )
-
-    summary_path = day_dir / "题材雷达_底部反转_摘要.txt"
     strength_summary = day_dir / "题材雷达_当日题材强度_摘要.txt"
-    summary_text = summary_path.read_text(encoding="utf-8") if summary_path.exists() else ""
-    sample_match = re.search(r"样本=(\d+)", summary_text)
-    sample_count = int(sample_match.group(1)) if sample_match else len(reverse_stocks)
     source_mtime = max(
         path.stat().st_mtime
-        for path in (summary_path, strength_summary)
+        for path in (strength_summary,)
         if path.exists()
     )
     return {
@@ -209,15 +107,9 @@ def build_payload() -> dict[str, Any]:
             source_mtime,
             ZoneInfo("Asia/Shanghai"),
         ).isoformat(timespec="seconds"),
-        "source": "题材雷达当日强度 / 底部反转结果",
+        "source": "当日题材强度",
         "daily_top": daily_top,
         "five_day": five_day,
-        "reversal": {
-            "sample_count": sample_count,
-            "hit_count": len(reverse_stocks),
-            "stocks": reverse_stocks,
-            "themes": reversal_themes,
-        },
     }
 
 
@@ -239,46 +131,6 @@ def write_payload() -> dict[str, Any]:
         target.parent.mkdir(parents=True, exist_ok=True)
         source = source_dir / source_name if source_name.endswith(".csv") else result_dir / source_name
         shutil.copy2(source, target)
-    OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT_CSV.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.writer(handle)
-        writer.writerow(
-            [
-                "交易日",
-                "代码",
-                "名称",
-                "行业",
-                "主题材",
-                "收盘",
-                "涨幅%",
-                "换手%",
-                "量比20",
-                "5日量/20日量",
-                "距250日高%",
-                "距250日低%",
-                "成交额亿",
-                "命中强度",
-            ]
-        )
-        for row in payload["reversal"]["stocks"]:
-            writer.writerow(
-                [
-                    payload["date"],
-                    row["code"],
-                    row["name"],
-                    row["industry"],
-                    row["theme"],
-                    row["close"],
-                    row["change_pct"],
-                    row["turnover_pct"],
-                    row["volume_ratio"],
-                    row["volume_5_20"],
-                    row["from_high_pct"],
-                    row["from_low_pct"],
-                    row["amount_yi"],
-                    row["strength"],
-                ]
-            )
     STATUS_JSON.write_text(
         json.dumps(
             {
@@ -287,7 +139,6 @@ def write_payload() -> dict[str, Any]:
                 ),
                 "source_date": payload["date"],
                 "daily_top_count": len(payload["daily_top"]),
-                "reversal_hit_count": payload["reversal"]["hit_count"],
             },
             ensure_ascii=False,
             indent=2,
@@ -306,7 +157,7 @@ def main() -> None:
         payload = write_payload()
         print(
             f"[OK] 题材雷达 {payload['date']} 当日前五={len(payload['daily_top'])} "
-            f"反转命中={payload['reversal']['hit_count']}",
+            f"五日入榜={len(payload['five_day'])}",
             flush=True,
         )
         if not args.watch:

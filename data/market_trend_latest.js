@@ -7,12 +7,12 @@ window.MARKET_TREND_DATA = {
   "sourceBrief": "assets/多空阶段简报_2026-10-26.pptx",
   "summary": "  AI硬件 · 近 7 个交易日（10-16 ~ 10-26）：多明显变多（+10 只）、空也在收（-43 只），可以慢慢介入｜多 6→16 只、空 294→251 只、空转多 15→39、多转空 4→13｜半导体 最明显：多 3→9 只、空 141→109 只",
   "overview": {
-    "groups": 17,
-    "uniqueStocks": 891,
+    "groups": 15,
+    "uniqueStocks": 811,
     "positiveGroups": 4,
-    "negativeGroups": 12,
-    "positiveTransitions": 64,
-    "negativeTransitions": 125
+    "negativeGroups": 10,
+    "positiveTransitions": 61,
+    "negativeTransitions": 115
   },
   "groups": [
     {
@@ -639,95 +639,6 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "商业航天",
-      "date": "2026-10-26",
-      "total": 63,
-      "bull": 12,
-      "turnBull": 12,
-      "turnBear": 13,
-      "bear": 26,
-      "bullPct": 19.05,
-      "newBull": 1,
-      "confirm": 1,
-      "direct": 0,
-      "positive": 3,
-      "negative": 7,
-      "state": "跳空或转空加速",
-      "change": "空转多→多 1 只（前日 9）；多→空跳级 1 只；转空合计 7 只（前日 10）",
-      "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
-      "id": "aerospace",
-      "code": "AEROSPACE",
-      "score": -6.3,
-      "fulfilled": 1,
-      "netBias": -14,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "12",
-      "setupCaption": "空转多候选",
-      "confirmValue": "1",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 12/63，空头 26；空转多候选 12，今日转多确认 1，反向转空 13。空转多→多 1 只（前日 9）；多→空跳级 1 只；转空合计 7 只（前日 10），转空加速，MA5 刚拐头或跌破 10 线的先处理。",
-      "history": [
-        {
-          "date": "2026-10-16",
-          "bull": 2,
-          "turnBull": 5,
-          "turnBear": 0,
-          "bear": 56,
-          "bullPct": 3.17
-        },
-        {
-          "date": "2026-10-19",
-          "bull": 4,
-          "turnBull": 16,
-          "turnBear": 1,
-          "bear": 42,
-          "bullPct": 6.35
-        },
-        {
-          "date": "2026-10-20",
-          "bull": 5,
-          "turnBull": 12,
-          "turnBear": 1,
-          "bear": 45,
-          "bullPct": 7.94
-        },
-        {
-          "date": "2026-10-21",
-          "bull": 7,
-          "turnBull": 39,
-          "turnBear": 2,
-          "bear": 15,
-          "bullPct": 11.11
-        },
-        {
-          "date": "2026-10-22",
-          "bull": 3,
-          "turnBull": 47,
-          "turnBear": 1,
-          "bear": 12,
-          "bullPct": 4.76
-        },
-        {
-          "date": "2026-10-23",
-          "bull": 11,
-          "turnBull": 26,
-          "turnBear": 6,
-          "bear": 20,
-          "bullPct": 17.46
-        },
-        {
-          "date": "2026-10-26",
-          "bull": 12,
-          "turnBull": 12,
-          "turnBear": 13,
-          "bear": 26,
-          "bullPct": 19.05
-        }
-      ]
-    },
-    {
       "name": "PCB",
       "date": "2026-10-26",
       "total": 70,
@@ -813,95 +724,6 @@ window.MARKET_TREND_DATA = {
           "turnBear": 3,
           "bear": 61,
           "bullPct": 2.86
-        }
-      ]
-    },
-    {
-      "name": "黄金白银",
-      "date": "2026-10-26",
-      "total": 22,
-      "bull": 0,
-      "turnBull": 0,
-      "turnBear": 0,
-      "bear": 22,
-      "bullPct": 0.0,
-      "newBull": 0,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 0,
-      "negative": 3,
-      "state": "跳空或转空加速",
-      "change": "转空合计激增 0→3 只",
-      "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
-      "id": "gold",
-      "code": "PRECIOUS METALS",
-      "score": -13.6,
-      "fulfilled": 0,
-      "netBias": -22,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "0",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/22，空头 22；空转多候选 0，今日转多确认 0，反向转空 0。转空合计激增 0→3 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
-      "history": [
-        {
-          "date": "2026-10-16",
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 4,
-          "bear": 17,
-          "bullPct": 4.55
-        },
-        {
-          "date": "2026-10-19",
-          "bull": 2,
-          "turnBull": 1,
-          "turnBear": 5,
-          "bear": 14,
-          "bullPct": 9.09
-        },
-        {
-          "date": "2026-10-20",
-          "bull": 2,
-          "turnBull": 0,
-          "turnBear": 4,
-          "bear": 16,
-          "bullPct": 9.09
-        },
-        {
-          "date": "2026-10-21",
-          "bull": 2,
-          "turnBull": 2,
-          "turnBear": 1,
-          "bear": 17,
-          "bullPct": 9.09
-        },
-        {
-          "date": "2026-10-22",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 2,
-          "bear": 19,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 2,
-          "bear": 19,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 22,
-          "bullPct": 0.0
         }
       ]
     },

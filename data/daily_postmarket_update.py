@@ -215,6 +215,19 @@ def main() -> int:
 
         steps: list[tuple[str, list[str], bool, int]] = [
             (
+                "filter-groups",
+                [
+                    sys.executable,
+                    "-X",
+                    "utf8",
+                    "data/exclude_market_groups.py",
+                    "--date",
+                    target_date,
+                ],
+                True,
+                300,
+            ),
+            (
                 "structure",
                 [
                     sys.executable,

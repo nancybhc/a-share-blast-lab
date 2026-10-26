@@ -1,7 +1,7 @@
 window.GROUP_FUND_DATA = {
   "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs",
   "definition": "r0_net，即新浪财经页面标注的“主力净流入”",
-  "retrieved_at": "2026-10-26T18:39:48+08:00",
+  "retrieved_at": "2026-10-26T19:06:25+08:00",
   "date": "2026-10-26",
   "dates": [
     "2026-10-19",
@@ -1377,111 +1377,6 @@ window.GROUP_FUND_DATA = {
         }
       ]
     },
-    "黄金白银": {
-      "group": "黄金白银",
-      "constituents": 22,
-      "covered": 22,
-      "missing": [],
-      "coverage_pct": 100.0,
-      "date": "2026-10-26",
-      "main_net_yi": -11.42,
-      "main_net_change_yi": -24.22,
-      "five_day_main_net_yi": -5.31,
-      "positive_stock_count": 6,
-      "negative_stock_count": 14,
-      "top_positive": [
-        {
-          "code": "000960",
-          "name": "锡业股份",
-          "main_net_yi": 0.5862
-        },
-        {
-          "code": "000975",
-          "name": "山金国际",
-          "main_net_yi": 0.1094
-        },
-        {
-          "code": "600916",
-          "name": "中国黄金",
-          "main_net_yi": 0.0963
-        },
-        {
-          "code": "002721",
-          "name": "金一文化",
-          "main_net_yi": 0.0314
-        },
-        {
-          "code": "000017",
-          "name": "深中华A",
-          "main_net_yi": 0.0301
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "601899",
-          "name": "紫金矿业",
-          "main_net_yi": -4.1625
-        },
-        {
-          "code": "603993",
-          "name": "洛阳钼业",
-          "main_net_yi": -2.1921
-        },
-        {
-          "code": "600988",
-          "name": "赤峰黄金",
-          "main_net_yi": -1.9424
-        },
-        {
-          "code": "000426",
-          "name": "兴业银锡",
-          "main_net_yi": -1.0859
-        },
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "main_net_yi": -0.9682
-        }
-      ],
-      "daily": [
-        {
-          "date": "2026-10-19",
-          "main_net_yi": 0.02,
-          "total_net_yi": 3.27,
-          "covered": 22
-        },
-        {
-          "date": "2026-10-20",
-          "main_net_yi": -2.85,
-          "total_net_yi": 1.86,
-          "covered": 22
-        },
-        {
-          "date": "2026-10-21",
-          "main_net_yi": 8.87,
-          "total_net_yi": 9.23,
-          "covered": 22
-        },
-        {
-          "date": "2026-10-22",
-          "main_net_yi": -12.71,
-          "total_net_yi": -17.07,
-          "covered": 22
-        },
-        {
-          "date": "2026-10-23",
-          "main_net_yi": 12.8,
-          "total_net_yi": 19.29,
-          "covered": 22
-        },
-        {
-          "date": "2026-10-26",
-          "main_net_yi": -11.42,
-          "total_net_yi": -5.76,
-          "covered": 22
-        }
-      ]
-    },
     "电力": {
       "group": "电力",
       "constituents": 32,
@@ -1691,111 +1586,6 @@ window.GROUP_FUND_DATA = {
           "covered": 56
         }
       ]
-    },
-    "商业航天": {
-      "group": "商业航天",
-      "constituents": 63,
-      "covered": 63,
-      "missing": [],
-      "coverage_pct": 100.0,
-      "date": "2026-10-26",
-      "main_net_yi": -5.55,
-      "main_net_change_yi": -9.95,
-      "five_day_main_net_yi": 14.58,
-      "positive_stock_count": 23,
-      "negative_stock_count": 40,
-      "top_positive": [
-        {
-          "code": "003009",
-          "name": "中天火箭",
-          "main_net_yi": 0.846
-        },
-        {
-          "code": "001400",
-          "name": "江顺科技",
-          "main_net_yi": 0.83
-        },
-        {
-          "code": "002115",
-          "name": "三维通信",
-          "main_net_yi": 0.3929
-        },
-        {
-          "code": "002151",
-          "name": "北斗星通",
-          "main_net_yi": 0.144
-        },
-        {
-          "code": "000901",
-          "name": "航天科技",
-          "main_net_yi": 0.1315
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "300503",
-          "name": "昊志机电",
-          "main_net_yi": -2.2628
-        },
-        {
-          "code": "600498",
-          "name": "烽火通信",
-          "main_net_yi": -1.3623
-        },
-        {
-          "code": "002202",
-          "name": "金风科技",
-          "main_net_yi": -0.8819
-        },
-        {
-          "code": "001270",
-          "name": "铖昌科技",
-          "main_net_yi": -0.7707
-        },
-        {
-          "code": "300516",
-          "name": "久之洋",
-          "main_net_yi": -0.585
-        }
-      ],
-      "daily": [
-        {
-          "date": "2026-10-19",
-          "main_net_yi": 0.39,
-          "total_net_yi": 0.93,
-          "covered": 63
-        },
-        {
-          "date": "2026-10-20",
-          "main_net_yi": 6.18,
-          "total_net_yi": 7.99,
-          "covered": 63
-        },
-        {
-          "date": "2026-10-21",
-          "main_net_yi": 14.94,
-          "total_net_yi": 15.44,
-          "covered": 63
-        },
-        {
-          "date": "2026-10-22",
-          "main_net_yi": -5.4,
-          "total_net_yi": -19.24,
-          "covered": 63
-        },
-        {
-          "date": "2026-10-23",
-          "main_net_yi": 4.4,
-          "total_net_yi": 12.8,
-          "covered": 63
-        },
-        {
-          "date": "2026-10-26",
-          "main_net_yi": -5.55,
-          "total_net_yi": -13.52,
-          "covered": 63
-        }
-      ]
     }
   },
   "errors": {},
@@ -1813,9 +1603,7 @@ window.GROUP_FUND_DATA = {
     "AI应用": 71,
     "机器人": 70,
     "药": 133,
-    "黄金白银": 22,
     "电力": 32,
-    "电网设备": 56,
-    "商业航天": 63
+    "电网设备": 56
   }
 };

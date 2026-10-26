@@ -201,26 +201,6 @@ const marketData = window.MARKET_TREND_DATA || {
       confirmCaption: "今日转多确认",
       thesis: "出现一只空→多跳级，说明局部资金愿意抢先手，但整体多头占比仍低，尚未形成板块级扩散。",
     },
-    {
-      id: "aerospace",
-      name: "商业航天",
-      code: "AEROSPACE",
-      score: 13.5,
-      fulfilled: 9,
-      bullPct: 17.5,
-      bull: 11,
-      bear: 20,
-      turnBull: 26,
-      turnBear: 10,
-      phase: "冲高分歧",
-      badge: "反向 10 只",
-      tone: "red",
-      setup: "26",
-      setupCaption: "今日空转多",
-      confirm: "9",
-      confirmCaption: "今日转多确认",
-      thesis: "转多确认数不少，但反向转空达到 10 只。结构正在分歧，不能只看多头增加而忽略同日失血。",
-    },
   ],
   transition: {
     labels: ["10.19", "10.20", "10.21", "10.22", "10.23"],
@@ -1024,7 +1004,6 @@ function renderThemeStrength() {
   const bestAverage = [...(data.five_day || [])]
     .filter((row) => row.avg_change_pct !== null)
     .sort((a, b) => b.avg_change_pct - a.avg_change_pct)[0];
-  const hitCount = data.reversal?.hit_count || 0;
   const updated = String(data.generated_at || "—").replace("T", " ").slice(0, 19);
 
   document.getElementById("themeRadarDate").textContent = data.date || "—";
@@ -1048,9 +1027,9 @@ function renderThemeStrength() {
       <small>${bestAverage ? `${chipPct(bestAverage.avg_change_pct)} · 上榜 ${bestAverage.appearances} 次` : "暂无数据"}</small>
     </article>
     <article class="theme-stat">
-      <span>底部反转命中</span>
-      <strong>${hitCount}<small>只</small></strong>
-      <small>样本 ${Number(data.reversal?.sample_count || 0).toLocaleString("zh-CN")} 只</small>
+      <span>五日入榜题材</span>
+      <strong>${(data.five_day || []).length}<small>个</small></strong>
+      <small>至少上榜一次</small>
     </article>
   `;
 
@@ -1076,58 +1055,6 @@ function renderThemeStrength() {
         <td>${row.current_streak} 天</td>
         <td class="${metricClass(row.avg_change_pct)}">${chipPct(row.avg_change_pct)}</td>
         <td>${row.avg_rank === null ? "—" : row.avg_rank.toFixed(1)}</td>
-        <td class="${Number(row.reversal_count) > 0 ? "metric-positive" : ""}">${row.reversal_count}</td>
-      </tr>
-    `)
-    .join("");
-}
-
-function renderBottomReversal() {
-  const data = themeRadarData?.reversal;
-  if (!data) return;
-
-  const sampleCount = Number(data.sample_count || 0);
-  const hitCount = Number(data.hit_count || 0);
-  const hitRate = sampleCount ? (hitCount / sampleCount) * 100 : 0;
-  const themes = data.themes || [];
-  const specificThemes = themes.filter((row) => !row.generic);
-  const strongestTheme = specificThemes[0];
-
-  document.getElementById("reversalKpis").innerHTML = `
-    <article class="reversal-kpi"><span>全市场样本</span><strong>${sampleCount.toLocaleString("zh-CN")}</strong><small>有完整日线数据</small></article>
-    <article class="reversal-kpi"><span>完整模板命中</span><strong>${hitCount}</strong><small>沪深主板</small></article>
-    <article class="reversal-kpi"><span>命中率</span><strong>${hitRate.toFixed(2)}%</strong><small>命中 / 样本</small></article>
-    <article class="reversal-kpi"><span>非泛题材共振第一</span><strong>${strongestTheme?.theme || "—"}</strong><small>${strongestTheme ? `${strongestTheme.hits}/${strongestTheme.members} · ${chipPct(strongestTheme.change_pct)}` : "暂无数据"}</small></article>
-  `;
-
-  document.getElementById("reversalThemeList").innerHTML = specificThemes
-    .slice(0, 10)
-    .map((row) => `
-      <article class="reversal-theme-row">
-        <div>
-          <strong>${row.theme}</strong>
-          <small>${row.code} · 龙头 ${row.leader || "—"}</small>
-        </div>
-        <div class="reversal-theme-metrics">
-          <span><b>${row.hits}/${row.members}</b> 命中</span>
-          <span><b class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</b> 板块</span>
-          <span><b class="${metricClass(row.main_net_yi)}">${formatFund(row.main_net_yi)}</b> 主力</span>
-        </div>
-        ${row.generic ? '<span class="generic-theme">泛题材</span>' : ""}
-      </article>
-    `)
-    .join("") || '<div class="fbl-empty">当前没有多只同步启动的具体细分题材。</div>';
-
-  document.getElementById("reversalStockBody").innerHTML = (data.stocks || [])
-    .map((row) => `
-      <tr>
-        <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
-        <td>${row.theme}</td>
-        <td class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</td>
-        <td>${row.turnover_pct === null ? "—" : `${row.turnover_pct.toFixed(2)}%`}</td>
-        <td>${row.volume_ratio === null ? "—" : row.volume_ratio.toFixed(2)}</td>
-        <td>${chipPct(row.from_high_pct)}</td>
-        <td>${chipPct(row.from_low_pct)}</td>
       </tr>
     `)
     .join("");
@@ -1135,7 +1062,6 @@ function renderBottomReversal() {
 
 function renderThemeRadarSections() {
   renderThemeStrength();
-  renderBottomReversal();
 }
 
 function validationReading(label, value, note) {
@@ -1195,7 +1121,6 @@ function renderValidationChecklist() {
   const robot = marketData.groups.find((row) => row.id === "robot");
   const memory = marketData.groups.find((row) => row.id === "storage");
   const equipment = marketData.groups.find((row) => row.id === "equipment");
-  const aerospace = marketData.groups.find((row) => row.id === "aerospace");
 
   container.innerHTML = [
     validationCard({
@@ -1229,16 +1154,16 @@ function renderValidationChecklist() {
     validationCard({
       priority: "C",
       index: "03",
-      title: "存储芯片 / 半导体设备 / 商业航天",
-      state: `存储净转多强度 ${memory.score.toFixed(1)}，是当前最弱分组；半导体设备为 ${equipment.score.toFixed(1)}；商业航天仍有 ${aerospace.turnBear} 只反向转空，修复不均衡。`,
+      title: "存储芯片 / 半导体设备",
+      state: `存储净转多强度 ${memory.score.toFixed(1)}，半导体设备为 ${equipment.score.toFixed(1)}；两条芯片次线仍在承压，尚未形成同步修复。`,
       readings: [
         validationReading("存储 · 净转多", memory.score.toFixed(1), `${memory.bullPct.toFixed(1)}% 多头占比`),
         validationReading("半导体设备 · 净转多", equipment.score.toFixed(1), `${equipment.bull} 多 / ${equipment.bear} 空`),
         validationReading("存储 · 收盘资金", formatFund(storage.five_day_main_net_yi), `${chipSegmentData.date.slice(5)} 五日累计`),
-        validationReading("商业航天 · 转空", `${aerospace.turnBear}只`, "结构分歧"),
+        validationReading("半导体设备 · 空转多", `${equipment.turnBull}只`, `确认 ${equipment.confirm} 只`),
       ].join(""),
-      confirmation: "存储与半导体设备净转多强度同步转正；商业航天反向转空降至 5 只以下，才考虑升级。",
-      invalidation: "存储或半导体设备继续为负，或商业航天反向转空不低于 5 只，维持观察。",
+      confirmation: "存储与半导体设备净转多强度同步转正，且空转多候选继续向多头确认。",
+      invalidation: "存储或半导体设备继续为负，或反向转空数量扩大，维持观察。",
     }),
   ].join("");
 }
