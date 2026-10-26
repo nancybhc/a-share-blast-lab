@@ -31,7 +31,7 @@
   --shadow-soft: 0 12px 34px rgba(14, 22, 24, 0.065);
   --shadow-strong: 0 24px 64px rgba(14, 22, 24, 0.1);
   --focus: var(--cyan);
-  --shell: min(1380px, calc(100vw - 96px));
+  --shell: min(1650px, calc(100vw - 48px));
   --radius: 24px;
   --mono: "Cascadia Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --sans: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
@@ -121,7 +121,7 @@ button {
   grid-template-columns: minmax(260px, 1fr) auto minmax(260px, 1fr);
   align-items: center;
   min-height: 78px;
-  padding: 0 max(48px, calc((100vw - 1380px) / 2));
+  padding: 0 max(24px, calc((100vw - 1650px) / 2));
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 8px 30px rgba(24, 48, 41, 0.055);
@@ -3634,19 +3634,19 @@ button {
 
 @media (max-width: 1180px) {
   :root {
-    --shell: min(1380px, calc(100vw - 64px));
+    --shell: min(1650px, calc(100vw - 32px));
   }
 
   .topbar {
     grid-template-columns: 1fr auto;
-    padding-inline: 24px;
+    padding-inline: 12px;
   }
 
   .main-nav {
     position: absolute;
     top: 78px;
-    right: 24px;
-    left: 24px;
+    right: 12px;
+    left: 12px;
     display: none;
     flex-direction: column;
     align-items: stretch;
@@ -3873,12 +3873,12 @@ button {
   }
 
   :root {
-    --shell: calc(100vw - 40px);
+    --shell: calc(100vw - 20px);
     --radius: 17px;
   }
 
   .topbar {
-    padding-inline: 20px;
+    padding-inline: 10px;
   }
 
   .brand-mark {
