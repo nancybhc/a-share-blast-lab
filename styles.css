@@ -2081,6 +2081,7 @@ button {
 }
 
 .fund-table th {
+  min-width: 76px;
   padding: 13px 11px;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
@@ -2093,10 +2094,12 @@ button {
 }
 
 .fund-table th:first-child {
+  min-width: 48px;
   text-align: left;
 }
 
 .fund-table td {
+  min-width: 76px;
   padding: 13px 11px;
   border-bottom: 1px solid var(--line-soft);
   color: var(--text);
@@ -2108,6 +2111,7 @@ button {
 }
 
 .fund-table td:first-child {
+  min-width: 48px;
   text-align: left;
 }
 
@@ -2249,7 +2253,44 @@ button {
 
 .market-fund-table {
   width: max-content;
-  min-width: 0;
+  min-width: 680px;
+}
+
+.market-fund-table th:nth-child(1) {
+  width: 48px;
+  min-width: 48px;
+}
+
+.market-fund-table th:nth-child(2) {
+  width: 200px;
+  min-width: 200px;
+}
+
+.market-fund-table th:nth-child(n + 3) {
+  width: 104px;
+  min-width: 104px;
+}
+
+.market-board-table {
+  min-width: 880px;
+}
+
+.market-board-table th:nth-child(2) {
+  width: 175px;
+  min-width: 175px;
+}
+
+.market-board-table th:nth-child(3),
+.market-board-table th:nth-child(4),
+.market-board-table th:nth-child(5),
+.market-board-table th:nth-child(6) {
+  width: 128px;
+  min-width: 128px;
+}
+
+.market-board-table th:nth-child(7) {
+  width: 104px;
+  min-width: 104px;
 }
 
 .market-extreme {
@@ -2570,7 +2611,29 @@ button {
 
 .chip-segment-table {
   width: max-content;
-  min-width: 0;
+  min-width: 860px;
+}
+
+.chip-segment-table th:nth-child(1) {
+  width: 48px;
+  min-width: 48px;
+}
+
+.chip-segment-table th:nth-child(2) {
+  width: 190px;
+  min-width: 190px;
+}
+
+.chip-segment-table th:nth-child(3),
+.chip-segment-table th:nth-child(4),
+.chip-segment-table th:nth-child(5) {
+  width: 100px;
+  min-width: 100px;
+}
+
+.chip-segment-table th:nth-child(n + 6) {
+  width: 90px;
+  min-width: 90px;
 }
 
 .chip-segment-table tr.is-domestic {
@@ -2780,7 +2843,42 @@ button {
 
 .fbl-active-table {
   width: max-content;
-  min-width: 0;
+  min-width: 1040px;
+}
+
+.fbl-active-table th:nth-child(1),
+.fbl-active-table th:nth-child(2) {
+  width: 138px;
+  min-width: 138px;
+}
+
+.fbl-active-table th:nth-child(3) {
+  width: 58px;
+  min-width: 58px;
+}
+
+.fbl-active-table th:nth-child(4) {
+  width: 68px;
+  min-width: 68px;
+}
+
+.fbl-active-table th:nth-child(5) {
+  width: 100px;
+  min-width: 100px;
+}
+
+.fbl-active-table th:nth-child(6),
+.fbl-active-table th:nth-child(7),
+.fbl-active-table th:nth-child(8),
+.fbl-active-table th:nth-child(9),
+.fbl-active-table th:nth-child(10) {
+  width: 76px;
+  min-width: 76px;
+}
+
+.fbl-active-table th:nth-child(11) {
+  width: 72px;
+  min-width: 72px;
 }
 
 .fbl-qualified-row {
@@ -2960,7 +3058,17 @@ button {
 
 .theme-repeat-table {
   width: max-content;
-  min-width: 0;
+  min-width: 620px;
+}
+
+.theme-repeat-table th:nth-child(1) {
+  width: 240px;
+  min-width: 240px;
+}
+
+.theme-repeat-table th:nth-child(n + 2) {
+  width: 76px;
+  min-width: 76px;
 }
 
 .bottom-reversal-section {
@@ -3077,7 +3185,22 @@ button {
 
 .reversal-stock-table {
   width: max-content;
-  min-width: 0;
+  min-width: 780px;
+}
+
+.reversal-stock-table th:nth-child(1) {
+  width: 150px;
+  min-width: 150px;
+}
+
+.reversal-stock-table th:nth-child(2) {
+  width: 200px;
+  min-width: 200px;
+}
+
+.reversal-stock-table th:nth-child(n + 3) {
+  width: 82px;
+  min-width: 82px;
 }
 
 .validation-grid {
