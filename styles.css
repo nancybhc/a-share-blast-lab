@@ -15,14 +15,18 @@
   --muted-2: #4b5356;
   --accent: #b0202f;
   --accent-rgb: 176, 32, 47;
-  --lime: #587600;
+  --positive: #b42335;
+  --positive-rgb: 180, 35, 53;
+  --negative: #187348;
+  --negative-rgb: 24, 115, 72;
+  --lime: var(--positive);
   --cyan: #087a88;
-  --red: #bf2f45;
+  --red: var(--positive);
   --amber: #a95b0f;
   --accent-soft: rgba(var(--accent-rgb), 0.075);
   --cyan-rgb: 8, 122, 136;
-  --lime-rgb: 99, 135, 0;
-  --red-rgb: 191, 47, 69;
+  --lime-rgb: var(--positive-rgb);
+  --red-rgb: var(--positive-rgb);
   --amber-rgb: 169, 91, 15;
   --shadow-soft: 0 12px 34px rgba(14, 22, 24, 0.065);
   --shadow-strong: 0 24px 64px rgba(14, 22, 24, 0.1);
@@ -297,7 +301,7 @@ button {
   height: 6px;
   border-radius: 50%;
   background: var(--lime);
-  box-shadow: 0 0 12px rgba(185, 255, 69, 0.65);
+  box-shadow: 0 0 12px rgba(var(--positive-rgb), 0.55);
 }
 
 .data-date {
@@ -341,7 +345,7 @@ button {
   height: 5px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 9px rgba(185, 255, 69, 0.55);
+  box-shadow: 0 0 9px rgba(var(--positive-rgb), 0.45);
 }
 
 .master-monitor-button[data-state="running"] {
@@ -1387,11 +1391,11 @@ button {
 }
 
 .stage-dot.confirm {
-  background: var(--cyan);
+  background: var(--positive);
 }
 
 .stage-dot.crowd {
-  background: var(--red);
+  background: var(--negative);
 }
 
 .migration-layout {
@@ -1509,11 +1513,11 @@ button {
 }
 
 .shift-card.negative {
-  --shift-accent: var(--red);
+  --shift-accent: var(--negative);
 }
 
 .shift-card.positive {
-  --shift-accent: var(--cyan);
+  --shift-accent: var(--positive);
 }
 
 .shift-label {
@@ -1667,7 +1671,7 @@ button {
   position: relative;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, rgba(255, 83, 107, 0.3), var(--cyan));
+  background: linear-gradient(90deg, rgba(var(--negative-rgb), 0.35), var(--positive));
 }
 
 .bridge-line::after {
@@ -1689,7 +1693,7 @@ button {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--red);
+  background: var(--negative);
 }
 
 .bridge-line b {
@@ -1760,7 +1764,7 @@ button {
   height: 5px;
   border-radius: 50%;
   background: var(--lime);
-  box-shadow: 0 0 10px rgba(185, 255, 69, 0.5);
+  box-shadow: 0 0 10px rgba(var(--positive-rgb), 0.4);
 }
 
 .board-compare-grid {
@@ -1803,14 +1807,14 @@ button {
 }
 
 .board-mini-value {
-  color: var(--cyan);
+  color: var(--positive);
   font-family: var(--mono);
   font-size: 20px;
   letter-spacing: -0.04em;
 }
 
 .board-mini-value.outflow {
-  color: var(--red);
+  color: var(--negative);
 }
 
 .board-mini-delta {
@@ -2019,7 +2023,7 @@ button {
   height: 5px;
   border-radius: 50%;
   background: var(--lime);
-  box-shadow: 0 0 8px rgba(185, 255, 69, 0.5);
+  box-shadow: 0 0 8px rgba(var(--positive-rgb), 0.4);
 }
 
 .collector-button[data-state="running"] {
@@ -2143,15 +2147,23 @@ button {
 }
 
 .fund-number.inflow {
-  color: var(--lime);
+  color: var(--positive);
 }
 
 .fund-number.outflow {
-  color: var(--red);
+  color: var(--negative);
 }
 
 .fund-number.muted {
   color: var(--muted-2);
+}
+
+.metric-positive {
+  color: var(--positive) !important;
+}
+
+.metric-negative {
+  color: var(--negative) !important;
 }
 
 .legacy-group-table {
@@ -2520,7 +2532,7 @@ button {
 }
 
 .chip-highlight-card[data-tone="red"] {
-  --chip-accent: var(--red);
+  --chip-accent: var(--negative);
 }
 
 .chip-highlight-card > span {
@@ -2687,7 +2699,7 @@ button {
 
 .fbl-command-copy .system-state.is-live i {
   background: var(--lime);
-  box-shadow: 0 0 12px rgba(185, 255, 69, 0.72);
+  box-shadow: 0 0 12px rgba(var(--positive-rgb), 0.55);
 }
 
 .fbl-command-copy > strong {
@@ -2848,10 +2860,6 @@ button {
   box-shadow: inset 2px 0 var(--lime);
 }
 
-.fbl-positive {
-  color: var(--lime) !important;
-}
-
 .theme-data-meta {
   display: flex;
   flex-wrap: wrap;
@@ -2905,7 +2913,7 @@ button {
   height: 5px;
   border-radius: 50%;
   background: var(--lime);
-  box-shadow: 0 0 9px rgba(185, 255, 69, 0.55);
+  box-shadow: 0 0 9px rgba(var(--positive-rgb), 0.45);
 }
 
 .theme-overview {
@@ -3011,11 +3019,11 @@ button {
 }
 
 .theme-return.inflow {
-  color: var(--lime);
+  color: var(--positive);
 }
 
 .theme-return.outflow {
-  color: var(--red);
+  color: var(--negative);
 }
 
 .theme-repeat-scroll {
@@ -3071,7 +3079,7 @@ button {
 }
 
 .reversal-kpi strong {
-  color: var(--amber);
+  color: var(--positive);
   font-family: var(--mono);
   font-size: 24px;
   font-weight: 500;
@@ -3202,7 +3210,7 @@ button {
 }
 
 .validation-card[data-priority="C"] {
-  --validation-accent: var(--red);
+  --validation-accent: var(--negative);
 }
 
 .validation-card::before {
@@ -3367,7 +3375,7 @@ button {
 }
 
 .play-card.attack {
-  --card-accent: var(--cyan);
+  --card-accent: var(--positive);
 }
 
 .play-card.fade {
@@ -3375,7 +3383,7 @@ button {
 }
 
 .play-card.danger {
-  --card-accent: var(--red);
+  --card-accent: var(--negative);
 }
 
 .play-card::after {

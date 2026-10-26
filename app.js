@@ -270,10 +270,10 @@ const COLLECTOR_STATUS_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 const FIVE_BREAK_10_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 
 const toneColors = {
-  lime: "#638700",
+  lime: "#b42335",
   cyan: "#087a88",
   amber: "#a95b0f",
-  red: "#bf2f45",
+  red: "#187348",
 };
 
 const sortConfig = {
@@ -299,6 +299,18 @@ function fundTone(value) {
   if (Number(value) > 0) return "inflow";
   if (Number(value) < 0) return "outflow";
   return "muted";
+}
+
+function metricClass(value) {
+  if (Number(value) > 0) return "metric-positive";
+  if (Number(value) < 0) return "metric-negative";
+  return "";
+}
+
+function breadthClass(value) {
+  if (Number(value) >= 50) return "metric-positive";
+  if (Number(value) < 50) return "metric-negative";
+  return "";
 }
 
 function formatMetric(group, sortKey) {
@@ -563,9 +575,9 @@ function renderMarketTable() {
               <td>${String(index + 1).padStart(2, "0")}</td>
               <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
               <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
-              <td>${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
+              <td class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
               <td>${Number(row.amount_yi).toFixed(2)}亿</td>
-              <td>${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
+              <td class="${metricClass(row.main_ratio)}">${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
             </tr>
           `).join("")}
         </tbody>
@@ -594,7 +606,7 @@ function renderMarketTable() {
             <td>${String(index + 1).padStart(2, "0")}</td>
             <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
             <td class="market-extreme"><b class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</b><small>${row.track ? row.track.close_time : "未采样"}</small></td>
-            <td>${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
+            <td class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
             <td class="market-extreme">${row.track ? `<b>${formatFund(row.track.minimum_yi)}</b><small>${row.track.minimum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
             <td class="market-extreme">${row.track ? `<b>${formatFund(row.track.maximum_yi)}</b><small>${row.track.maximum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
             <td>${row.track ? formatFund(row.track.rebound_yi) : "—"}</td>
@@ -820,10 +832,10 @@ function renderChipSegmentTable() {
             <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
             <td><span class="fund-number ${fundTone(row.day_change_yi)}">${formatFund(row.day_change_yi)}</span></td>
             <td><span class="fund-number ${fundTone(row.five_day_main_net_yi)}">${formatFund(row.five_day_main_net_yi)}</span></td>
-            <td>${chipPct(row.change_pct)}</td>
-            <td>${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
-            <td>${Number(row.breadth_pct).toFixed(2)}%</td>
-            <td>${row.up_count} / ${row.down_count}</td>
+            <td class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</td>
+            <td class="${metricClass(row.main_ratio)}">${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
+            <td class="${breadthClass(row.breadth_pct)}">${Number(row.breadth_pct).toFixed(2)}%</td>
+            <td class="${breadthClass(row.breadth_pct)}">${row.up_count} / ${row.down_count}</td>
           </tr>
         `).join("")}
       </tbody>
@@ -913,9 +925,9 @@ function renderThemeStrength() {
         <td><span class="fund-group-name"><strong>${row.theme}</strong><small>${row.dates}</small></span></td>
         <td>${row.appearances} 次</td>
         <td>${row.current_streak} 天</td>
-        <td>${chipPct(row.avg_change_pct)}</td>
+        <td class="${metricClass(row.avg_change_pct)}">${chipPct(row.avg_change_pct)}</td>
         <td>${row.avg_rank === null ? "—" : row.avg_rank.toFixed(1)}</td>
-        <td>${row.reversal_count}</td>
+        <td class="${Number(row.reversal_count) > 0 ? "metric-positive" : ""}">${row.reversal_count}</td>
       </tr>
     `)
     .join("");
@@ -949,8 +961,8 @@ function renderBottomReversal() {
         </div>
         <div class="reversal-theme-metrics">
           <span><b>${row.hits}/${row.members}</b> 命中</span>
-          <span><b>${chipPct(row.change_pct)}</b> 板块</span>
-          <span><b>${formatFund(row.main_net_yi)}</b> 主力</span>
+          <span><b class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</b> 板块</span>
+          <span><b class="${metricClass(row.main_net_yi)}">${formatFund(row.main_net_yi)}</b> 主力</span>
         </div>
         ${row.generic ? '<span class="generic-theme">泛题材</span>' : ""}
       </article>
@@ -962,7 +974,7 @@ function renderBottomReversal() {
       <tr>
         <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
         <td>${row.theme}</td>
-        <td>${chipPct(row.change_pct)}</td>
+        <td class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</td>
         <td>${row.turnover_pct === null ? "—" : `${row.turnover_pct.toFixed(2)}%`}</td>
         <td>${row.volume_ratio === null ? "—" : row.volume_ratio.toFixed(2)}</td>
         <td>${chipPct(row.from_high_pct)}</td>
@@ -1473,10 +1485,10 @@ function renderFiveBreak10() {
           <td>${escapeMonitorText(row["代码"])}</td>
           <td>${escapeMonitorText(row["名称"])}</td>
           <td>${monitorNumber(row["当前价"])}</td>
-          <td class="fbl-positive">${monitorPct(row["当前涨幅%"])}</td>
+          <td class="${metricClass(row["当前涨幅%"])}">${monitorPct(row["当前涨幅%"])}</td>
           <td>${monitorNumber(row["目标价"])}</td>
-          <td class="fbl-positive">${monitorPct(row["最低涨幅%"])}</td>
-          <td class="fbl-positive">${monitorPct(row["超过目标百分点"])}</td>
+          <td class="${metricClass(row["最低涨幅%"])}">${monitorPct(row["最低涨幅%"])}</td>
+          <td class="${metricClass(row["超过目标百分点"])}">${monitorPct(row["超过目标百分点"])}</td>
           <td>${escapeMonitorText(row["行情时间"])}</td>
         </tr>`,
     )
