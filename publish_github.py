@@ -31,10 +31,15 @@ EXCLUDED_NAMES = {
     "server.stdout.log",
     "server.stderr.log",
     "five_break_10_monitor.log",
+    ".five_break_10_monitor.pid",
     "theme_refresh.log",
     ".theme_refresh.pid",
     "theme_radar_status.json",
     "github_publish_status.json",
+    "github_publish.log",
+    "daily_postmarket_update.log",
+    "daily_postmarket_status.json",
+    ".daily_postmarket_update.lock",
 }
 EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".tmp"}
 
