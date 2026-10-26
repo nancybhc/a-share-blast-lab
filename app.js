@@ -360,7 +360,7 @@ function updateSpotlight(group) {
   void spotlightCard.offsetWidth;
   spotlightCard.classList.add("is-switching");
 
-  document.getElementById("focusCode").textContent = group.code;
+  document.getElementById("focusCode").textContent = group.name;
   document.getElementById("focusPhase").textContent = group.phase;
   document.getElementById("focusBadge").textContent = group.badge;
   document.getElementById("focusName").textContent = group.name;
@@ -379,7 +379,7 @@ function updateSpotlight(group) {
 
   const scoreCopy = spotlightCard.querySelector(".score-copy small");
   if (scoreCopy) {
-    scoreCopy.textContent = `RANK / ${String(rank).padStart(2, "0")}`;
+    scoreCopy.textContent = `排名 / ${String(rank).padStart(2, "0")}`;
   }
   document.querySelector(".page-glow").style.background = `
     radial-gradient(circle at 74% 22%, color-mix(in srgb, ${accent} 12%, transparent), transparent 30rem),
@@ -475,8 +475,8 @@ function renderMarketOverview() {
     `${counts.industry || 0} 行业 / ${counts.concept || 0} 概念 / ${counts.stock || 0} 股`;
   document.getElementById("marketCaptureStatus").textContent =
     fullMarketIntraday?.available
-      ? `INTRADAY · ${fullMarketIntraday.capture_count} 次`
-      : "CLOSE ONLY";
+      ? `盘中 · ${fullMarketIntraday.capture_count} 次`
+      : "仅收盘数据";
 
   document.getElementById("marketOverview").innerHTML = `
     <article class="market-stat">
@@ -613,7 +613,7 @@ function renderIntradayReadout() {
     container.innerHTML = `
       <div class="intraday-pending">
         <div>
-          <span>MINUTE TRACK / PENDING</span>
+          <span>盘中轨迹 / 待采集</span>
           <strong>盘中极值等待交易时段采样</strong>
           <p>下一次交易时段启动全市场采集后，这里将记录全市场与每个板块的最低流出、发生时间、最高流入、发生时间和收盘值。10 月 23 日的分钟历史无法从公共接口回补。</p>
         </div>
@@ -631,7 +631,7 @@ function renderIntradayReadout() {
   container.innerHTML = `
     <div class="intraday-live-head">
       <div>
-        <span>MINUTE TRACK / ${fullMarketIntraday.capture_count} SNAPSHOTS</span>
+        <span>盘中轨迹 / ${fullMarketIntraday.capture_count} 次快照</span>
         <strong>全市场盘中资金轨迹</strong>
       </div>
       <small>${fullMarketIntraday.first_capture_at?.slice(11, 19)} → ${fullMarketIntraday.last_capture_at?.slice(11, 19)} · ${fullMarketIntraday.board_count} 个板块</small>
@@ -717,8 +717,8 @@ function renderChipHighlights() {
   const currentLeader = [...segments].sort((a, b) => b.flow_yi - a.flow_yi)[0];
   const liveTime = fullMarketIntraday?.last_capture_at?.slice(11, 19);
   document.getElementById("chipAsOfLabel").textContent = isLive
-    ? `LIVE SNAPSHOT / ${liveTime} · BASE ${chipSegmentData.date}`
-    : `DATA VERDICT / ${chipSegmentData.date}`;
+    ? `盘中快照 / ${liveTime} · 基准 ${chipSegmentData.date}`
+    : `数据结论 / ${chipSegmentData.date}`;
   document.getElementById("chipVerdictTitle").textContent = isLive
     ? `${currentLeader?.name || "当前细分"}是盘中资金第一，${fiveDay?.name || "当前细分"}是 5 日滚动第一。`
     : "国产芯片是单日资金第一，但不是所有维度的第一。";
@@ -731,7 +731,7 @@ function renderChipHighlights() {
 
   container.innerHTML = [
     chipHighlightCard(
-      isLive ? "LIVE FLOW / 盘中资金第一" : "SINGLE-DAY FLOW / 单日资金第一",
+      isLive ? "盘中资金第一" : "单日资金第一",
       currentLeader?.name || "国产芯片",
       currentLeader?.flow_yi,
       currentLeader
@@ -740,7 +740,7 @@ function renderChipHighlights() {
       "lime",
     ),
     chipHighlightCard(
-      isLive ? "5-DAY ROLLING / 5日滚动第一" : "FIVE-DAY FLOW / 5日累计第一",
+      isLive ? "5日滚动第一" : "5日累计第一",
       fiveDay?.name || "数字芯片设计",
       fiveDay?.five_day_main_net_yi,
       fiveDay
@@ -749,7 +749,7 @@ function renderChipHighlights() {
       "cyan",
     ),
     chipHighlightCard(
-      "STORAGE CHIP / 存储芯片",
+      "存储芯片",
       storage?.name || "存储芯片",
       storage?.flow_yi,
       storage
@@ -758,7 +758,7 @@ function renderChipHighlights() {
       "amber",
     ),
     chipHighlightCard(
-      "WEAKEST FIVE-DAY / 5日最弱",
+      "5日资金最弱",
       weakest?.name || "半导体设备",
       weakest?.five_day_main_net_yi,
       weakest
@@ -836,7 +836,7 @@ function renderChipCustomReference() {
   const custom = chipSegmentData?.custom_reference;
   if (!container || !custom) return;
   container.innerHTML = `
-    <span>CUSTOM GROUP / 自定义分组对照</span>
+    <span>自定义分组对照</span>
     <div>
       <strong>${custom.name} · ${custom.constituents}只</strong>
       <b>当日 ${formatFund(custom.single_day_yi)}</b>
@@ -999,18 +999,18 @@ function validationCard({
   return `
     <article class="validation-card" data-priority="${priority}">
       <div class="validation-head">
-        <span>${index} / VALIDATION ${priority}</span>
+        <span>${index} / 验证 ${priority}</span>
         <span class="validation-priority">优先级 ${priority}</span>
       </div>
       <h3>${title}</h3>
       <p class="validation-state">${state}</p>
       <div class="validation-readings">${readings}</div>
       <div class="validation-rule">
-        <span>确认线 / CONTINUE</span>
+        <span>确认线</span>
         <p>${confirmation}</p>
       </div>
       <div class="validation-rule invalid">
-        <span>失效线 / INVALIDATE</span>
+        <span>失效线</span>
         <p>${invalidation}</p>
       </div>
       <div class="validation-foot">
@@ -1164,14 +1164,14 @@ function applyCollectorStatus(status) {
   updateRuntimeDisplay(status);
   if (status.running && status.state === "running") {
     setCollectorButton("running", "采集中 · 点击停止");
-    document.getElementById("marketCaptureStatus").textContent = "COLLECTOR RUNNING";
+    document.getElementById("marketCaptureStatus").textContent = "全市场采集中";
   } else if (status.running && status.state === "waiting") {
     setCollectorButton("waiting", "等待开盘 · 点击停止");
-    document.getElementById("marketCaptureStatus").textContent = "WAITING FOR OPEN";
+    document.getElementById("marketCaptureStatus").textContent = "等待开盘";
   } else {
     setCollectorButton("stopped", "启动全市场采集");
     if (!fullMarketIntraday?.available) {
-      document.getElementById("marketCaptureStatus").textContent = "CLOSE ONLY";
+      document.getElementById("marketCaptureStatus").textContent = "仅收盘数据";
     }
   }
 
@@ -1417,20 +1417,20 @@ function renderFiveBreak10() {
   const monitorStatus = control?.monitor_status || data.status;
   const statusText =
     stale && !running
-      ? "MONITOR STALE"
+      ? "监控快照过期"
       : monitorStatus === "waiting_market"
-        ? "WAITING FOR NEXT SESSION"
+        ? "等待下一交易日"
         : monitorStatus === "scanning"
-          ? "LIVE FILTER ACTIVE"
+          ? "盘中过滤运行中"
           : monitorStatus === "starting"
-            ? "MONITOR STARTING"
+            ? "监控启动中"
             : monitorStatus === "no_quotes"
-              ? "WAITING FOR QUOTES"
+              ? "等待行情"
               : monitorStatus === "error"
-                ? "MONITOR ERROR"
+                ? "监控异常"
                 : running
-                  ? "MONITOR RUNNING"
-                  : "SNAPSHOT READY";
+                  ? "监控运行中"
+                  : "快照已就绪";
   const stateNode = document.getElementById("fiveBreak10State");
   stateNode.classList.toggle("is-live", running && !stale);
   stateNode.querySelector("span").textContent = statusText;
@@ -1457,7 +1457,7 @@ function renderFiveBreak10() {
   document.getElementById("fiveBreak10ActiveCount").textContent =
     `${Number(data.active_count || 0)} 只`;
   document.getElementById("fiveBreak10LastScan").textContent =
-    `LAST SCAN / ${monitorTime(data.generated_at)}`;
+    `上次扫描 / ${monitorTime(data.generated_at)}`;
   document.getElementById("fiveBreak10RefreshHint").textContent =
     `每 ${formatRefreshInterval(data.interval_seconds)}刷新 · ${monitorTime(data.generated_at)}`;
 

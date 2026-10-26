@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f2f5ef">
+  <meta name="theme-color" content="#f5f6f7">
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261026113019">
-  <script src="data/group_fund_flows_2026-10-23.js?v=20261026113019"></script>
-  <script src="data/board_daily_fund_flows_2026-10-23.js?v=20261026113019"></script>
-  <script src="data/full_market_daily_2026-10-23.js?v=20261026113019"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261026113019"></script>
-  <script src="data/chip_segments_2026-10-23.js?v=20261026113019"></script>
-  <script src="data/theme_radar_latest.js?v=20261026113019"></script>
-  <script src="data/runtime_status.js?v=20261026113019"></script>
-  <script src="data/five_break_10_monitor.js?v=20261026113019"></script>
-  <script src="app.js?v=20261026113019" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261026120334">
+  <script src="data/group_fund_flows_2026-10-23.js?v=20261026120334"></script>
+  <script src="data/board_daily_fund_flows_2026-10-23.js?v=20261026120334"></script>
+  <script src="data/full_market_daily_2026-10-23.js?v=20261026120334"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261026120334"></script>
+  <script src="data/chip_segments_2026-10-23.js?v=20261026120334"></script>
+  <script src="data/theme_radar_latest.js?v=20261026120334"></script>
+  <script src="data/runtime_status.js?v=20261026120334"></script>
+  <script src="data/five_break_10_monitor.js?v=20261026120334"></script>
+  <script src="app.js?v=20261026120334" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -31,7 +31,6 @@
       </span>
       <span class="brand-copy">
         <strong>大A爆破实验室</strong>
-        <small>A-SHARE BLAST LAB</small>
       </span>
     </a>
 
@@ -73,7 +72,7 @@
       <div class="hero-copy reveal">
         <div class="eyebrow">
           <span class="eyebrow-line"></span>
-          MARKET STRUCTURE INTELLIGENCE / 001
+          市场结构观察 / 001
         </div>
         <p class="hero-pretitle">看结构先动，听市场后说。</p>
         <h1>大A<span>爆破</span><br>实验室</h1>
@@ -101,8 +100,8 @@
 
       <article class="blast-console reveal" id="spotlightCard" data-tone="cyan">
         <div class="console-topline">
-          <span>BLAST WINDOW / <b id="focusCode">SEMICONDUCTOR</b></span>
-          <span class="console-live"><i></i> SIGNAL ACTIVE</span>
+          <span>当前焦点 / <b id="focusCode">半导体芯片</b></span>
+          <span class="console-live"><i></i> 信号运行中</span>
         </div>
 
         <div class="radar-stage" aria-hidden="true">
@@ -115,8 +114,6 @@
           <span class="radar-node node-1"></span>
           <span class="radar-node node-2"></span>
           <span class="radar-node node-3"></span>
-          <span class="radar-coord coord-n">N / 01</span>
-          <span class="radar-coord coord-e">E / 23</span>
         </div>
 
         <div class="console-focus">
@@ -130,7 +127,7 @@
 
         <div class="focus-score">
           <span class="score-number" id="focusScore">59.6</span>
-          <span class="score-copy"><b>净转多强度</b><small>RANK / 03</small></span>
+          <span class="score-copy"><b>净转多强度</b><small>排名 / 03</small></span>
         </div>
 
         <div class="console-route">
@@ -156,7 +153,7 @@
     </section>
 
     <section class="tape-shell" aria-label="核心信号摘要">
-      <div class="tape-label">SIGNAL TAPE</div>
+      <div class="tape-label">信号带</div>
       <div class="tape-window">
         <div class="tape-track">
           <span><b>半导体芯片</b> 蓄势 0 → 30 / 转多确认 0 → 7</span>
@@ -201,7 +198,7 @@
     <section class="section shell" id="radar">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 01 / MARKET MAP</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 01 / 市场图谱</div>
           <h2>多空阶段雷达</h2>
         </div>
         <p>先看绝对强度，再看边际转多确认。点击任一板块，切换左侧核心观察窗。</p>
@@ -215,10 +212,10 @@
               <button type="button" data-sort="fulfilled" role="tab" aria-selected="false">转多确认数</button>
               <button type="button" data-sort="bullPct" role="tab" aria-selected="false">多头占比</button>
             </div>
-            <span class="rank-count">TOP 11 / 17 GROUPS</span>
+            <span class="rank-count">前 11 / 17 分组</span>
           </div>
           <div class="rank-head" aria-hidden="true">
-            <span>RANK</span>
+            <span>排名</span>
             <span>板块 / 阶段</span>
             <span class="rank-value-head" id="rankValueHead">净强度</span>
           </div>
@@ -232,7 +229,7 @@
         <aside class="insight-column">
           <article class="panel insight-card reveal">
             <div class="insight-top">
-              <span>BLAST NOTE / 001</span>
+              <span>结构观察 / 001</span>
               <span class="mini-code">A-1023</span>
             </div>
             <h3>芯片的强，<br>来自“刚开始”。</h3>
@@ -242,14 +239,14 @@
               +33.07 亿，结构迁移与资金加速同时出现，才是黑马信号。
             </p>
             <div class="note-tags">
-              <span>LOW BASE</span>
-              <span>EARLY BREAKOUT</span>
-              <span>FLOW REVERSAL</span>
+              <span>低位启动</span>
+              <span>早期突破</span>
+              <span>资金反转</span>
             </div>
           </article>
 
           <article class="panel stage-legend reveal">
-            <div class="panel-label">STAGE LEGEND</div>
+            <div class="panel-label">阶段图例</div>
             <div class="legend-row">
               <span><i class="stage-dot setup"></i>蓄势</span>
               <p>空转多候选增加，尚未形成多头</p>
@@ -270,7 +267,7 @@
     <section class="section shell" id="migration">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 02 / REGIME SHIFT</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 02 / 结构迁移</div>
           <h2>五日结构迁移</h2>
         </div>
         <p>强弱的交接往往先发生在候选池，再发生在多头数量上。</p>
@@ -280,7 +277,7 @@
         <article class="panel chart-panel reveal">
           <div class="chart-head">
             <div>
-              <span class="panel-label">BULL-SIDE CANDIDATES / 空转多个股数</span>
+              <span class="panel-label">空转多候选个股数</span>
               <h3>资金正在从哪里迁移？</h3>
             </div>
             <div class="chart-legend">
@@ -298,7 +295,7 @@
 
         <aside class="shift-stack reveal">
           <article class="shift-card negative">
-            <span class="shift-label">ROBOT / COOLING</span>
+            <span class="shift-label">机器人 / 降温</span>
             <div class="shift-value"><strong>44 → 13</strong><span>−70.5%</span></div>
             <h3>机器人：候选池先降温</h3>
             <p>周内空转多候选自峰值 44 回落至 13，强度仍在，但新增供给开始收缩。</p>
@@ -307,8 +304,8 @@
             </div>
           </article>
           <article class="shift-card positive">
-            <span class="shift-label">SEMICONDUCTOR / IGNITION</span>
-            <div class="shift-value"><strong>0 → 30</strong><span>NEW</span></div>
+            <span class="shift-label">半导体芯片 / 点火</span>
+            <div class="shift-value"><strong>0 → 30</strong><span>新增</span></div>
             <h3>半导体芯片：蓄势持续加码</h3>
             <p>候选池连续扩张，周五已有 7 只完成转多。结构从“观察”切到“验证”。</p>
             <div class="mini-bars" aria-hidden="true">
@@ -322,7 +319,7 @@
     <section class="section shell" id="playbook">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 03 / NEXT-SESSION CHECKLIST</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 03 / 次日验证</div>
           <h2>下一交易日验证清单</h2>
         </div>
         <p>不使用单点涨跌预测。每个方向只记录当前读数、确认线、失效线和验证优先级。</p>
@@ -331,7 +328,7 @@
       <div class="validation-grid reveal" id="validationGrid"></div>
 
       <div class="validation-threshold-note reveal">
-        <span>THRESHOLD NOTE</span>
+        <span>阈值说明</span>
         <p>所有确认线和失效线均为研究阈值，不是回测最优参数，也不代表买卖建议。盘中数据变化后需重新计算。</p>
       </div>
     </section>
@@ -339,14 +336,14 @@
     <section class="section shell chip-segment-section" id="chip-segments">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / CHIP DECOMPOSITION</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / 芯片拆解</div>
           <h2>芯片不是一个板块</h2>
         </div>
         <p>拆开概念与行业分类后，单日爆发、持续吸金和资金效率会给出不同答案。</p>
       </div>
 
       <article class="chip-verdict reveal">
-        <span class="chip-verdict-label" id="chipAsOfLabel">DATA VERDICT / 2026-10-23</span>
+        <span class="chip-verdict-label" id="chipAsOfLabel">数据结论 / 2026-10-23</span>
         <h3 id="chipVerdictTitle">国产芯片是单日资金第一，但不是所有维度的第一。</h3>
         <p id="chipVerdictBody">
           国产芯片在 13 个官方细分中单日主力净流入第一，当日流入广度 90.43%；
@@ -360,7 +357,7 @@
       <article class="panel chip-segment-panel reveal">
         <div class="fund-table-head">
           <div>
-            <span class="panel-label">OFFICIAL SEGMENTS / 13 个芯片细分</span>
+            <span class="panel-label">13 个官方芯片细分</span>
             <h3>单日资金、5 日资金与资金效率</h3>
           </div>
           <div class="fund-table-meta">
@@ -385,7 +382,7 @@
         <div class="chip-custom-reference" id="chipCustomReference"></div>
 
         <div class="fund-source-note">
-          <span>METHOD / 分层比较</span>
+          <span>方法 / 分层比较</span>
           <p>官方板块成分彼此重叠，不能把国产芯片、半导体概念和存储芯片相加。该表只比较单板块资金与市场表现；远航版“半导体芯片”是自定义 52 只成分组，单独列出，不参与官方排名。</p>
           <div class="fund-source-links">
             <a href="data/chip_segments_2026-10-23.json" target="_blank">原始 JSON ↗</a>
@@ -399,7 +396,7 @@
     <section class="section shell five-break-10-section" id="five-break-10">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / LIVE 5-BREAK-10 MONITOR</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / 5破10实时监控</div>
           <h2>5破10<br>盘中达标监控</h2>
         </div>
         <p>
@@ -410,18 +407,18 @@
 
       <article class="panel fbl-command-panel reveal">
         <div class="fbl-command-copy">
-          <span class="system-state" id="fiveBreak10State"><i></i><span>MONITOR OFFLINE</span></span>
+          <span class="system-state" id="fiveBreak10State"><i></i><span>监控未连接</span></span>
           <strong id="fiveBreak10Headline">等待监控快照</strong>
-          <p id="fiveBreak10Subline">读取最新多空阶段报告与盘中行情快照。</p>
+          <p id="fiveBreak10Subline">读取当前交易日之前最近一份多空阶段报告与盘中行情快照。</p>
         </div>
         <div class="fbl-command-metrics">
-          <div><span>SIGNAL DATE</span><strong id="fiveBreak10SignalDate">—</strong></div>
-          <div><span>MARKET DATE</span><strong id="fiveBreak10MarketDate">—</strong></div>
-          <div><span>TARGET POOL</span><strong id="fiveBreak10PlanCount">—</strong></div>
-          <div><span>CURRENT HIT</span><strong id="fiveBreak10ActiveCount">—</strong></div>
+          <div><span>信号日期</span><strong id="fiveBreak10SignalDate">—</strong></div>
+          <div><span>行情日期</span><strong id="fiveBreak10MarketDate">—</strong></div>
+          <div><span>目标池</span><strong id="fiveBreak10PlanCount">—</strong></div>
+          <div><span>当前达标</span><strong id="fiveBreak10ActiveCount">—</strong></div>
         </div>
         <div class="fbl-command-actions">
-          <small id="fiveBreak10LastScan">LAST SCAN / —</small>
+          <small id="fiveBreak10LastScan">上次扫描 / —</small>
           <button class="collector-button" id="fiveBreak10Button" type="button" data-state="offline">
             <i></i><span>启动盘中监控</span>
           </button>
@@ -430,22 +427,22 @@
 
       <div class="fbl-logic-grid reveal">
         <article class="fbl-logic-card">
-          <span>01 / SIGNAL BASE</span>
+          <span>01 / 信号基础</span>
           <h3>空或空转多</h3>
-          <p>读取最新多空阶段报告中仍处于“空 / 空转多”的标的，并只保留涨停内可达项。</p>
+          <p>读取当前交易日之前最近一份报告中仍处于“空 / 空转多”的标的，并只保留涨停内可达项。</p>
         </article>
         <article class="fbl-logic-card">
-          <span>02 / TOMORROW THRESHOLD</span>
+          <span>02 / 次日门槛</span>
           <h3>明日最低收盘</h3>
           <p>反解明日收盘价：明日 MA5、MA10 同时抬升，且 MA5 仍不高于 MA10，保持进度 3 结构。</p>
         </article>
         <article class="fbl-logic-card">
-          <span>03 / DAY-AFTER CHECK</span>
+          <span>03 / 后天确认</span>
           <h3>后天完成 5破10</h3>
           <p>假设后天按明日收盘价平盘，推演 MA5 &gt; MA10，且后天 5-10 间距比明日扩大超过 1.5pp。</p>
         </article>
         <article class="fbl-logic-card">
-          <span>04 / LIVE FILTER</span>
+          <span>04 / 盘中过滤</span>
           <h3>现价动态达标</h3>
           <p>每 5 分钟只按最新现价判断。达到目标价才进入当前名单，跌回目标下方立即移除，不用盘中最高价永久锁定。</p>
         </article>
@@ -454,7 +451,7 @@
       <article class="panel fbl-results-panel reveal">
         <div class="fund-table-head">
           <div>
-            <span class="panel-label">LIVE QUALIFIED / 当前动态达标</span>
+            <span class="panel-label">当前动态达标</span>
             <h3>本次扫描达到明日最低收盘的股票</h3>
           </div>
           <div class="fund-table-meta">
@@ -491,7 +488,7 @@
     <section class="section shell" id="capital">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / MARKET FUND FLOW</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / 全市场资金</div>
           <h2>资金流向监控</h2>
         </div>
         <p>只看官方全市场资金流：行业、概念与个股分层监控，持仓拥挤度和自定义分组不再混入本区。</p>
@@ -500,12 +497,12 @@
       <article class="panel fund-universe reveal">
         <div class="fund-table-head">
           <div>
-            <span class="panel-label">FULL MARKET / 行业 · 概念 · 个股</span>
+            <span class="panel-label">行业 · 概念 · 个股</span>
             <h3>全市场资金流向</h3>
           </div>
           <div class="fund-table-meta">
             <span id="marketCoverage">全市场扫描中</span>
-            <span id="marketCaptureStatus">CLOSE SNAPSHOT</span>
+            <span id="marketCaptureStatus">收盘快照</span>
             <button class="collector-button" id="collectorButton" type="button" data-state="offline">
               <i></i><span>启动全市场采集</span>
             </button>
@@ -531,7 +528,7 @@
         <div class="intraday-readout" id="intradayReadout"></div>
 
         <div class="fund-source-note">
-          <span>SOURCE / FULL MARKET</span>
+          <span>来源 / 东方财富全市场</span>
           <p>口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最低/最高点必须在交易时段采样，收盘后公共接口不保留历史曲线。</p>
           <div class="fund-source-links">
             <a href="data/full_market/full_market_daily_2026-10-23.csv" download>全量日线 CSV ↘</a>
@@ -545,15 +542,15 @@
     <section class="section shell theme-radar-section" id="theme-strength">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 07 / THEME STRENGTH</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 07 / 题材强度</div>
           <h2>当日题材强度</h2>
         </div>
         <p>最近 5 个交易日每日取题材涨幅前五，再按重复上榜、连续性和平均涨幅汇总。</p>
       </div>
 
       <div class="theme-data-meta reveal">
-        <span>DATA DATE <b id="themeRadarDate">—</b></span>
-        <span>SOURCE UPDATED <b id="themeRadarUpdated">—</b></span>
+        <span>数据日期 <b id="themeRadarDate">—</b></span>
+        <span>数据更新 <b id="themeRadarUpdated">—</b></span>
         <span class="theme-auto-state"><i></i>每 5 分钟刷新最新结果</span>
         <a href="data/full_market/theme_strength_daily_top.csv" download>前五 CSV ↓</a>
         <a href="data/full_market/theme_strength_daily_detail.csv" download>个股明细 CSV ↓</a>
@@ -566,7 +563,7 @@
         <article class="panel theme-top-panel reveal">
           <div class="fund-table-head">
             <div>
-              <span class="panel-label">LATEST TOP 5 / 当日题材前五</span>
+              <span class="panel-label">当日题材前五</span>
               <h3>最新交易日强势题材</h3>
             </div>
             <span class="data-origin" id="themeLatestDate">—</span>
@@ -577,7 +574,7 @@
         <article class="panel theme-repeat-panel reveal">
           <div class="fund-table-head">
             <div>
-              <span class="panel-label">5-DAY REPEAT / 五日重复上榜</span>
+              <span class="panel-label">五日重复上榜</span>
               <h3>持续性而不是单日脉冲</h3>
             </div>
           </div>
@@ -600,7 +597,7 @@
       </div>
 
       <div class="fund-source-note reveal">
-        <span>SOURCE / THEME RADAR</span>
+        <span>来源 / 题材雷达</span>
         <p>数据来自题材雷达“当日题材强度”工作流。页面每 5 分钟读取最新生成结果；完整全市场重算仍由原题材雷达工作流执行，不在浏览器内重复计算。</p>
         <div class="fund-source-links">
           <a href="data/theme_radar_latest.json" target="_blank">原始 JSON ↗</a>
@@ -612,7 +609,7 @@
     <section class="section shell bottom-reversal-section" id="bottom-reversal">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 08 / BOTTOM REVERSAL</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 08 / 底部反转</div>
           <h2>底部反转</h2>
         </div>
         <p>长期下跌、贴近底部、完成 5破10、量能连续确认，并且只筛选沪深主板。</p>
@@ -624,7 +621,7 @@
         <article class="panel reversal-theme-panel reveal">
           <div class="fund-table-head">
             <div>
-              <span class="panel-label">THEME RESONANCE / 题材共振</span>
+              <span class="panel-label">题材共振</span>
               <h3>哪些题材出现多只同步启动</h3>
             </div>
             <span class="data-origin">仅具体细分</span>
@@ -635,7 +632,7 @@
         <article class="panel reversal-stock-panel reveal">
           <div class="fund-table-head">
             <div>
-              <span class="panel-label">BOTTOM REVERSAL / 命中个股</span>
+              <span class="panel-label">反转命中个股</span>
               <h3>通过完整模板的沪深主板股票</h3>
             </div>
             <a class="data-origin" href="data/full_market/theme_radar_latest.csv" download>下载 CSV ↗</a>
@@ -660,7 +657,7 @@
       </div>
 
       <div class="fund-source-note reveal">
-        <span>SOURCE / REVERSAL RADAR</span>
+        <span>来源 / 底部反转雷达</span>
         <p>底部反转完整条件来自题材雷达工作流；页面只展示最新结果并在总控启动后每 5 分钟重新读取。下表中“底部”与“反转”是结构条件，不代表收益保证。</p>
         <div class="fund-source-links">
           <a href="data/theme_radar_latest.json" target="_blank">原始 JSON ↗</a>
@@ -681,7 +678,7 @@
 
     <section class="closing shell reveal">
       <div>
-        <span class="closing-kicker">THE LAB IS OPEN.</span>
+        <span class="closing-kicker">实验室正在运行</span>
         <h2>不预测市场，<br>只追踪它改变主意的瞬间。</h2>
       </div>
       <div class="closing-copy">
@@ -700,7 +697,7 @@
   <footer class="site-footer shell">
     <div class="footer-brand">
       <strong>大A爆破实验室</strong>
-      <span>STRUCTURE OVER STORY.</span>
+      <span>结构优先，叙事其次。</span>
     </div>
     <p>
       结构来源：MA5 / MA10 四阶段及 2026-10-23 多空阶段简报。资金主视图覆盖 496 个行业、516 个概念和 5925 只 A 股；自定义分组仅作对照。
@@ -718,7 +715,7 @@
   <dialog class="method-dialog" id="methodDialog">
     <div class="dialog-head">
       <div>
-        <span class="panel-label">METHODOLOGY / 研究口径</span>
+        <span class="panel-label">研究口径</span>
         <h2>结构先行，价格确认。</h2>
       </div>
       <button class="dialog-close" id="closeMethod" type="button" aria-label="关闭">×</button>
@@ -746,7 +743,7 @@
       </div>
     </div>
     <div class="dialog-foot">
-      <span>DATA SNAPSHOT / 2026-10-23</span>
+      <span>数据快照 / 2026-10-23</span>
       <div class="dialog-actions">
         <a href="assets/多空阶段简报_2026-10-23.pptx" download>下载原简报 ↘</a>
         <button id="closeMethodBottom" type="button">返回实验室</button>
