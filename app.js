@@ -265,7 +265,7 @@ let lastCollectorCapture = 0;
 let fiveBreak10ControlStatus = null;
 let fiveBreak10LastGeneratedAt = "";
 let toastTimer = null;
-const MONITOR_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+const MONITOR_REFRESH_INTERVAL_MS = 60 * 1000;
 const COLLECTOR_STATUS_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 const FIVE_BREAK_10_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 
@@ -1387,7 +1387,7 @@ function monitorPct(value, digits = 2) {
 }
 
 function formatRefreshInterval(value) {
-  const seconds = Math.max(1, Number(value || 300));
+  const seconds = Math.max(1, Number(value || 60));
   return seconds % 60 === 0
     ? `${seconds / 60} 分钟`
     : `${Math.round(seconds)} 秒`;
@@ -1409,7 +1409,7 @@ function fiveBreak10IsStale(data) {
   if (!data?.generated_at) return true;
   const generated = Date.parse(data.generated_at);
   if (!Number.isFinite(generated)) return true;
-  const interval = Math.max(60, Number(data.interval_seconds || 300));
+  const interval = Math.max(60, Number(data.interval_seconds || 60));
   return Date.now() - generated > interval * 2600;
 }
 
@@ -1566,7 +1566,7 @@ async function initFiveBreak10Control() {
         "POST",
       );
       applyFiveBreak10Status(status);
-      showToast(running ? "盘中监控已停止" : "盘中监控已启动，每 5 分钟更新");
+      showToast(running ? "盘中监控已停止" : "盘中监控已启动，每 60 秒更新");
       window.setTimeout(refreshFiveBreak10Data, 1200);
     } catch (error) {
       setFiveBreak10Button("offline", "监控连接失败", false);

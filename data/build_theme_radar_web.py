@@ -300,7 +300,7 @@ def write_payload() -> dict[str, Any]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="题材雷达结果转网页数据")
     parser.add_argument("--watch", action="store_true")
-    parser.add_argument("--interval", type=int, default=300)
+    parser.add_argument("--interval", type=int, default=60)
     args = parser.parse_args()
     while True:
         payload = write_payload()
