@@ -61,6 +61,10 @@ PUBLISH_SLOTS = (
 LAST_ATTEMPTED_SLOT: str | None = None
 PUBLISH_RUNNING = False
 LAST_PUBLISH_ERROR: str | None = None
+AUTO_MONITOR_START = clock_time(9, 15)
+AUTO_MONITOR_STOP = clock_time(15, 1)
+LAST_AUTO_START_ATTEMPT: datetime | None = None
+LAST_AUTO_STOP_ATTEMPT: datetime | None = None
 
 
 def is_trading_window(now: datetime) -> bool:
@@ -472,13 +476,38 @@ def all_monitor_state() -> dict[str, Any]:
         "theme_radar": theme,
     }
     running_count = sum(bool(item.get("running")) for item in components.values())
+    current = datetime.now(CHINA_TZ)
     return {
         "running_count": running_count,
         "total_count": len(components),
         "all_running": running_count == len(components),
         "any_running": running_count > 0,
         "components": components,
-        "server_time": datetime.now(CHINA_TZ).isoformat(timespec="seconds"),
+        "schedule": monitor_schedule_state(current),
+        "server_time": current.isoformat(timespec="seconds"),
+    }
+
+
+def monitor_schedule_state(now: datetime | None = None) -> dict[str, Any]:
+    current = now or datetime.now(CHINA_TZ)
+    weekday = current.weekday() < 5
+    current_time = current.time()
+    active = weekday and AUTO_MONITOR_START <= current_time < AUTO_MONITOR_STOP
+    return {
+        "enabled": True,
+        "weekdays_only": True,
+        "start": AUTO_MONITOR_START.strftime("%H:%M"),
+        "stop": AUTO_MONITOR_STOP.strftime("%H:%M"),
+        "active_window": active,
+        "state": (
+            "运行时段"
+            if active
+            else "等待启动"
+            if weekday and current_time < AUTO_MONITOR_START
+            else "已过停止时间"
+            if weekday
+            else "周末停用"
+        ),
     }
 
 
@@ -512,6 +541,43 @@ def stop_all_monitors() -> dict[str, Any]:
     result = all_monitor_state()
     result["errors"] = errors
     return result
+
+
+def monitor_schedule_loop() -> None:
+    global LAST_AUTO_START_ATTEMPT, LAST_AUTO_STOP_ATTEMPT
+    while True:
+        now = datetime.now(CHINA_TZ)
+        current_time = now.time()
+        weekday = now.weekday() < 5
+        state = all_monitor_state()
+        retry_ready = (
+            LAST_AUTO_STOP_ATTEMPT is None
+            or (now - LAST_AUTO_STOP_ATTEMPT).total_seconds() >= 60
+        )
+        start_retry_ready = (
+            LAST_AUTO_START_ATTEMPT is None
+            or (now - LAST_AUTO_START_ATTEMPT).total_seconds() >= 60
+        )
+
+        if weekday and AUTO_MONITOR_START <= current_time < AUTO_MONITOR_STOP:
+            if not state["all_running"] and start_retry_ready:
+                LAST_AUTO_START_ATTEMPT = now
+                result = start_all_monitors()
+                print(
+                    f"[AUTO] 09:15 自动启动完成 "
+                    f"{result['running_count']}/{result['total_count']}",
+                    flush=True,
+                )
+        elif (weekday and current_time >= AUTO_MONITOR_STOP) or not weekday:
+            if state["any_running"] and retry_ready:
+                LAST_AUTO_STOP_ATTEMPT = now
+                result = stop_all_monitors()
+                print(
+                    f"[AUTO] {AUTO_MONITOR_STOP.strftime('%H:%M')} 自动停止完成 "
+                    f"{result['running_count']}/{result['total_count']}",
+                    flush=True,
+                )
+        time.sleep(30)
 
 
 class DashboardHandler(SimpleHTTPRequestHandler):
@@ -582,6 +648,7 @@ def main() -> None:
     if not args.no_browser:
         threading.Timer(0.8, lambda: webbrowser.open(url)).start()
     threading.Thread(target=publish_scheduler_loop, daemon=True).start()
+    threading.Thread(target=monitor_schedule_loop, daemon=True).start()
     server = ThreadingHTTPServer(("127.0.0.1", args.port), DashboardHandler)
     print(f"[READY] {url}", flush=True)
     print("[INFO] 关闭此窗口将停止网页服务；采集器可单独停止。", flush=True)

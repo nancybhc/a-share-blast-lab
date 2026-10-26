@@ -1556,7 +1556,10 @@ function applyMasterMonitorStatus(status) {
   const names = Object.entries(status.components || {})
     .map(([key, value]) => `${key}: ${value.running ? "运行" : "停止"}`)
     .join(" / ");
-  button.title = names;
+  const schedule = status.schedule;
+  button.title = schedule
+    ? `${names}\n自动计划：工作日 ${schedule.start} 启动，${schedule.stop} 停止`
+    : names;
 }
 
 async function pollMasterMonitorStatus() {

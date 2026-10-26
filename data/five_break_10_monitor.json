@@ -2,12 +2,12 @@
   "available": true,
   "status": "waiting_market",
   "signal_date": "2026-10-26",
-  "generated_at": "2026-10-26T19:06:17+08:00",
+  "generated_at": "2026-10-27T07:27:41+08:00",
   "market_date": "2026-10-26",
   "interval_seconds": 60.0,
-  "plan_count": 74,
+  "plan_count": 75,
   "active_count": 0,
   "report": "多空阶段_2026-10-26.xlsx",
-  "process_id": 25428,
+  "process_id": 4368,
   "active": []
 }
