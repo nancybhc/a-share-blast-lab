@@ -7,17 +7,17 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261026190954">
-  <script src="data/group_fund_flows_2026-10-26.js?v=20261026190954"></script>
-  <script src="data/board_daily_fund_flows_2026-10-26.js?v=20261026190954"></script>
-  <script src="data/full_market_daily_2026-10-26.js?v=20261026190954"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261026190954"></script>
-  <script src="data/chip_segments_2026-10-26.js?v=20261026190954"></script>
-  <script src="data/theme_radar_latest.js?v=20261026190954"></script>
-  <script src="data/runtime_status.js?v=20261026190954"></script>
-  <script src="data/five_break_10_monitor.js?v=20261026190954"></script>
-  <script src="data/market_trend_latest.js?v=20261026190954"></script>
-  <script src="app.js?v=20261026190954" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261026215507">
+  <script src="data/group_fund_flows_2026-10-26.js?v=20261026215507"></script>
+  <script src="data/board_daily_fund_flows_2026-10-26.js?v=20261026215507"></script>
+  <script src="data/full_market_daily_2026-10-26.js?v=20261026215507"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261026215507"></script>
+  <script src="data/chip_segments_2026-10-26.js?v=20261026215507"></script>
+  <script src="data/theme_radar_latest.js?v=20261026215507"></script>
+  <script src="data/runtime_status.js?v=20261026215507"></script>
+  <script src="data/five_break_10_monitor.js?v=20261026215507"></script>
+  <script src="data/market_trend_latest.js?v=20261026215507"></script>
+  <script src="app.js?v=20261026215507" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -43,6 +43,7 @@
       <a href="#chip-segments">芯片拆解</a>
       <a href="#five-break-10">5破10监控</a>
       <a href="#capital">资金流向监控</a>
+      <a href="#next-day-scenarios">次日推演</a>
       <a href="#theme-strength">题材强度</a>
     </nav>
 
@@ -353,23 +354,13 @@
         <div class="fund-table-head">
           <div>
             <span class="panel-label">13 个官方芯片细分</span>
-            <h3>单日资金、5 日资金与资金效率</h3>
+            <h3>单日资金、5 日资金与涨幅</h3>
           </div>
           <div class="fund-table-meta">
             <span>官方概念 / 行业分类</span>
             <span id="chipDataBasis">基准 2026-10-26</span>
             <a href="data/full_market/chip_segments_2026-10-26.csv" download>细分数据 CSV ↘</a>
           </div>
-        </div>
-
-        <div class="chip-table-toolbar">
-          <div class="segmented" id="chipSortTabs">
-            <button type="button" data-chip-sort="flow_yi" class="active">当日资金</button>
-            <button type="button" data-chip-sort="five_day_main_net_yi">5 日累计</button>
-            <button type="button" data-chip-sort="main_ratio">资金效率</button>
-            <button type="button" data-chip-sort="change_pct">涨幅</button>
-          </div>
-          <span>主力净流入率 = 主力净流入 ÷ 板块成交额</span>
         </div>
 
         <div class="fund-table-scroll chip-segment-table-scroll" id="chipSegmentTable"></div>
@@ -512,10 +503,6 @@
             <button type="button" data-scope="industry" role="tab" aria-selected="false">行业板块</button>
             <button type="button" data-scope="stock" role="tab" aria-selected="false">个股资金</button>
           </div>
-          <div class="direction-toggle" id="marketDirectionTabs">
-            <button type="button" data-direction="inflow" class="active">净流入榜</button>
-            <button type="button" data-direction="outflow">净流出榜</button>
-          </div>
         </div>
 
         <div class="fund-table-scroll market-table-scroll" id="marketTableContainer"></div>
@@ -524,7 +511,7 @@
 
         <div class="fund-source-note">
           <span>来源 / 东方财富全市场</span>
-          <p>口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最低/最高点必须在交易时段采样，收盘后公共接口不保留历史曲线。</p>
+          <p>口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最大流出/最大流入必须在交易时段采样，收盘后公共接口不保留历史曲线。</p>
           <div class="fund-source-links">
             <a href="data/full_market/full_market_daily_2026-10-26.csv" download>全量日线 CSV ↘</a>
             <a href="data/full_market/full_market_daily_2026-10-26.json" target="_blank">原始 JSON ↗</a>
@@ -534,10 +521,53 @@
       </article>
     </section>
 
+    <section class="section shell" id="next-day-scenarios">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 07 / 次日资金推演</div>
+          <h2>板块与代表性个股</h2>
+        </div>
+        <p>用 15 个多空跟踪分组的资金方向、结构强度和组内代表个股资金，生成次日条件情景。不是单点涨跌预测。</p>
+      </div>
+
+      <div class="scenario-summary reveal" id="scenarioSummary"></div>
+
+      <article class="panel scenario-panel reveal">
+        <div class="fund-table-head">
+          <div>
+            <span class="panel-label">收盘资金与代表个股</span>
+            <h3>次日推演与验证条件</h3>
+          </div>
+          <span class="data-origin">15 个自定义分组</span>
+        </div>
+        <div class="fund-table-scroll scenario-table-scroll">
+          <table class="fund-table scenario-table">
+            <thead>
+              <tr>
+                <th>板块</th>
+                <th>收盘资金</th>
+                <th>较前日</th>
+                <th>5日资金</th>
+                <th>正 / 负</th>
+                <th>代表性个股</th>
+                <th>结构</th>
+                <th>次日推演</th>
+              </tr>
+            </thead>
+            <tbody id="scenarioTableBody"></tbody>
+          </table>
+        </div>
+        <div class="scenario-note">
+          <span>判断规则</span>
+          <p>板块资金、较前日变化、正负个股数量、结构强度和组内最大净流入/流出个股共同判断。红字表示有利，绿字表示不利；“强延续”仍须次日资金和龙头同步确认。</p>
+        </div>
+      </article>
+    </section>
+
     <section class="section shell theme-radar-section" id="theme-strength">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 07 / 题材强度</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 08 / 题材强度</div>
           <h2>当日题材强度</h2>
         </div>
         <p>最近 5 个交易日每日取题材涨幅前五，再按重复上榜、连续性和平均涨幅汇总。</p>

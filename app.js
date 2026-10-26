@@ -240,13 +240,17 @@ let activeSort = "score";
 let activeGroupId = marketData.groups[0]?.id || "semiconductor";
 let activeMarketScope = "concept";
 let activeMarketDirection = "inflow";
+let activeMarketSort = "flow_yi";
+let activeMarketSortDirection = "desc";
 let activeChipSort = "flow_yi";
+let activeChipSortDirection = "desc";
 let lastCollectorCapture = 0;
 let fiveBreak10ControlStatus = null;
 let fiveBreak10LastGeneratedAt = "";
 let toastTimer = null;
 const MONITOR_REFRESH_INTERVAL_MS = 60 * 1000;
 const COLLECTOR_STATUS_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
+const EXCLUDED_MARKET_CONCEPT_PREFIXES = ["昨日"];
 const FIVE_BREAK_10_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 
 const toneColors = {
@@ -644,7 +648,13 @@ function renderMarketOverview() {
 }
 
 function liveBoardRows(scope) {
-  const source = fullMarketData?.[scope]?.all || [];
+  const source = (fullMarketData?.[scope]?.all || []).filter(
+    (row) =>
+      scope !== "concept" ||
+      !EXCLUDED_MARKET_CONCEPT_PREFIXES.some((prefix) =>
+        String(row.name || "").startsWith(prefix)
+      ),
+  );
   const tracks = marketTrackMap();
   return source.map((row) => {
     const track = tracks.get(`${scope}:${row.code}`);
@@ -677,23 +687,60 @@ function renderMarketTable() {
   const container = document.getElementById("marketTableContainer");
   if (!container || !fullMarketData) return;
 
+  const sortableKeys = new Set(["flow_yi", "change_pct"]);
+  const sortKey = sortableKeys.has(activeMarketSort)
+    ? activeMarketSort
+    : "flow_yi";
+  const sortHeader = (label, key) => {
+    const active = sortKey === key;
+    const indicator = active
+      ? activeMarketSortDirection === "desc" ? "↓" : "↑"
+      : "↕";
+    return `
+      <th class="chip-sortable-col ${active ? "is-sorted" : ""}">
+        <button type="button" class="chip-sort-button" data-market-sort="${key}">
+          ${label}<span>${indicator}</span>
+        </button>
+      </th>`;
+  };
+
   if (activeMarketScope === "stock") {
-    const rows =
-      fullMarketIntraday?.available
-        ? fullMarketIntraday.market?.[
-            activeMarketDirection === "inflow" ? "top_inflow" : "top_outflow"
-          ] || []
-        : fullMarketData.stock?.[
-            activeMarketDirection === "inflow" ? "top_inflow" : "top_outflow"
-          ] || [];
+    const liveStockDump = fullMarketIntraday?.available
+      ? fullMarketIntraday.market
+      : null;
+    const liveStockCount =
+      (liveStockDump?.top_inflow?.length || 0) +
+      (liveStockDump?.top_outflow?.length || 0);
+    const stockDump =
+      liveStockCount >= 40 ? liveStockDump : fullMarketData.stock;
+    const inflowRows = stockDump?.top_inflow || [];
+    const outflowRows = stockDump?.top_outflow || [];
+    let rows;
+    if (sortKey === "flow_yi") {
+      rows = (
+        activeMarketSortDirection === "desc" ? inflowRows : outflowRows
+      ).slice(0, 20);
+    } else {
+      const unique = new Map();
+      for (const row of [...inflowRows, ...outflowRows]) {
+        unique.set(row.code, row);
+      }
+      rows = [...unique.values()]
+        .sort((a, b) => {
+          const delta =
+            (Number(a[sortKey]) || 0) - (Number(b[sortKey]) || 0);
+          return activeMarketSortDirection === "desc" ? -delta : delta;
+        })
+        .slice(0, 20);
+    }
     container.innerHTML = `
-      <table class="fund-table market-fund-table">
+      <table class="fund-table market-fund-table market-stock-table">
         <thead>
           <tr>
             <th>#</th>
             <th>个股</th>
-            <th>主力净流入</th>
-            <th>涨跌幅</th>
+            ${sortHeader("涨幅", "change_pct")}
+            ${sortHeader("当日主力", "flow_yi")}
             <th>成交额</th>
             <th>主力净流入率</th>
           </tr>
@@ -703,8 +750,8 @@ function renderMarketTable() {
             <tr>
               <td>${String(index + 1).padStart(2, "0")}</td>
               <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
-              <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
               <td class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
+              <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
               <td>${Number(row.amount_yi).toFixed(2)}亿</td>
               <td class="${metricClass(row.main_ratio)}">${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
             </tr>
@@ -715,18 +762,25 @@ function renderMarketTable() {
     return;
   }
 
-  const rows = marketBoardRows(activeMarketScope, activeMarketDirection);
+  const rows = liveBoardRows(activeMarketScope)
+    .sort((a, b) => {
+      const delta = (Number(a[sortKey]) || 0) - (Number(b[sortKey]) || 0);
+      return activeMarketSortDirection === "desc" ? -delta : delta;
+    })
+    .slice(0, 20);
+  const isLive = Boolean(fullMarketIntraday?.available);
   container.innerHTML = `
     <table class="fund-table market-fund-table market-board-table">
       <thead>
         <tr>
           <th>#</th>
           <th>板块</th>
-          <th>当前主力 / 时间</th>
-          <th>涨跌幅</th>
-          <th>最低流出 / 时间</th>
-          <th>最高流入 / 时间</th>
+          ${sortHeader("涨幅", "change_pct")}
+          ${sortHeader("当日主力", "flow_yi")}
+          <th>最大流出 / 时间</th>
+          <th>最大流入 / 时间</th>
           <th>回补幅度</th>
+          <th>上涨 / 下跌</th>
         </tr>
       </thead>
       <tbody>
@@ -734,11 +788,12 @@ function renderMarketTable() {
           <tr>
             <td>${String(index + 1).padStart(2, "0")}</td>
             <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
-            <td class="market-extreme"><b class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</b><small>${row.track ? row.track.close_time : "未采样"}</small></td>
             <td class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
-            <td class="market-extreme">${row.track ? `<b>${formatFund(row.track.minimum_yi)}</b><small>${row.track.minimum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
-            <td class="market-extreme">${row.track ? `<b>${formatFund(row.track.maximum_yi)}</b><small>${row.track.maximum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
+            <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
+            <td class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.minimum_yi)}">${formatFund(row.track.minimum_yi)}</b><small>${row.track.minimum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
+            <td class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.maximum_yi)}">${formatFund(row.track.maximum_yi)}</b><small>${row.track.maximum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
             <td>${row.track ? formatFund(row.track.rebound_yi) : "—"}</td>
+            <td class="chip-advance-decline">${row.up_count} / ${row.down_count}</td>
           </tr>
         `).join("")}
       </tbody>
@@ -756,11 +811,11 @@ function renderIntradayReadout() {
         <div>
           <span>盘中轨迹 / 待采集</span>
           <strong>盘中极值等待交易时段采样</strong>
-          <p>下一次交易时段启动全市场采集后，这里将记录全市场与每个板块的最低流出、发生时间、最高流入、发生时间和收盘值。10 月 23 日的分钟历史无法从公共接口回补。</p>
+          <p>下一次交易时段启动全市场采集后，这里将记录全市场与每个板块的最大流出、发生时间、最大流入、发生时间和收盘值。10 月 23 日的分钟历史无法从公共接口回补。</p>
         </div>
         <div class="pending-metrics">
-          <span>最低流出 <b>待采集</b></span>
-          <span>最高流入 <b>待采集</b></span>
+          <span>最大流出 <b>待采集</b></span>
+          <span>最大流入 <b>待采集</b></span>
           <span>收盘值 <b>待采集</b></span>
         </div>
       </div>
@@ -778,10 +833,10 @@ function renderIntradayReadout() {
       <small>${fullMarketIntraday.first_capture_at?.slice(11, 19)} → ${fullMarketIntraday.last_capture_at?.slice(11, 19)} · ${fullMarketIntraday.board_count} 个板块</small>
     </div>
     <div class="intraday-metrics">
-      <article><span>最低流出</span><b class="fund-number outflow">${formatFund(market.minimum_yi)}</b><small>${market.minimum_time}</small></article>
-      <article><span>最高流入</span><b class="fund-number inflow">${formatFund(market.maximum_yi)}</b><small>${market.maximum_time}</small></article>
+      <article><span>最大流出</span><b class="fund-number outflow">${formatFund(market.minimum_yi)}</b><small>${market.minimum_time}</small></article>
+      <article><span>最大流入</span><b class="fund-number inflow">${formatFund(market.maximum_yi)}</b><small>${market.maximum_time}</small></article>
       <article><span>收盘值</span><b class="fund-number ${fundTone(market.close_yi)}">${formatFund(market.close_yi)}</b><small>${market.close_time}</small></article>
-      <article><span>回补幅度</span><b>${formatFund(market.rebound_yi)}</b><small>最高 − 最低</small></article>
+      <article><span>回补幅度</span><b>${formatFund(market.rebound_yi)}</b><small>最新 − 最大流出</small></article>
     </div>
   `;
 }
@@ -790,6 +845,142 @@ function updateMarketPanel() {
   renderMarketOverview();
   renderMarketTable();
   renderIntradayReadout();
+}
+
+function nextDayScenarioFor(fund, structure) {
+  const positive = Number(fund.positive_stock_count || 0);
+  const negative = Number(fund.negative_stock_count || 0);
+  const breadth = positive + negative ? (positive / (positive + negative)) * 100 : 0;
+  const flow = Number(fund.main_net_yi || 0);
+  const delta = Number(fund.main_net_change_yi || 0);
+  const score = Number(structure?.score || 0);
+
+  if (flow > 0 && delta > 0 && score > 0 && breadth >= 55) {
+    return {
+      key: "strong",
+      label: "强延续",
+      tone: "positive",
+      condition: "板块资金保持净流入，代表股继续吸金且不转弱。",
+    };
+  }
+  if (flow > 0) {
+    return {
+      key: "repair",
+      label: score > 0 ? "弱修复" : "资金先行",
+      tone: score > 0 ? "positive" : "watch",
+      condition: "先看代表股能否延续，板块资金连续两轮不转负。",
+    };
+  }
+  if (score > 0) {
+    return {
+      key: "divergence",
+      label: "结构分歧",
+      tone: "watch",
+      condition: "结构尚未转弱，但资金流出；等待资金方向修复。",
+    };
+  }
+  if (delta < 0) {
+    return {
+      key: "pressure",
+      label: "继续承压",
+      tone: "negative",
+      condition: "主流出个股未止跌前，只做风险观察。",
+    };
+  }
+  return {
+    key: "observe",
+    label: "震荡观察",
+    tone: "watch",
+    condition: "资金和结构均未形成一致方向，等待新的边际变化。",
+  };
+}
+
+function renderNextDayScenarios() {
+  const summary = document.getElementById("scenarioSummary");
+  const body = document.getElementById("scenarioTableBody");
+  if (!summary || !body || !fundData?.groups) return;
+
+  const rows = Object.values(fundData.groups)
+    .map((fund) => {
+      const structure = marketData.groups.find((group) => group.name === fund.group);
+      return {
+        fund,
+        structure,
+        scenario: nextDayScenarioFor(fund, structure),
+        leader: fund.top_positive?.[0] || null,
+        risk: fund.top_negative?.[0] || null,
+      };
+    });
+
+  const order = {
+    strong: 0,
+    repair: 1,
+    divergence: 2,
+    observe: 3,
+    pressure: 4,
+  };
+  rows.sort(
+    (a, b) =>
+      (order[a.scenario.key] ?? 9) - (order[b.scenario.key] ?? 9) ||
+      Number(b.fund.main_net_yi || 0) - Number(a.fund.main_net_yi || 0),
+  );
+
+  const counts = rows.reduce((result, row) => {
+    result[row.scenario.key] = (result[row.scenario.key] || 0) + 1;
+    return result;
+  }, {});
+  const caution = (counts.divergence || 0) + (counts.observe || 0);
+  summary.innerHTML = `
+    <article class="scenario-stat is-positive">
+      <span>强延续</span>
+      <strong>${counts.strong || 0}</strong>
+      <small>资金、结构、广度同步</small>
+    </article>
+    <article class="scenario-stat is-positive">
+      <span>弱修复</span>
+      <strong>${counts.repair || 0}</strong>
+      <small>资金转正但结构尚未共振</small>
+    </article>
+    <article class="scenario-stat">
+      <span>观察 / 分歧</span>
+      <strong>${caution}</strong>
+      <small>尚未形成一致方向</small>
+    </article>
+    <article class="scenario-stat is-negative">
+      <span>继续承压</span>
+      <strong>${counts.pressure || 0}</strong>
+      <small>资金与结构同步偏弱</small>
+    </article>
+  `;
+
+  body.innerHTML = rows
+    .map(({ fund, structure, scenario, leader, risk }) => {
+      const positive = Number(fund.positive_stock_count || 0);
+      const negative = Number(fund.negative_stock_count || 0);
+      return `
+        <tr>
+          <td><span class="fund-group-name"><strong>${fund.group}</strong><small>${fund.constituents}只</small></span></td>
+          <td class="fund-number ${fundTone(fund.main_net_yi)}">${formatFund(fund.main_net_yi)}</td>
+          <td class="fund-number ${fundTone(fund.main_net_change_yi)}">${formatFund(fund.main_net_change_yi)}</td>
+          <td class="fund-number ${fundTone(fund.five_day_main_net_yi)}">${formatFund(fund.five_day_main_net_yi)}</td>
+          <td><span class="metric-positive">${positive}</span> / <span class="metric-negative">${negative}</span></td>
+          <td>
+            <div class="scenario-company">
+              ${leader ? `<strong>${leader.name}<b class="metric-positive">${formatFund(leader.main_net_yi)}</b></strong>` : "<small>暂无主导入个股</small>"}
+              ${risk ? `<small>${risk.name}<b class="metric-negative">${formatFund(risk.main_net_yi)}</b></small>` : ""}
+            </div>
+          </td>
+          <td class="fund-number ${metricClass(structure?.score)}">${structure ? structure.score.toFixed(1) : "—"}</td>
+          <td>
+            <div class="scenario-verdict">
+              <span class="scenario-badge is-${scenario.tone}">${scenario.label}</span>
+              <small>${scenario.condition}</small>
+            </div>
+          </td>
+        </tr>
+      `;
+    })
+    .join("");
 }
 
 function chipPct(value) {
@@ -805,7 +996,13 @@ function chipRowWithLive(row) {
     Boolean(track) &&
     Boolean(fullMarketIntraday?.date) &&
     fullMarketIntraday.date > chipSegmentData.date;
-  if (!live) return { ...row, live: false };
+  const trackForDisplay =
+    track &&
+    fullMarketIntraday?.date &&
+    fullMarketIntraday.date >= chipSegmentData.date
+      ? track
+      : null;
+  if (!live) return { ...row, live: false, track: trackForDisplay };
   const completedFive = Array.isArray(row.history) ? row.history.slice(-4) : [];
   const fiveDayRolling =
     completedFive.reduce(
@@ -824,6 +1021,7 @@ function chipRowWithLive(row) {
     down_count: track.down_count ?? row.down_count,
     flat_count: track.flat_count ?? row.flat_count,
     breadth_pct: track.breadth_pct ?? row.breadth_pct,
+    track: trackForDisplay,
   };
 }
 
@@ -916,21 +1114,31 @@ function renderChipSegmentTable() {
 
   const sortKeys = new Set([
     "flow_yi",
+    "day_change_yi",
     "five_day_main_net_yi",
-    "main_ratio",
     "change_pct",
   ]);
   const sortKey = sortKeys.has(activeChipSort) ? activeChipSort : "flow_yi";
   const rows = chipSegmentData.segments.map(chipRowWithLive).sort(
-    (a, b) => (Number(b[sortKey]) || 0) - (Number(a[sortKey]) || 0),
+    (a, b) => {
+      const delta = (Number(a[sortKey]) || 0) - (Number(b[sortKey]) || 0);
+      return activeChipSortDirection === "desc" ? -delta : delta;
+    },
   );
   const isLive = rows.some((row) => row.live);
   const basisDate = chipSegmentData.date.slice(5);
-  document.querySelector('#chipSortTabs [data-chip-sort="flow_yi"]').textContent =
-    isLive ? "盘中资金" : "当日资金";
-  document.querySelector(
-    '#chipSortTabs [data-chip-sort="five_day_main_net_yi"]',
-  ).textContent = isLive ? "5日滚动" : "5日累计";
+  const sortHeader = (label, key) => {
+    const active = sortKey === key;
+    const indicator = active
+      ? activeChipSortDirection === "desc" ? "↓" : "↑"
+      : "↕";
+    return `
+      <th class="chip-sortable-col ${active ? "is-sorted" : ""}">
+        <button type="button" class="chip-sort-button" data-chip-sort="${key}">
+          ${label}<span>${indicator}</span>
+        </button>
+      </th>`;
+  };
 
   container.innerHTML = `
     <table class="fund-table chip-segment-table">
@@ -938,12 +1146,13 @@ function renderChipSegmentTable() {
         <tr>
           <th>#</th>
           <th>芯片细分</th>
-          <th>${isLive ? "盘中主力" : "当日主力"}</th>
-          <th>${isLive ? `较 ${basisDate}` : "较前日"}</th>
-          <th>${isLive ? "5日滚动" : "5日累计"}</th>
-          <th>涨幅</th>
-          <th>资金效率</th>
-          <th>上涨广度</th>
+          ${sortHeader("涨幅", "change_pct")}
+          ${sortHeader(isLive ? "盘中主力" : "当日主力", "flow_yi")}
+          ${sortHeader(isLive ? `较 ${basisDate}` : "较前日", "day_change_yi")}
+          ${sortHeader(isLive ? "5日滚动" : "5日累计", "five_day_main_net_yi")}
+          <th>最大流出 / 时间</th>
+          <th>最大流入 / 时间</th>
+          <th>回补幅度</th>
           <th>上涨 / 下跌</th>
         </tr>
       </thead>
@@ -958,13 +1167,14 @@ function renderChipSegmentTable() {
                 <span class="chip-taxonomy">${row.taxonomy === "concept" ? "概念" : "行业"}</span>
               </span>
             </td>
+            <td class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</td>
             <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
             <td><span class="fund-number ${fundTone(row.day_change_yi)}">${formatFund(row.day_change_yi)}</span></td>
             <td><span class="fund-number ${fundTone(row.five_day_main_net_yi)}">${formatFund(row.five_day_main_net_yi)}</span></td>
-            <td class="${metricClass(row.change_pct)}">${chipPct(row.change_pct)}</td>
-            <td class="${metricClass(row.main_ratio)}">${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
-            <td class="${breadthClass(row.breadth_pct)}">${Number(row.breadth_pct).toFixed(2)}%</td>
-            <td class="${breadthClass(row.breadth_pct)}">${row.up_count} / ${row.down_count}</td>
+            <td class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.minimum_yi)}">${formatFund(row.track.minimum_yi)}</b><small>${row.track.minimum_time || "—"}</small>` : `<span class="not-sampled">未采样</span>`}</td>
+            <td class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.maximum_yi)}">${formatFund(row.track.maximum_yi)}</b><small>${row.track.maximum_time || "—"}</small>` : `<span class="not-sampled">未采样</span>`}</td>
+            <td>${row.track ? formatFund(row.track.rebound_yi) : "—"}</td>
+            <td class="chip-advance-decline">${row.up_count} / ${row.down_count}</td>
           </tr>
         `).join("")}
       </tbody>
@@ -1682,24 +1892,32 @@ document.getElementById("marketScopeTabs").addEventListener("click", (event) => 
   renderMarketTable();
 });
 
-document.getElementById("marketDirectionTabs").addEventListener("click", (event) => {
-  const button = event.target.closest("button[data-direction]");
-  if (!button) return;
-  activeMarketDirection = button.dataset.direction;
-  document.querySelectorAll("#marketDirectionTabs button").forEach((item) => {
-    item.classList.toggle("active", item === button);
-  });
-  renderMarketTable();
-});
-
-document.getElementById("chipSortTabs").addEventListener("click", (event) => {
+document.getElementById("chipSegmentTable").addEventListener("click", (event) => {
   const button = event.target.closest("button[data-chip-sort]");
   if (!button) return;
-  activeChipSort = button.dataset.chipSort;
-  document.querySelectorAll("#chipSortTabs button").forEach((item) => {
-    item.classList.toggle("active", item === button);
-  });
+  const nextSort = button.dataset.chipSort;
+  if (activeChipSort === nextSort) {
+    activeChipSortDirection =
+      activeChipSortDirection === "desc" ? "asc" : "desc";
+  } else {
+    activeChipSort = nextSort;
+    activeChipSortDirection = "desc";
+  }
   renderChipSegmentTable();
+});
+
+document.getElementById("marketTableContainer").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-market-sort]");
+  if (!button) return;
+  const nextSort = button.dataset.marketSort;
+  if (activeMarketSort === nextSort) {
+    activeMarketSortDirection =
+      activeMarketSortDirection === "desc" ? "asc" : "desc";
+  } else {
+    activeMarketSort = nextSort;
+    activeMarketSortDirection = "desc";
+  }
+  renderMarketTable();
 });
 
 function svgEl(tag, attrs = {}) {
@@ -1962,6 +2180,7 @@ renderRanking();
 renderTransitionChart();
 renderFundTable();
 renderBoardComparison();
+renderNextDayScenarios();
 updateMarketPanel();
 renderChipSegmentSection();
 renderValidationChecklist();

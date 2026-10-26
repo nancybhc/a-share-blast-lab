@@ -2171,6 +2171,178 @@ button {
   color: var(--negative) !important;
 }
 
+.scenario-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--line);
+}
+
+.scenario-stat {
+  display: flex;
+  min-height: 108px;
+  flex-direction: column;
+  gap: 8px;
+  padding: 17px 18px;
+  background: var(--panel-raised);
+}
+
+.scenario-stat span,
+.scenario-stat small {
+  color: var(--muted-2);
+  font-size: 8px;
+}
+
+.scenario-stat strong {
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.scenario-stat.is-positive strong {
+  color: var(--positive);
+}
+
+.scenario-stat.is-negative strong {
+  color: var(--negative);
+}
+
+.scenario-panel {
+  margin-top: 14px;
+  padding: 26px;
+}
+
+.scenario-table-scroll {
+  margin-top: 18px;
+}
+
+.scenario-table {
+  width: max-content;
+  min-width: 1100px;
+}
+
+.scenario-table th:nth-child(1) {
+  width: 170px;
+  min-width: 170px;
+}
+
+.scenario-table th:nth-child(2),
+.scenario-table th:nth-child(3),
+.scenario-table th:nth-child(4) {
+  width: 104px;
+  min-width: 104px;
+}
+
+.scenario-table th:nth-child(5),
+.scenario-table th:nth-child(7) {
+  width: 94px;
+  min-width: 94px;
+}
+
+.scenario-table th:nth-child(6) {
+  width: 260px;
+  min-width: 260px;
+}
+
+.scenario-table th:nth-child(8) {
+  width: 280px;
+  min-width: 280px;
+}
+
+.scenario-company {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  white-space: normal;
+}
+
+.scenario-company strong,
+.scenario-company small {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.scenario-company small {
+  color: var(--muted-2);
+}
+
+.scenario-company b {
+  margin-left: 5px;
+  font-family: var(--mono);
+  font-weight: 600;
+}
+
+.scenario-verdict {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  white-space: normal;
+}
+
+.scenario-badge {
+  display: inline-flex;
+  width: max-content;
+  padding: 3px 7px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.scenario-badge.is-positive {
+  border-color: rgba(var(--positive-rgb), 0.3);
+  color: var(--positive);
+  background: rgba(var(--positive-rgb), 0.06);
+}
+
+.scenario-badge.is-watch {
+  border-color: rgba(var(--amber-rgb), 0.3);
+  color: var(--amber);
+  background: rgba(var(--amber-rgb), 0.06);
+}
+
+.scenario-badge.is-negative {
+  border-color: rgba(var(--negative-rgb), 0.3);
+  color: var(--negative);
+  background: rgba(var(--negative-rgb), 0.06);
+}
+
+.scenario-verdict small {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 9px;
+  line-height: 1.55;
+}
+
+.scenario-note {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  gap: 16px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.scenario-note span {
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 8px;
+}
+
+.scenario-note p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.7;
+}
+
 .legacy-group-table {
   display: none;
 }
@@ -2256,23 +2428,45 @@ button {
   min-width: 680px;
 }
 
-.market-fund-table th:nth-child(1) {
-  width: 48px;
-  min-width: 48px;
+.market-fund-table th {
+  font-size: 9px;
+  vertical-align: middle;
 }
 
-.market-fund-table th:nth-child(2) {
+.market-fund-table td {
+  vertical-align: middle;
+}
+
+.market-fund-table th:nth-child(1),
+.market-fund-table td:nth-child(1) {
+  width: 48px;
+  min-width: 48px;
+  text-align: center;
+}
+
+.market-fund-table th:nth-child(2),
+.market-fund-table td:nth-child(2) {
   width: 200px;
   min-width: 200px;
+  text-align: left;
 }
 
 .market-fund-table th:nth-child(n + 3) {
   width: 104px;
   min-width: 104px;
+  text-align: right;
+}
+
+.market-fund-table td:nth-child(n + 3) {
+  text-align: right;
 }
 
 .market-board-table {
-  min-width: 880px;
+  min-width: 1180px;
+}
+
+.market-stock-table {
+  min-width: 760px;
 }
 
 .market-board-table th:nth-child(2) {
@@ -2281,16 +2475,25 @@ button {
 }
 
 .market-board-table th:nth-child(3),
-.market-board-table th:nth-child(4),
-.market-board-table th:nth-child(5),
-.market-board-table th:nth-child(6) {
-  width: 128px;
-  min-width: 128px;
+.market-board-table th:nth-child(4) {
+  width: 105px;
+  min-width: 105px;
 }
 
-.market-board-table th:nth-child(7) {
-  width: 104px;
-  min-width: 104px;
+.market-board-table th:nth-child(5),
+.market-board-table th:nth-child(6) {
+  width: 155px;
+  min-width: 155px;
+}
+
+.market-board-table th:nth-child(7),
+.market-board-table th:nth-child(8) {
+  width: 108px;
+  min-width: 108px;
+}
+
+.market-fund-table .chip-sortable-col {
+  padding: 0;
 }
 
 .market-extreme {
@@ -2590,50 +2793,120 @@ button {
   padding: 27px;
 }
 
-.chip-table-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  margin-top: 24px;
-}
-
-.chip-table-toolbar > span {
-  color: var(--muted-2);
-  font-family: var(--mono);
-  font-size: 7px;
-  text-align: right;
-}
-
 .chip-segment-table-scroll {
   margin-top: 14px;
 }
 
 .chip-segment-table {
   width: max-content;
-  min-width: 860px;
+  min-width: 1180px;
 }
 
-.chip-segment-table th:nth-child(1) {
+.chip-segment-table th {
+  font-size: 9px;
+  letter-spacing: 0.035em;
+  vertical-align: middle;
+}
+
+.chip-segment-table td {
+  vertical-align: middle;
+}
+
+.chip-segment-table th:nth-child(1),
+.chip-segment-table td:nth-child(1) {
   width: 48px;
   min-width: 48px;
+  text-align: center;
 }
 
-.chip-segment-table th:nth-child(2) {
+.chip-segment-table th:nth-child(2),
+.chip-segment-table td:nth-child(2) {
   width: 190px;
   min-width: 190px;
+  text-align: left;
 }
 
 .chip-segment-table th:nth-child(3),
 .chip-segment-table th:nth-child(4),
-.chip-segment-table th:nth-child(5) {
+.chip-segment-table th:nth-child(5),
+.chip-segment-table th:nth-child(6) {
   width: 100px;
   min-width: 100px;
+  text-align: right;
 }
 
-.chip-segment-table th:nth-child(n + 6) {
-  width: 90px;
-  min-width: 90px;
+.chip-segment-table th:nth-child(7),
+.chip-segment-table th:nth-child(8) {
+  width: 155px;
+  min-width: 155px;
+  text-align: right;
+}
+
+.chip-segment-table th:nth-child(9) {
+  width: 105px;
+  min-width: 105px;
+  text-align: right;
+}
+
+.chip-segment-table th:nth-child(10) {
+  width: 95px;
+  min-width: 95px;
+  text-align: right;
+}
+
+.chip-segment-table td:nth-child(n + 3) {
+  text-align: right;
+}
+
+.chip-segment-table .chip-sortable-col {
+  padding: 0;
+}
+
+.chip-sort-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 0;
+  color: var(--muted-2);
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.chip-sort-button span {
+  color: var(--muted-2);
+  font-size: 10px;
+}
+
+.chip-sort-button:hover,
+.chip-sortable-col.is-sorted .chip-sort-button,
+.chip-sortable-col.is-sorted .chip-sort-button span {
+  color: var(--accent);
+}
+
+.chip-advance-decline {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.chip-track-time b,
+.chip-track-time small {
+  display: block;
+}
+
+.chip-track-time small {
+  margin-top: 3px;
+  color: var(--muted-2);
+  font-size: 8px;
 }
 
 .chip-segment-table tr.is-domestic {
@@ -4372,16 +4645,6 @@ button {
 
   .chip-segment-panel {
     padding: 20px 18px;
-  }
-
-  .chip-table-toolbar {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .chip-table-toolbar > span {
-    text-align: left;
   }
 
   .chip-custom-reference {

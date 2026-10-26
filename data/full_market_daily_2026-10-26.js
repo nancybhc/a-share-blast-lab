@@ -1,18 +1,18 @@
 window.FULL_MARKET_DATA = {
   "date": "2026-10-26",
-  "captured_at": "2026-10-26T18:39:52+08:00",
+  "captured_at": "2026-10-26T19:48:46+08:00",
   "source": "东方财富 clist f62 / 主力净流入",
   "source_hosts": [
     "https://push2test.eastmoney.com"
   ],
   "counts": {
     "industry": 496,
-    "concept": 516,
-    "stock": 5925
+    "concept": 506,
+    "stock": 5570
   },
   "valid_counts": {
     "industry": 496,
-    "concept": 516,
+    "concept": 506,
     "stock": 5570
   },
   "market": {
@@ -7524,7 +7524,7 @@ window.FULL_MARKET_DATA = {
     ]
   },
   "concept": {
-    "count": 516,
+    "count": 506,
     "top_inflow": [
       {
         "code": "BK1184",
@@ -7867,19 +7867,6 @@ window.FULL_MARKET_DATA = {
         "breadth_pct": 56.92
       },
       {
-        "code": "BK1633",
-        "name": "昨日高振幅",
-        "flow_yi": -168.4085,
-        "change_pct": -1.16,
-        "amount_yi": 8033.4813,
-        "market_cap_yi": 285010.7136,
-        "main_ratio": -2.1,
-        "up_count": 625,
-        "down_count": 1396,
-        "flat_count": 27,
-        "breadth_pct": 30.52
-      },
-      {
         "code": "BK1650",
         "name": "通信技术",
         "flow_yi": -167.3244,
@@ -8047,6 +8034,19 @@ window.FULL_MARKET_DATA = {
         "down_count": 688,
         "flat_count": 42,
         "breadth_pct": 51.33
+      },
+      {
+        "code": "BK1128",
+        "name": "CPO概念",
+        "flow_yi": -99.0101,
+        "change_pct": -4.21,
+        "amount_yi": 1538.4007,
+        "market_cap_yi": 57938.1734,
+        "main_ratio": -6.44,
+        "up_count": 3,
+        "down_count": 95,
+        "flat_count": 0,
+        "breadth_pct": 3.06
       }
     ],
     "all": [
@@ -8701,19 +8701,6 @@ window.FULL_MARKET_DATA = {
         "breadth_pct": 30.77
       },
       {
-        "code": "BK1630",
-        "name": "昨日首板",
-        "flow_yi": 2.3534,
-        "change_pct": 2.07,
-        "amount_yi": 754.9186,
-        "market_cap_yi": 11300.2587,
-        "main_ratio": 0.31,
-        "up_count": 43,
-        "down_count": 21,
-        "flat_count": 0,
-        "breadth_pct": 67.19
-      },
-      {
         "code": "BK0901",
         "name": "3D摄像头",
         "flow_yi": 2.3004,
@@ -8959,19 +8946,6 @@ window.FULL_MARKET_DATA = {
         "down_count": 66,
         "flat_count": 5,
         "breadth_pct": 57.74
-      },
-      {
-        "code": "BK0817",
-        "name": "昨日触板",
-        "flow_yi": 1.5345,
-        "change_pct": -4.19,
-        "amount_yi": 156.6751,
-        "market_cap_yi": 2375.3092,
-        "main_ratio": 0.98,
-        "up_count": 3,
-        "down_count": 17,
-        "flat_count": 0,
-        "breadth_pct": 15.0
       },
       {
         "code": "BK1004",
@@ -9884,19 +9858,6 @@ window.FULL_MARKET_DATA = {
         "breadth_pct": 54.67
       },
       {
-        "code": "BK0816",
-        "name": "昨日连板",
-        "flow_yi": -0.0778,
-        "change_pct": 8.07,
-        "amount_yi": 100.076,
-        "market_cap_yi": 681.7035,
-        "main_ratio": -0.08,
-        "up_count": 8,
-        "down_count": 1,
-        "flat_count": 0,
-        "breadth_pct": 88.89
-      },
-      {
         "code": "BK0614",
         "name": "食品安全",
         "flow_yi": -0.0909,
@@ -10235,19 +10196,6 @@ window.FULL_MARKET_DATA = {
         "breadth_pct": 12.5
       },
       {
-        "code": "BK1645",
-        "name": "昨日打二板以上表现",
-        "flow_yi": -0.3765,
-        "change_pct": 4.87,
-        "amount_yi": 43.5176,
-        "market_cap_yi": 199.2685,
-        "main_ratio": -0.87,
-        "up_count": 2,
-        "down_count": 1,
-        "flat_count": 0,
-        "breadth_pct": 66.67
-      },
-      {
         "code": "BK1169",
         "name": "Kimi概念",
         "flow_yi": -0.4163,
@@ -10285,19 +10233,6 @@ window.FULL_MARKET_DATA = {
         "down_count": 16,
         "flat_count": 2,
         "breadth_pct": 48.57
-      },
-      {
-        "code": "BK1051",
-        "name": "昨日连板_含一字",
-        "flow_yi": -0.4448,
-        "change_pct": 7.5,
-        "amount_yi": 112.4582,
-        "market_cap_yi": 799.2622,
-        "main_ratio": -0.4,
-        "up_count": 10,
-        "down_count": 2,
-        "flat_count": 0,
-        "breadth_pct": 83.33
       },
       {
         "code": "BK1098",
@@ -10623,19 +10558,6 @@ window.FULL_MARKET_DATA = {
         "down_count": 90,
         "flat_count": 4,
         "breadth_pct": 50.26
-      },
-      {
-        "code": "BK1631",
-        "name": "昨日炸板",
-        "flow_yi": -1.1379,
-        "change_pct": -4.87,
-        "amount_yi": 76.4199,
-        "market_cap_yi": 1096.7864,
-        "main_ratio": -1.49,
-        "up_count": 1,
-        "down_count": 11,
-        "flat_count": 0,
-        "breadth_pct": 8.33
       },
       {
         "code": "BK1078",
@@ -11977,19 +11899,6 @@ window.FULL_MARKET_DATA = {
         "breadth_pct": 45.24
       },
       {
-        "code": "BK0815",
-        "name": "昨日涨停",
-        "flow_yi": -4.9548,
-        "change_pct": 2.36,
-        "amount_yi": 968.7,
-        "market_cap_yi": 12776.2245,
-        "main_ratio": -0.51,
-        "up_count": 52,
-        "down_count": 28,
-        "flat_count": 0,
-        "breadth_pct": 65.0
-      },
-      {
         "code": "BK1069",
         "name": "智慧灯杆",
         "flow_yi": -4.9602,
@@ -12131,19 +12040,6 @@ window.FULL_MARKET_DATA = {
         "down_count": 24,
         "flat_count": 3,
         "breadth_pct": 37.21
-      },
-      {
-        "code": "BK1050",
-        "name": "昨日涨停_含一字",
-        "flow_yi": -5.5884,
-        "change_pct": 2.47,
-        "amount_yi": 984.363,
-        "market_cap_yi": 12921.2957,
-        "main_ratio": -0.57,
-        "up_count": 55,
-        "down_count": 29,
-        "flat_count": 0,
-        "breadth_pct": 65.48
       },
       {
         "code": "BK1192",
@@ -13706,19 +13602,6 @@ window.FULL_MARKET_DATA = {
         "breadth_pct": 17.2
       },
       {
-        "code": "BK1632",
-        "name": "昨日高换手",
-        "flow_yi": -26.9958,
-        "change_pct": -3.19,
-        "amount_yi": 982.5137,
-        "market_cap_yi": 10703.8507,
-        "main_ratio": -2.75,
-        "up_count": 21,
-        "down_count": 70,
-        "flat_count": 0,
-        "breadth_pct": 23.08
-      },
-      {
         "code": "BK1180",
         "name": "华为海思",
         "flow_yi": -27.558,
@@ -14666,19 +14549,6 @@ window.FULL_MARKET_DATA = {
         "down_count": 304,
         "flat_count": 6,
         "breadth_pct": 18.85
-      },
-      {
-        "code": "BK1633",
-        "name": "昨日高振幅",
-        "flow_yi": -168.4085,
-        "change_pct": -1.16,
-        "amount_yi": 8033.4813,
-        "market_cap_yi": 285010.7136,
-        "main_ratio": -2.1,
-        "up_count": 625,
-        "down_count": 1396,
-        "flat_count": 27,
-        "breadth_pct": 30.52
       },
       {
         "code": "BK0879",

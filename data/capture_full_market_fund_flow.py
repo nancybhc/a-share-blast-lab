@@ -41,6 +41,7 @@ SCOPES = {
     },
 }
 FIELDS = "f12,f14,f2,f3,f6,f20,f62,f184,f104,f105,f106,f124"
+EXCLUDED_CONCEPT_PREFIXES = ("昨日",)
 
 
 def now_cn() -> datetime:
@@ -71,6 +72,19 @@ def integer(value: Any) -> int:
         return int(float(value))
     except (TypeError, ValueError):
         return 0
+
+
+def filter_scope_rows(
+    scope: str,
+    rows: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    if scope != "concept":
+        return rows
+    return [
+        row
+        for row in rows
+        if not str(row.get("name") or "").startswith(EXCLUDED_CONCEPT_PREFIXES)
+    ]
 
 
 def fetch_scope(
@@ -183,8 +197,9 @@ def snapshot_once(target_date: str | None = None) -> dict[str, Any]:
     totals: dict[str, int] = {}
     for scope in SCOPES:
         rows, host, total = fetch_scope(scope)
+        rows = filter_scope_rows(scope, rows)
         raw[scope] = rows
-        totals[scope] = total
+        totals[scope] = len(rows)
         hosts.add(host)
         print(
             f"[OK] {SCOPES[scope]['label']} valid={len(rows)} total={total}",
@@ -258,7 +273,10 @@ def snapshot_from_live_state(target_date: str | None = None) -> dict[str, Any]:
         }
 
     industry = [row for row in board_rows.values() if row["kind"] == "industry"]
-    concept = [row for row in board_rows.values() if row["kind"] == "concept"]
+    concept = filter_scope_rows(
+        "concept",
+        [row for row in board_rows.values() if row["kind"] == "concept"],
+    )
     stock_snapshot = state.get("latest_stock_snapshot") or {}
     top_inflow = stock_snapshot.get("top_inflow") or []
     top_outflow = stock_snapshot.get("top_outflow") or []
@@ -443,6 +461,7 @@ def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
     point_time = captured_at.strftime("%H:%M:%S")
     for scope in ("industry", "concept"):
         rows, _, _ = fetch_scope(scope)
+        rows = filter_scope_rows(scope, rows)
         for row in rows:
             entry = state["boards"].setdefault(
                 row["code"],
@@ -477,8 +496,8 @@ def append_live_market(state: dict[str, Any], captured_at: datetime) -> None:
         "main_net_yi": market["main_net_yi"],
         "inflow_count": market["inflow_count"],
         "outflow_count": market["outflow_count"],
-        "top_inflow": market["top_inflow"][:12],
-        "top_outflow": market["top_outflow"][:12],
+        "top_inflow": market["top_inflow"][:20],
+        "top_outflow": market["top_outflow"][:20],
     }
     state["market_series"].append(latest)
     state["latest_stock_snapshot"] = latest
@@ -504,7 +523,7 @@ def live_summary(state: dict[str, Any]) -> dict[str, Any]:
                 "maximum_time": maximum["time"],
                 "close_yi": latest["flow_yi"],
                 "close_time": latest["time"],
-                "rebound_yi": round(maximum["flow_yi"] - minimum["flow_yi"], 4),
+                "rebound_yi": round(latest["flow_yi"] - minimum["flow_yi"], 4),
                 "change_pct": latest.get("change_pct"),
                 "main_ratio": latest.get("main_ratio"),
                 "up_count": latest.get("up_count", 0),
@@ -513,6 +532,14 @@ def live_summary(state: dict[str, Any]) -> dict[str, Any]:
                 "breadth_pct": latest.get("breadth_pct"),
             }
         )
+    rows = [
+        row
+        for row in rows
+        if not (
+            row["kind"] == "concept"
+            and str(row["name"]).startswith(EXCLUDED_CONCEPT_PREFIXES)
+        )
+    ]
 
     market_series = state.get("market_series") or []
     market_stats = None
@@ -528,7 +555,7 @@ def live_summary(state: dict[str, Any]) -> dict[str, Any]:
             "maximum_time": maximum["time"],
             "close_yi": latest["main_net_yi"],
             "close_time": latest["time"],
-            "rebound_yi": round(maximum["main_net_yi"] - minimum["main_net_yi"], 4),
+            "rebound_yi": round(latest["main_net_yi"] - minimum["main_net_yi"], 4),
             "top_inflow": latest["top_inflow"],
             "top_outflow": latest["top_outflow"],
             "inflow_count": latest["inflow_count"],
@@ -563,9 +590,9 @@ def save_live_latest(summary: dict[str, Any]) -> None:
                 "类型",
                 "代码",
                 "名称",
-                "最低流出亿",
+                "最大流出亿",
                 "发生时间",
-                "最高流入亿",
+                "最大流入亿",
                 "发生时间",
                 "收盘值亿",
                 "收盘时间",
@@ -580,9 +607,9 @@ def save_live_latest(summary: dict[str, Any]) -> None:
                     "类型": SCOPES[row["kind"]]["label"],
                     "代码": row["code"],
                     "名称": row["name"],
-                    "最低流出亿": row["minimum_yi"],
+                    "最大流出亿": row["minimum_yi"],
                     "发生时间": row["minimum_time"],
-                    "最高流入亿": row["maximum_yi"],
+                    "最大流入亿": row["maximum_yi"],
                     "发生时间": row["maximum_time"],
                     "收盘值亿": row["close_yi"],
                     "收盘时间": row["close_time"],
