@@ -1396,6 +1396,7 @@ function renderFiveBreak10() {
       (row) => `
         <tr class="fbl-qualified-row">
           <td>${escapeMonitorText(monitorTime(row["扫描时间"]))}</td>
+          <td>${escapeMonitorText(monitorTime(row["首次入选时间"] || row["扫描时间"]))}</td>
           <td>${escapeMonitorText(row["判定分组"])}</td>
           <td>${escapeMonitorText(row["代码"])}</td>
           <td>${escapeMonitorText(row["名称"])}</td>
