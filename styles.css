@@ -31,7 +31,7 @@
   --shadow-soft: 0 12px 34px rgba(14, 22, 24, 0.065);
   --shadow-strong: 0 24px 64px rgba(14, 22, 24, 0.1);
   --focus: var(--cyan);
-  --shell: min(1440px, calc(100vw - 64px));
+  --shell: min(1380px, calc(100vw - 96px));
   --radius: 24px;
   --mono: "Cascadia Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --sans: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
@@ -121,7 +121,7 @@ button {
   grid-template-columns: minmax(260px, 1fr) auto minmax(260px, 1fr);
   align-items: center;
   min-height: 78px;
-  padding: 0 max(32px, calc((100vw - 1440px) / 2));
+  padding: 0 max(48px, calc((100vw - 1380px) / 2));
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 8px 30px rgba(24, 48, 41, 0.055);
@@ -2072,8 +2072,9 @@ button {
 }
 
 .fund-table {
-  width: 100%;
-  min-width: 820px;
+  width: max-content;
+  min-width: 0;
+  max-width: none;
   table-layout: auto;
   border-collapse: collapse;
   font-size: 12.5px;
@@ -2087,7 +2088,7 @@ button {
   font-size: 9.5px;
   font-weight: 500;
   letter-spacing: 0.04em;
-  text-align: right;
+  text-align: left;
   white-space: nowrap;
 }
 
@@ -2101,7 +2102,7 @@ button {
   color: var(--text);
   font-family: var(--mono);
   font-size: 12.5px;
-  text-align: right;
+  text-align: left;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -2247,31 +2248,8 @@ button {
 }
 
 .market-fund-table {
-  min-width: 840px;
-}
-
-.market-fund-table th:nth-child(1) {
-  width: 42px;
-}
-
-.market-fund-table th:nth-child(2) {
-  width: auto;
-  min-width: 180px;
-}
-
-.market-fund-table th:nth-child(3),
-.market-fund-table th:nth-child(4),
-.market-fund-table th:nth-child(5),
-.market-fund-table th:nth-child(6),
-.market-fund-table th:nth-child(7) {
-  width: 1%;
-}
-
-.market-board-table th:nth-child(5),
-.market-board-table th:nth-child(6),
-.market-board-table td:nth-child(5),
-.market-board-table td:nth-child(6) {
-  min-width: 105px;
+  width: max-content;
+  min-width: 0;
 }
 
 .market-extreme {
@@ -2591,29 +2569,8 @@ button {
 }
 
 .chip-segment-table {
-  min-width: 900px;
-}
-
-.chip-segment-table th:nth-child(1) {
-  width: 42px;
-}
-
-.chip-segment-table th:nth-child(2) {
-  width: 190px;
-  text-align: left;
-}
-
-.chip-segment-table th:nth-child(3),
-.chip-segment-table th:nth-child(4),
-.chip-segment-table th:nth-child(5) {
-  width: 100px;
-}
-
-.chip-segment-table th:nth-child(6),
-.chip-segment-table th:nth-child(7),
-.chip-segment-table th:nth-child(8),
-.chip-segment-table th:nth-child(9) {
-  width: 86px;
+  width: max-content;
+  min-width: 0;
 }
 
 .chip-segment-table tr.is-domestic {
@@ -2822,37 +2779,8 @@ button {
 }
 
 .fbl-active-table {
-  min-width: 980px;
-}
-
-.fbl-active-table th:nth-child(1),
-.fbl-active-table th:nth-child(2) {
-  width: 142px;
-}
-
-.fbl-active-table th:nth-child(3) {
-  width: 56px;
-}
-
-.fbl-active-table th:nth-child(4) {
-  width: 64px;
-}
-
-.fbl-active-table th:nth-child(5) {
-  width: 96px;
-  text-align: left;
-}
-
-.fbl-active-table th:nth-child(6),
-.fbl-active-table th:nth-child(7),
-.fbl-active-table th:nth-child(8),
-.fbl-active-table th:nth-child(9),
-.fbl-active-table th:nth-child(10) {
-  width: 76px;
-}
-
-.fbl-active-table th:nth-child(11) {
-  width: 72px;
+  width: max-content;
+  min-width: 0;
 }
 
 .fbl-qualified-row {
@@ -3031,22 +2959,8 @@ button {
 }
 
 .theme-repeat-table {
-  min-width: 620px;
-}
-
-.theme-repeat-table th:nth-child(1) {
-  width: auto;
-  min-width: 230px;
-}
-
-.theme-repeat-table th:nth-child(n + 2) {
-  width: 76px;
-}
-
-.theme-repeat-table td:first-child {
-  max-width: 190px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: max-content;
+  min-width: 0;
 }
 
 .bottom-reversal-section {
@@ -3162,22 +3076,8 @@ button {
 }
 
 .reversal-stock-table {
-  min-width: 780px;
-}
-
-.reversal-stock-table th:nth-child(1) {
-  width: 150px;
-  text-align: left;
-}
-
-.reversal-stock-table th:nth-child(2) {
-  width: auto;
-  min-width: 180px;
-  text-align: left;
-}
-
-.reversal-stock-table th:nth-child(n + 3) {
-  width: 82px;
+  width: max-content;
+  min-width: 0;
 }
 
 .validation-grid {
@@ -3734,19 +3634,19 @@ button {
 
 @media (max-width: 1180px) {
   :root {
-    --shell: min(1440px, calc(100vw - 40px));
+    --shell: min(1380px, calc(100vw - 64px));
   }
 
   .topbar {
     grid-template-columns: 1fr auto;
-    padding-inline: 20px;
+    padding-inline: 24px;
   }
 
   .main-nav {
     position: absolute;
     top: 78px;
-    right: 20px;
-    left: 20px;
+    right: 24px;
+    left: 24px;
     display: none;
     flex-direction: column;
     align-items: stretch;
@@ -3973,12 +3873,12 @@ button {
   }
 
   :root {
-    --shell: calc(100vw - 28px);
+    --shell: calc(100vw - 40px);
     --radius: 17px;
   }
 
   .topbar {
-    padding-inline: 14px;
+    padding-inline: 20px;
   }
 
   .brand-mark {
