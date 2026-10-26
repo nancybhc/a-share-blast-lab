@@ -77,8 +77,7 @@ def fetch_scope(
     scope: str, timeout: int = 25
 ) -> tuple[list[dict[str, Any]], str, int]:
     params = {
-        "pn": 1,
-        "pz": 7000,
+        "pz": 500,
         "po": 1,
         "np": 1,
         "fltt": 2,
@@ -91,33 +90,35 @@ def fetch_scope(
     errors: list[str] = []
     for host in HOSTS:
         try:
-            response = requests.get(
-                host + API_PATH,
-                params=params,
-                headers=HEADERS,
-                timeout=timeout,
-            )
-            response.raise_for_status()
-            payload = response.json()
-            data = payload.get("data") or {}
-            rows = data.get("diff") or []
-            total = int(data.get("total") or len(rows))
-            if not rows:
-                raise ValueError("empty result")
-            cleaned = []
-            for row in rows:
-                flow = numeric(row.get("f62"), 1e8)
-                if flow is None:
-                    continue
-                code = str(row.get("f12") or "").strip()
-                name = str(row.get("f14") or "").strip()
-                if not code or not name:
-                    continue
-                up_count = integer(row.get("f104"))
-                down_count = integer(row.get("f105"))
-                flat_count = integer(row.get("f106"))
-                cleaned.append(
-                    {
+            records: dict[str, dict[str, Any]] = {}
+            total = 0
+            page = 1
+            while page <= 100:
+                response = requests.get(
+                    host + API_PATH,
+                    params={**params, "pn": page},
+                    headers=HEADERS,
+                    timeout=timeout,
+                )
+                response.raise_for_status()
+                data = response.json().get("data") or {}
+                rows = data.get("diff") or []
+                total = int(data.get("total") or total or len(rows))
+                if not rows:
+                    break
+                before = len(records)
+                for row in rows:
+                    flow = numeric(row.get("f62"), 1e8)
+                    if flow is None:
+                        continue
+                    code = str(row.get("f12") or "").strip()
+                    name = str(row.get("f14") or "").strip()
+                    if not code or not name:
+                        continue
+                    up_count = integer(row.get("f104"))
+                    down_count = integer(row.get("f105"))
+                    flat_count = integer(row.get("f106"))
+                    records[code] = {
                         "code": code,
                         "name": name,
                         "flow_yi": flow,
@@ -137,8 +138,18 @@ def fetch_scope(
                             )
                         ),
                     }
+                if len(records) >= total:
+                    break
+                if page > 1 and len(records) == before:
+                    raise ValueError(f"pagination stalled at page {page}")
+                page += 1
+            if not records:
+                raise ValueError("empty result")
+            if total and len(records) < total * 0.9:
+                raise ValueError(
+                    f"incomplete result: received {len(records)}/{total}"
                 )
-            return cleaned, host, total
+            return list(records.values()), host, total
         except Exception as exc:  # noqa: BLE001
             errors.append(f"{host}: {type(exc).__name__}: {exc}")
     raise RuntimeError(f"{scope}: " + "; ".join(errors))
@@ -294,7 +305,12 @@ def load_live_state(date: str) -> dict[str, Any]:
     path = FULL_DIR / f"full_market_intraday_{date}.json"
     if path.exists():
         try:
-            return json.loads(path.read_text(encoding="utf-8"))
+            state = json.loads(path.read_text(encoding="utf-8"))
+            latest_stock = state.get("latest_stock_snapshot") or {}
+            if int(latest_stock.get("count") or 0) < 500:
+                state["market_series"] = []
+                state["latest_stock_snapshot"] = None
+            return state
         except (OSError, json.JSONDecodeError):
             pass
     return {
@@ -343,6 +359,7 @@ def append_live_market(state: dict[str, Any], captured_at: datetime) -> None:
     market = summarize_stocks(stocks)
     latest = {
         "time": captured_at.strftime("%H:%M:%S"),
+        "count": market["count"],
         "main_net_yi": market["main_net_yi"],
         "inflow_count": market["inflow_count"],
         "outflow_count": market["outflow_count"],
@@ -390,6 +407,7 @@ def live_summary(state: dict[str, Any]) -> dict[str, Any]:
         maximum = max(market_series, key=lambda point: point["main_net_yi"])
         latest = market_series[-1]
         market_stats = {
+            "count": latest.get("count"),
             "minimum_yi": minimum["main_net_yi"],
             "minimum_time": minimum["time"],
             "maximum_yi": maximum["main_net_yi"],

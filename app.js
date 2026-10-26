@@ -452,9 +452,13 @@ function renderMarketOverview() {
   const market = fullMarketData.market;
   const counts = fullMarketData.counts || {};
   const validCounts = fullMarketData.valid_counts || {};
-  const conceptTop = fullMarketData.concept?.all?.[0];
-  const conceptBottom = fullMarketData.concept?.all?.at(-1);
-  const stockTop = market?.top_inflow?.[0];
+  const conceptLive = marketBoardRows("concept", "inflow", false);
+  const conceptTop = conceptLive[0];
+  const conceptBottom = [...conceptLive].sort((a, b) => a.flow_yi - b.flow_yi)[0];
+  const stockTop =
+    fullMarketIntraday?.available
+      ? fullMarketIntraday.market?.top_inflow?.[0]
+      : market?.top_inflow?.[0];
   const marketTotal = fullMarketIntraday?.available
     ? fullMarketIntraday.market?.close_yi
     : market?.main_net_yi;
@@ -497,13 +501,28 @@ function renderMarketOverview() {
   `;
 }
 
-function marketBoardRows(scope, direction) {
+function liveBoardRows(scope) {
   const source = fullMarketData?.[scope]?.all || [];
   const tracks = marketTrackMap();
-  const rows = source.map((row) => ({
-    ...row,
-    track: tracks.get(`${scope}:${row.code}`),
-  }));
+  return source.map((row) => {
+    const track = tracks.get(`${scope}:${row.code}`);
+    if (!track) return { ...row, track: null };
+    return {
+      ...row,
+      flow_yi: track.close_yi ?? row.flow_yi,
+      change_pct: track.change_pct ?? row.change_pct,
+      main_ratio: track.main_ratio ?? row.main_ratio,
+      up_count: track.up_count ?? row.up_count,
+      down_count: track.down_count ?? row.down_count,
+      flat_count: track.flat_count ?? row.flat_count,
+      breadth_pct: track.breadth_pct ?? row.breadth_pct,
+      track,
+    };
+  });
+}
+
+function marketBoardRows(scope, direction) {
+  const rows = liveBoardRows(scope);
   rows.sort((a, b) =>
     direction === "inflow"
       ? b.flow_yi - a.flow_yi
@@ -517,9 +536,14 @@ function renderMarketTable() {
   if (!container || !fullMarketData) return;
 
   if (activeMarketScope === "stock") {
-    const rows = fullMarketData.stock?.[
-      activeMarketDirection === "inflow" ? "top_inflow" : "top_outflow"
-    ] || [];
+    const rows =
+      fullMarketIntraday?.available
+        ? fullMarketIntraday.market?.[
+            activeMarketDirection === "inflow" ? "top_inflow" : "top_outflow"
+          ] || []
+        : fullMarketData.stock?.[
+            activeMarketDirection === "inflow" ? "top_inflow" : "top_outflow"
+          ] || [];
     container.innerHTML = `
       <table class="fund-table market-fund-table">
         <thead>
@@ -556,7 +580,7 @@ function renderMarketTable() {
         <tr>
           <th>#</th>
           <th>板块</th>
-          <th>收盘主力 / 时间</th>
+          <th>当前主力 / 时间</th>
           <th>涨跌幅</th>
           <th>最低流出 / 时间</th>
           <th>最高流入 / 时间</th>

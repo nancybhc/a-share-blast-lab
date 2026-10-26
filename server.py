@@ -202,7 +202,7 @@ def start_collector() -> dict[str, Any]:
                 "--interval",
                 "30",
                 "--stock-interval",
-                "300",
+                "60",
             ],
             cwd=BASE_DIR,
             stdout=log_handle,

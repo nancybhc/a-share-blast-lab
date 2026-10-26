@@ -266,7 +266,7 @@ python "data\capture_intraday_fund_flow.py" --backfill-daily --date 2026-10-23
 双击 `启动全市场资金采集.cmd` 后：
 
 - 行业和概念板块默认每 30 秒采样一次
-- 全体个股默认每 300 秒采样一次
+- 全体个股默认每 60 秒采样一次
 - 每个板块记录 `最低流出 / 发生时间 / 最高流入 / 发生时间 / 收盘值 / 回补幅度`
 - 全市场个股合计记录同样的最低、最高、收盘和回补统计
 - 汇总 CSV 位于 `data/full_market/full_market_intraday_summary_<交易日>.csv`
@@ -274,7 +274,7 @@ python "data\capture_intraday_fund_flow.py" --backfill-daily --date 2026-10-23
 手动启动：
 
 ```powershell
-python "data\capture_full_market_fund_flow.py" --watch --interval 30 --stock-interval 300
+python "data\capture_full_market_fund_flow.py" --watch --interval 30 --stock-interval 60
 ```
 
 抓取一次当前/收盘快照：
