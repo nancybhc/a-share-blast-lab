@@ -1,4 +1,4 @@
-const marketData = {
+const marketData = window.MARKET_TREND_DATA || {
   dataDate: "2026-10-23",
   groups: [
     {
@@ -257,7 +257,7 @@ const toast = document.getElementById("toast");
 const methodDialog = document.getElementById("methodDialog");
 
 let activeSort = "score";
-let activeGroupId = "semiconductor";
+let activeGroupId = marketData.groups[0]?.id || "semiconductor";
 let activeMarketScope = "concept";
 let activeMarketDirection = "inflow";
 let activeChipSort = "flow_yi";
@@ -384,10 +384,8 @@ function updateSpotlight(group) {
   document.getElementById("focusConfirmCaption").textContent = group.confirmCaption;
   document.getElementById("focusRisk").textContent = group.turnBear;
   document.getElementById("focusBullPct").textContent = `${group.bullPct.toFixed(1)}%`;
-  const fundGroup = fundData?.groups?.[group.name];
-  document.getElementById("focusMainFlow").textContent = fundGroup
-    ? formatFund(fundGroup.main_net_yi)
-    : "—";
+  document.getElementById("focusMainFlow").textContent =
+    `${group.netBias > 0 ? "+" : ""}${group.netBias}`;
 
   const scoreCopy = spotlightCard.querySelector(".score-copy small");
   if (scoreCopy) {
@@ -1039,54 +1037,55 @@ function renderValidationChecklist() {
 
   const segments = chipSegmentData.segments || [];
   const domestic = segments.find((row) => row.code === "BK0891");
-  const digital = segments.find((row) => row.code === "BK1331");
   const storage = segments.find((row) => row.code === "BK1137");
-  const equipment = segments.find((row) => row.code === "BK1326");
+  const chip = marketData.groups.find((row) => row.id === "semiconductor");
   const robot = marketData.groups.find((row) => row.id === "robot");
+  const memory = marketData.groups.find((row) => row.id === "storage");
+  const equipment = marketData.groups.find((row) => row.id === "equipment");
   const aerospace = marketData.groups.find((row) => row.id === "aerospace");
 
   container.innerHTML = [
     validationCard({
       priority: "A",
       index: "01",
-      title: "国产芯片 / 数字芯片设计",
-      state: "国产芯片是单日资金第一，但 5 日为负；数字芯片设计的 5 日资金和资金效率更强。两个方向分开验证。",
+      title: "半导体芯片 / 国产芯片",
+      state: `10-26 分组净转多强度 ${chip.score.toFixed(1)}：空转多候选 ${chip.turnBull} 只，但确认只有 ${chip.confirm} 只、反向转空 ${chip.turnBear} 只。资金读数仍以 10-23 收盘为基准。`,
       readings: [
-        validationReading("国产芯片 · 单日", formatFund(domestic.flow_yi), "单日资金第一"),
-        validationReading("国产芯片 · 广度", `${domestic.breadth_pct.toFixed(2)}%`, `${domestic.up_count} 涨 / ${domestic.down_count} 跌`),
-        validationReading("数字设计 · 5日", formatFund(digital.five_day_main_net_yi), "5 日累计第一"),
-        validationReading("数字设计 · 效率", `${digital.main_ratio.toFixed(2)}%`, `涨幅 ${chipPct(digital.change_pct)}`),
+        validationReading("结构 · 多头占比", `${chip.bullPct.toFixed(1)}%`, `${chip.bull} 多 / ${chip.bear} 空`),
+        validationReading("结构 · 空转多", `${chip.turnBull}只`, `${chip.confirm} 只今日确认`),
+        validationReading("结构 · 反向转空", `${chip.turnBear}只`, `净转多 ${chip.score.toFixed(1)}`),
+        validationReading("国产芯片 · 10/23", formatFund(domestic.flow_yi), `5日 ${formatFund(domestic.five_day_main_net_yi)}`),
       ].join(""),
-      confirmation: "国产芯片保持净流入且上涨广度不低于 80%；数字芯片设计资金净流入率不低于 3%，5 日累计保持为正。",
-      invalidation: "国产芯片转净流出或广度跌破 70%；数字芯片设计资金效率跌破 3%，且 5 日累计转负。",
+      confirmation: "半导体芯片反向转空不超过 2 只，空转多候选继续向多头兑现，净转多强度回到正值；国产芯片资金维持净流入。",
+      invalidation: "反向转空达到 4 只以上，或多头占比跌破 15%；国产芯片资金转净流出，视为结构修复未确认。",
     }),
     validationCard({
       priority: "B",
       index: "02",
       title: "机器人",
-      state: "绝对强度和结构完整度仍高，但已持续强势一周，重点从继续加速切到确认是否分化。",
+      state: `绝对优势仍在：多头占比 ${robot.bullPct.toFixed(1)}%，但今日转多确认从此前高位降到 ${robot.confirm} 只，新增动力放缓。`,
       readings: [
-        validationReading("结构强度", robot.score.toFixed(1), "当前第一"),
+        validationReading("净转多强度", robot.score.toFixed(1), "仍为正"),
         validationReading("多头占比", `${robot.bullPct.toFixed(1)}%`, `${robot.bull} 多 / ${robot.bear} 空`),
-        validationReading("转多确认", `${robot.fulfilled}只`, `当前 ${robot.turnBull} 只蓄势`),
-        validationReading("反向转空", `${robot.turnBear}只`, "当前压力低"),
+        validationReading("转多确认", `${robot.confirm}只`, `${robot.turnBull} 只仍是候选`),
+        validationReading("反向转空", `${robot.turnBear}只`, "相对可控"),
       ].join(""),
-      confirmation: "反向转空不超过 1 只、多头占比不低于 65%，且结构强度保持在 60 以上。",
-      invalidation: "反向转空达到 3 只以上，或多头占比跌破 60%；结构强度跌破 55 时降为观察。",
+      confirmation: "反向转空不超过 2 只、多头占比不低于 70%，且转多确认保持 5 只以上。",
+      invalidation: "反向转空达到 5 只以上，或多头占比跌破 65%；净转多强度跌破 10 时降为观察。",
     }),
     validationCard({
       priority: "C",
       index: "03",
       title: "存储芯片 / 半导体设备 / 商业航天",
-      state: "存储芯片只是单日修复，半导体设备仍双弱；商业航天的反向转空压力仍然最高，三者都不应因单日反弹升级。",
+      state: `存储净转多强度 ${memory.score.toFixed(1)}，是当前最弱分组；半导体设备为 ${equipment.score.toFixed(1)}；商业航天仍有 ${aerospace.turnBear} 只反向转空，修复不均衡。`,
       readings: [
-        validationReading("存储芯片 · 单日", formatFund(storage.flow_yi), "已转正"),
-        validationReading("存储芯片 · 5日", formatFund(storage.five_day_main_net_yi), "仍为净流出"),
-        validationReading("半导体设备 · 5日", formatFund(equipment.five_day_main_net_yi), `${formatFund(equipment.flow_yi)} 单日`),
+        validationReading("存储 · 净转多", memory.score.toFixed(1), `${memory.bullPct.toFixed(1)}% 多头占比`),
+        validationReading("半导体设备 · 净转多", equipment.score.toFixed(1), `${equipment.bull} 多 / ${equipment.bear} 空`),
+        validationReading("存储 · 资金基准", formatFund(storage.five_day_main_net_yi), "10/23 五日累计"),
         validationReading("商业航天 · 转空", `${aerospace.turnBear}只`, "结构分歧"),
       ].join(""),
-      confirmation: "存储芯片 5 日累计转正；半导体设备单日与 5 日同步转正；商业航天反向转空降至 5 只以下，才考虑升级。",
-      invalidation: "存储芯片 5 日继续为负、半导体设备继续双弱，或商业航天反向转空不低于 5 只，维持观察或回避。",
+      confirmation: "存储与半导体设备净转多强度同步转正；商业航天反向转空降至 5 只以下，才考虑升级。",
+      invalidation: "存储或半导体设备继续为负，或商业航天反向转空不低于 5 只，维持观察。",
     }),
   ].join("");
 }
@@ -1640,14 +1639,14 @@ function renderTransitionChart() {
   const plotHeight = height - padding.top - padding.bottom;
   const labels = marketData.transition.labels;
   const allValues = marketData.transition.series.flatMap((series) => series.values);
-  const yMax = 50;
+  const yMax = Math.max(10, Math.ceil(Math.max(...allValues) / 10) * 10);
   const x = (index) => padding.left + (plotWidth / (labels.length - 1)) * index;
   const y = (value) => padding.top + plotHeight - (value / yMax) * plotHeight;
 
   const svg = svgEl("svg", {
     viewBox: `0 0 ${width} ${height}`,
     role: "img",
-    "aria-label": "机器人与半导体芯片空转多候选数量五日曲线",
+    "aria-label": "机器人与半导体芯片最近五个交易日空转多候选数量曲线",
   });
 
   const defs = svgEl("defs");
@@ -1665,7 +1664,7 @@ function renderTransitionChart() {
   defs.append(gradient);
   svg.append(defs);
 
-  [0, 10, 20, 30, 40, 50].forEach((tick) => {
+  Array.from({ length: 6 }, (_, index) => (yMax / 5) * index).forEach((tick) => {
     const gridY = y(tick);
     svg.append(
       svgEl("line", {
@@ -1741,26 +1740,29 @@ function renderTransitionChart() {
     });
   });
 
+  const robotSeries = marketData.transition.series.find((series) => series.id === "robot");
+  const robotEnd = robotSeries.values.at(-1);
+  const chipEnd = chipSeries.values.at(-1);
   const endLabelRobot = svgEl("text", {
     x: x(labels.length - 1) - 10,
-    y: y(13) - 13,
+    y: y(robotEnd) - 13,
     fill: "#a95b0f",
     "font-size": "10",
     "font-family": "Cascadia Code, Consolas, monospace",
     "text-anchor": "end",
   });
-  endLabelRobot.textContent = "13";
+  endLabelRobot.textContent = String(robotEnd);
   svg.append(endLabelRobot);
 
   const endLabelChip = svgEl("text", {
     x: x(labels.length - 1) - 10,
-    y: y(30) + 24,
+    y: y(chipEnd) + 24,
     fill: "#087a88",
     "font-size": "10",
     "font-family": "Cascadia Code, Consolas, monospace",
     "text-anchor": "end",
   });
-  endLabelChip.textContent = "30";
+  endLabelChip.textContent = String(chipEnd);
   svg.append(endLabelChip);
 
   container.replaceChildren(svg);
@@ -1778,21 +1780,24 @@ async function copyBrief() {
   const marketLine = broadMarket
     ? `全市场：${formatFund(broadMarket.main_net_yi)}，流入 ${broadMarket.inflow_count} 只 / 流出 ${broadMarket.outflow_count} 只（有效 ${broadMarket.count} 只）。`
     : "";
-  const chipDomestic = chipSegmentData?.segments?.find((row) => row.code === "BK0891");
-  const chipFiveDay = chipSegmentData?.highlights?.five_day_leader;
-  const chipStorage = chipSegmentData?.segments?.find((row) => row.code === "BK1137");
-  const chipLine =
-    chipDomestic && chipFiveDay && chipStorage
-      ? `芯片细分：国产芯片单日 ${formatFund(chipDomestic.flow_yi)}、5日 ${formatFund(chipDomestic.five_day_main_net_yi)}；${chipFiveDay.name} 5日 ${formatFund(chipFiveDay.five_day_main_net_yi)}；存储芯片单日 ${formatFund(chipStorage.flow_yi)}、5日 ${formatFund(chipStorage.five_day_main_net_yi)}。`
-      : "";
+  const leaders = marketData.groups
+    .filter((group) => group.score > 0)
+    .slice(0, 5)
+    .map(
+      (group) =>
+        `${group.name} ${group.score.toFixed(1)}（多 ${group.bull}/${group.total}，确认 ${group.confirm}）`,
+    )
+    .join("；");
+  const robot = marketData.groups.find((group) => group.id === "robot");
+  const weakest = [...marketData.groups].sort((a, b) => a.score - b.score)[0];
   const text = [
-    "大A爆破实验室｜2026-10-23 结构简报",
-    "机器人：净强度 72.9，多头 49/70，高位加速但拥挤度上升。",
-    "半导体芯片：净强度 59.6，空转多候选 0→30，周五转多确认 0→7，低位点火。",
-    chipLine,
+    `大A爆破实验室｜${marketData.dataDate} ${marketData.generatedAt} 多空趋势`,
+    `净转多居前：${leaders}。`,
+    `全组迁移：转多 ${marketData.overview.positiveTransitions} 次 / 转空 ${marketData.overview.negativeTransitions} 次；${marketData.overview.positiveGroups} 组为正、${marketData.overview.negativeGroups} 组为负。`,
+    `机器人：多头 ${robot.bull}/${robot.total}（${robot.bullPct.toFixed(1)}%），确认 ${robot.confirm} 只，反向转空 ${robot.turnBear} 只。`,
+    `最弱分组：${weakest.name}，净转多强度 ${weakest.score.toFixed(1)}，多头占比 ${weakest.bullPct.toFixed(1)}%。`,
     marketLine,
-    "资金：半导体芯片主力净流入 +44.86亿，较前日 +33.07亿，近5日累计 +116.06亿（新浪财经 r0_net / 52只成分股汇总）。",
-    "结论：机器人看转多确认持续性，芯片看扩散；商业航天、AI应用需防反向转空。",
+    "结论：当前是少数分组修复、多数分组承压的结构；优先看转多确认能否扩散，以及反向转空是否继续增加。",
     "仅作 MA 结构研究，不构成投资建议。",
   ].join("\n");
 
@@ -1872,6 +1877,8 @@ const sectionObserver = new IntersectionObserver(
 
 sections.forEach((section) => sectionObserver.observe(section));
 
+const initialGroup = marketData.groups.find((group) => group.id === activeGroupId) || marketData.groups[0];
+if (initialGroup) updateSpotlight(initialGroup);
 renderRanking();
 renderTransitionChart();
 renderFundTable();

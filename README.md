@@ -136,7 +136,9 @@ data/five_break_10_targets.csv
 
 ## 当前版本
 
-- 接入 2026-10-23 多空阶段简报的核心数据
+- 接入 2026-10-26 12:23 多空阶段盘中快照，覆盖 17 个分组、891 只去重标的
+- 多空雷达与迁移曲线改为读取独立 `market_trend_latest.js`，可由 Excel 一键重建
+- 资金主视图仍明确标注 2026-10-23 收盘基准，与 10-26 结构快照分开
 - 强弱雷达支持按净强度、转多确认数、多头占比重排
 - 点击板块可切换首页核心观察窗
 - 展示机器人与半导体芯片的五日空转多候选曲线
@@ -149,7 +151,19 @@ data/five_break_10_targets.csv
 
 ## 数据入口
 
-当前数据集中维护在 `app.js` 顶部的 `marketData` 对象中。正式版可将该对象替换为由多空阶段流水线自动生成的 `market.json`。
+多空结构数据由桌面最新报告自动生成，文件位于：
+
+- `data/market_trend_latest.json`
+- `data/market_trend_latest.js`
+- 生成脚本：`data/build_market_trend.py`
+
+重新生成：
+
+```powershell
+python "data\build_market_trend.py"
+```
+
+脚本默认读取 `C:\Users\jiach\Desktop\今日盘中\多空趋势` 中最新的 `多空阶段_YYYY-MM-DD.xlsx` 与迁移日报，并把对应 PPT 复制到 `assets/`。
 
 资金数据位于 `data/group_fund_flows_2026-10-23.json`，页面同时读取同名 `.js` 文件，保证直接双击页面时也能显示数据。
 
