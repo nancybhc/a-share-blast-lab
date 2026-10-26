@@ -228,13 +228,13 @@ const marketData = {
       {
         id: "robot",
         name: "机器人",
-        color: "#ff9b45",
+        color: "#a95b0f",
         values: [18, 42, 44, 31, 13],
       },
       {
         id: "semiconductor",
         name: "半导体芯片",
-        color: "#49d9e7",
+        color: "#087a88",
         values: [0, 7, 14, 20, 30],
       },
     ],
@@ -265,14 +265,15 @@ let lastCollectorCapture = 0;
 let fiveBreak10ControlStatus = null;
 let fiveBreak10LastGeneratedAt = "";
 let toastTimer = null;
-const COLLECTOR_STATUS_INTERVAL_MS = 60000;
-const FIVE_BREAK_10_INTERVAL_MS = 60000;
+const MONITOR_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+const COLLECTOR_STATUS_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
+const FIVE_BREAK_10_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 
 const toneColors = {
-  lime: "#b9ff45",
-  cyan: "#49d9e7",
-  amber: "#ff9b45",
-  red: "#ff536b",
+  lime: "#638700",
+  cyan: "#087a88",
+  amber: "#a95b0f",
+  red: "#bf2f45",
 };
 
 const sortConfig = {
@@ -1344,14 +1345,14 @@ async function refreshDynamicSections() {
     renderValidationChecklist();
     renderThemeRadarSections();
   } catch (error) {
-    console.warn("60-second refresh failed", error);
+    console.warn("5-minute refresh failed", error);
   } finally {
     dynamicRefreshRunning = false;
   }
 }
 
 function initAutoRefresh() {
-  window.setInterval(refreshDynamicSections, 60000);
+  window.setInterval(refreshDynamicSections, MONITOR_REFRESH_INTERVAL_MS);
 }
 
 function escapeMonitorText(value) {
@@ -1374,6 +1375,13 @@ function monitorPct(value, digits = 2) {
     : "—";
 }
 
+function formatRefreshInterval(value) {
+  const seconds = Math.max(1, Number(value || 300));
+  return seconds % 60 === 0
+    ? `${seconds / 60} 分钟`
+    : `${Math.round(seconds)} 秒`;
+}
+
 function monitorTime(value) {
   return String(value || "—").replace("T", " ").slice(0, 19);
 }
@@ -1390,7 +1398,7 @@ function fiveBreak10IsStale(data) {
   if (!data?.generated_at) return true;
   const generated = Date.parse(data.generated_at);
   if (!Number.isFinite(generated)) return true;
-  const interval = Math.max(60, Number(data.interval_seconds || 60));
+  const interval = Math.max(60, Number(data.interval_seconds || 300));
   return Date.now() - generated > interval * 2600;
 }
 
@@ -1439,7 +1447,7 @@ function renderFiveBreak10() {
   document.getElementById("fiveBreak10Subline").textContent =
     stale && !running
       ? "页面保留最后一轮名单，但当前没有检测到运行中的监控进程。"
-      : `每 ${Number(data.interval_seconds || 60)} 秒核对一次最新现价；回落即剔除。`;
+      : `每 ${formatRefreshInterval(data.interval_seconds)}核对一次最新现价；回落即剔除。`;
   document.getElementById("fiveBreak10SignalDate").textContent =
     data.signal_date || "—";
   document.getElementById("fiveBreak10MarketDate").textContent =
@@ -1451,7 +1459,7 @@ function renderFiveBreak10() {
   document.getElementById("fiveBreak10LastScan").textContent =
     `LAST SCAN / ${monitorTime(data.generated_at)}`;
   document.getElementById("fiveBreak10RefreshHint").textContent =
-    `每 ${Number(data.interval_seconds || 60)} 秒刷新 · ${monitorTime(data.generated_at)}`;
+    `每 ${formatRefreshInterval(data.interval_seconds)}刷新 · ${monitorTime(data.generated_at)}`;
 
   const active = Array.isArray(data.active) ? data.active : [];
   const activeBody = document.getElementById("fiveBreak10ActiveBody");
@@ -1547,7 +1555,7 @@ async function initFiveBreak10Control() {
         "POST",
       );
       applyFiveBreak10Status(status);
-      showToast(running ? "盘中监控已停止" : "盘中监控已启动，每 60 秒更新");
+      showToast(running ? "盘中监控已停止" : "盘中监控已启动，每 5 分钟更新");
       window.setTimeout(refreshFiveBreak10Data, 1200);
     } catch (error) {
       setFiveBreak10Button("offline", "监控连接失败", false);
@@ -1639,8 +1647,8 @@ function renderTransitionChart() {
     y2: "1",
   });
   gradient.append(
-    svgEl("stop", { offset: "0%", "stop-color": "#49d9e7", "stop-opacity": "0.17" }),
-    svgEl("stop", { offset: "100%", "stop-color": "#49d9e7", "stop-opacity": "0" }),
+    svgEl("stop", { offset: "0%", "stop-color": "#087a88", "stop-opacity": "0.16" }),
+    svgEl("stop", { offset: "100%", "stop-color": "#087a88", "stop-opacity": "0" }),
   );
   defs.append(gradient);
   svg.append(defs);
@@ -1653,14 +1661,14 @@ function renderTransitionChart() {
         y1: gridY,
         x2: width - padding.right,
         y2: gridY,
-        stroke: "rgba(195,225,215,0.09)",
+        stroke: "rgba(24,48,41,0.12)",
         "stroke-width": "1",
       }),
     );
     const label = svgEl("text", {
       x: padding.left - 13,
       y: gridY + 3,
-      fill: "#91a09c",
+      fill: "#536762",
       "font-size": "8",
       "font-family": "Cascadia Code, Consolas, monospace",
       "text-anchor": "end",
@@ -1673,7 +1681,7 @@ function renderTransitionChart() {
     const text = svgEl("text", {
       x: x(index),
       y: height - 18,
-      fill: "#a2b0ac",
+      fill: "#73857f",
       "font-size": "9",
       "font-family": "Cascadia Code, Consolas, monospace",
       "text-anchor": "middle",
@@ -1710,7 +1718,7 @@ function renderTransitionChart() {
         cx: x(index),
         cy: y(value),
         r: series.id === "semiconductor" ? "4" : "3.2",
-        fill: "#0b1112",
+        fill: "#ffffff",
         stroke: series.color,
         "stroke-width": "2",
       });
@@ -1724,7 +1732,7 @@ function renderTransitionChart() {
   const endLabelRobot = svgEl("text", {
     x: x(labels.length - 1) - 10,
     y: y(13) - 13,
-    fill: "#ff9b45",
+    fill: "#a95b0f",
     "font-size": "10",
     "font-family": "Cascadia Code, Consolas, monospace",
     "text-anchor": "end",
@@ -1735,7 +1743,7 @@ function renderTransitionChart() {
   const endLabelChip = svgEl("text", {
     x: x(labels.length - 1) - 10,
     y: y(30) + 24,
-    fill: "#49d9e7",
+    fill: "#087a88",
     "font-size": "10",
     "font-family": "Cascadia Code, Consolas, monospace",
     "text-anchor": "end",

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#070b0c">
+  <meta name="theme-color" content="#f2f5ef">
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070b0c'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23b9ff45' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261026105023">
-  <script src="data/group_fund_flows_2026-10-23.js?v=20261026105023"></script>
-  <script src="data/board_daily_fund_flows_2026-10-23.js?v=20261026105023"></script>
-  <script src="data/full_market_daily_2026-10-23.js?v=20261026105023"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261026105023"></script>
-  <script src="data/chip_segments_2026-10-23.js?v=20261026105023"></script>
-  <script src="data/theme_radar_latest.js?v=20261026105023"></script>
-  <script src="data/runtime_status.js?v=20261026105023"></script>
-  <script src="data/five_break_10_monitor.js?v=20261026105023"></script>
-  <script src="app.js?v=20261026105023" defer></script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20261026110217">
+  <script src="data/group_fund_flows_2026-10-23.js?v=20261026110217"></script>
+  <script src="data/board_daily_fund_flows_2026-10-23.js?v=20261026110217"></script>
+  <script src="data/full_market_daily_2026-10-23.js?v=20261026110217"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261026110217"></script>
+  <script src="data/chip_segments_2026-10-23.js?v=20261026110217"></script>
+  <script src="data/theme_radar_latest.js?v=20261026110217"></script>
+  <script src="data/runtime_status.js?v=20261026110217"></script>
+  <script src="data/five_break_10_monitor.js?v=20261026110217"></script>
+  <script src="app.js?v=20261026110217" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -403,7 +403,7 @@
           <h2>5破10<br>盘中达标监控</h2>
         </div>
         <p>
-          从多空阶段的“量化5破10推演”名单出发，盘中每 60 秒按最新现价动态核对。
+          从多空阶段的“量化5破10推演”名单出发，盘中每 5 分钟按最新现价动态核对。
           达到明日最低收盘门槛才留下，跌回即剔除；收盘前达不到的股票不会进入次日量化名单。
         </p>
       </div>
@@ -447,7 +447,7 @@
         <article class="fbl-logic-card">
           <span>04 / LIVE FILTER</span>
           <h3>现价动态达标</h3>
-          <p>每 60 秒只按最新现价判断。达到目标价才进入当前名单，跌回目标下方立即移除，不用盘中最高价永久锁定。</p>
+          <p>每 5 分钟只按最新现价判断。达到目标价才进入当前名单，跌回目标下方立即移除，不用盘中最高价永久锁定。</p>
         </article>
       </div>
 
@@ -458,7 +458,7 @@
             <h3>本次扫描达到明日最低收盘的股票</h3>
           </div>
           <div class="fund-table-meta">
-            <span id="fiveBreak10RefreshHint">每 60 秒刷新</span>
+            <span id="fiveBreak10RefreshHint">每 5 分钟刷新</span>
             <a href="data/five_break_10_targets.xlsx" download>下载完整名单 XLSX ↓</a>
             <a href="data/five_break_10_targets.csv" download>CSV ↓</a>
           </div>
@@ -554,7 +554,7 @@
       <div class="theme-data-meta reveal">
         <span>DATA DATE <b id="themeRadarDate">—</b></span>
         <span>SOURCE UPDATED <b id="themeRadarUpdated">—</b></span>
-        <span class="theme-auto-state"><i></i>每 60 秒刷新最新结果</span>
+        <span class="theme-auto-state"><i></i>每 5 分钟刷新最新结果</span>
         <a href="data/full_market/theme_strength_daily_top.csv" download>前五 CSV ↓</a>
         <a href="data/full_market/theme_strength_daily_detail.csv" download>个股明细 CSV ↓</a>
         <a href="data/theme_strength_latest.xlsx" download>完整 Excel ↓</a>
@@ -601,7 +601,7 @@
 
       <div class="fund-source-note reveal">
         <span>SOURCE / THEME RADAR</span>
-        <p>数据来自题材雷达“当日题材强度”工作流。页面每 60 秒读取最新生成结果；完整全市场重算仍由原题材雷达工作流执行，不在浏览器内重复计算。</p>
+        <p>数据来自题材雷达“当日题材强度”工作流。页面每 5 分钟读取最新生成结果；完整全市场重算仍由原题材雷达工作流执行，不在浏览器内重复计算。</p>
         <div class="fund-source-links">
           <a href="data/theme_radar_latest.json" target="_blank">原始 JSON ↗</a>
           <a href="data/build_theme_radar_web.py" target="_blank">导出脚本 ↗</a>
@@ -661,7 +661,7 @@
 
       <div class="fund-source-note reveal">
         <span>SOURCE / REVERSAL RADAR</span>
-        <p>底部反转完整条件来自题材雷达工作流；页面只展示最新结果并在总控启动后每 60 秒重新读取。下表中“底部”与“反转”是结构条件，不代表收益保证。</p>
+        <p>底部反转完整条件来自题材雷达工作流；页面只展示最新结果并在总控启动后每 5 分钟重新读取。下表中“底部”与“反转”是结构条件，不代表收益保证。</p>
         <div class="fund-source-links">
           <a href="data/theme_radar_latest.json" target="_blank">原始 JSON ↗</a>
           <a href="data/build_theme_radar_web.py" target="_blank">导出脚本 ↗</a>
@@ -687,7 +687,7 @@
       <div class="closing-copy">
         <p>
           现已接入多空阶段、全市场资金和 5破10 盘中动态监控。
-          网页每 60 秒同步最新现价达标名单，把静态复盘继续推进为持续运行的市场雷达。
+           网页每 5 分钟同步最新现价达标名单，把静态复盘继续推进为持续运行的市场雷达。
         </p>
         <button class="primary-cta" id="copyBriefBottom" type="button">
           <span>复制今日简报</span>

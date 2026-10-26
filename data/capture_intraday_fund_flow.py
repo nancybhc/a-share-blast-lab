@@ -334,7 +334,7 @@ def main() -> None:
         help="板块代码，可重复，例如 --board BK0917；默认芯片三口径",
     )
     parser.add_argument("--watch", action="store_true", help="持续轮询直到收盘")
-    parser.add_argument("--interval", type=int, default=30, help="轮询间隔秒，默认 30")
+    parser.add_argument("--interval", type=int, default=300, help="轮询间隔秒，默认 300")
     parser.add_argument(
         "--backfill-daily",
         action="store_true",

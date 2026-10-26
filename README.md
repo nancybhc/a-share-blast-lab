@@ -32,7 +32,7 @@ python "server.py" --port 8771
 - 休市时显示“等待开盘”
 - 交易时段显示“采集中”
 - 再次点击即可停止
-- 页面每 60 秒同步采集状态，并在有新快照时自动刷新盘中数据
+- 页面每 5 分钟同步采集状态，并在有新快照时自动刷新盘中数据
 - 运行日志位于 `data/collector.log`
 
 ## 盘中自动同步 GitHub
@@ -79,7 +79,7 @@ python "server.py" --port 8771
 - `data/theme_radar_latest.js`
 - `data/full_market/theme_radar_latest.csv`
 
-页面每 60 秒重新读取最新题材结果。题材雷达刷新任务每 60 秒读取原工作流最新生成的 CSV，不在浏览器中重复执行数千只股票的历史回测。当前最新可用数据日期为 2026-10-23。
+页面每 5 分钟重新读取最新题材结果。题材雷达刷新任务每 5 分钟读取原工作流最新生成的 CSV，不在浏览器中重复执行数千只股票的历史回测。当前最新可用数据日期为 2026-10-23。
 
 “题材雷达”在顶部导航中作为父菜单，展开后包含：
 
@@ -102,10 +102,10 @@ python "server.py" --port 8771
 - 自动读取最新 `多空阶段_YYYY-MM-DD.xlsx` 的 `量化5破10推演` sheet
 - 名单口径：明日最低收盘要达到量化 5破10 进度 3 门槛，后天按明日收盘价平盘推演时
   MA5 > MA10，且后天 5-10 间距比明日扩大超过 1.5pp
-- 盘中每 60 秒取一次实时行情，只按最新现价动态判断
+- 盘中每 5 分钟取一次实时行情，只按最新现价动态判断
 - 现价达到目标价才保留，跌回目标价下方立即剔除
 - 不使用盘中最高价永久锁定，避免冲高回落但收盘不达标的股票被误留
-- 页面每 60 秒刷新当前动态达标名单
+- 页面每 5 分钟刷新当前动态达标名单
 - 161 只完整目标池不在页面铺开，通过“下载完整名单 XLSX / CSV”按钮获取
 
 本地页面可直接点击“启动盘中监控”或“停止盘中监控”。控制接口：
@@ -273,7 +273,7 @@ python "data\capture_intraday_fund_flow.py" --backfill-daily --date 2026-10-23
 双击 `启动全市场资金采集.cmd` 后：
 
 - 行业和概念板块默认每 30 秒采样一次
-- 全体个股默认每 60 秒采样一次
+- 全体个股与板块资金默认每 5 分钟采样一次
 - 每个板块记录 `最低流出 / 发生时间 / 最高流入 / 发生时间 / 收盘值 / 回补幅度`
 - 全市场个股合计记录同样的最低、最高、收盘和回补统计
 - 汇总 CSV 位于 `data/full_market/full_market_intraday_summary_<交易日>.csv`
@@ -281,7 +281,7 @@ python "data\capture_intraday_fund_flow.py" --backfill-daily --date 2026-10-23
 手动启动：
 
 ```powershell
-python "data\capture_full_market_fund_flow.py" --watch --interval 30 --stock-interval 60
+python "data\capture_full_market_fund_flow.py" --watch --interval 300 --stock-interval 300
 ```
 
 抓取一次当前/收盘快照：

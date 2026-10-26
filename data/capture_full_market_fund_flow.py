@@ -601,7 +601,7 @@ def main() -> None:
     parser.add_argument("--snapshot", action="store_true", help="抓取一次收盘/当前快照")
     parser.add_argument("--watch", action="store_true", help="交易时段持续采集")
     parser.add_argument("--date", help="快照交易日，例如 2026-10-23")
-    parser.add_argument("--interval", type=int, default=30, help="板块采样间隔秒")
+    parser.add_argument("--interval", type=int, default=300, help="板块采样间隔秒")
     parser.add_argument("--stock-interval", type=int, default=300, help="个股采样间隔秒")
     parser.add_argument("--ignore-session", action="store_true")
     parser.add_argument(
