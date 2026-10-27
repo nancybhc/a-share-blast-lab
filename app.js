@@ -1358,22 +1358,22 @@ function renderValidationChecklist() {
         validationReading("转多确认", `${robot.confirm}只`, `${robot.turnBull} 只仍是候选`),
         validationReading("反向转空", `${robot.turnBear}只`, "相对可控"),
       ].join(""),
-      confirmation: "反向转空不超过 2 只、多头占比不低于 70%，且转多确认保持 5 只以上。",
-      invalidation: "反向转空达到 5 只以上，或多头占比跌破 65%；净转多强度跌破 10 时降为观察。",
+      confirmation: "反向转空不超过 2 只、多头占比不低于 75%，且转多确认回升到 3 只以上。",
+      invalidation: "反向转空达到 5 只以上，或多头占比跌破 70%；净转多强度转负时降为观察。",
     }),
     validationCard({
       priority: "C",
       index: "03",
       title: "存储芯片 / 半导体设备",
-      state: `存储净转多强度 ${memory.score.toFixed(1)}，半导体设备为 ${equipment.score.toFixed(1)}；两条芯片次线仍在承压，尚未形成同步修复。`,
+      state: `存储净转多强度 ${memory.score.toFixed(1)}，半导体设备为 ${equipment.score.toFixed(1)}；两条芯片次线均未转正，且半导体芯片反向转空已增至 ${chip.turnBear} 只。`,
       readings: [
         validationReading("存储 · 净转多", memory.score.toFixed(1), `${memory.bullPct.toFixed(1)}% 多头占比`),
         validationReading("半导体设备 · 净转多", equipment.score.toFixed(1), `${equipment.bull} 多 / ${equipment.bear} 空`),
         validationReading("存储 · 收盘资金", formatFund(storage.five_day_main_net_yi), `${chipSegmentData.date.slice(5)} 五日累计`),
         validationReading("半导体设备 · 空转多", `${equipment.turnBull}只`, `确认 ${equipment.confirm} 只`),
       ].join(""),
-      confirmation: "存储与半导体设备净转多强度同步转正，且空转多候选继续向多头确认。",
-      invalidation: "存储或半导体设备继续为负，或反向转空数量扩大，维持观察。",
+      confirmation: "存储与半导体设备净转多强度同步转正，且半导体芯片反向转空降至 4 只以下。",
+      invalidation: "存储或半导体设备继续为零或负值，或反向转空继续扩大，维持观察。",
     }),
   ].join("");
 }
@@ -2067,6 +2067,136 @@ function renderTransitionChart() {
   container.replaceChildren(svg);
 }
 
+function renderTrendOverview() {
+  const overview = marketData.overview;
+  if (!overview?.groups) return;
+
+  const snapshot = `${marketData.dataDate.slice(5).replace("-", "-")} ${marketData.generatedAt.slice(11, 16)} ${marketData.isIntraday ? "盘中" : "盘后"}`;
+  const leaders = marketData.groups.filter((group) => group.score > 0);
+  const robot = marketData.groups.find((group) => group.id === "robot");
+  const chip = marketData.groups.find((group) => group.id === "semiconductor");
+  const reverseLeader = [...marketData.groups].sort((a, b) => b.turnBear - a.turnBear)[0];
+  const weakest = [...marketData.groups].sort((a, b) => a.score - b.score)[0];
+  const top = marketData.groups[0];
+  const flatGroups = overview.groups - overview.positiveGroups - overview.negativeGroups;
+  const leaderNames = leaders.slice(0, 3).map((group) => group.name).join("、");
+
+  const heroLead = document.getElementById("marketHeroLead");
+  if (heroLead) {
+    heroLead.textContent = `10 月 ${Number(marketData.dataDate.slice(8))} 日${marketData.isIntraday ? "盘中" : "盘后"}：${overview.groups} 组中仅 ${overview.positiveGroups} 组净转多为正，整体转多 ${overview.positiveTransitions} 次、转空 ${overview.negativeTransitions} 次。${leaderNames || "没有分组"}居前，但机器人只剩 ${robot.confirm} 只转多确认；${reverseLeader.name}反向转空 ${reverseLeader.turnBear} 只，承压继续扩散。`;
+  }
+  document.getElementById("heroGroupCount").textContent = String(overview.groups);
+  document.getElementById("heroStockCount").textContent = String(overview.uniqueStocks);
+  document.getElementById("heroSnapshotLabel").textContent = snapshot;
+  document.getElementById("focusSnapshot").textContent = snapshot;
+  document.getElementById("insightCode").textContent = `A-${marketData.dataDate.slice(5).replace("-", "")}`;
+
+  const metricRow = document.getElementById("marketMetricRow");
+  if (metricRow) {
+    metricRow.innerHTML = [
+      {
+        accent: "red",
+        label: "净转多第一",
+        value: top.score.toFixed(1),
+        note: `${top.name} · ${top.bull} 只多头 / ${top.total} 只样本`,
+      },
+      {
+        accent: "cyan",
+        label: "全组迁移",
+        value: `${overview.positiveTransitions}<small>/${overview.negativeTransitions}</small>`,
+        note: "转多次数 / 转空次数",
+      },
+      {
+        accent: "lime",
+        label: "机器人多头占比",
+        value: `${robot.bullPct.toFixed(1)}<small>%</small>`,
+        note: `${robot.bull} 只多头 / ${robot.total} 只样本`,
+      },
+      {
+        accent: "amber",
+        label: "改善分组",
+        value: `${overview.positiveGroups}<small>/${overview.groups}</small>`,
+        note: `${overview.positiveGroups} 组为正 · ${overview.negativeGroups} 组承压`,
+      },
+    ]
+      .map(
+        (card, index) => `
+          <article class="metric-card" data-accent="${card.accent}">
+            <span class="metric-index">0${index + 1}</span>
+            <span class="metric-label">${card.label}</span>
+            <strong>${card.value}</strong>
+            <p>${card.note}</p>
+          </article>
+        `,
+      )
+      .join("");
+  }
+
+  const tapeItems = [
+    `<span><b>${top.name}</b> 净转多 ${top.score.toFixed(1)} / 多头占比 ${top.bullPct.toFixed(1)}%</span>`,
+    `<span><b>机器人</b> 多头占比 ${robot.bullPct.toFixed(1)}% / 确认 ${robot.confirm}</span>`,
+    `<span><b>${reverseLeader.name}</b> 反向转空 ${reverseLeader.turnBear}</span>`,
+    `<span><b>全组</b> 转多 ${overview.positiveTransitions} / 转空 ${overview.negativeTransitions}</span>`,
+  ];
+  const tape = document.getElementById("signalTapeTrack");
+  if (tape) {
+    tape.innerHTML = tapeItems.join("") + tapeItems.map((item) => item.replace("<span>", '<span aria-hidden="true">')).join("");
+  }
+
+  document.getElementById("insightTitle").innerHTML =
+    overview.positiveGroups <= 4 ? "修复收窄，<br>转空重新占优。" : "今天的强，<br>只属于少数。";
+  document.getElementById("insightBody").textContent =
+    `${overview.groups} 个分组中只有 ${overview.positiveGroups} 个净转多强度为正，${overview.negativeGroups} 个为负。` +
+    `${robot.name}多头占比仍有 ${robot.bullPct.toFixed(1)}%，但只剩 ${robot.confirm} 只转多确认；` +
+    `${reverseLeader.name}反向转空 ${reverseLeader.turnBear} 只，${weakest.name}净转多 ${weakest.score.toFixed(1)}，整体扩散不足。`;
+  document.getElementById("insightTags").innerHTML =
+    `<span>局部转多</span><span>${overview.negativeGroups} 组承压</span><span>确认降级</span>`;
+
+  const labels = marketData.transition.labels;
+  const robotSeries = marketData.transition.series.find((series) => series.id === "robot");
+  const chipSeries = marketData.transition.series.find((series) => series.id === "semiconductor");
+  const firstRobot = robotSeries.values[0];
+  const firstChip = chipSeries.values[0];
+  const lastRobot = robotSeries.values.at(-1);
+  const lastChip = chipSeries.values.at(-1);
+  document.getElementById("transitionSubtitle").textContent =
+    `${labels[0]} 以来，机器人候选 ${firstRobot}→${lastRobot}、半导体芯片 ${firstChip}→${lastChip}，候选池持续收缩。`;
+  document.getElementById("chartCaption").innerHTML =
+    `<span><b>${labels[0]}</b> 芯片 ${firstChip} / 机器人 ${firstRobot}</span>` +
+    '<span class="caption-arrow">→</span>' +
+    `<span><b>${labels.at(-1)}</b> 芯片 ${lastChip} / 机器人 ${lastRobot}</span>`;
+
+  const shiftStack = document.getElementById("shiftStack");
+  if (shiftStack) {
+    const shiftCard = (series, group) => {
+      const peak = Math.max(...series.values);
+      const current = series.values.at(-1);
+      const fall = peak ? Math.round((current / peak - 1) * 1000) / 10 : 0;
+      const bars = series.values
+        .map((value) => `<i style="--h: ${Math.max(4, Math.round((value / peak) * 100))}%"></i>`)
+        .join("");
+      return `
+        <article class="shift-card negative">
+          <span class="shift-label">${group.name} / ${current <= 4 ? "退潮" : "降温"}</span>
+          <div class="shift-value"><strong>${peak} → ${current}</strong><span>${fall.toFixed(1)}%</span></div>
+          <h3>${group.name}：候选池继续收缩</h3>
+          <p>空转多候选自峰值 ${peak} 回落至 ${current}；多头占比 ${group.bullPct.toFixed(1)}%，反向转空 ${group.turnBear} 只。</p>
+          <div class="mini-bars" aria-hidden="true">${bars}</div>
+        </article>
+      `;
+    };
+    shiftStack.innerHTML = shiftCard(robotSeries, robot) + shiftCard(chipSeries, chip);
+  }
+
+  const methodSnapshot = document.getElementById("methodSnapshot");
+  if (methodSnapshot) methodSnapshot.textContent = `结构快照 / ${snapshot}`;
+  const briefLink = document.getElementById("marketBriefLink");
+  if (briefLink) {
+    briefLink.href = marketData.sourceBrief;
+    briefLink.textContent = "下载原简报 ↘";
+  }
+}
+
 function showToast(message) {
   toast.textContent = message;
   toast.classList.add("show");
@@ -2176,8 +2306,8 @@ const sectionObserver = new IntersectionObserver(
 
 sections.forEach((section) => sectionObserver.observe(section));
 
+renderTrendOverview();
 const initialGroup = marketData.groups.find((group) => group.id === activeGroupId) || marketData.groups[0];
-renderOverviewNarrative();
 if (initialGroup) updateSpotlight(initialGroup);
 renderRanking();
 renderTransitionChart();

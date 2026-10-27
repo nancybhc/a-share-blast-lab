@@ -191,6 +191,8 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
     summary_date = groups[0]["date"]
     detailed_codes: set[str] = set()
     for sheet in cycle.worksheets[3:]:
+        if sheet.title in EXCLUDED_GROUPS:
+            continue
         for values in sheet.iter_rows(min_row=4, values_only=True):
             code = str(values[3] or "").strip() if len(values) > 3 else ""
             if re.fullmatch(r"\d{6}", code):
