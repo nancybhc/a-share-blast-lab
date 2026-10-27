@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "captured_at": "2026-10-27T20:40:47+08:00",
+  "captured_at": "2026-10-27T21:02:14+08:00",
   "source": "东方财富 clist f62 / 主力净流入",
   "source_hosts": [
     "https://push2test.eastmoney.com"
@@ -64866,7 +64866,7 @@
         "flow_yi": -0.0622,
         "change_pct": -3.18,
         "amount_yi": 0.8515,
-        "market_cap_yi": 57.356,
+        "market_cap_yi": 57.3588,
         "main_ratio": -7.31,
         "up_count": 0,
         "down_count": 0,
