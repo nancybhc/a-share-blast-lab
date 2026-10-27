@@ -1,74 +1,84 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-27",
-  "generated_at": "2026-10-27T10:07:00+08:00",
+  "generated_at": "2026-10-27T14:56:09+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
       "date": "2026-10-27",
       "theme": "轮毂电机",
       "representative": "轮毂电机",
-      "change_pct": 3.98,
+      "change_pct": 2.48,
       "constituents": 9,
-      "members": "轮毂电机 +3.98%",
+      "members": "轮毂电机 +2.48%",
       "rank": 1
-    },
-    {
-      "date": "2026-10-27",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 1.62,
-      "constituents": 448,
-      "members": "减速器 +1.62% / 机器人执行器 +1.54% / 人形机器人 +0.66% / 机器视觉 +0.30%",
-      "rank": 2
-    },
-    {
-      "date": "2026-10-27",
-      "theme": "胎压监测",
-      "representative": "胎压监测",
-      "change_pct": 1.51,
-      "constituents": 28,
-      "members": "胎压监测 +1.51%",
-      "rank": 3
     },
     {
       "date": "2026-10-27",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.44,
+      "change_pct": 1.05,
       "constituents": 20,
-      "members": "退税商店 +1.44%",
+      "members": "退税商店 +1.05%",
+      "rank": 2
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": 0.27,
+      "constituents": 83,
+      "members": "大盘价值 +0.27%",
+      "rank": 3
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "免税概念",
+      "representative": "免税概念",
+      "change_pct": -0.15,
+      "constituents": 18,
+      "members": "免税概念 -0.15%",
       "rank": 4
     },
     {
       "date": "2026-10-27",
-      "theme": "被动元件概念",
-      "representative": "被动元件概念",
-      "change_pct": 1.41,
-      "constituents": 30,
-      "members": "被动元件概念 +1.41%",
+      "theme": "汽车整车",
+      "representative": "汽车整车",
+      "change_pct": -0.39,
+      "constituents": 26,
+      "members": "汽车整车 -0.39%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "机器人",
-      "current_streak": 1,
+      "theme": "免税概念",
+      "current_streak": 2,
       "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 2.8,
-      "avg_rank": 1.7,
-      "latest_rank": 2,
-      "dates": "10-27、10-23、10-22"
+      "appearances": 2,
+      "avg_change_pct": 0.83,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "10-27、10-26"
     },
     {
       "theme": "轮毂电机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.07,
+      "avg_change_pct": 1.32,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "10-27、10-22"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 0,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 3.39,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
+      "dates": "10-23、10-22"
     },
     {
       "theme": "PLC概念",
@@ -81,31 +91,31 @@ window.THEME_RADAR_DATA = {
       "dates": "10-23、10-22"
     },
     {
-      "theme": "胎压监测",
+      "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.51,
+      "avg_change_pct": 1.05,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "10-27"
+    },
+    {
+      "theme": "大盘价值",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.27,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-27"
     },
     {
-      "theme": "退税商店",
+      "theme": "汽车整车",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.44,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "10-27"
-    },
-    {
-      "theme": "被动元件概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.41,
+      "avg_change_pct": -0.39,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-27"
@@ -249,16 +259,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-21"
-    },
-    {
-      "theme": "免税概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.8,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "10-26"
     }
   ]
 };
