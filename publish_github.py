@@ -276,15 +276,31 @@ def main() -> None:
         local_sha = blob_sha(content)
         remote_sha = remote_blobs.get(relative)
         if remote_sha != local_sha:
-            blob = api(
-                "POST",
-                f"{repo_path}/git/blobs",
-                expected=(201,),
-                json={
-                    "content": base64.b64encode(content).decode("ascii"),
-                    "encoding": "base64",
-                },
-            ).json()
+            print(f"[UPLOAD] {relative} bytes={len(content)}", flush=True)
+            last_error: Exception | None = None
+            for attempt in range(1, 4):
+                try:
+                    blob = api(
+                        "POST",
+                        f"{repo_path}/git/blobs",
+                        expected=(201,),
+                        json={
+                            "content": base64.b64encode(content).decode("ascii"),
+                            "encoding": "base64",
+                        },
+                    ).json()
+                    last_error = None
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    last_error = exc
+                    print(
+                        f"[RETRY] {relative} attempt={attempt}/3: {exc}",
+                        flush=True,
+                    )
+                    if attempt < 3:
+                        time.sleep(attempt * 2)
+            if last_error is not None:
+                raise last_error
             remote_sha = blob["sha"]
             uploaded += 1
         else:

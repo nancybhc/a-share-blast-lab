@@ -7,17 +7,17 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261027150020">
-  <script src="data/group_fund_flows_2026-10-26.js?v=20261027150020"></script>
-  <script src="data/board_daily_fund_flows_2026-10-26.js?v=20261027150020"></script>
-  <script src="data/full_market_daily_2026-10-26.js?v=20261027150020"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261027150020"></script>
-  <script src="data/chip_segments_2026-10-26.js?v=20261027150020"></script>
-  <script src="data/theme_radar_latest.js?v=20261027150020"></script>
-  <script src="data/runtime_status.js?v=20261027150020"></script>
-  <script src="data/five_break_10_monitor.js?v=20261027150020"></script>
-  <script src="data/market_trend_latest.js?v=20261027150020"></script>
-  <script src="app.js?v=20261027150020" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261027204938">
+  <script src="data/group_fund_flows_2026-10-27.js?v=20261027204938"></script>
+  <script src="data/board_daily_fund_flows_2026-10-27.js?v=20261027204938"></script>
+  <script src="data/full_market_daily_2026-10-27.js?v=20261027204938"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261027204938"></script>
+  <script src="data/chip_segments_2026-10-27.js?v=20261027204938"></script>
+  <script src="data/theme_radar_latest.js?v=20261027204938"></script>
+  <script src="data/runtime_status.js?v=20261027204938"></script>
+  <script src="data/five_break_10_monitor.js?v=20261027204938"></script>
+  <script src="data/market_trend_latest.js?v=20261027204938"></script>
+  <script src="app.js?v=20261027204938" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -359,7 +359,7 @@
           <div class="fund-table-meta">
             <span>官方概念 / 行业分类</span>
             <span id="chipDataBasis">基准 2026-10-26</span>
-            <a href="data/full_market/chip_segments_2026-10-26.csv" download>细分数据 CSV ↘</a>
+            <a href="data/full_market/chip_segments_2026-10-27.csv" download>细分数据 CSV ↘</a>
           </div>
         </div>
 
@@ -371,9 +371,9 @@
           <span>方法 / 分层比较</span>
           <p>官方板块成分彼此重叠，不能把国产芯片、半导体概念和存储芯片相加。该表只比较单板块资金与市场表现；远航版“半导体芯片”是自定义 52 只成分组，单独列出，不参与官方排名。</p>
           <div class="fund-source-links">
-            <a href="data/chip_segments_2026-10-26.json" target="_blank">原始 JSON ↗</a>
+            <a href="data/chip_segments_2026-10-27.json" target="_blank">原始 JSON ↗</a>
             <a href="data/build_chip_segment_strength.py" target="_blank">计算脚本 ↗</a>
-            <a href="data/full_market/full_market_daily_2026-10-26.csv" download>全市场明细 ↘</a>
+            <a href="data/full_market/full_market_daily_2026-10-27.csv" download>全市场明细 ↘</a>
           </div>
         </div>
       </article>
@@ -492,7 +492,7 @@
             <button class="collector-button" id="collectorButton" type="button" data-state="offline">
               <i></i><span>启动全市场采集</span>
             </button>
-            <a href="data/full_market/full_market_daily_2026-10-26.csv" download>全量 CSV ↘</a>
+            <a href="data/full_market/full_market_daily_2026-10-27.csv" download>全量 CSV ↘</a>
           </div>
         </div>
         <div class="market-overview" id="marketOverview"></div>
@@ -513,8 +513,8 @@
           <span>来源 / 东方财富全市场</span>
           <p>口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最大流出/最大流入必须在交易时段采样，收盘后公共接口不保留历史曲线。</p>
           <div class="fund-source-links">
-            <a href="data/full_market/full_market_daily_2026-10-26.csv" download>全量日线 CSV ↘</a>
-            <a href="data/full_market/full_market_daily_2026-10-26.json" target="_blank">原始 JSON ↗</a>
+            <a href="data/full_market/full_market_daily_2026-10-27.csv" download>全量日线 CSV ↘</a>
+            <a href="data/full_market/full_market_daily_2026-10-27.json" target="_blank">原始 JSON ↗</a>
             <a href="data/capture_full_market_fund_flow.py" target="_blank">采集脚本 ↗</a>
           </div>
         </div>

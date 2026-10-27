@@ -1,51 +1,51 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-27",
-  "generated_at": "2026-10-27T14:56:09+08:00",
+  "generated_at": "2026-10-27T18:11:10+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
       "date": "2026-10-27",
       "theme": "轮毂电机",
       "representative": "轮毂电机",
-      "change_pct": 2.48,
+      "change_pct": 2.43,
       "constituents": 9,
-      "members": "轮毂电机 +2.48%",
+      "members": "轮毂电机 +2.43%",
       "rank": 1
     },
     {
       "date": "2026-10-27",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.05,
+      "change_pct": 0.99,
       "constituents": 20,
-      "members": "退税商店 +1.05%",
+      "members": "退税商店 +0.99%",
       "rank": 2
     },
     {
       "date": "2026-10-27",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.27,
+      "change_pct": 0.13,
       "constituents": 83,
-      "members": "大盘价值 +0.27%",
+      "members": "大盘价值 +0.13%",
       "rank": 3
     },
     {
       "date": "2026-10-27",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": -0.15,
+      "change_pct": -0.26,
       "constituents": 18,
-      "members": "免税概念 -0.15%",
+      "members": "免税概念 -0.26%",
       "rank": 4
     },
     {
       "date": "2026-10-27",
       "theme": "汽车整车",
       "representative": "汽车整车",
-      "change_pct": -0.39,
+      "change_pct": -0.47,
       "constituents": 26,
-      "members": "汽车整车 -0.39%",
+      "members": "汽车整车 -0.47%",
       "rank": 5
     }
   ],
@@ -55,7 +55,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.83,
+      "avg_change_pct": 0.77,
       "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "10-27、10-26"
@@ -65,7 +65,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.32,
+      "avg_change_pct": 1.3,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "10-27、10-22"
@@ -95,7 +95,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.05,
+      "avg_change_pct": 0.99,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-27"
@@ -105,7 +105,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.27,
+      "avg_change_pct": 0.13,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-27"
@@ -115,7 +115,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.39,
+      "avg_change_pct": -0.47,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-27"
