@@ -118,6 +118,8 @@ def public_files() -> list[Path]:
             continue
         if path.name in EXCLUDED_NAMES or path.suffix.lower() in EXCLUDED_SUFFIXES:
             continue
+        if path.name.startswith("qa-") and path.suffix.lower() == ".png":
+            continue
         if (
             path.name.startswith("full_market_intraday_")
             and path.suffix.lower() == ".json"
