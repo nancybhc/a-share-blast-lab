@@ -119,14 +119,29 @@ def write_status(mode: str, success: bool, detail: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="爆破实验室监控定时启停")
-    parser.add_argument("--start", action="store_true")
-    parser.add_argument("--stop", action="store_true")
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--start", action="store_true")
+    mode.add_argument("--stop", action="store_true")
+    mode.add_argument("--ensure-server", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
-    if args.start == args.stop:
-        raise SystemExit("必须且只能指定 --start 或 --stop")
 
     now = datetime.now(CHINA_TZ)
+    if args.ensure_server:
+        try:
+            start_server()
+            write_status("ensure-server", True, {"server_ready": True})
+            log("网页服务已确保运行")
+            return 0
+        except Exception as exc:  # noqa: BLE001
+            write_status(
+                "ensure-server",
+                False,
+                {"error": f"{type(exc).__name__}: {exc}"},
+            )
+            log(f"网页服务启动失败：{type(exc).__name__}: {exc}")
+            return 1
+
     if args.start and not args.force:
         if now.weekday() >= 5:
             log("周末跳过自动启动")
