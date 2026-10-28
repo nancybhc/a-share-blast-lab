@@ -1,15 +1,15 @@
 {
   "available": true,
-  "status": "starting",
+  "status": "scanning",
   "signal_date": "2026-10-28",
   "plan_signal_date": "2026-10-28",
-  "generated_at": "2026-10-28T15:22:50+08:00",
+  "generated_at": "2026-10-28T15:25:12+08:00",
   "market_date": "2026-10-28",
-  "interval_seconds": 60.0,
+  "interval_seconds": 60,
   "plan_count": 80,
   "active_count": 0,
   "buy_count": 0,
   "report": "多空阶段_2026-10-28.xlsx",
-  "process_id": 20292,
+  "process_id": 1256,
   "active": []
 }
