@@ -7,12 +7,12 @@
   "sourceBrief": "assets/多空阶段简报_2026-10-28.pptx",
   "summary": "  AI硬件 · 近 7 个交易日（10-20 ~ 10-28）：多明显变多（+14 只）、空也在收（-24 只），可以慢慢介入｜多 5→19 只、空 282→258 只、空转多 22→18、多转空 9→23｜半导体 最明显：多 0→11 只、空 130→111 只",
   "overview": {
-    "groups": 17,
-    "uniqueStocks": 911,
+    "groups": 16,
+    "uniqueStocks": 852,
     "positiveGroups": 14,
     "negativeGroups": 2,
-    "positiveTransitions": 83,
-    "negativeTransitions": 35
+    "positiveTransitions": 76,
+    "negativeTransitions": 29
   },
   "groups": [
     {
@@ -1258,95 +1258,6 @@
           "turnBear": 1,
           "bear": 38,
           "bullPct": 0.0
-        }
-      ]
-    },
-    {
-      "name": "商业航天",
-      "date": "2026-10-28",
-      "total": 63,
-      "bull": 6,
-      "turnBull": 2,
-      "turnBear": 12,
-      "bear": 43,
-      "bullPct": 9.52,
-      "newBull": 2,
-      "confirm": 2,
-      "direct": 0,
-      "positive": 7,
-      "negative": 6,
-      "state": "空转多集中转多",
-      "change": "空转多→多激增 0→2 只；空→空转多激增 1→2 只；转多合计激增 1→7 只；转空合计 6 只（前日 25）",
-      "action": "修复由预期进入确认，优先看转多名单能否继续增加",
-      "id": "商业航天",
-      "code": "商业航天",
-      "score": 0.0,
-      "fulfilled": 2,
-      "netBias": -37,
-      "phase": "结构分化",
-      "badge": "临界观察",
-      "tone": "amber",
-      "setup": "2",
-      "setupCaption": "空转多候选",
-      "confirmValue": "2",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 6/63，空头 43；空转多候选 2，今日转多确认 2，反向转空 12。空转多→多激增 0→2 只；空→空转多激增 1→2 只；转多合计激增 1→7 只；转空合计 6 只（前日 25），修复由预期进入确认，优先看转多名单能否继续增加。",
-      "history": [
-        {
-          "date": "2026-10-20",
-          "bull": 5,
-          "turnBull": 12,
-          "turnBear": 1,
-          "bear": 45,
-          "bullPct": 7.94
-        },
-        {
-          "date": "2026-10-21",
-          "bull": 7,
-          "turnBull": 39,
-          "turnBear": 2,
-          "bear": 15,
-          "bullPct": 11.11
-        },
-        {
-          "date": "2026-10-22",
-          "bull": 3,
-          "turnBull": 47,
-          "turnBear": 1,
-          "bear": 12,
-          "bullPct": 4.76
-        },
-        {
-          "date": "2026-10-23",
-          "bull": 11,
-          "turnBull": 26,
-          "turnBear": 6,
-          "bear": 20,
-          "bullPct": 17.46
-        },
-        {
-          "date": "2026-10-26",
-          "bull": 12,
-          "turnBull": 12,
-          "turnBear": 13,
-          "bear": 26,
-          "bullPct": 19.05
-        },
-        {
-          "date": "2026-10-27",
-          "bull": 1,
-          "turnBull": 2,
-          "turnBear": 21,
-          "bear": 39,
-          "bullPct": 1.59
-        },
-        {
-          "date": "2026-10-28",
-          "bull": 6,
-          "turnBull": 2,
-          "turnBear": 12,
-          "bear": 43,
-          "bullPct": 9.52
         }
       ]
     },
