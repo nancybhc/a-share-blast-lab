@@ -7,17 +7,17 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261028150018">
-  <script src="data/group_fund_flows_2026-10-27.js?v=20261028150018"></script>
-  <script src="data/board_daily_fund_flows_2026-10-27.js?v=20261028150018"></script>
-  <script src="data/full_market_daily_2026-10-27.js?v=20261028150018"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261028150018"></script>
-  <script src="data/chip_segments_2026-10-27.js?v=20261028150018"></script>
-  <script src="data/theme_radar_latest.js?v=20261028150018"></script>
-  <script src="data/runtime_status.js?v=20261028150018"></script>
-  <script src="data/five_break_10_monitor.js?v=20261028150018"></script>
-  <script src="data/market_trend_latest.js?v=20261028150018"></script>
-  <script src="app.js?v=20261028150018" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261028152140">
+  <script src="data/group_fund_flows_2026-10-27.js?v=20261028152140"></script>
+  <script src="data/board_daily_fund_flows_2026-10-27.js?v=20261028152140"></script>
+  <script src="data/full_market_daily_2026-10-27.js?v=20261028152140"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261028152140"></script>
+  <script src="data/chip_segments_2026-10-27.js?v=20261028152140"></script>
+  <script src="data/theme_radar_latest.js?v=20261028152140"></script>
+  <script src="data/runtime_status.js?v=20261028152140"></script>
+  <script src="data/five_break_10_monitor.js?v=20261028152140"></script>
+  <script src="data/market_trend_latest.js?v=20261028152140"></script>
+  <script src="app.js?v=20261028152140" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -386,9 +386,9 @@
           <h2>5破10<br>盘中达标监控</h2>
         </div>
         <p>
-          从多空阶段的“量化5破10推演”名单出发，盘中每 60 秒按最新现价动态核对。
-          达到明日最低收盘门槛才留下，跌回即剔除；同时按当天最新分组多占比检查尾盘策略入选资格，
-          多占比低于 10% 的股票即使现价达标也不会入选。
+          每 60 秒用最新现价重新执行正式策略：检查空转多进度3首次出现、推演次日5破10、
+          间距增幅、动态最高多占比分组、多占比 ≥10% 和综合评分 ≥0.25。
+          技术达标但未进入资金分配的股票也会保留，并明确标记为“不会入选”。
         </p>
       </div>
 
@@ -402,7 +402,8 @@
           <div><span>信号日期</span><strong id="fiveBreak10SignalDate">—</strong></div>
           <div><span>行情日期</span><strong id="fiveBreak10MarketDate">—</strong></div>
           <div><span>目标池</span><strong id="fiveBreak10PlanCount">—</strong></div>
-          <div><span>当前达标</span><strong id="fiveBreak10ActiveCount">—</strong></div>
+          <div><span>技术达标</span><strong id="fiveBreak10ActiveCount">—</strong></div>
+          <div><span>正式候选</span><strong id="fiveBreak10BuyCount">—</strong></div>
         </div>
         <div class="fbl-command-actions">
           <small id="fiveBreak10LastScan">上次扫描 / —</small>
@@ -415,23 +416,23 @@
       <div class="fbl-logic-grid reveal">
         <article class="fbl-logic-card">
           <span>01 / 信号基础</span>
-          <h3>空或空转多</h3>
-          <p>读取当前交易日之前最近一份报告中仍处于“空 / 空转多”的标的，并只保留涨停内可达项。</p>
+          <h3>进度3首次出现</h3>
+          <p>用最新现价重算当日 MA5、MA10，只保留空转多进度3首次出现且尾盘未涨停的股票。</p>
         </article>
         <article class="fbl-logic-card">
           <span>02 / 次日门槛</span>
-          <h3>明日最低收盘</h3>
-          <p>反解明日收盘价：明日 MA5、MA10 同时抬升，且 MA5 仍不高于 MA10，保持进度 3 结构。</p>
+          <h3>动态最高多占比分组</h3>
+          <p>多分组股票取当天多占比最高的分组，低于 10% 直接淘汰，不再沿用昨日静态分组。</p>
         </article>
         <article class="fbl-logic-card">
           <span>03 / 后天确认</span>
-          <h3>后天完成 5破10</h3>
-          <p>假设后天按明日收盘价平盘，推演 MA5 &gt; MA10，且后天 5-10 间距比明日扩大超过 1.5pp。</p>
+          <h3>推演5破10与评分</h3>
+          <p>按当前价平盘推演次日，要求 MA5 &gt; MA10、间距增幅 &gt;1.5pp，且综合评分 ≥0.25。</p>
         </article>
         <article class="fbl-logic-card">
           <span>04 / 盘中过滤</span>
-          <h3>现价动态达标</h3>
-          <p>每 60 秒只按最新现价判断。达到目标价才进入当前名单，跌回目标下方立即移除，不用盘中最高价永久锁定。</p>
+          <h3>正式候选与资金分配</h3>
+          <p>再执行同组前二和资金分配；不满足仓位条件的股票仍显示为技术达标，但尾盘候选标记为不会入选。</p>
         </article>
       </div>
 
@@ -455,6 +456,9 @@
                 <th>扫描时间</th>
                 <th>首次入选时间</th>
                 <th>分组</th>
+                <th>多占比</th>
+                <th>综合评分</th>
+                <th>建议仓位</th>
                 <th>代码</th>
                 <th>名称</th>
                 <th>当前价</th>
@@ -470,8 +474,8 @@
           </table>
         </div>
         <p class="fbl-tail-note">
-          尾盘判定按当前价、当天最新分组多占比和涨停可买性计算；多占比低于 10% 时直接判定不会入选。
-          最终评分、同组名额和仓位仍由策略主程序执行。
+          当前名单已按正式策略全量重算；尾盘判定同时考虑多占比、评分、同组名额和资金分配。
+          盘中价格变化后结构失效会自动剔除。
         </p>
 
       </article>

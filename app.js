@@ -1758,6 +1758,8 @@ function renderFiveBreak10() {
     `${Number(data.plan_count || 0)} 只`;
   document.getElementById("fiveBreak10ActiveCount").textContent =
     `${Number(data.active_count || 0)} 只`;
+  document.getElementById("fiveBreak10BuyCount").textContent =
+    `${Number(data.buy_count || 0)} 只`;
   document.getElementById("fiveBreak10LastScan").textContent =
     `上次扫描 / ${monitorTime(data.generated_at)}`;
   document.getElementById("fiveBreak10RefreshHint").textContent =
@@ -1786,9 +1788,11 @@ function renderFiveBreak10() {
           <td>
             <span class="fund-group-name">
               <strong>${escapeMonitorText(row["判定分组"])}</strong>
-              <small>${ratioText}</small>
             </span>
           </td>
+          <td>${ratioText}</td>
+          <td>${monitorNumber(row["综合评分"], 3)}</td>
+          <td>${monitorPct(row["建议单票仓位%"])}</td>
           <td>${escapeMonitorText(row["代码"])}</td>
           <td>${escapeMonitorText(row["名称"])}</td>
           <td>${monitorNumber(row["当前价"])}</td>
