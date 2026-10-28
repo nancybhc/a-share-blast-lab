@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -197,6 +198,55 @@ def refresh_index_data_refs(target_date: str) -> None:
     log(f"[OK] index data references -> {target_date}")
 
 
+def refresh_latest_aliases(target_date: str) -> None:
+    aliases = (
+        (
+            DATA_DIR / f"group_fund_flows_{target_date}.js",
+            DATA_DIR / "group_fund_flows_latest.js",
+        ),
+        (
+            DATA_DIR / f"group_fund_flows_{target_date}.json",
+            DATA_DIR / "group_fund_flows_latest.json",
+        ),
+        (
+            DATA_DIR / f"board_daily_fund_flows_{target_date}.js",
+            DATA_DIR / "board_daily_fund_flows_latest.js",
+        ),
+        (
+            DATA_DIR / f"board_daily_fund_flows_{target_date}.json",
+            DATA_DIR / "board_daily_fund_flows_latest.json",
+        ),
+        (
+            DATA_DIR / f"full_market_daily_{target_date}.js",
+            DATA_DIR / "full_market_daily_latest.js",
+        ),
+        (
+            DATA_DIR / f"chip_segments_{target_date}.js",
+            DATA_DIR / "chip_segments_latest.js",
+        ),
+        (
+            DATA_DIR / f"chip_segments_{target_date}.json",
+            DATA_DIR / "chip_segments_latest.json",
+        ),
+        (
+            DATA_DIR / "full_market" / f"full_market_daily_{target_date}.csv",
+            DATA_DIR / "full_market" / "full_market_daily_latest.csv",
+        ),
+        (
+            DATA_DIR / "full_market" / f"full_market_daily_{target_date}.json",
+            DATA_DIR / "full_market" / "full_market_daily_latest.json",
+        ),
+        (
+            DATA_DIR / "full_market" / f"chip_segments_{target_date}.csv",
+            DATA_DIR / "full_market" / "chip_segments_latest.csv",
+        ),
+    )
+    for source, target in aliases:
+        if source.is_file():
+            shutil.copy2(source, target)
+    log(f"[OK] latest data aliases -> {target_date}")
+
+
 def write_status(payload: dict[str, object]) -> None:
     temp = STATUS_PATH.with_suffix(".tmp")
     temp.write_text(
@@ -253,19 +303,6 @@ def main() -> int:
 
         steps: list[tuple[str, list[str], bool, int]] = [
             (
-                "filter-groups",
-                [
-                    sys.executable,
-                    "-X",
-                    "utf8",
-                    "data/exclude_market_groups.py",
-                    "--date",
-                    target_date,
-                ],
-                True,
-                300,
-            ),
-            (
                 "structure",
                 [
                     sys.executable,
@@ -319,6 +356,19 @@ def main() -> int:
                 ],
                 True,
                 900,
+            ),
+            (
+                "filter-groups",
+                [
+                    sys.executable,
+                    "-X",
+                    "utf8",
+                    "data/exclude_market_groups.py",
+                    "--date",
+                    target_date,
+                ],
+                True,
+                300,
             ),
         ]
 
@@ -393,6 +443,7 @@ def main() -> int:
             )
 
         refresh_index_data_refs(target_date)
+        refresh_latest_aliases(target_date)
         if not args.skip_publish:
             run_step(
                 "github-publish",

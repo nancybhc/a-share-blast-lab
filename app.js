@@ -1,4 +1,4 @@
-const marketData = window.MARKET_TREND_DATA || {
+let marketData = window.MARKET_TREND_DATA || {
   dataDate: "2026-10-23",
   groups: [
     {
@@ -221,10 +221,10 @@ const marketData = window.MARKET_TREND_DATA || {
   },
 };
 
-const fundData = window.GROUP_FUND_DATA || null;
-const boardFundData = window.BOARD_FUND_DATA || null;
-const fullMarketData = window.FULL_MARKET_DATA || null;
-const chipSegmentData = window.CHIP_SEGMENTS_DATA || null;
+let fundData = window.GROUP_FUND_DATA || null;
+let boardFundData = window.BOARD_FUND_DATA || null;
+let fullMarketData = window.FULL_MARKET_DATA || null;
+let chipSegmentData = window.CHIP_SEGMENTS_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
 let themeRadarData = window.THEME_RADAR_DATA || null;
 let siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
@@ -1628,6 +1628,16 @@ async function refreshDynamicSections() {
   if (dynamicRefreshRunning) return;
   dynamicRefreshRunning = true;
   try {
+    await loadFreshScript("data/market_trend_latest.js");
+    marketData = window.MARKET_TREND_DATA || marketData;
+    await loadFreshScript("data/group_fund_flows_latest.js");
+    fundData = window.GROUP_FUND_DATA || fundData;
+    await loadFreshScript("data/board_daily_fund_flows_latest.js");
+    boardFundData = window.BOARD_FUND_DATA || boardFundData;
+    await loadFreshScript("data/full_market_daily_latest.js");
+    fullMarketData = window.FULL_MARKET_DATA || fullMarketData;
+    await loadFreshScript("data/chip_segments_latest.js");
+    chipSegmentData = window.CHIP_SEGMENTS_DATA || chipSegmentData;
     await loadFreshScript("data/full_market_intraday_latest.js");
     fullMarketIntraday = window.FULL_MARKET_INTRADAY || fullMarketIntraday;
     await loadFreshScript("data/theme_radar_latest.js");
@@ -1637,12 +1647,25 @@ async function refreshDynamicSections() {
       siteRuntimeStatus = window.SITE_RUNTIME_STATUS || siteRuntimeStatus;
       updateRuntimeDisplay();
     }
+    if (!marketData.groups.some((group) => group.id === activeGroupId)) {
+      activeGroupId = marketData.groups[0]?.id || activeGroupId;
+    }
+    renderTrendOverview();
+    const currentGroup =
+      marketData.groups.find((group) => group.id === activeGroupId) ||
+      marketData.groups[0];
+    if (currentGroup) updateSpotlight(currentGroup);
+    renderRanking();
+    renderTransitionChart();
+    renderFundTable();
+    renderBoardComparison();
+    renderNextDayScenarios();
     updateMarketPanel();
     renderChipSegmentSection();
     renderValidationChecklist();
     renderThemeRadarSections();
   } catch (error) {
-    console.warn("5-minute refresh failed", error);
+    console.warn("60-second refresh failed", error);
   } finally {
     dynamicRefreshRunning = false;
   }

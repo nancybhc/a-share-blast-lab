@@ -29,7 +29,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     "Referer": "https://finance.sina.com.cn/",
 }
-EXCLUDED_GROUPS = {"黄金白银", "商业航天"}
+EXCLUDED_GROUPS = {"黄金白银"}
 
 
 @dataclass(frozen=True)

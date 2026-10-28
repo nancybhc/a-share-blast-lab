@@ -31,7 +31,7 @@ GROUP_META = {
     "电网设备": ("grid-equipment", "GRID EQUIPMENT"),
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
-EXCLUDED_GROUPS = {"黄金白银", "商业航天"}
+EXCLUDED_GROUPS = {"黄金白银"}
 
 
 def parse_args() -> argparse.Namespace:
