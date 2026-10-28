@@ -91,19 +91,19 @@ def update_group_counts(ws) -> None:
     if ws.title == "总览":
         cell = ws["A1"]
         if isinstance(cell.value, str):
-            cell.value = cell.value.replace("17 个分组", "15 个分组")
+            cell.value = cell.value.replace("18 个分组", "16 个分组")
     if ws.title == "分组异动":
         cell = ws["A1"]
         if isinstance(cell.value, str):
-            cell.value = cell.value.replace("17 个分组", "15 个分组")
+            cell.value = cell.value.replace("18 个分组", "16 个分组")
     if ws.title == "今日重点":
         for cell in ws[2]:
             if isinstance(cell.value, str):
-                cell.value = cell.value.replace("17 个分组", "15 个分组")
-        if ws["A5"].value == 17:
-            ws["A5"] = 15
+                cell.value = cell.value.replace("18 个分组", "16 个分组")
+        if ws["A5"].value == 18:
+            ws["A5"] = 16
         if isinstance(ws["A6"].value, str):
-            ws["A6"].value = ws["A6"].value.replace("17 组分口径", "15 组分口径")
+            ws["A6"].value = ws["A6"].value.replace("18 组分口径", "16 组分口径")
         priority_rows = sum(
             1
             for row_no in range(10, ws.max_row + 1)

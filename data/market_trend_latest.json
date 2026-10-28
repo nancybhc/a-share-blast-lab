@@ -1,17 +1,17 @@
 {
   "dataDate": "2026-10-28",
-  "generatedAt": "2026-10-28 18:07",
+  "generatedAt": "2026-10-28 23:42",
   "isIntraday": false,
   "sourceReport": "多空阶段_2026-10-28.xlsx",
-  "sourcePath": "C:\\Users\\jiach\\多空趋势分析结果\\多空阶段_2026-10-28.xlsx",
+  "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-10-28.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-10-28.pptx",
   "summary": "  AI硬件 · 近 7 个交易日（10-20 ~ 10-28）：多明显变多（+14 只）、空也在收（-24 只），可以慢慢介入｜多 5→19 只、空 282→258 只、空转多 22→18、多转空 9→23｜半导体 最明显：多 0→11 只、空 130→111 只",
   "overview": {
-    "groups": 15,
-    "uniqueStocks": 814,
-    "positiveGroups": 13,
+    "groups": 16,
+    "uniqueStocks": 852,
+    "positiveGroups": 14,
     "negativeGroups": 2,
-    "positiveTransitions": 74,
+    "positiveTransitions": 76,
     "negativeTransitions": 29
   },
   "groups": [
@@ -374,89 +374,89 @@
     {
       "name": "药",
       "date": "2026-10-28",
-      "total": 137,
+      "total": 138,
       "bull": 15,
-      "turnBull": 17,
+      "turnBull": 18,
       "turnBear": 14,
       "bear": 91,
-      "bullPct": 10.95,
-      "newBull": 11,
+      "bullPct": 10.87,
+      "newBull": 12,
       "confirm": 2,
       "direct": 0,
-      "positive": 15,
+      "positive": 16,
       "negative": 4,
       "state": "转多激增",
-      "change": "空转多→多 2 只（前日 0）；空→空转多激增 0→11 只；转多合计激增 0→15 只；转空合计 4 只（前日 38）",
+      "change": "空转多→多 2 只（前日 0）；空→空转多激增 0→12 只；转多合计激增 0→16 只；转空合计 4 只（前日 39）",
       "action": "转多明显加速，先确认空头和空转多是否同步收缩",
       "id": "pharma",
       "code": "PHARMA",
-      "score": 8.0,
+      "score": 8.7,
       "fulfilled": 2,
       "netBias": -76,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "17",
+      "setup": "18",
       "setupCaption": "空转多候选",
       "confirmValue": "2",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 15/137，空头 91；空转多候选 17，今日转多确认 2，反向转空 14。空转多→多 2 只（前日 0）；空→空转多激增 0→11 只；转多合计激增 0→15 只；转空合计 4 只（前日 38），转多明显加速，先确认空头和空转多是否同步收缩。",
+      "thesis": "多头 15/138，空头 91；空转多候选 18，今日转多确认 2，反向转空 14。空转多→多 2 只（前日 0）；空→空转多激增 0→12 只；转多合计激增 0→16 只；转空合计 4 只（前日 39），转多明显加速，先确认空头和空转多是否同步收缩。",
       "history": [
         {
           "date": "2026-10-20",
           "bull": 16,
           "turnBull": 21,
           "turnBear": 14,
-          "bear": 86,
-          "bullPct": 11.68
+          "bear": 87,
+          "bullPct": 11.59
         },
         {
           "date": "2026-10-21",
           "bull": 18,
           "turnBull": 24,
           "turnBear": 3,
-          "bear": 92,
-          "bullPct": 13.14
+          "bear": 93,
+          "bullPct": 13.04
         },
         {
           "date": "2026-10-22",
           "bull": 11,
           "turnBull": 12,
           "turnBear": 10,
-          "bear": 104,
-          "bullPct": 8.03
+          "bear": 105,
+          "bullPct": 7.97
         },
         {
           "date": "2026-10-23",
           "bull": 16,
-          "turnBull": 38,
+          "turnBull": 39,
           "turnBear": 7,
           "bear": 76,
-          "bullPct": 11.68
+          "bullPct": 11.59
         },
         {
           "date": "2026-10-26",
           "bull": 21,
-          "turnBull": 36,
+          "turnBull": 37,
           "turnBear": 11,
           "bear": 69,
-          "bullPct": 15.33
+          "bullPct": 15.22
         },
         {
           "date": "2026-10-27",
           "bull": 12,
           "turnBull": 8,
           "turnBear": 17,
-          "bear": 100,
-          "bullPct": 8.76
+          "bear": 101,
+          "bullPct": 8.7
         },
         {
           "date": "2026-10-28",
           "bull": 15,
-          "turnBull": 17,
+          "turnBull": 18,
           "turnBear": 14,
           "bear": 91,
-          "bullPct": 10.95
+          "bullPct": 10.87
         }
       ]
     },
@@ -1169,6 +1169,95 @@
           "turnBear": 4,
           "bear": 31,
           "bullPct": 5.13
+        }
+      ]
+    },
+    {
+      "name": "散热液冷",
+      "date": "2026-10-28",
+      "total": 41,
+      "bull": 0,
+      "turnBull": 2,
+      "turnBear": 1,
+      "bear": 38,
+      "bullPct": 0.0,
+      "newBull": 1,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 1,
+      "negative": 0,
+      "state": "修复延续",
+      "change": "无集中迁移",
+      "action": "修复仍在延续，观察空转多能否继续向多迁移",
+      "id": "cooling",
+      "code": "LIQUID COOLING",
+      "score": 2.4,
+      "fulfilled": 0,
+      "netBias": -38,
+      "phase": "温和修复",
+      "badge": "边际改善",
+      "tone": "amber",
+      "setup": "2",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/41，空头 38；空转多候选 2，今日转多确认 0，反向转空 1。无集中迁移，修复仍在延续，观察空转多能否继续向多迁移。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 39,
+          "bullPct": 2.44
+        },
+        {
+          "date": "2026-10-21",
+          "bull": 1,
+          "turnBull": 5,
+          "turnBear": 0,
+          "bear": 35,
+          "bullPct": 2.44
+        },
+        {
+          "date": "2026-10-22",
+          "bull": 0,
+          "turnBull": 6,
+          "turnBear": 2,
+          "bear": 33,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-10-23",
+          "bull": 1,
+          "turnBull": 10,
+          "turnBear": 1,
+          "bear": 29,
+          "bullPct": 2.44
+        },
+        {
+          "date": "2026-10-26",
+          "bull": 0,
+          "turnBull": 4,
+          "turnBear": 1,
+          "bear": 36,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 1,
+          "bear": 39,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "bull": 0,
+          "turnBull": 2,
+          "turnBear": 1,
+          "bear": 38,
+          "bullPct": 0.0
         }
       ]
     },
