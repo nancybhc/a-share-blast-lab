@@ -1775,8 +1775,9 @@ function renderFiveBreak10() {
             ? "is-positive"
             : "is-watch";
         const groupRatio = Number(row["分组多占比%"]);
+        const ratioDate = String(row["分组多占比日期"] || "").slice(5);
         const ratioText = Number.isFinite(groupRatio)
-          ? `多占比 ${groupRatio.toFixed(2)}%`
+          ? `多占比 ${groupRatio.toFixed(2)}%${ratioDate ? ` · ${ratioDate}` : ""}`
           : "多占比 —";
         return `
         <tr class="fbl-qualified-row">
