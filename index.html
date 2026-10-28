@@ -7,17 +7,16 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23638700' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261028152518">
-  <script src="data/group_fund_flows_2026-10-27.js?v=20261028152518"></script>
-  <script src="data/board_daily_fund_flows_2026-10-27.js?v=20261028152518"></script>
-  <script src="data/full_market_daily_2026-10-27.js?v=20261028152518"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261028152518"></script>
-  <script src="data/chip_segments_2026-10-27.js?v=20261028152518"></script>
-  <script src="data/theme_radar_latest.js?v=20261028152518"></script>
-  <script src="data/runtime_status.js?v=20261028152518"></script>
-  <script src="data/five_break_10_monitor.js?v=20261028152518"></script>
-  <script src="data/market_trend_latest.js?v=20261028152518"></script>
-  <script src="app.js?v=20261028152518" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261028214529">
+  <script src="data/group_fund_flows_2026-10-27.js?v=20261028214529"></script>
+  <script src="data/board_daily_fund_flows_2026-10-27.js?v=20261028214529"></script>
+  <script src="data/full_market_daily_2026-10-27.js?v=20261028214529"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261028214529"></script>
+  <script src="data/chip_segments_2026-10-27.js?v=20261028214529"></script>
+  <script src="data/theme_radar_latest.js?v=20261028214529"></script>
+  <script src="data/runtime_status.js?v=20261028214529"></script>
+  <script src="data/market_trend_latest.js?v=20261028214529"></script>
+  <script src="app.js?v=20261028214529" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -41,7 +40,6 @@
       <a href="#migration">结构迁移</a>
       <a href="#playbook">验证清单</a>
       <a href="#chip-segments">芯片拆解</a>
-      <a href="#five-break-10">5破10监控</a>
       <a href="#capital">资金流向监控</a>
       <a href="#next-day-scenarios">次日推演</a>
       <a href="#theme-strength">题材强度</a>
@@ -379,112 +377,10 @@
       </article>
     </section>
 
-    <section class="section shell five-break-10-section" id="five-break-10">
-      <div class="section-heading reveal">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / 5破10实时监控</div>
-          <h2>5破10<br>盘中达标监控</h2>
-        </div>
-        <p>
-          每 60 秒用最新现价重新执行正式策略：检查空转多进度3首次出现、推演次日5破10、
-          间距增幅、动态最高多占比分组、多占比 ≥10% 和综合评分 ≥0.25。
-          技术达标但未进入资金分配的股票也会保留，并明确标记为“不会入选”。
-        </p>
-      </div>
-
-      <article class="panel fbl-command-panel reveal">
-        <div class="fbl-command-copy">
-          <span class="system-state" id="fiveBreak10State"><i></i><span>监控未连接</span></span>
-          <strong id="fiveBreak10Headline">等待监控快照</strong>
-          <p id="fiveBreak10Subline">读取当前交易日之前最近一份多空阶段报告与盘中行情快照。</p>
-        </div>
-        <div class="fbl-command-metrics">
-          <div><span>信号日期</span><strong id="fiveBreak10SignalDate">—</strong></div>
-          <div><span>行情日期</span><strong id="fiveBreak10MarketDate">—</strong></div>
-          <div><span>目标池</span><strong id="fiveBreak10PlanCount">—</strong></div>
-          <div><span>技术达标</span><strong id="fiveBreak10ActiveCount">—</strong></div>
-          <div><span>正式候选</span><strong id="fiveBreak10BuyCount">—</strong></div>
-        </div>
-        <div class="fbl-command-actions">
-          <small id="fiveBreak10LastScan">上次扫描 / —</small>
-          <button class="collector-button" id="fiveBreak10Button" type="button" data-state="offline">
-            <i></i><span>启动盘中监控</span>
-          </button>
-        </div>
-      </article>
-
-      <div class="fbl-logic-grid reveal">
-        <article class="fbl-logic-card">
-          <span>01 / 信号基础</span>
-          <h3>进度3首次出现</h3>
-          <p>用最新现价重算当日 MA5、MA10，只保留空转多进度3首次出现且尾盘未涨停的股票。</p>
-        </article>
-        <article class="fbl-logic-card">
-          <span>02 / 次日门槛</span>
-          <h3>动态最高多占比分组</h3>
-          <p>多分组股票取当天多占比最高的分组，低于 10% 直接淘汰，不再沿用昨日静态分组。</p>
-        </article>
-        <article class="fbl-logic-card">
-          <span>03 / 后天确认</span>
-          <h3>推演5破10与评分</h3>
-          <p>按当前价平盘推演次日，要求 MA5 &gt; MA10、间距增幅 &gt;1.5pp，且综合评分 ≥0.25。</p>
-        </article>
-        <article class="fbl-logic-card">
-          <span>04 / 盘中过滤</span>
-          <h3>正式候选与资金分配</h3>
-          <p>再执行同组前二和资金分配；不满足仓位条件的股票仍显示为技术达标，但尾盘候选标记为不会入选。</p>
-        </article>
-      </div>
-
-      <article class="panel fbl-results-panel reveal">
-        <div class="fund-table-head">
-          <div>
-            <span class="panel-label">当前动态达标</span>
-            <h3>本次扫描达到明日最低收盘的股票</h3>
-          </div>
-          <div class="fund-table-meta">
-            <span id="fiveBreak10RefreshHint">每 60 秒刷新</span>
-            <a href="data/five_break_10_targets.xlsx" download>下载完整名单 XLSX ↓</a>
-            <a href="data/five_break_10_targets.csv" download>CSV ↓</a>
-          </div>
-        </div>
-        <div class="fbl-empty" id="fiveBreak10Empty">当前没有动态达标标的。</div>
-        <div class="fund-table-scroll fbl-table-scroll">
-          <table class="fund-table fbl-active-table">
-            <thead>
-              <tr>
-                <th>扫描时间</th>
-                <th>首次入选时间</th>
-                <th>分组</th>
-                <th>多占比</th>
-                <th>综合评分</th>
-                <th>建议仓位</th>
-                <th>代码</th>
-                <th>名称</th>
-                <th>当前价</th>
-                <th>当前涨幅</th>
-                <th>目标价</th>
-                <th>最低涨幅</th>
-                <th>超过目标</th>
-                <th>行情时间</th>
-                <th>尾盘判定</th>
-              </tr>
-            </thead>
-            <tbody id="fiveBreak10ActiveBody"></tbody>
-          </table>
-        </div>
-        <p class="fbl-tail-note">
-          当前名单已按正式策略全量重算；尾盘判定同时考虑多占比、评分、同组名额和资金分配。
-          盘中价格变化后结构失效会自动剔除。
-        </p>
-
-      </article>
-    </section>
-
     <section class="section shell" id="capital">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / 全市场资金</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / 全市场资金</div>
           <h2>资金流向监控</h2>
         </div>
         <p>只看官方全市场资金流：行业、概念与个股分层监控，持仓拥挤度和自定义分组不再混入本区。</p>
@@ -534,7 +430,7 @@
     <section class="section shell" id="next-day-scenarios">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 07 / 次日资金推演</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 06 / 次日资金推演</div>
           <h2>板块与代表性个股</h2>
         </div>
         <p>用 15 个多空跟踪分组的资金方向、结构强度和组内代表个股资金，生成次日条件情景。不是单点涨跌预测。</p>
@@ -577,7 +473,7 @@
     <section class="section shell theme-radar-section" id="theme-strength">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 08 / 题材强度</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 07 / 题材强度</div>
           <h2>当日题材强度</h2>
         </div>
         <p>最近 5 个交易日每日取题材涨幅前五，再按重复上榜、连续性和平均涨幅汇总。</p>
@@ -649,8 +545,8 @@
       </div>
       <div class="closing-copy">
         <p>
-          现已接入多空阶段、全市场资金和 5破10 盘中动态监控。
-           网页每 60 秒同步最新现价达标名单，把静态复盘继续推进为持续运行的市场雷达。
+          现已接入多空阶段、全市场资金、次日推演和题材强度。
+          网页每 60 秒同步最新盘面数据，把静态复盘继续推进为持续运行的市场雷达。
         </p>
         <button class="primary-cta" id="copyBriefBottom" type="button">
           <span>复制今日简报</span>
@@ -673,7 +569,6 @@
     </p>
     <div class="footer-links">
       <a class="footer-code" href="https://github.com/nancybhc/a-share-blast-lab" target="_blank" rel="noreferrer">GitHub ↗</a>
-      <a class="footer-code" href="https://nancybhc.github.io/ma-cycle3-backtest/" target="_blank" rel="noreferrer">姊妹站 / 5破10 ↗</a>
     </div>
   </footer>
 

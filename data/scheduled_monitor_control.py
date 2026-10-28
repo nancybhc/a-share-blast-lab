@@ -20,7 +20,6 @@ LOG_PATH = DATA_DIR / "monitor_auto_schedule.log"
 STATUS_PATH = DATA_DIR / "monitor_auto_schedule_status.json"
 PID_FILES = (
     DATA_DIR / ".collector.pid",
-    DATA_DIR / ".five_break_10_monitor.pid",
     DATA_DIR / ".theme_refresh.pid",
 )
 BASE_URL = "http://127.0.0.1:8771"
@@ -133,8 +132,8 @@ def main() -> int:
             log("周末跳过自动启动")
             write_status("start", True, {"skipped": "weekend"})
             return 0
-        if not (clock_time(9, 15) <= now.time() < clock_time(15, 1)):
-            log("不在 09:15-15:01 自动启动时段，跳过")
+        if not (clock_time(9, 15) <= now.time() < clock_time(15, 5)):
+            log("不在 09:15-15:05 自动启动时段，跳过")
             write_status("start", True, {"skipped": "outside_window"})
             return 0
 
@@ -149,7 +148,7 @@ def main() -> int:
                 stopped = stop_orphan_monitors()
                 result = {"running_count": 0, "orphan_stopped": stopped}
         success = int(result.get("running_count", 0)) == (
-            3 if args.start else 0
+            2 if args.start else 0
         )
         write_status("start" if args.start else "stop", success, {"result": result})
         log(

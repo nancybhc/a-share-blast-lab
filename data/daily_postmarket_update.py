@@ -17,7 +17,6 @@ CHINA_TZ = ZoneInfo("Asia/Shanghai")
 SITE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = SITE_DIR / "data"
 SOURCE_DIR = Path(r"C:\Users\jiach\多空趋势分析结果")
-FIVE_BREAK_SCRIPT = Path(r"C:\Users\jiach\Desktop\今日盘中\5break10_monitor.py")
 LOG_PATH = DATA_DIR / "daily_postmarket_update.log"
 STATUS_PATH = DATA_DIR / "daily_postmarket_status.json"
 LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
@@ -320,22 +319,6 @@ def main() -> int:
                 ],
                 True,
                 900,
-            ),
-            (
-                "next-session-plan",
-                [
-                    sys.executable,
-                    "-X",
-                    "utf8",
-                    str(FIVE_BREAK_SCRIPT),
-                    "--report",
-                    str(report),
-                    "--interval",
-                    "60",
-                    "--once",
-                ],
-                True,
-                300,
             ),
         ]
 

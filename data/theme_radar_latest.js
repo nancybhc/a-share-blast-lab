@@ -1,51 +1,51 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T14:55:30+08:00",
+  "generated_at": "2026-10-28T18:09:48+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
       "date": "2026-10-28",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 5.03,
+      "change_pct": 5.14,
       "constituents": 449,
-      "members": "减速器 +5.03% / 机器人执行器 +4.96% / 人形机器人 +4.60% / 机器视觉 +3.30%",
+      "members": "减速器 +5.14% / 机器人执行器 +5.04% / 人形机器人 +4.68% / 机器视觉 +3.35%",
       "rank": 1
     },
     {
       "date": "2026-10-28",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 4.87,
+      "change_pct": 4.95,
       "constituents": 43,
-      "members": "光刻机 +4.87%",
+      "members": "光刻机 +4.95%",
       "rank": 2
     },
     {
       "date": "2026-10-28",
       "theme": "CRO",
       "representative": "CRO",
-      "change_pct": 4.8,
+      "change_pct": 4.89,
       "constituents": 52,
-      "members": "CRO +4.80%",
+      "members": "CRO +4.89%",
       "rank": 3
     },
     {
       "date": "2026-10-28",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 4.77,
+      "change_pct": 4.82,
       "constituents": 9,
-      "members": "噪声防治 +4.77%",
+      "members": "噪声防治 +4.82%",
       "rank": 4
     },
     {
       "date": "2026-10-28",
       "theme": "工业互联网/新型工业化/工业母机",
       "representative": "工业母机",
-      "change_pct": 4.66,
+      "change_pct": 4.75,
       "constituents": 271,
-      "members": "工业母机 +4.66% / 新型工业化 +3.51% / 工业互联网 +2.05%",
+      "members": "工业母机 +4.75% / 新型工业化 +3.56% / 工业互联网 +2.11%",
       "rank": 5
     }
   ],
@@ -55,7 +55,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 3.94,
+      "avg_change_pct": 3.97,
       "avg_rank": 1.3,
       "latest_rank": 1,
       "dates": "10-28、10-23、10-22"
@@ -75,7 +75,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.87,
+      "avg_change_pct": 4.95,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-28"
@@ -85,7 +85,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.8,
+      "avg_change_pct": 4.89,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-28"
@@ -95,7 +95,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.77,
+      "avg_change_pct": 4.82,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "10-28"
@@ -105,7 +105,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.66,
+      "avg_change_pct": 4.75,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-28"

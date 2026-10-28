@@ -228,7 +228,6 @@ const chipSegmentData = window.CHIP_SEGMENTS_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
 let themeRadarData = window.THEME_RADAR_DATA || null;
 let siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
-let fiveBreak10Monitor = window.FIVE_BREAK_10_MONITOR || null;
 const rankList = document.getElementById("rankList");
 const rankTabs = document.getElementById("rankTabs");
 const rankValueHead = document.getElementById("rankValueHead");
@@ -245,13 +244,10 @@ let activeMarketSortDirection = "desc";
 let activeChipSort = "flow_yi";
 let activeChipSortDirection = "desc";
 let lastCollectorCapture = 0;
-let fiveBreak10ControlStatus = null;
-let fiveBreak10LastGeneratedAt = "";
 let toastTimer = null;
 const MONITOR_REFRESH_INTERVAL_MS = 60 * 1000;
 const COLLECTOR_STATUS_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 const EXCLUDED_MARKET_CONCEPT_PREFIXES = ["昨日"];
-const FIVE_BREAK_10_INTERVAL_MS = MONITOR_REFRESH_INTERVAL_MS;
 
 const toneColors = {
   lime: "#b42335",
@@ -1602,7 +1598,6 @@ async function initMasterMonitorControl() {
         showToast(stop ? "全部监控已停止" : "全部监控已启动");
       }
       await pollCollectorStatus();
-      await pollFiveBreak10Status();
       await refreshDynamicSections();
     } catch (error) {
       setMasterMonitorButton("offline", "监控控制失败", false);
@@ -1655,248 +1650,6 @@ async function refreshDynamicSections() {
 
 function initAutoRefresh() {
   window.setInterval(refreshDynamicSections, MONITOR_REFRESH_INTERVAL_MS);
-}
-
-function escapeMonitorText(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
-
-function monitorNumber(value, digits = 2) {
-  const number = Number(value);
-  return Number.isFinite(number) ? number.toFixed(digits) : "—";
-}
-
-function monitorPct(value, digits = 2) {
-  const number = Number(value);
-  return Number.isFinite(number)
-    ? `${number > 0 ? "+" : ""}${number.toFixed(digits)}%`
-    : "—";
-}
-
-function formatRefreshInterval(value) {
-  const seconds = Math.max(1, Number(value || 60));
-  return seconds % 60 === 0
-    ? `${seconds / 60} 分钟`
-    : `${Math.round(seconds)} 秒`;
-}
-
-function monitorTime(value) {
-  return String(value || "—").replace("T", " ").slice(0, 19);
-}
-
-function setFiveBreak10Button(state, label, disabled = false) {
-  const button = document.getElementById("fiveBreak10Button");
-  if (!button) return;
-  button.dataset.state = state;
-  button.disabled = disabled;
-  button.querySelector("span").textContent = label;
-}
-
-function fiveBreak10IsStale(data) {
-  if (!data?.generated_at) return true;
-  const generated = Date.parse(data.generated_at);
-  if (!Number.isFinite(generated)) return true;
-  const interval = Math.max(60, Number(data.interval_seconds || 60));
-  return Date.now() - generated > interval * 2600;
-}
-
-function renderFiveBreak10() {
-  const data = fiveBreak10Monitor;
-  const control = fiveBreak10ControlStatus;
-  if (!data?.available) {
-    document.getElementById("fiveBreak10Headline").textContent = "暂无监控快照";
-    document.getElementById("fiveBreak10Subline").textContent =
-      "先运行 5破10 达标监控，页面会在下一轮自动读取名单。";
-    return;
-  }
-
-  const stale = fiveBreak10IsStale(data);
-  const running = Boolean(control?.running);
-  const monitorStatus = control?.monitor_status || data.status;
-  const statusText =
-    stale && !running
-      ? "监控快照过期"
-      : monitorStatus === "waiting_market"
-        ? "等待下一交易日"
-        : monitorStatus === "scanning"
-          ? "盘中过滤运行中"
-          : monitorStatus === "starting"
-            ? "监控启动中"
-            : monitorStatus === "no_quotes"
-              ? "等待行情"
-              : monitorStatus === "error"
-                ? "监控异常"
-                : running
-                  ? "监控运行中"
-                  : "快照已就绪";
-  const stateNode = document.getElementById("fiveBreak10State");
-  stateNode.classList.toggle("is-live", running && !stale);
-  stateNode.querySelector("span").textContent = statusText;
-
-  const headline =
-    monitorStatus === "waiting_market"
-      ? "门槛名单已就绪 · 等待下一交易日"
-      : monitorStatus === "scanning"
-        ? `动态达标 ${Number(data.active_count || 0)} 只`
-        : stale
-          ? "监控快照已过期"
-          : "监控快照已就绪";
-  document.getElementById("fiveBreak10Headline").textContent = headline;
-  document.getElementById("fiveBreak10Subline").textContent =
-    stale && !running
-      ? "页面保留最后一轮名单，但当前没有检测到运行中的监控进程。"
-      : `每 ${formatRefreshInterval(data.interval_seconds)}核对一次最新现价；回落即剔除。`;
-  document.getElementById("fiveBreak10SignalDate").textContent =
-    data.signal_date || "—";
-  document.getElementById("fiveBreak10MarketDate").textContent =
-    data.market_date || "—";
-  document.getElementById("fiveBreak10PlanCount").textContent =
-    `${Number(data.plan_count || 0)} 只`;
-  document.getElementById("fiveBreak10ActiveCount").textContent =
-    `${Number(data.active_count || 0)} 只`;
-  document.getElementById("fiveBreak10BuyCount").textContent =
-    `${Number(data.buy_count || 0)} 只`;
-  document.getElementById("fiveBreak10LastScan").textContent =
-    `上次扫描 / ${monitorTime(data.generated_at)}`;
-  document.getElementById("fiveBreak10RefreshHint").textContent =
-    `每 ${formatRefreshInterval(data.interval_seconds)}刷新 · ${monitorTime(data.generated_at)}`;
-
-  const active = Array.isArray(data.active) ? data.active : [];
-  const activeBody = document.getElementById("fiveBreak10ActiveBody");
-  activeBody.innerHTML = active
-    .map(
-      (row) => {
-        const tailStatus = row["尾盘是否入选"] || "待核查";
-        const tailTone = tailStatus.includes("不会")
-          ? "is-negative"
-          : tailStatus.includes("会入选")
-            ? "is-positive"
-            : "is-watch";
-        const groupRatio = Number(row["分组多占比%"]);
-        const ratioDate = String(row["分组多占比日期"] || "").slice(5);
-        const ratioText = Number.isFinite(groupRatio)
-          ? `多占比 ${groupRatio.toFixed(2)}%${ratioDate ? ` · ${ratioDate}` : ""}`
-          : "多占比 —";
-        return `
-        <tr class="fbl-qualified-row">
-          <td>${escapeMonitorText(monitorTime(row["扫描时间"]))}</td>
-          <td>${escapeMonitorText(monitorTime(row["首次入选时间"] || row["扫描时间"]))}</td>
-          <td>
-            <span class="fund-group-name">
-              <strong>${escapeMonitorText(row["判定分组"])}</strong>
-            </span>
-          </td>
-          <td>${ratioText}</td>
-          <td>${monitorNumber(row["综合评分"], 3)}</td>
-          <td>${monitorPct(row["建议单票仓位%"])}</td>
-          <td>${escapeMonitorText(row["代码"])}</td>
-          <td>${escapeMonitorText(row["名称"])}</td>
-          <td>${monitorNumber(row["当前价"])}</td>
-          <td class="${metricClass(row["当前涨幅%"])}">${monitorPct(row["当前涨幅%"])}</td>
-          <td>${monitorNumber(row["目标价"])}</td>
-          <td class="${metricClass(row["最低涨幅%"])}">${monitorPct(row["最低涨幅%"])}</td>
-          <td class="${metricClass(row["超过目标百分点"])}">${monitorPct(row["超过目标百分点"])}</td>
-          <td>${escapeMonitorText(row["行情时间"])}</td>
-          <td>
-            <div class="tail-verdict">
-              <span class="tail-badge ${tailTone}">${escapeMonitorText(tailStatus)}</span>
-              <small>${escapeMonitorText(row["尾盘判定原因"] || "等待行情确认")}</small>
-            </div>
-          </td>
-        </tr>`;
-      },
-    )
-    .join("");
-  document.getElementById("fiveBreak10Empty").hidden = active.length > 0;
-}
-
-function refreshFiveBreak10Data() {
-  const script = document.createElement("script");
-  script.src = `data/five_break_10_monitor.js?t=${Date.now()}`;
-  script.onload = () => {
-    fiveBreak10Monitor =
-      window.FIVE_BREAK_10_MONITOR || fiveBreak10Monitor;
-    fiveBreak10LastGeneratedAt =
-      fiveBreak10Monitor?.generated_at || fiveBreak10LastGeneratedAt;
-    renderFiveBreak10();
-    script.remove();
-  };
-  script.onerror = () => script.remove();
-  document.head.append(script);
-}
-
-function applyFiveBreak10Status(status) {
-  fiveBreak10ControlStatus = status;
-  if (status.running) {
-    setFiveBreak10Button("running", "停止盘中监控");
-  } else {
-    setFiveBreak10Button("stopped", "启动盘中监控");
-  }
-  if (
-    status.generated_at &&
-    status.generated_at !== fiveBreak10LastGeneratedAt
-  ) {
-    fiveBreak10LastGeneratedAt = status.generated_at;
-    refreshFiveBreak10Data();
-  } else {
-    renderFiveBreak10();
-  }
-}
-
-async function pollFiveBreak10Status() {
-  try {
-    applyFiveBreak10Status(
-      await collectorApi("/api/five-break-10/status"),
-    );
-  } catch {
-    fiveBreak10ControlStatus = null;
-    setFiveBreak10Button("offline", "需用启动网站.cmd", true);
-  }
-}
-
-async function initFiveBreak10Control() {
-  const button = document.getElementById("fiveBreak10Button");
-  if (!button) return;
-  renderFiveBreak10();
-
-  const localHosts = new Set(["127.0.0.1", "localhost", "::1"]);
-  if (
-    !["http:", "https:"].includes(location.protocol) ||
-    !localHosts.has(location.hostname)
-  ) {
-    setFiveBreak10Button("offline", "GitHub 只读模式", true);
-    window.setInterval(refreshFiveBreak10Data, FIVE_BREAK_10_INTERVAL_MS);
-    return;
-  }
-
-  await pollFiveBreak10Status();
-  button.addEventListener("click", async () => {
-    const running = Boolean(fiveBreak10ControlStatus?.running);
-    button.disabled = true;
-    try {
-      const status = await collectorApi(
-        running
-          ? "/api/five-break-10/stop"
-          : "/api/five-break-10/start",
-        "POST",
-      );
-      applyFiveBreak10Status(status);
-      showToast(running ? "盘中监控已停止" : "盘中监控已启动，每 60 秒更新");
-      window.setTimeout(refreshFiveBreak10Data, 1200);
-    } catch (error) {
-      setFiveBreak10Button("offline", "监控连接失败", false);
-      showToast(`无法控制盘中监控：${error.message}`);
-    }
-  });
-
-  window.setInterval(() => {
-    pollFiveBreak10Status();
-    refreshFiveBreak10Data();
-  }, FIVE_BREAK_10_INTERVAL_MS);
 }
 
 rankTabs.addEventListener("click", (event) => {
@@ -2361,4 +2114,3 @@ renderThemeRadarSections();
 initCollectorControl();
 initMasterMonitorControl();
 initAutoRefresh();
-initFiveBreak10Control();
