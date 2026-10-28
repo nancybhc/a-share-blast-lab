@@ -3109,6 +3109,15 @@ button {
   text-align: center;
 }
 
+.fbl-tail-note {
+  margin: 16px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted-2);
+  font-size: 9px;
+  line-height: 1.75;
+}
+
 .fbl-table-scroll {
   max-height: 500px;
   overflow: auto;
