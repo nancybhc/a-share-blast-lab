@@ -2144,7 +2144,11 @@ function renderTrendOverview() {
   }
 
   document.getElementById("insightTitle").innerHTML =
-    overview.positiveGroups <= 4 ? "修复收窄，<br>转空重新占优。" : "今天的强，<br>只属于少数。";
+    overview.positiveGroups <= 4
+      ? "修复收窄，<br>转空重新占优。"
+      : overview.positiveGroups > overview.groups * 0.6
+        ? "修复扩散，<br>转多重新占优。"
+        : "今天的强，<br>只属于少数。";
   document.getElementById("insightBody").textContent =
     `${overview.groups} 个分组中只有 ${overview.positiveGroups} 个净转多强度为正，${overview.negativeGroups} 个为负。` +
     `${robot.name}多头占比仍有 ${robot.bullPct.toFixed(1)}%，但只剩 ${robot.confirm} 只转多确认；` +
@@ -2194,6 +2198,14 @@ function renderTrendOverview() {
   if (briefLink) {
     briefLink.href = marketData.sourceBrief;
     briefLink.textContent = "下载原简报 ↘";
+  }
+  const footerText = document.querySelector(".site-footer p");
+  if (footerText) {
+    footerText.textContent =
+      `结构来源：MA5 / MA10 四阶段及 ${marketData.dataDate} ` +
+      `${marketData.isIntraday ? "盘中" : "盘后"}多空阶段报告。` +
+      "资金、芯片和题材以最近收盘数据为基准并单独标注。" +
+      "颜色规则：红涨、红流入、红改善；绿跌、绿流出、绿转弱。本页面仅作结构研究，不构成投资建议。";
   }
 }
 
