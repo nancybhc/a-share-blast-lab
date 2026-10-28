@@ -1,51 +1,51 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T12:11:59+08:00",
+  "generated_at": "2026-10-28T14:19:42+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
       "date": "2026-10-28",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 6.46,
+      "change_pct": 4.52,
       "constituents": 449,
-      "members": "减速器 +6.46% / 机器人执行器 +6.14% / 人形机器人 +5.81% / 机器视觉 +4.38%",
+      "members": "减速器 +4.52% / 机器人执行器 +4.35% / 人形机器人 +4.15% / 机器视觉 +2.95%",
       "rank": 1
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "CRO",
+      "representative": "CRO",
+      "change_pct": 4.49,
+      "constituents": 52,
+      "members": "CRO +4.49%",
+      "rank": 2
     },
     {
       "date": "2026-10-28",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 5.94,
+      "change_pct": 4.27,
       "constituents": 9,
-      "members": "噪声防治 +5.94%",
-      "rank": 2
+      "members": "噪声防治 +4.27%",
+      "rank": 3
     },
     {
       "date": "2026-10-28",
-      "theme": "工业互联网/新型工业化/工业母机",
-      "representative": "工业母机",
-      "change_pct": 5.31,
-      "constituents": 271,
-      "members": "工业母机 +5.31% / 新型工业化 +4.23% / 工业互联网 +2.65%",
-      "rank": 3
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 4.15,
+      "constituents": 43,
+      "members": "光刻机 +4.15%",
+      "rank": 4
     },
     {
       "date": "2026-10-28",
       "theme": "PEEK材料概念",
       "representative": "PEEK材料概念",
-      "change_pct": 5.08,
+      "change_pct": 4.15,
       "constituents": 49,
-      "members": "PEEK材料概念 +5.08%",
-      "rank": 4
-    },
-    {
-      "date": "2026-10-28",
-      "theme": "同步磁阻电机",
-      "representative": "同步磁阻电机",
-      "change_pct": 5.06,
-      "constituents": 7,
-      "members": "同步磁阻电机 +5.06%",
+      "members": "PEEK材料概念 +4.15%",
       "rank": 5
     }
   ],
@@ -55,20 +55,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 4.41,
+      "avg_change_pct": 3.77,
       "avg_rank": 1.3,
       "latest_rank": 1,
       "dates": "10-28、10-23、10-22"
-    },
-    {
-      "theme": "同步磁阻电机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.21,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "10-28、10-22"
     },
     {
       "theme": "PLC概念",
@@ -81,23 +71,33 @@ window.THEME_RADAR_DATA = {
       "dates": "10-23、10-22"
     },
     {
-      "theme": "噪声防治",
+      "theme": "CRO",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.94,
+      "avg_change_pct": 4.49,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-28"
     },
     {
-      "theme": "工业互联网/新型工业化/工业母机",
+      "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.31,
+      "avg_change_pct": 4.27,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "10-28"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.15,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "10-28"
     },
     {
@@ -105,9 +105,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.08,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 4.15,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "10-28"
     },
     {
@@ -189,6 +189,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-27"
+    },
+    {
+      "theme": "同步磁阻电机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.64,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "10-22"
     },
     {
       "theme": "虚拟机器人",
