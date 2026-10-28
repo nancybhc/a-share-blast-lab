@@ -1767,11 +1767,27 @@ function renderFiveBreak10() {
   const activeBody = document.getElementById("fiveBreak10ActiveBody");
   activeBody.innerHTML = active
     .map(
-      (row) => `
+      (row) => {
+        const tailStatus = row["尾盘是否入选"] || "待核查";
+        const tailTone = tailStatus.includes("不会")
+          ? "is-negative"
+          : tailStatus.includes("会入选")
+            ? "is-positive"
+            : "is-watch";
+        const groupRatio = Number(row["分组多占比%"]);
+        const ratioText = Number.isFinite(groupRatio)
+          ? `多占比 ${groupRatio.toFixed(2)}%`
+          : "多占比 —";
+        return `
         <tr class="fbl-qualified-row">
           <td>${escapeMonitorText(monitorTime(row["扫描时间"]))}</td>
           <td>${escapeMonitorText(monitorTime(row["首次入选时间"] || row["扫描时间"]))}</td>
-          <td>${escapeMonitorText(row["判定分组"])}</td>
+          <td>
+            <span class="fund-group-name">
+              <strong>${escapeMonitorText(row["判定分组"])}</strong>
+              <small>${ratioText}</small>
+            </span>
+          </td>
           <td>${escapeMonitorText(row["代码"])}</td>
           <td>${escapeMonitorText(row["名称"])}</td>
           <td>${monitorNumber(row["当前价"])}</td>
@@ -1780,7 +1796,14 @@ function renderFiveBreak10() {
           <td class="${metricClass(row["最低涨幅%"])}">${monitorPct(row["最低涨幅%"])}</td>
           <td class="${metricClass(row["超过目标百分点"])}">${monitorPct(row["超过目标百分点"])}</td>
           <td>${escapeMonitorText(row["行情时间"])}</td>
-        </tr>`,
+          <td>
+            <div class="tail-verdict">
+              <span class="tail-badge ${tailTone}">${escapeMonitorText(tailStatus)}</span>
+              <small>${escapeMonitorText(row["尾盘判定原因"] || "等待行情确认")}</small>
+            </div>
+          </td>
+        </tr>`;
+      },
     )
     .join("");
   document.getElementById("fiveBreak10Empty").hidden = active.length > 0;

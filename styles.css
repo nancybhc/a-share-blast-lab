@@ -3116,7 +3116,7 @@ button {
 
 .fbl-active-table {
   width: max-content;
-  min-width: 1040px;
+  min-width: 1280px;
 }
 
 .fbl-active-table th:nth-child(1),
@@ -3152,6 +3152,55 @@ button {
 .fbl-active-table th:nth-child(11) {
   width: 72px;
   min-width: 72px;
+}
+
+.fbl-active-table th:nth-child(12) {
+  width: 250px;
+  min-width: 250px;
+}
+
+.tail-verdict {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  white-space: normal;
+}
+
+.tail-badge {
+  display: inline-flex;
+  width: max-content;
+  padding: 3px 7px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tail-badge.is-positive {
+  border-color: rgba(var(--positive-rgb), 0.3);
+  color: var(--positive);
+  background: rgba(var(--positive-rgb), 0.06);
+}
+
+.tail-badge.is-watch {
+  border-color: rgba(var(--amber-rgb), 0.3);
+  color: var(--amber);
+  background: rgba(var(--amber-rgb), 0.06);
+}
+
+.tail-badge.is-negative {
+  border-color: rgba(var(--negative-rgb), 0.3);
+  color: var(--negative);
+  background: rgba(var(--negative-rgb), 0.06);
+}
+
+.tail-verdict small {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 9px;
+  line-height: 1.55;
 }
 
 .fbl-qualified-row {
