@@ -1,6 +1,6 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-10-28",
-  "generatedAt": "2026-10-28 23:42",
+  "generatedAt": "2026-10-28 23:53",
   "isIntraday": false,
   "sourceReport": "多空阶段_2026-10-28.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-10-28.xlsx",
@@ -1276,7 +1276,7 @@ window.MARKET_TREND_DATA = {
       "positive": 2,
       "negative": 3,
       "state": "修复延续",
-      "change": "转空合计 3 只（前日 6）",
+      "change": "转空合计 3 只（前日 7）",
       "action": "修复仍在延续，观察空转多能否继续向多迁移",
       "id": "grid-equipment",
       "code": "GRID EQUIPMENT",
@@ -1290,7 +1290,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 9/56，空头 40；空转多候选 3，今日转多确认 0，反向转空 4。转空合计 3 只（前日 6），修复仍在延续，观察空转多能否继续向多迁移。",
+      "thesis": "多头 9/56，空头 40；空转多候选 3，今日转多确认 0，反向转空 4。转空合计 3 只（前日 7），修复仍在延续，观察空转多能否继续向多迁移。",
       "history": [
         {
           "date": "2026-10-20",
@@ -1327,9 +1327,9 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-10-26",
           "bull": 10,
-          "turnBull": 4,
+          "turnBull": 5,
           "turnBear": 3,
-          "bear": 39,
+          "bear": 38,
           "bullPct": 17.86
         },
         {
