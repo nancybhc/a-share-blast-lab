@@ -1,51 +1,51 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T09:48:31+08:00",
+  "generated_at": "2026-10-28T10:21:39+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
       "date": "2026-10-28",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 3.11,
+      "change_pct": 4.31,
       "constituents": 449,
-      "members": "减速器 +3.11% / 机器人执行器 +3.04% / 人形机器人 +2.63% / 机器视觉 +2.28%",
+      "members": "减速器 +4.31% / 机器人执行器 +4.21% / 人形机器人 +3.65% / 机器视觉 +2.56%",
       "rank": 1
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "同步磁阻电机",
+      "representative": "同步磁阻电机",
+      "change_pct": 3.8,
+      "constituents": 7,
+      "members": "同步磁阻电机 +3.80%",
+      "rank": 2
     },
     {
       "date": "2026-10-28",
       "theme": "屏下摄像/3D摄像头",
       "representative": "3D摄像头",
-      "change_pct": 3.02,
+      "change_pct": 3.3,
       "constituents": 16,
-      "members": "3D摄像头 +3.02% / 屏下摄像 +1.12%",
-      "rank": 2
-    },
-    {
-      "date": "2026-10-28",
-      "theme": "国产芯片/存储芯片/汽车芯片",
-      "representative": "存储芯片",
-      "change_pct": 3.0,
-      "constituents": 516,
-      "members": "存储芯片 +3.00% / 汽车芯片 +2.86% / 国产芯片 +2.26%",
+      "members": "3D摄像头 +3.30% / 屏下摄像 +0.94%",
       "rank": 3
     },
     {
       "date": "2026-10-28",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 2.98,
-      "constituents": 66,
-      "members": "中芯概念 +2.98%",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 2.97,
+      "constituents": 9,
+      "members": "噪声防治 +2.97%",
       "rank": 4
     },
     {
       "date": "2026-10-28",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": 2.94,
-      "constituents": 4,
-      "members": "第四代半导体 +2.94%",
+      "theme": "裸眼3D",
+      "representative": "裸眼3D",
+      "change_pct": 2.9,
+      "constituents": 24,
+      "members": "裸眼3D +2.90%",
       "rank": 5
     }
   ],
@@ -55,19 +55,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 3.3,
+      "avg_change_pct": 3.7,
       "avg_rank": 1.3,
       "latest_rank": 1,
       "dates": "10-28、10-23、10-22"
+    },
+    {
+      "theme": "同步磁阻电机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.58,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
+      "dates": "10-28、10-22"
     },
     {
       "theme": "屏下摄像/3D摄像头",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.43,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
+      "avg_change_pct": 4.57,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "10-28、10-23"
     },
     {
@@ -81,31 +91,21 @@ window.THEME_RADAR_DATA = {
       "dates": "10-23、10-22"
     },
     {
-      "theme": "国产芯片/存储芯片/汽车芯片",
+      "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.0,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "10-28"
-    },
-    {
-      "theme": "中芯概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.98,
+      "avg_change_pct": 2.97,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "10-28"
     },
     {
-      "theme": "第四代半导体",
+      "theme": "裸眼3D",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.94,
+      "avg_change_pct": 2.9,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-28"
@@ -179,16 +179,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-27"
-    },
-    {
-      "theme": "同步磁阻电机",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.64,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "10-22"
     },
     {
       "theme": "虚拟机器人",

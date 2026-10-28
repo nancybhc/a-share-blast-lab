@@ -1,1 +1,1 @@
-window.FIVE_BREAK_10_MONITOR = {"available":true,"status":"scanning","signal_date":"2026-10-27","generated_at":"2026-10-28T10:09:41+08:00","market_date":"2026-10-28","interval_seconds":60.0,"plan_count":90,"active_count":0,"report":"多空阶段_2026-10-27.xlsx","process_id":3432,"active":[]};
+window.FIVE_BREAK_10_MONITOR = {"available":true,"status":"scanning","signal_date":"2026-10-27","generated_at":"2026-10-28T10:29:48+08:00","market_date":"2026-10-28","interval_seconds":60.0,"plan_count":90,"active_count":0,"report":"多空阶段_2026-10-27.xlsx","process_id":3432,"active":[]};
