@@ -1,0 +1,1329 @@
+{
+  "date": "2026-10-29",
+  "source": "东方财富板块收盘快照 f62、涨跌幅与上涨家数；日级资金趋势来自 fflow/daykline f52",
+  "method": "单个官方板块独立统计。当日主力、资金强度、涨跌幅、上涨广度和5日累计分别比较；不把成分重叠的不同板块相加。",
+  "segments": [
+    {
+      "code": "BK0891",
+      "name": "国产芯片",
+      "flow_yi": -214.6509,
+      "change_pct": -4.01,
+      "amount_yi": 3078.592,
+      "market_cap_yi": 165812.7616,
+      "main_ratio": -6.97,
+      "up_count": 44,
+      "down_count": 389,
+      "flat_count": 6,
+      "breadth_pct": 10.02,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 111.0214,
+      "day_change_yi": -325.6723,
+      "five_day_main_net_yi": -229.3241,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -107.7483,
+          "small_net_yi": 75.6118,
+          "medium_net_yi": 31.6655,
+          "large_net_yi": -45.9558,
+          "super_large_net_yi": -61.7926
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 79.9178,
+          "small_net_yi": -16.6815,
+          "medium_net_yi": -62.6411,
+          "large_net_yi": 7.4463,
+          "super_large_net_yi": 72.4715
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -86.8156,
+          "small_net_yi": 89.1808,
+          "medium_net_yi": -2.8738,
+          "large_net_yi": -29.8525,
+          "super_large_net_yi": -56.9631
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -118.7968,
+          "small_net_yi": 80.662,
+          "medium_net_yi": 37.3367,
+          "large_net_yi": -66.0337,
+          "super_large_net_yi": -52.7631
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 111.0214,
+          "small_net_yi": -53.3701,
+          "medium_net_yi": -57.5605,
+          "large_net_yi": 26.3306,
+          "super_large_net_yi": 84.6907
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -214.6509,
+          "small_net_yi": 136.4348,
+          "medium_net_yi": 77.3252,
+          "large_net_yi": -83.1607,
+          "super_large_net_yi": -131.4902
+        }
+      ],
+      "concept_day_rank": 6
+    },
+    {
+      "code": "BK0917",
+      "name": "半导体概念",
+      "flow_yi": -228.9924,
+      "change_pct": -4.55,
+      "amount_yi": 3222.1692,
+      "market_cap_yi": 170459.5302,
+      "main_ratio": -7.11,
+      "up_count": 28,
+      "down_count": 511,
+      "flat_count": 6,
+      "breadth_pct": 5.14,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 91.025,
+      "day_change_yi": -320.0174,
+      "five_day_main_net_yi": -343.5917,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -109.724,
+          "small_net_yi": 73.1294,
+          "medium_net_yi": 34.835,
+          "large_net_yi": -45.8632,
+          "super_large_net_yi": -63.8608
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 48.9093,
+          "small_net_yi": 4.8452,
+          "medium_net_yi": -52.5831,
+          "large_net_yi": -6.568,
+          "super_large_net_yi": 55.4773
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -106.6998,
+          "small_net_yi": 89.4863,
+          "medium_net_yi": 14.2369,
+          "large_net_yi": -36.3375,
+          "super_large_net_yi": -70.3623
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -147.8338,
+          "small_net_yi": 99.9648,
+          "medium_net_yi": 46.1048,
+          "large_net_yi": -80.5302,
+          "super_large_net_yi": -67.3037
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 91.025,
+          "small_net_yi": -22.5165,
+          "medium_net_yi": -67.0493,
+          "large_net_yi": 18.6007,
+          "super_large_net_yi": 72.4242
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -228.9924,
+          "small_net_yi": 145.6417,
+          "medium_net_yi": 80.3258,
+          "large_net_yi": -95.0557,
+          "super_large_net_yi": -133.9367
+        }
+      ],
+      "concept_day_rank": 7
+    },
+    {
+      "code": "BK1137",
+      "name": "存储芯片",
+      "flow_yi": -119.1554,
+      "change_pct": -5.38,
+      "amount_yi": 1608.5549,
+      "market_cap_yi": 90634.3654,
+      "main_ratio": -7.41,
+      "up_count": 6,
+      "down_count": 137,
+      "flat_count": 0,
+      "breadth_pct": 4.2,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 65.0092,
+      "day_change_yi": -184.1646,
+      "five_day_main_net_yi": -182.55,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -44.3935,
+          "small_net_yi": 33.7856,
+          "medium_net_yi": 11.1496,
+          "large_net_yi": -21.8303,
+          "super_large_net_yi": -22.5632
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 26.4719,
+          "small_net_yi": -8.2,
+          "medium_net_yi": -18.3056,
+          "large_net_yi": -1.6921,
+          "super_large_net_yi": 28.1639
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -85.6136,
+          "small_net_yi": 67.7387,
+          "medium_net_yi": 16.8145,
+          "large_net_yi": -31.5342,
+          "super_large_net_yi": -54.0794
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -69.2621,
+          "small_net_yi": 42.6589,
+          "medium_net_yi": 26.1558,
+          "large_net_yi": -40.7482,
+          "super_large_net_yi": -28.514
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 65.0092,
+          "small_net_yi": -40.2859,
+          "medium_net_yi": -24.5782,
+          "large_net_yi": 17.2722,
+          "super_large_net_yi": 47.737
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -119.1554,
+          "small_net_yi": 78.6346,
+          "medium_net_yi": 39.9663,
+          "large_net_yi": -44.4396,
+          "super_large_net_yi": -74.7158
+        }
+      ],
+      "concept_day_rank": 5
+    },
+    {
+      "code": "BK1127",
+      "name": "AI芯片",
+      "flow_yi": -28.0273,
+      "change_pct": -4.8,
+      "amount_yi": 376.3959,
+      "market_cap_yi": 22516.0226,
+      "main_ratio": -7.45,
+      "up_count": 1,
+      "down_count": 38,
+      "flat_count": 0,
+      "breadth_pct": 2.56,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 21.3509,
+      "day_change_yi": -49.3782,
+      "five_day_main_net_yi": 12.9685,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -12.4155,
+          "small_net_yi": 4.8298,
+          "medium_net_yi": 7.5585,
+          "large_net_yi": 2.2008,
+          "super_large_net_yi": -14.6163
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 23.8483,
+          "small_net_yi": -6.0444,
+          "medium_net_yi": -17.7873,
+          "large_net_yi": 5.7168,
+          "super_large_net_yi": 18.1315
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": 15.8424,
+          "small_net_yi": -1.0153,
+          "medium_net_yi": -14.8674,
+          "large_net_yi": 14.4595,
+          "super_large_net_yi": 1.383
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -20.0458,
+          "small_net_yi": 5.5206,
+          "medium_net_yi": 14.4676,
+          "large_net_yi": -6.9048,
+          "super_large_net_yi": -13.141
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 21.3509,
+          "small_net_yi": -7.8151,
+          "medium_net_yi": -13.4458,
+          "large_net_yi": 6.2268,
+          "super_large_net_yi": 15.1241
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -28.0273,
+          "small_net_yi": 9.7952,
+          "medium_net_yi": 18.1589,
+          "large_net_yi": -6.2386,
+          "super_large_net_yi": -21.7888
+        }
+      ],
+      "concept_day_rank": 2
+    },
+    {
+      "code": "BK0969",
+      "name": "汽车芯片",
+      "flow_yi": -39.2644,
+      "change_pct": -4.78,
+      "amount_yi": 583.9489,
+      "market_cap_yi": 17490.5237,
+      "main_ratio": -6.72,
+      "up_count": 4,
+      "down_count": 73,
+      "flat_count": 0,
+      "breadth_pct": 5.19,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 34.118,
+      "day_change_yi": -73.3824,
+      "five_day_main_net_yi": -10.7871,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -17.7296,
+          "small_net_yi": 15.8964,
+          "medium_net_yi": 1.9714,
+          "large_net_yi": -5.7037,
+          "super_large_net_yi": -12.0258
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 29.4043,
+          "small_net_yi": -12.7652,
+          "medium_net_yi": -16.5189,
+          "large_net_yi": 11.0274,
+          "super_large_net_yi": 18.3769
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -18.1848,
+          "small_net_yi": 11.7152,
+          "medium_net_yi": 6.1168,
+          "large_net_yi": -5.9649,
+          "super_large_net_yi": -12.2199
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -16.8602,
+          "small_net_yi": 13.9523,
+          "medium_net_yi": 2.8826,
+          "large_net_yi": -6.6662,
+          "super_large_net_yi": -10.194
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 34.118,
+          "small_net_yi": -16.1924,
+          "medium_net_yi": -17.8652,
+          "large_net_yi": 5.207,
+          "super_large_net_yi": 28.911
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -39.2644,
+          "small_net_yi": 22.0784,
+          "medium_net_yi": 17.0527,
+          "large_net_yi": -10.3954,
+          "super_large_net_yi": -28.8689
+        }
+      ],
+      "concept_day_rank": 4
+    },
+    {
+      "code": "BK0952",
+      "name": "第三代半导体",
+      "flow_yi": -36.9586,
+      "change_pct": -3.86,
+      "amount_yi": 617.1126,
+      "market_cap_yi": 24095.3056,
+      "main_ratio": -5.99,
+      "up_count": 9,
+      "down_count": 111,
+      "flat_count": 2,
+      "breadth_pct": 7.38,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 12.6129,
+      "day_change_yi": -49.5715,
+      "five_day_main_net_yi": -102.9765,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -32.0596,
+          "small_net_yi": 28.9313,
+          "medium_net_yi": 2.9053,
+          "large_net_yi": -17.1444,
+          "super_large_net_yi": -14.9152
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": -0.856,
+          "small_net_yi": 9.8904,
+          "medium_net_yi": -9.0558,
+          "large_net_yi": -9.7549,
+          "super_large_net_yi": 8.8989
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -40.0682,
+          "small_net_yi": 31.2655,
+          "medium_net_yi": 8.486,
+          "large_net_yi": -17.3731,
+          "super_large_net_yi": -22.6951
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -37.7066,
+          "small_net_yi": 30.0705,
+          "medium_net_yi": 7.3765,
+          "large_net_yi": -19.8001,
+          "super_large_net_yi": -17.9066
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 12.6129,
+          "small_net_yi": 2.7265,
+          "medium_net_yi": -15.0541,
+          "large_net_yi": 2.7091,
+          "super_large_net_yi": 9.9038
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -36.9586,
+          "small_net_yi": 32.8915,
+          "medium_net_yi": 4.0536,
+          "large_net_yi": -17.3934,
+          "super_large_net_yi": -19.5652
+        }
+      ],
+      "concept_day_rank": 3
+    },
+    {
+      "code": "BK1121",
+      "name": "第四代半导体",
+      "flow_yi": -0.9714,
+      "change_pct": -3.18,
+      "amount_yi": 12.9801,
+      "market_cap_yi": 880.9001,
+      "main_ratio": -7.48,
+      "up_count": 0,
+      "down_count": 4,
+      "flat_count": 0,
+      "breadth_pct": 0.0,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": -0.136,
+      "day_change_yi": -0.8354,
+      "five_day_main_net_yi": -3.0146,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -0.5008,
+          "small_net_yi": 0.6141,
+          "medium_net_yi": -0.1134,
+          "large_net_yi": -0.3351,
+          "super_large_net_yi": -0.1657
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": -0.9226,
+          "small_net_yi": 1.3303,
+          "medium_net_yi": -0.4077,
+          "large_net_yi": -0.5553,
+          "super_large_net_yi": -0.3672
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -0.7432,
+          "small_net_yi": 0.3645,
+          "medium_net_yi": 0.3787,
+          "large_net_yi": -0.4023,
+          "super_large_net_yi": -0.3409
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -0.2414,
+          "small_net_yi": 0.3125,
+          "medium_net_yi": -0.0711,
+          "large_net_yi": -0.1568,
+          "super_large_net_yi": -0.0846
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": -0.136,
+          "small_net_yi": 0.5719,
+          "medium_net_yi": -0.4359,
+          "large_net_yi": -0.265,
+          "super_large_net_yi": 0.129
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -0.9714,
+          "small_net_yi": 0.7034,
+          "medium_net_yi": 0.268,
+          "large_net_yi": -0.5672,
+          "super_large_net_yi": -0.4042
+        }
+      ],
+      "concept_day_rank": 1
+    },
+    {
+      "code": "BK1036",
+      "name": "半导体",
+      "flow_yi": -136.3991,
+      "change_pct": -5.55,
+      "amount_yi": 1892.645,
+      "market_cap_yi": 110169.0957,
+      "main_ratio": -7.21,
+      "up_count": 7,
+      "down_count": 181,
+      "flat_count": 0,
+      "breadth_pct": 3.72,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 68.9079,
+      "day_change_yi": -205.307,
+      "five_day_main_net_yi": -123.9995,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -54.6435,
+          "small_net_yi": 25.4042,
+          "medium_net_yi": 29.2126,
+          "large_net_yi": -19.6098,
+          "super_large_net_yi": -35.0337
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 68.6872,
+          "small_net_yi": -31.4745,
+          "medium_net_yi": -36.9727,
+          "large_net_yi": 12.9795,
+          "super_large_net_yi": 55.7077
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -48.7291,
+          "small_net_yi": 37.4864,
+          "medium_net_yi": 10.5764,
+          "large_net_yi": -6.9527,
+          "super_large_net_yi": -41.7764
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -76.4664,
+          "small_net_yi": 40.1918,
+          "medium_net_yi": 36.2152,
+          "large_net_yi": -44.0061,
+          "super_large_net_yi": -32.4604
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 68.9079,
+          "small_net_yi": -25.5079,
+          "medium_net_yi": -43.3288,
+          "large_net_yi": 10.9963,
+          "super_large_net_yi": 57.9116
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -136.3991,
+          "small_net_yi": 67.3007,
+          "medium_net_yi": 68.5744,
+          "large_net_yi": -48.832,
+          "super_large_net_yi": -87.5671
+        }
+      ],
+      "industry_day_rank": 6
+    },
+    {
+      "code": "BK1331",
+      "name": "数字芯片设计",
+      "flow_yi": -65.3325,
+      "change_pct": -5.69,
+      "amount_yi": 928.1263,
+      "market_cap_yi": 61413.3888,
+      "main_ratio": -7.04,
+      "up_count": 2,
+      "down_count": 54,
+      "flat_count": 0,
+      "breadth_pct": 3.57,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 57.2743,
+      "day_change_yi": -122.6068,
+      "five_day_main_net_yi": 33.0573,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -18.7465,
+          "small_net_yi": 10.8834,
+          "medium_net_yi": 7.7455,
+          "large_net_yi": 4.3051,
+          "super_large_net_yi": -23.0516
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 62.4553,
+          "small_net_yi": -29.2435,
+          "medium_net_yi": -33.1226,
+          "large_net_yi": 19.0161,
+          "super_large_net_yi": 43.4392
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": 9.9034,
+          "small_net_yi": 5.2505,
+          "medium_net_yi": -15.1852,
+          "large_net_yi": 18.4832,
+          "super_large_net_yi": -8.5798
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -31.2432,
+          "small_net_yi": 14.8198,
+          "medium_net_yi": 16.3365,
+          "large_net_yi": -11.6108,
+          "super_large_net_yi": -19.6324
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 57.2743,
+          "small_net_yi": -25.0806,
+          "medium_net_yi": -32.2479,
+          "large_net_yi": 12.4598,
+          "super_large_net_yi": 44.8145
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -65.3325,
+          "small_net_yi": 27.2786,
+          "medium_net_yi": 37.8737,
+          "large_net_yi": -16.6022,
+          "super_large_net_yi": -48.7302
+        }
+      ],
+      "industry_day_rank": 5
+    },
+    {
+      "code": "BK1330",
+      "name": "模拟芯片设计",
+      "flow_yi": -2.7036,
+      "change_pct": -4.98,
+      "amount_yi": 132.358,
+      "market_cap_yi": 5024.2176,
+      "main_ratio": -2.04,
+      "up_count": 3,
+      "down_count": 33,
+      "flat_count": 0,
+      "breadth_pct": 8.33,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 1.2513,
+      "day_change_yi": -3.9549,
+      "five_day_main_net_yi": 9.5139,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -4.8096,
+          "small_net_yi": 5.3483,
+          "medium_net_yi": -0.5387,
+          "large_net_yi": -2.0173,
+          "super_large_net_yi": -2.7923
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 4.8339,
+          "small_net_yi": -2.8385,
+          "medium_net_yi": -1.9954,
+          "large_net_yi": 2.4882,
+          "super_large_net_yi": 2.3457
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": 4.5808,
+          "small_net_yi": -6.1197,
+          "medium_net_yi": 1.5389,
+          "large_net_yi": 3.9515,
+          "super_large_net_yi": 0.6292
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": 1.5515,
+          "small_net_yi": 0.9869,
+          "medium_net_yi": -2.5385,
+          "large_net_yi": 1.1976,
+          "super_large_net_yi": 0.3539
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 1.2513,
+          "small_net_yi": -0.1566,
+          "medium_net_yi": -1.0947,
+          "large_net_yi": 0.9456,
+          "super_large_net_yi": 0.3057
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -2.7036,
+          "small_net_yi": -0.7244,
+          "medium_net_yi": 3.428,
+          "large_net_yi": 0.1319,
+          "super_large_net_yi": -2.8355
+        }
+      ],
+      "industry_day_rank": 1
+    },
+    {
+      "code": "BK1328",
+      "name": "集成电路封测",
+      "flow_yi": -18.4636,
+      "change_pct": -6.03,
+      "amount_yi": 132.2267,
+      "market_cap_yi": 3082.1776,
+      "main_ratio": -13.96,
+      "up_count": 0,
+      "down_count": 13,
+      "flat_count": 0,
+      "breadth_pct": 0.0,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 7.7428,
+      "day_change_yi": -26.2064,
+      "five_day_main_net_yi": -30.0012,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": 10.2786,
+          "small_net_yi": -5.6053,
+          "medium_net_yi": -4.5351,
+          "large_net_yi": -4.3786,
+          "super_large_net_yi": 14.6571
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 4.7166,
+          "small_net_yi": -2.7212,
+          "medium_net_yi": -1.8752,
+          "large_net_yi": 1.8155,
+          "super_large_net_yi": 2.9011
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -21.1774,
+          "small_net_yi": 16.7729,
+          "medium_net_yi": 4.0516,
+          "large_net_yi": -8.8944,
+          "super_large_net_yi": -12.283
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -2.8196,
+          "small_net_yi": 3.1564,
+          "medium_net_yi": -0.3621,
+          "large_net_yi": -1.7202,
+          "super_large_net_yi": -1.0994
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 7.7428,
+          "small_net_yi": -3.4371,
+          "medium_net_yi": -4.2454,
+          "large_net_yi": 0.9598,
+          "super_large_net_yi": 6.7831
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -18.4636,
+          "small_net_yi": 16.6292,
+          "medium_net_yi": 1.7011,
+          "large_net_yi": -7.9768,
+          "super_large_net_yi": -10.4868
+        }
+      ],
+      "industry_day_rank": 4
+    },
+    {
+      "code": "BK1325",
+      "name": "半导体材料",
+      "flow_yi": -12.7433,
+      "change_pct": -5.85,
+      "amount_yi": 192.8192,
+      "market_cap_yi": 6948.1008,
+      "main_ratio": -6.61,
+      "up_count": 1,
+      "down_count": 31,
+      "flat_count": 0,
+      "breadth_pct": 3.12,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": -1.6601,
+      "day_change_yi": -11.0832,
+      "five_day_main_net_yi": -33.8464,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -6.184,
+          "small_net_yi": 8.9435,
+          "medium_net_yi": -2.8068,
+          "large_net_yi": -3.3173,
+          "super_large_net_yi": -2.8667
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": -5.7419,
+          "small_net_yi": 6.2029,
+          "medium_net_yi": -0.4305,
+          "large_net_yi": -2.0061,
+          "super_large_net_yi": -3.7358
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -8.8368,
+          "small_net_yi": 7.6967,
+          "medium_net_yi": 0.8578,
+          "large_net_yi": -5.2423,
+          "super_large_net_yi": -3.5945
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -4.8643,
+          "small_net_yi": 6.5267,
+          "medium_net_yi": -1.6095,
+          "large_net_yi": -3.2707,
+          "super_large_net_yi": -1.5936
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": -1.6601,
+          "small_net_yi": 1.5188,
+          "medium_net_yi": 0.2065,
+          "large_net_yi": 3.7296,
+          "super_large_net_yi": -5.3897
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -12.7433,
+          "small_net_yi": 8.9288,
+          "medium_net_yi": 3.6039,
+          "large_net_yi": -6.1271,
+          "super_large_net_yi": -6.6162
+        }
+      ],
+      "industry_day_rank": 2
+    },
+    {
+      "code": "BK1326",
+      "name": "半导体设备",
+      "flow_yi": -16.8334,
+      "change_pct": -6.03,
+      "amount_yi": 285.6272,
+      "market_cap_yi": 14230.1454,
+      "main_ratio": -5.89,
+      "up_count": 0,
+      "down_count": 25,
+      "flat_count": 0,
+      "breadth_pct": 0.0,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 8.3799,
+      "day_change_yi": -25.2133,
+      "five_day_main_net_yi": -62.297,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -21.4225,
+          "small_net_yi": 1.3606,
+          "medium_net_yi": 20.0619,
+          "large_net_yi": -10.9391,
+          "super_large_net_yi": -10.4834
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": -8.951,
+          "small_net_yi": 2.4353,
+          "medium_net_yi": 6.5157,
+          "large_net_yi": -8.5079,
+          "super_large_net_yi": -0.4431
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -15.822,
+          "small_net_yi": 8.2027,
+          "medium_net_yi": 7.6192,
+          "large_net_yi": -10.1877,
+          "super_large_net_yi": -5.6343
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -29.0705,
+          "small_net_yi": 9.4955,
+          "medium_net_yi": 19.5751,
+          "large_net_yi": -23.0062,
+          "super_large_net_yi": -6.0643
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 8.3799,
+          "small_net_yi": 0.6864,
+          "medium_net_yi": -9.0663,
+          "large_net_yi": 0.4262,
+          "super_large_net_yi": 7.9537
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -16.8334,
+          "small_net_yi": 4.7885,
+          "medium_net_yi": 12.0449,
+          "large_net_yi": -8.4356,
+          "super_large_net_yi": -8.3978
+        }
+      ],
+      "industry_day_rank": 3
+    }
+  ],
+  "highlights": {
+    "single_day_concept_leader": {
+      "code": "BK0891",
+      "name": "国产芯片",
+      "flow_yi": -214.6509,
+      "change_pct": -4.01,
+      "amount_yi": 3078.592,
+      "market_cap_yi": 165812.7616,
+      "main_ratio": -6.97,
+      "up_count": 44,
+      "down_count": 389,
+      "flat_count": 6,
+      "breadth_pct": 10.02,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 111.0214,
+      "day_change_yi": -325.6723,
+      "five_day_main_net_yi": -229.3241,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -107.7483,
+          "small_net_yi": 75.6118,
+          "medium_net_yi": 31.6655,
+          "large_net_yi": -45.9558,
+          "super_large_net_yi": -61.7926
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 79.9178,
+          "small_net_yi": -16.6815,
+          "medium_net_yi": -62.6411,
+          "large_net_yi": 7.4463,
+          "super_large_net_yi": 72.4715
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -86.8156,
+          "small_net_yi": 89.1808,
+          "medium_net_yi": -2.8738,
+          "large_net_yi": -29.8525,
+          "super_large_net_yi": -56.9631
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -118.7968,
+          "small_net_yi": 80.662,
+          "medium_net_yi": 37.3367,
+          "large_net_yi": -66.0337,
+          "super_large_net_yi": -52.7631
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 111.0214,
+          "small_net_yi": -53.3701,
+          "medium_net_yi": -57.5605,
+          "large_net_yi": 26.3306,
+          "super_large_net_yi": 84.6907
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -214.6509,
+          "small_net_yi": 136.4348,
+          "medium_net_yi": 77.3252,
+          "large_net_yi": -83.1607,
+          "super_large_net_yi": -131.4902
+        }
+      ],
+      "concept_day_rank": 6
+    },
+    "single_day_industry_leader": {
+      "code": "BK1036",
+      "name": "半导体",
+      "flow_yi": -136.3991,
+      "change_pct": -5.55,
+      "amount_yi": 1892.645,
+      "market_cap_yi": 110169.0957,
+      "main_ratio": -7.21,
+      "up_count": 7,
+      "down_count": 181,
+      "flat_count": 0,
+      "breadth_pct": 3.72,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 68.9079,
+      "day_change_yi": -205.307,
+      "five_day_main_net_yi": -123.9995,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -54.6435,
+          "small_net_yi": 25.4042,
+          "medium_net_yi": 29.2126,
+          "large_net_yi": -19.6098,
+          "super_large_net_yi": -35.0337
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 68.6872,
+          "small_net_yi": -31.4745,
+          "medium_net_yi": -36.9727,
+          "large_net_yi": 12.9795,
+          "super_large_net_yi": 55.7077
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -48.7291,
+          "small_net_yi": 37.4864,
+          "medium_net_yi": 10.5764,
+          "large_net_yi": -6.9527,
+          "super_large_net_yi": -41.7764
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -76.4664,
+          "small_net_yi": 40.1918,
+          "medium_net_yi": 36.2152,
+          "large_net_yi": -44.0061,
+          "super_large_net_yi": -32.4604
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 68.9079,
+          "small_net_yi": -25.5079,
+          "medium_net_yi": -43.3288,
+          "large_net_yi": 10.9963,
+          "super_large_net_yi": 57.9116
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -136.3991,
+          "small_net_yi": 67.3007,
+          "medium_net_yi": 68.5744,
+          "large_net_yi": -48.832,
+          "super_large_net_yi": -87.5671
+        }
+      ],
+      "industry_day_rank": 6
+    },
+    "five_day_leader": {
+      "code": "BK1331",
+      "name": "数字芯片设计",
+      "flow_yi": -65.3325,
+      "change_pct": -5.69,
+      "amount_yi": 928.1263,
+      "market_cap_yi": 61413.3888,
+      "main_ratio": -7.04,
+      "up_count": 2,
+      "down_count": 54,
+      "flat_count": 0,
+      "breadth_pct": 3.57,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 57.2743,
+      "day_change_yi": -122.6068,
+      "five_day_main_net_yi": 33.0573,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -18.7465,
+          "small_net_yi": 10.8834,
+          "medium_net_yi": 7.7455,
+          "large_net_yi": 4.3051,
+          "super_large_net_yi": -23.0516
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 62.4553,
+          "small_net_yi": -29.2435,
+          "medium_net_yi": -33.1226,
+          "large_net_yi": 19.0161,
+          "super_large_net_yi": 43.4392
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": 9.9034,
+          "small_net_yi": 5.2505,
+          "medium_net_yi": -15.1852,
+          "large_net_yi": 18.4832,
+          "super_large_net_yi": -8.5798
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -31.2432,
+          "small_net_yi": 14.8198,
+          "medium_net_yi": 16.3365,
+          "large_net_yi": -11.6108,
+          "super_large_net_yi": -19.6324
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 57.2743,
+          "small_net_yi": -25.0806,
+          "medium_net_yi": -32.2479,
+          "large_net_yi": 12.4598,
+          "super_large_net_yi": 44.8145
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -65.3325,
+          "small_net_yi": 27.2786,
+          "medium_net_yi": 37.8737,
+          "large_net_yi": -16.6022,
+          "super_large_net_yi": -48.7302
+        }
+      ],
+      "industry_day_rank": 5
+    },
+    "flow_efficiency_leader": {
+      "code": "BK1330",
+      "name": "模拟芯片设计",
+      "flow_yi": -2.7036,
+      "change_pct": -4.98,
+      "amount_yi": 132.358,
+      "market_cap_yi": 5024.2176,
+      "main_ratio": -2.04,
+      "up_count": 3,
+      "down_count": 33,
+      "flat_count": 0,
+      "breadth_pct": 8.33,
+      "taxonomy": "industry",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 1.2513,
+      "day_change_yi": -3.9549,
+      "five_day_main_net_yi": 9.5139,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -4.8096,
+          "small_net_yi": 5.3483,
+          "medium_net_yi": -0.5387,
+          "large_net_yi": -2.0173,
+          "super_large_net_yi": -2.7923
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 4.8339,
+          "small_net_yi": -2.8385,
+          "medium_net_yi": -1.9954,
+          "large_net_yi": 2.4882,
+          "super_large_net_yi": 2.3457
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": 4.5808,
+          "small_net_yi": -6.1197,
+          "medium_net_yi": 1.5389,
+          "large_net_yi": 3.9515,
+          "super_large_net_yi": 0.6292
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": 1.5515,
+          "small_net_yi": 0.9869,
+          "medium_net_yi": -2.5385,
+          "large_net_yi": 1.1976,
+          "super_large_net_yi": 0.3539
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 1.2513,
+          "small_net_yi": -0.1566,
+          "medium_net_yi": -1.0947,
+          "large_net_yi": 0.9456,
+          "super_large_net_yi": 0.3057
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -2.7036,
+          "small_net_yi": -0.7244,
+          "medium_net_yi": 3.428,
+          "large_net_yi": 0.1319,
+          "super_large_net_yi": -2.8355
+        }
+      ],
+      "industry_day_rank": 1
+    },
+    "breadth_leader": {
+      "code": "BK0891",
+      "name": "国产芯片",
+      "flow_yi": -214.6509,
+      "change_pct": -4.01,
+      "amount_yi": 3078.592,
+      "market_cap_yi": 165812.7616,
+      "main_ratio": -6.97,
+      "up_count": 44,
+      "down_count": 389,
+      "flat_count": 6,
+      "breadth_pct": 10.02,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 111.0214,
+      "day_change_yi": -325.6723,
+      "five_day_main_net_yi": -229.3241,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -107.7483,
+          "small_net_yi": 75.6118,
+          "medium_net_yi": 31.6655,
+          "large_net_yi": -45.9558,
+          "super_large_net_yi": -61.7926
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 79.9178,
+          "small_net_yi": -16.6815,
+          "medium_net_yi": -62.6411,
+          "large_net_yi": 7.4463,
+          "super_large_net_yi": 72.4715
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -86.8156,
+          "small_net_yi": 89.1808,
+          "medium_net_yi": -2.8738,
+          "large_net_yi": -29.8525,
+          "super_large_net_yi": -56.9631
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -118.7968,
+          "small_net_yi": 80.662,
+          "medium_net_yi": 37.3367,
+          "large_net_yi": -66.0337,
+          "super_large_net_yi": -52.7631
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 111.0214,
+          "small_net_yi": -53.3701,
+          "medium_net_yi": -57.5605,
+          "large_net_yi": 26.3306,
+          "super_large_net_yi": 84.6907
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -214.6509,
+          "small_net_yi": 136.4348,
+          "medium_net_yi": 77.3252,
+          "large_net_yi": -83.1607,
+          "super_large_net_yi": -131.4902
+        }
+      ],
+      "concept_day_rank": 6
+    },
+    "weakest_five_day": {
+      "code": "BK0917",
+      "name": "半导体概念",
+      "flow_yi": -228.9924,
+      "change_pct": -4.55,
+      "amount_yi": 3222.1692,
+      "market_cap_yi": 170459.5302,
+      "main_ratio": -7.11,
+      "up_count": 28,
+      "down_count": 511,
+      "flat_count": 6,
+      "breadth_pct": 5.14,
+      "taxonomy": "concept",
+      "source_host": "https://push2test.eastmoney.com/api/qt/stock/fflow/daykline/get",
+      "previous_day_yi": 91.025,
+      "day_change_yi": -320.0174,
+      "five_day_main_net_yi": -343.5917,
+      "history": [
+        {
+          "date": "2026-10-22",
+          "main_net_yi": -109.724,
+          "small_net_yi": 73.1294,
+          "medium_net_yi": 34.835,
+          "large_net_yi": -45.8632,
+          "super_large_net_yi": -63.8608
+        },
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 48.9093,
+          "small_net_yi": 4.8452,
+          "medium_net_yi": -52.5831,
+          "large_net_yi": -6.568,
+          "super_large_net_yi": 55.4773
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -106.6998,
+          "small_net_yi": 89.4863,
+          "medium_net_yi": 14.2369,
+          "large_net_yi": -36.3375,
+          "super_large_net_yi": -70.3623
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -147.8338,
+          "small_net_yi": 99.9648,
+          "medium_net_yi": 46.1048,
+          "large_net_yi": -80.5302,
+          "super_large_net_yi": -67.3037
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 91.025,
+          "small_net_yi": -22.5165,
+          "medium_net_yi": -67.0493,
+          "large_net_yi": 18.6007,
+          "super_large_net_yi": 72.4242
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": -228.9924,
+          "small_net_yi": 145.6417,
+          "medium_net_yi": 80.3258,
+          "large_net_yi": -95.0557,
+          "super_large_net_yi": -133.9367
+        }
+      ],
+      "concept_day_rank": 7
+    }
+  },
+  "custom_reference": {
+    "name": "远航版·半导体芯片",
+    "constituents": 50,
+    "single_day_yi": -32.66,
+    "day_change_yi": -69.53,
+    "five_day_main_net_yi": 25.59,
+    "structure_strength": -8.0,
+    "note": "自定义成分与官方板块不同，只作结构参照，不参与官方细分排名。"
+  }
+}
