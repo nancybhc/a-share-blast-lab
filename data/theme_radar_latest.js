@@ -1,51 +1,51 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T12:33:33+08:00",
+  "generated_at": "2026-10-29T14:59:07+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
       "date": "2026-10-29",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 1.24,
+      "change_pct": 0.42,
       "constituents": 145,
-      "members": "空间站概念 +1.24% / 卫星导航 +0.05% / 航天航空 -0.43%",
+      "members": "空间站概念 +0.42% / 卫星导航 -0.82% / 航天航空 -1.04%",
       "rank": 1
-    },
-    {
-      "date": "2026-10-29",
-      "theme": "大飞机",
-      "representative": "大飞机",
-      "change_pct": 0.22,
-      "constituents": 102,
-      "members": "大飞机 +0.22%",
-      "rank": 2
     },
     {
       "date": "2026-10-29",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -0.1,
+      "change_pct": 0.35,
       "constituents": 82,
-      "members": "大盘价值 -0.10%",
+      "members": "大盘价值 +0.35%",
+      "rank": 2
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": -0.05,
+      "constituents": 17,
+      "members": "水产概念 -0.05%",
       "rank": 3
     },
     {
       "date": "2026-10-29",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": -0.15,
-      "constituents": 65,
-      "members": "影视概念 -0.15%",
+      "theme": "大飞机",
+      "representative": "大飞机",
+      "change_pct": -0.29,
+      "constituents": 102,
+      "members": "大飞机 -0.29%",
       "rank": 4
     },
     {
       "date": "2026-10-29",
-      "theme": "冰雪经济",
-      "representative": "冰雪经济",
-      "change_pct": -0.24,
-      "constituents": 42,
-      "members": "冰雪经济 -0.24%",
+      "theme": "航母概念",
+      "representative": "航母概念",
+      "change_pct": -0.38,
+      "constituents": 32,
+      "members": "航母概念 -0.38%",
       "rank": 5
     }
   ],
@@ -55,19 +55,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.02,
-      "avg_rank": 2.5,
-      "latest_rank": 3,
-      "dates": "10-29、10-27"
-    },
-    {
-      "theme": "冰雪经济",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": -0.51,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.24,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "10-29、10-27"
     },
     {
@@ -85,9 +75,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.24,
+      "avg_change_pct": 0.42,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "10-29"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.05,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "10-29"
     },
     {
@@ -95,19 +95,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.22,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": -0.29,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "10-29"
     },
     {
-      "theme": "影视概念",
+      "theme": "航母概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.15,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -0.38,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "10-29"
     },
     {
@@ -269,6 +269,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-26"
+    },
+    {
+      "theme": "冰雪经济",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.77,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "10-27"
     }
   ]
 };
