@@ -29,6 +29,7 @@ GROUP_META = {
     "药": ("pharma", "PHARMA"),
     "电力": ("power", "POWER"),
     "电网设备": ("grid-equipment", "GRID EQUIPMENT"),
+    "商业航天": ("aerospace", "AEROSPACE"),
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
 EXCLUDED_GROUPS = {"黄金白银"}

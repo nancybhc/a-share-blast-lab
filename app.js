@@ -1950,7 +1950,7 @@ function renderTrendOverview() {
   document.getElementById("insightTitle").innerHTML =
     overview.positiveGroups <= 4
       ? "修复收窄，<br>转空重新占优。"
-      : overview.positiveGroups > overview.groups * 0.6
+      : overview.positiveGroups > overview.groups * 0.5
         ? "修复扩散，<br>转多重新占优。"
         : "今天的强，<br>只属于少数。";
   document.getElementById("insightBody").textContent =
