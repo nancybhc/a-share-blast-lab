@@ -1,114 +1,124 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T18:09:48+08:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T12:33:33+08:00",
   "source": "当日题材强度",
   "daily_top": [
     {
-      "date": "2026-10-28",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 5.14,
-      "constituents": 449,
-      "members": "减速器 +5.14% / 机器人执行器 +5.04% / 人形机器人 +4.68% / 机器视觉 +3.35%",
+      "date": "2026-10-29",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 1.24,
+      "constituents": 145,
+      "members": "空间站概念 +1.24% / 卫星导航 +0.05% / 航天航空 -0.43%",
       "rank": 1
     },
     {
-      "date": "2026-10-28",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 4.95,
-      "constituents": 43,
-      "members": "光刻机 +4.95%",
+      "date": "2026-10-29",
+      "theme": "大飞机",
+      "representative": "大飞机",
+      "change_pct": 0.22,
+      "constituents": 102,
+      "members": "大飞机 +0.22%",
       "rank": 2
     },
     {
-      "date": "2026-10-28",
-      "theme": "CRO",
-      "representative": "CRO",
-      "change_pct": 4.89,
-      "constituents": 52,
-      "members": "CRO +4.89%",
+      "date": "2026-10-29",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": -0.1,
+      "constituents": 82,
+      "members": "大盘价值 -0.10%",
       "rank": 3
     },
     {
-      "date": "2026-10-28",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 4.82,
-      "constituents": 9,
-      "members": "噪声防治 +4.82%",
+      "date": "2026-10-29",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": -0.15,
+      "constituents": 65,
+      "members": "影视概念 -0.15%",
       "rank": 4
     },
     {
-      "date": "2026-10-28",
-      "theme": "工业互联网/新型工业化/工业母机",
-      "representative": "工业母机",
-      "change_pct": 4.75,
-      "constituents": 271,
-      "members": "工业母机 +4.75% / 新型工业化 +3.56% / 工业互联网 +2.11%",
+      "date": "2026-10-29",
+      "theme": "冰雪经济",
+      "representative": "冰雪经济",
+      "change_pct": -0.24,
+      "constituents": 42,
+      "members": "冰雪经济 -0.24%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "机器人",
+      "theme": "大盘价值",
       "current_streak": 1,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 3.97,
-      "avg_rank": 1.3,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.02,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
+      "dates": "10-29、10-27"
+    },
+    {
+      "theme": "冰雪经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": -0.51,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "10-29、10-27"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 5.57,
+      "avg_rank": 1.5,
       "latest_rank": 1,
-      "dates": "10-28、10-23、10-22"
+      "dates": "10-28、10-23"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.24,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "10-29"
+    },
+    {
+      "theme": "大飞机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.22,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "10-29"
+    },
+    {
+      "theme": "影视概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.15,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "10-29"
     },
     {
       "theme": "PLC概念",
       "current_streak": 0,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 2.75,
-      "avg_rank": 2.5,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.14,
+      "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "10-23、10-22"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.95,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "10-28"
-    },
-    {
-      "theme": "CRO",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.89,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "10-28"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.82,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "10-28"
-    },
-    {
-      "theme": "工业互联网/新型工业化/工业母机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.75,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "10-28"
+      "dates": "10-23"
     },
     {
       "theme": "SPD概念",
@@ -131,6 +141,16 @@
       "dates": "10-27"
     },
     {
+      "theme": "光刻机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.95,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "10-28"
+    },
+    {
       "theme": "可燃冰",
       "current_streak": 0,
       "max_streak": 1,
@@ -141,26 +161,6 @@
       "dates": "10-26"
     },
     {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.14,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "10-27"
-    },
-    {
-      "theme": "工程机械概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.5,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "10-22"
-    },
-    {
       "theme": "屏下摄像/3D摄像头",
       "current_streak": 0,
       "max_streak": 1,
@@ -169,6 +169,16 @@
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-23"
+    },
+    {
+      "theme": "CRO",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.89,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "10-28"
     },
     {
       "theme": "快递概念",
@@ -191,16 +201,6 @@
       "dates": "10-27"
     },
     {
-      "theme": "同步磁阻电机",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.64,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "10-22"
-    },
-    {
       "theme": "虚拟机器人",
       "current_streak": 0,
       "max_streak": 1,
@@ -209,6 +209,16 @@
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "10-23"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.82,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "10-28"
     },
     {
       "theme": "电子竞技",
@@ -241,6 +251,16 @@
       "dates": "10-23"
     },
     {
+      "theme": "工业互联网/新型工业化/工业母机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.75,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "10-28"
+    },
+    {
       "theme": "乳业",
       "current_streak": 0,
       "max_streak": 1,
@@ -249,26 +269,6 @@
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-26"
-    },
-    {
-      "theme": "冰雪经济",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.77,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "10-27"
-    },
-    {
-      "theme": "低碳冶金",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.92,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "10-22"
     }
   ]
 }
