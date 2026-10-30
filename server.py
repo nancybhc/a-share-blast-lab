@@ -55,7 +55,7 @@ LAST_ATTEMPTED_SLOT: str | None = None
 PUBLISH_RUNNING = False
 LAST_PUBLISH_ERROR: str | None = None
 AUTO_MONITOR_START = clock_time(9, 15)
-AUTO_MONITOR_STOP = clock_time(15, 5)
+AUTO_MONITOR_STOP = clock_time(15, 0)
 LAST_AUTO_START_ATTEMPT: datetime | None = None
 LAST_AUTO_STOP_ATTEMPT: datetime | None = None
 
@@ -66,7 +66,7 @@ def is_trading_window(now: datetime) -> bool:
     current = now.time()
     return (
         clock_time(9, 20) <= current <= clock_time(11, 35)
-        or clock_time(12, 55) <= current <= clock_time(15, 5)
+        or clock_time(12, 55) <= current <= clock_time(15, 0)
     )
 
 

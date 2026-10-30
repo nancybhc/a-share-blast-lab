@@ -21,7 +21,7 @@ SOURCE_DIR = Path(r"C:\Users\jiach\多空趋势分析结果")
 LOG_PATH = DATA_DIR / "daily_postmarket_update.log"
 STATUS_PATH = DATA_DIR / "daily_postmarket_status.json"
 LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
-MIN_REPORT_TIME = clock_time(17, 30)
+MIN_REPORT_TIME = clock_time(15, 0)
 THEME_ROOT = Path(r"C:\Users\jiach\题材雷达结果")
 THEME_FILES = (
     "当日题材强度_每日题材前五.csv",
@@ -153,7 +153,7 @@ def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Pat
             expected = target_date or today
             raise FileNotFoundError(f"等待超时，未找到 {expected} 多空阶段报告")
         log(
-            f"[WAIT] 等待 {target_date or '今日 17:30 后生成的'}"
+            f"[WAIT] 等待 {target_date or '今日 15:00 后生成的'}"
             "多空阶段报告"
         )
         time.sleep(30)
@@ -453,7 +453,7 @@ def main() -> int:
                     "utf8",
                     "publish_github.py",
                     "--slot",
-                    f"{target_date} daily-18:05",
+                    f"{target_date} daily-15:05",
                 ],
                 required=True,
                 timeout=900,

@@ -222,8 +222,8 @@ def main() -> int:
             log("周末跳过自动启动")
             write_status("start", True, {"skipped": "weekend"})
             return 0
-        if not (clock_time(9, 15) <= now.time() < clock_time(15, 5)):
-            log("不在 09:15-15:05 自动启动时段，跳过")
+        if not (clock_time(9, 15) <= now.time() < clock_time(15, 0)):
+            log("不在 09:15-15:00 自动启动时段，跳过")
             write_status("start", True, {"skipped": "outside_window"})
             return 0
 
