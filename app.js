@@ -1963,11 +1963,6 @@ function renderTrendOverview() {
   const transitionSeries = marketData.transition.series;
   const repairSeries = transitionSeries.find((series) => series.kind === "repair") || transitionSeries[0];
   const pressureSeries = transitionSeries.find((series) => series.kind === "pressure") || transitionSeries[1] || transitionSeries[0];
-  const seriesSummary = (series) =>
-    `${series.name} ${series.values[0]}→${series.values.at(-1)}（${series.delta >= 0 ? "+" : ""}${series.delta}）`;
-  document.getElementById("transitionSubtitle").textContent =
-    `${marketData.transition.selection || "最近3个交易日迁移最明显的分组"}：` +
-    `${seriesSummary(repairSeries)}；${seriesSummary(pressureSeries)}。`;
   const legend = document.getElementById("transitionLegend");
   if (legend) {
     legend.innerHTML = transitionSeries
