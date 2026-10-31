@@ -32,7 +32,7 @@ GROUP_META = {
     "商业航天": ("aerospace", "AEROSPACE"),
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
-EXCLUDED_GROUPS = {"黄金白银"}
+EXCLUDED_GROUPS = {"黄金白银", "商业航天"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -172,22 +172,56 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
         )
 
     groups.sort(key=lambda group: (-group["score"], -group["bullPct"], str(group["name"])))
-    visible_dates = sorted({item["date"] for group in groups for item in group["history"]})[-5:]
-    series = []
-    for name, group_id, color in (
-        ("机器人", "robot", "#a95b0f"),
-        ("半导体芯片", "semiconductor", "#087a88"),
-    ):
-        history = next(group["history"] for group in groups if group["name"] == name)
-        by_date = {item["date"]: item for item in history}
-        series.append(
-            {
-                "id": group_id,
-                "name": name,
-                "color": color,
-                "values": [int(by_date[day]["turnBull"]) if day in by_date else 0 for day in visible_dates],
-            }
+    visible_dates = sorted({item["date"] for group in groups for item in group["history"]})[-3:]
+    movers = []
+    for group in groups:
+        by_date = {item["date"]: item for item in group["history"]}
+        values = [
+            int(by_date[day]["turnBull"]) if day in by_date else 0
+            for day in visible_dates
+        ]
+        delta = values[-1] - values[0] if values else 0
+        movers.append({"group": group, "values": values, "delta": delta})
+
+    repair_candidates = sorted(
+        (item for item in movers if item["delta"] > 0),
+        key=lambda item: (item["delta"], item["group"]["score"]),
+        reverse=True,
+    )
+    pressure_candidates = sorted(
+        (item for item in movers if item["delta"] < 0),
+        key=lambda item: (item["delta"], item["group"]["score"]),
+    )
+    selected = []
+    if repair_candidates:
+        selected.append(("repair", "#bf2f45", repair_candidates[0]))
+    if pressure_candidates:
+        selected.append(("pressure", "#187348", pressure_candidates[0]))
+    if len(selected) < 2:
+        used_names = {item[2]["group"]["name"] for item in selected}
+        fallback = sorted(
+            (item for item in movers if item["group"]["name"] not in used_names),
+            key=lambda item: abs(item["delta"]),
+            reverse=True,
         )
+        while len(selected) < 2 and fallback:
+            item = fallback.pop(0)
+            selected.append(
+                ("repair" if item["delta"] >= 0 else "pressure", "#bf2f45" if item["delta"] >= 0 else "#187348", item)
+            )
+
+    series = [
+        {
+            "id": f"{kind}:{item['group']['id']}",
+            "kind": kind,
+            "name": item["group"]["name"],
+            "group_id": item["group"]["id"],
+            "color": color,
+            "delta": item["delta"],
+            "values": item["values"],
+        }
+        for kind, color, item in selected
+    ]
 
     summary_lines = [str(cycle["多空趋势"].cell(2, 1).value or "")]
     summary_date = groups[0]["date"]
@@ -234,7 +268,12 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
             "negativeTransitions": sum(int(group["negative"]) for group in groups),
         },
         "groups": groups,
-        "transition": {"labels": [day[5:].replace("-", ".") for day in visible_dates], "series": series},
+        "transition": {
+            "window": 3,
+            "selection": "最近3个交易日空转多候选变化最大的改善组与承压组",
+            "labels": [day[5:].replace("-", ".") for day in visible_dates],
+            "series": series,
+        },
     }
     cycle.close()
     migration.close()

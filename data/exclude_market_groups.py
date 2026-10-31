@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import shutil
 from datetime import datetime
 from pathlib import Path
@@ -20,7 +21,7 @@ BACKUP_ROOT = (
     / "outputs"
     / "market_group_backups"
 )
-EXCLUDED_GROUPS = ("黄金白银",)
+EXCLUDED_GROUPS = ("黄金白银", "商业航天")
 
 
 def workbook_paths(target_date: str) -> list[Path]:
@@ -87,23 +88,27 @@ def remove_group_rows(ws) -> int:
     return len(rows)
 
 
-def update_group_counts(ws) -> None:
+def update_group_counts(ws, group_count: int) -> None:
     if ws.title == "总览":
         cell = ws["A1"]
         if isinstance(cell.value, str):
-            cell.value = cell.value.replace("18 个分组", "17 个分组")
+            cell.value = re.sub(r"\d+\s*个分组", f"{group_count} 个分组", cell.value)
     if ws.title == "分组异动":
         cell = ws["A1"]
         if isinstance(cell.value, str):
-            cell.value = cell.value.replace("18 个分组", "17 个分组")
+            cell.value = re.sub(r"\d+\s*个分组", f"{group_count} 个分组", cell.value)
     if ws.title == "今日重点":
         for cell in ws[2]:
             if isinstance(cell.value, str):
-                cell.value = cell.value.replace("18 个分组", "17 个分组")
-        if ws["A5"].value == 18:
-            ws["A5"] = 17
+                cell.value = re.sub(r"\d+\s*个分组", f"{group_count} 个分组", cell.value)
+        if isinstance(ws["A5"].value, (int, float)):
+            ws["A5"] = group_count
         if isinstance(ws["A6"].value, str):
-            ws["A6"].value = ws["A6"].value.replace("18 组分口径", "17 组分口径")
+            ws["A6"].value = re.sub(
+                r"\d+\s*组分口径",
+                f"{group_count} 组分口径",
+                ws["A6"].value,
+            )
         priority_rows = sum(
             1
             for row_no in range(10, ws.max_row + 1)
@@ -129,11 +134,26 @@ def filter_workbook(path: Path, backup_dir: Path) -> dict[str, object]:
             workbook.remove(sheet)
             removed_sheets.append(sheet_name)
 
+    if "分组异动" in workbook.sheetnames:
+        migration_sheet = workbook["分组异动"]
+        group_count = sum(
+            1
+            for values in migration_sheet.iter_rows(min_row=3, values_only=True)
+            if len(values) > 1 and values[0] and values[1]
+        )
+    else:
+        summary_sheets = {"总览", "量化5破10推演", "多空趋势"}
+        group_count = sum(
+            sheet.title not in summary_sheets for sheet in workbook.worksheets
+        )
+
     for sheet in workbook.worksheets:
         count = remove_group_rows(sheet)
         if count:
             removed_rows[sheet.title] = count
-        update_group_counts(sheet)
+
+    for sheet in workbook.worksheets:
+        update_group_counts(sheet, group_count)
 
     temp_path = path.with_suffix(path.suffix + ".tmp")
     workbook.save(temp_path)

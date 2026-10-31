@@ -21,7 +21,7 @@ SOURCE_DIR = Path(r"C:\Users\jiach\多空趋势分析结果")
 LOG_PATH = DATA_DIR / "daily_postmarket_update.log"
 STATUS_PATH = DATA_DIR / "daily_postmarket_status.json"
 LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
-MIN_REPORT_TIME = clock_time(15, 0)
+MIN_REPORT_TIME = clock_time(14, 50)
 THEME_ROOT = Path(r"C:\Users\jiach\题材雷达结果")
 THEME_FILES = (
     "当日题材强度_每日题材前五.csv",
@@ -153,7 +153,7 @@ def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Pat
             expected = target_date or today
             raise FileNotFoundError(f"等待超时，未找到 {expected} 多空阶段报告")
         log(
-            f"[WAIT] 等待 {target_date or '今日 15:00 后生成的'}"
+            f"[WAIT] 等待 {target_date or '今日 14:50 后生成的'}"
             "多空阶段报告"
         )
         time.sleep(30)
@@ -187,7 +187,7 @@ def refresh_index_data_refs(target_date: str) -> None:
     pattern = re.compile(
         r"(data/(?:full_market/)?"
         r"(?:group_fund_flows_|board_daily_fund_flows_|"
-        r"full_market_daily_|chip_segments_))"
+        r"full_market_daily_))"
         r"\d{4}-\d{2}-\d{2}(\.(?:js|csv|json))"
     )
     updated = pattern.sub(
@@ -221,24 +221,12 @@ def refresh_latest_aliases(target_date: str) -> None:
             DATA_DIR / "full_market_daily_latest.js",
         ),
         (
-            DATA_DIR / f"chip_segments_{target_date}.js",
-            DATA_DIR / "chip_segments_latest.js",
-        ),
-        (
-            DATA_DIR / f"chip_segments_{target_date}.json",
-            DATA_DIR / "chip_segments_latest.json",
-        ),
-        (
             DATA_DIR / "full_market" / f"full_market_daily_{target_date}.csv",
             DATA_DIR / "full_market" / "full_market_daily_latest.csv",
         ),
         (
             DATA_DIR / "full_market" / f"full_market_daily_{target_date}.json",
             DATA_DIR / "full_market" / "full_market_daily_latest.json",
-        ),
-        (
-            DATA_DIR / "full_market" / f"chip_segments_{target_date}.csv",
-            DATA_DIR / "full_market" / "chip_segments_latest.csv",
         ),
     )
     for source, target in aliases:
@@ -407,36 +395,6 @@ def main() -> int:
                     "--from-live",
                     "--date",
                     target_date,
-                ],
-                required=True,
-                timeout=300,
-            )
-
-        chip_ok, _ = run_step(
-            "chip-segments",
-            [
-                sys.executable,
-                "-X",
-                "utf8",
-                "data/build_chip_segment_strength.py",
-                "--date",
-                target_date,
-            ],
-            required=False,
-            timeout=600,
-        )
-        status["steps"].append({"name": "chip-segments", "ok": chip_ok})
-        if not chip_ok:
-            run_step(
-                "chip-segments-fallback",
-                [
-                    sys.executable,
-                    "-X",
-                    "utf8",
-                    "data/build_chip_segment_strength.py",
-                    "--date",
-                    target_date,
-                    "--from-live",
                 ],
                 required=True,
                 timeout=300,
