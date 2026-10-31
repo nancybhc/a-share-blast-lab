@@ -32,12 +32,13 @@ GROUP_META = {
     "商业航天": ("aerospace", "AEROSPACE"),
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
-EXCLUDED_GROUPS = {"黄金白银", "商业航天"}
+EXCLUDED_GROUPS = {"黄金白银"}
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="把最新多空阶段报告导出为网页数据。")
     parser.add_argument("--source-dir", type=Path, default=DEFAULT_SOURCE_DIR)
+    parser.add_argument("--brief-dir", type=Path, help="简报 PPTX 所在目录；默认与 source-dir 相同。")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--date", help="交易日 YYYY-MM-DD；默认选择最新报告。")
     return parser.parse_args()
@@ -285,7 +286,11 @@ def main() -> None:
     cycle_path = latest_file(args.source_dir, "多空阶段_{date}.xlsx", args.date)
     report_date = args.date or re.search(r"(\d{4}-\d{2}-\d{2})", cycle_path.name).group(1)
     migration_path = latest_file(args.source_dir, "多空阶段迁移日报_{date}.xlsx", report_date)
-    brief_path = latest_file(args.source_dir, "多空阶段简报_{date}.pptx", report_date)
+    brief_path = latest_file(
+        args.brief_dir or args.source_dir,
+        "多空阶段简报_{date}.pptx",
+        report_date,
+    )
 
     payload = build_payload(cycle_path, migration_path)
     output_dir = args.output_dir.resolve()

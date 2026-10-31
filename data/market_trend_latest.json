@@ -3,16 +3,16 @@
   "generatedAt": "2026-10-30 14:53",
   "isIntraday": true,
   "sourceReport": "多空阶段_2026-10-30.xlsx",
-  "sourcePath": "C:\\Users\\jiach\\多空趋势分析结果\\多空阶段_2026-10-30.xlsx",
+  "sourcePath": "C:\\Users\\jiach\\Documents\\Codex\\2026-10-24\\d\\outputs\\market_group_backups\\2026-10-30\\多空阶段_2026-10-30.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-10-30.pptx",
   "summary": "  AI硬件 · 近 7 个交易日（10-22 ~ 10-30）：空开始变多（+45 只），仓位留意减一减｜多 3→4 只、空 251→296 只、空转多 54→4、多转空 9→13｜半导体 最明显：多 0→2 只、空 115→137 只",
   "overview": {
-    "groups": 16,
-    "uniqueStocks": 863,
+    "groups": 17,
+    "uniqueStocks": 924,
     "positiveGroups": 1,
-    "negativeGroups": 14,
-    "positiveTransitions": 22,
-    "negativeTransitions": 169
+    "negativeGroups": 15,
+    "positiveTransitions": 23,
+    "negativeTransitions": 200
   },
   "groups": [
     {
@@ -1351,6 +1351,95 @@
       ]
     },
     {
+      "name": "商业航天",
+      "date": "2026-10-30",
+      "total": 63,
+      "bull": 13,
+      "turnBull": 6,
+      "turnBear": 7,
+      "bear": 37,
+      "bullPct": 20.63,
+      "newBull": 0,
+      "confirm": 1,
+      "direct": 0,
+      "positive": 1,
+      "negative": 31,
+      "state": "跳空或转空加速",
+      "change": "空转多→多 1 只（前日 2）；多→空跳级 2 只；转空合计激增 0→31 只",
+      "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
+      "id": "aerospace",
+      "code": "AEROSPACE",
+      "score": -46.0,
+      "fulfilled": 1,
+      "netBias": -24,
+      "phase": "转空加速",
+      "badge": "风险升高",
+      "tone": "red",
+      "setup": "6",
+      "setupCaption": "空转多候选",
+      "confirmValue": "1",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 13/63，空头 37；空转多候选 6，今日转多确认 1，反向转空 7。空转多→多 1 只（前日 2）；多→空跳级 2 只；转空合计激增 0→31 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "bull": 3,
+          "turnBull": 47,
+          "turnBear": 1,
+          "bear": 12,
+          "bullPct": 4.76
+        },
+        {
+          "date": "2026-10-23",
+          "bull": 10,
+          "turnBull": 27,
+          "turnBear": 6,
+          "bear": 20,
+          "bullPct": 15.87
+        },
+        {
+          "date": "2026-10-26",
+          "bull": 11,
+          "turnBull": 12,
+          "turnBear": 14,
+          "bear": 26,
+          "bullPct": 17.46
+        },
+        {
+          "date": "2026-10-27",
+          "bull": 0,
+          "turnBull": 2,
+          "turnBear": 21,
+          "bear": 40,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "bull": 6,
+          "turnBull": 2,
+          "turnBear": 12,
+          "bear": 43,
+          "bullPct": 9.52
+        },
+        {
+          "date": "2026-10-29",
+          "bull": 19,
+          "turnBull": 26,
+          "turnBear": 7,
+          "bear": 11,
+          "bullPct": 30.16
+        },
+        {
+          "date": "2026-10-30",
+          "bull": 13,
+          "turnBull": 6,
+          "turnBear": 7,
+          "bear": 37,
+          "bullPct": 20.63
+        }
+      ]
+    },
+    {
       "name": "机器人",
       "date": "2026-10-30",
       "total": 72,
@@ -1450,16 +1539,16 @@
     ],
     "series": [
       {
-        "id": "repair:power",
+        "id": "repair:aerospace",
         "kind": "repair",
-        "name": "电力",
-        "group_id": "power",
+        "name": "商业航天",
+        "group_id": "aerospace",
         "color": "#bf2f45",
-        "delta": 1,
+        "delta": 4,
         "values": [
-          1,
-          1,
-          2
+          2,
+          26,
+          6
         ]
       },
       {

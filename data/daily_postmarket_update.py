@@ -22,6 +22,7 @@ LOG_PATH = DATA_DIR / "daily_postmarket_update.log"
 STATUS_PATH = DATA_DIR / "daily_postmarket_status.json"
 LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
 MIN_REPORT_TIME = clock_time(14, 50)
+BACKUP_ROOT = SITE_DIR.parent / "market_group_backups"
 THEME_ROOT = Path(r"C:\Users\jiach\题材雷达结果")
 THEME_FILES = (
     "当日题材强度_每日题材前五.csv",
@@ -108,6 +109,15 @@ def report_is_ready(path: Path) -> bool:
         return path.stat().st_size > 10_000 and zipfile.is_zipfile(path)
     except OSError:
         return False
+
+
+def structure_source_dir(target_date: str) -> Path:
+    backup_dir = BACKUP_ROOT / target_date
+    cycle = backup_dir / f"多空阶段_{target_date}.xlsx"
+    migration = backup_dir / f"多空阶段迁移日报_{target_date}.xlsx"
+    if report_is_ready(cycle) and report_is_ready(migration):
+        return backup_dir
+    return SOURCE_DIR
 
 
 def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Path]:
@@ -311,6 +321,8 @@ def main() -> int:
                     "utf8",
                     "data/build_market_trend.py",
                     "--source-dir",
+                    str(structure_source_dir(target_date)),
+                    "--brief-dir",
                     str(SOURCE_DIR),
                     "--date",
                     target_date,
