@@ -1,19 +1,20 @@
 {
   "dataDate": "2026-10-30",
-  "generatedAt": "2026-10-30 14:53",
+  "generatedAt": "2026-10-30 15:00",
+  "reportGeneratedAt": "2026-10-31 20:26",
   "isIntraday": false,
   "session": "postmarket",
   "sourceReport": "多空阶段_2026-10-30.xlsx",
-  "sourcePath": "C:\\Users\\jiach\\Documents\\Codex\\2026-10-24\\d\\outputs\\market_group_backups\\2026-10-30\\多空阶段_2026-10-30.xlsx",
+  "sourcePath": "C:\\Users\\jiach\\多空趋势分析结果\\多空阶段_2026-10-30.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-10-30.pptx",
-  "summary": "  AI硬件 · 近 7 个交易日（10-22 ~ 10-30）：空开始变多（+45 只），仓位留意减一减｜多 3→4 只、空 251→296 只、空转多 54→4、多转空 9→13｜半导体 最明显：多 0→2 只、空 115→137 只",
+  "summary": "  AI硬件 · 近 7 个交易日（10-22 ~ 10-30）：空明显变多（+46 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 3→3 只、空 251→297 只、空转多 54→5、多转空 9→12",
   "overview": {
     "groups": 17,
     "uniqueStocks": 924,
     "positiveGroups": 1,
     "negativeGroups": 15,
     "positiveTransitions": 23,
-    "negativeTransitions": 200
+    "negativeTransitions": 205
   },
   "phaseLegend": [
     {
@@ -51,25 +52,25 @@
     {
       "name": "药",
       "date": "2026-10-30",
-      "total": 137,
+      "total": 139,
       "bull": 25,
       "turnBull": 16,
-      "turnBear": 16,
-      "bear": 80,
-      "bullPct": 18.25,
-      "newBull": 5,
+      "turnBear": 15,
+      "bear": 83,
+      "bullPct": 17.99,
+      "newBull": 6,
       "confirm": 11,
       "direct": 0,
-      "positive": 16,
-      "negative": 19,
+      "positive": 17,
+      "negative": 20,
       "state": "空转多集中转多",
-      "change": "空转多→多激增 4→11 只；转空合计激增 3→19 只",
+      "change": "空转多→多激增 4→11 只；转空合计激增 3→20 只",
       "action": "修复由预期进入确认，优先看转多名单能否继续增加",
       "id": "pharma",
       "code": "PHARMA",
       "score": 5.8,
       "fulfilled": 11,
-      "netBias": -55,
+      "netBias": -58,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
@@ -77,7 +78,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "11",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 25/137，空头 80；空转多候选 16，今日转多确认 11，反向转空 16。空转多→多激增 4→11 只；转空合计激增 3→19 只，修复由预期进入确认，优先看转多名单能否继续增加。",
+      "thesis": "多头 25/139，空头 83；空转多候选 16，今日转多确认 11，反向转空 15。空转多→多激增 4→11 只；转空合计激增 3→20 只，修复由预期进入确认，优先看转多名单能否继续增加。",
       "history": [
         {
           "date": "2026-10-22",
@@ -131,9 +132,9 @@
           "date": "2026-10-30",
           "bull": 25,
           "turnBull": 16,
-          "turnBear": 16,
-          "bear": 80,
-          "bullPct": 18.25
+          "turnBear": 15,
+          "bear": 83,
+          "bullPct": 17.99
         }
       ]
     },
@@ -318,12 +319,12 @@
     {
       "name": "电力",
       "date": "2026-10-30",
-      "total": 31,
+      "total": 32,
       "bull": 1,
       "turnBull": 2,
       "turnBear": 2,
-      "bear": 26,
-      "bullPct": 3.23,
+      "bear": 27,
+      "bullPct": 3.12,
       "newBull": 1,
       "confirm": 0,
       "direct": 0,
@@ -334,9 +335,9 @@
       "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
       "id": "power",
       "code": "POWER",
-      "score": -3.2,
+      "score": -3.1,
       "fulfilled": 0,
-      "netBias": -25,
+      "netBias": -26,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -344,7 +345,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/31，空头 26；空转多候选 2，今日转多确认 0，反向转空 2。转空合计激增 1→2 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "thesis": "多头 1/32，空头 27；空转多候选 2，今日转多确认 0，反向转空 2。转空合计激增 1→2 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
       "history": [
         {
           "date": "2026-10-22",
@@ -399,8 +400,8 @@
           "bull": 1,
           "turnBull": 2,
           "turnBear": 2,
-          "bear": 26,
-          "bullPct": 3.23
+          "bear": 27,
+          "bullPct": 3.12
         }
       ]
     },
@@ -494,95 +495,6 @@
       ]
     },
     {
-      "name": "互金证券",
-      "date": "2026-10-30",
-      "total": 61,
-      "bull": 1,
-      "turnBull": 0,
-      "turnBear": 3,
-      "bear": 57,
-      "bullPct": 1.64,
-      "newBull": 0,
-      "confirm": 1,
-      "direct": 0,
-      "positive": 1,
-      "negative": 5,
-      "state": "跳空或转空加速",
-      "change": "空转多→多 1 只（前日 0）；转空合计激增 2→5 只",
-      "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
-      "id": "fintech",
-      "code": "FINTECH",
-      "score": -4.9,
-      "fulfilled": 1,
-      "netBias": -56,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "0",
-      "setupCaption": "空转多候选",
-      "confirmValue": "1",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/61，空头 57；空转多候选 0，今日转多确认 1，反向转空 3。空转多→多 1 只（前日 0）；转空合计激增 2→5 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
-      "history": [
-        {
-          "date": "2026-10-22",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 9,
-          "bear": 51,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "bull": 2,
-          "turnBull": 9,
-          "turnBear": 4,
-          "bear": 46,
-          "bullPct": 3.28
-        },
-        {
-          "date": "2026-10-26",
-          "bull": 3,
-          "turnBull": 9,
-          "turnBear": 2,
-          "bear": 46,
-          "bullPct": 5.0
-        },
-        {
-          "date": "2026-10-27",
-          "bull": 1,
-          "turnBull": 3,
-          "turnBear": 3,
-          "bear": 53,
-          "bullPct": 1.67
-        },
-        {
-          "date": "2026-10-28",
-          "bull": 1,
-          "turnBull": 6,
-          "turnBear": 2,
-          "bear": 52,
-          "bullPct": 1.64
-        },
-        {
-          "date": "2026-10-29",
-          "bull": 0,
-          "turnBull": 8,
-          "turnBear": 1,
-          "bear": 52,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-10-30",
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 3,
-          "bear": 57,
-          "bullPct": 1.64
-        }
-      ]
-    },
-    {
       "name": "PCB",
       "date": "2026-10-30",
       "total": 70,
@@ -668,6 +580,95 @@
           "turnBear": 1,
           "bear": 66,
           "bullPct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "互金证券",
+      "date": "2026-10-30",
+      "total": 61,
+      "bull": 1,
+      "turnBull": 0,
+      "turnBear": 2,
+      "bear": 58,
+      "bullPct": 1.64,
+      "newBull": 0,
+      "confirm": 1,
+      "direct": 0,
+      "positive": 1,
+      "negative": 6,
+      "state": "跳空或转空加速",
+      "change": "空转多→多 1 只（前日 0）；转空合计激增 2→6 只",
+      "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
+      "id": "fintech",
+      "code": "FINTECH",
+      "score": -6.6,
+      "fulfilled": 1,
+      "netBias": -57,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "0",
+      "setupCaption": "空转多候选",
+      "confirmValue": "1",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 1/61，空头 58；空转多候选 0，今日转多确认 1，反向转空 2。空转多→多 1 只（前日 0）；转空合计激增 2→6 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 9,
+          "bear": 51,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-10-23",
+          "bull": 2,
+          "turnBull": 9,
+          "turnBear": 4,
+          "bear": 46,
+          "bullPct": 3.28
+        },
+        {
+          "date": "2026-10-26",
+          "bull": 3,
+          "turnBull": 9,
+          "turnBear": 2,
+          "bear": 46,
+          "bullPct": 5.0
+        },
+        {
+          "date": "2026-10-27",
+          "bull": 1,
+          "turnBull": 3,
+          "turnBear": 3,
+          "bear": 53,
+          "bullPct": 1.67
+        },
+        {
+          "date": "2026-10-28",
+          "bull": 1,
+          "turnBull": 6,
+          "turnBear": 2,
+          "bear": 52,
+          "bullPct": 1.64
+        },
+        {
+          "date": "2026-10-29",
+          "bull": 0,
+          "turnBull": 8,
+          "turnBear": 1,
+          "bear": 52,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "bull": 1,
+          "turnBull": 0,
+          "turnBear": 2,
+          "bear": 58,
+          "bullPct": 1.64
         }
       ]
     },
@@ -1119,12 +1120,12 @@
     {
       "name": "算力",
       "date": "2026-10-30",
-      "total": 74,
+      "total": 75,
       "bull": 1,
       "turnBull": 0,
       "turnBear": 6,
-      "bear": 67,
-      "bullPct": 1.35,
+      "bear": 68,
+      "bullPct": 1.33,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
@@ -1135,9 +1136,9 @@
       "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
       "id": "compute",
       "code": "COMPUTE",
-      "score": -23.0,
+      "score": -22.7,
       "fulfilled": 0,
-      "netBias": -66,
+      "netBias": -67,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
@@ -1145,7 +1146,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/74，空头 67；空转多候选 0，今日转多确认 0，反向转空 6。多→空跳级 1 只；转空合计激增 10→17 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "thesis": "多头 1/75，空头 68；空转多候选 0，今日转多确认 0，反向转空 6。多→空跳级 1 只；转空合计激增 10→17 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
       "history": [
         {
           "date": "2026-10-22",
@@ -1200,8 +1201,8 @@
           "bull": 1,
           "turnBull": 0,
           "turnBear": 6,
-          "bear": 67,
-          "bullPct": 1.35
+          "bear": 68,
+          "bullPct": 1.33
         }
       ]
     },
@@ -1209,32 +1210,32 @@
       "name": "半导体芯片",
       "date": "2026-10-30",
       "total": 50,
-      "bull": 2,
-      "turnBull": 0,
-      "turnBear": 6,
-      "bear": 42,
-      "bullPct": 4.0,
+      "bull": 1,
+      "turnBull": 1,
+      "turnBear": 5,
+      "bear": 43,
+      "bullPct": 2.0,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 19,
+      "negative": 20,
       "state": "跳空或转空加速",
-      "change": "多→空跳级 2 只；转空合计激增 6→19 只",
+      "change": "多→空跳级 2 只；转空合计激增 6→20 只",
       "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
       "id": "semiconductor",
       "code": "SEMICONDUCTOR",
-      "score": -38.0,
+      "score": -40.0,
       "fulfilled": 0,
-      "netBias": -40,
+      "netBias": -42,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
-      "setup": "0",
+      "setup": "1",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/50，空头 42；空转多候选 0，今日转多确认 0，反向转空 6。多→空跳级 2 只；转空合计激增 6→19 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "thesis": "多头 1/50，空头 43；空转多候选 1，今日转多确认 0，反向转空 5。多→空跳级 2 只；转空合计激增 6→20 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
       "history": [
         {
           "date": "2026-10-22",
@@ -1286,11 +1287,11 @@
         },
         {
           "date": "2026-10-30",
-          "bull": 2,
-          "turnBull": 0,
-          "turnBear": 6,
-          "bear": 42,
-          "bullPct": 4.0
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 5,
+          "bear": 43,
+          "bullPct": 2.0
         }
       ]
     },
@@ -1298,32 +1299,32 @@
       "name": "AI应用",
       "date": "2026-10-30",
       "total": 79,
-      "bull": 4,
+      "bull": 3,
       "turnBull": 3,
       "turnBear": 21,
-      "bear": 51,
-      "bullPct": 5.06,
+      "bear": 52,
+      "bullPct": 3.8,
       "newBull": 1,
-      "confirm": 2,
+      "confirm": 1,
       "direct": 0,
-      "positive": 3,
-      "negative": 39,
+      "positive": 2,
+      "negative": 40,
       "state": "跳空或转空加速",
-      "change": "空转多→多 2 只（前日 4）；多→空跳级 2 只；转空合计激增 2→39 只",
+      "change": "空转多→多 1 只（前日 4）；多→空跳级 2 只；转空合计激增 2→40 只",
       "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
       "id": "ai-app",
       "code": "AI APPS",
-      "score": -43.0,
-      "fulfilled": 2,
-      "netBias": -47,
+      "score": -46.8,
+      "fulfilled": 1,
+      "netBias": -49,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
       "setup": "3",
       "setupCaption": "空转多候选",
-      "confirmValue": "2",
+      "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 4/79，空头 51；空转多候选 3，今日转多确认 2，反向转空 21。空转多→多 2 只（前日 4）；多→空跳级 2 只；转空合计激增 2→39 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "thesis": "多头 3/79，空头 52；空转多候选 3，今日转多确认 1，反向转空 21。空转多→多 1 只（前日 4）；多→空跳级 2 只；转空合计激增 2→40 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
       "history": [
         {
           "date": "2026-10-22",
@@ -1375,11 +1376,11 @@
         },
         {
           "date": "2026-10-30",
-          "bull": 4,
+          "bull": 3,
           "turnBull": 3,
           "turnBear": 21,
-          "bear": 51,
-          "bullPct": 5.06
+          "bear": 52,
+          "bullPct": 3.8
         }
       ]
     },
@@ -1389,22 +1390,22 @@
       "total": 63,
       "bull": 13,
       "turnBull": 6,
-      "turnBear": 7,
-      "bear": 37,
+      "turnBear": 6,
+      "bear": 38,
       "bullPct": 20.63,
       "newBull": 0,
       "confirm": 1,
       "direct": 0,
       "positive": 1,
-      "negative": 31,
+      "negative": 32,
       "state": "跳空或转空加速",
-      "change": "空转多→多 1 只（前日 2）；多→空跳级 2 只；转空合计激增 0→31 只",
+      "change": "空转多→多 1 只（前日 2）；多→空跳级 2 只；转空合计激增 0→32 只",
       "action": "转空加速，MA5 刚拐头或跌破 10 线的先处理",
       "id": "aerospace",
       "code": "AEROSPACE",
-      "score": -46.0,
+      "score": -47.6,
       "fulfilled": 1,
-      "netBias": -24,
+      "netBias": -25,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
@@ -1412,7 +1413,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 13/63，空头 37；空转多候选 6，今日转多确认 1，反向转空 7。空转多→多 1 只（前日 2）；多→空跳级 2 只；转空合计激增 0→31 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
+      "thesis": "多头 13/63，空头 38；空转多候选 6，今日转多确认 1，反向转空 6。空转多→多 1 只（前日 2）；多→空跳级 2 只；转空合计激增 0→32 只，转空加速，MA5 刚拐头或跌破 10 线的先处理。",
       "history": [
         {
           "date": "2026-10-22",
@@ -1466,8 +1467,8 @@
           "date": "2026-10-30",
           "bull": 13,
           "turnBull": 6,
-          "turnBear": 7,
-          "bear": 37,
+          "turnBear": 6,
+          "bear": 38,
           "bullPct": 20.63
         }
       ]

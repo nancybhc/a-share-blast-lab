@@ -13,6 +13,8 @@ from datetime import datetime, time as clock_time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+import openpyxl
+
 
 CHINA_TZ = ZoneInfo("Asia/Shanghai")
 SITE_DIR = Path(__file__).resolve().parent.parent
@@ -22,7 +24,7 @@ LOG_PATH = DATA_DIR / "daily_postmarket_update.log"
 STATUS_PATH = DATA_DIR / "daily_postmarket_status.json"
 LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
 MIN_REPORT_TIME = clock_time(14, 50)
-BACKUP_ROOT = SITE_DIR.parent / "market_group_backups"
+CYCLE_RUNNER = Path(r"C:\Users\jiach\多空趋势分析工作流\run_多空阶段.ps1")
 THEME_ROOT = Path(r"C:\Users\jiach\题材雷达结果")
 THEME_FILES = (
     "当日题材强度_每日题材前五.csv",
@@ -111,13 +113,93 @@ def report_is_ready(path: Path) -> bool:
         return False
 
 
-def structure_source_dir(target_date: str) -> Path:
-    backup_dir = BACKUP_ROOT / target_date
-    cycle = backup_dir / f"多空阶段_{target_date}.xlsx"
-    migration = backup_dir / f"多空阶段迁移日报_{target_date}.xlsx"
-    if report_is_ready(cycle) and report_is_ready(migration):
-        return backup_dir
-    return SOURCE_DIR
+def report_session(path: Path) -> dict[str, object] | None:
+    try:
+        workbook = openpyxl.load_workbook(
+            path,
+            read_only=True,
+            data_only=True,
+        )
+        summary = "\n".join(
+            str(values[0])
+            for values in workbook["总览"].iter_rows(values_only=True)
+            if values and values[0] is not None
+        )
+        workbook.close()
+    except Exception:
+        return None
+
+    date_match = re.search(r"交易日\s+(\d{4}-\d{2}-\d{2})", summary)
+    run_match = re.search(r"运行时间\s+(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2})", summary)
+    intraday = any(
+        marker in summary
+        for marker in (
+            "盘中运行",
+            "午间休市运行",
+            "这次是盘中跑的",
+        )
+    )
+    return {
+        "trade_date": date_match.group(1) if date_match else "",
+        "run_at": run_match.group(1) if run_match else "",
+        "intraday": intraday,
+    }
+
+
+def ensure_postmarket_report(
+    target_date: str,
+    report: Path,
+    wait_minutes: int,
+) -> Path:
+    deadline = time.time() + max(wait_minutes, 0) * 60
+    next_generate = min(deadline, time.time() + 4 * 60)
+    last_state: dict[str, object] | None = None
+
+    while True:
+        candidate = SOURCE_DIR / f"多空阶段_{target_date}.xlsx"
+        if not report_is_ready(candidate):
+            candidate = report
+        state = report_session(candidate)
+        last_state = state
+        if (
+            state
+            and state.get("trade_date") == target_date
+            and not state.get("intraday")
+        ):
+            log(
+                f"[OK] 收盘报告就绪：{candidate} "
+                f"运行时间={state.get('run_at') or '未知'}"
+            )
+            return candidate
+
+        if time.time() >= next_generate and time.time() < deadline:
+            run_step(
+                "close-report-supplement",
+                [
+                    "powershell.exe",
+                    "-NoProfile",
+                    "-ExecutionPolicy",
+                    "Bypass",
+                    "-File",
+                    str(CYCLE_RUNNER),
+                    "-Fixed",
+                ],
+                required=False,
+                timeout=600,
+            )
+            next_generate = min(deadline, time.time() + 3 * 60)
+            continue
+
+        if time.time() >= deadline:
+            raise RuntimeError(
+                f"{target_date} 没有可用的收盘后多空阶段报告；"
+                f"当前状态={last_state}"
+            )
+        log(
+            f"[WAIT] 等待 {target_date} 收盘报告落盘；"
+            f"当前运行时间={(last_state or {}).get('run_at') or '未知'}"
+        )
+        time.sleep(15)
 
 
 def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Path]:
@@ -294,6 +376,14 @@ def main() -> int:
             r"(\d{4}-\d{2}-\d{2})", report.name
         ).group(1)
         target_date = report_date
+        report = ensure_postmarket_report(
+            target_date,
+            report,
+            args.wait_minutes,
+        )
+        status["steps"].append(
+            {"name": "postmarket-report-check", "ok": True}
+        )
         wait_for_theme(target_date, args.wait_minutes)
         status["date"] = target_date
         status["report"] = str(report)
@@ -321,7 +411,7 @@ def main() -> int:
                     "utf8",
                     "data/build_market_trend.py",
                     "--source-dir",
-                    str(structure_source_dir(target_date)),
+                    str(SOURCE_DIR),
                     "--brief-dir",
                     str(SOURCE_DIR),
                     "--date",

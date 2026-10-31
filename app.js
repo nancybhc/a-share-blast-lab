@@ -1886,7 +1886,7 @@ function renderTrendOverview() {
 
   const snapshot = marketData.isIntraday
     ? `${marketData.dataDate.slice(5)} ${marketData.generatedAt.slice(11, 16)} 盘中`
-    : `${marketData.dataDate.slice(5)} 盘后`;
+    : `${marketData.dataDate.slice(5)} ${marketData.generatedAt.slice(11, 16)} 盘后`;
   const leaders = marketData.groups.filter((group) => group.score > 0);
   const reverseLeader = [...marketData.groups].sort((a, b) => b.turnBear - a.turnBear)[0];
   const weakest = [...marketData.groups].sort((a, b) => a.score - b.score)[0];
@@ -2032,10 +2032,12 @@ function renderTrendOverview() {
   if (methodSnapshot) methodSnapshot.textContent = `结构快照 / ${snapshot}`;
   const methodDetail = document.getElementById("methodSnapshotDetail");
   if (methodDetail) {
-    const reportTime = marketData.generatedAt.slice(11, 16);
+    const reportGeneratedAt =
+      marketData.reportGeneratedAt || marketData.generatedAt;
+    const reportTime = reportGeneratedAt.slice(0, 16);
     const marketPhase = marketData.isIntraday
-      ? `${marketData.dataDate} ${reportTime} 盘中`
-      : `${marketData.dataDate} 盘后（报告生成 ${reportTime}）`;
+      ? `${marketData.dataDate} ${reportGeneratedAt.slice(11, 16)} 盘中`
+      : `${marketData.dataDate} 盘后（收盘截面 15:00，报告生成 ${reportTime}）`;
     methodDetail.textContent =
       `多空结构快照为 ${marketPhase}，` +
       `覆盖 ${overview.groups} 个跟踪分组、${overview.uniqueStocks} 只去重标的；` +

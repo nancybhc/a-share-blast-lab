@@ -299,20 +299,22 @@ def build_payload(
         r"运行时间\s+([0-9-]+\s+[0-9:]+)",
         summary_text,
     )
-    generated_at = ""
+    source_run_at = ""
     if runtime_match:
-        generated_at = runtime_match.group(1)
+        source_run_at = runtime_match.group(1)
     else:
-        generated_at = datetime.fromtimestamp(cycle_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
+        source_run_at = datetime.fromtimestamp(cycle_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
 
     detected_intraday = any(word in summary_text for word in ("盘中", "午间"))
     is_intraday = (
         detected_intraday if session == "auto" else session == "intraday"
     )
+    snapshot_at = source_run_at if is_intraday else f"{summary_date} 15:00"
 
     payload = {
         "dataDate": summary_date,
-        "generatedAt": generated_at,
+        "generatedAt": snapshot_at,
+        "reportGeneratedAt": source_run_at,
         "isIntraday": is_intraday,
         "session": "intraday" if is_intraday else "postmarket",
         "sourceReport": cycle_path.name,
