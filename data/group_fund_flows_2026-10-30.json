@@ -1,7 +1,7 @@
 {
   "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs",
   "definition": "r0_net，即新浪财经页面标注的“主力净流入”",
-  "retrieved_at": "2026-10-31T09:45:16+08:00",
+  "retrieved_at": "2026-10-31T10:00:57+08:00",
   "date": "2026-10-30",
   "dates": [
     "2026-10-23",
@@ -1691,6 +1691,111 @@
           "covered": 56
         }
       ]
+    },
+    "商业航天": {
+      "group": "商业航天",
+      "constituents": 63,
+      "covered": 63,
+      "missing": [],
+      "coverage_pct": 100.0,
+      "date": "2026-10-30",
+      "main_net_yi": 12.1,
+      "main_net_change_yi": -49.45,
+      "five_day_main_net_yi": 101.82,
+      "positive_stock_count": 32,
+      "negative_stock_count": 31,
+      "top_positive": [
+        {
+          "code": "002149",
+          "name": "西部材料",
+          "main_net_yi": 7.3643
+        },
+        {
+          "code": "600118",
+          "name": "中国卫星",
+          "main_net_yi": 3.7043
+        },
+        {
+          "code": "605598",
+          "name": "上海港湾",
+          "main_net_yi": 0.9864
+        },
+        {
+          "code": "603601",
+          "name": "再升科技",
+          "main_net_yi": 0.9187
+        },
+        {
+          "code": "688818",
+          "name": "电科蓝天",
+          "main_net_yi": 0.844
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "002865",
+          "name": "钧达股份",
+          "main_net_yi": -1.9795
+        },
+        {
+          "code": "600879",
+          "name": "航天电子",
+          "main_net_yi": -0.8899
+        },
+        {
+          "code": "000547",
+          "name": "航天发展",
+          "main_net_yi": -0.7998
+        },
+        {
+          "code": "688333",
+          "name": "铂力特",
+          "main_net_yi": -0.6567
+        },
+        {
+          "code": "001270",
+          "name": "铖昌科技",
+          "main_net_yi": -0.4976
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-10-23",
+          "main_net_yi": 2.73,
+          "total_net_yi": 10.71,
+          "covered": 63
+        },
+        {
+          "date": "2026-10-26",
+          "main_net_yi": -3.31,
+          "total_net_yi": -11.1,
+          "covered": 63
+        },
+        {
+          "date": "2026-10-27",
+          "main_net_yi": -1.76,
+          "total_net_yi": -17.62,
+          "covered": 63
+        },
+        {
+          "date": "2026-10-28",
+          "main_net_yi": 33.23,
+          "total_net_yi": 45.95,
+          "covered": 63
+        },
+        {
+          "date": "2026-10-29",
+          "main_net_yi": 61.55,
+          "total_net_yi": 82.54,
+          "covered": 63
+        },
+        {
+          "date": "2026-10-30",
+          "main_net_yi": 12.1,
+          "total_net_yi": -4.09,
+          "covered": 63
+        }
+      ]
     }
   },
   "errors": {},
@@ -1710,6 +1815,7 @@
     "药": 139,
     "互金证券": 61,
     "电力": 32,
-    "电网设备": 56
+    "电网设备": 56,
+    "商业航天": 63
   }
 }

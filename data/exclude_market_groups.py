@@ -21,7 +21,7 @@ BACKUP_ROOT = (
     / "outputs"
     / "market_group_backups"
 )
-EXCLUDED_GROUPS = ("黄金白银", "商业航天")
+EXCLUDED_GROUPS = ("黄金白银",)
 
 
 def workbook_paths(target_date: str) -> list[Path]:
@@ -151,6 +151,14 @@ def filter_workbook(path: Path, backup_dir: Path) -> dict[str, object]:
         count = remove_group_rows(sheet)
         if count:
             removed_rows[sheet.title] = count
+
+    if "分组异动" in workbook.sheetnames:
+        migration_sheet = workbook["分组异动"]
+        group_count = sum(
+            1
+            for values in migration_sheet.iter_rows(min_row=3, values_only=True)
+            if len(values) > 1 and values[0] and values[1]
+        )
 
     for sheet in workbook.worksheets:
         update_group_counts(sheet, group_count)
