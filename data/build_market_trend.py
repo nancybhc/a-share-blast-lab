@@ -81,6 +81,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--brief-dir", type=Path, help="简报 PPTX 所在目录；默认与 source-dir 相同。")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--date", help="交易日 YYYY-MM-DD；默认选择最新报告。")
+    parser.add_argument(
+        "--session",
+        choices=("auto", "intraday", "postmarket"),
+        default="auto",
+        help="行情阶段口径；日更任务固定使用 postmarket。",
+    )
     return parser.parse_args()
 
 
@@ -180,7 +186,11 @@ def make_thesis(row: dict[str, object]) -> str:
     )
 
 
-def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
+def build_payload(
+    cycle_path: Path,
+    migration_path: Path,
+    session: str = "auto",
+) -> dict[str, object]:
     cycle = openpyxl.load_workbook(cycle_path, read_only=True, data_only=True)
     migration = openpyxl.load_workbook(migration_path, read_only=True, data_only=True)
     rows = read_group_rows(migration)
@@ -295,10 +305,16 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
     else:
         generated_at = datetime.fromtimestamp(cycle_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
 
+    detected_intraday = any(word in summary_text for word in ("盘中", "午间"))
+    is_intraday = (
+        detected_intraday if session == "auto" else session == "intraday"
+    )
+
     payload = {
         "dataDate": summary_date,
         "generatedAt": generated_at,
-        "isIntraday": any(word in summary_text for word in ("盘中", "午间")),
+        "isIntraday": is_intraday,
+        "session": "intraday" if is_intraday else "postmarket",
         "sourceReport": cycle_path.name,
         "sourcePath": str(cycle_path),
         "sourceBrief": f"assets/多空阶段简报_{summary_date}.pptx",
@@ -343,7 +359,7 @@ def main() -> None:
         report_date,
     )
 
-    payload = build_payload(cycle_path, migration_path)
+    payload = build_payload(cycle_path, migration_path, args.session)
     output_dir = args.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     json_path = output_dir / "market_trend_latest.json"

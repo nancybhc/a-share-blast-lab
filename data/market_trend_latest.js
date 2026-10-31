@@ -1,7 +1,8 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-10-30",
   "generatedAt": "2026-10-30 14:53",
-  "isIntraday": true,
+  "isIntraday": false,
+  "session": "postmarket",
   "sourceReport": "多空阶段_2026-10-30.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Documents\\Codex\\2026-10-24\\d\\outputs\\market_group_backups\\2026-10-30\\多空阶段_2026-10-30.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-10-30.pptx",

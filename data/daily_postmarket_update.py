@@ -326,6 +326,8 @@ def main() -> int:
                     str(SOURCE_DIR),
                     "--date",
                     target_date,
+                    "--session",
+                    "postmarket",
                 ],
                 True,
                 300,
