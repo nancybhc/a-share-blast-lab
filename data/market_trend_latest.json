@@ -14,6 +14,38 @@
     "positiveTransitions": 23,
     "negativeTransitions": 200
   },
+  "phaseLegend": [
+    {
+      "phase": "空→多跳级",
+      "description": "空头阶段直接进入多头，修复力度最强。",
+      "tone": "lime"
+    },
+    {
+      "phase": "转多兑现",
+      "description": "空转多转成多头，净转多强度不低于 15。",
+      "tone": "lime"
+    },
+    {
+      "phase": "温和修复",
+      "description": "净转多强度为正，但尚未达到转多兑现。",
+      "tone": "amber"
+    },
+    {
+      "phase": "结构分化",
+      "description": "净转多强度为零，多空力量暂处平衡。",
+      "tone": "amber"
+    },
+    {
+      "phase": "结构承压",
+      "description": "净转多强度为负，但尚未进入加速转空。",
+      "tone": "cyan"
+    },
+    {
+      "phase": "转空加速",
+      "description": "净转多强度不高于 -15，风险集中释放。",
+      "tone": "red"
+    }
+  ],
   "groups": [
     {
       "name": "药",

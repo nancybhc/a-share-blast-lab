@@ -33,6 +33,46 @@ GROUP_META = {
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
 EXCLUDED_GROUPS = {"黄金白银"}
+PHASE_ORDER = (
+    "空→多跳级",
+    "转多兑现",
+    "温和修复",
+    "结构分化",
+    "结构承压",
+    "转空加速",
+)
+PHASE_DEFINITIONS = {
+    "空→多跳级": {
+        "badge": "修复加速",
+        "tone": "lime",
+        "description": "空头阶段直接进入多头，修复力度最强。",
+    },
+    "转多兑现": {
+        "badge": "扩散确认",
+        "tone": "lime",
+        "description": "空转多转成多头，净转多强度不低于 15。",
+    },
+    "温和修复": {
+        "badge": "边际改善",
+        "tone": "amber",
+        "description": "净转多强度为正，但尚未达到转多兑现。",
+    },
+    "结构分化": {
+        "badge": "临界观察",
+        "tone": "amber",
+        "description": "净转多强度为零，多空力量暂处平衡。",
+    },
+    "结构承压": {
+        "badge": "等待止跌",
+        "tone": "cyan",
+        "description": "净转多强度为负，但尚未进入加速转空。",
+    },
+    "转空加速": {
+        "badge": "风险升高",
+        "tone": "red",
+        "description": "净转多强度不高于 -15，风险集中释放。",
+    },
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -117,16 +157,19 @@ def read_histories(workbook: openpyxl.Workbook, names: set[str]) -> dict[str, li
 
 def phase_for(row: dict[str, object], score: float) -> tuple[str, str, str]:
     if row["direct"] > 0:
-        return "空→多跳级", "修复加速", "lime"
-    if score >= 15:
-        return "转多兑现", "扩散确认", "lime"
-    if score > 0:
-        return "温和修复", "边际改善", "amber"
-    if score <= -15:
-        return "转空加速", "风险升高", "red"
-    if score < 0:
-        return "结构承压", "等待止跌", "cyan"
-    return "结构分化", "临界观察", "amber"
+        phase = "空→多跳级"
+    elif score >= 15:
+        phase = "转多兑现"
+    elif score > 0:
+        phase = "温和修复"
+    elif score <= -15:
+        phase = "转空加速"
+    elif score < 0:
+        phase = "结构承压"
+    else:
+        phase = "结构分化"
+    definition = PHASE_DEFINITIONS[phase]
+    return phase, str(definition["badge"]), str(definition["tone"])
 
 
 def make_thesis(row: dict[str, object]) -> str:
@@ -268,6 +311,14 @@ def build_payload(cycle_path: Path, migration_path: Path) -> dict[str, object]:
             "positiveTransitions": sum(int(group["positive"]) for group in groups),
             "negativeTransitions": sum(int(group["negative"]) for group in groups),
         },
+        "phaseLegend": [
+            {
+                "phase": phase,
+                "description": PHASE_DEFINITIONS[phase]["description"],
+                "tone": PHASE_DEFINITIONS[phase]["tone"],
+            }
+            for phase in PHASE_ORDER
+        ],
         "groups": groups,
         "transition": {
             "window": 3,

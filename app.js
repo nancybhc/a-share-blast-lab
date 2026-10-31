@@ -1863,6 +1863,23 @@ function renderTransitionChart() {
   container.replaceChildren(svg);
 }
 
+function renderStageLegend() {
+  const container = document.getElementById("stageLegend");
+  if (!container) return;
+  const phases = marketData.phaseLegend || [];
+  container.innerHTML = phases
+    .map((item) => {
+      const color = toneColors[item.tone] || toneColors.amber;
+      return `
+        <div class="legend-row">
+          <span><i class="stage-dot" style="--legend-color:${color}"></i>${item.phase}</span>
+          <p>${item.description}</p>
+        </div>
+      `;
+    })
+    .join("");
+}
+
 function renderTrendOverview() {
   const overview = marketData.overview;
   if (!overview?.groups) return;
@@ -1893,6 +1910,7 @@ function renderTrendOverview() {
   if (rankCount) {
     rankCount.textContent = `全 ${marketData.groups.length} / ${overview.groups} 分组`;
   }
+  renderStageLegend();
 
   const metricRow = document.getElementById("marketMetricRow");
   if (metricRow) {

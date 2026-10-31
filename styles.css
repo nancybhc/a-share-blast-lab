@@ -1353,7 +1353,7 @@ button {
 
 .legend-row {
   display: grid;
-  grid-template-columns: 70px 1fr;
+  grid-template-columns: 82px 1fr;
   gap: 12px;
   align-items: center;
   padding: 16px 0;
@@ -1384,18 +1384,11 @@ button {
   width: 6px;
   height: 6px;
   border-radius: 50%;
+  background: var(--legend-color, var(--amber));
 }
 
-.stage-dot.setup {
-  background: var(--amber);
-}
-
-.stage-dot.confirm {
-  background: var(--positive);
-}
-
-.stage-dot.crowd {
-  background: var(--negative);
+.stage-legend .legend-row {
+  padding: 12px 0;
 }
 
 .migration-layout {
