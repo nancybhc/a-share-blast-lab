@@ -1,6 +1,6 @@
 window.FULL_MARKET_DATA = {
   "date": "2026-10-30",
-  "captured_at": "2026-10-31T20:29:41+08:00",
+  "captured_at": "2026-11-01T20:51:01+08:00",
   "source": "东方财富 clist f62 / 主力净流入",
   "source_hosts": [
     "https://push2test.eastmoney.com"

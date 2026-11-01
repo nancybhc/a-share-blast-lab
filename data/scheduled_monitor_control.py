@@ -27,6 +27,7 @@ QUANT_DASHBOARD_DIR = Path(
     r"C:\Users\jiach\回测\5破10推演量化策略_2026-01-01起\网页看板"
 )
 QUANT_DASHBOARD_URL = "http://127.0.0.1:8765"
+QUANT_LIVE_PATH = QUANT_DASHBOARD_DIR / "data" / "live_signals.json"
 FIVE_BREAK_PID_FILE = DATA_DIR / ".five_break_10_monitor.pid"
 
 
@@ -75,6 +76,49 @@ def quant_server_is_ready() -> bool:
         return True
     except Exception:  # noqa: BLE001
         return False
+
+
+def wait_for_quant_final_scan(timeout_seconds: int = 90) -> dict:
+    """15:00 先等量化监控完成收盘快照，再执行兜底停止。"""
+    deadline = time.monotonic() + timeout_seconds
+    status: dict = {}
+    while time.monotonic() < deadline:
+        try:
+            status = request_url_json(
+                QUANT_DASHBOARD_URL,
+                "/api/monitor/status",
+                timeout=5,
+            )
+        except Exception as exc:  # noqa: BLE001
+            status = {
+                "running": True,
+                "status_error": f"{type(exc).__name__}: {exc}",
+            }
+            time.sleep(1)
+            continue
+        if not status.get("running"):
+            return status
+        time.sleep(1)
+    return status
+
+
+def wait_for_quant_close_file(timeout_seconds: int = 90) -> dict:
+    """看板服务不可用时，直接等待监控写出的 15:00 收盘快照。"""
+    deadline = time.monotonic() + timeout_seconds
+    payload: dict = {}
+    expected_date = datetime.now(CHINA_TZ).strftime("%Y-%m-%d")
+    while time.monotonic() < deadline:
+        try:
+            payload = json.loads(QUANT_LIVE_PATH.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            payload = {}
+        if (
+            str(payload.get("marketDate") or "") == expected_date
+            and str(payload.get("marketTime") or "")[:8] >= "15:00:00"
+        ):
+            return payload
+        time.sleep(1)
+    return payload
 
 
 def start_quant_server() -> None:
@@ -246,13 +290,27 @@ def main() -> int:
                 stopped = stop_orphan_monitors()
                 result = {"running_count": 0, "orphan_stopped": stopped}
             if quant_server_is_ready():
-                result["quant_dashboard"] = request_url_json(
-                    QUANT_DASHBOARD_URL,
-                    "/api/monitor/stop",
-                    "POST",
-                    timeout=20,
+                quant_status = (
+                    request_url_json(
+                        QUANT_DASHBOARD_URL,
+                        "/api/monitor/status",
+                        timeout=5,
+                    )
+                    if args.force
+                    else wait_for_quant_final_scan()
                 )
+                if quant_status.get("running"):
+                    log("量化监控未在收盘快照窗口内自行停止，执行兜底停止")
+                    quant_status = request_url_json(
+                        QUANT_DASHBOARD_URL,
+                        "/api/monitor/stop",
+                        "POST",
+                        timeout=20,
+                    )
+                result["quant_dashboard"] = quant_status
             else:
+                if not args.force:
+                    wait_for_quant_close_file()
                 stop_quant_monitor_direct()
                 result["quant_dashboard"] = {"running": False}
         base_success = (
