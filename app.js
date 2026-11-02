@@ -236,8 +236,10 @@ const toast = document.getElementById("toast");
 const methodDialog = document.getElementById("methodDialog");
 const groupTrendDialog = document.getElementById("groupTrendDialog");
 
-let activeSort = "score";
-let activeGroupId = marketData.groups[0]?.id || "semiconductor";
+let activeSort = "bullPct";
+let activeGroupId =
+  [...marketData.groups].sort((a, b) => b.bullPct - a.bullPct)[0]?.id ||
+  "semiconductor";
 let activeMarketScope = "concept";
 let activeMarketDirection = "inflow";
 let activeMarketSort = "flow_yi";
@@ -620,7 +622,9 @@ function renderMarketOverview() {
     `${counts.industry || 0} 行业 / ${counts.concept || 0} 概念 / ${counts.stock || 0} 股`;
   document.getElementById("marketCaptureStatus").textContent =
     fullMarketIntraday?.available
-      ? `盘中 · ${fullMarketIntraday.capture_count} 次 · ${shortDateTime(fullMarketIntraday.last_capture_at).slice(5)}`
+      ? fullMarketIntraday.is_close
+        ? `收盘 · 15:00 · ${fullMarketIntraday.date.slice(5)}`
+        : `盘中 · ${fullMarketIntraday.capture_count} 次 · ${shortDateTime(fullMarketIntraday.last_capture_at).slice(5)}`
       : "仅收盘数据";
 
   document.getElementById("marketOverview").innerHTML = `

@@ -39,23 +39,7 @@ PROCESS_LOCK = threading.Lock()
 THEME_REFRESH_LOCK = threading.Lock()
 LIVE_PIPELINE_LOCK = threading.Lock()
 PUBLISH_LOCK = threading.Lock()
-PUBLISH_SLOTS = (
-    clock_time(9, 30),
-    clock_time(9, 50),
-    clock_time(10, 10),
-    clock_time(10, 30),
-    clock_time(10, 50),
-    clock_time(11, 10),
-    clock_time(11, 30),
-    clock_time(13, 0),
-    clock_time(13, 20),
-    clock_time(13, 40),
-    clock_time(14, 0),
-    clock_time(14, 20),
-    clock_time(14, 40),
-    clock_time(14, 55),
-    clock_time(15, 0),
-)
+PUBLISH_INTERVAL_SECONDS = 60
 LAST_ATTEMPTED_SLOT: str | None = None
 PUBLISH_RUNNING = False
 LAST_PUBLISH_ERROR: str | None = None
@@ -70,8 +54,8 @@ def is_trading_window(now: datetime) -> bool:
         return False
     current = now.time()
     return (
-        clock_time(9, 20) <= current <= clock_time(11, 35)
-        or clock_time(12, 55) <= current <= clock_time(15, 0)
+        clock_time(9, 15) <= current <= clock_time(11, 35)
+        or clock_time(12, 55) <= current < clock_time(15, 0)
     )
 
 
@@ -80,24 +64,22 @@ def slot_datetime(now: datetime, slot: clock_time) -> datetime:
 
 
 def latest_due_slot(now: datetime) -> datetime | None:
-    if now.weekday() >= 5:
+    if not is_trading_window(now):
         return None
-    due = [
-        slot_datetime(now, slot) + timedelta(seconds=15)
-        for slot in PUBLISH_SLOTS
-        if now >= slot_datetime(now, slot) + timedelta(seconds=15)
-    ]
-    return due[-1] if due else None
+    return now.replace(second=0, microsecond=0)
 
 
 def next_publish_slot(now: datetime) -> datetime:
+    if is_trading_window(now):
+        return now.replace(second=0, microsecond=0) + timedelta(
+            seconds=PUBLISH_INTERVAL_SECONDS
+        )
     for offset in range(0, 8):
         day = (now + timedelta(days=offset)).date()
-        day_midnight = datetime.combine(day, clock_time(0, 0), tzinfo=CHINA_TZ)
-        if day_midnight.weekday() >= 5:
+        if day.weekday() >= 5:
             continue
-        for slot in PUBLISH_SLOTS:
-            candidate = slot_datetime(day_midnight, slot)
+        for start in (clock_time(9, 15), clock_time(12, 55)):
+            candidate = datetime.combine(day, start, tzinfo=CHINA_TZ)
             if candidate > now:
                 return candidate
     return now + timedelta(days=1)
@@ -284,12 +266,12 @@ def publish_scheduler_loop() -> None:
                     LAST_ATTEMPTED_SLOT = slot_key
                     live_monitor_running = (
                         collector_state().get("running")
-                        or monitor_state().get("running")
                         or theme_refresh_state().get("running")
+                        or live_pipeline_state().get("running")
                     )
                     if live_monitor_running:
                         publish_to_github(slot)
-        time.sleep(10)
+        time.sleep(5)
 
 
 def theme_refresh_state() -> dict[str, Any]:

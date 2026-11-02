@@ -155,23 +155,8 @@ def write_runtime_status() -> dict[str, Any]:
         "published_at_display": now.strftime("%Y-%m-%d %H:%M:%S"),
         "last_collector_capture_at": capture.get("last_capture_at"),
         "capture_count": capture.get("capture_count", 0),
-        "schedule": [
-            "09:30",
-            "09:50",
-            "10:10",
-            "10:30",
-            "10:50",
-            "11:10",
-            "11:30",
-            "13:00",
-            "13:20",
-            "13:40",
-            "14:00",
-            "14:20",
-            "14:40",
-            "14:55",
-            "15:00",
-        ],
+        "publish_interval_seconds": 60,
+        "schedule": "盘中每60秒",
     }
     RUNTIME_STATUS.write_text(
         "window.SITE_RUNTIME_STATUS = "

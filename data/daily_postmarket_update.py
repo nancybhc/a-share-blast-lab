@@ -459,7 +459,7 @@ def main() -> int:
                     "--workbook",
                     str(report),
                 ],
-                True,
+                False,
                 900,
             ),
         ]
@@ -489,7 +489,7 @@ def main() -> int:
         )
         status["steps"].append({"name": "full-market-close", "ok": full_ok})
         if not full_ok:
-            run_step(
+            _, _ = run_step(
                 "full-market-close-fallback",
                 [
                     sys.executable,
@@ -500,9 +500,26 @@ def main() -> int:
                     "--date",
                     target_date,
                 ],
-                required=True,
+                required=False,
                 timeout=300,
             )
+
+        finalize_ok, _ = run_step(
+            "finalize-market-close",
+            [
+                sys.executable,
+                "-X",
+                "utf8",
+                "data/finalize_market_close.py",
+                "--date",
+                target_date,
+            ],
+            required=True,
+            timeout=120,
+        )
+        status["steps"].append(
+            {"name": "finalize-market-close", "ok": finalize_ok}
+        )
 
         refresh_index_data_refs(target_date)
         refresh_latest_aliases(target_date)
