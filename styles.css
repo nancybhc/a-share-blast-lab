@@ -2445,8 +2445,8 @@ button {
 
 .market-fund-table th:nth-child(2),
 .market-fund-table td:nth-child(2) {
-  width: 200px;
-  min-width: 200px;
+  width: auto;
+  min-width: 132px;
   text-align: left;
 }
 
@@ -2469,8 +2469,8 @@ button {
 }
 
 .market-board-table th:nth-child(2) {
-  width: 150px;
-  min-width: 150px;
+  width: auto;
+  min-width: 118px;
 }
 
 .market-board-table th:nth-child(3),
@@ -4842,11 +4842,13 @@ button {
 
   .market-fund-table tr {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: repeat(3, max-content);
+    gap: 1px;
+    justify-content: space-between;
     overflow: hidden;
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: var(--panel);
+    background: var(--line);
   }
 
   .market-fund-table td {
@@ -4855,6 +4857,7 @@ button {
     min-width: 0 !important;
     padding: 8px 10px;
     border-bottom: 0;
+    background: var(--panel);
     text-align: left !important;
     white-space: normal;
   }
@@ -4894,12 +4897,6 @@ button {
 
   .market-fund-table td:nth-child(2) .fund-group-name strong {
     font-size: 13px;
-  }
-
-  .market-fund-table td:nth-child(4),
-  .market-fund-table td:nth-child(6),
-  .market-fund-table td:nth-child(8) {
-    border-left: 1px solid var(--line-soft);
   }
 
   .market-fund-table .chip-track-time b {
