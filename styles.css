@@ -4073,7 +4073,7 @@ button {
 }
 
 .group-trend-chart {
-  min-height: 330px;
+  min-height: 0;
   margin: 18px 25px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -4087,12 +4087,13 @@ button {
 .group-trend-chart svg {
   display: block;
   width: 100%;
-  min-height: 330px;
+  height: auto;
+  min-height: 0;
 }
 
 .group-trend-empty {
   display: grid;
-  min-height: 330px;
+  min-height: 220px;
   place-items: center;
   color: var(--muted);
   font-size: 12px;

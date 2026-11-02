@@ -238,7 +238,7 @@ const groupTrendDialog = document.getElementById("groupTrendDialog");
 
 let activeSort = "bullPct";
 let activeGroupId =
-  [...marketData.groups].sort((a, b) => b.bullPct - a.bullPct)[0]?.id ||
+  [...marketData.groups].sort((a, b) => b.score - a.score)[0]?.id ||
   "semiconductor";
 let activeMarketScope = "concept";
 let activeMarketDirection = "inflow";
@@ -336,10 +336,7 @@ function renderRanking() {
     row.addEventListener("click", () => {
       const group = marketData.groups.find((item) => item.id === row.dataset.group);
       if (group) {
-        updateSpotlight(group);
         openGroupTrend(group);
-        rankList.querySelectorAll(".rank-row").forEach((item) => item.classList.remove("is-active"));
-        row.classList.add("is-active");
       }
     });
   });
@@ -1742,10 +1739,23 @@ function renderGroupIntradayTrend(group) {
   const meta = document.getElementById("groupTrendMeta");
   if (!container || !group) return;
 
-  const points =
+  const allPoints =
     groupIntradayTrends?.date === marketData.dataDate
       ? groupIntradayTrends.groups?.[group.id] || []
       : [];
+  const maxPoints = 15;
+  const points =
+    allPoints.length > maxPoints
+      ? Array.from({ length: maxPoints }, (_, index) => {
+          const pointIndex = Math.round(
+            (index / (maxPoints - 1)) * (allPoints.length - 1),
+          );
+          return allPoints[pointIndex];
+        }).filter(
+          (point, index, sampled) =>
+            point && sampled.findIndex((item) => item.timestamp === point.timestamp) === index,
+        )
+      : allPoints;
   document.getElementById("groupTrendTitle").textContent = group.name;
   document.getElementById("groupTrendBullPct").textContent =
     `${Number(points.at(-1)?.bullPct ?? group.bullPct).toFixed(1)}%`;
@@ -1760,16 +1770,27 @@ function renderGroupIntradayTrend(group) {
     return;
   }
 
-  const width = 800;
-  const height = 330;
-  const padding = { top: 34, right: 28, bottom: 42, left: 48 };
+  const compact = window.matchMedia("(max-width: 760px)").matches;
+  const width = compact ? 440 : 800;
+  const height = compact ? 250 : 330;
+  const padding = compact
+    ? { top: 20, right: 14, bottom: 28, left: 38 }
+    : { top: 34, right: 28, bottom: 42, left: 48 };
   const plotWidth = width - padding.left - padding.right;
   const plotHeight = height - padding.top - padding.bottom;
   const rawMin = Math.min(...points.map((point) => point.bullPct));
   const rawMax = Math.max(...points.map((point) => point.bullPct));
-  const spread = Math.max(rawMax - rawMin, 4);
-  const yMin = Math.max(0, Math.floor((rawMin - spread * 0.15) / 5) * 5);
-  const yMax = Math.min(100, Math.ceil((rawMax + spread * 0.15) / 5) * 5);
+  const spread = Math.max(rawMax - rawMin, 1);
+  const margin = Math.max(0.8, spread * 0.08);
+  const tickStep = spread < 5 ? 1 : spread < 15 ? 2 : 5;
+  const yMin = Math.max(
+    0,
+    Math.floor((rawMin - margin) / tickStep) * tickStep,
+  );
+  const yMax = Math.min(
+    100,
+    Math.ceil((rawMax + margin) / tickStep) * tickStep,
+  );
   const safeMax = yMax > yMin ? yMax : yMin + 5;
   const x = (index) =>
     padding.left +
@@ -1798,9 +1819,8 @@ function renderGroupIntradayTrend(group) {
   defs.append(gradient);
   svg.append(defs);
 
-  Array.from({ length: 5 }, (_, index) =>
-    yMin + ((safeMax - yMin) / 4) * index,
-  ).forEach((tick) => {
+  const tickSpan = (safeMax - yMin) / 4;
+  Array.from({ length: 5 }, (_, index) => yMin + tickSpan * index).forEach((tick) => {
     const tickY = y(tick);
     svg.append(
       svgEl("line", {
@@ -1820,7 +1840,7 @@ function renderGroupIntradayTrend(group) {
       "font-family": "Cascadia Code, Consolas, monospace",
       "text-anchor": "end",
     });
-    label.textContent = `${Math.round(tick)}%`;
+    label.textContent = `${tickSpan < 1 ? tick.toFixed(1) : Math.round(tick)}%`;
     svg.append(label);
   });
 
@@ -1858,10 +1878,13 @@ function renderGroupIntradayTrend(group) {
   });
 
   const labelIndexes = new Set(
-    [0, points.length - 1].concat(
-      Array.from({ length: Math.min(points.length, 5) }, (_, index) =>
-        Math.round((index / Math.max(points.length - 1, 1)) * (points.length - 1)),
-      ),
+    Array.from(
+      { length: Math.min(points.length, 5) },
+      (_, index) =>
+        Math.round(
+          (index / Math.max(Math.min(points.length, 5) - 1, 1)) *
+            (points.length - 1),
+        ),
     ),
   );
   [...labelIndexes]
@@ -1881,7 +1904,7 @@ function renderGroupIntradayTrend(group) {
 
   container.replaceChildren(svg);
   meta.textContent =
-    `${marketData.dataDate} · ${points.length} 个截面 · ` +
+    `${marketData.dataDate} · ${allPoints.length} 个截面，显示 ${points.length} 点 · ` +
     `${points[0].time} → ${points.at(-1).time}`;
 }
 
