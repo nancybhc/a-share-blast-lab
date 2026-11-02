@@ -1215,7 +1215,9 @@ function renderThemeStrength() {
 
   document.getElementById("themeRadarDate").textContent = data.date || "—";
   document.getElementById("themeRadarUpdated").textContent = updated;
-  document.getElementById("themeLatestDate").textContent = `${data.date || "—"} 收盘`;
+  document.getElementById("themeLatestDate").textContent =
+    data.period_label ||
+    `${data.date || "—"} ${data.source_kind === "intraday" ? "盘中" : "收盘"}`;
 
   document.getElementById("themeOverview").innerHTML = `
     <article class="theme-stat">

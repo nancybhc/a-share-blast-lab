@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 
 
 SOURCE_ROOT = Path(r"C:\Users\jiach\题材雷达结果")
+INTRADAY_ROOT = Path(r"C:\Users\jiach\Desktop\今日盘中\题材雷达_当日题材强度")
 DATA_DIR = Path(__file__).resolve().parent
 OUTPUT_JSON = DATA_DIR / "theme_radar_latest.json"
 OUTPUT_JS = DATA_DIR / "theme_radar_latest.js"
@@ -33,29 +34,62 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
-def latest_result_dir() -> Path:
-    candidates = []
-    for path in SOURCE_ROOT.iterdir():
-        if not path.is_dir():
-            continue
-        raw = path / "原始数据"
-        required = (
-            raw / "当日题材强度_每日题材前五.csv",
-            raw / "当日题材强度_五日题材汇总.csv",
-            raw / "命中个股.csv",
-            raw / "题材共振.csv",
+def resolve_theme_source() -> dict[str, Any]:
+    candidates: list[dict[str, Any]] = []
+    daily_name = "当日题材强度_每日题材前五.csv"
+    five_day_name = "当日题材强度_五日题材汇总.csv"
+    detail_name = "当日题材强度_每日明细.csv"
+    xlsx_name = "题材雷达_当日题材强度.xlsx"
+
+    def add_candidate(
+        raw_dir: Path,
+        result_dir: Path,
+        *,
+        kind: str,
+    ) -> None:
+        required = (raw_dir / daily_name, raw_dir / five_day_name, raw_dir / detail_name)
+        if not all(path.is_file() and path.stat().st_size > 100 for path in required):
+            return
+        daily_rows = read_csv(raw_dir / daily_name)
+        dates = sorted(
+            {
+                str(row.get("交易日期") or "")
+                for row in daily_rows
+                if row.get("交易日期")
+            }
         )
-        if all(item.exists() for item in required):
-            candidates.append(path)
+        if not dates:
+            return
+        xlsx = result_dir / xlsx_name
+        summary = result_dir / "题材雷达_当日题材强度_摘要.txt"
+        tracked = [*required, xlsx, summary]
+        mtime = max(path.stat().st_mtime for path in tracked if path.exists())
+        candidates.append(
+            {
+                "day": dates[-1],
+                "raw_dir": raw_dir,
+                "result_dir": result_dir,
+                "xlsx": xlsx,
+                "summary": summary,
+                "mtime": mtime,
+                "kind": kind,
+            }
+        )
+
+    add_candidate(INTRADAY_ROOT / "原始数据", INTRADAY_ROOT, kind="intraday")
+    for path in SOURCE_ROOT.iterdir():
+        if path.is_dir():
+            add_candidate(path / "原始数据", path, kind="archive")
+
     if not candidates:
         raise FileNotFoundError("没有可用的题材雷达结果目录")
-    return sorted(candidates, key=lambda path: path.name)[-1]
+    return max(candidates, key=lambda item: (str(item["day"]), item["mtime"]))
 
 
 def build_payload() -> dict[str, Any]:
-    day_dir = latest_result_dir()
-    raw_dir = day_dir / "原始数据"
-    day = day_dir.name
+    source = resolve_theme_source()
+    raw_dir = source["raw_dir"]
+    day = str(source["day"])
 
     daily_rows = read_csv(raw_dir / "当日题材强度_每日题材前五.csv")
     daily_top = [
@@ -72,6 +106,14 @@ def build_payload() -> dict[str, Any]:
         if row.get("交易日期") == day
     ]
     daily_top.sort(key=lambda row: row["rank"])
+    period_label = next(
+        (
+            str(row.get("交易日标签") or "")
+            for row in daily_rows
+            if row.get("交易日期") == day and row.get("交易日标签")
+        ),
+        "",
+    )
 
     five_day = [
         {
@@ -95,19 +137,25 @@ def build_payload() -> dict[str, Any]:
         reverse=True,
     )
 
-    strength_summary = day_dir / "题材雷达_当日题材强度_摘要.txt"
+    strength_summary = source["summary"]
     source_mtime = max(
         path.stat().st_mtime
         for path in (strength_summary,)
         if path.exists()
-    )
+    ) if strength_summary.exists() else source["mtime"]
     return {
         "date": day,
         "generated_at": datetime.fromtimestamp(
             source_mtime,
             ZoneInfo("Asia/Shanghai"),
         ).isoformat(timespec="seconds"),
-        "source": "当日题材强度",
+        "source": (
+            "今日盘中 / 当日题材强度"
+            if source["kind"] == "intraday"
+            else "归档 / 当日题材强度"
+        ),
+        "source_kind": source["kind"],
+        "period_label": period_label,
         "daily_top": daily_top,
         "five_day": five_day,
     }
@@ -115,14 +163,15 @@ def build_payload() -> dict[str, Any]:
 
 def write_payload() -> dict[str, Any]:
     payload = build_payload()
+    source = resolve_theme_source()
     text = json.dumps(payload, ensure_ascii=False, indent=2)
     OUTPUT_JSON.write_text(text, encoding="utf-8")
     OUTPUT_JS.write_text(
         "window.THEME_RADAR_DATA = " + text + ";\n",
         encoding="utf-8",
     )
-    source_dir = SOURCE_ROOT / payload["date"] / "原始数据"
-    result_dir = SOURCE_ROOT / payload["date"]
+    source_dir = source["raw_dir"]
+    result_dir = source["result_dir"]
     for source_name, target in (
         ("当日题材强度_每日题材前五.csv", THEME_TOP_CSV),
         ("当日题材强度_每日明细.csv", THEME_DETAIL_CSV),
@@ -138,6 +187,7 @@ def write_payload() -> dict[str, Any]:
                     timespec="seconds"
                 ),
                 "source_date": payload["date"],
+                "source_kind": payload.get("source_kind"),
                 "daily_top_count": len(payload["daily_top"]),
             },
             ensure_ascii=False,
