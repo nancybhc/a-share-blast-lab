@@ -1,67 +1,57 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T10:50:21+08:00",
+  "generated_at": "2026-11-02T11:05:45+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-02午盘",
   "daily_top": [
     {
       "date": "2026-11-02",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 4.64,
+      "constituents": 23,
+      "members": "AI视频 +4.64%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-02",
       "theme": "虚拟机器人",
       "representative": "虚拟机器人",
-      "change_pct": 3.75,
+      "change_pct": 4.15,
       "constituents": 16,
-      "members": "虚拟机器人 +3.75%",
-      "rank": 1
+      "members": "虚拟机器人 +4.15%",
+      "rank": 2
     },
     {
       "date": "2026-11-02",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": 3.73,
+      "change_pct": 3.98,
       "constituents": 53,
-      "members": "券商概念 +3.73%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-02",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 3.36,
-      "constituents": 23,
-      "members": "AI视频 +3.36%",
+      "members": "券商概念 +3.98%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-02",
-      "theme": "白酒/酿酒概念",
-      "representative": "酿酒概念",
-      "change_pct": 3.23,
-      "constituents": 56,
-      "members": "酿酒概念 +3.23% / 白酒 +3.01%",
-      "rank": 4
     },
     {
       "date": "2026-11-02",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 3.01,
+      "change_pct": 3.75,
       "constituents": 17,
-      "members": "Kimi概念 +3.01%",
+      "members": "Kimi概念 +3.75%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "数据要素/安全",
+      "representative": "数据确权",
+      "change_pct": 3.61,
+      "constituents": 283,
+      "members": "数据确权 +3.61% / 数字水印 +2.28% / 数据要素 +2.24% / 数据安全 +2.17% / 时空大数据 +0.85%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 3.02,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
-      "dates": "11-02、10-30"
-    },
     {
       "theme": "CRO",
       "current_streak": 0,
@@ -83,13 +73,23 @@ window.THEME_RADAR_DATA = {
       "dates": "10-29、10-27"
     },
     {
+      "theme": "AI视频",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.64,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-02"
+    },
+    {
       "theme": "虚拟机器人",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.75,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 4.15,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-02"
     },
     {
@@ -97,17 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.73,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-02"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.36,
+      "avg_change_pct": 3.98,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-02"
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.01,
+      "avg_change_pct": 3.75,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-02"
+    },
+    {
+      "theme": "数据要素/安全",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.61,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-02"
@@ -131,6 +131,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "10-28"
+    },
+    {
+      "theme": "白酒/酿酒概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.82,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "10-30"
     },
     {
       "theme": "轮毂电机",
