@@ -7,15 +7,16 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23b42335' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261102142025">
-  <script src="data/group_fund_flows_latest.js?v=20261102142025"></script>
-  <script src="data/board_daily_fund_flows_latest.js?v=20261102142025"></script>
-  <script src="data/full_market_daily_latest.js?v=20261102142025"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261102142025"></script>
-  <script src="data/theme_radar_latest.js?v=20261102142025"></script>
-  <script src="data/runtime_status.js?v=20261102142025"></script>
-  <script src="data/market_trend_latest.js?v=20261102142025"></script>
-  <script src="app.js?v=20261102142025" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261102143523">
+  <script src="data/group_fund_flows_latest.js?v=20261102143523"></script>
+  <script src="data/board_daily_fund_flows_latest.js?v=20261102143523"></script>
+  <script src="data/full_market_daily_latest.js?v=20261102143523"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261102143523"></script>
+  <script src="data/theme_radar_latest.js?v=20261102143523"></script>
+  <script src="data/group_intraday_trends_latest.js?v=20261102143523"></script>
+  <script src="data/runtime_status.js?v=20261102143523"></script>
+  <script src="data/market_trend_latest.js?v=20261102143523"></script>
+  <script src="app.js?v=20261102143523" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -191,9 +192,9 @@
         <article class="panel rank-panel reveal">
           <div class="panel-toolbar">
             <div class="segmented" id="rankTabs" role="tablist" aria-label="排行口径">
-              <button class="active" type="button" data-sort="score" role="tab" aria-selected="true">净强度</button>
-              <button type="button" data-sort="fulfilled" role="tab" aria-selected="false">转多确认数</button>
               <button type="button" data-sort="bullPct" role="tab" aria-selected="false">多头占比</button>
+              <button class="active" type="button" data-sort="score" role="tab" aria-selected="true">净强度</button>
+              <button type="button" data-sort="fulfilled" role="tab" aria-selected="false">转多数</button>
             </div>
             <span class="rank-count" id="rankCount">全 — / — 分组</span>
           </div>
@@ -453,6 +454,28 @@
       <div class="dialog-actions">
         <a id="marketBriefLink" href="#" download>下载原简报 ↘</a>
         <button id="closeMethodBottom" type="button">返回实验室</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="method-dialog group-trend-dialog" id="groupTrendDialog">
+    <div class="dialog-head">
+      <div>
+        <span class="panel-label">当日多头占比趋势</span>
+        <h2 id="groupTrendTitle">分组</h2>
+      </div>
+      <button class="dialog-close" id="closeGroupTrend" type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="group-trend-summary">
+      <div><span>当前多头占比</span><strong id="groupTrendBullPct">—</strong></div>
+      <div><span>当前净强度</span><strong id="groupTrendScore">—</strong></div>
+      <div><span>空转多候选</span><strong id="groupTrendTurnBull">—</strong></div>
+    </div>
+    <div class="group-trend-chart" id="groupTrendChart"></div>
+    <div class="dialog-foot">
+      <span id="groupTrendMeta">等待盘中快照</span>
+      <div class="dialog-actions">
+        <button id="closeGroupTrendBottom" type="button">返回实验室</button>
       </div>
     </div>
   </dialog>

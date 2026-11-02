@@ -4023,6 +4023,66 @@ button {
   font-size: 10px;
 }
 
+.group-trend-dialog {
+  width: min(860px, calc(100vw - 32px));
+  padding-bottom: 20px;
+}
+
+.group-trend-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 20px 25px 0;
+}
+
+.group-trend-summary > div {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.group-trend-summary span {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.group-trend-summary strong {
+  display: block;
+  margin-top: 8px;
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.group-trend-chart {
+  min-height: 330px;
+  margin: 18px 25px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(rgba(24, 48, 41, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(24, 48, 41, 0.035) 1px, transparent 1px),
+    #fff;
+  background-size: 28px 28px;
+}
+
+.group-trend-chart svg {
+  display: block;
+  width: 100%;
+  min-height: 330px;
+}
+
+.group-trend-empty {
+  display: grid;
+  min-height: 330px;
+  place-items: center;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .dialog-actions {
   display: flex;
   align-items: center;
@@ -4577,6 +4637,15 @@ button {
 
   .method-grid {
     grid-template-columns: 1fr;
+  }
+
+  .group-trend-summary {
+    grid-template-columns: 1fr;
+    padding-inline: 18px;
+  }
+
+  .group-trend-chart {
+    margin-inline: 18px;
   }
 
   .dialog-head,

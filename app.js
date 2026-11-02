@@ -226,6 +226,7 @@ let boardFundData = window.BOARD_FUND_DATA || null;
 let fullMarketData = window.FULL_MARKET_DATA || null;
 let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
 let themeRadarData = window.THEME_RADAR_DATA || null;
+let groupIntradayTrends = window.GROUP_INTRADAY_TRENDS || null;
 let siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
 const rankList = document.getElementById("rankList");
 const rankTabs = document.getElementById("rankTabs");
@@ -233,6 +234,7 @@ const rankValueHead = document.getElementById("rankValueHead");
 const spotlightCard = document.getElementById("spotlightCard");
 const toast = document.getElementById("toast");
 const methodDialog = document.getElementById("methodDialog");
+const groupTrendDialog = document.getElementById("groupTrendDialog");
 
 let activeSort = "score";
 let activeGroupId = marketData.groups[0]?.id || "semiconductor";
@@ -257,7 +259,7 @@ const toneColors = {
 
 const sortConfig = {
   score: { label: "净强度", suffix: "", max: 80, metricLabel: "净强度" },
-  fulfilled: { label: "转多确认", suffix: "只", max: 25, metricLabel: "转多确认数" },
+  fulfilled: { label: "转多数", suffix: "只", max: 25, metricLabel: "转多数" },
   bullPct: { label: "多头占比", suffix: "%", max: 100, metricLabel: "多头占比" },
 };
 
@@ -310,7 +312,7 @@ function renderRanking() {
       const width = Math.max(4, Math.min(100, (value / config.max) * 100));
       const isActive = group.id === activeGroupId;
       return `
-        <button class="rank-row ${isActive ? "is-active" : ""}" type="button" data-group="${group.id}" style="--row-accent:${accent}">
+        <button class="rank-row ${isActive ? "is-active" : ""}" type="button" data-group="${group.id}" style="--row-accent:${accent}" aria-label="查看 ${group.name} 当日多头占比趋势">
           <span class="rank-index">${String(index + 1).padStart(2, "0")}</span>
           <span class="rank-main">
             <span class="rank-title">
@@ -333,6 +335,7 @@ function renderRanking() {
       const group = marketData.groups.find((item) => item.id === row.dataset.group);
       if (group) {
         updateSpotlight(group);
+        openGroupTrend(group);
         rankList.querySelectorAll(".rank-row").forEach((item) => item.classList.remove("is-active"));
         row.classList.add("is-active");
       }
@@ -1649,6 +1652,9 @@ async function refreshDynamicSections() {
     fullMarketIntraday = window.FULL_MARKET_INTRADAY || fullMarketIntraday;
     await loadFreshScript("data/theme_radar_latest.js");
     themeRadarData = window.THEME_RADAR_DATA || themeRadarData;
+    await loadFreshScript("data/group_intraday_trends_latest.js");
+    groupIntradayTrends =
+      window.GROUP_INTRADAY_TRENDS || groupIntradayTrends;
     if (!["127.0.0.1", "localhost", "::1"].includes(location.hostname)) {
       await loadFreshScript("data/runtime_status.js");
       siteRuntimeStatus = window.SITE_RUNTIME_STATUS || siteRuntimeStatus;
@@ -1662,6 +1668,9 @@ async function refreshDynamicSections() {
       marketData.groups.find((group) => group.id === activeGroupId) ||
       marketData.groups[0];
     if (currentGroup) updateSpotlight(currentGroup);
+    if (currentGroup && groupTrendDialog.open) {
+      renderGroupIntradayTrend(currentGroup);
+    }
     renderRanking();
     renderTransitionChart();
     renderFundTable();
@@ -1721,6 +1730,159 @@ function svgEl(tag, attrs = {}) {
   const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
   Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, value));
   return node;
+}
+
+function renderGroupIntradayTrend(group) {
+  const container = document.getElementById("groupTrendChart");
+  const meta = document.getElementById("groupTrendMeta");
+  if (!container || !group) return;
+
+  const points =
+    groupIntradayTrends?.date === marketData.dataDate
+      ? groupIntradayTrends.groups?.[group.id] || []
+      : [];
+  document.getElementById("groupTrendTitle").textContent = group.name;
+  document.getElementById("groupTrendBullPct").textContent =
+    `${Number(points.at(-1)?.bullPct ?? group.bullPct).toFixed(1)}%`;
+  document.getElementById("groupTrendScore").textContent =
+    Number(group.score).toFixed(1);
+  document.getElementById("groupTrendTurnBull").textContent =
+    String(points.at(-1)?.turnBull ?? group.turnBull);
+
+  if (!points.length) {
+    container.innerHTML = '<div class="group-trend-empty">当日盘中趋势正在积累</div>';
+    meta.textContent = `${marketData.dataDate} · 等待首个盘中快照`;
+    return;
+  }
+
+  const width = 800;
+  const height = 330;
+  const padding = { top: 34, right: 28, bottom: 42, left: 48 };
+  const plotWidth = width - padding.left - padding.right;
+  const plotHeight = height - padding.top - padding.bottom;
+  const rawMin = Math.min(...points.map((point) => point.bullPct));
+  const rawMax = Math.max(...points.map((point) => point.bullPct));
+  const spread = Math.max(rawMax - rawMin, 4);
+  const yMin = Math.max(0, Math.floor((rawMin - spread * 0.15) / 5) * 5);
+  const yMax = Math.min(100, Math.ceil((rawMax + spread * 0.15) / 5) * 5);
+  const safeMax = yMax > yMin ? yMax : yMin + 5;
+  const x = (index) =>
+    padding.left +
+    (points.length === 1
+      ? plotWidth / 2
+      : (plotWidth / (points.length - 1)) * index);
+  const y = (value) =>
+    padding.top + plotHeight - ((value - yMin) / (safeMax - yMin)) * plotHeight;
+  const svg = svgEl("svg", {
+    viewBox: `0 0 ${width} ${height}`,
+    role: "img",
+    "aria-label": `${group.name} ${marketData.dataDate} 当日多头占比趋势`,
+  });
+  const defs = svgEl("defs");
+  const gradient = svgEl("linearGradient", {
+    id: "group-trend-area",
+    x1: "0",
+    y1: "0",
+    x2: "0",
+    y2: "1",
+  });
+  gradient.append(
+    svgEl("stop", { offset: "0%", "stop-color": "#b42335", "stop-opacity": "0.18" }),
+    svgEl("stop", { offset: "100%", "stop-color": "#b42335", "stop-opacity": "0" }),
+  );
+  defs.append(gradient);
+  svg.append(defs);
+
+  Array.from({ length: 5 }, (_, index) =>
+    yMin + ((safeMax - yMin) / 4) * index,
+  ).forEach((tick) => {
+    const tickY = y(tick);
+    svg.append(
+      svgEl("line", {
+        x1: padding.left,
+        y1: tickY,
+        x2: width - padding.right,
+        y2: tickY,
+        stroke: "rgba(24,48,41,0.12)",
+        "stroke-width": "1",
+      }),
+    );
+    const label = svgEl("text", {
+      x: padding.left - 12,
+      y: tickY + 3,
+      fill: "#536762",
+      "font-size": "9",
+      "font-family": "Cascadia Code, Consolas, monospace",
+      "text-anchor": "end",
+    });
+    label.textContent = `${Math.round(tick)}%`;
+    svg.append(label);
+  });
+
+  const linePoints = points
+    .map((point, index) => `${x(index)},${y(point.bullPct)}`)
+    .join(" ");
+  svg.append(
+    svgEl("polygon", {
+      points: `${x(0)},${y(yMin)} ${linePoints} ${x(points.length - 1)},${y(yMin)}`,
+      fill: "url(#group-trend-area)",
+    }),
+    svgEl("polyline", {
+      points: linePoints,
+      fill: "none",
+      stroke: "#b42335",
+      "stroke-width": "3",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+    }),
+  );
+
+  points.forEach((point, index) => {
+    const circle = svgEl("circle", {
+      cx: x(index),
+      cy: y(point.bullPct),
+      r: index === points.length - 1 ? "4.5" : "2.8",
+      fill: "#ffffff",
+      stroke: "#b42335",
+      "stroke-width": "2",
+    });
+    const title = svgEl("title");
+    title.textContent = `${point.time} 多头占比 ${point.bullPct.toFixed(1)}%`;
+    circle.append(title);
+    svg.append(circle);
+  });
+
+  const labelIndexes = new Set(
+    [0, points.length - 1].concat(
+      Array.from({ length: Math.min(points.length, 5) }, (_, index) =>
+        Math.round((index / Math.max(points.length - 1, 1)) * (points.length - 1)),
+      ),
+    ),
+  );
+  [...labelIndexes]
+    .sort((a, b) => a - b)
+    .forEach((index) => {
+      const label = svgEl("text", {
+        x: x(index),
+        y: height - 17,
+        fill: "#73857f",
+        "font-size": "9",
+        "font-family": "Cascadia Code, Consolas, monospace",
+        "text-anchor": "middle",
+      });
+      label.textContent = points[index].time;
+      svg.append(label);
+    });
+
+  container.replaceChildren(svg);
+  meta.textContent =
+    `${marketData.dataDate} · ${points.length} 个截面 · ` +
+    `${points[0].time} → ${points.at(-1).time}`;
+}
+
+function openGroupTrend(group) {
+  renderGroupIntradayTrend(group);
+  if (!groupTrendDialog.open) groupTrendDialog.showModal();
 }
 
 function renderTransitionChart() {
@@ -2123,11 +2285,18 @@ document.getElementById("copyBriefBottom").addEventListener("click", copyBrief);
 const openMethod = document.getElementById("openMethod");
 const closeMethod = document.getElementById("closeMethod");
 const closeMethodBottom = document.getElementById("closeMethodBottom");
+const closeGroupTrend = document.getElementById("closeGroupTrend");
+const closeGroupTrendBottom = document.getElementById("closeGroupTrendBottom");
 openMethod.addEventListener("click", () => methodDialog.showModal());
 closeMethod.addEventListener("click", () => methodDialog.close());
 closeMethodBottom.addEventListener("click", () => methodDialog.close());
+closeGroupTrend.addEventListener("click", () => groupTrendDialog.close());
+closeGroupTrendBottom.addEventListener("click", () => groupTrendDialog.close());
 methodDialog.addEventListener("click", (event) => {
   if (event.target === methodDialog) methodDialog.close();
+});
+groupTrendDialog.addEventListener("click", (event) => {
+  if (event.target === groupTrendDialog) groupTrendDialog.close();
 });
 
 const menuToggle = document.getElementById("menuToggle");

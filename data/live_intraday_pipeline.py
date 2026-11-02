@@ -89,7 +89,7 @@ def build_market_trend(day: str) -> bool:
     if not report:
         log(f"[SKIP] structure: 今日盘中报告尚未生成 {day}")
         return False
-    return run_command(
+    ok = run_command(
         "structure-web-data",
         [
             sys.executable,
@@ -107,6 +107,18 @@ def build_market_trend(day: str) -> bool:
         ],
         180,
     )
+    if ok:
+        run_command(
+            "group-intraday-trend-data",
+            [
+                sys.executable,
+                "-X",
+                "utf8",
+                str(DATA_DIR / "build_group_intraday_trends.py"),
+            ],
+            120,
+        )
+    return ok
 
 
 def build_theme_web_data() -> bool:
