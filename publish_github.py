@@ -26,7 +26,10 @@ USER_AGENT = "Codex-Blast-Lab-Deploy"
 EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache"}
 EXCLUDED_NAMES = {
     ".collector.pid",
+    ".live_intraday_pipeline.pid",
     "collector.log",
+    "live_intraday_pipeline.log",
+    "live_intraday_pipeline_status.json",
     "server.pid",
     "server.stdout.log",
     "server.stderr.log",
