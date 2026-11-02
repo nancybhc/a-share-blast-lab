@@ -27,7 +27,9 @@ def main() -> int:
     parser.add_argument("--date", required=True)
     args = parser.parse_args()
 
-    daily = json.loads(DAILY_JSON.read_text(encoding="utf-8"))
+    dated_json = DATA_DIR / "full_market" / f"full_market_daily_{args.date}.json"
+    daily_path = dated_json if dated_json.is_file() else DAILY_JSON
+    daily = json.loads(daily_path.read_text(encoding="utf-8"))
     if str(daily.get("date")) != args.date:
         raise ValueError(
             f"收盘快照日期不匹配：{daily.get('date')} != {args.date}"

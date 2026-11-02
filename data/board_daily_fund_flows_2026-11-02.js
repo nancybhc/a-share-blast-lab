@@ -1,7 +1,7 @@
 window.BOARD_FUND_DATA = {
   "source": "东方财富板块资金流 daykline",
   "definition": "f52 主力净流入，原始单位元",
-  "captured_at": "2026-11-02T23:35:30+08:00",
+  "captured_at": "2026-11-02T23:36:18+08:00",
   "date": "2026-11-02",
   "boards": {
     "BK0917": {

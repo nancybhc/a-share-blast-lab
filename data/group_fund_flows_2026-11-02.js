@@ -1,7 +1,7 @@
 window.GROUP_FUND_DATA = {
   "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs",
   "definition": "r0_net，即新浪财经页面标注的“主力净流入”",
-  "retrieved_at": "2026-11-02T23:35:45+08:00",
+  "retrieved_at": "2026-11-02T23:36:31+08:00",
   "date": "2026-11-02",
   "dates": [
     "2026-10-26",
