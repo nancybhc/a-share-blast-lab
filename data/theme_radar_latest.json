@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T11:26:50+08:00",
+  "generated_at": "2026-11-02T12:57:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-02午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-02",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 8.3,
+      "change_pct": 8.42,
       "constituents": 23,
-      "members": "AI视频 +8.30%",
+      "members": "AI视频 +8.42%",
       "rank": 1
     },
     {
       "date": "2026-11-02",
       "theme": "虚拟机器人",
       "representative": "虚拟机器人",
-      "change_pct": 6.76,
+      "change_pct": 6.75,
       "constituents": 16,
-      "members": "虚拟机器人 +6.76%",
+      "members": "虚拟机器人 +6.75%",
       "rank": 2
     },
     {
       "date": "2026-11-02",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 6.73,
+      "change_pct": 6.57,
       "constituents": 17,
-      "members": "Kimi概念 +6.73%",
+      "members": "Kimi概念 +6.57%",
       "rank": 3
     },
     {
       "date": "2026-11-02",
       "theme": "数据要素/安全",
       "representative": "数据确权",
-      "change_pct": 6.27,
+      "change_pct": 6.25,
       "constituents": 283,
-      "members": "数据确权 +6.27% / 数字水印 +4.90% / 数据要素 +4.42% / 数据安全 +4.34% / 时空大数据 +2.54%",
+      "members": "数据确权 +6.25% / 数字水印 +4.86% / 数据要素 +4.46% / 数据安全 +4.27% / 时空大数据 +2.62%",
       "rank": 4
     },
     {
       "date": "2026-11-02",
       "theme": "智谱AI概念",
       "representative": "智谱AI概念",
-      "change_pct": 6.11,
+      "change_pct": 6.25,
       "constituents": 35,
-      "members": "智谱AI概念 +6.11%",
+      "members": "智谱AI概念 +6.25%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.3,
+      "avg_change_pct": 8.42,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-02"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.76,
+      "avg_change_pct": 6.75,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-02"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.73,
+      "avg_change_pct": 6.57,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-02"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.27,
+      "avg_change_pct": 6.25,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-02"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.11,
+      "avg_change_pct": 6.25,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-02"
