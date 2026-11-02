@@ -3315,11 +3315,17 @@ button {
   margin-top: 14px;
 }
 
+.theme-grid > * {
+  min-width: 0;
+}
+
 .theme-top-panel,
 .theme-repeat-panel,
 .reversal-theme-panel,
 .reversal-stock-panel {
+  min-width: 0;
   padding: 25px;
+  overflow: hidden;
 }
 
 .theme-top-list {
@@ -3383,6 +3389,9 @@ button {
 }
 
 .theme-repeat-scroll {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
   margin-top: 15px;
 }
 
@@ -4780,6 +4789,28 @@ button {
   .theme-overview,
   .reversal-kpis {
     grid-template-columns: 1fr;
+  }
+
+  .theme-grid,
+  .theme-top-panel,
+  .theme-repeat-panel {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .theme-repeat-table {
+    min-width: 460px;
+  }
+
+  .theme-repeat-table th:nth-child(1) {
+    width: 180px;
+    min-width: 180px;
+  }
+
+  .theme-repeat-table th:nth-child(n + 2) {
+    width: 70px;
+    min-width: 70px;
   }
 
   .theme-top-panel,
