@@ -136,10 +136,15 @@ def collector_state() -> dict[str, Any]:
     now = datetime.now(CHINA_TZ)
     publish_status = read_publish_status()
     live_summary: dict[str, Any] = {}
-    summary_path = FULL_DIR / "full_market_intraday_latest.json"
-    if summary_path.exists():
+    for summary_path in (
+        DATA_DIR / "full_market_intraday_latest.json",
+        FULL_DIR / "full_market_intraday_latest.json",
+    ):
+        if not summary_path.exists():
+            continue
         try:
             live_summary = json.loads(summary_path.read_text(encoding="utf-8"))
+            break
         except (OSError, json.JSONDecodeError):
             live_summary = {}
     return {

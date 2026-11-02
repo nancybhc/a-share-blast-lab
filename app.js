@@ -1429,19 +1429,20 @@ function updateRuntimeDisplay(serverStatus = null) {
   if (!element) return;
 
   if (serverStatus) {
-    const dataTime = serverStatus.last_capture_at || serverStatus.server_time;
+    const dataTime =
+      serverStatus.last_capture_at ||
+      fullMarketIntraday?.last_capture_at ||
+      serverStatus.server_time;
     const publishTime = serverStatus.publish?.last_publish_at;
     const nextPublish = serverStatus.next_publish_at;
-    element.textContent =
-      `${serverStatus.state === "running" ? "运行" : "本地"} ${shortDateTime(dataTime)}`;
+    element.textContent = shortDateTime(dataTime);
     element.title = [
-      `本地运行时间：${String(dataTime || "—").replace("T", " ").slice(0, 19)}`,
+      `行情时间：${String(dataTime || "—").replace("T", " ").slice(0, 19)}`,
       `GitHub 最近同步：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
       `下次自动同步：${nextPublish ? String(nextPublish).replace("T", " ").slice(0, 19) : "非交易日"}`,
     ].join("\n");
     if (mobileLabel) {
-      mobileLabel.textContent =
-        serverStatus.state === "running" ? "本地运行" : "本地时间";
+      mobileLabel.textContent = "行情时间";
     }
     if (mobileTime) {
       mobileTime.textContent = shortDateTime(dataTime);
@@ -1451,16 +1452,16 @@ function updateRuntimeDisplay(serverStatus = null) {
 
   const published = siteRuntimeStatus;
   const publishTime = published?.published_at || published?.published_at_display;
-  const captureTime = published?.last_collector_capture_at;
-  element.textContent = publishTime
-    ? `同步 ${shortDateTime(publishTime)}`
-    : "运行时间 —";
+  const captureTime =
+    published?.last_collector_capture_at ||
+    fullMarketIntraday?.last_capture_at;
+  element.textContent = captureTime ? shortDateTime(captureTime) : "行情时间 —";
   element.title = [
     `GitHub 同步时间：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
     `本地最后采集：${captureTime ? String(captureTime).replace("T", " ").slice(0, 19) : "尚未采集"}`,
   ].join("\n");
-  if (mobileLabel) mobileLabel.textContent = "GitHub 同步";
-  if (mobileTime) mobileTime.textContent = shortDateTime(publishTime);
+  if (mobileLabel) mobileLabel.textContent = "行情时间";
+  if (mobileTime) mobileTime.textContent = shortDateTime(captureTime);
 }
 
 function applyCollectorStatus(status) {

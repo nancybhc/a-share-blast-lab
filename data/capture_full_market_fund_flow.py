@@ -578,9 +578,11 @@ def live_summary(state: dict[str, Any]) -> dict[str, Any]:
 def save_live_latest(summary: dict[str, Any]) -> None:
     path_js = DATA_DIR / "full_market_intraday_latest.js"
     path_json = FULL_DIR / "full_market_intraday_latest.json"
+    root_json = DATA_DIR / "full_market_intraday_latest.json"
     text = json.dumps(summary, ensure_ascii=False, indent=2)
     path_js.write_text(f"window.FULL_MARKET_INTRADAY = {text};\n", encoding="utf-8")
     path_json.write_text(text, encoding="utf-8")
+    root_json.write_text(text, encoding="utf-8")
 
     csv_path = FULL_DIR / f"full_market_intraday_summary_{summary['date']}.csv"
     with csv_path.open("w", encoding="utf-8-sig", newline="") as handle:

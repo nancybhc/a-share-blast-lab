@@ -9,6 +9,9 @@ DATA_DIR = Path(__file__).resolve().parent
 DAILY_JSON = DATA_DIR / "full_market" / "full_market_daily_latest.json"
 INTRADAY_JS = DATA_DIR / "full_market_intraday_latest.js"
 INTRADAY_JSON = DATA_DIR / "full_market_intraday_latest.json"
+FULL_DIR_INTRADAY_JSON = (
+    DATA_DIR / "full_market" / "full_market_intraday_latest.json"
+)
 
 
 def load_intraday() -> dict:
@@ -101,6 +104,7 @@ def main() -> int:
 
     text = json.dumps(intraday, ensure_ascii=False, indent=2)
     INTRADAY_JSON.write_text(text + "\n", encoding="utf-8")
+    FULL_DIR_INTRADAY_JSON.write_text(text + "\n", encoding="utf-8")
     INTRADAY_JS.write_text(
         "window.FULL_MARKET_INTRADAY = " + text + ";\n",
         encoding="utf-8",
