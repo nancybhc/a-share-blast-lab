@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T14:37:30+08:00",
+  "generated_at": "2026-11-02T14:55:25+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-02午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-02",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 10.12,
+      "change_pct": 10.09,
       "constituents": 23,
-      "members": "AI视频 +10.12%",
+      "members": "AI视频 +10.09%",
       "rank": 1
     },
     {
       "date": "2026-11-02",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 8.2,
+      "change_pct": 8.15,
       "constituents": 17,
-      "members": "Kimi概念 +8.20%",
+      "members": "Kimi概念 +8.15%",
       "rank": 2
     },
     {
       "date": "2026-11-02",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 7.74,
+      "change_pct": 7.69,
       "constituents": 553,
-      "members": "AI语料 +7.74% / 数据中心 +3.09% / 液冷服务器 +2.41% / CPO概念 +1.32%",
+      "members": "AI语料 +7.69% / 数据中心 +3.06% / 液冷服务器 +2.34% / CPO概念 +1.21%",
       "rank": 3
     },
     {
       "date": "2026-11-02",
       "theme": "数据要素/安全",
       "representative": "数据确权",
-      "change_pct": 7.68,
+      "change_pct": 7.63,
       "constituents": 283,
-      "members": "数据确权 +7.68% / 数字水印 +5.85% / 数据要素 +5.21% / 数据安全 +4.96% / 时空大数据 +3.16%",
+      "members": "数据确权 +7.63% / 数字水印 +5.91% / 数据要素 +5.21% / 数据安全 +4.96% / 时空大数据 +3.20%",
       "rank": 4
     },
     {
       "date": "2026-11-02",
       "theme": "智谱AI概念",
       "representative": "智谱AI概念",
-      "change_pct": 7.61,
+      "change_pct": 7.47,
       "constituents": 35,
-      "members": "智谱AI概念 +7.61%",
+      "members": "智谱AI概念 +7.47%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.12,
+      "avg_change_pct": 10.09,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-02"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.2,
+      "avg_change_pct": 8.15,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-02"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.74,
+      "avg_change_pct": 7.69,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-02"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.68,
+      "avg_change_pct": 7.63,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-02"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.61,
+      "avg_change_pct": 7.47,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-02"
