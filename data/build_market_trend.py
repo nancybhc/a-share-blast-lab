@@ -116,11 +116,14 @@ def read_group_rows(workbook: openpyxl.Workbook) -> list[dict[str, object]]:
             continue
         if str(values[0]) in EXCLUDED_GROUPS:
             continue
+        total = int(values[2] or 0)
+        if total <= 0:
+            continue
         rows.append(
             {
                 "name": str(values[0]),
                 "date": date_text(values[1]),
-                "total": int(values[2]),
+                "total": total,
                 "bull": int(values[3]),
                 "turnBull": int(values[4]),
                 "turnBear": int(values[5]),
@@ -137,6 +140,80 @@ def read_group_rows(workbook: openpyxl.Workbook) -> list[dict[str, object]]:
             }
         )
     return rows
+
+
+def read_detail_groups(workbook: openpyxl.Workbook) -> dict[str, dict[str, str]]:
+    groups: dict[str, dict[str, str]] = {}
+    valid_stages = {"多", "空转多", "多转空", "空"}
+    for sheet in workbook.worksheets[3:]:
+        if sheet.title in EXCLUDED_GROUPS:
+            continue
+        members: dict[str, str] = {}
+        for values in sheet.iter_rows(min_row=5, values_only=True):
+            stage = str(values[0] or "").strip()
+            code = str(values[3] or "").strip() if len(values) > 3 else ""
+            if stage in valid_stages and re.fullmatch(r"\d{6}", code):
+                members[code] = stage
+        if members:
+            groups[sheet.title] = members
+    return groups
+
+
+def previous_cycle_path(source_dir: Path, current_date: str) -> Path | None:
+    candidates: list[tuple[str, Path]] = []
+    for path in source_dir.rglob("多空阶段_*.xlsx"):
+        if path.name.startswith("~$"):
+            continue
+        match = re.search(r"(\d{4}-\d{2}-\d{2})", path.name)
+        if match and match.group(1) < current_date:
+            candidates.append((match.group(1), path))
+    return max(candidates, default=(None, None), key=lambda item: item[0])[1]
+
+
+def detail_counts(members: dict[str, str]) -> dict[str, int]:
+    counts = {
+        stage: sum(value == stage for value in members.values())
+        for stage in ("多", "空转多", "多转空", "空")
+    }
+    return {
+        "total": len(members),
+        "bull": counts["多"],
+        "turnBull": counts["空转多"],
+        "turnBear": counts["多转空"],
+        "bear": counts["空"],
+    }
+
+
+def detail_transitions(
+    current: dict[str, str],
+    previous: dict[str, str],
+) -> dict[str, int]:
+    shared = current.keys() & previous.keys()
+    new_bull = sum(previous[code] == "空" and current[code] == "空转多" for code in shared)
+    confirm = sum(
+        previous[code] == "空转多" and current[code] == "多"
+        for code in shared
+    )
+    direct = sum(previous[code] == "空" and current[code] == "多" for code in shared)
+    negative = sum(
+        (
+            previous[code] == "多" and current[code] in {"多转空", "空"}
+        )
+        or (
+            previous[code] == "多转空" and current[code] == "空"
+        )
+        or (
+            previous[code] == "空转多" and current[code] == "空"
+        )
+        for code in shared
+    )
+    return {
+        "newBull": new_bull,
+        "confirm": confirm,
+        "direct": direct,
+        "positive": new_bull + confirm + direct,
+        "negative": negative,
+    }
 
 
 def read_histories(workbook: openpyxl.Workbook, names: set[str]) -> dict[str, list[dict[str, object]]]:
@@ -193,18 +270,93 @@ def build_payload(
 ) -> dict[str, object]:
     cycle = openpyxl.load_workbook(cycle_path, read_only=True, data_only=True)
     migration = openpyxl.load_workbook(migration_path, read_only=True, data_only=True)
-    rows = read_group_rows(migration)
-    histories = read_histories(cycle, {row["name"] for row in rows})
+    migration_rows = read_group_rows(migration)
+    detail_groups = read_detail_groups(cycle)
+    summary_date = (
+        date_text(migration_rows[0]["date"])
+        if migration_rows
+        else datetime.fromtimestamp(cycle_path.stat().st_mtime).strftime("%Y-%m-%d")
+    )
+    previous_path = previous_cycle_path(cycle_path.parent, summary_date)
+    previous_groups: dict[str, dict[str, str]] = {}
+    if previous_path:
+        previous = openpyxl.load_workbook(
+            previous_path,
+            read_only=True,
+            data_only=True,
+        )
+        previous_groups = read_detail_groups(previous)
+        previous.close()
+
+    histories = read_histories(cycle, set(detail_groups))
+    migration_by_name = {
+        str(row["name"]): row
+        for row in migration_rows
+    }
 
     groups: list[dict[str, object]] = []
-    for row in rows:
-        name = str(row["name"])
+    for name, members in detail_groups.items():
+        current = detail_counts(members)
+        previous_members = previous_groups.get(name, {})
+        previous_counts = (
+            detail_counts(previous_members)
+            if previous_members
+            else dict(current)
+        )
+        transitions = detail_transitions(members, previous_members)
+        total = int(current["total"])
+        if total <= 0:
+            continue
+        row: dict[str, object] = {
+            "name": name,
+            "date": summary_date,
+            **current,
+            **transitions,
+            "bullPct": round(int(current["bull"]) / total * 100, 2),
+        }
+        direct = int(transitions["direct"])
+        confirm = int(transitions["confirm"])
+        new_bull = int(transitions["newBull"])
+        negative = int(transitions["negative"])
+        if direct:
+            row["state"] = "空→多跳级"
+            row["action"] = "跳级修复，优先确认持续性"
+        elif confirm:
+            row["state"] = "转多确认"
+            row["action"] = "修复进入确认，观察扩散"
+        elif new_bull:
+            row["state"] = "空转多试探"
+            row["action"] = "候选回升，等待 5破10 推进"
+        elif negative:
+            row["state"] = "转空扩散"
+            row["action"] = "先处理跌破 MA5 / MA10 的标的"
+        else:
+            row["state"] = "结构分化"
+            row["action"] = "等下一次候选池方向变化"
+        row["change"] = (
+            f"多 {previous_counts['bull']}→{current['bull']}；"
+            f"空转多 {previous_counts['turnBull']}→{current['turnBull']}；"
+            f"多转空 {previous_counts['turnBear']}→{current['turnBear']}；"
+            f"空 {previous_counts['bear']}→{current['bear']}"
+        )
         group_id, code = GROUP_META.get(name, (re.sub(r"\W+", "-", name).lower(), name))
         raw_score = (
             row["newBull"] + row["confirm"] * 2 + row["direct"] * 3 - row["negative"]
         ) / row["total"] * 100
         score = round(max(-50.0, min(80.0, raw_score)), 1)
         phase, badge, tone = phase_for(row, score)
+        history = [
+            item
+            for item in histories.get(name, [])
+            if item["date"] != summary_date
+        ]
+        history.append(
+            {
+                "date": summary_date,
+                **current,
+                "bullPct": row["bullPct"],
+            }
+        )
         groups.append(
             {
                 **row,
@@ -221,7 +373,7 @@ def build_payload(
                 "confirmValue": str(row["confirm"]),
                 "confirmCaption": "今日转多确认",
                 "thesis": make_thesis(row),
-                "history": histories.get(name, [])[-7:],
+                "history": history[-7:],
             }
         )
 

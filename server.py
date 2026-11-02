@@ -30,9 +30,14 @@ THEME_REFRESH_SCRIPT = DATA_DIR / "build_theme_radar_web.py"
 THEME_REFRESH_PID_FILE = DATA_DIR / ".theme_refresh.pid"
 THEME_REFRESH_LOG = DATA_DIR / "theme_refresh.log"
 THEME_REFRESH_STATUS = DATA_DIR / "theme_radar_status.json"
+LIVE_PIPELINE_SCRIPT = DATA_DIR / "live_intraday_pipeline.py"
+LIVE_PIPELINE_PID_FILE = DATA_DIR / ".live_intraday_pipeline.pid"
+LIVE_PIPELINE_LOG = DATA_DIR / "live_intraday_pipeline.log"
+LIVE_PIPELINE_STATUS = DATA_DIR / "live_intraday_pipeline_status.json"
 CHINA_TZ = ZoneInfo("Asia/Shanghai")
 PROCESS_LOCK = threading.Lock()
 THEME_REFRESH_LOCK = threading.Lock()
+LIVE_PIPELINE_LOCK = threading.Lock()
 PUBLISH_LOCK = threading.Lock()
 PUBLISH_SLOTS = (
     clock_time(9, 30),
@@ -358,12 +363,84 @@ def stop_theme_refresh() -> dict[str, Any]:
         return theme_refresh_state()
 
 
+def live_pipeline_state() -> dict[str, Any]:
+    try:
+        pid = int(LIVE_PIPELINE_PID_FILE.read_text(encoding="ascii").strip())
+    except (OSError, ValueError):
+        pid = 0
+    running = pid_is_running(pid)
+    if not running:
+        LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
+    try:
+        payload = json.loads(LIVE_PIPELINE_STATUS.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        payload = {}
+    return {
+        "running": running,
+        "state": payload.get("state", "running" if running else "stopped"),
+        "stage": payload.get("stage"),
+        "pid": pid if running else None,
+        "updated_at": payload.get("updated_at"),
+        "date": payload.get("date"),
+        "interval_seconds": payload.get("interval_seconds", 180),
+    }
+
+
+def start_live_pipeline() -> dict[str, Any]:
+    with LIVE_PIPELINE_LOCK:
+        current = live_pipeline_state()
+        if current["running"]:
+            return current
+        if not LIVE_PIPELINE_SCRIPT.exists():
+            raise FileNotFoundError(f"实时管线不存在：{LIVE_PIPELINE_SCRIPT}")
+        log_handle = LIVE_PIPELINE_LOG.open("a", encoding="utf-8")
+        creation_flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
+        process = subprocess.Popen(
+            [
+                sys.executable,
+                "-X",
+                "utf8",
+                str(LIVE_PIPELINE_SCRIPT),
+                "--watch",
+                "--interval",
+                "180",
+            ],
+            cwd=BASE_DIR,
+            stdout=log_handle,
+            stderr=subprocess.STDOUT,
+            creationflags=creation_flags,
+        )
+        log_handle.close()
+        LIVE_PIPELINE_PID_FILE.write_text(str(process.pid), encoding="ascii")
+        time.sleep(0.4)
+        return live_pipeline_state()
+
+
+def stop_live_pipeline() -> dict[str, Any]:
+    with LIVE_PIPELINE_LOCK:
+        state = live_pipeline_state()
+        pid = int(state.get("pid") or 0)
+        if pid:
+            if os.name == "nt":
+                subprocess.run(
+                    ["taskkill", "/PID", str(pid), "/T", "/F"],
+                    capture_output=True,
+                    check=False,
+                )
+            else:
+                os.kill(pid, 15)
+        LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
+        return live_pipeline_state()
+
+
 def all_monitor_state() -> dict[str, Any]:
     collector = collector_state()
     theme = theme_refresh_state()
+    live_pipeline = live_pipeline_state()
     components = {
         "full_market": collector,
         "theme_radar": theme,
+        "live_pipeline": live_pipeline,
     }
     running_count = sum(bool(item.get("running")) for item in components.values())
     current = datetime.now(CHINA_TZ)
@@ -406,6 +483,7 @@ def start_all_monitors() -> dict[str, Any]:
     for name, starter in (
         ("full_market", start_collector),
         ("theme_radar", start_theme_refresh),
+        ("live_pipeline", start_live_pipeline),
     ):
         try:
             starter()
@@ -421,6 +499,7 @@ def stop_all_monitors() -> dict[str, Any]:
     for name, stopper in (
         ("full_market", stop_collector),
         ("theme_radar", stop_theme_refresh),
+        ("live_pipeline", stop_live_pipeline),
     ):
         try:
             stopper()

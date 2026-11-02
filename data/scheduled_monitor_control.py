@@ -21,6 +21,7 @@ STATUS_PATH = DATA_DIR / "monitor_auto_schedule_status.json"
 PID_FILES = (
     DATA_DIR / ".collector.pid",
     DATA_DIR / ".theme_refresh.pid",
+    DATA_DIR / ".live_intraday_pipeline.pid",
 )
 BASE_URL = "http://127.0.0.1:8771"
 QUANT_DASHBOARD_DIR = Path(
