@@ -1550,8 +1550,16 @@ function applyMasterMonitorStatus(status) {
     setMasterMonitorButton("stopped", "启动全部监控");
   }
   const button = document.getElementById("masterMonitorButton");
+  const componentNames = {
+    full_market: "全市场资金",
+    theme_radar: "题材监听",
+    live_pipeline: "结构实时管线",
+  };
   const names = Object.entries(status.components || {})
-    .map(([key, value]) => `${key}: ${value.running ? "运行" : "停止"}`)
+    .map(
+      ([key, value]) =>
+        `${componentNames[key] || key}: ${value.running ? "运行" : "停止"}`,
+    )
     .join(" / ");
   const schedule = status.schedule;
   button.title = schedule

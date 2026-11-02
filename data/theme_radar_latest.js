@@ -1,35 +1,35 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T10:44:17+08:00",
+  "generated_at": "2026-11-02T10:50:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-02午盘",
   "daily_top": [
     {
       "date": "2026-11-02",
-      "theme": "券商概念",
-      "representative": "券商概念",
-      "change_pct": 3.94,
-      "constituents": 53,
-      "members": "券商概念 +3.94%",
+      "theme": "虚拟机器人",
+      "representative": "虚拟机器人",
+      "change_pct": 3.75,
+      "constituents": 16,
+      "members": "虚拟机器人 +3.75%",
       "rank": 1
     },
     {
       "date": "2026-11-02",
-      "theme": "虚拟机器人",
-      "representative": "虚拟机器人",
-      "change_pct": 3.77,
-      "constituents": 16,
-      "members": "虚拟机器人 +3.77%",
+      "theme": "券商概念",
+      "representative": "券商概念",
+      "change_pct": 3.73,
+      "constituents": 53,
+      "members": "券商概念 +3.73%",
       "rank": 2
     },
     {
       "date": "2026-11-02",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.38,
+      "change_pct": 3.36,
       "constituents": 23,
-      "members": "AI视频 +3.38%",
+      "members": "AI视频 +3.36%",
       "rank": 3
     },
     {
@@ -38,16 +38,16 @@ window.THEME_RADAR_DATA = {
       "representative": "酿酒概念",
       "change_pct": 3.23,
       "constituents": 56,
-      "members": "酿酒概念 +3.23% / 白酒 +2.91%",
+      "members": "酿酒概念 +3.23% / 白酒 +3.01%",
       "rank": 4
     },
     {
       "date": "2026-11-02",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 2.92,
+      "change_pct": 3.01,
       "constituents": 17,
-      "members": "Kimi概念 +2.92%",
+      "members": "Kimi概念 +3.01%",
       "rank": 5
     }
   ],
@@ -83,21 +83,21 @@ window.THEME_RADAR_DATA = {
       "dates": "10-29、10-27"
     },
     {
-      "theme": "券商概念",
+      "theme": "虚拟机器人",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.94,
+      "avg_change_pct": 3.75,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-02"
     },
     {
-      "theme": "虚拟机器人",
+      "theme": "券商概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.77,
+      "avg_change_pct": 3.73,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-02"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.38,
+      "avg_change_pct": 3.36,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-02"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.92,
+      "avg_change_pct": 3.01,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-02"
