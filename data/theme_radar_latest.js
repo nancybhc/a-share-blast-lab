@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T13:40:14+08:00",
+  "generated_at": "2026-11-02T13:56:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-02午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-02",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 8.39,
+      "change_pct": 10.23,
       "constituents": 23,
-      "members": "AI视频 +8.39%",
+      "members": "AI视频 +10.23%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-02",
-      "theme": "虚拟机器人",
-      "representative": "虚拟机器人",
-      "change_pct": 6.72,
-      "constituents": 16,
-      "members": "虚拟机器人 +6.72%",
-      "rank": 2
     },
     {
       "date": "2026-11-02",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 6.47,
+      "change_pct": 8.36,
       "constituents": 17,
-      "members": "Kimi概念 +6.47%",
-      "rank": 3
+      "members": "Kimi概念 +8.36%",
+      "rank": 2
     },
     {
       "date": "2026-11-02",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 6.36,
+      "change_pct": 8.07,
       "constituents": 553,
-      "members": "AI语料 +6.36% / 数据中心 +2.71% / 液冷服务器 +2.18% / CPO概念 +1.32%",
-      "rank": 4
+      "members": "AI语料 +8.07% / 数据中心 +3.29% / 液冷服务器 +2.70% / CPO概念 +1.61%",
+      "rank": 3
     },
     {
       "date": "2026-11-02",
       "theme": "数据要素/安全",
       "representative": "数据确权",
-      "change_pct": 6.31,
+      "change_pct": 7.68,
       "constituents": 283,
-      "members": "数据确权 +6.31% / 数字水印 +4.64% / 数据要素 +4.25% / 数据安全 +3.82% / 时空大数据 +2.41%",
+      "members": "数据确权 +7.68% / 数字水印 +6.06% / 数据要素 +5.40% / 数据安全 +5.18% / 时空大数据 +3.43%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "智谱AI概念",
+      "representative": "智谱AI概念",
+      "change_pct": 7.42,
+      "constituents": 35,
+      "members": "智谱AI概念 +7.42%",
       "rank": 5
     }
   ],
@@ -77,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.39,
+      "avg_change_pct": 10.23,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-02"
-    },
-    {
-      "theme": "虚拟机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.72,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-02"
     },
     {
@@ -97,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.47,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 8.36,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-02"
     },
     {
@@ -107,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.36,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 8.07,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-02"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.31,
+      "avg_change_pct": 7.68,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-02"
+    },
+    {
+      "theme": "智谱AI概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 7.42,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-02"
