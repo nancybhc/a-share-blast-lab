@@ -1772,7 +1772,7 @@ function renderGroupIntradayTrend(group) {
 
   const compact = window.matchMedia("(max-width: 760px)").matches;
   const width = compact ? 440 : 800;
-  const height = compact ? 250 : 330;
+  const height = compact ? 220 : 330;
   const padding = compact
     ? { top: 20, right: 14, bottom: 28, left: 38 }
     : { top: 34, right: 28, bottom: 42, left: 48 };
