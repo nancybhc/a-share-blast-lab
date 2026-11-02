@@ -2446,13 +2446,13 @@ button {
 .market-fund-table th:nth-child(2),
 .market-fund-table td:nth-child(2) {
   width: auto;
-  min-width: 132px;
+  min-width: 112px;
   text-align: left;
 }
 
 .market-fund-table th:nth-child(n + 3) {
-  width: 104px;
-  min-width: 104px;
+  width: 84px;
+  min-width: 84px;
   text-align: right;
 }
 
@@ -2461,34 +2461,34 @@ button {
 }
 
 .market-board-table {
-  min-width: 920px;
+  min-width: 760px;
 }
 
 .market-stock-table {
-  min-width: 640px;
+  min-width: 540px;
 }
 
 .market-board-table th:nth-child(2) {
   width: auto;
-  min-width: 118px;
+  min-width: 112px;
 }
 
 .market-board-table th:nth-child(3),
 .market-board-table th:nth-child(4) {
-  width: 90px;
-  min-width: 90px;
+  width: 78px;
+  min-width: 78px;
 }
 
 .market-board-table th:nth-child(5),
 .market-board-table th:nth-child(6) {
-  width: 122px;
-  min-width: 122px;
+  width: 108px;
+  min-width: 108px;
 }
 
 .market-board-table th:nth-child(7),
 .market-board-table th:nth-child(8) {
-  width: 92px;
-  min-width: 92px;
+  width: 80px;
+  min-width: 80px;
 }
 
 .market-fund-table .chip-sortable-col {
@@ -4821,89 +4821,83 @@ button {
 
 @media (max-width: 760px) {
   .market-table-scroll {
-    overflow-x: visible;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
   }
 
   .market-fund-table {
-    display: block;
-    width: 100%;
+    display: table;
+    width: max-content;
     min-width: 0;
   }
 
   .market-fund-table thead {
-    display: none;
+    display: table-header-group;
   }
 
   .market-fund-table tbody {
-    display: grid;
-    gap: 9px;
-    padding: 9px 0 0;
+    display: table-row-group;
   }
 
   .market-fund-table tr {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    gap: 1px;
-    justify-content: space-between;
-    overflow: hidden;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    background: var(--line);
+    display: table-row;
+  }
+
+  .market-fund-table th,
+  .market-fund-table td {
+    display: table-cell;
+    width: auto !important;
+    min-width: 72px !important;
+    padding: 7px 6px;
+    border-bottom: 1px solid var(--line-soft);
+    background: transparent;
+    text-align: left !important;
+    white-space: nowrap;
+  }
+
+  .market-fund-table th {
+    border-bottom: 1px solid var(--line);
+    font-size: 8px;
   }
 
   .market-fund-table td {
-    display: block;
-    width: auto !important;
-    min-width: 0 !important;
-    padding: 8px 10px;
-    border-bottom: 0;
-    background: var(--panel);
-    text-align: left !important;
-    white-space: normal;
-  }
-
-  .market-fund-table td::before {
-    display: block;
-    margin-bottom: 3px;
-    color: var(--muted-2);
-    content: attr(data-label);
-    font-family: var(--mono);
-    font-size: 7px;
-    font-weight: 400;
+    font-size: 10px;
   }
 
   .market-fund-table td:nth-child(1) {
-    display: none;
+    display: table-cell;
+    min-width: 36px !important;
   }
 
   .market-fund-table td:nth-child(2) {
-    display: flex;
-    grid-column: 1 / -1;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 11px;
-    border-bottom: 1px solid var(--line-soft);
-    background: var(--surface-soft);
+    display: table-cell;
+    min-width: 108px !important;
   }
 
-  .market-fund-table td:nth-child(2)::before {
-    display: none;
+  .market-board-table {
+    min-width: 680px;
   }
 
-  .market-fund-table td:nth-child(2) .fund-group-name {
-    width: 100%;
-    justify-content: space-between;
+  .market-stock-table {
+    min-width: 500px;
   }
 
-  .market-fund-table td:nth-child(2) .fund-group-name strong {
-    font-size: 13px;
+  .market-board-table th:nth-child(2),
+  .market-board-table td:nth-child(2) {
+    min-width: 106px !important;
   }
 
-  .market-fund-table .chip-track-time b {
-    font-size: 12px;
+  .market-board-table th:nth-child(n + 3),
+  .market-board-table td:nth-child(n + 3) {
+    min-width: 72px !important;
   }
 
-  .market-fund-table .chip-track-time small {
+  .market-fund-table .fund-group-name strong {
+    font-size: 10px;
+  }
+
+  .market-fund-table .fund-group-name small {
     font-size: 7px;
   }
 }
