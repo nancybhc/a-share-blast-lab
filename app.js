@@ -752,12 +752,12 @@ function renderMarketTable() {
         <tbody>
           ${rows.map((row, index) => `
             <tr>
-              <td>${String(index + 1).padStart(2, "0")}</td>
-              <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
-              <td class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
-              <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
-              <td>${Number(row.amount_yi).toFixed(2)}亿</td>
-              <td class="${metricClass(row.main_ratio)}">${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
+              <td data-label="序号">${String(index + 1).padStart(2, "0")}</td>
+              <td data-label="个股"><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
+              <td data-label="涨幅" class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
+              <td data-label="当日主力"><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
+              <td data-label="成交额">${Number(row.amount_yi).toFixed(2)}亿</td>
+              <td data-label="主力净流入率" class="${metricClass(row.main_ratio)}">${row.main_ratio === null ? "—" : `${Number(row.main_ratio).toFixed(2)}%`}</td>
             </tr>
           `).join("")}
         </tbody>
@@ -790,14 +790,14 @@ function renderMarketTable() {
       <tbody>
         ${rows.map((row, index) => `
           <tr>
-            <td>${String(index + 1).padStart(2, "0")}</td>
-            <td><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
-            <td class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
-            <td><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
-            <td class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.minimum_yi)}">${formatFund(row.track.minimum_yi)}</b><small>${row.track.minimum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
-            <td class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.maximum_yi)}">${formatFund(row.track.maximum_yi)}</b><small>${row.track.maximum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
-            <td>${row.track ? formatFund(row.track.rebound_yi) : "—"}</td>
-            <td class="chip-advance-decline">${row.up_count} / ${row.down_count}</td>
+            <td data-label="序号">${String(index + 1).padStart(2, "0")}</td>
+            <td data-label="板块"><span class="fund-group-name"><strong>${row.name}</strong><small>${row.code}</small></span></td>
+            <td data-label="涨幅" class="${metricClass(row.change_pct)}">${row.change_pct > 0 ? "+" : ""}${Number(row.change_pct).toFixed(2)}%</td>
+            <td data-label="当日主力"><span class="fund-number ${fundTone(row.flow_yi)}">${formatFund(row.flow_yi)}</span></td>
+            <td data-label="最大流出 / 时间" class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.minimum_yi)}">${formatFund(row.track.minimum_yi)}</b><small>${row.track.minimum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
+            <td data-label="最大流入 / 时间" class="chip-track-time">${row.track ? `<b class="fund-number ${fundTone(row.track.maximum_yi)}">${formatFund(row.track.maximum_yi)}</b><small>${row.track.maximum_time}</small>` : `<span class="not-sampled">未采样</span>`}</td>
+            <td data-label="回补幅度">${row.track ? formatFund(row.track.rebound_yi) : "—"}</td>
+            <td data-label="上涨 / 下跌" class="chip-advance-decline">${row.up_count} / ${row.down_count}</td>
           </tr>
         `).join("")}
       </tbody>
