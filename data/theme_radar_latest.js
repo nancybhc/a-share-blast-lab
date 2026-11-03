@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T09:41:54+08:00",
+  "generated_at": "2026-11-03T09:47:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
@@ -9,67 +9,57 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-03",
       "theme": "文娱消费",
       "representative": "文娱消费",
-      "change_pct": 1.52,
+      "change_pct": 1.58,
       "constituents": 93,
-      "members": "文娱消费 +1.52%",
+      "members": "文娱消费 +1.58%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "低空经济",
-      "representative": "通用航空",
-      "change_pct": 1.1,
-      "constituents": 495,
-      "members": "通用航空 +1.10% / 低空经济 -0.14% / 无人机 -0.21% / 飞行汽车(eVTOL) -0.59%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "毛发医疗",
-      "representative": "毛发医疗",
-      "change_pct": 1.04,
-      "constituents": 20,
-      "members": "毛发医疗 +1.04%",
-      "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "农村电商",
       "representative": "农村电商",
-      "change_pct": 1.02,
+      "change_pct": 1.25,
       "constituents": 9,
-      "members": "农村电商 +1.02%",
+      "members": "农村电商 +1.25%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "低空经济",
+      "representative": "通用航空",
+      "change_pct": 1.22,
+      "constituents": 495,
+      "members": "通用航空 +1.22% / 低空经济 +0.23% / 无人机 +0.13% / 飞行汽车(eVTOL) -0.11%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "民爆概念",
+      "representative": "民爆概念",
+      "change_pct": 1.11,
+      "constituents": 22,
+      "members": "民爆概念 +1.11%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 1.02,
-      "constituents": 23,
-      "members": "AI视频 +1.02%",
+      "theme": "盲盒经济",
+      "representative": "盲盒经济",
+      "change_pct": 1.11,
+      "constituents": 13,
+      "members": "盲盒经济 +1.11%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "AI视频",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 5.53,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-03、11-02"
-    },
-    {
       "theme": "农村电商",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.02,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.14,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-03、10-30"
     },
     {
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.52,
+      "avg_change_pct": 1.58,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-03"
@@ -97,20 +87,40 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.1,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-03"
-    },
-    {
-      "theme": "毛发医疗",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.04,
+      "avg_change_pct": 1.22,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-03"
+    },
+    {
+      "theme": "民爆概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.11,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-03"
+    },
+    {
+      "theme": "盲盒经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.11,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-03"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 10.04,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-02"
     },
     {
       "theme": "机器人",
