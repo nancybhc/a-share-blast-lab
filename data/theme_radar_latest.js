@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T12:57:14+08:00",
+  "generated_at": "2026-11-03T13:02:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-03",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 3.22,
+      "change_pct": 2.7,
       "constituents": 17,
-      "members": "水产概念 +3.22%",
+      "members": "水产概念 +2.70%",
       "rank": 1
     },
     {
       "date": "2026-11-03",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 2.61,
+      "change_pct": 2.24,
       "constituents": 20,
-      "members": "鸡肉概念 +2.61%",
+      "members": "鸡肉概念 +2.24%",
       "rank": 2
     },
     {
       "date": "2026-11-03",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 2.45,
+      "change_pct": 2.07,
       "constituents": 103,
-      "members": "短剧互动游戏 +2.45% / 网络游戏 +1.13%",
+      "members": "短剧互动游戏 +2.07% / 网络游戏 +0.72%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "乳业",
-      "representative": "乳业",
-      "change_pct": 2.38,
-      "constituents": 33,
-      "members": "乳业 +2.38%",
-      "rank": 4
     },
     {
       "date": "2026-11-03",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 2.24,
+      "change_pct": 1.92,
       "constituents": 65,
-      "members": "影视概念 +2.24%",
+      "members": "影视概念 +1.92%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "文娱消费",
+      "representative": "文娱消费",
+      "change_pct": 1.81,
+      "constituents": 93,
+      "members": "文娱消费 +1.81%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.6,
+      "avg_change_pct": 5.41,
       "avg_rank": 2.5,
       "latest_rank": 3,
       "dates": "11-03、11-02"
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.92,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
+      "avg_change_pct": 4.76,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-03、11-02"
     },
     {
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.6,
+      "avg_change_pct": 1.34,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-03、10-29"
@@ -97,19 +97,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.61,
+      "avg_change_pct": 2.24,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-03"
     },
     {
-      "theme": "乳业",
+      "theme": "文娱消费",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.38,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.81,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-03"
     },
     {
