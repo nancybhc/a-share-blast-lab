@@ -53,7 +53,7 @@ def is_trading_window(now: datetime) -> bool:
         return False
     current = now.time()
     return (
-        clock_time(9, 20) <= current <= clock_time(11, 35)
+        clock_time(9, 30) <= current <= clock_time(11, 35)
         or clock_time(12, 55) <= current <= clock_time(15, 5)
     )
 

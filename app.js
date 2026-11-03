@@ -1432,7 +1432,10 @@ function updateRuntimeDisplay(serverStatus = null) {
       serverStatus.server_time;
     const publishTime = serverStatus.publish?.last_publish_at;
     const nextPublish = serverStatus.next_publish_at;
-    element.textContent = shortDateTime(dataTime);
+    const marketDisplay = serverStatus.market_waiting_for_today
+      ? "等待 09:30 行情"
+      : shortDateTime(dataTime);
+    element.textContent = marketDisplay;
     element.title = [
       `行情时间：${String(dataTime || "—").replace("T", " ").slice(0, 19)}`,
       `GitHub 最近同步：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
@@ -1442,7 +1445,7 @@ function updateRuntimeDisplay(serverStatus = null) {
       mobileLabel.textContent = "行情时间";
     }
     if (mobileTime) {
-      mobileTime.textContent = shortDateTime(dataTime);
+      mobileTime.textContent = marketDisplay;
     }
     return;
   }
@@ -1452,13 +1455,18 @@ function updateRuntimeDisplay(serverStatus = null) {
   const captureTime =
     published?.last_collector_capture_at ||
     fullMarketIntraday?.last_capture_at;
-  element.textContent = captureTime ? shortDateTime(captureTime) : "行情时间 —";
+  const marketDisplay = published?.market_waiting_for_today
+    ? "等待 09:30 行情"
+    : captureTime
+      ? shortDateTime(captureTime)
+      : "行情时间 —";
+  element.textContent = marketDisplay;
   element.title = [
     `GitHub 同步时间：${publishTime ? String(publishTime).replace("T", " ").slice(0, 19) : "尚未同步"}`,
     `本地最后采集：${captureTime ? String(captureTime).replace("T", " ").slice(0, 19) : "尚未采集"}`,
   ].join("\n");
   if (mobileLabel) mobileLabel.textContent = "行情时间";
-  if (mobileTime) mobileTime.textContent = shortDateTime(captureTime);
+  if (mobileTime) mobileTime.textContent = marketDisplay;
 }
 
 function applyCollectorStatus(status) {

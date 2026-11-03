@@ -147,6 +147,13 @@ def collector_state() -> dict[str, Any]:
             break
         except (OSError, json.JSONDecodeError):
             live_summary = {}
+    capture_at = live_summary.get("last_capture_at")
+    capture_date = str(capture_at or "")[:10]
+    market_waiting_for_today = bool(
+        pid
+        and is_trading_window(now)
+        and capture_date != now.date().isoformat()
+    )
     return {
         "running": bool(pid),
         "state": (
@@ -160,7 +167,8 @@ def collector_state() -> dict[str, Any]:
         "trading_window": is_trading_window(now),
         "server_time": now.isoformat(timespec="seconds"),
         "capture_count": live_summary.get("capture_count", 0),
-        "last_capture_at": live_summary.get("last_capture_at"),
+        "last_capture_at": capture_at,
+        "market_waiting_for_today": market_waiting_for_today,
         "log_file": str(LOG_FILE),
         "publish": {
             **publish_status,

@@ -150,11 +150,24 @@ def write_runtime_status() -> dict[str, Any]:
             capture = json.loads(capture_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             capture = {}
+    capture_at = capture.get("last_capture_at")
+    capture_date = str(capture_at or "")[:10]
+    current = now.time()
+    in_market_window = (
+        now.weekday() < 5
+        and (
+            clock_time(9, 15) <= current <= clock_time(11, 35)
+            or clock_time(12, 55) <= current <= clock_time(15, 5)
+        )
+    )
     payload = {
         "published_at": now.isoformat(timespec="seconds"),
         "published_at_display": now.strftime("%Y-%m-%d %H:%M:%S"),
-        "last_collector_capture_at": capture.get("last_capture_at"),
+        "last_collector_capture_at": capture_at,
         "capture_count": capture.get("capture_count", 0),
+        "market_waiting_for_today": (
+            in_market_window and capture_date != now.date().isoformat()
+        ),
         "publish_interval_seconds": 60,
         "schedule": "盘中每60秒",
     }
