@@ -1,66 +1,66 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T09:47:29+08:00",
+  "generated_at": "2026-11-03T09:56:40+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
   "daily_top": [
     {
       "date": "2026-11-03",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 1.58,
-      "constituents": 93,
-      "members": "文娱消费 +1.58%",
+      "theme": "固态电池",
+      "representative": "钠离子电池",
+      "change_pct": 2.32,
+      "constituents": 633,
+      "members": "钠离子电池 +2.32% / 固态电池 +1.85% / 锂电池概念 +1.41% / 电池技术 +1.18%",
       "rank": 1
     },
     {
       "date": "2026-11-03",
-      "theme": "农村电商",
-      "representative": "农村电商",
-      "change_pct": 1.25,
-      "constituents": 9,
-      "members": "农村电商 +1.25%",
+      "theme": "HJT电池/TOPCon电池/BC电池",
+      "representative": "TOPCon电池",
+      "change_pct": 2.19,
+      "constituents": 82,
+      "members": "TOPCon电池 +2.19% / HJT电池 +1.52% / BC电池 +0.75%",
       "rank": 2
     },
     {
       "date": "2026-11-03",
-      "theme": "低空经济",
-      "representative": "通用航空",
-      "change_pct": 1.22,
-      "constituents": 495,
-      "members": "通用航空 +1.22% / 低空经济 +0.23% / 无人机 +0.13% / 飞行汽车(eVTOL) -0.11%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.06,
+      "constituents": 17,
+      "members": "水产概念 +2.06%",
       "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "民爆概念",
       "representative": "民爆概念",
-      "change_pct": 1.11,
+      "change_pct": 1.9,
       "constituents": 22,
-      "members": "民爆概念 +1.11%",
+      "members": "民爆概念 +1.90%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
-      "theme": "盲盒经济",
-      "representative": "盲盒经济",
-      "change_pct": 1.11,
-      "constituents": 13,
-      "members": "盲盒经济 +1.11%",
+      "theme": "文娱消费",
+      "representative": "文娱消费",
+      "change_pct": 1.79,
+      "constituents": 93,
+      "members": "文娱消费 +1.79%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "农村电商",
+      "theme": "水产概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.14,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
-      "dates": "11-03、10-30"
+      "avg_change_pct": 1.02,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
+      "dates": "11-03、10-29"
     },
     {
       "theme": "CRO",
@@ -73,23 +73,23 @@
       "dates": "10-30、10-28"
     },
     {
-      "theme": "文娱消费",
+      "theme": "固态电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.58,
+      "avg_change_pct": 2.32,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-03"
     },
     {
-      "theme": "低空经济",
+      "theme": "HJT电池/TOPCon电池/BC电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.22,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.19,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-03"
     },
     {
@@ -97,17 +97,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.11,
+      "avg_change_pct": 1.9,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-03"
     },
     {
-      "theme": "盲盒经济",
+      "theme": "文娱消费",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.11,
+      "avg_change_pct": 1.79,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
@@ -171,16 +171,6 @@
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-28"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.03,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "10-29"
     },
     {
       "theme": "AI算力",
@@ -271,6 +261,16 @@
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-28"
+    },
+    {
+      "theme": "农村电商",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.02,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "10-30"
     },
     {
       "theme": "中字头",
