@@ -1471,7 +1471,11 @@ function updateRuntimeDisplay(serverStatus = null) {
 
 function applyCollectorStatus(status) {
   updateRuntimeDisplay(status);
-  if (status.running && status.state === "running") {
+  if (status.running && status.market_waiting_for_today) {
+    setCollectorButton("waiting", "等待 09:30 行情 · 点击停止");
+    document.getElementById("marketCaptureStatus").textContent =
+      "等待 09:30 行情";
+  } else if (status.running && status.state === "running") {
     setCollectorButton("running", "采集中 · 点击停止");
     document.getElementById("marketCaptureStatus").textContent = "全市场采集中";
   } else if (status.running && status.state === "waiting") {

@@ -7,7 +7,7 @@ import json
 import re
 import subprocess
 import time
-from datetime import datetime
+from datetime import datetime, time as clock_time
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
