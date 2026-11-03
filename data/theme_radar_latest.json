@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T14:10:24+08:00",
+  "generated_at": "2026-11-03T14:15:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-03",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 2.73,
+      "change_pct": 2.32,
       "constituents": 20,
-      "members": "鸡肉概念 +2.73%",
+      "members": "鸡肉概念 +2.32%",
       "rank": 1
     },
     {
       "date": "2026-11-03",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.04,
+      "change_pct": 1.72,
       "constituents": 17,
-      "members": "水产概念 +2.04%",
+      "members": "水产概念 +1.72%",
       "rank": 2
     },
     {
       "date": "2026-11-03",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.7,
+      "change_pct": 1.33,
       "constituents": 39,
-      "members": "猪肉概念 +1.70%",
+      "members": "猪肉概念 +1.33%",
       "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "乳业",
       "representative": "乳业",
-      "change_pct": 1.25,
+      "change_pct": 1.02,
       "constituents": 33,
-      "members": "乳业 +1.25%",
+      "members": "乳业 +1.02%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
       "theme": "草甘膦",
       "representative": "草甘膦",
-      "change_pct": 1.13,
+      "change_pct": 0.66,
       "constituents": 13,
-      "members": "草甘膦 +1.13%",
+      "members": "草甘膦 +0.66%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.01,
+      "avg_change_pct": 0.84,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-03、10-29"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.73,
+      "avg_change_pct": 2.32,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-03"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.7,
+      "avg_change_pct": 1.33,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-03"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.25,
+      "avg_change_pct": 1.02,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-03"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.13,
+      "avg_change_pct": 0.66,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
