@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T11:34:58+08:00",
+  "generated_at": "2026-11-03T12:57:14+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",

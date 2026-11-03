@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-03",
-  "generatedAt": "2026-11-03 11:34",
-  "reportGeneratedAt": "2026-11-03 11:34",
+  "generatedAt": "2026-11-03 12:56",
+  "reportGeneratedAt": "2026-11-03 12:56",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-03.xlsx",
@@ -124,8 +124,8 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-02",
           "bull": 1,
           "turnBull": 15,
-          "turnBear": 3,
-          "bear": 42,
+          "turnBear": 2,
+          "bear": 43,
           "bullPct": 1.64
         },
         {
@@ -443,9 +443,9 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-10-26",
           "bull": 10,
-          "turnBull": 5,
+          "turnBull": 4,
           "turnBear": 3,
-          "bear": 38,
+          "bear": 39,
           "bullPct": 17.86
         },
         {
