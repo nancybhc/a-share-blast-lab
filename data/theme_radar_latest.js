@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T13:36:45+08:00",
+  "generated_at": "2026-11-03T13:41:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
@@ -9,65 +9,55 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-03",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 2.85,
+      "change_pct": 2.99,
       "constituents": 20,
-      "members": "鸡肉概念 +2.85%",
+      "members": "鸡肉概念 +2.99%",
       "rank": 1
     },
     {
       "date": "2026-11-03",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.36,
+      "change_pct": 2.38,
       "constituents": 17,
-      "members": "水产概念 +2.36%",
+      "members": "水产概念 +2.38%",
       "rank": 2
     },
     {
       "date": "2026-11-03",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.86,
+      "change_pct": 1.97,
       "constituents": 39,
-      "members": "猪肉概念 +1.86%",
+      "members": "猪肉概念 +1.97%",
       "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "乳业",
       "representative": "乳业",
-      "change_pct": 1.29,
+      "change_pct": 1.25,
       "constituents": 33,
-      "members": "乳业 +1.29%",
+      "members": "乳业 +1.25%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 1.27,
-      "constituents": 103,
-      "members": "短剧互动游戏 +1.27% / 网络游戏 -0.09%",
+      "theme": "雅下水电概念",
+      "representative": "雅下水电概念",
+      "change_pct": 1.15,
+      "constituents": 56,
+      "members": "雅下水电概念 +1.15%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "网络游戏/短剧互动游戏",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 5.01,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
-      "dates": "11-03、11-02"
-    },
-    {
       "theme": "水产概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.17,
+      "avg_change_pct": 1.18,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-03、10-29"
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.85,
+      "avg_change_pct": 2.99,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-03"
@@ -97,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.86,
+      "avg_change_pct": 1.97,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-03"
@@ -107,9 +97,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.29,
+      "avg_change_pct": 1.25,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-03"
+    },
+    {
+      "theme": "雅下水电概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.15,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-03"
     },
     {
@@ -151,6 +151,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "10-29"
+    },
+    {
+      "theme": "网络游戏/短剧互动游戏",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 8.75,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-02"
     },
     {
       "theme": "光刻机",
