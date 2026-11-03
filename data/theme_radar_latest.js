@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T09:56:40+08:00",
+  "generated_at": "2026-11-03T10:03:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
   "daily_top": [
     {
       "date": "2026-11-03",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.05,
+      "constituents": 17,
+      "members": "水产概念 +2.05%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-03",
       "theme": "固态电池",
       "representative": "钠离子电池",
-      "change_pct": 2.32,
+      "change_pct": 1.96,
       "constituents": 633,
-      "members": "钠离子电池 +2.32% / 固态电池 +1.85% / 锂电池概念 +1.41% / 电池技术 +1.18%",
-      "rank": 1
+      "members": "钠离子电池 +1.96% / 固态电池 +1.47% / 锂电池概念 +1.13% / 电池技术 +0.93%",
+      "rank": 2
     },
     {
       "date": "2026-11-03",
       "theme": "HJT电池/TOPCon电池/BC电池",
       "representative": "TOPCon电池",
-      "change_pct": 2.19,
+      "change_pct": 1.92,
       "constituents": 82,
-      "members": "TOPCon电池 +2.19% / HJT电池 +1.52% / BC电池 +0.75%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.06,
-      "constituents": 17,
-      "members": "水产概念 +2.06%",
+      "members": "TOPCon电池 +1.92% / HJT电池 +1.21% / BC电池 +0.45%",
       "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "民爆概念",
       "representative": "民爆概念",
-      "change_pct": 1.9,
+      "change_pct": 1.81,
       "constituents": 22,
-      "members": "民爆概念 +1.90%",
+      "members": "民爆概念 +1.81%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 1.79,
-      "constituents": 93,
-      "members": "文娱消费 +1.79%",
+      "theme": "低空经济",
+      "representative": "通用航空",
+      "change_pct": 1.76,
+      "constituents": 495,
+      "members": "通用航空 +1.76% / 低空经济 +0.67% / 无人机 +0.58% / 飞行汽车(eVTOL) +0.31%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.02,
-      "avg_rank": 2.5,
-      "latest_rank": 3,
+      "avg_change_pct": 1.01,
+      "avg_rank": 1.5,
+      "latest_rank": 1,
       "dates": "11-03、10-29"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.32,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.96,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-03"
     },
     {
@@ -87,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.19,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.92,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-03"
     },
     {
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.9,
+      "avg_change_pct": 1.81,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-03"
     },
     {
-      "theme": "文娱消费",
+      "theme": "低空经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.79,
+      "avg_change_pct": 1.76,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
