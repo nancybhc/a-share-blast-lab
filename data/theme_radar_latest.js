@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T10:34:42+08:00",
+  "generated_at": "2026-11-03T10:39:48+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-03",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 3.48,
+      "change_pct": 3.28,
       "constituents": 17,
-      "members": "水产概念 +3.48%",
+      "members": "水产概念 +3.28%",
       "rank": 1
     },
     {
       "date": "2026-11-03",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 3.25,
+      "change_pct": 2.77,
       "constituents": 20,
-      "members": "鸡肉概念 +3.25%",
+      "members": "鸡肉概念 +2.77%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 3.11,
-      "constituents": 103,
-      "members": "短剧互动游戏 +3.11% / 网络游戏 +1.63%",
-      "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "固态电池",
       "representative": "钠离子电池",
-      "change_pct": 2.81,
+      "change_pct": 2.74,
       "constituents": 633,
-      "members": "钠离子电池 +2.81% / 固态电池 +2.20% / 锂电池概念 +1.84% / 电池技术 +1.61%",
+      "members": "钠离子电池 +2.74% / 固态电池 +2.09% / 锂电池概念 +1.68% / 电池技术 +1.42%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "网络游戏/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 2.58,
+      "constituents": 103,
+      "members": "短剧互动游戏 +2.58% / 网络游戏 +1.32%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 2.8,
+      "change_pct": 2.42,
       "constituents": 65,
-      "members": "影视概念 +2.80%",
+      "members": "影视概念 +2.42%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.93,
-      "avg_rank": 2.5,
-      "latest_rank": 3,
+      "avg_change_pct": 5.67,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
       "dates": "11-03、11-02"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.2,
+      "avg_change_pct": 5.01,
       "avg_rank": 4.5,
       "latest_rank": 5,
       "dates": "11-03、11-02"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.73,
+      "avg_change_pct": 1.62,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-03、10-29"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.25,
+      "avg_change_pct": 2.77,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-03"
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.81,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.74,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-03"
     },
     {
