@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-03",
-  "generatedAt": "2026-11-03 11:23",
-  "reportGeneratedAt": "2026-11-03 11:23",
+  "generatedAt": "2026-11-03 11:28",
+  "reportGeneratedAt": "2026-11-03 11:28",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-03.xlsx",
@@ -13,8 +13,8 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 926,
     "positiveGroups": 11,
     "negativeGroups": 4,
-    "positiveTransitions": 142,
-    "negativeTransitions": 48
+    "positiveTransitions": 141,
+    "negativeTransitions": 47
   },
   "phaseLegend": [
     {
@@ -54,31 +54,31 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-03",
       "total": 61,
       "bull": 8,
-      "turnBull": 28,
+      "turnBull": 27,
       "turnBear": 0,
-      "bear": 25,
-      "newBull": 18,
+      "bear": 26,
+      "newBull": 17,
       "confirm": 5,
       "direct": 0,
-      "positive": 23,
+      "positive": 22,
       "negative": 0,
       "bullPct": 13.11,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 1→8；空转多 15→28；多转空 2→0；空 43→25",
+      "change": "多 1→8；空转多 15→27；多转空 2→0；空 43→26",
       "id": "fintech",
       "code": "FINTECH",
-      "score": 45.9,
+      "score": 44.3,
       "fulfilled": 5,
-      "netBias": -17,
+      "netBias": -18,
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
-      "setup": "28",
+      "setup": "27",
       "setupCaption": "空转多候选",
       "confirmValue": "5",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 8/61，空头 25；空转多候选 28，今日转多确认 5，反向转空 0。多 1→8；空转多 15→28；多转空 2→0；空 43→25，修复进入确认，观察扩散。",
+      "thesis": "多头 8/61，空头 26；空转多候选 27，今日转多确认 5，反向转空 0。多 1→8；空转多 15→27；多转空 2→0；空 43→26，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-10-26",
@@ -124,17 +124,17 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-02",
           "bull": 1,
           "turnBull": 15,
-          "turnBear": 2,
-          "bear": 43,
+          "turnBear": 3,
+          "bear": 42,
           "bullPct": 1.64
         },
         {
           "date": "2026-11-03",
           "total": 61,
           "bull": 8,
-          "turnBull": 28,
+          "turnBull": 27,
           "turnBear": 0,
-          "bear": 25,
+          "bear": 26,
           "bullPct": 13.11
         }
       ]
@@ -233,32 +233,32 @@ window.MARKET_TREND_DATA = {
       "name": "药",
       "date": "2026-11-03",
       "total": 139,
-      "bull": 33,
-      "turnBull": 62,
+      "bull": 32,
+      "turnBull": 63,
       "turnBear": 6,
       "bear": 38,
-      "newBull": 34,
+      "newBull": 33,
       "confirm": 7,
       "direct": 1,
-      "positive": 42,
-      "negative": 7,
-      "bullPct": 23.74,
+      "positive": 41,
+      "negative": 6,
+      "bullPct": 23.02,
       "state": "空→多跳级",
       "action": "跳级修复，优先确认持续性",
-      "change": "多 23→33；空转多 23→62；多转空 25→6；空 68→38",
+      "change": "多 23→32；空转多 23→63；多转空 25→6；空 68→38",
       "id": "pharma",
       "code": "PHARMA",
       "score": 31.7,
       "fulfilled": 7,
-      "netBias": -5,
+      "netBias": -6,
       "phase": "空→多跳级",
       "badge": "修复加速",
       "tone": "lime",
-      "setup": "62",
+      "setup": "63",
       "setupCaption": "空转多候选",
       "confirmValue": "7",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 33/139，空头 38；空转多候选 62，今日转多确认 7，反向转空 6。多 23→33；空转多 23→62；多转空 25→6；空 68→38，跳级修复，优先确认持续性。",
+      "thesis": "多头 32/139，空头 38；空转多候选 63，今日转多确认 7，反向转空 6。多 23→32；空转多 23→63；多转空 25→6；空 68→38，跳级修复，优先确认持续性。",
       "history": [
         {
           "date": "2026-10-26",
@@ -311,11 +311,11 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-03",
           "total": 139,
-          "bull": 33,
-          "turnBull": 62,
+          "bull": 32,
+          "turnBull": 63,
           "turnBear": 6,
           "bear": 38,
-          "bullPct": 23.74
+          "bullPct": 23.02
         }
       ]
     },
@@ -413,39 +413,39 @@ window.MARKET_TREND_DATA = {
       "name": "电网设备",
       "date": "2026-11-03",
       "total": 56,
-      "bull": 6,
-      "turnBull": 20,
-      "turnBear": 1,
-      "bear": 29,
-      "newBull": 13,
+      "bull": 5,
+      "turnBull": 21,
+      "turnBear": 2,
+      "bear": 28,
+      "newBull": 14,
       "confirm": 0,
       "direct": 0,
-      "positive": 13,
+      "positive": 14,
       "negative": 0,
-      "bullPct": 10.71,
+      "bullPct": 8.93,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 4→6；空转多 5→20；多转空 5→1；空 42→29",
+      "change": "多 4→5；空转多 5→21；多转空 5→2；空 42→28",
       "id": "grid-equipment",
       "code": "GRID EQUIPMENT",
-      "score": 23.2,
+      "score": 25.0,
       "fulfilled": 0,
       "netBias": -23,
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
-      "setup": "20",
+      "setup": "21",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 6/56，空头 29；空转多候选 20，今日转多确认 0，反向转空 1。多 4→6；空转多 5→20；多转空 5→1；空 42→29，候选回升，等待 5破10 推进。",
+      "thesis": "多头 5/56，空头 28；空转多候选 21，今日转多确认 0，反向转空 2。多 4→5；空转多 5→21；多转空 5→2；空 42→28，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-10-26",
           "bull": 10,
-          "turnBull": 4,
+          "turnBull": 5,
           "turnBear": 3,
-          "bear": 39,
+          "bear": 38,
           "bullPct": 17.86
         },
         {
@@ -491,11 +491,11 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-03",
           "total": 56,
-          "bull": 6,
-          "turnBull": 20,
-          "turnBear": 1,
-          "bear": 29,
-          "bullPct": 10.71
+          "bull": 5,
+          "turnBull": 21,
+          "turnBear": 2,
+          "bear": 28,
+          "bullPct": 8.93
         }
       ]
     },
@@ -1595,11 +1595,11 @@ window.MARKET_TREND_DATA = {
         "name": "药",
         "group_id": "pharma",
         "color": "#bf2f45",
-        "delta": 46,
+        "delta": 47,
         "values": [
           16,
           23,
-          62
+          63
         ]
       },
       {
@@ -1608,11 +1608,11 @@ window.MARKET_TREND_DATA = {
         "name": "互金证券",
         "group_id": "fintech",
         "color": "#bf2f45",
-        "delta": 28,
+        "delta": 27,
         "values": [
           0,
           15,
-          28
+          27
         ]
       }
     ]
