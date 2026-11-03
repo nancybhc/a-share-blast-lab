@@ -1,75 +1,75 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T09:36:44+08:00",
+  "generated_at": "2026-11-03T09:41:54+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
   "daily_top": [
     {
       "date": "2026-11-03",
+      "theme": "文娱消费",
+      "representative": "文娱消费",
+      "change_pct": 1.52,
+      "constituents": 93,
+      "members": "文娱消费 +1.52%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "低空经济",
+      "representative": "通用航空",
+      "change_pct": 1.1,
+      "constituents": 495,
+      "members": "通用航空 +1.10% / 低空经济 -0.14% / 无人机 -0.21% / 飞行汽车(eVTOL) -0.59%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-03",
       "theme": "毛发医疗",
       "representative": "毛发医疗",
-      "change_pct": 0.85,
+      "change_pct": 1.04,
       "constituents": 20,
-      "members": "毛发医疗 +0.85%",
-      "rank": 1
+      "members": "毛发医疗 +1.04%",
+      "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "农村电商",
       "representative": "农村电商",
-      "change_pct": 0.82,
+      "change_pct": 1.02,
       "constituents": 9,
-      "members": "农村电商 +0.82%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 0.77,
-      "constituents": 93,
-      "members": "文娱消费 +0.77%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-03",
-      "theme": "白酒/酿酒概念",
-      "representative": "酿酒概念",
-      "change_pct": 0.62,
-      "constituents": 56,
-      "members": "酿酒概念 +0.62% / 白酒 +0.45%",
+      "members": "农村电商 +1.02%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
-      "theme": "民爆概念",
-      "representative": "民爆概念",
-      "change_pct": 0.58,
-      "constituents": 22,
-      "members": "民爆概念 +0.58%",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 1.02,
+      "constituents": 23,
+      "members": "AI视频 +1.02%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 1,
-      "max_streak": 1,
+      "theme": "AI视频",
+      "current_streak": 2,
+      "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.72,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
-      "dates": "11-03、10-30"
+      "avg_change_pct": 5.53,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
+      "dates": "11-03、11-02"
     },
     {
       "theme": "农村电商",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.92,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 1.02,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
       "dates": "11-03、10-30"
     },
     {
@@ -83,44 +83,34 @@ window.THEME_RADAR_DATA = {
       "dates": "10-30、10-28"
     },
     {
-      "theme": "毛发医疗",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.85,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-03"
-    },
-    {
       "theme": "文娱消费",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.77,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.52,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-03"
     },
     {
-      "theme": "民爆概念",
+      "theme": "低空经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.58,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 1.1,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-03"
     },
     {
-      "theme": "AI视频",
-      "current_streak": 0,
+      "theme": "毛发医疗",
+      "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.04,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-02"
+      "avg_change_pct": 1.04,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-03"
     },
     {
       "theme": "机器人",
@@ -131,6 +121,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "10-28"
+    },
+    {
+      "theme": "白酒/酿酒概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.82,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "10-30"
     },
     {
       "theme": "商业航天",
