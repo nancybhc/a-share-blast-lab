@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T10:19:52+08:00",
+  "generated_at": "2026-11-03T10:23:36+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-03午盘",
   "daily_top": [
     {
       "date": "2026-11-03",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 3.63,
-      "constituents": 103,
-      "members": "短剧互动游戏 +3.63% / 网络游戏 +1.97%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 3.57,
+      "constituents": 17,
+      "members": "水产概念 +3.57%",
       "rank": 1
     },
     {
       "date": "2026-11-03",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 3.18,
-      "constituents": 17,
-      "members": "水产概念 +3.18%",
+      "theme": "网络游戏/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 3.42,
+      "constituents": 103,
+      "members": "短剧互动游戏 +3.42% / 网络游戏 +2.00%",
       "rank": 2
     },
     {
       "date": "2026-11-03",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 3.17,
+      "change_pct": 3.11,
       "constituents": 65,
-      "members": "影视概念 +3.17%",
+      "members": "影视概念 +3.11%",
       "rank": 3
     },
     {
       "date": "2026-11-03",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 2.85,
+      "change_pct": 2.99,
       "constituents": 20,
-      "members": "鸡肉概念 +2.85%",
+      "members": "鸡肉概念 +2.99%",
       "rank": 4
     },
     {
       "date": "2026-11-03",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 2.72,
-      "constituents": 93,
-      "members": "文娱消费 +2.72%",
+      "theme": "固态电池",
+      "representative": "钠离子电池",
+      "change_pct": 2.99,
+      "constituents": 633,
+      "members": "钠离子电池 +2.99% / 固态电池 +2.45% / 锂电池概念 +1.98% / 电池技术 +1.71%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 6.19,
-      "avg_rank": 1.5,
-      "latest_rank": 1,
+      "avg_change_pct": 6.08,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-03、11-02"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.38,
+      "avg_change_pct": 5.35,
       "avg_rank": 3.5,
       "latest_rank": 3,
       "dates": "11-03、11-02"
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.58,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.77,
+      "avg_rank": 1.5,
+      "latest_rank": 1,
       "dates": "11-03、10-29"
     },
     {
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.85,
+      "avg_change_pct": 2.99,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-03"
     },
     {
-      "theme": "文娱消费",
+      "theme": "固态电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.72,
+      "avg_change_pct": 2.99,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
