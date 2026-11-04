@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-04",
-  "generatedAt": "2026-11-04 11:29",
-  "reportGeneratedAt": "2026-11-04 11:29",
+  "generatedAt": "2026-11-04 11:34",
+  "reportGeneratedAt": "2026-11-04 11:34",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-04.xlsx",
@@ -11,10 +11,10 @@ window.MARKET_TREND_DATA = {
   "overview": {
     "groups": 17,
     "uniqueStocks": 926,
-    "positiveGroups": 2,
+    "positiveGroups": 3,
     "negativeGroups": 13,
-    "positiveTransitions": 29,
-    "negativeTransitions": 78
+    "positiveTransitions": 30,
+    "negativeTransitions": 79
   },
   "phaseLegend": [
     {
@@ -116,8 +116,8 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-02",
           "bull": 1,
           "turnBull": 15,
-          "turnBear": 3,
-          "bear": 42,
+          "turnBear": 2,
+          "bear": 43,
           "bullPct": 1.64
         },
         {
@@ -233,32 +233,32 @@ window.MARKET_TREND_DATA = {
       "name": "药",
       "date": "2026-11-04",
       "total": 139,
-      "bull": 30,
-      "turnBull": 28,
+      "bull": 31,
+      "turnBull": 26,
       "turnBear": 23,
-      "bear": 58,
+      "bear": 59,
       "newBull": 2,
-      "confirm": 7,
+      "confirm": 8,
       "direct": 0,
-      "positive": 9,
-      "negative": 16,
-      "bullPct": 21.58,
+      "positive": 10,
+      "negative": 17,
+      "bullPct": 22.3,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 29→30；空转多 52→28；多转空 10→23；空 48→58",
+      "change": "多 29→31；空转多 52→26；多转空 10→23；空 48→59",
       "id": "pharma",
       "code": "PHARMA",
-      "score": 0.0,
-      "fulfilled": 7,
+      "score": 0.7,
+      "fulfilled": 8,
       "netBias": -28,
-      "phase": "结构分化",
-      "badge": "临界观察",
+      "phase": "温和修复",
+      "badge": "边际改善",
       "tone": "amber",
-      "setup": "28",
+      "setup": "26",
       "setupCaption": "空转多候选",
-      "confirmValue": "7",
+      "confirmValue": "8",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 30/139，空头 58；空转多候选 28，今日转多确认 7，反向转空 23。多 29→30；空转多 52→28；多转空 10→23；空 48→58，修复进入确认，观察扩散。",
+      "thesis": "多头 31/139，空头 59；空转多候选 26，今日转多确认 8，反向转空 23。多 29→31；空转多 52→26；多转空 10→23；空 48→59，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-10-27",
@@ -311,11 +311,11 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-04",
           "total": 139,
-          "bull": 30,
-          "turnBull": 28,
+          "bull": 31,
+          "turnBull": 26,
           "turnBear": 23,
-          "bear": 58,
-          "bullPct": 21.58
+          "bear": 59,
+          "bullPct": 22.3
         }
       ]
     },
@@ -1044,8 +1044,8 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-04",
       "total": 63,
       "bull": 13,
-      "turnBull": 10,
-      "turnBear": 11,
+      "turnBull": 9,
+      "turnBear": 12,
       "bear": 29,
       "newBull": 0,
       "confirm": 1,
@@ -1055,7 +1055,7 @@ window.MARKET_TREND_DATA = {
       "bullPct": 20.63,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 15→13；空转多 25→10；多转空 0→11；空 23→29",
+      "change": "多 15→13；空转多 25→9；多转空 0→12；空 23→29",
       "id": "aerospace",
       "code": "AEROSPACE",
       "score": -7.9,
@@ -1064,11 +1064,11 @@ window.MARKET_TREND_DATA = {
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
-      "setup": "10",
+      "setup": "9",
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 13/63，空头 29；空转多候选 10，今日转多确认 1，反向转空 11。多 15→13；空转多 25→10；多转空 0→11；空 23→29，修复进入确认，观察扩散。",
+      "thesis": "多头 13/63，空头 29；空转多候选 9，今日转多确认 1，反向转空 12。多 15→13；空转多 25→9；多转空 0→12；空 23→29，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-10-27",
@@ -1122,8 +1122,8 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-04",
           "total": 63,
           "bull": 13,
-          "turnBull": 10,
-          "turnBear": 11,
+          "turnBull": 9,
+          "turnBear": 12,
           "bear": 29,
           "bullPct": 20.63
         }
@@ -1590,29 +1590,29 @@ window.MARKET_TREND_DATA = {
     ],
     "series": [
       {
-        "id": "repair:pharma",
+        "id": "repair:fintech",
         "kind": "repair",
-        "name": "药",
-        "group_id": "pharma",
+        "name": "互金证券",
+        "group_id": "fintech",
         "color": "#bf2f45",
-        "delta": 5,
+        "delta": 4,
         "values": [
-          23,
-          52,
-          28
+          15,
+          28,
+          19
         ]
       },
       {
-        "id": "pressure:pcb",
+        "id": "pressure:aerospace",
         "kind": "pressure",
-        "name": "PCB",
-        "group_id": "pcb",
+        "name": "商业航天",
+        "group_id": "aerospace",
         "color": "#187348",
         "delta": -5,
         "values": [
-          7,
-          5,
-          2
+          14,
+          25,
+          9
         ]
       }
     ]
