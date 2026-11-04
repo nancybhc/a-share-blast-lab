@@ -1,6 +1,6 @@
 window.GROUP_INTRADAY_TRENDS = {
   "date": "2026-11-04",
-  "updated_at": "2026-11-04T13:56:48+08:00",
+  "updated_at": "2026-11-04T14:00:13+08:00",
   "source": "real-time multi-stage snapshots",
   "groups": {
     "pcb": [
