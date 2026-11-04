@@ -1,75 +1,65 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T09:44:02+08:00",
+  "generated_at": "2026-11-04T09:49:47+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
   "daily_top": [
     {
       "date": "2026-11-04",
-      "theme": "CRO",
-      "representative": "CRO",
-      "change_pct": 1.96,
-      "constituents": 52,
-      "members": "CRO +1.96%",
+      "theme": "网络游戏/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 2.51,
+      "constituents": 103,
+      "members": "短剧互动游戏 +2.51% / 网络游戏 +0.77%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 1.57,
-      "constituents": 103,
-      "members": "短剧互动游戏 +1.57% / 网络游戏 +0.37%",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 1.7,
+      "constituents": 65,
+      "members": "影视概念 +1.70%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-04",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 1.11,
-      "constituents": 28,
-      "members": "大基金持股 +1.11%",
-      "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 1.11,
+      "change_pct": 1.68,
       "constituents": 25,
-      "members": "AI视频 +1.11%",
+      "members": "AI视频 +1.68%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 1.4,
+      "constituents": 529,
+      "members": "AI语料 +1.40% / 数据中心 -0.53% / 算力概念 -0.54%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
-      "theme": "肝素概念",
-      "representative": "肝素概念",
-      "change_pct": 1.1,
-      "constituents": 13,
-      "members": "肝素概念 +1.10%",
+      "theme": "CRO",
+      "representative": "CRO",
+      "change_pct": 1.37,
+      "constituents": 52,
+      "members": "CRO +1.37%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "CRO",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.96,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-04、10-30"
-    },
-    {
       "theme": "网络游戏/短剧互动游戏",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.16,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 5.63,
+      "avg_rank": 1.5,
+      "latest_rank": 1,
       "dates": "11-04、11-02"
     },
     {
@@ -77,20 +67,40 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.43,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 5.71,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-04、11-02"
     },
     {
-      "theme": "肝素概念",
+      "theme": "影视概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.95,
-      "avg_rank": 4.0,
+      "avg_change_pct": 4.65,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
+      "dates": "11-04、11-02"
+    },
+    {
+      "theme": "CRO",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.67,
+      "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-04、10-30"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.54,
+      "avg_rank": 3.5,
+      "latest_rank": 4,
+      "dates": "11-04、11-02"
     },
     {
       "theme": "水产概念",
@@ -123,16 +133,6 @@
       "dates": "11-03、10-29"
     },
     {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.11,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-04"
-    },
-    {
       "theme": "CAR-T细胞疗法",
       "current_streak": 0,
       "max_streak": 1,
@@ -153,16 +153,6 @@
       "dates": "10-29"
     },
     {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.69,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-02"
-    },
-    {
       "theme": "猪肉概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -173,6 +163,16 @@
       "dates": "11-03"
     },
     {
+      "theme": "肝素概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.79,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "10-30"
+    },
+    {
       "theme": "免税概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -181,16 +181,6 @@
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-29"
-    },
-    {
-      "theme": "影视概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.6,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-02"
     },
     {
       "theme": "毛发医疗",
