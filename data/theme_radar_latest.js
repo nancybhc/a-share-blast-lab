@@ -1,115 +1,135 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T09:25:23+08:00",
+  "generated_at": "2026-11-04T09:34:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
   "daily_top": [
     {
       "date": "2026-11-04",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "TOPCon电池",
-      "change_pct": 0.95,
-      "constituents": 99,
-      "members": "TOPCon电池 +0.95% / HJT电池 -0.02% / 钙钛矿电池 -0.23%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 0.73,
+      "constituents": 28,
+      "members": "大基金持股 +0.73%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
-      "theme": "工业气体/氦气概念",
-      "representative": "氦气概念",
-      "change_pct": 0.88,
-      "constituents": 38,
-      "members": "氦气概念 +0.88% / 工业气体 +0.76%",
+      "theme": "柔性屏(折叠屏)",
+      "representative": "柔性屏(折叠屏)",
+      "change_pct": 0.4,
+      "constituents": 92,
+      "members": "柔性屏(折叠屏) +0.40%",
       "rank": 2
     },
     {
       "date": "2026-11-04",
-      "theme": "玻璃基板",
-      "representative": "玻璃基板",
-      "change_pct": 0.76,
-      "constituents": 65,
-      "members": "玻璃基板 +0.76%",
+      "theme": "WiFi",
+      "representative": "WiFi",
+      "change_pct": 0.37,
+      "constituents": 41,
+      "members": "WiFi +0.37%",
       "rank": 3
     },
     {
       "date": "2026-11-04",
-      "theme": "存储芯片/汽车芯片",
-      "representative": "存储芯片",
-      "change_pct": 0.75,
-      "constituents": 201,
-      "members": "存储芯片 +0.75% / 汽车芯片 +0.41%",
+      "theme": "磁悬浮概念",
+      "representative": "磁悬浮概念",
+      "change_pct": 0.34,
+      "constituents": 37,
+      "members": "磁悬浮概念 +0.34%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
-      "theme": "ERP概念",
-      "representative": "ERP概念",
-      "change_pct": 0.7,
-      "constituents": 23,
-      "members": "ERP概念 +0.70%",
+      "theme": "AI算力",
+      "representative": "算力概念",
+      "change_pct": 0.29,
+      "constituents": 529,
+      "members": "算力概念 +0.29% / 数据中心 +0.24% / AI语料 +0.01%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.99,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-04、11-02"
+    },
     {
       "theme": "水产概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 1.25,
-      "avg_rank": 2.0,
+      "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-03、10-29"
     },
     {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "theme": "鸡肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.18,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-03、10-29"
+    },
+    {
+      "theme": "乳业",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.54,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-03、10-29"
+    },
+    {
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.95,
+      "avg_change_pct": 0.73,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
     },
     {
-      "theme": "工业气体/氦气概念",
+      "theme": "柔性屏(折叠屏)",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.88,
+      "avg_change_pct": 0.4,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
     },
     {
-      "theme": "玻璃基板",
+      "theme": "WiFi",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.76,
+      "avg_change_pct": 0.37,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-04"
     },
     {
-      "theme": "存储芯片/汽车芯片",
+      "theme": "磁悬浮概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.75,
+      "avg_change_pct": 0.34,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-04"
-    },
-    {
-      "theme": "ERP概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.7,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-04"
     },
     {
@@ -123,34 +143,14 @@ window.THEME_RADAR_DATA = {
       "dates": "11-02"
     },
     {
-      "theme": "鸡肉概念",
+      "theme": "CRO",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.87,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-03"
-    },
-    {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.82,
+      "avg_change_pct": 1.96,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "10-30"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.42,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "10-29"
     },
     {
       "theme": "网络游戏/短剧互动游戏",
@@ -163,24 +163,24 @@ window.THEME_RADAR_DATA = {
       "dates": "11-02"
     },
     {
-      "theme": "CRO",
+      "theme": "CAR-T细胞疗法",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.96,
+      "avg_change_pct": 1.07,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-30"
     },
     {
-      "theme": "Kimi概念",
+      "theme": "航母概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.11,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-02"
+      "avg_change_pct": -0.38,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "10-29"
     },
     {
       "theme": "猪肉概念",
@@ -193,21 +193,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-03"
     },
     {
-      "theme": "减肥药",
+      "theme": "肝素概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.33,
+      "avg_change_pct": 0.79,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-30"
     },
     {
-      "theme": "大飞机",
+      "theme": "免税概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.33,
+      "avg_change_pct": -0.42,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "10-29"
@@ -223,74 +223,44 @@ window.THEME_RADAR_DATA = {
       "dates": "11-02"
     },
     {
-      "theme": "乳业",
+      "theme": "毛发医疗",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.76,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-03"
-    },
-    {
-      "theme": "CAR-T细胞疗法",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.07,
+      "avg_change_pct": 0.52,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "10-30"
     },
     {
-      "theme": "中字头",
+      "theme": "数字阅读",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.34,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "10-29"
-    },
-    {
-      "theme": "AIGC概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.11,
+      "avg_change_pct": 7.02,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-02"
     },
     {
-      "theme": "草甘膦",
+      "theme": "低碳冶金",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.3,
+      "avg_change_pct": 1.33,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
     },
     {
-      "theme": "农村电商",
+      "theme": "AI制药（医疗）/创新医疗服务",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.02,
+      "avg_change_pct": -0.09,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "10-30"
-    },
-    {
-      "theme": "旅游概念/旅游酒店",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.37,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "10-29"
     }
   ]
 };
