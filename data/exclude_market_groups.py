@@ -166,12 +166,18 @@ def filter_workbook(path: Path, backup_dir: Path) -> dict[str, object]:
     temp_path = path.with_suffix(path.suffix + ".tmp")
     workbook.save(temp_path)
     workbook.close()
-    os.replace(temp_path, path)
+    locked = False
+    try:
+        os.replace(temp_path, path)
+    except PermissionError:
+        locked = True
+        temp_path.unlink(missing_ok=True)
     return {
         "path": str(path),
         "backup": str(backup_path),
         "removed_sheets": removed_sheets,
         "removed_rows": removed_rows,
+        "locked": locked,
     }
 
 
@@ -187,9 +193,11 @@ def main() -> None:
     backup_dir = args.backup_root / args.date
     for path in paths:
         result = filter_workbook(path, backup_dir)
+        marker = "SKIP" if result["locked"] else "OK"
         print(
-            f"[OK] {path} sheets={result['removed_sheets']} "
+            f"[{marker}] {path} sheets={result['removed_sheets']} "
             f"rows={result['removed_rows']}"
+            + ("（文件被占用，保留原文件）" if result["locked"] else "")
         )
 
 
