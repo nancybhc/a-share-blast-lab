@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T14:44:43+08:00",
+  "generated_at": "2026-11-04T14:52:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-04",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 9.9,
+      "change_pct": 10.05,
       "constituents": 28,
-      "members": "大基金持股 +9.90%",
+      "members": "大基金持股 +10.05%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 6.56,
+      "change_pct": 6.77,
       "constituents": 10,
-      "members": "纳米银 +6.56%",
+      "members": "纳米银 +6.77%",
       "rank": 2
     },
     {
       "date": "2026-11-04",
       "theme": "CRO",
       "representative": "CRO",
-      "change_pct": 5.94,
+      "change_pct": 6.0,
       "constituents": 52,
-      "members": "CRO +5.94%",
+      "members": "CRO +6.00%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-04",
-      "theme": "3D摄像头",
-      "representative": "3D摄像头",
-      "change_pct": 5.58,
-      "constituents": 9,
-      "members": "3D摄像头 +5.58%",
-      "rank": 4
     },
     {
       "date": "2026-11-04",
       "theme": "柔性屏(折叠屏)",
       "representative": "柔性屏(折叠屏)",
-      "change_pct": 5.55,
+      "change_pct": 5.68,
       "constituents": 92,
-      "members": "柔性屏(折叠屏) +5.55%",
+      "members": "柔性屏(折叠屏) +5.68%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "3D摄像头",
+      "representative": "3D摄像头",
+      "change_pct": 5.66,
+      "constituents": 9,
+      "members": "3D摄像头 +5.66%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.95,
+      "avg_change_pct": 3.98,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-04、10-30"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 9.9,
+      "avg_change_pct": 10.05,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
@@ -107,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.56,
+      "avg_change_pct": 6.77,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-04"
-    },
-    {
-      "theme": "3D摄像头",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.58,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-04"
     },
     {
@@ -127,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.55,
+      "avg_change_pct": 5.68,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-04"
+    },
+    {
+      "theme": "3D摄像头",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.66,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
