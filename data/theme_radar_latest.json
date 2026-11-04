@@ -1,60 +1,60 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T15:10:35+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-03收盘",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T09:25:23+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-04午盘",
   "daily_top": [
     {
-      "date": "2026-11-03",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": 2.87,
-      "constituents": 20,
-      "members": "鸡肉概念 +2.87%",
+      "date": "2026-11-04",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "TOPCon电池",
+      "change_pct": 0.95,
+      "constituents": 99,
+      "members": "TOPCon电池 +0.95% / HJT电池 -0.02% / 钙钛矿电池 -0.23%",
       "rank": 1
     },
     {
-      "date": "2026-11-03",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.53,
-      "constituents": 17,
-      "members": "水产概念 +2.53%",
+      "date": "2026-11-04",
+      "theme": "工业气体/氦气概念",
+      "representative": "氦气概念",
+      "change_pct": 0.88,
+      "constituents": 38,
+      "members": "氦气概念 +0.88% / 工业气体 +0.76%",
       "rank": 2
     },
     {
-      "date": "2026-11-03",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 1.84,
-      "constituents": 39,
-      "members": "猪肉概念 +1.84%",
+      "date": "2026-11-04",
+      "theme": "玻璃基板",
+      "representative": "玻璃基板",
+      "change_pct": 0.76,
+      "constituents": 65,
+      "members": "玻璃基板 +0.76%",
       "rank": 3
     },
     {
-      "date": "2026-11-03",
-      "theme": "乳业",
-      "representative": "乳业",
-      "change_pct": 1.76,
-      "constituents": 33,
-      "members": "乳业 +1.76%",
+      "date": "2026-11-04",
+      "theme": "存储芯片/汽车芯片",
+      "representative": "存储芯片",
+      "change_pct": 0.75,
+      "constituents": 201,
+      "members": "存储芯片 +0.75% / 汽车芯片 +0.41%",
       "rank": 4
     },
     {
-      "date": "2026-11-03",
-      "theme": "草甘膦",
-      "representative": "草甘膦",
-      "change_pct": 1.3,
-      "constituents": 13,
-      "members": "草甘膦 +1.30%",
+      "date": "2026-11-04",
+      "theme": "ERP概念",
+      "representative": "ERP概念",
+      "change_pct": 0.7,
+      "constituents": 23,
+      "members": "ERP概念 +0.70%",
       "rank": 5
     }
   ],
   "five_day": [
     {
       "theme": "水产概念",
-      "current_streak": 1,
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 1.25,
@@ -63,54 +63,54 @@
       "dates": "11-03、10-29"
     },
     {
-      "theme": "CRO",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.42,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
-      "dates": "10-30、10-28"
-    },
-    {
-      "theme": "鸡肉概念",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.87,
+      "avg_change_pct": 0.95,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-03"
+      "dates": "11-04"
     },
     {
-      "theme": "猪肉概念",
+      "theme": "工业气体/氦气概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.84,
+      "avg_change_pct": 0.88,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-04"
+    },
+    {
+      "theme": "玻璃基板",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.76,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-03"
+      "dates": "11-04"
     },
     {
-      "theme": "乳业",
+      "theme": "存储芯片/汽车芯片",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.76,
+      "avg_change_pct": 0.75,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-03"
+      "dates": "11-04"
     },
     {
-      "theme": "草甘膦",
+      "theme": "ERP概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.3,
+      "avg_change_pct": 0.7,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-03"
+      "dates": "11-04"
     },
     {
       "theme": "AI视频",
@@ -123,14 +123,14 @@
       "dates": "11-02"
     },
     {
-      "theme": "机器人",
+      "theme": "鸡肉概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.97,
+      "avg_change_pct": 2.87,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "10-28"
+      "dates": "11-03"
     },
     {
       "theme": "白酒/酿酒概念",
@@ -163,14 +163,14 @@
       "dates": "11-02"
     },
     {
-      "theme": "光刻机",
+      "theme": "CRO",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.95,
+      "avg_change_pct": 1.96,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "10-28"
+      "dates": "10-30"
     },
     {
       "theme": "Kimi概念",
@@ -181,6 +181,16 @@
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-02"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.84,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-03"
     },
     {
       "theme": "减肥药",
@@ -213,14 +223,14 @@
       "dates": "11-02"
     },
     {
-      "theme": "PEEK材料概念",
+      "theme": "乳业",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.46,
+      "avg_change_pct": 1.76,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "10-28"
+      "dates": "11-03"
     },
     {
       "theme": "CAR-T细胞疗法",
@@ -253,14 +263,14 @@
       "dates": "11-02"
     },
     {
-      "theme": "先进封装",
+      "theme": "草甘膦",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.24,
+      "avg_change_pct": 1.3,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "10-28"
+      "dates": "11-03"
     },
     {
       "theme": "农村电商",
