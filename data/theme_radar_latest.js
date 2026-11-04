@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T10:27:14+08:00",
+  "generated_at": "2026-11-04T10:32:49+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-04",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 2.62,
+      "change_pct": 2.93,
       "constituents": 25,
-      "members": "AI视频 +2.62%",
+      "members": "AI视频 +2.93%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
       "theme": "3D摄像头",
       "representative": "3D摄像头",
-      "change_pct": 2.33,
+      "change_pct": 2.84,
       "constituents": 9,
-      "members": "3D摄像头 +2.33%",
+      "members": "3D摄像头 +2.84%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-04",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 2.32,
-      "constituents": 103,
-      "members": "短剧互动游戏 +2.32% / 网络游戏 +1.14%",
-      "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 2.25,
+      "change_pct": 2.58,
       "constituents": 529,
-      "members": "AI语料 +2.25% / 算力概念 +0.22% / 数据中心 -0.05%",
+      "members": "AI语料 +2.58% / 算力概念 +0.36% / 数据中心 +0.07%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "网络游戏/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 2.47,
+      "constituents": 103,
+      "members": "短剧互动游戏 +2.47% / 网络游戏 +1.32%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 1.97,
-      "constituents": 28,
-      "members": "大基金持股 +1.97%",
+      "theme": "数字阅读",
+      "representative": "数字阅读",
+      "change_pct": 2.27,
+      "constituents": 19,
+      "members": "数字阅读 +2.27%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.19,
+      "avg_change_pct": 6.34,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04、11-02"
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.54,
-      "avg_rank": 2.5,
-      "latest_rank": 3,
+      "avg_change_pct": 5.61,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
       "dates": "11-04、11-02"
     },
     {
@@ -77,9 +77,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.97,
-      "avg_rank": 3.5,
-      "latest_rank": 4,
+      "avg_change_pct": 5.13,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-04、11-02"
+    },
+    {
+      "theme": "数字阅读",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.64,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-04、11-02"
     },
     {
@@ -117,19 +127,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.33,
+      "avg_change_pct": 2.84,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-04"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.97,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-04"
     },
     {
@@ -211,16 +211,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "10-30"
-    },
-    {
-      "theme": "数字阅读",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.02,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-02"
     },
     {
       "theme": "低碳冶金",
