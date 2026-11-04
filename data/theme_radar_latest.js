@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T13:52:27+08:00",
+  "generated_at": "2026-11-04T13:57:09+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-04",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 7.59,
+      "change_pct": 7.52,
       "constituents": 28,
-      "members": "大基金持股 +7.59%",
+      "members": "大基金持股 +7.52%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 4.68,
+      "change_pct": 4.8,
       "constituents": 10,
-      "members": "纳米银 +4.68%",
+      "members": "纳米银 +4.80%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-04",
-      "theme": "3D摄像头",
-      "representative": "3D摄像头",
-      "change_pct": 4.66,
-      "constituents": 9,
-      "members": "3D摄像头 +4.66%",
-      "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "CRO",
       "representative": "CRO",
-      "change_pct": 4.59,
+      "change_pct": 4.56,
       "constituents": 52,
-      "members": "CRO +4.59%",
+      "members": "CRO +4.56%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "3D摄像头",
+      "representative": "3D摄像头",
+      "change_pct": 4.54,
+      "constituents": 9,
+      "members": "3D摄像头 +4.54%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
-      "theme": "虚拟机器人",
-      "representative": "虚拟机器人",
-      "change_pct": 3.69,
-      "constituents": 16,
-      "members": "虚拟机器人 +3.69%",
+      "theme": "柔性屏(折叠屏)",
+      "representative": "柔性屏(折叠屏)",
+      "change_pct": 3.68,
+      "constituents": 92,
+      "members": "柔性屏(折叠屏) +3.68%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.27,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 3.26,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-04、10-30"
     },
     {
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.59,
+      "avg_change_pct": 7.52,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.68,
+      "avg_change_pct": 4.8,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
@@ -117,17 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.66,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.54,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-04"
     },
     {
-      "theme": "虚拟机器人",
+      "theme": "柔性屏(折叠屏)",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.69,
+      "avg_change_pct": 3.68,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
