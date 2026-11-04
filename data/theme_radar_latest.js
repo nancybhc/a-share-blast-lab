@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T13:32:34+08:00",
+  "generated_at": "2026-11-04T13:37:31+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
   "daily_top": [
     {
       "date": "2026-11-04",
-      "theme": "3D摄像头",
-      "representative": "3D摄像头",
-      "change_pct": 3.41,
-      "constituents": 9,
-      "members": "3D摄像头 +3.41%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 4.32,
+      "constituents": 28,
+      "members": "大基金持股 +4.32%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 3.3,
-      "constituents": 28,
-      "members": "大基金持股 +3.30%",
+      "theme": "3D摄像头",
+      "representative": "3D摄像头",
+      "change_pct": 3.92,
+      "constituents": 9,
+      "members": "3D摄像头 +3.92%",
       "rank": 2
     },
     {
       "date": "2026-11-04",
       "theme": "CRO",
       "representative": "CRO",
-      "change_pct": 3.28,
+      "change_pct": 3.85,
       "constituents": 52,
-      "members": "CRO +3.28%",
+      "members": "CRO +3.85%",
       "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 2.58,
+      "change_pct": 2.81,
       "constituents": 25,
-      "members": "AI视频 +2.58%",
+      "members": "AI视频 +2.81%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
       "theme": "数字阅读",
       "representative": "数字阅读",
-      "change_pct": 2.38,
+      "change_pct": 2.71,
       "constituents": 19,
-      "members": "数字阅读 +2.38%",
+      "members": "数字阅读 +2.71%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.62,
+      "avg_change_pct": 2.91,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-04、10-30"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.17,
+      "avg_change_pct": 6.28,
       "avg_rank": 2.5,
       "latest_rank": 4,
       "dates": "11-04、11-02"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.7,
+      "avg_change_pct": 4.87,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04、11-02"
@@ -113,21 +113,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-03、10-29"
     },
     {
-      "theme": "3D摄像头",
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.41,
+      "avg_change_pct": 4.32,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
     },
     {
-      "theme": "大基金持股",
+      "theme": "3D摄像头",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.3,
+      "avg_change_pct": 3.92,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
