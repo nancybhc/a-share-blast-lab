@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T13:17:57+08:00",
+  "generated_at": "2026-11-04T13:23:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-04",
       "theme": "3D摄像头",
       "representative": "3D摄像头",
-      "change_pct": 1.92,
+      "change_pct": 2.08,
       "constituents": 9,
-      "members": "3D摄像头 +1.92%",
+      "members": "3D摄像头 +2.08%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-04",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 1.64,
-      "constituents": 25,
-      "members": "AI视频 +1.64%",
-      "rank": 2
     },
     {
       "date": "2026-11-04",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 1.53,
+      "change_pct": 1.6,
       "constituents": 28,
-      "members": "大基金持股 +1.53%",
+      "members": "大基金持股 +1.60%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 1.6,
+      "constituents": 25,
+      "members": "AI视频 +1.60%",
       "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "数字阅读",
       "representative": "数字阅读",
-      "change_pct": 1.33,
+      "change_pct": 1.36,
       "constituents": 19,
-      "members": "数字阅读 +1.33%",
+      "members": "数字阅读 +1.36%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 0.82,
-      "constituents": 103,
-      "members": "短剧互动游戏 +0.82% / 网络游戏 +0.15%",
+      "theme": "CRO",
+      "representative": "CRO",
+      "change_pct": 0.89,
+      "constituents": 52,
+      "members": "CRO +0.89%",
       "rank": 5
     }
   ],
@@ -57,27 +57,27 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.7,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
+      "avg_change_pct": 5.67,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-04、11-02"
     },
     {
-      "theme": "网络游戏/短剧互动游戏",
+      "theme": "CRO",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.79,
-      "avg_rank": 3.5,
+      "avg_change_pct": 1.43,
+      "avg_rank": 3.0,
       "latest_rank": 5,
-      "dates": "11-04、11-02"
+      "dates": "11-04、10-30"
     },
     {
       "theme": "数字阅读",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.17,
+      "avg_change_pct": 4.19,
       "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "11-04、11-02"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.92,
+      "avg_change_pct": 2.08,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
@@ -127,20 +127,20 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.53,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.6,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-04"
     },
     {
-      "theme": "CRO",
+      "theme": "网络游戏/短剧互动游戏",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.96,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "10-30"
+      "avg_change_pct": 8.75,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-02"
     },
     {
       "theme": "CAR-T细胞疗法",
