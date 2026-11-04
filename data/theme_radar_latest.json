@@ -1,53 +1,53 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T13:02:38+08:00",
+  "generated_at": "2026-11-04T13:07:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
   "daily_top": [
     {
       "date": "2026-11-04",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 2.73,
-      "constituents": 28,
-      "members": "大基金持股 +2.73%",
+      "theme": "3D摄像头",
+      "representative": "3D摄像头",
+      "change_pct": 2.54,
+      "constituents": 9,
+      "members": "3D摄像头 +2.54%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
-      "theme": "3D摄像头",
-      "representative": "3D摄像头",
-      "change_pct": 2.58,
-      "constituents": 9,
-      "members": "3D摄像头 +2.58%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 2.51,
+      "constituents": 28,
+      "members": "大基金持股 +2.51%",
       "rank": 2
     },
     {
       "date": "2026-11-04",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 2.19,
+      "change_pct": 2.49,
       "constituents": 25,
-      "members": "AI视频 +2.19%",
+      "members": "AI视频 +2.49%",
       "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "数字阅读",
       "representative": "数字阅读",
-      "change_pct": 1.84,
+      "change_pct": 2.25,
       "constituents": 19,
-      "members": "数字阅读 +1.84%",
+      "members": "数字阅读 +2.25%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 1.73,
+      "change_pct": 1.83,
       "constituents": 103,
-      "members": "短剧互动游戏 +1.73% / 网络游戏 +0.93%",
+      "members": "短剧互动游戏 +1.83% / 网络游戏 +0.98%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.97,
+      "avg_change_pct": 6.12,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-04、11-02"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.24,
+      "avg_change_pct": 5.29,
       "avg_rank": 3.5,
       "latest_rank": 5,
       "dates": "11-04、11-02"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.43,
+      "avg_change_pct": 4.63,
       "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "11-04、11-02"
@@ -113,21 +113,21 @@
       "dates": "11-03、10-29"
     },
     {
-      "theme": "大基金持股",
+      "theme": "3D摄像头",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.73,
+      "avg_change_pct": 2.54,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
     },
     {
-      "theme": "3D摄像头",
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.51,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
