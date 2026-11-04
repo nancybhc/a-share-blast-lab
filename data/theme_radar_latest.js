@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T09:54:31+08:00",
+  "generated_at": "2026-11-04T09:59:11+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-04午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-04",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 2.58,
+      "change_pct": 2.31,
       "constituents": 28,
-      "members": "大基金持股 +2.58%",
+      "members": "大基金持股 +2.31%",
       "rank": 1
     },
     {
       "date": "2026-11-04",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 2.14,
+      "change_pct": 2.12,
       "constituents": 103,
-      "members": "短剧互动游戏 +2.14% / 网络游戏 +0.73%",
+      "members": "短剧互动游戏 +2.12% / 网络游戏 +0.77%",
       "rank": 2
     },
     {
       "date": "2026-11-04",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 1.61,
+      "change_pct": 1.71,
       "constituents": 65,
-      "members": "影视概念 +1.61%",
+      "members": "影视概念 +1.71%",
       "rank": 3
     },
     {
       "date": "2026-11-04",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 1.59,
+      "change_pct": 1.67,
       "constituents": 25,
-      "members": "AI视频 +1.59%",
+      "members": "AI视频 +1.67%",
       "rank": 4
     },
     {
       "date": "2026-11-04",
-      "theme": "CRO",
-      "representative": "CRO",
-      "change_pct": 1.51,
-      "constituents": 52,
-      "members": "CRO +1.51%",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 1.53,
+      "constituents": 529,
+      "members": "AI语料 +1.53% / 算力概念 -0.01% / 数据中心 -0.09%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.45,
+      "avg_change_pct": 5.44,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04、11-02"
@@ -67,29 +67,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.67,
+      "avg_change_pct": 5.71,
       "avg_rank": 2.5,
       "latest_rank": 4,
       "dates": "11-04、11-02"
-    },
-    {
-      "theme": "CRO",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.73,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-04、10-30"
     },
     {
       "theme": "影视概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.6,
+      "avg_change_pct": 4.65,
       "avg_rank": 3.5,
       "latest_rank": 3,
+      "dates": "11-04、11-02"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.61,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
       "dates": "11-04、11-02"
     },
     {
@@ -127,10 +127,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.31,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
+    },
+    {
+      "theme": "CRO",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.96,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "10-30"
     },
     {
       "theme": "CAR-T细胞疗法",
@@ -151,16 +161,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-29"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.69,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-02"
     },
     {
       "theme": "猪肉概念",
