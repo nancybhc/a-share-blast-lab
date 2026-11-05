@@ -1,53 +1,53 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T09:26:25+08:00",
+  "generated_at": "2026-11-05T09:32:45+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
   "daily_top": [
     {
       "date": "2026-11-05",
-      "theme": "黄金概念",
-      "representative": "黄金概念",
-      "change_pct": 1.41,
-      "constituents": 74,
-      "members": "黄金概念 +1.41%",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "HJT电池",
+      "change_pct": 2.29,
+      "constituents": 105,
+      "members": "HJT电池 +2.29% / TOPCon电池 +1.73% / 钙钛矿电池 +1.17% / BC电池 +0.79%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 0.85,
+      "change_pct": 2.06,
       "constituents": 17,
-      "members": "Kimi概念 +0.85%",
+      "members": "Kimi概念 +2.06%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
-      "theme": "民爆概念",
-      "representative": "民爆概念",
-      "change_pct": 0.61,
-      "constituents": 22,
-      "members": "民爆概念 +0.61%",
+      "theme": "减肥药",
+      "representative": "减肥药",
+      "change_pct": 1.51,
+      "constituents": 43,
+      "members": "减肥药 +1.51%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "HJT电池",
-      "change_pct": 0.53,
-      "constituents": 105,
-      "members": "HJT电池 +0.53% / TOPCon电池 +0.51% / 钙钛矿电池 -0.20% / BC电池 -0.59%",
+      "theme": "CRO",
+      "representative": "CRO",
+      "change_pct": 1.5,
+      "constituents": 52,
+      "members": "CRO +1.50%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
-      "theme": "快手概念",
-      "representative": "快手概念",
-      "change_pct": 0.53,
-      "constituents": 36,
-      "members": "快手概念 +0.53%",
+      "theme": "黄金概念",
+      "representative": "黄金概念",
+      "change_pct": 1.38,
+      "constituents": 74,
+      "members": "黄金概念 +1.38%",
       "rank": 5
     }
   ],
@@ -57,47 +57,47 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.48,
+      "avg_change_pct": 5.08,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-05、11-02"
     },
     {
-      "theme": "黄金概念",
+      "theme": "CRO",
       "current_streak": 1,
       "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.41,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-05"
+      "appearances": 2,
+      "avg_change_pct": 1.73,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
+      "dates": "11-05、10-30"
     },
     {
-      "theme": "民爆概念",
+      "theme": "减肥药",
       "current_streak": 1,
       "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.61,
+      "appearances": 2,
+      "avg_change_pct": 1.42,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-05"
+      "dates": "11-05、10-30"
     },
     {
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.53,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.29,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-05"
     },
     {
-      "theme": "快手概念",
+      "theme": "黄金概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.53,
+      "avg_change_pct": 1.38,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-05"
@@ -173,16 +173,6 @@
       "dates": "11-03"
     },
     {
-      "theme": "CRO",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.96,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "10-30"
-    },
-    {
       "theme": "中芯概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -201,16 +191,6 @@
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-03"
-    },
-    {
-      "theme": "减肥药",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.33,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "10-30"
     },
     {
       "theme": "先进封装",
