@@ -1,19 +1,19 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-05",
-  "generatedAt": "2026-11-05 11:31",
-  "reportGeneratedAt": "2026-11-05 11:31",
+  "generatedAt": "2026-11-05 12:57",
+  "reportGeneratedAt": "2026-11-05 12:57",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-05.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-05.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-11-05.pptx",
-  "summary": "  AI硬件 · 近 7 个交易日（10-28 ~ 11-05）：四类基本没动（多 +0、空 -175），按个股进度挑，不整体加也不整体减｜多 21→21 只、空 281→106 只、空转多 19→210、多转空 20→4｜PCB 最明显：多 1→4 只、空 63→29 只",
+  "summary": "  AI硬件 · 近 7 个交易日（10-28 ~ 11-05）：四类基本没动（多 +0、空 -175），按个股进度挑，不整体加也不整体减｜多 21→21 只、空 281→106 只、空转多 18→210、多转空 21→4｜PCB 最明显：多 1→4 只、空 63→29 只",
   "overview": {
     "groups": 19,
-    "uniqueStocks": 944,
+    "uniqueStocks": 943,
     "positiveGroups": 19,
     "negativeGroups": 0,
-    "positiveTransitions": 420,
+    "positiveTransitions": 419,
     "negativeTransitions": 12
   },
   "phaseLegend": [
@@ -52,86 +52,86 @@ window.MARKET_TREND_DATA = {
     {
       "name": "储能",
       "date": "2026-11-05",
-      "total": 11,
-      "bull": 11,
+      "total": 10,
+      "bull": 10,
       "turnBull": 0,
       "turnBear": 0,
       "bear": 0,
       "newBull": 0,
-      "confirm": 5,
+      "confirm": 4,
       "direct": 0,
-      "positive": 5,
+      "positive": 4,
       "negative": 0,
       "bullPct": 100.0,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 6→11；空转多 5→0；多转空 0→0；空 0→0",
+      "change": "多 6→10；空转多 5→0；多转空 0→0；空 0→0",
       "id": "energy-storage",
       "code": "ENERGY STORAGE",
       "score": 80.0,
-      "fulfilled": 5,
-      "netBias": 11,
+      "fulfilled": 4,
+      "netBias": 10,
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
       "setup": "0",
       "setupCaption": "空转多候选",
-      "confirmValue": "5",
+      "confirmValue": "4",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 11/11，空头 0；空转多候选 0，今日转多确认 5，反向转空 0。多 6→11；空转多 5→0；多转空 0→0；空 0→0，修复进入确认，观察扩散。",
+      "thesis": "多头 10/10，空头 0；空转多候选 0，今日转多确认 4，反向转空 0。多 6→10；空转多 5→0；多转空 0→0；空 0→0，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-10-28",
           "bull": 0,
           "turnBull": 4,
           "turnBear": 0,
-          "bear": 7,
+          "bear": 6,
           "bullPct": 0.0
         },
         {
           "date": "2026-10-29",
           "bull": 2,
-          "turnBull": 3,
+          "turnBull": 2,
           "turnBear": 0,
           "bear": 6,
-          "bullPct": 18.18
+          "bullPct": 20.0
         },
         {
           "date": "2026-10-30",
           "bull": 2,
           "turnBull": 1,
           "turnBear": 1,
-          "bear": 7,
-          "bullPct": 18.18
+          "bear": 6,
+          "bullPct": 20.0
         },
         {
           "date": "2026-11-02",
           "bull": 2,
           "turnBull": 3,
           "turnBear": 0,
-          "bear": 6,
-          "bullPct": 18.18
+          "bear": 5,
+          "bullPct": 20.0
         },
         {
           "date": "2026-11-03",
           "bull": 4,
-          "turnBull": 7,
+          "turnBull": 6,
           "turnBear": 0,
           "bear": 0,
-          "bullPct": 36.36
+          "bullPct": 40.0
         },
         {
           "date": "2026-11-04",
           "bull": 6,
-          "turnBull": 5,
+          "turnBull": 4,
           "turnBear": 0,
           "bear": 0,
-          "bullPct": 54.55
+          "bullPct": 60.0
         },
         {
           "date": "2026-11-05",
-          "total": 11,
-          "bull": 11,
+          "total": 10,
+          "bull": 10,
           "turnBull": 0,
           "turnBear": 0,
           "bear": 0,
@@ -893,8 +893,8 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-10-28",
           "bull": 2,
-          "turnBull": 1,
-          "turnBear": 0,
+          "turnBull": 0,
+          "turnBear": 1,
           "bear": 29,
           "bullPct": 6.25
         },
@@ -1368,8 +1368,8 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-02",
           "bull": 1,
           "turnBull": 15,
-          "turnBear": 3,
-          "bear": 42,
+          "turnBear": 2,
+          "bear": 43,
           "bullPct": 1.64
         },
         {
