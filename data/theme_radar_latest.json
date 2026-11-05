@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T13:03:06+08:00",
+  "generated_at": "2026-11-05T13:08:04+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 6.63,
+      "change_pct": 6.26,
       "constituents": 105,
-      "members": "TOPCon电池 +6.63% / HJT电池 +6.40% / 钙钛矿电池 +4.52% / BC电池 +4.46%",
+      "members": "TOPCon电池 +6.26% / HJT电池 +5.99% / BC电池 +4.23% / 钙钛矿电池 +4.11%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 5.81,
+      "change_pct": 5.46,
       "constituents": 17,
-      "members": "Kimi概念 +5.81%",
+      "members": "Kimi概念 +5.46%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.59,
+      "change_pct": 4.45,
       "constituents": 19,
-      "members": "智能音箱 +4.59%",
+      "members": "智能音箱 +4.45%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
       "theme": "有机硅概念",
       "representative": "有机硅概念",
-      "change_pct": 4.04,
+      "change_pct": 3.61,
       "constituents": 39,
-      "members": "有机硅概念 +4.04%",
+      "members": "有机硅概念 +3.61%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
       "theme": "拼多多概念",
       "representative": "拼多多概念",
-      "change_pct": 3.81,
+      "change_pct": 3.44,
       "constituents": 29,
-      "members": "拼多多概念 +3.81%",
+      "members": "拼多多概念 +3.44%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.96,
+      "avg_change_pct": 6.79,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-05、11-02"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.63,
+      "avg_change_pct": 6.26,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.59,
+      "avg_change_pct": 4.45,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.04,
+      "avg_change_pct": 3.61,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-05"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.81,
+      "avg_change_pct": 3.44,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-05"
