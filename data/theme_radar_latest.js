@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T11:26:29+08:00",
+  "generated_at": "2026-11-05T11:32:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 6.57,
+      "change_pct": 6.76,
       "constituents": 105,
-      "members": "TOPCon电池 +6.57% / HJT电池 +6.37% / BC电池 +4.53% / 钙钛矿电池 +4.51%",
+      "members": "TOPCon电池 +6.76% / HJT电池 +6.57% / BC电池 +4.75% / 钙钛矿电池 +4.68%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 6.2,
+      "change_pct": 6.31,
       "constituents": 17,
-      "members": "Kimi概念 +6.20%",
+      "members": "Kimi概念 +6.31%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.84,
+      "change_pct": 4.89,
       "constituents": 19,
-      "members": "智能音箱 +4.84%",
+      "members": "智能音箱 +4.89%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
       "theme": "有机硅概念",
       "representative": "有机硅概念",
-      "change_pct": 4.16,
+      "change_pct": 4.28,
       "constituents": 39,
-      "members": "有机硅概念 +4.16%",
+      "members": "有机硅概念 +4.28%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
       "theme": "拼多多概念",
       "representative": "拼多多概念",
-      "change_pct": 3.89,
+      "change_pct": 3.99,
       "constituents": 29,
-      "members": "拼多多概念 +3.89%",
+      "members": "拼多多概念 +3.99%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 7.15,
+      "avg_change_pct": 7.21,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-05、11-02"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.57,
+      "avg_change_pct": 6.76,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.84,
+      "avg_change_pct": 4.89,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.16,
+      "avg_change_pct": 4.28,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-05"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.89,
+      "avg_change_pct": 3.99,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-05"
