@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T11:02:06+08:00",
+  "generated_at": "2026-11-05T11:09:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,27 +9,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 7.5,
+      "change_pct": 7.4,
       "constituents": 105,
-      "members": "TOPCon电池 +7.50% / HJT电池 +7.00% / 钙钛矿电池 +5.19% / BC电池 +5.17%",
+      "members": "TOPCon电池 +7.40% / HJT电池 +6.99% / BC电池 +5.15% / 钙钛矿电池 +5.14%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 5.37,
+      "change_pct": 6.61,
       "constituents": 17,
-      "members": "Kimi概念 +5.37%",
+      "members": "Kimi概念 +6.61%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.64,
+      "change_pct": 5.14,
       "constituents": 19,
-      "members": "智能音箱 +4.64%",
+      "members": "智能音箱 +5.14%",
       "rank": 3
     },
     {
@@ -45,9 +45,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-05",
       "theme": "有机硅概念",
       "representative": "有机硅概念",
-      "change_pct": 4.32,
+      "change_pct": 4.36,
       "constituents": 39,
-      "members": "有机硅概念 +4.32%",
+      "members": "有机硅概念 +4.36%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.74,
+      "avg_change_pct": 7.36,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-05、11-02"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.5,
+      "avg_change_pct": 7.4,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.64,
+      "avg_change_pct": 5.14,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.32,
+      "avg_change_pct": 4.36,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-05"
