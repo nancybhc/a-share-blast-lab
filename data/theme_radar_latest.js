@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T10:16:25+08:00",
+  "generated_at": "2026-11-05T10:21:46+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
   "daily_top": [
     {
       "date": "2026-11-05",
-      "theme": "Kimi概念",
-      "representative": "Kimi概念",
-      "change_pct": 7.46,
-      "constituents": 17,
-      "members": "Kimi概念 +7.46%",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "TOPCon电池",
+      "change_pct": 8.05,
+      "constituents": 105,
+      "members": "TOPCon电池 +8.05% / HJT电池 +7.85% / BC电池 +6.26% / 钙钛矿电池 +6.20%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "TOPCon电池",
-      "change_pct": 7.14,
-      "constituents": 105,
-      "members": "TOPCon电池 +7.14% / HJT电池 +7.05% / 钙钛矿电池 +5.45% / BC电池 +5.44%",
+      "theme": "Kimi概念",
+      "representative": "Kimi概念",
+      "change_pct": 7.59,
+      "constituents": 17,
+      "members": "Kimi概念 +7.59%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 5.61,
-      "constituents": 19,
-      "members": "智能音箱 +5.61%",
-      "rank": 3
     },
     {
       "date": "2026-11-05",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 5.07,
+      "change_pct": 5.88,
       "constituents": 28,
-      "members": "大基金持股 +5.07%",
+      "members": "大基金持股 +5.88%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 5.74,
+      "constituents": 19,
+      "members": "智能音箱 +5.74%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 4.75,
-      "constituents": 66,
-      "members": "中芯概念 +4.75%",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": 5.63,
+      "constituents": 28,
+      "members": "高带宽内存 +5.63%",
       "rank": 5
     }
   ],
@@ -57,18 +57,18 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 7.8,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
+      "avg_change_pct": 8.21,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
       "dates": "11-05、11-04"
     },
     {
-      "theme": "中芯概念",
+      "theme": "高带宽内存",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 7.53,
-      "avg_rank": 4.0,
+      "avg_change_pct": 8.7,
+      "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-05、11-04"
     },
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 7.79,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
+      "avg_change_pct": 7.85,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-05、11-02"
     },
     {
@@ -87,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.14,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 8.05,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-05"
     },
     {
@@ -97,20 +97,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.61,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 5.74,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-05"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 11.76,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-04"
     },
     {
       "theme": "AI视频",
@@ -171,6 +161,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "10-30"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 10.3,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-04"
     },
     {
       "theme": "猪肉概念",
