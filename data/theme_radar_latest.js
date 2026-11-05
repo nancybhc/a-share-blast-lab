@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T10:21:46+08:00",
+  "generated_at": "2026-11-05T10:28:00+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,67 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 8.05,
+      "change_pct": 8.2,
       "constituents": 105,
-      "members": "TOPCon电池 +8.05% / HJT电池 +7.85% / BC电池 +6.26% / 钙钛矿电池 +6.20%",
+      "members": "TOPCon电池 +8.20% / HJT电池 +7.95% / BC电池 +6.25% / 钙钛矿电池 +6.14%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 7.59,
+      "change_pct": 7.44,
       "constituents": 17,
-      "members": "Kimi概念 +7.59%",
+      "members": "Kimi概念 +7.44%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 5.88,
+      "change_pct": 5.7,
       "constituents": 28,
-      "members": "大基金持股 +5.88%",
+      "members": "大基金持股 +5.70%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 5.74,
-      "constituents": 19,
-      "members": "智能音箱 +5.74%",
-      "rank": 4
     },
     {
       "date": "2026-11-05",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 5.63,
+      "change_pct": 5.64,
       "constituents": 28,
-      "members": "高带宽内存 +5.63%",
+      "members": "高带宽内存 +5.64%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 5.54,
+      "constituents": 19,
+      "members": "智能音箱 +5.54%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "大基金持股",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 8.21,
-      "avg_rank": 2.5,
-      "latest_rank": 3,
-      "dates": "11-05、11-04"
-    },
     {
       "theme": "高带宽内存",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
       "avg_change_pct": 8.7,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
+      "dates": "11-05、11-04"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 8.12,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
       "dates": "11-05、11-04"
     },
     {
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 7.85,
+      "avg_change_pct": 7.78,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-05、11-02"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.05,
+      "avg_change_pct": 8.2,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.74,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 5.54,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-05"
     },
     {
