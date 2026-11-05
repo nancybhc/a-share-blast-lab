@@ -26,6 +26,9 @@ LOCK_PATH = DATA_DIR / ".daily_postmarket_update.lock"
 MIN_REPORT_TIME = clock_time(14, 50)
 CYCLE_RUNNER = Path(r"C:\Users\jiach\多空趋势分析工作流\run_多空阶段.ps1")
 THEME_ROOT = Path(r"C:\Users\jiach\题材雷达结果")
+INTRADAY_THEME_ROOT = Path(
+    r"C:\Users\jiach\Desktop\今日盘中\题材雷达_当日题材强度"
+)
 THEME_FILES = (
     "当日题材强度_每日题材前五.csv",
     "当日题材强度_五日题材汇总.csv",
@@ -253,22 +256,28 @@ def resolve_report(target_date: str | None, wait_minutes: int) -> tuple[str, Pat
 
 def wait_for_theme(target_date: str, wait_minutes: int) -> None:
     deadline = time.time() + max(wait_minutes, 0) * 60
-    raw_dir = THEME_ROOT / target_date / "原始数据"
     while True:
-        files = [raw_dir / name for name in THEME_FILES]
-        ready = all(
-            path.is_file()
-            and path.stat().st_size > 100
-            and datetime.fromtimestamp(
-                path.stat().st_mtime,
-                CHINA_TZ,
-            ).time() >= MIN_REPORT_TIME
-            for path in files
+        candidates = (
+            THEME_ROOT / target_date / "原始数据",
+            INTRADAY_THEME_ROOT / "原始数据",
         )
-        if ready:
-            return
+        for raw_dir in candidates:
+            files = [raw_dir / name for name in THEME_FILES]
+            ready = all(
+                path.is_file()
+                and path.stat().st_size > 100
+                and datetime.fromtimestamp(
+                    path.stat().st_mtime,
+                    CHINA_TZ,
+                ).time() >= MIN_REPORT_TIME
+                for path in files
+            )
+            if ready:
+                return
         if time.time() >= deadline:
-            raise FileNotFoundError(f"等待超时，题材强度文件未完整生成：{raw_dir}")
+            raise FileNotFoundError(
+                f"等待超时，题材强度文件未完整生成：{candidates}"
+            )
         log(f"[WAIT] 等待 {target_date} 题材强度文件完整落盘")
         time.sleep(30)
 

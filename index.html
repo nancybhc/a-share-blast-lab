@@ -7,17 +7,16 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23b42335' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261105145903">
-  <script src="data/group_fund_flows_latest.js?v=20261105145903"></script>
-  <script src="data/board_daily_fund_flows_latest.js?v=20261105145903"></script>
-  <script src="data/full_market_daily_latest.js?v=20261105145903"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261105145903"></script>
-  <script src="data/theme_radar_latest.js?v=20261105145903"></script>
-  <script src="data/group_intraday_trends_latest.js?v=20261105145903"></script>
-  <script src="data/runtime_status.js?v=20261105145903"></script>
-  <script src="data/market_trend_latest.js?v=20261105145903"></script>
-  <script src="data/five_break_10_monitor.js?v=20261105145903"></script>
-  <script src="app.js?v=20261105145903" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261105221643">
+  <script src="data/group_fund_flows_latest.js?v=20261105221643"></script>
+  <script src="data/board_daily_fund_flows_latest.js?v=20261105221643"></script>
+  <script src="data/full_market_daily_latest.js?v=20261105221643"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261105221643"></script>
+  <script src="data/theme_radar_latest.js?v=20261105221643"></script>
+  <script src="data/group_intraday_trends_latest.js?v=20261105221643"></script>
+  <script src="data/runtime_status.js?v=20261105221643"></script>
+  <script src="data/market_trend_latest.js?v=20261105221643"></script>
+  <script src="app.js?v=20261105221643" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -41,7 +40,6 @@
       <a href="#migration">结构迁移</a>
       <a href="#capital">资金流向监控</a>
       <a href="#theme-strength">题材强度</a>
-      <a href="#quant-strategy">5破10量化</a>
     </nav>
 
     <div class="topbar-meta">
@@ -384,57 +382,6 @@
     </section>
 
 
-
-    <section class="section shell quant-strategy-section" id="quant-strategy">
-      <div class="section-heading reveal">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / 5破10量化</div>
-          <h2>尾盘买入候选</h2>
-        </div>
-        <p>空转多进度3后推演次日平盘完成5破10且MA10向上；判定分组多占比≥10%，综合评分≥0.25，AIDC并入AI硬件池，储能与固态锂电各自独立20%上限。</p>
-      </div>
-
-      <div class="theme-data-meta reveal">
-        <span>信号日 <b id="quantStrategySignalDate">—</b></span>
-        <span>行情时间 <b id="quantStrategyMarketTime">—</b></span>
-        <span>候选 <b id="quantStrategyBuyCount">—</b></span>
-        <span class="theme-auto-state"><i></i><span id="quantStrategyStatus">等待监控数据</span></span>
-        <a href="data/five_break_10_targets.csv" download>完整监控名单 CSV ↓</a>
-        <a href="data/five_break_10_targets.xlsx" download>完整监控名单 Excel ↓</a>
-        <a href="http://127.0.0.1:8765/" target="_blank" rel="noreferrer">量化策略网站 ↗</a>
-      </div>
-
-      <article class="panel reveal">
-        <div class="fund-table-head">
-          <div>
-            <span class="panel-label">正式候选与盘中达标</span>
-            <h3>仅展示达到最低涨幅的股票</h3>
-          </div>
-          <span class="data-origin">每 60 秒同步</span>
-        </div>
-        <div class="fund-table-scroll">
-          <table class="fund-table quant-strategy-table">
-            <thead>
-              <tr>
-                <th>股票</th>
-                <th>分组</th>
-                <th>分组多占比</th>
-                <th>评分</th>
-                <th>当前价 / 涨幅</th>
-                <th>最低涨幅</th>
-                <th>判定</th>
-                <th>首次达标</th>
-              </tr>
-            </thead>
-            <tbody id="quantStrategyBody"></tbody>
-          </table>
-        </div>
-        <div class="fund-source-note">
-          <span>执行口径</span>
-          <p>盘中达标只表示进入观察与买入准备，实际买入统一放在尾盘集合竞价；行情回落后会从动态名单移除，多次达标保留当天首次出现时间。</p>
-        </div>
-      </article>
-    </section>
 
     <section class="closing shell reveal">
       <div>

@@ -2386,98 +2386,6 @@ const sectionObserver = new IntersectionObserver(
 
 sections.forEach((section) => sectionObserver.observe(section));
 
-function quantText(value) {
-  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#39;",
-  })[char]);
-}
-
-function quantNumber(value, digits = 2) {
-  const number = Number(value);
-  return Number.isFinite(number) ? number.toFixed(digits) : "—";
-}
-
-function renderQuantStrategy(payload = window.FIVE_BREAK_10_MONITOR) {
-  const data = payload && typeof payload === "object" ? payload : {};
-  const rows = Array.isArray(data.active) ? data.active : [];
-  const signalDate = document.getElementById("quantStrategySignalDate");
-  const marketTime = document.getElementById("quantStrategyMarketTime");
-  const buyCount = document.getElementById("quantStrategyBuyCount");
-  const status = document.getElementById("quantStrategyStatus");
-  const body = document.getElementById("quantStrategyBody");
-  if (!signalDate || !marketTime || !buyCount || !status || !body) return;
-
-  signalDate.textContent = data.signal_date || data.signalDate || "—";
-  marketTime.textContent = [
-    data.market_date || data.marketDate,
-    data.market_time || data.marketTime,
-  ].filter(Boolean).join(" ") || "—";
-  buyCount.textContent = String(
-    data.buy_count ?? rows.filter((row) => row.isBuy || row["尾盘是否入选"] === "会入选").length,
-  );
-  status.textContent =
-    data.status === "closed"
-      ? "收盘快照已更新"
-      : data.status === "scanning"
-        ? "盘中动态更新中"
-        : "等待监控数据";
-
-  if (!rows.length) {
-    body.innerHTML = '<tr><td colspan="8">当前没有达到最低涨幅的股票。</td></tr>';
-    return;
-  }
-
-  body.innerHTML = [...rows]
-    .sort((left, right) => {
-      const leftRatio = Number(left["分组多占比%"] ?? left.groupManyRatioPct ?? -Infinity);
-      const rightRatio = Number(right["分组多占比%"] ?? right.groupManyRatioPct ?? -Infinity);
-      if (rightRatio !== leftRatio) return rightRatio - leftRatio;
-      return Number(right["综合评分"] ?? right.score ?? -Infinity)
-        - Number(left["综合评分"] ?? left.score ?? -Infinity);
-    })
-    .map((row) => {
-      const code = row["代码"] || row.code || "";
-      const name = row["名称"] || row.name || "";
-      const group = row["判定分组"] || row.group || "—";
-      const ratio = row["分组多占比%"] ?? row.groupManyRatioPct;
-      const score = row["综合评分"] ?? row.score;
-      const price = row["当前价"] ?? row.close;
-      const change = row["当前涨幅%"] ?? row.changePct;
-      const targetGain = row["最低涨幅%"] ?? row.minimumRisePct;
-      const decision = row["尾盘是否入选"] || (row.isBuy ? "会入选" : "观察");
-      const firstSeen = row["首次入选时间"] || row.firstSelectedAt || "—";
-      return `
-        <tr>
-          <td><strong>${quantText(name)}</strong><br><small>${quantText(code)}</small></td>
-          <td>${quantText(group)}</td>
-          <td>${quantNumber(ratio)}%</td>
-          <td>${quantNumber(score, 3)}</td>
-          <td>${quantNumber(price)} / ${quantNumber(change)}%</td>
-          <td>${quantNumber(targetGain)}%</td>
-          <td>${quantText(decision)}</td>
-          <td>${quantText(firstSeen)}</td>
-        </tr>
-      `;
-    })
-    .join("");
-}
-
-async function refreshQuantStrategy() {
-  renderQuantStrategy();
-  try {
-    const response = await fetch(`data/five_break_10_monitor.json?ts=${Date.now()}`, {
-      cache: "no-store",
-    });
-    if (response.ok) renderQuantStrategy(await response.json());
-  } catch (_) {
-    // Keep the last local snapshot when the static JSON is unavailable.
-  }
-}
-
 renderTrendOverview();
 const initialGroup = marketData.groups.find((group) => group.id === activeGroupId) || marketData.groups[0];
 if (initialGroup) updateSpotlight(initialGroup);
@@ -2487,8 +2395,6 @@ renderFundTable();
 renderBoardComparison();
 updateMarketPanel();
 renderThemeRadarSections();
-refreshQuantStrategy();
-window.setInterval(refreshQuantStrategy, MONITOR_REFRESH_INTERVAL_MS);
 initCollectorControl();
 initMasterMonitorControl();
 initAutoRefresh();
