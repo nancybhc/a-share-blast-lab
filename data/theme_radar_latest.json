@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T13:13:16+08:00",
+  "generated_at": "2026-11-05T13:18:57+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,67 +9,67 @@
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 6.09,
+      "change_pct": 6.27,
       "constituents": 105,
-      "members": "TOPCon电池 +6.09% / HJT电池 +5.88% / BC电池 +4.17% / 钙钛矿电池 +4.03%",
+      "members": "TOPCon电池 +6.27% / HJT电池 +5.97% / BC电池 +4.27% / 钙钛矿电池 +4.24%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 5.68,
+      "change_pct": 6.23,
       "constituents": 17,
-      "members": "Kimi概念 +5.68%",
+      "members": "Kimi概念 +6.23%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.48,
+      "change_pct": 4.84,
       "constituents": 19,
-      "members": "智能音箱 +4.48%",
+      "members": "智能音箱 +4.84%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.92,
+      "change_pct": 4.77,
       "constituents": 25,
-      "members": "AI视频 +3.92%",
+      "members": "AI视频 +4.77%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 3.74,
+      "change_pct": 4.56,
       "constituents": 694,
-      "members": "AI语料 +3.74% / 算力概念 +2.47% / 液冷服务器 +1.97% / 数据中心 +1.72% / CPO概念 +0.30%",
+      "members": "AI语料 +4.56% / 算力概念 +2.84% / 液冷服务器 +2.22% / 数据中心 +1.97% / CPO概念 +0.46%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "Kimi概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 6.89,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
-      "dates": "11-05、11-02"
-    },
-    {
       "theme": "AI视频",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.83,
+      "avg_change_pct": 7.26,
       "avg_rank": 2.5,
       "latest_rank": 4,
+      "dates": "11-05、11-02"
+    },
+    {
+      "theme": "Kimi概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 7.17,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-05、11-02"
     },
     {
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.71,
+      "avg_change_pct": 6.12,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-05、11-02"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.09,
+      "avg_change_pct": 6.27,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.48,
+      "avg_change_pct": 4.84,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
