@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T13:08:04+08:00",
+  "generated_at": "2026-11-05T13:13:16+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 6.26,
+      "change_pct": 6.09,
       "constituents": 105,
-      "members": "TOPCon电池 +6.26% / HJT电池 +5.99% / BC电池 +4.23% / 钙钛矿电池 +4.11%",
+      "members": "TOPCon电池 +6.09% / HJT电池 +5.88% / BC电池 +4.17% / 钙钛矿电池 +4.03%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 5.46,
+      "change_pct": 5.68,
       "constituents": 17,
-      "members": "Kimi概念 +5.46%",
+      "members": "Kimi概念 +5.68%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.45,
+      "change_pct": 4.48,
       "constituents": 19,
-      "members": "智能音箱 +4.45%",
+      "members": "智能音箱 +4.48%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
-      "theme": "有机硅概念",
-      "representative": "有机硅概念",
-      "change_pct": 3.61,
-      "constituents": 39,
-      "members": "有机硅概念 +3.61%",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 3.92,
+      "constituents": 25,
+      "members": "AI视频 +3.92%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
-      "theme": "拼多多概念",
-      "representative": "拼多多概念",
-      "change_pct": 3.44,
-      "constituents": 29,
-      "members": "拼多多概念 +3.44%",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 3.74,
+      "constituents": 694,
+      "members": "AI语料 +3.74% / 算力概念 +2.47% / 液冷服务器 +1.97% / 数据中心 +1.72% / CPO概念 +0.30%",
       "rank": 5
     }
   ],
@@ -57,9 +57,29 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.79,
+      "avg_change_pct": 6.89,
       "avg_rank": 2.5,
       "latest_rank": 2,
+      "dates": "11-05、11-02"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 6.83,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
+      "dates": "11-05、11-02"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 5.71,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-05、11-02"
     },
     {
@@ -67,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.26,
+      "avg_change_pct": 6.09,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -77,29 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.45,
+      "avg_change_pct": 4.48,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-05"
-    },
-    {
-      "theme": "有机硅概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.61,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-05"
-    },
-    {
-      "theme": "拼多多概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.44,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-05"
     },
     {
@@ -111,16 +111,6 @@
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 9.75,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-02"
     },
     {
       "theme": "鸡肉概念",
@@ -261,16 +251,6 @@
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.69,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-02"
     },
     {
       "theme": "低碳冶金",
