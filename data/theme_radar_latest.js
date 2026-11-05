@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T13:39:21+08:00",
+  "generated_at": "2026-11-05T13:59:05+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
   "daily_top": [
     {
       "date": "2026-11-05",
-      "theme": "Kimi概念",
-      "representative": "Kimi概念",
-      "change_pct": 5.84,
-      "constituents": 17,
-      "members": "Kimi概念 +5.84%",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "TOPCon电池",
+      "change_pct": 5.25,
+      "constituents": 105,
+      "members": "TOPCon电池 +5.25% / HJT电池 +5.14% / 钙钛矿电池 +3.54% / BC电池 +3.47%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "TOPCon电池",
-      "change_pct": 5.46,
-      "constituents": 105,
-      "members": "TOPCon电池 +5.46% / HJT电池 +5.33% / 钙钛矿电池 +3.62% / BC电池 +3.59%",
+      "theme": "Kimi概念",
+      "representative": "Kimi概念",
+      "change_pct": 5.12,
+      "constituents": 17,
+      "members": "Kimi概念 +5.12%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 4.89,
-      "constituents": 25,
-      "members": "AI视频 +4.89%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 4.47,
-      "constituents": 694,
-      "members": "AI语料 +4.47% / 算力概念 +2.41% / 液冷服务器 +1.63% / 数据中心 +1.47% / CPO概念 -0.23%",
-      "rank": 4
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.33,
+      "change_pct": 4.12,
       "constituents": 19,
-      "members": "智能音箱 +4.33%",
+      "members": "智能音箱 +4.12%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 3.95,
+      "constituents": 25,
+      "members": "AI视频 +3.95%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 3.66,
+      "constituents": 694,
+      "members": "AI语料 +3.66% / 算力概念 +2.10% / 液冷服务器 +1.35% / 数据中心 +1.22% / CPO概念 -0.61%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 7.32,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
+      "avg_change_pct": 6.85,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-05、11-02"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.97,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
+      "avg_change_pct": 6.62,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-05、11-02"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.08,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 5.68,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-05、11-02"
     },
     {
@@ -87,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.46,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 5.25,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-05"
     },
     {
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.33,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 4.12,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-05"
     },
     {
