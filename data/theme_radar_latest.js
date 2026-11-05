@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T10:56:05+08:00",
+  "generated_at": "2026-11-05T11:02:06+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 7.48,
+      "change_pct": 7.5,
       "constituents": 105,
-      "members": "TOPCon电池 +7.48% / HJT电池 +6.97% / 钙钛矿电池 +5.22% / BC电池 +5.20%",
+      "members": "TOPCon电池 +7.50% / HJT电池 +7.00% / 钙钛矿电池 +5.19% / BC电池 +5.17%",
       "rank": 1
     },
     {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 5.03,
+      "change_pct": 5.37,
       "constituents": 17,
-      "members": "Kimi概念 +5.03%",
+      "members": "Kimi概念 +5.37%",
       "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.75,
+      "change_pct": 4.64,
       "constituents": 19,
-      "members": "智能音箱 +4.75%",
+      "members": "智能音箱 +4.64%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
       "theme": "锂矿概念",
       "representative": "锂矿概念",
-      "change_pct": 4.69,
+      "change_pct": 4.47,
       "constituents": 39,
-      "members": "锂矿概念 +4.69%",
+      "members": "锂矿概念 +4.47%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
-      "theme": "刀片电池",
-      "representative": "刀片电池",
-      "change_pct": 4.34,
-      "constituents": 16,
-      "members": "刀片电池 +4.34%",
+      "theme": "有机硅概念",
+      "representative": "有机硅概念",
+      "change_pct": 4.32,
+      "constituents": 39,
+      "members": "有机硅概念 +4.32%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 6.57,
+      "avg_change_pct": 6.74,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-05、11-02"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.48,
+      "avg_change_pct": 7.5,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-05"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.75,
+      "avg_change_pct": 4.64,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.69,
+      "avg_change_pct": 4.47,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-05"
     },
     {
-      "theme": "刀片电池",
+      "theme": "有机硅概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.34,
+      "avg_change_pct": 4.32,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-05"
