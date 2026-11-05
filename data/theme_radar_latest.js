@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T09:49:26+08:00",
+  "generated_at": "2026-11-05T09:54:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-05午盘",
@@ -9,85 +9,85 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-05",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 6.6,
+      "change_pct": 6.38,
       "constituents": 17,
-      "members": "Kimi概念 +6.60%",
+      "members": "Kimi概念 +6.38%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 4.93,
-      "constituents": 19,
-      "members": "智能音箱 +4.93%",
-      "rank": 2
     },
     {
       "date": "2026-11-05",
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "representative": "TOPCon电池",
-      "change_pct": 4.9,
+      "change_pct": 5.89,
       "constituents": 105,
-      "members": "TOPCon电池 +4.90% / HJT电池 +4.85% / BC电池 +3.53% / 钙钛矿电池 +3.36%",
+      "members": "TOPCon电池 +5.89% / HJT电池 +5.79% / BC电池 +4.39% / 钙钛矿电池 +4.21%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 5.02,
+      "constituents": 19,
+      "members": "智能音箱 +5.02%",
       "rank": 3
     },
     {
       "date": "2026-11-05",
       "theme": "快手概念",
       "representative": "快手概念",
-      "change_pct": 3.93,
+      "change_pct": 3.72,
       "constituents": 36,
-      "members": "快手概念 +3.93%",
+      "members": "快手概念 +3.72%",
       "rank": 4
     },
     {
       "date": "2026-11-05",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 3.77,
-      "constituents": 25,
-      "members": "AI视频 +3.77%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 3.66,
+      "constituents": 28,
+      "members": "大基金持股 +3.66%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "大基金持股",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 7.09,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
+      "dates": "11-05、11-04"
+    },
+    {
       "theme": "Kimi概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 7.35,
+      "avg_change_pct": 7.24,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-05、11-02"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 6.76,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-05、11-02"
-    },
-    {
-      "theme": "智能音箱",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.93,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-05"
     },
     {
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.9,
+      "avg_change_pct": 5.89,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-05"
+    },
+    {
+      "theme": "智能音箱",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.93,
+      "avg_change_pct": 3.72,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-05"
@@ -111,6 +111,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 9.75,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-02"
     },
     {
       "theme": "鸡肉概念",
@@ -131,16 +141,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "10-30"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 10.53,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-04"
     },
     {
       "theme": "网络游戏/短剧互动游戏",
