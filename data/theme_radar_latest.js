@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T09:54:23+08:00",
+  "generated_at": "2026-11-06T09:59:36+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
@@ -9,57 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 1.4,
+      "change_pct": 1.19,
       "constituents": 20,
-      "members": "转基因 +1.40%",
+      "members": "转基因 +1.19%",
       "rank": 1
     },
     {
       "date": "2026-11-06",
-      "theme": "粮食概念",
-      "representative": "粮食概念",
-      "change_pct": 0.88,
-      "constituents": 37,
-      "members": "粮食概念 +0.88%",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "TOPCon电池",
+      "change_pct": 1.13,
+      "constituents": 105,
+      "members": "TOPCon电池 +1.13% / HJT电池 +0.64% / 钙钛矿电池 -0.25% / BC电池 -1.06%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "虚拟电厂",
-      "representative": "虚拟电厂",
-      "change_pct": 0.43,
-      "constituents": 79,
-      "members": "虚拟电厂 +0.43%",
-      "rank": 3
     },
     {
       "date": "2026-11-06",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.41,
+      "change_pct": 0.75,
       "constituents": 17,
-      "members": "水产概念 +0.41%",
+      "members": "水产概念 +0.75%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "粮食概念",
+      "representative": "粮食概念",
+      "change_pct": 0.69,
+      "constituents": 37,
+      "members": "粮食概念 +0.69%",
       "rank": 4
     },
     {
       "date": "2026-11-06",
-      "theme": "轮毂电机",
-      "representative": "轮毂电机",
-      "change_pct": 0.35,
-      "constituents": 9,
-      "members": "轮毂电机 +0.35%",
+      "theme": "虚拟电厂",
+      "representative": "虚拟电厂",
+      "change_pct": 0.61,
+      "constituents": 79,
+      "members": "虚拟电厂 +0.61%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 3.63,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-06、11-05"
+    },
+    {
       "theme": "水产概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.47,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.64,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
       "dates": "11-06、11-03"
     },
     {
@@ -97,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.4,
+      "avg_change_pct": 1.19,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
@@ -107,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.88,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.69,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-06"
     },
     {
@@ -117,17 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.43,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-06"
-    },
-    {
-      "theme": "轮毂电机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.61,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-06"
@@ -171,16 +171,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-02"
-    },
-    {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.13,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-05"
     },
     {
       "theme": "中芯概念",
