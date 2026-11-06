@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T14:00:04+08:00",
+  "generated_at": "2026-11-06T14:04:31+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": 0.98,
+      "change_pct": 0.75,
       "constituents": 37,
-      "members": "粮食概念 +0.98%",
+      "members": "粮食概念 +0.75%",
       "rank": 1
     },
     {
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.84,
+      "change_pct": 0.56,
       "constituents": 20,
-      "members": "转基因 +0.84%",
+      "members": "转基因 +0.56%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "绿色电力",
-      "representative": "绿色电力",
-      "change_pct": 0.37,
-      "constituents": 180,
-      "members": "绿色电力 +0.37%",
-      "rank": 3
     },
     {
       "date": "2026-11-06",
       "theme": "草甘膦",
       "representative": "草甘膦",
-      "change_pct": 0.36,
+      "change_pct": 0.26,
       "constituents": 13,
-      "members": "草甘膦 +0.36%",
+      "members": "草甘膦 +0.26%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "绿色电力",
+      "representative": "绿色电力",
+      "change_pct": 0.17,
+      "constituents": 180,
+      "members": "绿色电力 +0.17%",
       "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "智能电视",
       "representative": "智能电视",
-      "change_pct": 0.36,
+      "change_pct": 0.16,
       "constituents": 12,
-      "members": "智能电视 +0.36%",
+      "members": "智能电视 +0.16%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.98,
+      "avg_change_pct": 0.75,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.84,
+      "avg_change_pct": 0.56,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-06"
-    },
-    {
-      "theme": "绿色电力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.37,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-06"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.36,
+      "avg_change_pct": 0.26,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-06"
+    },
+    {
+      "theme": "绿色电力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.17,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-06"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.36,
+      "avg_change_pct": 0.16,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-06"
