@@ -38,6 +38,7 @@ GROUP_META = {
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
 EXCLUDED_GROUPS = {"黄金白银"}
+SUMMARY_SHEETS = {"总览", "量化5破10推演", "多空趋势"}
 PHASE_ORDER = (
     "空→多跳级",
     "转多兑现",
@@ -150,8 +151,8 @@ def read_group_rows(workbook: openpyxl.Workbook) -> list[dict[str, object]]:
 def read_detail_groups(workbook: openpyxl.Workbook) -> dict[str, dict[str, str]]:
     groups: dict[str, dict[str, str]] = {}
     valid_stages = {"多", "空转多", "多转空", "空"}
-    for sheet in workbook.worksheets[3:]:
-        if sheet.title in EXCLUDED_GROUPS:
+    for sheet in workbook.worksheets:
+        if sheet.title in EXCLUDED_GROUPS or sheet.title in SUMMARY_SHEETS:
             continue
         members: dict[str, str] = {}
         for values in sheet.iter_rows(min_row=5, values_only=True):
@@ -437,8 +438,8 @@ def build_payload(
     summary_lines = [str(cycle["多空趋势"].cell(2, 1).value or "")]
     summary_date = groups[0]["date"]
     detailed_codes: set[str] = set()
-    for sheet in cycle.worksheets[3:]:
-        if sheet.title in EXCLUDED_GROUPS:
+    for sheet in cycle.worksheets:
+        if sheet.title in EXCLUDED_GROUPS or sheet.title in SUMMARY_SHEETS:
             continue
         for values in sheet.iter_rows(min_row=4, values_only=True):
             code = str(values[3] or "").strip() if len(values) > 3 else ""

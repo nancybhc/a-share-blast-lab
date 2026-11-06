@@ -9,12 +9,12 @@ window.MARKET_TREND_DATA = {
   "sourceBrief": "assets/多空阶段简报_2026-11-06.pptx",
   "summary": "  AI硬件 · 近 7 个交易日（10-29 ~ 11-06）：多明显变多（+13 只）、空也在收（-163 只），可以慢慢介入｜多 13→26 只、空 288→125 只、空转多 15→184、多转空 25→6｜半导体 最明显：多 9→22 只、空 115→15 只",
   "overview": {
-    "groups": 20,
-    "uniqueStocks": 946,
+    "groups": 21,
+    "uniqueStocks": 1010,
     "positiveGroups": 16,
-    "negativeGroups": 3,
-    "positiveTransitions": 129,
-    "negativeTransitions": 44
+    "negativeGroups": 4,
+    "positiveTransitions": 132,
+    "negativeTransitions": 58
   },
   "phaseLegend": [
     {
@@ -1756,6 +1756,96 @@ window.MARKET_TREND_DATA = {
           "turnBear": 1,
           "bear": 15,
           "bullPct": 3.12
+        }
+      ]
+    },
+    {
+      "name": "PCB",
+      "date": "2026-11-06",
+      "total": 70,
+      "bull": 1,
+      "turnBull": 22,
+      "turnBear": 4,
+      "bear": 43,
+      "newBull": 3,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 3,
+      "negative": 14,
+      "bullPct": 1.43,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 4→1；空转多 32→22；多转空 0→4；空 34→43",
+      "id": "pcb",
+      "code": "PCB",
+      "score": -15.7,
+      "fulfilled": 0,
+      "netBias": -42,
+      "phase": "转空加速",
+      "badge": "风险升高",
+      "tone": "red",
+      "setup": "22",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 1/70，空头 43；空转多候选 22，今日转多确认 0，反向转空 4。多 4→1；空转多 32→22；多转空 0→4；空 34→43，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "bull": 1,
+          "turnBull": 3,
+          "turnBear": 3,
+          "bear": 63,
+          "bullPct": 1.43
+        },
+        {
+          "date": "2026-10-30",
+          "bull": 0,
+          "turnBull": 3,
+          "turnBear": 1,
+          "bear": 66,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-02",
+          "bull": 2,
+          "turnBull": 7,
+          "turnBear": 0,
+          "bear": 61,
+          "bullPct": 2.86
+        },
+        {
+          "date": "2026-11-03",
+          "bull": 1,
+          "turnBull": 5,
+          "turnBear": 1,
+          "bear": 63,
+          "bullPct": 1.43
+        },
+        {
+          "date": "2026-11-04",
+          "bull": 1,
+          "turnBull": 5,
+          "turnBear": 1,
+          "bear": 63,
+          "bullPct": 1.43
+        },
+        {
+          "date": "2026-11-05",
+          "bull": 4,
+          "turnBull": 32,
+          "turnBear": 0,
+          "bear": 34,
+          "bullPct": 5.71
+        },
+        {
+          "date": "2026-11-06",
+          "total": 70,
+          "bull": 1,
+          "turnBull": 22,
+          "turnBear": 4,
+          "bear": 43,
+          "bullPct": 1.43
         }
       ]
     },

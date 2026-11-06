@@ -30,6 +30,7 @@ HEADERS = {
     "Referer": "https://finance.sina.com.cn/",
 }
 EXCLUDED_GROUPS = {"黄金白银"}
+SUMMARY_SHEETS = {"总览", "量化5破10推演", "多空趋势"}
 
 
 @dataclass(frozen=True)
@@ -62,8 +63,8 @@ def load_groups(workbook_path: Path) -> tuple[dict[str, list[Stock]], dict[str, 
         ):
             expected[str(group).strip()] = int(count)
 
-    for sheet in workbook.worksheets[3:]:
-        if sheet.title in EXCLUDED_GROUPS:
+    for sheet in workbook.worksheets:
+        if sheet.title in EXCLUDED_GROUPS or sheet.title in SUMMARY_SHEETS:
             continue
         members: list[Stock] = []
         for row in sheet.iter_rows(min_row=5, values_only=True):

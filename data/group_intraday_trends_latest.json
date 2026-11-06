@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06T09:54:59+08:00",
+  "updated_at": "2026-11-06T09:55:26+08:00",
   "source": "real-time multi-stage snapshots",
   "groups": {
     "ai-app": [
@@ -229,6 +229,18 @@
         "turnBull": 15,
         "turnBear": 1,
         "bear": 15
+      }
+    ],
+    "pcb": [
+      {
+        "time": "09:54",
+        "timestamp": "2026-11-06T09:54+08:00",
+        "bullPct": 1.43,
+        "bull": 1,
+        "total": 70,
+        "turnBull": 22,
+        "turnBear": 4,
+        "bear": 43
       }
     ],
     "storage": [
