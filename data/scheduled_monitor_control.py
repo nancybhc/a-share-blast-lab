@@ -24,12 +24,6 @@ PID_FILES = (
     DATA_DIR / ".live_intraday_pipeline.pid",
 )
 BASE_URL = "http://127.0.0.1:8771"
-QUANT_DASHBOARD_DIR = Path(
-    r"C:\Users\jiach\回测\5破10推演量化策略_2026-01-01起\网页看板"
-)
-QUANT_DASHBOARD_URL = "http://127.0.0.1:8765"
-QUANT_LIVE_PATH = QUANT_DASHBOARD_DIR / "data" / "live_signals.json"
-FIVE_BREAK_PID_FILE = DATA_DIR / ".five_break_10_monitor.pid"
 
 
 def log(message: str) -> None:
@@ -65,105 +59,6 @@ def server_is_ready() -> bool:
         return True
     except Exception:  # noqa: BLE001
         return False
-
-
-def quant_server_is_ready() -> bool:
-    try:
-        request_url_json(
-            QUANT_DASHBOARD_URL,
-            "/api/monitor/status",
-            timeout=2,
-        )
-        return True
-    except Exception:  # noqa: BLE001
-        return False
-
-
-def wait_for_quant_final_scan(timeout_seconds: int = 90) -> dict:
-    """15:00 先等量化监控完成收盘快照，再执行兜底停止。"""
-    deadline = time.monotonic() + timeout_seconds
-    status: dict = {}
-    while time.monotonic() < deadline:
-        try:
-            status = request_url_json(
-                QUANT_DASHBOARD_URL,
-                "/api/monitor/status",
-                timeout=5,
-            )
-        except Exception as exc:  # noqa: BLE001
-            status = {
-                "running": True,
-                "status_error": f"{type(exc).__name__}: {exc}",
-            }
-            time.sleep(1)
-            continue
-        if not status.get("running"):
-            return status
-        time.sleep(1)
-    return status
-
-
-def wait_for_quant_close_file(timeout_seconds: int = 90) -> dict:
-    """看板服务不可用时，直接等待监控写出的 15:00 收盘快照。"""
-    deadline = time.monotonic() + timeout_seconds
-    payload: dict = {}
-    expected_date = datetime.now(CHINA_TZ).strftime("%Y-%m-%d")
-    while time.monotonic() < deadline:
-        try:
-            payload = json.loads(QUANT_LIVE_PATH.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            payload = {}
-        if (
-            str(payload.get("marketDate") or "") == expected_date
-            and str(payload.get("marketTime") or "")[:8] >= "15:00:00"
-        ):
-            return payload
-        time.sleep(1)
-    return payload
-
-
-def start_quant_server() -> None:
-    if quant_server_is_ready():
-        return
-    log("量化看板服务未运行，正在自动启动")
-    log_path = DATA_DIR / "quant_dashboard.autostart.log"
-    handle = log_path.open("a", encoding="utf-8")
-    flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
-    subprocess.Popen(
-        [
-            sys.executable,
-            "-X",
-            "utf8",
-            str(QUANT_DASHBOARD_DIR / "dashboard_server.py"),
-            "--port",
-            "8765",
-        ],
-        cwd=QUANT_DASHBOARD_DIR,
-        stdout=handle,
-        stderr=subprocess.STDOUT,
-        creationflags=flags,
-        close_fds=True,
-    )
-    handle.close()
-    for _ in range(40):
-        if quant_server_is_ready():
-            return
-        time.sleep(0.5)
-    raise RuntimeError("量化看板服务启动超时")
-
-
-def stop_quant_monitor_direct() -> None:
-    try:
-        pid = int(FIVE_BREAK_PID_FILE.read_text(encoding="ascii").strip())
-    except (OSError, ValueError):
-        FIVE_BREAK_PID_FILE.unlink(missing_ok=True)
-        return
-    subprocess.run(
-        ["taskkill", "/PID", str(pid), "/T", "/F"],
-        capture_output=True,
-        check=False,
-    )
-    FIVE_BREAK_PID_FILE.unlink(missing_ok=True)
 
 
 def start_server() -> None:
@@ -245,13 +140,12 @@ def main() -> int:
     if args.ensure_server:
         try:
             start_server()
-            start_quant_server()
             write_status(
                 "ensure-server",
                 True,
-                {"server_ready": True, "quant_dashboard_ready": True},
+                {"server_ready": True},
             )
-            log("网页服务和量化看板已确保运行")
+            log("网页服务已确保运行")
             return 0
         except Exception as exc:  # noqa: BLE001
             write_status(
@@ -276,53 +170,18 @@ def main() -> int:
         if args.start:
             start_server()
             result = request_api("/api/monitors/start-all", "POST", timeout=45)
-            start_quant_server()
-            quant_result = request_url_json(
-                QUANT_DASHBOARD_URL,
-                "/api/monitor/start",
-                "POST",
-                timeout=20,
-            )
-            result["quant_dashboard"] = quant_result
         else:
             if server_is_ready():
                 result = request_api("/api/monitors/stop-all", "POST", timeout=45)
             else:
                 stopped = stop_orphan_monitors()
                 result = {"running_count": 0, "orphan_stopped": stopped}
-            if quant_server_is_ready():
-                quant_status = (
-                    request_url_json(
-                        QUANT_DASHBOARD_URL,
-                        "/api/monitor/status",
-                        timeout=5,
-                    )
-                    if args.force
-                    else wait_for_quant_final_scan()
-                )
-                if quant_status.get("running"):
-                    log("量化监控未在收盘快照窗口内自行停止，执行兜底停止")
-                    quant_status = request_url_json(
-                        QUANT_DASHBOARD_URL,
-                        "/api/monitor/stop",
-                        "POST",
-                        timeout=20,
-                    )
-                result["quant_dashboard"] = quant_status
-            else:
-                if not args.force:
-                    wait_for_quant_close_file()
-                stop_quant_monitor_direct()
-                result["quant_dashboard"] = {"running": False}
         base_success = (
             bool(result.get("all_running"))
             if args.start
             else int(result.get("running_count", 0)) == 0
         )
-        quant_success = bool(
-            (result.get("quant_dashboard") or {}).get("running")
-        ) == bool(args.start)
-        success = base_success and quant_success
+        success = base_success
         write_status("start" if args.start else "stop", success, {"result": result})
         log(
             f"{'启动' if args.start else '停止'}完成："
