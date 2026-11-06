@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T13:22:55+08:00",
+  "generated_at": "2026-11-06T13:28:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": 0.81,
+      "change_pct": 0.71,
       "constituents": 37,
-      "members": "粮食概念 +0.81%",
+      "members": "粮食概念 +0.71%",
       "rank": 1
     },
     {
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.66,
+      "change_pct": 0.52,
       "constituents": 20,
-      "members": "转基因 +0.66%",
+      "members": "转基因 +0.52%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "智能电视",
-      "representative": "智能电视",
-      "change_pct": 0.3,
-      "constituents": 12,
-      "members": "智能电视 +0.30%",
-      "rank": 3
     },
     {
       "date": "2026-11-06",
       "theme": "绿色电力",
       "representative": "绿色电力",
-      "change_pct": 0.15,
+      "change_pct": 0.32,
       "constituents": 180,
-      "members": "绿色电力 +0.15%",
+      "members": "绿色电力 +0.32%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "智能电视",
+      "representative": "智能电视",
+      "change_pct": 0.17,
+      "constituents": 12,
+      "members": "智能电视 +0.17%",
       "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.09,
+      "change_pct": -0.1,
       "constituents": 18,
-      "members": "水产概念 +0.09%",
+      "members": "水产概念 -0.10%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.32,
+      "avg_change_pct": 1.22,
       "avg_rank": 3.5,
       "latest_rank": 5,
       "dates": "11-06、11-03"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.81,
+      "avg_change_pct": 0.71,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
@@ -107,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.66,
+      "avg_change_pct": 0.52,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-06"
-    },
-    {
-      "theme": "智能电视",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.3,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-06"
     },
     {
@@ -127,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.15,
+      "avg_change_pct": 0.32,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-06"
+    },
+    {
+      "theme": "智能电视",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.17,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-06"
