@@ -26,6 +26,8 @@ GROUP_META = {
     "AIDC": ("aidc", "AIDC"),
     "储能": ("energy-storage", "ENERGY STORAGE"),
     "固态锂电": ("solid-state-battery", "SOLID-STATE BATTERY"),
+    "金属矿业": ("metal-mining", "METAL MINING"),
+    "军工": ("defense", "DEFENSE"),
     "互金证券": ("fintech", "FINTECH"),
     "AI应用": ("ai-app", "AI APPS"),
     "机器人": ("robot", "ROBOTICS"),
