@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T11:04:43+08:00",
+  "generated_at": "2026-11-06T11:09:34+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": 1.73,
+      "change_pct": 1.7,
       "constituents": 37,
-      "members": "粮食概念 +1.73%",
+      "members": "粮食概念 +1.70%",
       "rank": 1
     },
     {
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 1.62,
+      "change_pct": 1.49,
       "constituents": 20,
-      "members": "转基因 +1.62%",
+      "members": "转基因 +1.49%",
       "rank": 2
     },
     {
       "date": "2026-11-06",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.79,
+      "change_pct": 0.84,
       "constituents": 18,
-      "members": "水产概念 +0.79%",
+      "members": "水产概念 +0.84%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "轮毂电机",
+      "representative": "轮毂电机",
+      "change_pct": 0.7,
+      "constituents": 9,
+      "members": "轮毂电机 +0.70%",
+      "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "农业种植/生态农业",
       "representative": "农业种植",
-      "change_pct": 0.54,
+      "change_pct": 0.55,
       "constituents": 118,
-      "members": "农业种植 +0.54% / 生态农业 -0.10%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "农村电商",
-      "representative": "农村电商",
-      "change_pct": 0.54,
-      "constituents": 9,
-      "members": "农村电商 +0.54%",
+      "members": "农业种植 +0.55% / 生态农业 -0.10%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.67,
+      "avg_change_pct": 1.69,
       "avg_rank": 2.5,
       "latest_rank": 3,
       "dates": "11-06、11-03"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.73,
+      "avg_change_pct": 1.7,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
@@ -107,9 +107,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.62,
+      "avg_change_pct": 1.49,
       "avg_rank": 2.0,
       "latest_rank": 2,
+      "dates": "11-06"
+    },
+    {
+      "theme": "轮毂电机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.7,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-06"
     },
     {
@@ -117,17 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.54,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-06"
-    },
-    {
-      "theme": "农村电商",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.54,
+      "avg_change_pct": 0.55,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-06"
