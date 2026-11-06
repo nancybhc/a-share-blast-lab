@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T14:09:38+08:00",
+  "generated_at": "2026-11-06T14:15:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
@@ -9,49 +9,59 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": 0.74,
+      "change_pct": 0.83,
       "constituents": 37,
-      "members": "粮食概念 +0.74%",
+      "members": "粮食概念 +0.83%",
       "rank": 1
     },
     {
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.57,
+      "change_pct": 0.53,
       "constituents": 20,
-      "members": "转基因 +0.57%",
+      "members": "转基因 +0.53%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 0.22,
+      "constituents": 18,
+      "members": "水产概念 +0.22%",
+      "rank": 3
     },
     {
       "date": "2026-11-06",
       "theme": "草甘膦",
       "representative": "草甘膦",
-      "change_pct": 0.3,
+      "change_pct": 0.22,
       "constituents": 13,
-      "members": "草甘膦 +0.30%",
-      "rank": 3
+      "members": "草甘膦 +0.22%",
+      "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "绿色电力",
       "representative": "绿色电力",
-      "change_pct": 0.23,
+      "change_pct": 0.19,
       "constituents": 180,
-      "members": "绿色电力 +0.23%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "智能电视",
-      "representative": "智能电视",
-      "change_pct": 0.12,
-      "constituents": 12,
-      "members": "智能电视 +0.12%",
+      "members": "绿色电力 +0.19%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.39,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
+      "dates": "11-06、11-03"
+    },
     {
       "theme": "Kimi概念",
       "current_streak": 0,
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.74,
+      "avg_change_pct": 0.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
@@ -97,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.57,
+      "avg_change_pct": 0.53,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-06"
@@ -107,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.3,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.22,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-06"
     },
     {
@@ -117,17 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.23,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-06"
-    },
-    {
-      "theme": "智能电视",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.12,
+      "avg_change_pct": 0.19,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-06"
@@ -181,16 +181,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-05"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.55,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-03"
     },
     {
       "theme": "中芯概念",
