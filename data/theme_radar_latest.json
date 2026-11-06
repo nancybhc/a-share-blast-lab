@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T09:39:01+08:00",
+  "generated_at": "2026-11-06T09:43:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
@@ -9,49 +9,69 @@
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.06,
+      "change_pct": 0.87,
       "constituents": 20,
-      "members": "转基因 +0.06%",
+      "members": "转基因 +0.87%",
       "rank": 1
     },
     {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -0.29,
+      "change_pct": 0.31,
       "constituents": 37,
-      "members": "粮食概念 -0.29%",
+      "members": "粮食概念 +0.31%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "虚拟电厂",
-      "representative": "虚拟电厂",
-      "change_pct": -0.36,
-      "constituents": 79,
-      "members": "虚拟电厂 -0.36%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-06",
-      "theme": "绿色电力",
-      "representative": "绿色电力",
-      "change_pct": -0.5,
-      "constituents": 180,
-      "members": "绿色电力 -0.50%",
-      "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -0.53,
+      "change_pct": -0.64,
       "constituents": 75,
-      "members": "大盘价值 -0.53%",
+      "members": "大盘价值 -0.64%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "鸡肉概念",
+      "representative": "鸡肉概念",
+      "change_pct": -0.65,
+      "constituents": 20,
+      "members": "鸡肉概念 -0.65%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": -0.7,
+      "constituents": 39,
+      "members": "猪肉概念 -0.70%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "鸡肉概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.11,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
+      "dates": "11-06、11-03"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.57,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-06、11-03"
+    },
     {
       "theme": "AI视频",
       "current_streak": 0,
@@ -87,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.06,
+      "avg_change_pct": 0.87,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
@@ -97,29 +117,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.29,
+      "avg_change_pct": 0.31,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-06"
-    },
-    {
-      "theme": "虚拟电厂",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.36,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-06"
-    },
-    {
-      "theme": "绿色电力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.5,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-06"
     },
     {
@@ -127,9 +127,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.53,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": -0.64,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-06"
     },
     {
@@ -141,16 +141,6 @@
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.87,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-03"
     },
     {
       "theme": "大基金持股",
@@ -201,16 +191,6 @@
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-04"
-    },
-    {
-      "theme": "猪肉概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.84,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-03"
     },
     {
       "theme": "先进封装",
