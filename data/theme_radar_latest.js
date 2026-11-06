@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T10:09:26+08:00",
+  "generated_at": "2026-11-06T10:14:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-06午盘",
   "daily_top": [
     {
       "date": "2026-11-06",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "TOPCon电池",
-      "change_pct": 1.22,
-      "constituents": 105,
-      "members": "TOPCon电池 +1.22% / HJT电池 +0.66% / 钙钛矿电池 -0.21% / BC电池 -0.80%",
-      "rank": 1
-    },
-    {
-      "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 1.21,
+      "change_pct": 1.3,
       "constituents": 20,
-      "members": "转基因 +1.21%",
-      "rank": 2
+      "members": "转基因 +1.30%",
+      "rank": 1
     },
     {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": 1.08,
+      "change_pct": 1.11,
       "constituents": 37,
-      "members": "粮食概念 +1.08%",
-      "rank": 3
+      "members": "粮食概念 +1.11%",
+      "rank": 2
     },
     {
       "date": "2026-11-06",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.0,
-      "constituents": 17,
-      "members": "水产概念 +1.00%",
+      "change_pct": 0.9,
+      "constituents": 18,
+      "members": "水产概念 +0.90%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "TOPCon电池",
+      "change_pct": 0.8,
+      "constituents": 105,
+      "members": "TOPCon电池 +0.80% / HJT电池 +0.42% / 钙钛矿电池 -0.37% / BC电池 -0.84%",
       "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "绿色电力",
       "representative": "绿色电力",
-      "change_pct": 0.62,
+      "change_pct": 0.59,
       "constituents": 180,
-      "members": "绿色电力 +0.62%",
+      "members": "绿色电力 +0.59%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 3.67,
-      "avg_rank": 1.5,
-      "latest_rank": 1,
+      "avg_change_pct": 3.46,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
       "dates": "11-06、11-05"
     },
     {
@@ -67,20 +67,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.76,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
-      "dates": "11-06、11-03"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 7.38,
-      "avg_rank": 2.0,
+      "avg_change_pct": 1.72,
+      "avg_rank": 2.5,
       "latest_rank": 3,
-      "dates": "11-05、11-02"
+      "dates": "11-06、11-03"
     },
     {
       "theme": "Kimi概念",
@@ -93,13 +83,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-05、11-02"
     },
     {
+      "theme": "AI视频",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 7.35,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
+      "dates": "11-05、11-02"
+    },
+    {
       "theme": "AI算力",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 6.28,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
       "dates": "11-05、11-02"
     },
     {
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.21,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.3,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-06"
     },
     {
@@ -117,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.08,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.11,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-06"
     },
     {
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.62,
+      "avg_change_pct": 0.59,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-06"
@@ -157,7 +157,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.53,
+      "avg_change_pct": 10.76,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
@@ -181,6 +181,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-04"
+    },
+    {
+      "theme": "智能音箱",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.92,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-05"
     },
     {
       "theme": "猪肉概念",
@@ -211,16 +221,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-02"
-    },
-    {
-      "theme": "智能音箱",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.92,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-05"
     },
     {
       "theme": "乳业",
