@@ -1,53 +1,53 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T14:46:59+08:00",
-  "source": "今日盘中 / 当日题材强度",
-  "source_kind": "intraday",
-  "period_label": "11-06午盘",
+  "generated_at": "2026-11-06T15:12:25+08:00",
+  "source": "归档 / 当日题材强度",
+  "source_kind": "archive",
+  "period_label": "11-06收盘",
   "daily_top": [
-    {
-      "date": "2026-11-06",
-      "theme": "可燃冰",
-      "representative": "可燃冰",
-      "change_pct": 0.67,
-      "constituents": 9,
-      "members": "可燃冰 +0.67%",
-      "rank": 1
-    },
     {
       "date": "2026-11-06",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": 0.65,
+      "change_pct": 0.89,
       "constituents": 37,
-      "members": "粮食概念 +0.65%",
+      "members": "粮食概念 +0.89%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "可燃冰",
+      "representative": "可燃冰",
+      "change_pct": 0.78,
+      "constituents": 9,
+      "members": "可燃冰 +0.78%",
       "rank": 2
     },
     {
       "date": "2026-11-06",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.3,
+      "change_pct": 0.63,
       "constituents": 20,
-      "members": "转基因 +0.30%",
+      "members": "转基因 +0.63%",
       "rank": 3
     },
     {
       "date": "2026-11-06",
-      "theme": "绿色电力",
-      "representative": "绿色电力",
-      "change_pct": 0.14,
-      "constituents": 180,
-      "members": "绿色电力 +0.14%",
+      "theme": "草甘膦",
+      "representative": "草甘膦",
+      "change_pct": 0.17,
+      "constituents": 13,
+      "members": "草甘膦 +0.17%",
       "rank": 4
     },
     {
       "date": "2026-11-06",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.08,
+      "change_pct": 0.15,
       "constituents": 18,
-      "members": "水产概念 +0.08%",
+      "members": "水产概念 +0.15%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.31,
+      "avg_change_pct": 1.35,
       "avg_rank": 3.5,
       "latest_rank": 5,
       "dates": "11-06、11-03"
@@ -93,21 +93,21 @@
       "dates": "11-05、11-02"
     },
     {
-      "theme": "可燃冰",
+      "theme": "粮食概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.67,
+      "avg_change_pct": 0.89,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
     },
     {
-      "theme": "粮食概念",
+      "theme": "可燃冰",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.65,
+      "avg_change_pct": 0.78,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-06"
@@ -117,17 +117,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.3,
+      "avg_change_pct": 0.63,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-06"
     },
     {
-      "theme": "绿色电力",
+      "theme": "草甘膦",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.14,
+      "avg_change_pct": 0.17,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-06"
