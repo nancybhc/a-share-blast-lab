@@ -1,60 +1,70 @@
 window.THEME_RADAR_DATA = {
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05T22:13:23+08:00",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T09:28:08+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
-  "period_label": "11-05收盘",
+  "period_label": "11-06午盘",
   "daily_top": [
     {
-      "date": "2026-11-05",
-      "theme": "Kimi概念",
-      "representative": "Kimi概念",
-      "change_pct": 6.54,
-      "constituents": 17,
-      "members": "Kimi概念 +6.54%",
+      "date": "2026-11-06",
+      "theme": "白酒/酿酒概念",
+      "representative": "酿酒概念",
+      "change_pct": -0.49,
+      "constituents": 56,
+      "members": "酿酒概念 -0.49% / 白酒 -0.91%",
       "rank": 1
     },
     {
-      "date": "2026-11-05",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "HJT电池",
-      "change_pct": 6.13,
-      "constituents": 105,
-      "members": "HJT电池 +6.13% / TOPCon电池 +6.06% / 钙钛矿电池 +4.54% / BC电池 +4.49%",
+      "date": "2026-11-06",
+      "theme": "油气资源/天然气/油气设服",
+      "representative": "资源开采概念",
+      "change_pct": -0.94,
+      "constituents": 178,
+      "members": "资源开采概念 -0.94% / 油气资源 -1.94% / 天然气 -1.97% / 油气设服 -2.01%",
       "rank": 2
     },
     {
-      "date": "2026-11-05",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 5.01,
-      "constituents": 25,
-      "members": "AI视频 +5.01%",
+      "date": "2026-11-06",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": -1.07,
+      "constituents": 75,
+      "members": "大盘价值 -1.07%",
       "rank": 3
     },
     {
-      "date": "2026-11-05",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 4.92,
-      "constituents": 19,
-      "members": "智能音箱 +4.92%",
+      "date": "2026-11-06",
+      "theme": "乳业",
+      "representative": "乳业",
+      "change_pct": -1.34,
+      "constituents": 34,
+      "members": "乳业 -1.34%",
       "rank": 4
     },
     {
-      "date": "2026-11-05",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 4.87,
-      "constituents": 694,
-      "members": "AI语料 +4.87% / 算力概念 +3.53% / 液冷服务器 +2.56% / 数据中心 +2.38% / CPO概念 +1.02%",
+      "date": "2026-11-06",
+      "theme": "味蕾经济",
+      "representative": "味蕾经济",
+      "change_pct": -1.34,
+      "constituents": 91,
+      "members": "味蕾经济 -1.34%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "AI视频",
+      "theme": "乳业",
       "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.21,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-06、11-03"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 7.38,
@@ -64,7 +74,7 @@ window.THEME_RADAR_DATA = {
     },
     {
       "theme": "Kimi概念",
-      "current_streak": 1,
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 7.32,
@@ -74,7 +84,7 @@ window.THEME_RADAR_DATA = {
     },
     {
       "theme": "AI算力",
-      "current_streak": 1,
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 6.28,
@@ -83,24 +93,44 @@ window.THEME_RADAR_DATA = {
       "dates": "11-05、11-02"
     },
     {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "theme": "白酒/酿酒概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.13,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-05"
+      "avg_change_pct": -0.49,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-06"
     },
     {
-      "theme": "智能音箱",
+      "theme": "油气资源/天然气/油气设服",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.92,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-05"
+      "avg_change_pct": -0.94,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-06"
+    },
+    {
+      "theme": "大盘价值",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.07,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-06"
+    },
+    {
+      "theme": "味蕾经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.34,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-06"
     },
     {
       "theme": "高带宽内存",
@@ -123,16 +153,6 @@ window.THEME_RADAR_DATA = {
       "dates": "11-03"
     },
     {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.82,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "10-30"
-    },
-    {
       "theme": "大基金持股",
       "current_streak": 0,
       "max_streak": 1,
@@ -153,6 +173,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-02"
     },
     {
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.13,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-05"
+    },
+    {
       "theme": "水产概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -161,16 +191,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-03"
-    },
-    {
-      "theme": "CRO",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.96,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "10-30"
     },
     {
       "theme": "中芯概念",
@@ -193,16 +213,6 @@ window.THEME_RADAR_DATA = {
       "dates": "11-03"
     },
     {
-      "theme": "减肥药",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.33,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "10-30"
-    },
-    {
       "theme": "先进封装",
       "current_streak": 0,
       "max_streak": 1,
@@ -223,24 +233,14 @@ window.THEME_RADAR_DATA = {
       "dates": "11-02"
     },
     {
-      "theme": "乳业",
+      "theme": "智能音箱",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.76,
+      "avg_change_pct": 4.92,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-03"
-    },
-    {
-      "theme": "CAR-T细胞疗法",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.07,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "10-30"
+      "dates": "11-05"
     },
     {
       "theme": "国产芯片/存储芯片/汽车芯片",
@@ -261,16 +261,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
-    },
-    {
-      "theme": "农村电商",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.02,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "10-30"
     }
   ]
 };
