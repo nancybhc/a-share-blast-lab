@@ -1,7 +1,7 @@
 {
   "dataDate": "2026-11-06",
   "generatedAt": "2026-11-06 15:00",
-  "reportGeneratedAt": "2026-11-06 15:08",
+  "reportGeneratedAt": "2026-11-06 21:41",
   "isIntraday": false,
   "session": "postmarket",
   "sourceReport": "多空阶段_2026-11-06.xlsx",
@@ -10,7 +10,7 @@
   "summary": "  AI硬件 · 近 7 个交易日（10-29 ~ 11-06）：多明显变多（+9 只）、空也在收（-179 只），可以慢慢介入｜多 13→22 只、空 288→109 只、空转多 15→206、多转空 25→4｜半导体 最明显：多 9→17 只、空 115→13 只",
   "overview": {
     "groups": 21,
-    "uniqueStocks": 1010,
+    "uniqueStocks": 1012,
     "positiveGroups": 13,
     "negativeGroups": 4,
     "positiveTransitions": 110,
@@ -1762,8 +1762,8 @@
     {
       "name": "机器人",
       "date": "2026-11-06",
-      "total": 51,
-      "bull": 17,
+      "total": 53,
+      "bull": 19,
       "turnBull": 19,
       "turnBear": 4,
       "bear": 11,
@@ -1772,15 +1772,15 @@
       "direct": 0,
       "positive": 2,
       "negative": 10,
-      "bullPct": 33.33,
+      "bullPct": 35.85,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 19→17；空转多 20→19；多转空 10→4；空 2→11",
+      "change": "多 19→19；空转多 20→19；多转空 10→4；空 2→11",
       "id": "robot",
       "code": "ROBOTICS",
-      "score": -11.8,
+      "score": -11.3,
       "fulfilled": 2,
-      "netBias": 6,
+      "netBias": 8,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1788,64 +1788,64 @@
       "setupCaption": "空转多候选",
       "confirmValue": "2",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 17/51，空头 11；空转多候选 19，今日转多确认 2，反向转空 4。多 19→17；空转多 20→19；多转空 10→4；空 2→11，修复进入确认，观察扩散。",
+      "thesis": "多头 19/53，空头 11；空转多候选 19，今日转多确认 2，反向转空 4。多 19→19；空转多 20→19；多转空 10→4；空 2→11，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-10-29",
-          "bull": 49,
+          "bull": 51,
           "turnBull": 1,
           "turnBear": 1,
           "bear": 0,
-          "bullPct": 96.08
+          "bullPct": 96.23
         },
         {
           "date": "2026-10-30",
-          "bull": 20,
+          "bull": 21,
           "turnBull": 0,
-          "turnBear": 29,
+          "turnBear": 30,
           "bear": 2,
-          "bullPct": 39.22
+          "bullPct": 39.62
         },
         {
           "date": "2026-11-02",
-          "bull": 22,
+          "bull": 24,
           "turnBull": 0,
           "turnBear": 26,
           "bear": 3,
-          "bullPct": 43.14
+          "bullPct": 45.28
         },
         {
           "date": "2026-11-03",
-          "bull": 18,
+          "bull": 19,
           "turnBull": 0,
-          "turnBear": 23,
+          "turnBear": 24,
           "bear": 10,
-          "bullPct": 35.29
+          "bullPct": 35.85
         },
         {
           "date": "2026-11-04",
-          "bull": 10,
+          "bull": 11,
           "turnBull": 2,
-          "turnBear": 35,
+          "turnBear": 36,
           "bear": 4,
-          "bullPct": 19.61
+          "bullPct": 20.75
         },
         {
           "date": "2026-11-05",
-          "bull": 19,
-          "turnBull": 20,
+          "bull": 20,
+          "turnBull": 21,
           "turnBear": 10,
           "bear": 2,
-          "bullPct": 37.25
+          "bullPct": 37.74
         },
         {
           "date": "2026-11-06",
-          "total": 51,
-          "bull": 17,
+          "total": 53,
+          "bull": 19,
           "turnBull": 19,
           "turnBear": 4,
           "bear": 11,
-          "bullPct": 33.33
+          "bullPct": 35.85
         }
       ]
     },
