@@ -1,7 +1,7 @@
 {
   "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs",
   "definition": "r0_net，即新浪财经页面标注的“主力净流入”",
-  "retrieved_at": "2026-11-08T15:39:53+08:00",
+  "retrieved_at": "2026-11-08T23:46:23+08:00",
   "date": "2026-11-06",
   "dates": [
     "2026-10-30",
@@ -1064,16 +1064,16 @@
     },
     "AI应用": {
       "group": "AI应用",
-      "constituents": 81,
-      "covered": 81,
+      "constituents": 78,
+      "covered": 78,
       "missing": [],
       "coverage_pct": 100.0,
       "date": "2026-11-06",
-      "main_net_yi": -7.21,
-      "main_net_change_yi": -64.58,
-      "five_day_main_net_yi": 223.81,
-      "positive_stock_count": 34,
-      "negative_stock_count": 43,
+      "main_net_yi": -7.58,
+      "main_net_change_yi": -63.87,
+      "five_day_main_net_yi": 216.26,
+      "positive_stock_count": 32,
+      "negative_stock_count": 42,
       "top_positive": [
         {
           "code": "301171",
@@ -1131,54 +1131,54 @@
       "daily": [
         {
           "date": "2026-10-30",
-          "main_net_yi": -33.31,
-          "total_net_yi": -54.97,
-          "covered": 81
+          "main_net_yi": -33.57,
+          "total_net_yi": -54.06,
+          "covered": 78
         },
         {
           "date": "2026-11-02",
-          "main_net_yi": 90.96,
-          "total_net_yi": 129.7,
-          "covered": 81
+          "main_net_yi": 91.04,
+          "total_net_yi": 128.83,
+          "covered": 78
         },
         {
           "date": "2026-11-03",
-          "main_net_yi": 26.98,
-          "total_net_yi": 37.05,
-          "covered": 81
+          "main_net_yi": 28.93,
+          "total_net_yi": 40.83,
+          "covered": 78
         },
         {
           "date": "2026-11-04",
-          "main_net_yi": 55.71,
-          "total_net_yi": 70.15,
-          "covered": 81
+          "main_net_yi": 47.57,
+          "total_net_yi": 59.39,
+          "covered": 78
         },
         {
           "date": "2026-11-05",
-          "main_net_yi": 57.37,
-          "total_net_yi": 74.74,
-          "covered": 81
+          "main_net_yi": 56.3,
+          "total_net_yi": 72.67,
+          "covered": 78
         },
         {
           "date": "2026-11-06",
-          "main_net_yi": -7.21,
-          "total_net_yi": -8.34,
-          "covered": 81
+          "main_net_yi": -7.58,
+          "total_net_yi": -7.67,
+          "covered": 78
         }
       ]
     },
     "机器人": {
       "group": "机器人",
-      "constituents": 53,
-      "covered": 53,
+      "constituents": 57,
+      "covered": 57,
       "missing": [],
       "coverage_pct": 100.0,
       "date": "2026-11-06",
-      "main_net_yi": 1.18,
-      "main_net_change_yi": -14.89,
-      "five_day_main_net_yi": 80.35,
-      "positive_stock_count": 24,
-      "negative_stock_count": 29,
+      "main_net_yi": 1.19,
+      "main_net_change_yi": -15.29,
+      "five_day_main_net_yi": 91.31,
+      "positive_stock_count": 26,
+      "negative_stock_count": 31,
       "top_positive": [
         {
           "code": "688585",
@@ -1236,39 +1236,39 @@
       "daily": [
         {
           "date": "2026-10-30",
-          "main_net_yi": 16.84,
-          "total_net_yi": 1.7,
-          "covered": 53
+          "main_net_yi": 17.38,
+          "total_net_yi": 0.6,
+          "covered": 57
         },
         {
           "date": "2026-11-02",
-          "main_net_yi": 7.28,
-          "total_net_yi": 10.7,
-          "covered": 53
+          "main_net_yi": 7.94,
+          "total_net_yi": 12.65,
+          "covered": 57
         },
         {
           "date": "2026-11-03",
-          "main_net_yi": -11.39,
-          "total_net_yi": -21.63,
-          "covered": 53
+          "main_net_yi": -13.96,
+          "total_net_yi": -26.2,
+          "covered": 57
         },
         {
           "date": "2026-11-04",
-          "main_net_yi": 67.22,
-          "total_net_yi": 92.14,
-          "covered": 53
+          "main_net_yi": 79.67,
+          "total_net_yi": 109.25,
+          "covered": 57
         },
         {
           "date": "2026-11-05",
-          "main_net_yi": 16.06,
-          "total_net_yi": 27.72,
-          "covered": 53
+          "main_net_yi": 16.47,
+          "total_net_yi": 30.0,
+          "covered": 57
         },
         {
           "date": "2026-11-06",
-          "main_net_yi": 1.18,
-          "total_net_yi": -7.82,
-          "covered": 53
+          "main_net_yi": 1.19,
+          "total_net_yi": -9.45,
+          "covered": 57
         }
       ]
     },
@@ -2230,8 +2230,8 @@
     "存储": 11,
     "AIDC": 32,
     "算力": 75,
-    "AI应用": 81,
-    "机器人": 53,
+    "AI应用": 78,
+    "机器人": 57,
     "药": 123,
     "互金证券": 61,
     "固态锂电": 59,
