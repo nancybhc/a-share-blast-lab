@@ -1,13 +1,13 @@
 window.BOARD_FUND_DATA = {
   "source": "东方财富板块资金流 daykline",
   "definition": "f52 主力净流入，原始单位元",
-  "captured_at": "2026-11-07T21:12:44+08:00",
+  "captured_at": "2026-11-08T15:39:35+08:00",
   "date": "2026-11-06",
   "boards": {
     "BK0917": {
       "board_code": "BK0917",
       "board_name": "半导体概念",
-      "source_host": "https://push2test.eastmoney.com",
+      "source_host": "https://push2his.eastmoney.com",
       "current": {
         "date": "2026-11-06",
         "main_net_yi": -112.9021,
@@ -79,7 +79,7 @@ window.BOARD_FUND_DATA = {
     "BK0891": {
       "board_code": "BK0891",
       "board_name": "国产芯片",
-      "source_host": "https://push2test.eastmoney.com",
+      "source_host": "https://push2his.eastmoney.com",
       "current": {
         "date": "2026-11-06",
         "main_net_yi": -115.2438,
