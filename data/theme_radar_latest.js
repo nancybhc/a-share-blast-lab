@@ -1,73 +1,73 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T09:57:37+08:00",
+  "generated_at": "2026-11-09T10:01:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
   "daily_top": [
     {
       "date": "2026-11-09",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 3.98,
-      "constituents": 431,
-      "members": "空间站概念 +3.98% / 卫星互联网 +3.52% / 商业航天 +3.06% / 卫星导航 +3.00% / 航天航空 +2.20%",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 4.46,
+      "constituents": 28,
+      "members": "AI视频 +4.46%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 3.77,
-      "constituents": 462,
-      "members": "机器人执行器 +3.77% / 减速器 +3.35% / 人形机器人 +3.28% / 机器视觉 +2.57%",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 4.42,
+      "constituents": 431,
+      "members": "空间站概念 +4.42% / 卫星互联网 +4.15% / 商业航天 +3.52% / 卫星导航 +3.37% / 航天航空 +2.66%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.6,
+      "change_pct": 4.19,
       "constituents": 50,
-      "members": "6G概念 +3.60%",
+      "members": "6G概念 +4.19%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 3.23,
-      "constituents": 9,
-      "members": "噪声防治 +3.23%",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 3.75,
+      "constituents": 462,
+      "members": "机器人执行器 +3.75% / 人形机器人 +3.49% / 减速器 +3.37% / 机器视觉 +2.84%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "毫米波概念",
       "representative": "毫米波概念",
-      "change_pct": 3.04,
+      "change_pct": 3.54,
       "constituents": 56,
-      "members": "毫米波概念 +3.04%",
+      "members": "毫米波概念 +3.54%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "AI视频",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.74,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
+      "dates": "11-09、11-05"
+    },
+    {
       "theme": "商业航天",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.98,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-09"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.77,
+      "avg_change_pct": 4.42,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,17 +77,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.6,
+      "avg_change_pct": 4.19,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
     },
     {
-      "theme": "噪声防治",
+      "theme": "机器人",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.23,
+      "avg_change_pct": 3.75,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-09"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.04,
+      "avg_change_pct": 3.54,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
@@ -191,16 +191,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-04"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.02,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-05"
     },
     {
       "theme": "乳业",
