@@ -1,53 +1,53 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:52:29+08:00",
+  "generated_at": "2026-11-09T13:56:36+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
   "daily_top": [
     {
       "date": "2026-11-09",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 2.75,
-      "constituents": 50,
-      "members": "6G概念 +2.75%",
+      "theme": "纳米银",
+      "representative": "纳米银",
+      "change_pct": 2.86,
+      "constituents": 10,
+      "members": "纳米银 +2.86%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 2.53,
-      "constituents": 10,
-      "members": "纳米银 +2.53%",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 2.83,
+      "constituents": 50,
+      "members": "6G概念 +2.83%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "通信技术/5G概念/光通信模块",
-      "representative": "光通信模块",
-      "change_pct": 2.16,
-      "constituents": 436,
-      "members": "光通信模块 +2.16% / 5G概念 +1.28% / 通信技术 +1.24%",
-      "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 2.07,
+      "change_pct": 2.29,
       "constituents": 9,
-      "members": "噪声防治 +2.07%",
+      "members": "噪声防治 +2.29%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "通信技术/5G概念/光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 2.29,
+      "constituents": 436,
+      "members": "光通信模块 +2.29% / 5G概念 +1.38% / 通信技术 +1.34%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.05,
+      "change_pct": 2.2,
       "constituents": 694,
-      "members": "CPO概念 +2.05% / 液冷服务器 +1.20% / 算力概念 +0.39% / 数据中心 +0.26% / AI语料 -0.24%",
+      "members": "CPO概念 +2.20% / 液冷服务器 +1.32% / 算力概念 +0.51% / 数据中心 +0.34% / AI语料 -0.15%",
       "rank": 5
     }
   ],
@@ -57,39 +57,29 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.46,
+      "avg_change_pct": 3.54,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09、11-05"
-    },
-    {
-      "theme": "6G概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.75,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-09"
     },
     {
       "theme": "纳米银",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.53,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.86,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-09"
     },
     {
-      "theme": "通信技术/5G概念/光通信模块",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.83,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-09"
     },
     {
@@ -97,7 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.07,
+      "avg_change_pct": 2.29,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-09"
+    },
+    {
+      "theme": "通信技术/5G概念/光通信模块",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.29,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-09"
