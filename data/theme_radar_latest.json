@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T10:28:29+08:00",
+  "generated_at": "2026-11-09T10:32:44+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 4.05,
+      "change_pct": 4.21,
       "constituents": 50,
-      "members": "6G概念 +4.05%",
+      "members": "6G概念 +4.21%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 3.82,
+      "change_pct": 3.88,
       "constituents": 431,
-      "members": "空间站概念 +3.82% / 卫星互联网 +3.60% / 商业航天 +3.06% / 卫星导航 +2.83% / 航天航空 +2.01%",
+      "members": "空间站概念 +3.88% / 卫星互联网 +3.71% / 商业航天 +3.18% / 卫星导航 +2.91% / 航天航空 +2.11%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.72,
+      "change_pct": 3.85,
       "constituents": 28,
-      "members": "AI视频 +3.72%",
+      "members": "AI视频 +3.85%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 3.25,
+      "change_pct": 3.31,
       "constituents": 10,
-      "members": "纳米银 +3.25%",
+      "members": "纳米银 +3.31%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "毫米波概念",
       "representative": "毫米波概念",
-      "change_pct": 3.19,
+      "change_pct": 3.27,
       "constituents": 56,
-      "members": "毫米波概念 +3.19%",
+      "members": "毫米波概念 +3.27%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.37,
+      "avg_change_pct": 4.43,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09、11-05"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.05,
+      "avg_change_pct": 4.21,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.82,
+      "avg_change_pct": 3.88,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.25,
+      "avg_change_pct": 3.31,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-09"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.19,
+      "avg_change_pct": 3.27,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
