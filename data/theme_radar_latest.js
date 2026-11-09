@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:25:59+08:00",
+  "generated_at": "2026-11-09T13:30:37+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,55 +9,65 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.11,
+      "change_pct": 3.16,
       "constituents": 50,
-      "members": "6G概念 +3.11%",
+      "members": "6G概念 +3.16%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.63,
+      "change_pct": 2.74,
       "constituents": 10,
-      "members": "纳米银 +2.63%",
+      "members": "纳米银 +2.74%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.38,
+      "change_pct": 2.55,
       "constituents": 436,
-      "members": "光通信模块 +2.38% / 5G概念 +1.47% / 通信技术 +1.44%",
+      "members": "光通信模块 +2.55% / 5G概念 +1.59% / 通信技术 +1.55%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 2.37,
+      "constituents": 694,
+      "members": "CPO概念 +2.37% / 液冷服务器 +1.49% / 算力概念 +0.60% / 数据中心 +0.50% / AI语料 +0.03%",
+      "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "卫星互联网",
-      "change_pct": 2.35,
-      "constituents": 431,
-      "members": "卫星互联网 +2.35% / 空间站概念 +2.30% / 商业航天 +2.16% / 卫星导航 +1.58% / 航天航空 +1.03%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
       "change_pct": 2.34,
-      "constituents": 9,
-      "members": "噪声防治 +2.34%",
+      "constituents": 431,
+      "members": "卫星互联网 +2.34% / 空间站概念 +2.29% / 商业航天 +2.19% / 卫星导航 +1.62% / 航天航空 +1.09%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.62,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-09、11-05"
+    },
+    {
       "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.11,
+      "avg_change_pct": 3.16,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.63,
+      "avg_change_pct": 2.74,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,23 +87,13 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.38,
+      "avg_change_pct": 2.55,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
     },
     {
       "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.35,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-09"
-    },
-    {
-      "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -271,16 +271,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.87,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-05"
     },
     {
       "theme": "低碳冶金",
