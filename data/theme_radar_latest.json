@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:35:00+08:00",
+  "generated_at": "2026-11-09T13:39:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.4,
+      "change_pct": 3.36,
       "constituents": 50,
-      "members": "6G概念 +3.40%",
+      "members": "6G概念 +3.36%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.9,
+      "change_pct": 2.96,
       "constituents": 10,
-      "members": "纳米银 +2.90%",
+      "members": "纳米银 +2.96%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.77,
+      "change_pct": 2.83,
       "constituents": 436,
-      "members": "光通信模块 +2.77% / 5G概念 +1.78% / 通信技术 +1.75%",
+      "members": "光通信模块 +2.83% / 5G概念 +1.79% / 通信技术 +1.78%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.66,
+      "change_pct": 2.78,
       "constituents": 694,
-      "members": "CPO概念 +2.66% / 液冷服务器 +1.68% / 算力概念 +0.83% / 数据中心 +0.67% / AI语料 +0.04%",
+      "members": "CPO概念 +2.78% / 液冷服务器 +1.70% / 算力概念 +0.83% / 数据中心 +0.67% / AI语料 -0.18%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 2.55,
-      "constituents": 9,
-      "members": "噪声防治 +2.55%",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 2.51,
+      "constituents": 26,
+      "members": "F5G概念 +2.51%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.77,
+      "avg_change_pct": 3.83,
       "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "11-09、11-05"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.4,
+      "avg_change_pct": 3.36,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.9,
+      "avg_change_pct": 2.96,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -87,17 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.77,
+      "avg_change_pct": 2.83,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
     },
     {
-      "theme": "噪声防治",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.55,
+      "avg_change_pct": 2.51,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
