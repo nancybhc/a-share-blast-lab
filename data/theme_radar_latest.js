@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T10:58:29+08:00",
+  "generated_at": "2026-11-09T11:02:50+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.87,
+      "change_pct": 3.86,
       "constituents": 50,
-      "members": "6G概念 +3.87%",
+      "members": "6G概念 +3.86%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 3.27,
+      "change_pct": 3.1,
       "constituents": 431,
-      "members": "空间站概念 +3.27% / 卫星互联网 +3.17% / 商业航天 +2.77% / 卫星导航 +2.32% / 航天航空 +1.68%",
+      "members": "空间站概念 +3.10% / 卫星互联网 +3.10% / 商业航天 +2.70% / 卫星导航 +2.19% / 航天航空 +1.49%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "毫米波概念",
-      "representative": "毫米波概念",
-      "change_pct": 2.81,
-      "constituents": 56,
-      "members": "毫米波概念 +2.81%",
-      "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.74,
+      "change_pct": 2.92,
       "constituents": 10,
-      "members": "纳米银 +2.74%",
-      "rank": 4
+      "members": "纳米银 +2.92%",
+      "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.61,
+      "change_pct": 2.87,
       "constituents": 436,
-      "members": "光通信模块 +2.61% / 5G概念 +1.85% / 通信技术 +1.77%",
+      "members": "光通信模块 +2.87% / 5G概念 +1.94% / 通信技术 +1.88%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "毫米波概念",
+      "representative": "毫米波概念",
+      "change_pct": 2.78,
+      "constituents": 56,
+      "members": "毫米波概念 +2.78%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.87,
+      "avg_change_pct": 3.86,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.27,
+      "avg_change_pct": 3.1,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-09"
-    },
-    {
-      "theme": "毫米波概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.81,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-09"
     },
     {
@@ -87,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.74,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.92,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-09"
     },
     {
@@ -97,7 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.61,
+      "avg_change_pct": 2.87,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-09"
+    },
+    {
+      "theme": "毫米波概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.78,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
