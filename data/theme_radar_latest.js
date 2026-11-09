@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T09:41:00+08:00",
+  "generated_at": "2026-11-09T09:45:15+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 4.39,
+      "change_pct": 4.58,
       "constituents": 462,
-      "members": "机器人执行器 +4.39% / 减速器 +3.98% / 人形机器人 +3.82% / 机器视觉 +3.29%",
+      "members": "机器人执行器 +4.58% / 减速器 +4.19% / 人形机器人 +4.13% / 机器视觉 +3.46%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 4.18,
-      "constituents": 9,
-      "members": "噪声防治 +4.18%",
-      "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 4.07,
+      "change_pct": 4.55,
       "constituents": 431,
-      "members": "空间站概念 +4.07% / 卫星互联网 +3.84% / 商业航天 +3.50% / 卫星导航 +3.47% / 航天航空 +2.87%",
-      "rank": 3
+      "members": "空间站概念 +4.55% / 卫星互联网 +4.16% / 商业航天 +3.77% / 卫星导航 +3.70% / 航天航空 +3.22%",
+      "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.74,
+      "change_pct": 4.09,
       "constituents": 50,
-      "members": "6G概念 +3.74%",
+      "members": "6G概念 +4.09%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 3.89,
+      "constituents": 9,
+      "members": "噪声防治 +3.89%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
-      "theme": "UWB概念",
-      "representative": "UWB概念",
-      "change_pct": 3.54,
-      "constituents": 19,
-      "members": "UWB概念 +3.54%",
+      "theme": "虚拟现实/虚拟数字人/增强现实",
+      "representative": "混合现实",
+      "change_pct": 3.77,
+      "constituents": 295,
+      "members": "混合现实 +3.77% / 虚拟现实 +2.55% / 虚拟数字人 +2.46% / 增强现实 +2.39%",
       "rank": 5
     }
   ],
@@ -57,19 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.39,
+      "avg_change_pct": 4.58,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-09"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.18,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-09"
     },
     {
@@ -77,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.07,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.55,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-09"
     },
     {
@@ -87,17 +77,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.74,
+      "avg_change_pct": 4.09,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-09"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.89,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-09"
     },
     {
-      "theme": "UWB概念",
+      "theme": "虚拟现实/虚拟数字人/增强现实",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.54,
+      "avg_change_pct": 3.77,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
