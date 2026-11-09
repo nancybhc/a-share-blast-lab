@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T11:15:38+08:00",
+  "generated_at": "2026-11-09T11:20:13+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,65 +9,75 @@
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.3,
+      "change_pct": 3.73,
       "constituents": 50,
-      "members": "6G概念 +3.30%",
+      "members": "6G概念 +3.73%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 2.58,
-      "constituents": 431,
-      "members": "空间站概念 +2.58% / 卫星互联网 +2.50% / 商业航天 +2.17% / 卫星导航 +1.71% / 航天航空 +1.10%",
+      "theme": "通信技术/5G概念/光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 3.19,
+      "constituents": 436,
+      "members": "光通信模块 +3.19% / 5G概念 +2.00% / 通信技术 +1.97%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.55,
+      "change_pct": 2.96,
       "constituents": 10,
-      "members": "纳米银 +2.55%",
+      "members": "纳米银 +2.96%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
-      "theme": "通信技术/5G概念/光通信模块",
-      "representative": "光通信模块",
-      "change_pct": 2.34,
-      "constituents": 436,
-      "members": "光通信模块 +2.34% / 5G概念 +1.44% / 通信技术 +1.39%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 2.94,
+      "constituents": 694,
+      "members": "CPO概念 +2.94% / 液冷服务器 +1.53% / 算力概念 +0.73% / 数据中心 +0.63% / AI语料 +0.22%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
-      "theme": "毫米波概念",
-      "representative": "毫米波概念",
-      "change_pct": 2.24,
-      "constituents": 56,
-      "members": "毫米波概念 +2.24%",
+      "theme": "商业航天",
+      "representative": "卫星互联网",
+      "change_pct": 2.84,
+      "constituents": 431,
+      "members": "卫星互联网 +2.84% / 空间站概念 +2.80% / 商业航天 +2.53% / 卫星导航 +1.95% / 航天航空 +1.33%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.91,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-09、11-05"
+    },
+    {
       "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.3,
+      "avg_change_pct": 3.73,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
     },
     {
-      "theme": "商业航天",
+      "theme": "通信技术/5G概念/光通信模块",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 3.19,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,27 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.55,
+      "avg_change_pct": 2.96,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
     },
     {
-      "theme": "通信技术/5G概念/光通信模块",
+      "theme": "商业航天",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.34,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-09"
-    },
-    {
-      "theme": "毫米波概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.24,
+      "avg_change_pct": 2.84,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
@@ -271,16 +271,6 @@
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.87,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-05"
     },
     {
       "theme": "低碳冶金",
