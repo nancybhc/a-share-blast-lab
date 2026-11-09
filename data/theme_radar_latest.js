@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T14:26:38+08:00",
+  "generated_at": "2026-11-09T14:30:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.95,
+      "change_pct": 3.13,
       "constituents": 50,
-      "members": "6G概念 +2.95%",
+      "members": "6G概念 +3.13%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.77,
+      "change_pct": 2.93,
       "constituents": 10,
-      "members": "纳米银 +2.77%",
+      "members": "纳米银 +2.93%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 2.45,
+      "change_pct": 2.86,
       "constituents": 9,
-      "members": "噪声防治 +2.45%",
+      "members": "噪声防治 +2.86%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.34,
+      "change_pct": 2.49,
       "constituents": 436,
-      "members": "光通信模块 +2.34% / 5G概念 +1.43% / 通信技术 +1.40%",
+      "members": "光通信模块 +2.49% / 5G概念 +1.58% / 通信技术 +1.55%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 2.24,
+      "change_pct": 2.44,
       "constituents": 462,
-      "members": "机器人执行器 +2.24% / 人形机器人 +2.13% / 减速器 +2.08% / 机器视觉 +1.31%",
+      "members": "机器人执行器 +2.44% / 人形机器人 +2.35% / 减速器 +2.28% / 机器视觉 +1.50%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.95,
+      "avg_change_pct": 3.13,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.77,
+      "avg_change_pct": 2.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.45,
+      "avg_change_pct": 2.86,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.34,
+      "avg_change_pct": 2.49,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-09"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.24,
+      "avg_change_pct": 2.44,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
