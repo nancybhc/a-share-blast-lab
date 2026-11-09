@@ -1,146 +1,126 @@
 {
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T15:12:25+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-06收盘",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T09:28:34+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-09午盘",
   "daily_top": [
     {
-      "date": "2026-11-06",
-      "theme": "粮食概念",
-      "representative": "粮食概念",
-      "change_pct": 0.89,
-      "constituents": 37,
-      "members": "粮食概念 +0.89%",
+      "date": "2026-11-09",
+      "theme": "纳米银",
+      "representative": "纳米银",
+      "change_pct": 2.08,
+      "constituents": 10,
+      "members": "纳米银 +2.08%",
       "rank": 1
     },
     {
-      "date": "2026-11-06",
-      "theme": "可燃冰",
-      "representative": "可燃冰",
-      "change_pct": 0.78,
+      "date": "2026-11-09",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 2.03,
       "constituents": 9,
-      "members": "可燃冰 +0.78%",
+      "members": "噪声防治 +2.03%",
       "rank": 2
     },
     {
-      "date": "2026-11-06",
-      "theme": "转基因",
-      "representative": "转基因",
-      "change_pct": 0.63,
-      "constituents": 20,
-      "members": "转基因 +0.63%",
+      "date": "2026-11-09",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 2.01,
+      "constituents": 43,
+      "members": "光刻机 +2.01%",
       "rank": 3
     },
     {
-      "date": "2026-11-06",
-      "theme": "草甘膦",
-      "representative": "草甘膦",
-      "change_pct": 0.17,
-      "constituents": 13,
-      "members": "草甘膦 +0.17%",
+      "date": "2026-11-09",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 2.01,
+      "constituents": 50,
+      "members": "6G概念 +2.01%",
       "rank": 4
     },
     {
-      "date": "2026-11-06",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 0.15,
-      "constituents": 18,
-      "members": "水产概念 +0.15%",
+      "date": "2026-11-09",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "TOPCon电池",
+      "change_pct": 2.01,
+      "constituents": 105,
+      "members": "TOPCon电池 +2.01% / BC电池 +1.78% / 钙钛矿电池 +1.77% / HJT电池 +1.49%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "水产概念",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.35,
+      "avg_change_pct": 4.09,
       "avg_rank": 3.5,
       "latest_rank": 5,
-      "dates": "11-06、11-03"
+      "dates": "11-09、11-05"
     },
     {
-      "theme": "Kimi概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 7.32,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
-      "dates": "11-05、11-02"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 7.35,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-05、11-02"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 6.28,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
-      "dates": "11-05、11-02"
-    },
-    {
-      "theme": "粮食概念",
+      "theme": "纳米银",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.89,
+      "avg_change_pct": 2.08,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-06"
+      "dates": "11-09"
     },
     {
-      "theme": "可燃冰",
+      "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.78,
+      "avg_change_pct": 2.03,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-06"
+      "dates": "11-09"
     },
     {
-      "theme": "转基因",
+      "theme": "光刻机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.63,
+      "avg_change_pct": 2.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-06"
+      "dates": "11-09"
     },
     {
-      "theme": "草甘膦",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.17,
+      "avg_change_pct": 2.01,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-06"
+      "dates": "11-09"
     },
     {
       "theme": "高带宽内存",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 11.76,
+      "avg_change_pct": 11.53,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
+    },
+    {
+      "theme": "Kimi概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.55,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-05"
     },
     {
       "theme": "鸡肉概念",
@@ -153,43 +133,93 @@
       "dates": "11-03"
     },
     {
+      "theme": "转基因",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.54,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-06"
+    },
+    {
       "theme": "大基金持股",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.76,
+      "avg_change_pct": 10.53,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
     },
     {
-      "theme": "网络游戏/短剧互动游戏",
+      "theme": "水产概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.75,
+      "avg_change_pct": 2.53,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-02"
+      "dates": "11-03"
     },
     {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "theme": "粮食概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.13,
+      "avg_change_pct": 1.32,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-05"
+      "dates": "11-06"
     },
     {
       "theme": "中芯概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.3,
+      "avg_change_pct": 10.11,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-04"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.02,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-05"
+    },
+    {
+      "theme": "乳业",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.93,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-03"
+    },
+    {
+      "theme": "可燃冰",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.78,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-06"
+    },
+    {
+      "theme": "先进封装",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 9.58,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-04"
     },
     {
@@ -198,8 +228,8 @@
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 4.92,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-05"
     },
     {
@@ -207,50 +237,40 @@
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.84,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-03"
-    },
-    {
-      "theme": "先进封装",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 9.76,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-04"
-    },
-    {
-      "theme": "影视概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.72,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-02"
-    },
-    {
-      "theme": "乳业",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.76,
+      "avg_change_pct": 1.81,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-03"
+    },
+    {
+      "theme": "农业种植/生态农业",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.31,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-06"
     },
     {
       "theme": "国产芯片/存储芯片/汽车芯片",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 9.54,
+      "avg_change_pct": 9.51,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.87,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-05"
     },
     {
       "theme": "低碳冶金",
@@ -261,6 +281,16 @@
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-03"
+    },
+    {
+      "theme": "草甘膦",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.18,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-06"
     }
   ]
 }
