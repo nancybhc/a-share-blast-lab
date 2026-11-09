@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:11:59+08:00",
+  "generated_at": "2026-11-09T13:16:47+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.61,
+      "change_pct": 2.91,
       "constituents": 50,
-      "members": "6G概念 +2.61%",
+      "members": "6G概念 +2.91%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.39,
+      "change_pct": 2.58,
       "constituents": 10,
-      "members": "纳米银 +2.39%",
+      "members": "纳米银 +2.58%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "冰雪经济",
       "representative": "冰雪经济",
-      "change_pct": 2.14,
+      "change_pct": 2.33,
       "constituents": 42,
-      "members": "冰雪经济 +2.14%",
+      "members": "冰雪经济 +2.33%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
-      "theme": "商业航天",
-      "representative": "卫星互联网",
-      "change_pct": 1.86,
-      "constituents": 431,
-      "members": "卫星互联网 +1.86% / 空间站概念 +1.79% / 商业航天 +1.67% / 卫星导航 +1.17% / 航天航空 +0.55%",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 2.18,
+      "constituents": 9,
+      "members": "噪声防治 +2.18%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
-      "theme": "通信技术/5G概念/光通信模块",
-      "representative": "光通信模块",
-      "change_pct": 1.86,
-      "constituents": 436,
-      "members": "光通信模块 +1.86% / 5G概念 +0.99% / 通信技术 +0.94%",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 2.15,
+      "constituents": 431,
+      "members": "空间站概念 +2.15% / 卫星互联网 +2.15% / 商业航天 +1.94% / 卫星导航 +1.42% / 航天航空 +0.78%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.61,
+      "avg_change_pct": 2.91,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.39,
+      "avg_change_pct": 2.58,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,9 +77,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.14,
+      "avg_change_pct": 2.33,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-09"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.18,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-09"
     },
     {
@@ -87,17 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.86,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-09"
-    },
-    {
-      "theme": "通信技术/5G概念/光通信模块",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.86,
+      "avg_change_pct": 2.15,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
