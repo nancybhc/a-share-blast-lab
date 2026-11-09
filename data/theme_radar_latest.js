@@ -1,95 +1,65 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T09:28:34+08:00",
+  "generated_at": "2026-11-09T09:32:38+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
   "daily_top": [
     {
       "date": "2026-11-09",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 2.08,
-      "constituents": 10,
-      "members": "纳米银 +2.08%",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 3.4,
+      "constituents": 431,
+      "members": "空间站概念 +3.40% / 卫星互联网 +3.04% / 商业航天 +2.88% / 卫星导航 +2.81% / 航天航空 +2.31%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 2.03,
-      "constituents": 9,
-      "members": "噪声防治 +2.03%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 2.01,
-      "constituents": 43,
-      "members": "光刻机 +2.01%",
-      "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.01,
+      "change_pct": 3.09,
       "constituents": 50,
-      "members": "6G概念 +2.01%",
+      "members": "6G概念 +3.09%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 3.05,
+      "constituents": 462,
+      "members": "机器人执行器 +3.05% / 人形机器人 +2.89% / 减速器 +2.87% / 机器视觉 +2.58%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "UWB概念",
+      "representative": "UWB概念",
+      "change_pct": 2.77,
+      "constituents": 19,
+      "members": "UWB概念 +2.77%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "TOPCon电池",
-      "change_pct": 2.01,
-      "constituents": 105,
-      "members": "TOPCon电池 +2.01% / BC电池 +1.78% / 钙钛矿电池 +1.77% / HJT电池 +1.49%",
+      "theme": "毫米波概念",
+      "representative": "毫米波概念",
+      "change_pct": 2.71,
+      "constituents": 56,
+      "members": "毫米波概念 +2.71%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 4.09,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
-      "dates": "11-09、11-05"
-    },
-    {
-      "theme": "纳米银",
+      "theme": "商业航天",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.08,
+      "avg_change_pct": 3.4,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-09"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.03,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-09"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.01,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-09"
     },
     {
@@ -97,9 +67,39 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.01,
+      "avg_change_pct": 3.09,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-09"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.05,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-09"
+    },
+    {
+      "theme": "UWB概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.77,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-09"
+    },
+    {
+      "theme": "毫米波概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.71,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-09"
     },
     {
@@ -151,6 +151,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-04"
+    },
+    {
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.17,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-05"
     },
     {
       "theme": "水产概念",
