@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T09:45:15+08:00",
+  "generated_at": "2026-11-09T09:49:38+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-09",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 4.58,
+      "change_pct": 4.54,
       "constituents": 462,
-      "members": "机器人执行器 +4.58% / 减速器 +4.19% / 人形机器人 +4.13% / 机器视觉 +3.46%",
+      "members": "机器人执行器 +4.54% / 减速器 +4.05% / 人形机器人 +4.01% / 机器视觉 +3.34%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 4.55,
+      "change_pct": 4.35,
       "constituents": 431,
-      "members": "空间站概念 +4.55% / 卫星互联网 +4.16% / 商业航天 +3.77% / 卫星导航 +3.70% / 航天航空 +3.22%",
+      "members": "空间站概念 +4.35% / 卫星互联网 +3.83% / 商业航天 +3.40% / 卫星导航 +3.34% / 航天航空 +2.59%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 4.09,
+      "change_pct": 3.81,
       "constituents": 50,
-      "members": "6G概念 +4.09%",
+      "members": "6G概念 +3.81%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 3.89,
-      "constituents": 9,
-      "members": "噪声防治 +3.89%",
-      "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "虚拟现实/虚拟数字人/增强现实",
       "representative": "混合现实",
-      "change_pct": 3.77,
+      "change_pct": 3.6,
       "constituents": 295,
-      "members": "混合现实 +3.77% / 虚拟现实 +2.55% / 虚拟数字人 +2.46% / 增强现实 +2.39%",
+      "members": "混合现实 +3.60% / 虚拟数字人 +2.49% / 虚拟现实 +2.41% / 增强现实 +2.28%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "空间计算",
+      "representative": "空间计算",
+      "change_pct": 3.36,
+      "constituents": 26,
+      "members": "空间计算 +3.36%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.58,
+      "avg_change_pct": 4.54,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.55,
+      "avg_change_pct": 4.35,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,19 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.09,
+      "avg_change_pct": 3.81,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-09"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.89,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-09"
     },
     {
@@ -97,7 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.77,
+      "avg_change_pct": 3.6,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-09"
+    },
+    {
+      "theme": "空间计算",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.36,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
