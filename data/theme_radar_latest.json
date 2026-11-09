@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T14:35:16+08:00",
+  "generated_at": "2026-11-09T14:46:12+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -18,36 +18,36 @@
       "date": "2026-11-09",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 2.69,
+      "change_pct": 2.42,
       "constituents": 9,
-      "members": "噪声防治 +2.69%",
+      "members": "噪声防治 +2.42%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 2.66,
-      "constituents": 10,
-      "members": "纳米银 +2.66%",
+      "theme": "毫米波概念",
+      "representative": "毫米波概念",
+      "change_pct": 2.22,
+      "constituents": 56,
+      "members": "毫米波概念 +2.22%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 2.18,
-      "constituents": 462,
-      "members": "机器人执行器 +2.18% / 人形机器人 +2.10% / 减速器 +2.08% / 机器视觉 +1.26%",
-      "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.17,
+      "change_pct": 2.16,
       "constituents": 436,
-      "members": "光通信模块 +2.17% / 5G概念 +1.33% / 通信技术 +1.29%",
+      "members": "光通信模块 +2.16% / 5G概念 +1.32% / 通信技术 +1.30%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 2.11,
+      "constituents": 431,
+      "members": "空间站概念 +2.11% / 卫星互联网 +2.03% / 商业航天 +1.97% / 卫星导航 +1.36% / 航天航空 +1.05%",
       "rank": 5
     }
   ],
@@ -67,29 +67,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.69,
+      "avg_change_pct": 2.42,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
     },
     {
-      "theme": "纳米银",
+      "theme": "毫米波概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.66,
+      "avg_change_pct": 2.22,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-09"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.18,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-09"
     },
     {
@@ -97,7 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.17,
+      "avg_change_pct": 2.16,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-09"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
