@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T09:53:38+08:00",
+  "generated_at": "2026-11-09T09:57:37+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,36 +9,36 @@
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 4.04,
+      "change_pct": 3.98,
       "constituents": 431,
-      "members": "空间站概念 +4.04% / 卫星互联网 +3.47% / 商业航天 +3.13% / 卫星导航 +3.00% / 航天航空 +2.26%",
+      "members": "空间站概念 +3.98% / 卫星互联网 +3.52% / 商业航天 +3.06% / 卫星导航 +3.00% / 航天航空 +2.20%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 3.89,
+      "change_pct": 3.77,
       "constituents": 462,
-      "members": "机器人执行器 +3.89% / 减速器 +3.53% / 人形机器人 +3.45% / 机器视觉 +2.78%",
+      "members": "机器人执行器 +3.77% / 减速器 +3.35% / 人形机器人 +3.28% / 机器视觉 +2.57%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.54,
+      "change_pct": 3.6,
       "constituents": 50,
-      "members": "6G概念 +3.54%",
+      "members": "6G概念 +3.60%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 3.2,
+      "change_pct": 3.23,
       "constituents": 9,
-      "members": "噪声防治 +3.20%",
+      "members": "噪声防治 +3.23%",
       "rank": 4
     },
     {
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.04,
+      "avg_change_pct": 3.98,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.89,
+      "avg_change_pct": 3.77,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.54,
+      "avg_change_pct": 3.6,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.2,
+      "avg_change_pct": 3.23,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-09"
