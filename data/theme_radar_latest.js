@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:21:24+08:00",
+  "generated_at": "2026-11-09T13:25:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.87,
+      "change_pct": 3.11,
       "constituents": 50,
-      "members": "6G概念 +2.87%",
+      "members": "6G概念 +3.11%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.58,
+      "change_pct": 2.63,
       "constituents": 10,
-      "members": "纳米银 +2.58%",
+      "members": "纳米银 +2.63%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "冰雪经济",
-      "representative": "冰雪经济",
-      "change_pct": 2.26,
-      "constituents": 42,
-      "members": "冰雪经济 +2.26%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 2.25,
-      "constituents": 9,
-      "members": "噪声防治 +2.25%",
-      "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.17,
+      "change_pct": 2.38,
       "constituents": 436,
-      "members": "光通信模块 +2.17% / 5G概念 +1.32% / 通信技术 +1.27%",
+      "members": "光通信模块 +2.38% / 5G概念 +1.47% / 通信技术 +1.44%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "商业航天",
+      "representative": "卫星互联网",
+      "change_pct": 2.35,
+      "constituents": 431,
+      "members": "卫星互联网 +2.35% / 空间站概念 +2.30% / 商业航天 +2.16% / 卫星导航 +1.58% / 航天航空 +1.03%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 2.34,
+      "constituents": 9,
+      "members": "噪声防治 +2.34%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.87,
+      "avg_change_pct": 3.11,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -67,29 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.63,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-09"
-    },
-    {
-      "theme": "冰雪经济",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.26,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-09"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.25,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-09"
     },
     {
@@ -97,7 +77,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.17,
+      "avg_change_pct": 2.38,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-09"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.35,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-09"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.34,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
