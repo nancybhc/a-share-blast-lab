@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:39:26+08:00",
+  "generated_at": "2026-11-09T13:44:00+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.36,
+      "change_pct": 2.86,
       "constituents": 50,
-      "members": "6G概念 +3.36%",
+      "members": "6G概念 +2.86%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 2.96,
+      "change_pct": 2.55,
       "constituents": 10,
-      "members": "纳米银 +2.96%",
+      "members": "纳米银 +2.55%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.83,
+      "change_pct": 2.24,
       "constituents": 436,
-      "members": "光通信模块 +2.83% / 5G概念 +1.79% / 通信技术 +1.78%",
+      "members": "光通信模块 +2.24% / 5G概念 +1.36% / 通信技术 +1.32%",
       "rank": 3
     },
     {
       "date": "2026-11-09",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.78,
+      "change_pct": 2.13,
       "constituents": 694,
-      "members": "CPO概念 +2.78% / 液冷服务器 +1.70% / 算力概念 +0.83% / 数据中心 +0.67% / AI语料 -0.18%",
+      "members": "CPO概念 +2.13% / 液冷服务器 +1.25% / 算力概念 +0.45% / 数据中心 +0.32% / AI语料 -0.11%",
       "rank": 4
     },
     {
       "date": "2026-11-09",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 2.51,
-      "constituents": 26,
-      "members": "F5G概念 +2.51%",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 2.09,
+      "constituents": 9,
+      "members": "噪声防治 +2.09%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.83,
+      "avg_change_pct": 3.5,
       "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "11-09、11-05"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.36,
+      "avg_change_pct": 2.86,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.96,
+      "avg_change_pct": 2.55,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.83,
+      "avg_change_pct": 2.24,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
     },
     {
-      "theme": "F5G概念",
+      "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.51,
+      "avg_change_pct": 2.09,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
