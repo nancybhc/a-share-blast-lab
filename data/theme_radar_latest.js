@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T10:15:10+08:00",
+  "generated_at": "2026-11-09T10:19:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-09午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-09",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 4.95,
+      "change_pct": 4.32,
       "constituents": 28,
-      "members": "AI视频 +4.95%",
+      "members": "AI视频 +4.32%",
       "rank": 1
     },
     {
       "date": "2026-11-09",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 4.29,
+      "change_pct": 4.19,
       "constituents": 50,
-      "members": "6G概念 +4.29%",
+      "members": "6G概念 +4.19%",
       "rank": 2
     },
     {
       "date": "2026-11-09",
       "theme": "商业航天",
       "representative": "卫星互联网",
-      "change_pct": 3.7,
+      "change_pct": 3.64,
       "constituents": 431,
-      "members": "卫星互联网 +3.70% / 空间站概念 +3.63% / 商业航天 +3.12% / 卫星导航 +2.77% / 航天航空 +2.08%",
+      "members": "卫星互联网 +3.64% / 空间站概念 +3.60% / 商业航天 +3.09% / 卫星导航 +2.71% / 航天航空 +2.00%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "Kimi概念",
-      "representative": "Kimi概念",
-      "change_pct": 3.57,
-      "constituents": 17,
-      "members": "Kimi概念 +3.57%",
-      "rank": 4
     },
     {
       "date": "2026-11-09",
       "theme": "纳米银",
       "representative": "纳米银",
-      "change_pct": 3.56,
+      "change_pct": 3.54,
       "constituents": 10,
-      "members": "纳米银 +3.56%",
+      "members": "纳米银 +3.54%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "毫米波概念",
+      "representative": "毫米波概念",
+      "change_pct": 3.35,
+      "constituents": 56,
+      "members": "毫米波概念 +3.35%",
       "rank": 5
     }
   ],
@@ -57,19 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.98,
+      "avg_change_pct": 4.67,
       "avg_rank": 2.0,
       "latest_rank": 1,
-      "dates": "11-09、11-05"
-    },
-    {
-      "theme": "Kimi概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 5.06,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
       "dates": "11-09、11-05"
     },
     {
@@ -77,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.29,
+      "avg_change_pct": 4.19,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-09"
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.7,
+      "avg_change_pct": 3.64,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-09"
@@ -97,7 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.56,
+      "avg_change_pct": 3.54,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-09"
+    },
+    {
+      "theme": "毫米波概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.35,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
@@ -111,6 +111,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-04"
+    },
+    {
+      "theme": "Kimi概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.55,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-05"
     },
     {
       "theme": "鸡肉概念",
