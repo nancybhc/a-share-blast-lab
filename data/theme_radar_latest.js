@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T09:37:30+08:00",
+  "generated_at": "2026-11-10T09:41:47+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.84,
+      "change_pct": 3.74,
       "constituents": 28,
-      "members": "AI视频 +3.84%",
+      "members": "AI视频 +3.74%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 3.43,
+      "change_pct": 3.37,
       "constituents": 694,
-      "members": "AI语料 +3.43% / CPO概念 +2.42% / 算力概念 +1.78% / 液冷服务器 +1.74% / 数据中心 +1.47%",
+      "members": "AI语料 +3.37% / CPO概念 +3.04% / 液冷服务器 +2.07% / 算力概念 +2.02% / 数据中心 +1.77%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 3.23,
-      "constituents": 103,
-      "members": "短剧互动游戏 +3.23% / 网络游戏 +2.67%",
-      "rank": 3
     },
     {
       "date": "2026-11-10",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 3.05,
+      "change_pct": 3.13,
       "constituents": 463,
-      "members": "机器人执行器 +3.05% / 人形机器人 +2.79% / 减速器 +2.64% / 机器视觉 +2.17%",
+      "members": "机器人执行器 +3.13% / 人形机器人 +2.92% / 减速器 +2.67% / 机器视觉 +2.36%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "通信技术/5G概念/光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 3.07,
+      "constituents": 436,
+      "members": "光通信模块 +3.07% / 通信技术 +2.42% / 5G概念 +2.36%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 2.96,
-      "constituents": 64,
-      "members": "影视概念 +2.96%",
+      "theme": "网络游戏/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 3.0,
+      "constituents": 103,
+      "members": "短剧互动游戏 +3.00% / 网络游戏 +2.56%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 2.51,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 2.55,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-10、11-09"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.43,
+      "avg_change_pct": 4.38,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-10、11-05"
@@ -77,27 +77,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.15,
+      "avg_change_pct": 4.12,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-10、11-05"
+    },
+    {
+      "theme": "通信技术/5G概念/光通信模块",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.07,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-10"
     },
     {
       "theme": "网络游戏/短剧互动游戏",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.23,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
-    },
-    {
-      "theme": "影视概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.96,
+      "avg_change_pct": 3.0,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
