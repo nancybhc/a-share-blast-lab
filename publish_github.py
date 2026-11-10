@@ -385,6 +385,7 @@ def main() -> None:
     pages_ready = False
     is_close_publish = "daily" in args.slot.lower() or "close" in args.slot.lower()
     attempts = 36 if is_close_publish else 12
+    rebuild_attempts = 0
     for attempt in range(1, attempts + 1):
         try:
             build = api(
@@ -415,12 +416,20 @@ def main() -> None:
                         )
                         pages_ready = True
                         break
-                elif build_status == "errored":
+                elif build_status == "errored" and build_commit == commit["sha"]:
                     print(
-                        f"[PAGES] build failed: {build_data.get('error')}",
+                        f"[PAGES] build failed: {build_data.get('error')}; "
+                        "requesting rebuild",
                         flush=True,
                     )
-                    break
+                    if rebuild_attempts >= 2:
+                        break
+                    rebuild_attempts += 1
+                    api(
+                        "POST",
+                        f"{repo_path}/pages/builds",
+                        expected=(201, 202, 204),
+                    )
         except (requests.RequestException, RuntimeError):
             pass
         print(f"[WAIT] Pages deployment check {attempt}/{attempts}", flush=True)
