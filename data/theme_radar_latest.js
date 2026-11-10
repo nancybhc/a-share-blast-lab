@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T11:20:54+08:00",
+  "generated_at": "2026-11-10T11:25:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-10",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 3.94,
+      "change_pct": 4.18,
       "constituents": 694,
-      "members": "AI语料 +3.94% / CPO概念 +2.78% / 液冷服务器 +2.01% / 算力概念 +1.83% / 数据中心 +1.59%",
+      "members": "AI语料 +4.18% / CPO概念 +2.81% / 液冷服务器 +2.07% / 算力概念 +1.95% / 数据中心 +1.67%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 3.93,
+      "change_pct": 4.15,
       "constituents": 103,
-      "members": "短剧互动游戏 +3.93% / 网络游戏 +2.57%",
+      "members": "短剧互动游戏 +4.15% / 网络游戏 +2.72%",
       "rank": 2
     },
     {
       "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.82,
+      "change_pct": 4.08,
       "constituents": 28,
-      "members": "AI视频 +3.82%",
+      "members": "AI视频 +4.08%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 3.66,
-      "constituents": 64,
-      "members": "影视概念 +3.66%",
-      "rank": 4
     },
     {
       "date": "2026-11-10",
       "theme": "数字阅读",
       "representative": "数字阅读",
-      "change_pct": 3.64,
+      "change_pct": 3.86,
       "constituents": 19,
-      "members": "数字阅读 +3.64%",
+      "members": "数字阅读 +3.86%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 3.81,
+      "constituents": 64,
+      "members": "影视概念 +3.81%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.42,
+      "avg_change_pct": 4.55,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-10、11-05"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.41,
+      "avg_change_pct": 4.53,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-10、11-05"
@@ -77,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.93,
+      "avg_change_pct": 4.15,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-10"
-    },
-    {
-      "theme": "影视概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.66,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-10"
     },
     {
@@ -97,7 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.64,
+      "avg_change_pct": 3.86,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-10"
+    },
+    {
+      "theme": "影视概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.81,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
