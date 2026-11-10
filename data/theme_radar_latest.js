@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T10:08:38+08:00",
+  "generated_at": "2026-11-10T10:12:54+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 3.6,
-      "constituents": 463,
-      "members": "机器人执行器 +3.60% / 人形机器人 +3.35% / 减速器 +3.19% / 机器视觉 +2.61%",
+      "theme": "同步磁阻电机",
+      "representative": "同步磁阻电机",
+      "change_pct": 3.96,
+      "constituents": 7,
+      "members": "同步磁阻电机 +3.96%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
-      "theme": "同步磁阻电机",
-      "representative": "同步磁阻电机",
-      "change_pct": 3.6,
-      "constituents": 7,
-      "members": "同步磁阻电机 +3.60%",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 3.76,
+      "constituents": 463,
+      "members": "机器人执行器 +3.76% / 人形机器人 +3.41% / 减速器 +3.26% / 机器视觉 +2.54%",
       "rank": 2
     },
     {
       "date": "2026-11-10",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 3.46,
-      "constituents": 694,
-      "members": "AI语料 +3.46% / CPO概念 +2.09% / 算力概念 +1.78% / 液冷服务器 +1.70% / 数据中心 +1.41%",
+      "theme": "PLC概念",
+      "representative": "PLC概念",
+      "change_pct": 3.65,
+      "constituents": 11,
+      "members": "PLC概念 +3.65%",
       "rank": 3
     },
     {
       "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.45,
+      "change_pct": 3.49,
       "constituents": 28,
-      "members": "AI视频 +3.45%",
+      "members": "AI视频 +3.49%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
-      "theme": "PLC概念",
-      "representative": "PLC概念",
-      "change_pct": 3.2,
-      "constituents": 11,
-      "members": "PLC概念 +3.20%",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 3.4,
+      "constituents": 694,
+      "members": "AI语料 +3.40% / CPO概念 +2.15% / 液冷服务器 +1.73% / 算力概念 +1.68% / 数据中心 +1.37%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 2.79,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.86,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-10、11-09"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.23,
+      "avg_change_pct": 4.25,
       "avg_rank": 3.5,
       "latest_rank": 4,
       "dates": "11-10、11-05"
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.17,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.13,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-10、11-05"
     },
     {
@@ -87,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.6,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 3.96,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-10"
     },
     {
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.2,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 3.65,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-10"
     },
     {
