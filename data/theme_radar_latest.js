@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T10:17:47+08:00",
+  "generated_at": "2026-11-10T10:22:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
@@ -9,57 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-10",
       "theme": "同步磁阻电机",
       "representative": "同步磁阻电机",
-      "change_pct": 4.34,
+      "change_pct": 4.39,
       "constituents": 7,
-      "members": "同步磁阻电机 +4.34%",
+      "members": "同步磁阻电机 +4.39%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 4.16,
-      "constituents": 28,
-      "members": "AI视频 +4.16%",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 4.12,
+      "constituents": 463,
+      "members": "机器人执行器 +4.12% / 人形机器人 +3.69% / 减速器 +3.51% / 机器视觉 +2.81%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 4.01,
-      "constituents": 694,
-      "members": "AI语料 +4.01% / CPO概念 +2.39% / 算力概念 +1.91% / 液冷服务器 +1.84% / 数据中心 +1.56%",
-      "rank": 3
     },
     {
       "date": "2026-11-10",
       "theme": "PLC概念",
       "representative": "PLC概念",
-      "change_pct": 3.91,
+      "change_pct": 3.99,
       "constituents": 11,
-      "members": "PLC概念 +3.91%",
+      "members": "PLC概念 +3.99%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 3.79,
+      "constituents": 28,
+      "members": "AI视频 +3.79%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 3.86,
-      "constituents": 103,
-      "members": "短剧互动游戏 +3.86% / 网络游戏 +2.80%",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 3.78,
+      "constituents": 694,
+      "members": "AI语料 +3.78% / CPO概念 +2.67% / 液冷服务器 +2.04% / 算力概念 +1.94% / 数据中心 +1.62%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "机器人",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 3.04,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
+      "dates": "11-10、11-09"
+    },
+    {
       "theme": "AI视频",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.59,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
+      "avg_change_pct": 4.4,
+      "avg_rank": 3.5,
+      "latest_rank": 4,
       "dates": "11-10、11-05"
     },
     {
@@ -67,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.44,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.33,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-10、11-05"
     },
     {
@@ -77,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.34,
+      "avg_change_pct": 4.39,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-10"
@@ -87,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.91,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-10"
-    },
-    {
-      "theme": "网络游戏/短剧互动游戏",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.86,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 3.99,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-10"
     },
     {
@@ -261,16 +261,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.97,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-09"
     },
     {
       "theme": "草甘膦",
