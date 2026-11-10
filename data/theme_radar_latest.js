@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T09:51:08+08:00",
+  "generated_at": "2026-11-10T09:55:58+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 3.14,
-      "constituents": 463,
-      "members": "机器人执行器 +3.14% / 人形机器人 +2.87% / 减速器 +2.76% / 机器视觉 +2.04%",
+      "theme": "AI视频",
+      "representative": "AI视频",
+      "change_pct": 3.2,
+      "constituents": 28,
+      "members": "AI视频 +3.20%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
-      "theme": "商业航天",
-      "representative": "卫星互联网",
-      "change_pct": 2.96,
-      "constituents": 432,
-      "members": "卫星互联网 +2.96% / 空间站概念 +2.68% / 商业航天 +2.26% / 卫星导航 +2.20% / 航天航空 +1.53%",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 3.15,
+      "constituents": 463,
+      "members": "机器人执行器 +3.15% / 人形机器人 +2.86% / 减速器 +2.73% / 机器视觉 +2.02%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "玻璃基板/3D玻璃",
-      "representative": "3D玻璃",
-      "change_pct": 2.74,
-      "constituents": 73,
-      "members": "3D玻璃 +2.74% / 玻璃基板 +1.97%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "同步磁阻电机",
-      "representative": "同步磁阻电机",
-      "change_pct": 2.7,
-      "constituents": 7,
-      "members": "同步磁阻电机 +2.70%",
-      "rank": 4
     },
     {
       "date": "2026-11-10",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 2.54,
+      "change_pct": 3.06,
       "constituents": 694,
-      "members": "AI语料 +2.54% / CPO概念 +2.43% / 液冷服务器 +1.75% / 算力概念 +1.59% / 数据中心 +1.47%",
+      "members": "AI语料 +3.06% / CPO概念 +2.19% / 液冷服务器 +1.68% / 算力概念 +1.65% / 数据中心 +1.39%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 2.91,
+      "constituents": 64,
+      "members": "影视概念 +2.91%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "MLOps概念",
+      "representative": "MLOps概念",
+      "change_pct": 2.9,
+      "constituents": 10,
+      "members": "MLOps概念 +2.90%",
       "rank": 5
     }
   ],
@@ -58,48 +58,48 @@ window.THEME_RADAR_DATA = {
       "max_streak": 2,
       "appearances": 2,
       "avg_change_pct": 2.56,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-10、11-09"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.11,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
+      "dates": "11-10、11-05"
     },
     {
       "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.71,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 3.96,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-10、11-05"
     },
     {
-      "theme": "商业航天",
+      "theme": "影视概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.96,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-10"
-    },
-    {
-      "theme": "玻璃基板/3D玻璃",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.74,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
-    },
-    {
-      "theme": "同步磁阻电机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.7,
+      "avg_change_pct": 2.91,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-10"
+    },
+    {
+      "theme": "MLOps概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.9,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-10"
     },
     {
@@ -191,16 +191,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-04"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.02,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-05"
     },
     {
       "theme": "噪声防治",
