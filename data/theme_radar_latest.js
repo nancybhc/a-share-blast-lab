@@ -1,18 +1,36 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T13:05:13+08:00",
+  "generated_at": "2026-11-10T13:09:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 4.89,
+      "constituents": 19,
+      "members": "智能音箱 +4.89%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "电子后视镜",
+      "representative": "电子后视镜",
+      "change_pct": 4.43,
+      "constituents": 26,
+      "members": "电子后视镜 +4.43%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-10",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 4.22,
+      "change_pct": 4.21,
       "constituents": 103,
-      "members": "短剧互动游戏 +4.22% / 网络游戏 +2.99%",
-      "rank": 1
+      "members": "短剧互动游戏 +4.21% / 网络游戏 +3.07%",
+      "rank": 3
     },
     {
       "date": "2026-11-10",
@@ -20,84 +38,66 @@ window.THEME_RADAR_DATA = {
       "representative": "AI语料",
       "change_pct": 4.08,
       "constituents": 694,
-      "members": "AI语料 +4.08% / CPO概念 +2.44% / 算力概念 +1.91% / 液冷服务器 +1.91% / 数据中心 +1.58%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "电子后视镜",
-      "representative": "电子后视镜",
-      "change_pct": 3.89,
-      "constituents": 26,
-      "members": "电子后视镜 +3.89%",
-      "rank": 3
+      "members": "AI语料 +4.08% / CPO概念 +2.75% / 液冷服务器 +2.18% / 算力概念 +2.11% / 数据中心 +1.74%",
+      "rank": 4
     },
     {
       "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 3.89,
+      "change_pct": 3.95,
       "constituents": 28,
-      "members": "AI视频 +3.89%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 3.83,
-      "constituents": 19,
-      "members": "智能音箱 +3.83%",
+      "members": "AI视频 +3.95%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "智能音箱",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.9,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-10、11-05"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.48,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-10、11-05"
+    },
     {
       "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 4.47,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
-      "dates": "11-10、11-05"
-    },
-    {
-      "theme": "AI视频",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 4.46,
-      "avg_rank": 3.5,
+      "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "11-10、11-05"
-    },
-    {
-      "theme": "智能音箱",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 4.38,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
-      "dates": "11-10、11-05"
-    },
-    {
-      "theme": "网络游戏/短剧互动游戏",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.22,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-10"
     },
     {
       "theme": "电子后视镜",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.89,
+      "avg_change_pct": 4.43,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-10"
+    },
+    {
+      "theme": "网络游戏/短剧互动游戏",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.21,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-10"
