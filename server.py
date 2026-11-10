@@ -148,17 +148,33 @@ def pid_is_running(pid: int) -> bool:
         kernel32.CloseHandle(handle)
 
 
+def read_pid_file(path: Path) -> int | None:
+    for _ in range(12):
+        try:
+            return int(path.read_text(encoding="ascii").strip())
+        except FileNotFoundError:
+            return None
+        except (OSError, ValueError):
+            time.sleep(0.1)
+    return None
+
+
+def unlink_pid_file(path: Path) -> None:
+    for _ in range(12):
+        try:
+            path.unlink(missing_ok=True)
+            return
+        except OSError:
+            time.sleep(0.1)
+
+
 def read_pid() -> int | None:
-    try:
-        pid = int(PID_FILE.read_text(encoding="ascii").strip())
-    except (OSError, ValueError):
+    pid = read_pid_file(PID_FILE)
+    if pid is None:
         return None
     if pid_is_running(pid):
         return pid
-    try:
-        PID_FILE.unlink(missing_ok=True)
-    except OSError:
-        pass
+    unlink_pid_file(PID_FILE)
     return None
 
 
@@ -271,10 +287,7 @@ def stop_collector() -> dict[str, Any]:
                 )
             else:
                 os.kill(pid, 15)
-        try:
-            PID_FILE.unlink(missing_ok=True)
-        except OSError:
-            pass
+        unlink_pid_file(PID_FILE)
         return collector_state()
 
 
@@ -338,16 +351,10 @@ def publish_scheduler_loop() -> None:
 
 
 def theme_refresh_state() -> dict[str, Any]:
-    try:
-        pid = int(THEME_REFRESH_PID_FILE.read_text(encoding="ascii").strip())
-    except (OSError, ValueError):
-        pid = 0
+    pid = read_pid_file(THEME_REFRESH_PID_FILE) or 0
     running = pid_is_running(pid)
     if not running:
-        try:
-            THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
-        except OSError:
-            pass
+        unlink_pid_file(THEME_REFRESH_PID_FILE)
     try:
         payload = json.loads(THEME_REFRESH_STATUS.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
@@ -411,24 +418,15 @@ def stop_theme_refresh() -> dict[str, Any]:
                 )
             else:
                 os.kill(pid, 15)
-        try:
-            THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
-        except OSError:
-            pass
+        unlink_pid_file(THEME_REFRESH_PID_FILE)
         return theme_refresh_state()
 
 
 def live_pipeline_state() -> dict[str, Any]:
-    try:
-        pid = int(LIVE_PIPELINE_PID_FILE.read_text(encoding="ascii").strip())
-    except (OSError, ValueError):
-        pid = 0
+    pid = read_pid_file(LIVE_PIPELINE_PID_FILE) or 0
     running = pid_is_running(pid)
     if not running:
-        try:
-            LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
-        except OSError:
-            pass
+        unlink_pid_file(LIVE_PIPELINE_PID_FILE)
     try:
         payload = json.loads(LIVE_PIPELINE_STATUS.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
@@ -491,10 +489,7 @@ def stop_live_pipeline() -> dict[str, Any]:
                 )
             else:
                 os.kill(pid, 15)
-        try:
-            LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
-        except OSError:
-            pass
+        unlink_pid_file(LIVE_PIPELINE_PID_FILE)
         return live_pipeline_state()
 
 
