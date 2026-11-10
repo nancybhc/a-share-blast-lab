@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T10:31:29+08:00",
+  "generated_at": "2026-11-10T10:36:13+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 4.36,
-      "constituents": 463,
-      "members": "机器人执行器 +4.36% / 人形机器人 +4.05% / 减速器 +3.76% / 机器视觉 +3.09%",
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 4.06,
+      "constituents": 694,
+      "members": "AI语料 +4.06% / CPO概念 +3.63% / 液冷服务器 +2.44% / 算力概念 +2.16% / 数据中心 +1.92%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 4.33,
+      "change_pct": 4.02,
       "constituents": 28,
-      "members": "AI视频 +4.33%",
+      "members": "AI视频 +4.02%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 4.2,
-      "constituents": 694,
-      "members": "AI语料 +4.20% / CPO概念 +3.43% / 液冷服务器 +2.42% / 算力概念 +2.18% / 数据中心 +1.90%",
-      "rank": 3
     },
     {
       "date": "2026-11-10",
       "theme": "同步磁阻电机",
       "representative": "同步磁阻电机",
-      "change_pct": 4.12,
+      "change_pct": 4.01,
       "constituents": 7,
-      "members": "同步磁阻电机 +4.12%",
+      "members": "同步磁阻电机 +4.01%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 3.91,
+      "constituents": 463,
+      "members": "机器人执行器 +3.91% / 人形机器人 +3.76% / 减速器 +3.42% / 机器视觉 +2.96%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
-      "theme": "PLC概念",
-      "representative": "PLC概念",
-      "change_pct": 4.08,
-      "constituents": 11,
-      "members": "PLC概念 +4.08%",
+      "theme": "网络游戏/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 3.75,
+      "constituents": 103,
+      "members": "短剧互动游戏 +3.75% / 网络游戏 +2.73%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 3.17,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.94,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
       "dates": "11-10、11-09"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.67,
+      "avg_change_pct": 4.52,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-10、11-05"
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.54,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.46,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-10、11-05"
     },
     {
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.12,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 4.01,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-10"
     },
     {
-      "theme": "PLC概念",
+      "theme": "网络游戏/短剧互动游戏",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.08,
+      "avg_change_pct": 3.75,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
