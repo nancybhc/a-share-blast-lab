@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T09:55:58+08:00",
+  "generated_at": "2026-11-10T10:00:11+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
-      "theme": "AI视频",
-      "representative": "AI视频",
-      "change_pct": 3.2,
-      "constituents": 28,
-      "members": "AI视频 +3.20%",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 4.09,
+      "constituents": 463,
+      "members": "机器人执行器 +4.09% / 人形机器人 +3.51% / 减速器 +3.47% / 机器视觉 +2.52%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 3.15,
-      "constituents": 463,
-      "members": "机器人执行器 +3.15% / 人形机器人 +2.86% / 减速器 +2.73% / 机器视觉 +2.02%",
+      "theme": "同步磁阻电机",
+      "representative": "同步磁阻电机",
+      "change_pct": 3.47,
+      "constituents": 7,
+      "members": "同步磁阻电机 +3.47%",
       "rank": 2
     },
     {
       "date": "2026-11-10",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 3.06,
-      "constituents": 694,
-      "members": "AI语料 +3.06% / CPO概念 +2.19% / 液冷服务器 +1.68% / 算力概念 +1.65% / 数据中心 +1.39%",
+      "theme": "PLC概念",
+      "representative": "PLC概念",
+      "change_pct": 3.29,
+      "constituents": 11,
+      "members": "PLC概念 +3.29%",
       "rank": 3
     },
     {
       "date": "2026-11-10",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 2.91,
-      "constituents": 64,
-      "members": "影视概念 +2.91%",
+      "theme": "玻璃基板/3D玻璃",
+      "representative": "3D玻璃",
+      "change_pct": 3.21,
+      "constituents": 73,
+      "members": "3D玻璃 +3.21% / 玻璃基板 +2.13%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
       "theme": "MLOps概念",
       "representative": "MLOps概念",
-      "change_pct": 2.9,
+      "change_pct": 2.73,
       "constituents": 10,
-      "members": "MLOps概念 +2.90%",
+      "members": "MLOps概念 +2.73%",
       "rank": 5
     }
   ],
@@ -57,37 +57,37 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 2.56,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.03,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-10、11-09"
     },
     {
-      "theme": "AI视频",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 4.11,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
-      "dates": "11-10、11-05"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.96,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
-      "dates": "11-10、11-05"
-    },
-    {
-      "theme": "影视概念",
+      "theme": "同步磁阻电机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.91,
+      "avg_change_pct": 3.47,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-10"
+    },
+    {
+      "theme": "PLC概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.29,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-10"
+    },
+    {
+      "theme": "玻璃基板/3D玻璃",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.21,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-10"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.9,
+      "avg_change_pct": 2.73,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
@@ -193,6 +193,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-04"
     },
     {
+      "theme": "AI视频",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.02,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-05"
+    },
+    {
       "theme": "噪声防治",
       "current_streak": 0,
       "max_streak": 1,
@@ -261,6 +271,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.87,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-05"
     },
     {
       "theme": "草甘膦",
