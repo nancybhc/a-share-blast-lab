@@ -1,8 +1,8 @@
 window.SITE_RUNTIME_STATUS = {
-  "published_at": "2026-11-10T10:03:02+08:00",
-  "published_at_display": "2026-11-10 10:03:02",
-  "last_collector_capture_at": "2026-11-10T10:02:32+08:00",
-  "capture_count": 28,
+  "published_at": "2026-11-10T10:04:04+08:00",
+  "published_at_display": "2026-11-10 10:04:04",
+  "last_collector_capture_at": "2026-11-10T10:03:42+08:00",
+  "capture_count": 29,
   "market_waiting_for_today": false,
   "publish_interval_seconds": 60,
   "schedule": "盘中每60秒"
