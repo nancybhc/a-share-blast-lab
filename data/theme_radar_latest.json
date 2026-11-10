@@ -1,53 +1,53 @@
 {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T10:40:50+08:00",
+  "generated_at": "2026-11-10T10:45:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
-      "theme": "AI算力",
-      "representative": "AI语料",
-      "change_pct": 4.23,
-      "constituents": 694,
-      "members": "AI语料 +4.23% / CPO概念 +2.77% / 液冷服务器 +2.02% / 算力概念 +1.93% / 数据中心 +1.63%",
-      "rank": 1
-    },
-    {
-      "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 4.13,
+      "change_pct": 5.29,
       "constituents": 28,
-      "members": "AI视频 +4.13%",
-      "rank": 2
+      "members": "AI视频 +5.29%",
+      "rank": 1
     },
     {
       "date": "2026-11-10",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 4.01,
+      "change_pct": 5.05,
       "constituents": 103,
-      "members": "短剧互动游戏 +4.01% / 网络游戏 +2.79%",
-      "rank": 3
+      "members": "短剧互动游戏 +5.05% / 网络游戏 +3.33%",
+      "rank": 2
     },
     {
       "date": "2026-11-10",
-      "theme": "数字阅读",
-      "representative": "数字阅读",
-      "change_pct": 3.85,
-      "constituents": 19,
-      "members": "数字阅读 +3.85%",
-      "rank": 4
+      "theme": "AI算力",
+      "representative": "AI语料",
+      "change_pct": 4.93,
+      "constituents": 694,
+      "members": "AI语料 +4.93% / CPO概念 +2.67% / 算力概念 +2.13% / 液冷服务器 +2.06% / 数据中心 +1.77%",
+      "rank": 3
     },
     {
       "date": "2026-11-10",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 3.82,
+      "change_pct": 4.59,
       "constituents": 64,
-      "members": "影视概念 +3.82%",
+      "members": "影视概念 +4.59%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "数字阅读",
+      "representative": "数字阅读",
+      "change_pct": 4.2,
+      "constituents": 19,
+      "members": "数字阅读 +4.20%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.57,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
+      "avg_change_pct": 5.15,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
       "dates": "11-10、11-05"
     },
     {
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.55,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 4.9,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-10、11-05"
     },
     {
@@ -77,19 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.01,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
-    },
-    {
-      "theme": "数字阅读",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.85,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 5.05,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-10"
     },
     {
@@ -97,7 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.82,
+      "avg_change_pct": 4.59,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-10"
+    },
+    {
+      "theme": "数字阅读",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.2,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
