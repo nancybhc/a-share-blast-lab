@@ -1,85 +1,75 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T09:28:33+08:00",
+  "generated_at": "2026-11-10T09:33:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
   "daily_top": [
     {
       "date": "2026-11-10",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 3.39,
+      "constituents": 463,
+      "members": "机器人执行器 +3.39% / 人形机器人 +2.96% / 减速器 +2.82% / 机器视觉 +2.37%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-10",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 3.23,
+      "change_pct": 3.18,
       "constituents": 436,
-      "members": "光通信模块 +3.23% / 通信技术 +2.28% / 5G概念 +2.19%",
-      "rank": 1
+      "members": "光通信模块 +3.18% / 通信技术 +2.31% / 5G概念 +2.25%",
+      "rank": 2
     },
     {
       "date": "2026-11-10",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 3.2,
+      "change_pct": 3.13,
       "constituents": 694,
-      "members": "CPO概念 +3.20% / 液冷服务器 +1.89% / 算力概念 +1.69% / 数据中心 +1.59% / AI语料 +0.70%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-10",
-      "theme": "高带宽内存",
-      "representative": "高带宽内存",
-      "change_pct": 2.85,
-      "constituents": 28,
-      "members": "高带宽内存 +2.85%",
+      "members": "CPO概念 +3.13% / 液冷服务器 +2.23% / AI语料 +2.04% / 算力概念 +1.88% / 数据中心 +1.68%",
       "rank": 3
     },
     {
       "date": "2026-11-10",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 2.83,
-      "constituents": 43,
-      "members": "光刻机 +2.83%",
+      "theme": "英伟达概念",
+      "representative": "英伟达概念",
+      "change_pct": 2.8,
+      "constituents": 68,
+      "members": "英伟达概念 +2.80%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 2.68,
-      "constituents": 29,
-      "members": "大基金持股 +2.68%",
+      "theme": "激光雷达",
+      "representative": "激光雷达",
+      "change_pct": 2.77,
+      "constituents": 43,
+      "members": "激光雷达 +2.77%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "高带宽内存",
-      "current_streak": 1,
-      "max_streak": 1,
+      "theme": "机器人",
+      "current_streak": 2,
+      "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 7.19,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
-      "dates": "11-10、11-04"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 6.6,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
-      "dates": "11-10、11-04"
+      "avg_change_pct": 2.68,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
+      "dates": "11-10、11-09"
     },
     {
       "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.04,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 4.0,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-10、11-05"
     },
     {
@@ -87,20 +77,40 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.23,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 3.18,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-10"
     },
     {
-      "theme": "光刻机",
+      "theme": "英伟达概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.83,
+      "avg_change_pct": 2.8,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-10"
+    },
+    {
+      "theme": "激光雷达",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.77,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-10"
+    },
+    {
+      "theme": "高带宽内存",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 11.53,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-04"
     },
     {
       "theme": "Kimi概念",
@@ -131,6 +141,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-06"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 10.53,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-04"
     },
     {
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
@@ -251,16 +271,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-04"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.97,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-09"
     },
     {
       "theme": "草甘膦",
