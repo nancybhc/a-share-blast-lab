@@ -165,6 +165,10 @@ def main() -> None:
                     flush=True,
                 )
 
+    website_dir = WEBSITE_DATA
+    website_dir.mkdir(parents=True, exist_ok=True)
+    DELIVERABLE_DIR.mkdir(parents=True, exist_ok=True)
+
     all_dates = sorted(
         {
             str(row.get("opendate"))
@@ -173,14 +177,24 @@ def main() -> None:
             if row.get("opendate")
         }
     )
+    market_by_code: dict[str, dict[str, Any]] = {}
+    market_daily_path = (
+        website_dir / "full_market" / f"full_market_daily_{target_date}.json"
+    )
+    if market_daily_path.is_file():
+        market_daily = json.loads(market_daily_path.read_text(encoding="utf-8"))
+        if market_daily.get("date") == target_date:
+            market_by_code = {
+                str(item.get("code")): item
+                for item in market_daily.get("stock", {}).get("all", [])
+                if item.get("code")
+            }
+    if market_by_code:
+        all_dates = sorted(set(all_dates) | {target_date})
     last_six = all_dates[-6:]
     last_five = all_dates[-5:]
     if target_date not in all_dates:
         raise RuntimeError(f"target date {target_date} missing from source")
-
-    website_dir = WEBSITE_DATA
-    website_dir.mkdir(parents=True, exist_ok=True)
-    DELIVERABLE_DIR.mkdir(parents=True, exist_ok=True)
 
     stock_rows: list[dict[str, Any]] = []
     group_payload: dict[str, dict[str, Any]] = {}
@@ -197,14 +211,23 @@ def main() -> None:
         for stock in members:
             rows = raw_by_code.get(stock.code, [])
             by_date = {str(row.get("opendate")): row for row in rows}
-            if target_date not in by_date:
+            target = by_date.get(target_date)
+            market_row = market_by_code.get(stock.code)
+            if target is None and market_row is None:
                 missing.append(stock)
                 continue
             available.append(stock)
 
             for day in last_six:
                 row = by_date.get(day)
-                if not row:
+                if day == target_date and row is None and market_row is not None:
+                    main = market_row.get("flow_yi")
+                    main = float(main) * 1e8 if main is not None else None
+                    if main is not None:
+                        daily_main[day] += main
+                        covered_by_day[day] += 1
+                    continue
+                if row is None:
                     continue
                 main = numeric(row, "r0_net")
                 total = numeric(row, "netamount")
@@ -214,9 +237,30 @@ def main() -> None:
                 if total is not None:
                     daily_total[day] += total
 
-            target = by_date[target_date]
-            main = numeric(target, "r0_net")
-            total = numeric(target, "netamount")
+            main = (
+                numeric(target, "r0_net")
+                if target is not None
+                else float(market_row["flow_yi"]) * 1e8
+                if market_row and market_row.get("flow_yi") is not None
+                else None
+            )
+            total = numeric(target, "netamount") if target is not None else None
+            main_ratio = (
+                numeric(target, "r0_ratio")
+                if target is not None
+                else market_row.get("main_ratio")
+                if market_row
+                else None
+            )
+            price = numeric(target, "trade") if target is not None else None
+            change_pct = (
+                numeric(target, "changeratio") * 100
+                if target is not None
+                and numeric(target, "changeratio") is not None
+                else market_row.get("change_pct")
+                if market_row
+                else None
+            )
             stock_rows.append(
                 {
                     "group": group,
@@ -225,15 +269,11 @@ def main() -> None:
                     "date": target_date,
                     "main_net_yuan": main,
                     "main_net_yi": round(main / 1e8, 4) if main is not None else None,
-                    "main_net_ratio": numeric(target, "r0_ratio"),
+                    "main_net_ratio": main_ratio,
                     "total_net_yuan": total,
                     "total_net_yi": round(total / 1e8, 4) if total is not None else None,
-                    "price": numeric(target, "trade"),
-                    "change_pct": (
-                        numeric(target, "changeratio") * 100
-                        if numeric(target, "changeratio") is not None
-                        else None
-                    ),
+                    "price": price,
+                    "change_pct": change_pct,
                 }
             )
             if main is not None:
@@ -289,8 +329,12 @@ def main() -> None:
             {
                 "分组": group,
                 "交易日": target_date,
-                "数据源": "新浪财经 MoneyFlow",
-                "口径": "主力净流入 r0_net",
+                "数据源": (
+                    "新浪财经 MoneyFlow + 东方财富 f62 补当日"
+                    if market_by_code
+                    else "新浪财经 MoneyFlow"
+                ),
+                "口径": "主力净流入（历史 r0_net，当日 f62 补齐）",
                 "分组成分数": len(members),
                 "成功覆盖数": len(available),
                 "覆盖率%": group_payload[group]["coverage_pct"],
@@ -305,8 +349,12 @@ def main() -> None:
 
     retrieved_at = datetime.now().astimezone().isoformat(timespec="seconds")
     payload = {
-        "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs",
-        "definition": "r0_net，即新浪财经页面标注的“主力净流入”",
+        "source": (
+            "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs；当日缺失时用东方财富 f62 补齐"
+            if market_by_code
+            else "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs"
+        ),
+        "definition": "主力净流入；历史 r0_net，当日 f62",
         "retrieved_at": retrieved_at,
         "date": target_date,
         "dates": last_six,

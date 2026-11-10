@@ -163,6 +163,7 @@ def main() -> int:
                     "components_after": component_summary(status),
                 }
             )
+            append_log("healthy")
         payload["success"] = True
         write_status(payload)
         return 0

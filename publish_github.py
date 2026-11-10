@@ -367,25 +367,63 @@ def main() -> None:
             json=page_payload,
         )
     else:
-        api(
-            "PUT",
-            f"{repo_path}/pages",
-            expected=(200, 204),
-            json=page_payload,
-        )
+        current_pages = pages.json()
+        source = current_pages.get("source") or {}
+        if (
+            source.get("branch") != BRANCH
+            or source.get("path") != "/"
+            or current_pages.get("build_type") != "legacy"
+        ):
+            api(
+                "PUT",
+                f"{repo_path}/pages",
+                expected=(200, 204),
+                json=page_payload,
+            )
 
     pages_url = f"https://{owner}.github.io/{REPO_NAME}/"
     pages_ready = False
-    for attempt in range(1, 13):
+    is_close_publish = "daily" in args.slot.lower() or "close" in args.slot.lower()
+    attempts = 36 if is_close_publish else 12
+    for attempt in range(1, attempts + 1):
         try:
-            response = requests.get(pages_url, timeout=20)
-            if response.status_code == 200 and "大A爆破实验室" in response.text:
-                print(f"[PAGES] ready {pages_url}", flush=True)
-                pages_ready = True
-                break
-        except requests.RequestException:
+            build = api(
+                "GET",
+                f"{repo_path}/pages/builds/latest",
+                expected=(200, 404),
+            )
+            if build.status_code == 200:
+                build_data = build.json()
+                build_commit = str(build_data.get("commit") or "")
+                build_status = str(build_data.get("status") or "")
+                if (
+                    build_commit == commit["sha"]
+                    and build_status == "built"
+                ):
+                    runtime_url = (
+                        f"{pages_url}data/runtime_status.js"
+                        f"?deploy={commit['sha'][:12]}"
+                    )
+                    runtime_response = requests.get(runtime_url, timeout=20)
+                    if (
+                        runtime_response.status_code == 200
+                        and runtime_status["published_at"] in runtime_response.text
+                    ):
+                        print(
+                            f"[PAGES] ready {pages_url} commit={commit['sha'][:10]}",
+                            flush=True,
+                        )
+                        pages_ready = True
+                        break
+                elif build_status == "errored":
+                    print(
+                        f"[PAGES] build failed: {build_data.get('error')}",
+                        flush=True,
+                    )
+                    break
+        except (requests.RequestException, RuntimeError):
             pass
-        print(f"[WAIT] Pages deployment check {attempt}/12", flush=True)
+        print(f"[WAIT] Pages deployment check {attempt}/{attempts}", flush=True)
         time.sleep(5)
     if not pages_ready:
         print(f"[PAGES] submitted {pages_url}", flush=True)

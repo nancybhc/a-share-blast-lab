@@ -456,21 +456,6 @@ def main() -> int:
                 True,
                 300,
             ),
-            (
-                "group-fund",
-                [
-                    sys.executable,
-                    "-X",
-                    "utf8",
-                    "data/fetch_group_fund_flows.py",
-                    "--date",
-                    target_date,
-                    "--workbook",
-                    str(report),
-                ],
-                False,
-                900,
-            ),
         ]
 
         for name, command, required, timeout in steps:
@@ -497,6 +482,25 @@ def main() -> int:
             timeout=600,
         )
         status["steps"].append({"name": "full-market-close", "ok": full_ok})
+        if full_ok:
+            group_ok, _ = run_step(
+                "group-fund",
+                [
+                    sys.executable,
+                    "-X",
+                    "utf8",
+                    "data/fetch_group_fund_flows.py",
+                    "--date",
+                    target_date,
+                    "--workbook",
+                    str(report),
+                ],
+                required=False,
+                timeout=900,
+            )
+            status["steps"].append({"name": "group-fund", "ok": group_ok})
+        else:
+            status["steps"].append({"name": "group-fund", "ok": False})
         if not full_ok:
             _, _ = run_step(
                 "full-market-close-fallback",
