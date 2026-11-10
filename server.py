@@ -39,6 +39,7 @@ PROCESS_LOCK = threading.Lock()
 THEME_REFRESH_LOCK = threading.Lock()
 LIVE_PIPELINE_LOCK = threading.Lock()
 PUBLISH_LOCK = threading.Lock()
+MONITOR_REPAIR_LOCK = threading.Lock()
 PUBLISH_INTERVAL_SECONDS = 60
 LAST_ATTEMPTED_SLOT: str | None = None
 PUBLISH_RUNNING = False
@@ -47,6 +48,10 @@ AUTO_MONITOR_START = clock_time(9, 15)
 AUTO_MONITOR_STOP = clock_time(15, 0)
 LAST_AUTO_START_ATTEMPT: datetime | None = None
 LAST_AUTO_STOP_ATTEMPT: datetime | None = None
+LAST_AUTO_REPAIR_ATTEMPT: datetime | None = None
+FULL_MARKET_STALE_SECONDS = 3 * 60
+THEME_STALE_SECONDS = 4 * 60
+LIVE_PIPELINE_STALE_SECONDS = 9 * 60
 
 
 def is_trading_window(now: datetime) -> bool:
@@ -57,6 +62,29 @@ def is_trading_window(now: datetime) -> bool:
         clock_time(9, 15) <= current <= clock_time(11, 35)
         or clock_time(12, 55) <= current < clock_time(15, 0)
     )
+
+
+def is_monitor_health_window(now: datetime) -> bool:
+    """Only judge freshness while captures are expected to be advancing."""
+    if now.weekday() >= 5:
+        return False
+    current = now.time()
+    return (
+        clock_time(9, 32) <= current <= clock_time(11, 35)
+        or clock_time(12, 57) <= current < clock_time(15, 0)
+    )
+
+
+def parse_status_time(value: Any) -> datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=CHINA_TZ)
+    return parsed.astimezone(CHINA_TZ)
 
 
 def slot_datetime(now: datetime, slot: clock_time) -> datetime:
@@ -127,8 +155,23 @@ def read_pid() -> int | None:
         return None
     if pid_is_running(pid):
         return pid
-    PID_FILE.unlink(missing_ok=True)
+    try:
+        PID_FILE.unlink(missing_ok=True)
+    except OSError:
+        pass
     return None
+
+
+def write_pid_file(path: Path, pid: int) -> None:
+    last_error: OSError | None = None
+    for _ in range(12):
+        try:
+            path.write_text(str(pid), encoding="ascii")
+            return
+        except OSError as exc:
+            last_error = exc
+            time.sleep(0.1)
+    raise last_error or OSError(f"cannot write pid file: {path}")
 
 
 def collector_state() -> dict[str, Any]:
@@ -207,7 +250,11 @@ def start_collector() -> dict[str, Any]:
             creationflags=creation_flags,
         )
         log_handle.close()
-        PID_FILE.write_text(str(process.pid), encoding="ascii")
+        try:
+            write_pid_file(PID_FILE, process.pid)
+        except Exception:
+            process.terminate()
+            raise
         time.sleep(0.25)
         return collector_state()
 
@@ -224,7 +271,10 @@ def stop_collector() -> dict[str, Any]:
                 )
             else:
                 os.kill(pid, 15)
-        PID_FILE.unlink(missing_ok=True)
+        try:
+            PID_FILE.unlink(missing_ok=True)
+        except OSError:
+            pass
         return collector_state()
 
 
@@ -294,7 +344,10 @@ def theme_refresh_state() -> dict[str, Any]:
         pid = 0
     running = pid_is_running(pid)
     if not running:
-        THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
+        try:
+            THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
+        except OSError:
+            pass
     try:
         payload = json.loads(THEME_REFRESH_STATUS.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
@@ -336,7 +389,11 @@ def start_theme_refresh() -> dict[str, Any]:
             creationflags=creation_flags,
         )
         log_handle.close()
-        THEME_REFRESH_PID_FILE.write_text(str(process.pid), encoding="ascii")
+        try:
+            write_pid_file(THEME_REFRESH_PID_FILE, process.pid)
+        except Exception:
+            process.terminate()
+            raise
         time.sleep(0.4)
         return theme_refresh_state()
 
@@ -354,7 +411,10 @@ def stop_theme_refresh() -> dict[str, Any]:
                 )
             else:
                 os.kill(pid, 15)
-        THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
+        try:
+            THEME_REFRESH_PID_FILE.unlink(missing_ok=True)
+        except OSError:
+            pass
         return theme_refresh_state()
 
 
@@ -365,7 +425,10 @@ def live_pipeline_state() -> dict[str, Any]:
         pid = 0
     running = pid_is_running(pid)
     if not running:
-        LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
+        try:
+            LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
+        except OSError:
+            pass
     try:
         payload = json.loads(LIVE_PIPELINE_STATUS.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
@@ -406,7 +469,11 @@ def start_live_pipeline() -> dict[str, Any]:
             creationflags=creation_flags,
         )
         log_handle.close()
-        LIVE_PIPELINE_PID_FILE.write_text(str(process.pid), encoding="ascii")
+        try:
+            write_pid_file(LIVE_PIPELINE_PID_FILE, process.pid)
+        except Exception:
+            process.terminate()
+            raise
         time.sleep(0.4)
         return live_pipeline_state()
 
@@ -424,8 +491,37 @@ def stop_live_pipeline() -> dict[str, Any]:
                 )
             else:
                 os.kill(pid, 15)
-        LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
+        try:
+            LIVE_PIPELINE_PID_FILE.unlink(missing_ok=True)
+        except OSError:
+            pass
         return live_pipeline_state()
+
+
+def stale_monitor_components(
+    state: dict[str, Any],
+    now: datetime | None = None,
+) -> list[str]:
+    current = now or datetime.now(CHINA_TZ)
+    if not is_monitor_health_window(current):
+        return []
+
+    thresholds = {
+        "full_market": (FULL_MARKET_STALE_SECONDS, "last_capture_at"),
+        "theme_radar": (THEME_STALE_SECONDS, "updated_at"),
+        "live_pipeline": (LIVE_PIPELINE_STALE_SECONDS, "updated_at"),
+    }
+    components = state.get("components", {})
+    stale: list[str] = []
+    for name, (max_age, timestamp_key) in thresholds.items():
+        component = components.get(name) or {}
+        if not component.get("running"):
+            stale.append(name)
+            continue
+        updated_at = parse_status_time(component.get(timestamp_key))
+        if updated_at is None or (current - updated_at).total_seconds() > max_age:
+            stale.append(name)
+    return stale
 
 
 def all_monitor_state() -> dict[str, Any]:
@@ -439,11 +535,19 @@ def all_monitor_state() -> dict[str, Any]:
     }
     running_count = sum(bool(item.get("running")) for item in components.values())
     current = datetime.now(CHINA_TZ)
-    return {
+    state = {
+        "components": components,
         "running_count": running_count,
         "total_count": len(components),
         "all_running": running_count == len(components),
         "any_running": running_count > 0,
+    }
+    stale = stale_monitor_components(state, current)
+    return {
+        **state,
+        "stale_components": stale,
+        "needs_repair": bool(stale),
+        "health_window": is_monitor_health_window(current),
         "components": components,
         "schedule": monitor_schedule_state(current),
         "server_time": current.isoformat(timespec="seconds"),
@@ -505,40 +609,108 @@ def stop_all_monitors() -> dict[str, Any]:
     return result
 
 
-def monitor_schedule_loop() -> None:
-    global LAST_AUTO_START_ATTEMPT, LAST_AUTO_STOP_ATTEMPT
-    while True:
-        now = datetime.now(CHINA_TZ)
-        current_time = now.time()
-        weekday = now.weekday() < 5
-        state = all_monitor_state()
-        retry_ready = (
-            LAST_AUTO_STOP_ATTEMPT is None
-            or (now - LAST_AUTO_STOP_ATTEMPT).total_seconds() >= 60
+def repair_stale_monitors(now: datetime | None = None) -> dict[str, Any]:
+    with MONITOR_REPAIR_LOCK:
+        current = now or datetime.now(CHINA_TZ)
+        before = all_monitor_state()
+        stale = stale_monitor_components(before, current)
+        errors: list[str] = []
+        repaired: list[str] = []
+        if stale:
+            stoppers = {
+                "full_market": stop_collector,
+                "theme_radar": stop_theme_refresh,
+                "live_pipeline": stop_live_pipeline,
+            }
+            starters = {
+                "full_market": start_collector,
+                "theme_radar": start_theme_refresh,
+                "live_pipeline": start_live_pipeline,
+            }
+            for name in stale:
+                component = before["components"].get(name, {})
+                try:
+                    if component.get("running"):
+                        stoppers[name]()
+                    starters[name]()
+                    repaired.append(name)
+                except Exception as exc:  # noqa: BLE001
+                    errors.append(f"{name}: {type(exc).__name__}: {exc}")
+        result = all_monitor_state()
+        result.update(
+            {
+                "checked_at": current.isoformat(timespec="seconds"),
+                "stale_before_repair": stale,
+                "repaired_components": repaired,
+                "errors": errors,
+            }
         )
-        start_retry_ready = (
-            LAST_AUTO_START_ATTEMPT is None
-            or (now - LAST_AUTO_START_ATTEMPT).total_seconds() >= 60
-        )
+        return result
 
-        if weekday and AUTO_MONITOR_START <= current_time < AUTO_MONITOR_STOP:
-            if not state["all_running"] and start_retry_ready:
-                LAST_AUTO_START_ATTEMPT = now
-                result = start_all_monitors()
-                print(
-                    f"[AUTO] 09:15 自动启动完成 "
-                    f"{result['running_count']}/{result['total_count']}",
-                    flush=True,
-                )
-        elif (weekday and current_time >= AUTO_MONITOR_STOP) or not weekday:
-            if state["any_running"] and retry_ready:
-                LAST_AUTO_STOP_ATTEMPT = now
-                result = stop_all_monitors()
-                print(
-                    f"[AUTO] {AUTO_MONITOR_STOP.strftime('%H:%M')} 自动停止完成 "
-                    f"{result['running_count']}/{result['total_count']}",
-                    flush=True,
-                )
+
+def monitor_schedule_loop() -> None:
+    global LAST_AUTO_REPAIR_ATTEMPT, LAST_AUTO_START_ATTEMPT, LAST_AUTO_STOP_ATTEMPT
+    while True:
+        try:
+            now = datetime.now(CHINA_TZ)
+            current_time = now.time()
+            weekday = now.weekday() < 5
+            state = all_monitor_state()
+            retry_ready = (
+                LAST_AUTO_STOP_ATTEMPT is None
+                or (now - LAST_AUTO_STOP_ATTEMPT).total_seconds() >= 60
+            )
+            start_retry_ready = (
+                LAST_AUTO_START_ATTEMPT is None
+                or (now - LAST_AUTO_START_ATTEMPT).total_seconds() >= 60
+            )
+            repair_retry_ready = (
+                LAST_AUTO_REPAIR_ATTEMPT is None
+                or (now - LAST_AUTO_REPAIR_ATTEMPT).total_seconds() >= 120
+            )
+
+            if weekday and AUTO_MONITOR_START <= current_time < AUTO_MONITOR_STOP:
+                stale = stale_monitor_components(state, now)
+                if stale and repair_retry_ready:
+                    LAST_AUTO_REPAIR_ATTEMPT = now
+                    print(
+                        f"[AUTO] stale monitors detected: {', '.join(stale)}; repairing",
+                        flush=True,
+                    )
+                    result = repair_stale_monitors(now)
+                    if result["errors"]:
+                        print(
+                            f"[AUTO] repair errors: {'; '.join(result['errors'])}",
+                            flush=True,
+                        )
+                    else:
+                        print(
+                            f"[AUTO] repair completed: "
+                            f"{', '.join(result['repaired_components']) or 'none'}",
+                            flush=True,
+                        )
+                elif not state["all_running"] and start_retry_ready:
+                    LAST_AUTO_START_ATTEMPT = now
+                    result = start_all_monitors()
+                    print(
+                        f"[AUTO] 09:15 自动启动完成 "
+                        f"{result['running_count']}/{result['total_count']}",
+                        flush=True,
+                    )
+            elif (weekday and current_time >= AUTO_MONITOR_STOP) or not weekday:
+                if state["any_running"] and retry_ready:
+                    LAST_AUTO_STOP_ATTEMPT = now
+                    result = stop_all_monitors()
+                    print(
+                        f"[AUTO] {AUTO_MONITOR_STOP.strftime('%H:%M')} 自动停止完成 "
+                        f"{result['running_count']}/{result['total_count']}",
+                        flush=True,
+                    )
+        except Exception as exc:  # noqa: BLE001
+            print(
+                f"[AUTO] monitor scheduler error: {type(exc).__name__}: {exc}",
+                flush=True,
+            )
         time.sleep(30)
 
 
@@ -576,6 +748,9 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 return
             if path == "/api/monitors/start-all":
                 self.send_json(start_all_monitors())
+                return
+            if path == "/api/monitors/repair":
+                self.send_json(repair_stale_monitors())
                 return
             if path == "/api/monitors/stop-all":
                 self.send_json(stop_all_monitors())

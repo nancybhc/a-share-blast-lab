@@ -370,6 +370,17 @@ button {
   box-shadow: 0 0 9px rgba(255, 155, 69, 0.6);
 }
 
+.master-monitor-button[data-state="warning"] {
+  border-color: rgba(var(--red-rgb), 0.55);
+  color: var(--red);
+  background: rgba(var(--red-rgb), 0.1);
+}
+
+.master-monitor-button[data-state="warning"] i {
+  background: var(--red);
+  box-shadow: 0 0 9px rgba(var(--red-rgb), 0.7);
+}
+
 .master-monitor-button[data-state="offline"] {
   border-color: var(--line);
   color: var(--muted-2);

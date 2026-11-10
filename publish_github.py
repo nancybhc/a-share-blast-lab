@@ -49,6 +49,8 @@ EXCLUDED_NAMES = {
     ".daily_postmarket_update.lock",
     "monitor_auto_schedule.log",
     "monitor_auto_schedule_status.json",
+    "monitor_watchdog.log",
+    "monitor_watchdog_status.json",
     "server.autostart.log",
 }
 EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".tmp"}

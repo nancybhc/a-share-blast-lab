@@ -1559,7 +1559,9 @@ function setMasterMonitorButton(state, label, disabled = false) {
 }
 
 function applyMasterMonitorStatus(status) {
-  if (status.all_running) {
+  if (status.needs_repair) {
+    setMasterMonitorButton("warning", "监控卡住 · 点击修复");
+  } else if (status.all_running) {
     setMasterMonitorButton("running", "全部监控运行中 · 停止");
   } else if (status.any_running) {
     setMasterMonitorButton("partial", "补齐全部监控");
@@ -1575,7 +1577,13 @@ function applyMasterMonitorStatus(status) {
   const names = Object.entries(status.components || {})
     .map(
       ([key, value]) =>
-        `${componentNames[key] || key}: ${value.running ? "运行" : "停止"}`,
+        `${componentNames[key] || key}: ${
+          (status.stale_components || []).includes(key)
+            ? "数据停滞"
+            : value.running
+              ? "运行"
+              : "停止"
+        }`,
     )
     .join(" / ");
   const schedule = status.schedule;
@@ -1611,17 +1619,28 @@ async function initMasterMonitorControl() {
   button.addEventListener("click", async () => {
     const state = button.dataset.state;
     const stop = state === "running";
+    const repair = state === "warning";
     button.disabled = true;
     try {
       const status = await collectorApi(
-        stop ? "/api/monitors/stop-all" : "/api/monitors/start-all",
+        repair
+          ? "/api/monitors/repair"
+          : stop
+            ? "/api/monitors/stop-all"
+            : "/api/monitors/start-all",
         "POST",
       );
       applyMasterMonitorStatus(status);
       if (status.errors?.length) {
         showToast(`部分监控未启动：${status.errors.join("；")}`);
       } else {
-        showToast(stop ? "全部监控已停止" : "全部监控已启动");
+        showToast(
+          repair
+            ? "已触发监控自动修复，正在恢复数据"
+            : stop
+              ? "全部监控已停止"
+              : "全部监控已启动",
+        );
       }
       await pollCollectorStatus();
       await refreshDynamicSections();
