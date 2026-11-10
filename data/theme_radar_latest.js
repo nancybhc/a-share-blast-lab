@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T11:25:43+08:00",
+  "generated_at": "2026-11-10T11:30:08+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-10午盘",
@@ -9,67 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-10",
       "theme": "AI算力",
       "representative": "AI语料",
-      "change_pct": 4.18,
+      "change_pct": 4.02,
       "constituents": 694,
-      "members": "AI语料 +4.18% / CPO概念 +2.81% / 液冷服务器 +2.07% / 算力概念 +1.95% / 数据中心 +1.67%",
+      "members": "AI语料 +4.02% / CPO概念 +2.55% / 液冷服务器 +1.87% / 算力概念 +1.80% / 数据中心 +1.53%",
       "rank": 1
     },
     {
       "date": "2026-11-10",
       "theme": "网络游戏/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 4.15,
+      "change_pct": 3.95,
       "constituents": 103,
-      "members": "短剧互动游戏 +4.15% / 网络游戏 +2.72%",
+      "members": "短剧互动游戏 +3.95% / 网络游戏 +2.66%",
       "rank": 2
     },
     {
       "date": "2026-11-10",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 4.08,
+      "change_pct": 3.86,
       "constituents": 28,
-      "members": "AI视频 +4.08%",
+      "members": "AI视频 +3.86%",
       "rank": 3
     },
     {
       "date": "2026-11-10",
       "theme": "数字阅读",
       "representative": "数字阅读",
-      "change_pct": 3.86,
+      "change_pct": 3.75,
       "constituents": 19,
-      "members": "数字阅读 +3.86%",
+      "members": "数字阅读 +3.75%",
       "rank": 4
     },
     {
       "date": "2026-11-10",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 3.81,
+      "change_pct": 3.71,
       "constituents": 64,
-      "members": "影视概念 +3.81%",
+      "members": "影视概念 +3.71%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "AI视频",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 4.55,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10、11-05"
-    },
-    {
       "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.53,
+      "avg_change_pct": 4.45,
       "avg_rank": 3.0,
       "latest_rank": 1,
+      "dates": "11-10、11-05"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.44,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-10、11-05"
     },
     {
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.15,
+      "avg_change_pct": 3.95,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-10"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.86,
+      "avg_change_pct": 3.75,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-10"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.81,
+      "avg_change_pct": 3.71,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
