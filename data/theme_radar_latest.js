@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T10:47:59+08:00",
+  "generated_at": "2026-11-11T10:52:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
   "daily_top": [
     {
       "date": "2026-11-11",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 2.28,
-      "constituents": 464,
-      "members": "机器人执行器 +2.28% / 减速器 +2.24% / 机器视觉 +1.42% / 人形机器人 +1.41%",
+      "theme": "轮毂电机",
+      "representative": "轮毂电机",
+      "change_pct": 1.84,
+      "constituents": 9,
+      "members": "轮毂电机 +1.84%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
-      "theme": "轮毂电机",
-      "representative": "轮毂电机",
-      "change_pct": 2.19,
-      "constituents": 9,
-      "members": "轮毂电机 +2.19%",
+      "theme": "机器人",
+      "representative": "减速器",
+      "change_pct": 1.76,
+      "constituents": 464,
+      "members": "减速器 +1.76% / 机器人执行器 +1.71% / 机器视觉 +1.03% / 人形机器人 +0.89%",
       "rank": 2
     },
     {
       "date": "2026-11-11",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 1.74,
-      "constituents": 9,
-      "members": "噪声防治 +1.74%",
+      "theme": "全息技术",
+      "representative": "全息技术",
+      "change_pct": 1.58,
+      "constituents": 11,
+      "members": "全息技术 +1.58%",
       "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.72,
+      "change_pct": 1.49,
       "constituents": 26,
-      "members": "F5G概念 +1.72%",
+      "members": "F5G概念 +1.49%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 1.66,
-      "constituents": 695,
-      "members": "CPO概念 +1.66% / AI语料 +0.61% / 算力概念 +0.39% / 液冷服务器 +0.37% / 数据中心 +0.32%",
+      "theme": "微盘精选",
+      "representative": "微盘精选",
+      "change_pct": 1.47,
+      "constituents": 36,
+      "members": "微盘精选 +1.47%",
       "rank": 5
     }
   ],
@@ -57,30 +57,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.12,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.86,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-11、11-09"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.96,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-11、11-09"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.27,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-11、11-05"
     },
     {
       "theme": "智能音箱",
@@ -97,9 +77,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.19,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.84,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-11"
+    },
+    {
+      "theme": "全息技术",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.58,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-11"
     },
     {
@@ -107,9 +97,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.72,
+      "avg_change_pct": 1.49,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-11"
+    },
+    {
+      "theme": "微盘精选",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.47,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-11"
     },
     {
@@ -203,6 +203,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-05"
     },
     {
+      "theme": "噪声防治",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.18,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-09"
+    },
+    {
       "theme": "可燃冰",
       "current_streak": 0,
       "max_streak": 1,
@@ -251,6 +261,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.87,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-05"
     },
     {
       "theme": "草甘膦",
