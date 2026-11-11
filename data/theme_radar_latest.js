@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T11:14:59+08:00",
+  "generated_at": "2026-11-11T11:19:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
   "daily_top": [
     {
       "date": "2026-11-11",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 2.05,
-      "constituents": 26,
-      "members": "F5G概念 +2.05%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 3.11,
+      "constituents": 695,
+      "members": "CPO概念 +3.11% / AI语料 +1.72% / 液冷服务器 +0.84% / 算力概念 +0.78% / 数据中心 +0.75%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 2.02,
-      "constituents": 695,
-      "members": "CPO概念 +2.02% / AI语料 +1.94% / 算力概念 +0.52% / 数据中心 +0.43% / 液冷服务器 +0.43%",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 2.68,
+      "constituents": 26,
+      "members": "F5G概念 +2.68%",
       "rank": 2
     },
     {
       "date": "2026-11-11",
-      "theme": "轮毂电机",
-      "representative": "轮毂电机",
-      "change_pct": 1.97,
-      "constituents": 9,
-      "members": "轮毂电机 +1.97%",
+      "theme": "通信技术/5G概念/光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 2.68,
+      "constituents": 436,
+      "members": "光通信模块 +2.68% / 通信技术 +1.50% / 5G概念 +1.39%",
       "rank": 3
     },
     {
       "date": "2026-11-11",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 1.88,
-      "constituents": 464,
-      "members": "减速器 +1.88% / 机器人执行器 +1.85% / 机器视觉 +1.38% / 人形机器人 +1.18%",
+      "theme": "光纤概念",
+      "representative": "光纤概念",
+      "change_pct": 2.41,
+      "constituents": 92,
+      "members": "光纤概念 +2.41%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 1.85,
+      "change_pct": 2.12,
       "constituents": 9,
-      "members": "噪声防治 +1.85%",
+      "members": "噪声防治 +2.12%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.45,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.99,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-11、11-05"
     },
     {
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.02,
+      "avg_change_pct": 2.15,
       "avg_rank": 4.0,
       "latest_rank": 5,
-      "dates": "11-11、11-09"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.92,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
       "dates": "11-11、11-09"
     },
     {
@@ -97,19 +87,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.05,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.68,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-11"
     },
     {
-      "theme": "轮毂电机",
+      "theme": "通信技术/5G概念/光通信模块",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.97,
+      "avg_change_pct": 2.68,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-11"
+    },
+    {
+      "theme": "光纤概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.41,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-11"
     },
     {
@@ -251,6 +251,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.97,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-09"
     },
     {
       "theme": "草甘膦",
