@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T13:57:15+08:00",
+  "generated_at": "2026-11-11T14:01:45+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 5.39,
+      "change_pct": 5.49,
       "constituents": 695,
-      "members": "CPO概念 +5.39% / AI语料 +3.27% / 液冷服务器 +2.17% / 算力概念 +1.90% / 数据中心 +1.80%",
+      "members": "CPO概念 +5.49% / AI语料 +2.99% / 液冷服务器 +2.30% / 算力概念 +1.88% / 数据中心 +1.83%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 4.8,
+      "change_pct": 4.93,
       "constituents": 436,
-      "members": "光通信模块 +4.80% / 通信技术 +3.01% / 5G概念 +2.79%",
+      "members": "光通信模块 +4.93% / 通信技术 +3.06% / 5G概念 +2.82%",
       "rank": 2
     },
     {
       "date": "2026-11-11",
       "theme": "光纤概念",
       "representative": "光纤概念",
-      "change_pct": 4.24,
+      "change_pct": 4.33,
       "constituents": 92,
-      "members": "光纤概念 +4.24%",
+      "members": "光纤概念 +4.33%",
       "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 4.06,
+      "change_pct": 4.07,
       "constituents": 26,
-      "members": "F5G概念 +4.06%",
+      "members": "F5G概念 +4.07%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 3.57,
+      "change_pct": 3.7,
       "constituents": 9,
-      "members": "噪声防治 +3.57%",
+      "members": "噪声防治 +3.70%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.13,
+      "avg_change_pct": 5.18,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.88,
+      "avg_change_pct": 2.94,
       "avg_rank": 4.0,
       "latest_rank": 5,
       "dates": "11-11、11-09"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.8,
+      "avg_change_pct": 4.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.24,
+      "avg_change_pct": 4.33,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-11"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.06,
+      "avg_change_pct": 4.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
