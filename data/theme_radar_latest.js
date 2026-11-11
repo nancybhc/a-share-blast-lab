@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T13:30:59+08:00",
+  "generated_at": "2026-11-11T13:35:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,68 +9,68 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 4.18,
+      "change_pct": 4.04,
       "constituents": 695,
-      "members": "CPO概念 +4.18% / AI语料 +2.09% / 液冷服务器 +1.42% / 算力概念 +1.35% / 数据中心 +1.27%",
+      "members": "CPO概念 +4.04% / AI语料 +2.60% / 液冷服务器 +1.35% / 算力概念 +1.34% / 数据中心 +1.24%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 3.67,
+      "change_pct": 3.56,
       "constituents": 436,
-      "members": "光通信模块 +3.67% / 通信技术 +2.19% / 5G概念 +2.04%",
+      "members": "光通信模块 +3.56% / 通信技术 +2.11% / 5G概念 +1.97%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "游戏概念/短剧互动游戏",
+      "representative": "游戏概念",
+      "change_pct": 3.24,
+      "constituents": 105,
+      "members": "游戏概念 +3.24% / 短剧互动游戏 +1.94%",
+      "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "光纤概念",
       "representative": "光纤概念",
-      "change_pct": 3.31,
+      "change_pct": 3.21,
       "constituents": 92,
-      "members": "光纤概念 +3.31%",
-      "rank": 3
+      "members": "光纤概念 +3.21%",
+      "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 3.24,
+      "change_pct": 3.16,
       "constituents": 26,
-      "members": "F5G概念 +3.24%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 3.1,
-      "constituents": 9,
-      "members": "噪声防治 +3.10%",
+      "members": "F5G概念 +3.16%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 4.36,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-11、11-10"
+    },
+    {
       "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.53,
+      "avg_change_pct": 4.46,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.64,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "11-11、11-09"
     },
     {
       "theme": "智能音箱",
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.67,
+      "avg_change_pct": 3.56,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.31,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 3.21,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-11"
     },
     {
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.24,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 3.16,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-11"
     },
     {
@@ -183,16 +183,6 @@ window.THEME_RADAR_DATA = {
       "dates": "11-06"
     },
     {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.48,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
-    },
-    {
       "theme": "AI视频",
       "current_streak": 0,
       "max_streak": 1,
@@ -201,6 +191,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.18,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-09"
     },
     {
       "theme": "可燃冰",
