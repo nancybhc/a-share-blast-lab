@@ -1,65 +1,75 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T10:12:19+08:00",
+  "generated_at": "2026-11-11T10:16:56+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
   "daily_top": [
     {
       "date": "2026-11-11",
-      "theme": "轮毂电机",
-      "representative": "轮毂电机",
-      "change_pct": 1.48,
-      "constituents": 9,
-      "members": "轮毂电机 +1.48%",
+      "theme": "机器人",
+      "representative": "机器人执行器",
+      "change_pct": 1.3,
+      "constituents": 464,
+      "members": "机器人执行器 +1.30% / 减速器 +1.05% / 机器视觉 +0.62% / 人形机器人 +0.41%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 1.45,
-      "constituents": 695,
-      "members": "CPO概念 +1.45% / 算力概念 +0.03% / 数据中心 -0.01% / 液冷服务器 -0.09% / AI语料 -0.65%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 1.44,
+      "theme": "轮毂电机",
+      "representative": "轮毂电机",
+      "change_pct": 1.27,
       "constituents": 9,
-      "members": "噪声防治 +1.44%",
-      "rank": 3
+      "members": "轮毂电机 +1.27%",
+      "rank": 2
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.42,
+      "change_pct": 1.22,
       "constituents": 26,
-      "members": "F5G概念 +1.42%",
+      "members": "F5G概念 +1.22%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 1.19,
+      "constituents": 695,
+      "members": "CPO概念 +1.19% / 算力概念 -0.16% / 数据中心 -0.19% / 液冷服务器 -0.30% / AI语料 -0.65%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 1.38,
-      "constituents": 464,
-      "members": "机器人执行器 +1.38% / 减速器 +1.17% / 机器视觉 +0.88% / 人形机器人 +0.65%",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 1.06,
+      "constituents": 9,
+      "members": "噪声防治 +1.06%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "机器人",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.64,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
+      "dates": "11-11、11-09"
+    },
+    {
       "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.81,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.62,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
       "dates": "11-11、11-09"
     },
     {
@@ -67,20 +77,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.16,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.03,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
       "dates": "11-11、11-05"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.67,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-11、11-09"
     },
     {
       "theme": "智能音箱",
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.48,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.27,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-11"
     },
     {
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.42,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.22,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-11"
     },
     {
