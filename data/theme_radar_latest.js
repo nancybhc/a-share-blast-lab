@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T09:29:21+08:00",
+  "generated_at": "2026-11-11T09:33:51+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,68 +9,88 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "可燃冰",
       "representative": "可燃冰",
-      "change_pct": 0.55,
+      "change_pct": 1.43,
       "constituents": 9,
-      "members": "可燃冰 +0.55%",
+      "members": "可燃冰 +1.43%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "钙钛矿电池",
+      "change_pct": 1.26,
+      "constituents": 105,
+      "members": "钙钛矿电池 +1.26% / TOPCon电池 +1.25% / BC电池 +1.05% / HJT电池 +1.01%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 1.2,
+      "constituents": 695,
+      "members": "CPO概念 +1.20% / 数据中心 +0.35% / 算力概念 +0.34% / 液冷服务器 +0.23% / AI语料 -0.55%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 1.16,
+      "constituents": 26,
+      "members": "F5G概念 +1.16%",
+      "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.22,
+      "change_pct": 1.04,
       "constituents": 20,
-      "members": "转基因 +0.22%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "社区团购",
-      "representative": "社区团购",
-      "change_pct": 0.21,
-      "constituents": 39,
-      "members": "社区团购 +0.21%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "海绵城市",
-      "representative": "海绵城市",
-      "change_pct": 0.18,
-      "constituents": 36,
-      "members": "海绵城市 +0.18%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "汽车拆解",
-      "representative": "汽车拆解",
-      "change_pct": 0.13,
-      "constituents": 17,
-      "members": "汽车拆解 +0.13%",
+      "members": "转基因 +1.04%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "转基因",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.88,
-      "avg_rank": 1.5,
+      "avg_change_pct": 3.71,
+      "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-11、11-06"
+      "dates": "11-11、11-05"
     },
     {
       "theme": "可燃冰",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.67,
+      "avg_change_pct": 1.1,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-11、11-06"
+    },
+    {
+      "theme": "转基因",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.29,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
+      "dates": "11-11、11-06"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.04,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
+      "dates": "11-11、11-05"
     },
     {
       "theme": "智能音箱",
@@ -83,33 +103,13 @@ window.THEME_RADAR_DATA = {
       "dates": "11-10、11-05"
     },
     {
-      "theme": "社区团购",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.21,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-11"
-    },
-    {
-      "theme": "海绵城市",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.18,
+      "avg_change_pct": 1.16,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-11"
-    },
-    {
-      "theme": "汽车拆解",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.13,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-11"
     },
     {
@@ -131,16 +131,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-09"
-    },
-    {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.17,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-05"
     },
     {
       "theme": "电子后视镜",
@@ -241,16 +231,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.87,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-05"
     },
     {
       "theme": "机器人",
