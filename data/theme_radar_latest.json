@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T10:21:31+08:00",
+  "generated_at": "2026-11-11T10:26:00+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 1.39,
+      "change_pct": 1.5,
       "constituents": 695,
-      "members": "CPO概念 +1.39% / 数据中心 -0.10% / 算力概念 -0.14% / 液冷服务器 -0.22% / AI语料 -0.81%",
+      "members": "CPO概念 +1.50% / 数据中心 -0.10% / 算力概念 -0.14% / 液冷服务器 -0.23% / AI语料 -0.41%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.39,
+      "change_pct": 1.49,
       "constituents": 26,
-      "members": "F5G概念 +1.39%",
+      "members": "F5G概念 +1.49%",
       "rank": 2
     },
     {
       "date": "2026-11-11",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 1.19,
-      "constituents": 464,
-      "members": "机器人执行器 +1.19% / 减速器 +0.92% / 机器视觉 +0.57% / 人形机器人 +0.35%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 1.17,
+      "theme": "可燃冰",
+      "representative": "可燃冰",
+      "change_pct": 1.27,
       "constituents": 9,
-      "members": "噪声防治 +1.17%",
-      "rank": 4
+      "members": "可燃冰 +1.27%",
+      "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "轮毂电机",
       "representative": "轮毂电机",
-      "change_pct": 1.15,
+      "change_pct": 1.23,
       "constituents": 9,
-      "members": "轮毂电机 +1.15%",
+      "members": "轮毂电机 +1.23%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 1.2,
+      "constituents": 9,
+      "members": "噪声防治 +1.20%",
       "rank": 5
     }
   ],
@@ -57,29 +57,29 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.13,
+      "avg_change_pct": 3.19,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
+    },
+    {
+      "theme": "可燃冰",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.02,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-11、11-06"
     },
     {
       "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.68,
-      "avg_rank": 3.5,
-      "latest_rank": 4,
-      "dates": "11-11、11-09"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.58,
+      "avg_change_pct": 1.69,
       "avg_rank": 4.0,
-      "latest_rank": 3,
+      "latest_rank": 5,
       "dates": "11-11、11-09"
     },
     {
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.39,
+      "avg_change_pct": 1.49,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
@@ -107,9 +107,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.15,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 1.23,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-11"
     },
     {
@@ -203,16 +203,6 @@
       "dates": "11-05"
     },
     {
-      "theme": "可燃冰",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.78,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-06"
-    },
-    {
       "theme": "影视概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -251,6 +241,16 @@
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-10"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.97,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-09"
     },
     {
       "theme": "草甘膦",
