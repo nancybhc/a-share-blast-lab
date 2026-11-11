@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T14:23:19+08:00",
+  "generated_at": "2026-11-11T14:27:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 5.94,
+      "change_pct": 5.99,
       "constituents": 695,
-      "members": "CPO概念 +5.94% / 液冷服务器 +2.39% / AI语料 +2.35% / 数据中心 +1.82% / 算力概念 +1.81%",
+      "members": "CPO概念 +5.99% / AI语料 +2.43% / 液冷服务器 +2.37% / 数据中心 +1.84% / 算力概念 +1.82%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "光纤概念",
       "representative": "光纤概念",
-      "change_pct": 4.79,
+      "change_pct": 4.81,
       "constituents": 92,
-      "members": "光纤概念 +4.79%",
+      "members": "光纤概念 +4.81%",
       "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 4.3,
+      "change_pct": 4.29,
       "constituents": 26,
-      "members": "F5G概念 +4.30%",
+      "members": "F5G概念 +4.29%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "铜缆高速连接",
       "representative": "铜缆高速连接",
-      "change_pct": 3.89,
+      "change_pct": 3.91,
       "constituents": 41,
-      "members": "铜缆高速连接 +3.89%",
+      "members": "铜缆高速连接 +3.91%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 5.41,
+      "avg_change_pct": 5.43,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.79,
+      "avg_change_pct": 4.81,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-11"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.3,
+      "avg_change_pct": 4.29,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.89,
+      "avg_change_pct": 3.91,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-11"
