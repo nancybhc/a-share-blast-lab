@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T11:19:59+08:00",
+  "generated_at": "2026-11-11T11:24:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 3.11,
+      "change_pct": 3.06,
       "constituents": 695,
-      "members": "CPO概念 +3.11% / AI语料 +1.72% / 液冷服务器 +0.84% / 算力概念 +0.78% / 数据中心 +0.75%",
+      "members": "CPO概念 +3.06% / AI语料 +1.75% / 液冷服务器 +0.81% / 算力概念 +0.79% / 数据中心 +0.76%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 2.68,
-      "constituents": 26,
-      "members": "F5G概念 +2.68%",
-      "rank": 2
     },
     {
       "date": "2026-11-11",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.68,
+      "change_pct": 2.65,
       "constituents": 436,
-      "members": "光通信模块 +2.68% / 通信技术 +1.50% / 5G概念 +1.39%",
+      "members": "光通信模块 +2.65% / 通信技术 +1.47% / 5G概念 +1.35%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 2.56,
+      "constituents": 26,
+      "members": "F5G概念 +2.56%",
       "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "光纤概念",
       "representative": "光纤概念",
-      "change_pct": 2.41,
+      "change_pct": 2.48,
       "constituents": 92,
-      "members": "光纤概念 +2.41%",
+      "members": "光纤概念 +2.48%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 2.12,
+      "change_pct": 2.16,
       "constituents": 9,
-      "members": "噪声防治 +2.12%",
+      "members": "噪声防治 +2.16%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.99,
+      "avg_change_pct": 3.96,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 2.17,
       "avg_rank": 4.0,
       "latest_rank": 5,
       "dates": "11-11、11-09"
@@ -83,21 +83,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-10、11-05"
     },
     {
-      "theme": "F5G概念",
+      "theme": "通信技术/5G概念/光通信模块",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
+      "avg_change_pct": 2.65,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
     },
     {
-      "theme": "通信技术/5G概念/光通信模块",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
+      "avg_change_pct": 2.56,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-11"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.41,
+      "avg_change_pct": 2.48,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
