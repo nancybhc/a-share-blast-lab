@@ -1,37 +1,10 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T10:03:45+08:00",
+  "generated_at": "2026-11-11T10:08:07+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
   "daily_top": [
-    {
-      "date": "2026-11-11",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 2.32,
-      "constituents": 695,
-      "members": "CPO概念 +2.32% / 液冷服务器 +0.33% / 算力概念 +0.33% / 数据中心 +0.32% / AI语料 -0.80%",
-      "rank": 1
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 2.09,
-      "constituents": 26,
-      "members": "F5G概念 +2.09%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "通信技术/5G概念/光通信模块",
-      "representative": "光通信模块",
-      "change_pct": 2.0,
-      "constituents": 436,
-      "members": "光通信模块 +2.00% / 通信技术 +0.97% / 5G概念 +0.85%",
-      "rank": 3
-    },
     {
       "date": "2026-11-11",
       "theme": "噪声防治",
@@ -39,38 +12,65 @@ window.THEME_RADAR_DATA = {
       "change_pct": 1.83,
       "constituents": 9,
       "members": "噪声防治 +1.83%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 1.75,
+      "constituents": 26,
+      "members": "F5G概念 +1.75%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 1.74,
+      "constituents": 695,
+      "members": "CPO概念 +1.74% / 算力概念 +0.35% / 数据中心 +0.24% / 液冷服务器 +0.14% / AI语料 -0.20%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "轮毂电机",
+      "representative": "轮毂电机",
+      "change_pct": 1.63,
+      "constituents": 9,
+      "members": "轮毂电机 +1.63%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
-      "theme": "光纤概念",
-      "representative": "光纤概念",
-      "change_pct": 1.68,
-      "constituents": 92,
-      "members": "光纤概念 +1.68%",
+      "theme": "通信技术/5G概念/光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 1.43,
+      "constituents": 436,
+      "members": "光通信模块 +1.43% / 通信技术 +0.74% / 5G概念 +0.64%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "AI算力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.59,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
-      "dates": "11-11、11-05"
-    },
     {
       "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 2.0,
-      "avg_rank": 3.5,
-      "latest_rank": 4,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
       "dates": "11-11、11-09"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.31,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
+      "dates": "11-11、11-05"
     },
     {
       "theme": "智能音箱",
@@ -87,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.09,
+      "avg_change_pct": 1.75,
       "avg_rank": 2.0,
       "latest_rank": 2,
+      "dates": "11-11"
+    },
+    {
+      "theme": "轮毂电机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.63,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-11"
     },
     {
@@ -97,17 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.0,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-11"
-    },
-    {
-      "theme": "光纤概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.68,
+      "avg_change_pct": 1.43,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-11"
