@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T10:57:26+08:00",
+  "generated_at": "2026-11-11T11:02:07+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 1.96,
+      "change_pct": 2.28,
       "constituents": 464,
-      "members": "机器人执行器 +1.96% / 减速器 +1.95% / 机器视觉 +1.19% / 人形机器人 +1.10%",
+      "members": "机器人执行器 +2.28% / 减速器 +2.26% / 机器视觉 +1.33% / 人形机器人 +1.32%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
       "theme": "轮毂电机",
       "representative": "轮毂电机",
-      "change_pct": 1.9,
+      "change_pct": 2.03,
       "constituents": 9,
-      "members": "轮毂电机 +1.90%",
+      "members": "轮毂电机 +2.03%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 1.68,
+      "constituents": 9,
+      "members": "噪声防治 +1.68%",
+      "rank": 3
     },
     {
       "date": "2026-11-11",
       "theme": "微盘精选",
       "representative": "微盘精选",
-      "change_pct": 1.56,
+      "change_pct": 1.66,
       "constituents": 36,
-      "members": "微盘精选 +1.56%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "全息技术",
-      "representative": "全息技术",
-      "change_pct": 1.55,
-      "constituents": 11,
-      "members": "全息技术 +1.55%",
+      "members": "微盘精选 +1.66%",
       "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.55,
+      "change_pct": 1.63,
       "constituents": 26,
-      "members": "F5G概念 +1.55%",
+      "members": "F5G概念 +1.63%",
       "rank": 5
     }
   ],
@@ -57,9 +57,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.96,
+      "avg_change_pct": 2.12,
       "avg_rank": 3.0,
       "latest_rank": 1,
+      "dates": "11-11、11-09"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.93,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-11、11-09"
     },
     {
@@ -77,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.9,
+      "avg_change_pct": 2.03,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
@@ -87,17 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.56,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-11"
-    },
-    {
-      "theme": "全息技术",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.55,
+      "avg_change_pct": 1.66,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.55,
+      "avg_change_pct": 1.63,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-11"
@@ -201,16 +201,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-05"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.18,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-09"
     },
     {
       "theme": "可燃冰",
