@@ -1,60 +1,80 @@
 window.THEME_RADAR_DATA = {
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T15:13:06+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-10收盘",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T09:29:21+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-11午盘",
   "daily_top": [
     {
-      "date": "2026-11-10",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 6.11,
-      "constituents": 19,
-      "members": "智能音箱 +6.11%",
+      "date": "2026-11-11",
+      "theme": "可燃冰",
+      "representative": "可燃冰",
+      "change_pct": 0.55,
+      "constituents": 9,
+      "members": "可燃冰 +0.55%",
       "rank": 1
     },
     {
-      "date": "2026-11-10",
-      "theme": "电子后视镜",
-      "representative": "电子后视镜",
-      "change_pct": 5.6,
-      "constituents": 26,
-      "members": "电子后视镜 +5.60%",
+      "date": "2026-11-11",
+      "theme": "转基因",
+      "representative": "转基因",
+      "change_pct": 0.22,
+      "constituents": 20,
+      "members": "转基因 +0.22%",
       "rank": 2
     },
     {
-      "date": "2026-11-10",
-      "theme": "网络游戏/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 5.48,
-      "constituents": 103,
-      "members": "短剧互动游戏 +5.48% / 网络游戏 +4.12%",
+      "date": "2026-11-11",
+      "theme": "社区团购",
+      "representative": "社区团购",
+      "change_pct": 0.21,
+      "constituents": 39,
+      "members": "社区团购 +0.21%",
       "rank": 3
     },
     {
-      "date": "2026-11-10",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 5.03,
-      "constituents": 64,
-      "members": "影视概念 +5.03%",
+      "date": "2026-11-11",
+      "theme": "海绵城市",
+      "representative": "海绵城市",
+      "change_pct": 0.18,
+      "constituents": 36,
+      "members": "海绵城市 +0.18%",
       "rank": 4
     },
     {
-      "date": "2026-11-10",
-      "theme": "虚拟现实/虚拟数字人/增强现实",
-      "representative": "混合现实",
-      "change_pct": 4.97,
-      "constituents": 295,
-      "members": "混合现实 +4.97% / 虚拟现实 +3.98% / 增强现实 +3.98% / 虚拟数字人 +3.87%",
+      "date": "2026-11-11",
+      "theme": "汽车拆解",
+      "representative": "汽车拆解",
+      "change_pct": 0.13,
+      "constituents": 17,
+      "members": "汽车拆解 +0.13%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "智能音箱",
+      "theme": "转基因",
       "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.88,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
+      "dates": "11-11、11-06"
+    },
+    {
+      "theme": "可燃冰",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.67,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
+      "dates": "11-11、11-06"
+    },
+    {
+      "theme": "智能音箱",
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 5.52,
@@ -63,54 +83,34 @@ window.THEME_RADAR_DATA = {
       "dates": "11-10、11-05"
     },
     {
-      "theme": "电子后视镜",
+      "theme": "社区团购",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.6,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-10"
-    },
-    {
-      "theme": "网络游戏/短剧互动游戏",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.48,
+      "avg_change_pct": 0.21,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-10"
+      "dates": "11-11"
     },
     {
-      "theme": "影视概念",
+      "theme": "海绵城市",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.03,
+      "avg_change_pct": 0.18,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-10"
+      "dates": "11-11"
     },
     {
-      "theme": "虚拟现实/虚拟数字人/增强现实",
+      "theme": "汽车拆解",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.97,
+      "avg_change_pct": 0.13,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-10"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 11.53,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-04"
+      "dates": "11-11"
     },
     {
       "theme": "Kimi概念",
@@ -133,26 +133,6 @@ window.THEME_RADAR_DATA = {
       "dates": "11-09"
     },
     {
-      "theme": "转基因",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.54,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-06"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 10.53,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-04"
-    },
-    {
       "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 0,
       "max_streak": 1,
@@ -161,6 +141,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-05"
+    },
+    {
+      "theme": "电子后视镜",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.6,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-10"
     },
     {
       "theme": "纳米银",
@@ -183,14 +173,14 @@ window.THEME_RADAR_DATA = {
       "dates": "11-06"
     },
     {
-      "theme": "中芯概念",
+      "theme": "游戏概念/短剧互动游戏",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.11,
+      "avg_change_pct": 5.48,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-04"
+      "dates": "11-10"
     },
     {
       "theme": "AI视频",
@@ -213,24 +203,14 @@ window.THEME_RADAR_DATA = {
       "dates": "11-09"
     },
     {
-      "theme": "可燃冰",
+      "theme": "影视概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.78,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-06"
-    },
-    {
-      "theme": "先进封装",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 9.58,
+      "avg_change_pct": 5.03,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-04"
+      "dates": "11-10"
     },
     {
       "theme": "毫米波概念",
@@ -253,14 +233,14 @@ window.THEME_RADAR_DATA = {
       "dates": "11-06"
     },
     {
-      "theme": "国产芯片/存储芯片/汽车芯片",
+      "theme": "虚拟现实/虚拟数字人/增强现实",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 9.51,
+      "avg_change_pct": 4.97,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-04"
+      "dates": "11-10"
     },
     {
       "theme": "AI算力",
