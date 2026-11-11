@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T09:55:00+08:00",
+  "generated_at": "2026-11-11T09:59:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 1.92,
+      "change_pct": 2.11,
       "constituents": 695,
-      "members": "CPO概念 +1.92% / 数据中心 +0.22% / 算力概念 +0.16% / 液冷服务器 +0.09% / AI语料 -0.86%",
+      "members": "CPO概念 +2.11% / 数据中心 +0.30% / 算力概念 +0.29% / 液冷服务器 +0.18% / AI语料 -0.74%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.89,
+      "change_pct": 1.92,
       "constituents": 26,
-      "members": "F5G概念 +1.89%",
+      "members": "F5G概念 +1.92%",
       "rank": 2
     },
     {
       "date": "2026-11-11",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 1.65,
+      "change_pct": 1.83,
       "constituents": 436,
-      "members": "光通信模块 +1.65% / 通信技术 +0.80% / 5G概念 +0.71%",
+      "members": "光通信模块 +1.83% / 通信技术 +0.90% / 5G概念 +0.79%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 1.6,
+      "constituents": 9,
+      "members": "噪声防治 +1.60%",
+      "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "光纤概念",
       "representative": "光纤概念",
-      "change_pct": 1.41,
+      "change_pct": 1.48,
       "constituents": 92,
-      "members": "光纤概念 +1.41%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "可燃冰",
-      "representative": "可燃冰",
-      "change_pct": 1.37,
-      "constituents": 9,
-      "members": "可燃冰 +1.37%",
+      "members": "光纤概念 +1.48%",
       "rank": 5
     }
   ],
@@ -57,20 +57,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.4,
+      "avg_change_pct": 3.49,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
     },
     {
-      "theme": "可燃冰",
+      "theme": "噪声防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.08,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "11-11、11-06"
+      "avg_change_pct": 1.89,
+      "avg_rank": 3.5,
+      "latest_rank": 4,
+      "dates": "11-11、11-09"
     },
     {
       "theme": "智能音箱",
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.89,
+      "avg_change_pct": 1.92,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.65,
+      "avg_change_pct": 1.83,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-11"
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.41,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.48,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-11"
     },
     {
@@ -203,14 +203,14 @@ window.THEME_RADAR_DATA = {
       "dates": "11-05"
     },
     {
-      "theme": "噪声防治",
+      "theme": "可燃冰",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.18,
+      "avg_change_pct": 0.78,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-09"
+      "dates": "11-06"
     },
     {
       "theme": "影视概念",
