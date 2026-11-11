@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T11:28:39+08:00",
+  "generated_at": "2026-11-11T11:32:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-11午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-11",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.82,
+      "change_pct": 2.62,
       "constituents": 695,
-      "members": "CPO概念 +2.82% / AI语料 +2.01% / 算力概念 +0.83% / 液冷服务器 +0.78% / 数据中心 +0.76%",
+      "members": "CPO概念 +2.62% / AI语料 +1.70% / 算力概念 +0.73% / 数据中心 +0.69% / 液冷服务器 +0.67%",
       "rank": 1
     },
     {
       "date": "2026-11-11",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.42,
+      "change_pct": 2.32,
       "constituents": 26,
-      "members": "F5G概念 +2.42%",
+      "members": "F5G概念 +2.32%",
       "rank": 2
     },
     {
       "date": "2026-11-11",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.42,
+      "change_pct": 2.22,
       "constituents": 436,
-      "members": "光通信模块 +2.42% / 通信技术 +1.41% / 5G概念 +1.31%",
+      "members": "光通信模块 +2.22% / 通信技术 +1.29% / 5G概念 +1.20%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "游戏概念/短剧互动游戏",
-      "representative": "游戏概念",
-      "change_pct": 2.31,
-      "constituents": 105,
-      "members": "游戏概念 +2.31% / 短剧互动游戏 +1.16%",
-      "rank": 4
     },
     {
       "date": "2026-11-11",
       "theme": "光纤概念",
       "representative": "光纤概念",
-      "change_pct": 2.25,
+      "change_pct": 2.13,
       "constituents": 92,
-      "members": "光纤概念 +2.25%",
+      "members": "光纤概念 +2.13%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "游戏概念/短剧互动游戏",
+      "representative": "游戏概念",
+      "change_pct": 2.12,
+      "constituents": 105,
+      "members": "游戏概念 +2.12% / 短剧互动游戏 +0.85%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 3.9,
-      "avg_rank": 3.5,
-      "latest_rank": 4,
+      "avg_change_pct": 3.8,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
       "dates": "11-11、11-10"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.84,
+      "avg_change_pct": 3.75,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-11、11-05"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.42,
+      "avg_change_pct": 2.32,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-11"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.42,
+      "avg_change_pct": 2.22,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-11"
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.25,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 2.13,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-11"
     },
     {
