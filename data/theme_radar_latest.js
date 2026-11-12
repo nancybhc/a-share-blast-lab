@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T14:05:05+08:00",
+  "generated_at": "2026-11-12T14:10:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.6,
+      "change_pct": 1.86,
       "constituents": 18,
-      "members": "水产概念 +1.60%",
+      "members": "水产概念 +1.86%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "预制菜概念",
       "representative": "预制菜概念",
-      "change_pct": 0.82,
+      "change_pct": 1.05,
       "constituents": 67,
-      "members": "预制菜概念 +0.82%",
+      "members": "预制菜概念 +1.05%",
       "rank": 2
     },
     {
       "date": "2026-11-12",
       "theme": "乳业",
       "representative": "乳业",
-      "change_pct": 0.31,
+      "change_pct": 0.58,
       "constituents": 34,
-      "members": "乳业 +0.31%",
+      "members": "乳业 +0.58%",
       "rank": 3
     },
     {
       "date": "2026-11-12",
       "theme": "白酒/酿酒概念",
       "representative": "酿酒概念",
-      "change_pct": 0.3,
+      "change_pct": 0.45,
       "constituents": 56,
-      "members": "酿酒概念 +0.30% / 白酒 +0.20%",
+      "members": "酿酒概念 +0.45% / 白酒 +0.38%",
       "rank": 4
     },
     {
       "date": "2026-11-12",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": 0.14,
-      "constituents": 20,
-      "members": "鸡肉概念 +0.14%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 0.42,
+      "constituents": 29,
+      "members": "大基金持股 +0.42%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.88,
+      "avg_change_pct": 1.01,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-12、11-06"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.82,
+      "avg_change_pct": 1.05,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.31,
+      "avg_change_pct": 0.58,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-12"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.3,
+      "avg_change_pct": 0.45,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-12"
     },
     {
-      "theme": "鸡肉概念",
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.14,
+      "avg_change_pct": 0.42,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
