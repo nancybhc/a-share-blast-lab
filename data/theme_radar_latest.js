@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T11:00:40+08:00",
+  "generated_at": "2026-11-12T11:05:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,59 +9,49 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 3.01,
+      "change_pct": 3.36,
       "constituents": 28,
-      "members": "高带宽内存 +3.01%",
+      "members": "高带宽内存 +3.36%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 2.81,
-      "constituents": 43,
-      "members": "光刻机 +2.81%",
-      "rank": 2
     },
     {
       "date": "2026-11-12",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 2.73,
+      "change_pct": 3.17,
       "constituents": 29,
-      "members": "大基金持股 +2.73%",
-      "rank": 3
+      "members": "大基金持股 +3.17%",
+      "rank": 2
     },
     {
       "date": "2026-11-12",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.23,
-      "constituents": 18,
-      "members": "水产概念 +2.23%",
-      "rank": 4
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 3.15,
+      "constituents": 43,
+      "members": "光刻机 +3.15%",
+      "rank": 3
     },
     {
       "date": "2026-11-12",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 1.98,
+      "change_pct": 2.32,
       "constituents": 112,
-      "members": "先进封装 +1.98%",
+      "members": "先进封装 +2.32%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-12",
+      "theme": "中芯概念",
+      "representative": "中芯概念",
+      "change_pct": 2.11,
+      "constituents": 66,
+      "members": "中芯概念 +2.11%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "水产概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.19,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
-      "dates": "11-12、11-06"
-    },
     {
       "theme": "噪声防治",
       "current_streak": 0,
@@ -77,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.01,
+      "avg_change_pct": 3.36,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-12"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.81,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-12"
     },
     {
@@ -97,7 +77,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.73,
+      "avg_change_pct": 3.17,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-12"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.15,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-12"
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.98,
+      "avg_change_pct": 2.32,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-12"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
@@ -281,6 +281,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.15,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-06"
     }
   ]
 };
