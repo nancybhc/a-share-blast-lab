@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T09:55:32+08:00",
+  "generated_at": "2026-11-12T10:00:49+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 3.03,
+      "change_pct": 3.66,
       "constituents": 28,
-      "members": "高带宽内存 +3.03%",
+      "members": "高带宽内存 +3.66%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 2.86,
+      "change_pct": 3.52,
       "constituents": 29,
-      "members": "大基金持股 +2.86%",
+      "members": "大基金持股 +3.52%",
       "rank": 2
     },
     {
       "date": "2026-11-12",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 2.33,
+      "change_pct": 2.86,
       "constituents": 43,
-      "members": "光刻机 +2.33%",
+      "members": "光刻机 +2.86%",
       "rank": 3
     },
     {
       "date": "2026-11-12",
-      "theme": "工业气体/氦气概念",
-      "representative": "氦气概念",
-      "change_pct": 2.28,
-      "constituents": 39,
-      "members": "氦气概念 +2.28% / 工业气体 +1.25%",
+      "theme": "先进封装",
+      "representative": "先进封装",
+      "change_pct": 2.58,
+      "constituents": 112,
+      "members": "先进封装 +2.58%",
       "rank": 4
     },
     {
       "date": "2026-11-12",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 2.03,
+      "change_pct": 2.58,
       "constituents": 66,
-      "members": "中芯概念 +2.03%",
+      "members": "中芯概念 +2.58%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.03,
+      "avg_change_pct": 3.66,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-12"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.86,
+      "avg_change_pct": 3.52,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.33,
+      "avg_change_pct": 2.86,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-12"
     },
     {
-      "theme": "工业气体/氦气概念",
+      "theme": "先进封装",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.28,
+      "avg_change_pct": 2.58,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-12"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.03,
+      "avg_change_pct": 2.58,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
