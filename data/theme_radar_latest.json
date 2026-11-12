@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T09:46:03+08:00",
+  "generated_at": "2026-11-12T09:50:54+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-12",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 2.75,
+      "change_pct": 3.26,
       "constituents": 28,
-      "members": "高带宽内存 +2.75%",
+      "members": "高带宽内存 +3.26%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 2.37,
+      "change_pct": 2.97,
       "constituents": 29,
-      "members": "大基金持股 +2.37%",
+      "members": "大基金持股 +2.97%",
       "rank": 2
     },
     {
       "date": "2026-11-12",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 1.99,
+      "change_pct": 2.49,
       "constituents": 43,
-      "members": "光刻机 +1.99%",
+      "members": "光刻机 +2.49%",
       "rank": 3
     },
     {
       "date": "2026-11-12",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 1.84,
+      "change_pct": 2.3,
       "constituents": 66,
-      "members": "中芯概念 +1.84%",
+      "members": "中芯概念 +2.30%",
       "rank": 4
     },
     {
       "date": "2026-11-12",
-      "theme": "工业气体/氦气概念",
-      "representative": "氦气概念",
-      "change_pct": 1.8,
-      "constituents": 39,
-      "members": "氦气概念 +1.80% / 工业气体 +1.16%",
+      "theme": "先进封装",
+      "representative": "先进封装",
+      "change_pct": 2.24,
+      "constituents": 112,
+      "members": "先进封装 +2.24%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.75,
+      "avg_change_pct": 3.26,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-12"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.37,
+      "avg_change_pct": 2.97,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.99,
+      "avg_change_pct": 2.49,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-12"
@@ -97,17 +97,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.84,
+      "avg_change_pct": 2.3,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-12"
     },
     {
-      "theme": "工业气体/氦气概念",
+      "theme": "先进封装",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.8,
+      "avg_change_pct": 2.24,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
