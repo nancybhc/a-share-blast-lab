@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T13:51:05+08:00",
+  "generated_at": "2026-11-12T13:55:56+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.55,
+      "change_pct": 1.66,
       "constituents": 18,
-      "members": "水产概念 +1.55%",
+      "members": "水产概念 +1.66%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "预制菜概念",
       "representative": "预制菜概念",
-      "change_pct": 0.82,
+      "change_pct": 0.93,
       "constituents": 67,
-      "members": "预制菜概念 +0.82%",
+      "members": "预制菜概念 +0.93%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 0.51,
-      "constituents": 29,
-      "members": "大基金持股 +0.51%",
-      "rank": 3
     },
     {
       "date": "2026-11-12",
       "theme": "白酒/酿酒概念",
       "representative": "酿酒概念",
-      "change_pct": 0.46,
+      "change_pct": 0.47,
       "constituents": 56,
-      "members": "酿酒概念 +0.46% / 白酒 +0.40%",
+      "members": "酿酒概念 +0.47% / 白酒 +0.38%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-12",
+      "theme": "乳业",
+      "representative": "乳业",
+      "change_pct": 0.46,
+      "constituents": 34,
+      "members": "乳业 +0.46%",
       "rank": 4
     },
     {
       "date": "2026-11-12",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.44,
-      "constituents": 43,
-      "members": "光刻机 +0.44%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 0.42,
+      "constituents": 29,
+      "members": "大基金持股 +0.42%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.85,
+      "avg_change_pct": 0.9,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-12、11-06"
@@ -77,23 +77,23 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.82,
+      "avg_change_pct": 0.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
     },
     {
-      "theme": "大基金持股",
+      "theme": "白酒/酿酒概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.51,
+      "avg_change_pct": 0.47,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-12"
     },
     {
-      "theme": "白酒/酿酒概念",
+      "theme": "乳业",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -103,11 +103,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-12"
     },
     {
-      "theme": "光刻机",
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.44,
+      "avg_change_pct": 0.42,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
