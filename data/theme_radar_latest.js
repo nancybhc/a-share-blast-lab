@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T14:40:50+08:00",
+  "generated_at": "2026-11-12T14:45:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.78,
+      "change_pct": 1.76,
       "constituents": 18,
-      "members": "水产概念 +1.78%",
+      "members": "水产概念 +1.76%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "预制菜概念",
       "representative": "预制菜概念",
-      "change_pct": 0.97,
+      "change_pct": 0.99,
       "constituents": 67,
-      "members": "预制菜概念 +0.97%",
+      "members": "预制菜概念 +0.99%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.41,
-      "constituents": 43,
-      "members": "光刻机 +0.41%",
-      "rank": 3
     },
     {
       "date": "2026-11-12",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.36,
+      "change_pct": 0.29,
       "constituents": 20,
-      "members": "鸡肉概念 +0.36%",
+      "members": "鸡肉概念 +0.29%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-12",
+      "theme": "免税概念",
+      "representative": "免税概念",
+      "change_pct": 0.29,
+      "constituents": 18,
+      "members": "免税概念 +0.29%",
       "rank": 4
     },
     {
       "date": "2026-11-12",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 0.28,
-      "constituents": 29,
-      "members": "大基金持股 +0.28%",
+      "theme": "退税商店",
+      "representative": "退税商店",
+      "change_pct": 0.27,
+      "constituents": 20,
+      "members": "退税商店 +0.27%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.96,
+      "avg_change_pct": 0.95,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-12、11-06"
@@ -77,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.97,
+      "avg_change_pct": 0.99,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-12"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.41,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-12"
     },
     {
@@ -97,17 +87,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.36,
+      "avg_change_pct": 0.29,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-12"
+    },
+    {
+      "theme": "免税概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.29,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-12"
     },
     {
-      "theme": "大基金持股",
+      "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.28,
+      "avg_change_pct": 0.27,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
