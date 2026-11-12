@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T10:51:25+08:00",
+  "generated_at": "2026-11-12T10:55:48+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,49 +9,59 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 3.45,
+      "change_pct": 3.21,
       "constituents": 28,
-      "members": "高带宽内存 +3.45%",
+      "members": "高带宽内存 +3.21%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 3.09,
+      "change_pct": 2.88,
       "constituents": 43,
-      "members": "光刻机 +3.09%",
+      "members": "光刻机 +2.88%",
       "rank": 2
     },
     {
       "date": "2026-11-12",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 3.03,
+      "change_pct": 2.87,
       "constituents": 29,
-      "members": "大基金持股 +3.03%",
+      "members": "大基金持股 +2.87%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-12",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.4,
+      "constituents": 18,
+      "members": "水产概念 +2.40%",
+      "rank": 4
     },
     {
       "date": "2026-11-12",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 2.2,
+      "change_pct": 2.03,
       "constituents": 112,
-      "members": "先进封装 +2.20%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "工业气体/氦气概念",
-      "representative": "氦气概念",
-      "change_pct": 2.11,
-      "constituents": 39,
-      "members": "氦气概念 +2.11% / 工业气体 +1.24%",
+      "members": "先进封装 +2.03%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.27,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-12、11-06"
+    },
     {
       "theme": "噪声防治",
       "current_streak": 0,
@@ -67,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.45,
+      "avg_change_pct": 3.21,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-12"
@@ -77,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.09,
+      "avg_change_pct": 2.88,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.03,
+      "avg_change_pct": 2.87,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-12"
@@ -97,17 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-12"
-    },
-    {
-      "theme": "工业气体/氦气概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.11,
+      "avg_change_pct": 2.03,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
@@ -281,16 +281,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-09"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.15,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-06"
     }
   ]
 };
