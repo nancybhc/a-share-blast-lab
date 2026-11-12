@@ -1,6 +1,6 @@
 window.GROUP_INTRADAY_TRENDS = {
   "date": "2026-11-12",
-  "updated_at": "2026-11-12T10:49:28+08:00",
+  "updated_at": "2026-11-12T10:50:56+08:00",
   "source": "real-time multi-stage snapshots",
   "groups": {
     "pcb": [
@@ -186,7 +186,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 76.81,
         "bull": 53,
         "total": 69,
@@ -195,8 +195,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 76.81,
+        "bull": 53,
+        "total": 69,
+        "turnBull": 13,
+        "turnBear": 3,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 76.81,
         "bull": 53,
         "total": 69,
@@ -388,7 +398,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 56.25,
         "bull": 27,
         "total": 48,
@@ -397,8 +407,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 56.25,
+        "bull": 27,
+        "total": 48,
+        "turnBull": 21,
+        "turnBear": 0,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 56.25,
         "bull": 27,
         "total": 48,
@@ -590,7 +610,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 70.83,
         "bull": 17,
         "total": 24,
@@ -599,8 +619,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 70.83,
+        "bull": 17,
+        "total": 24,
+        "turnBull": 4,
+        "turnBear": 3,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 70.83,
         "bull": 17,
         "total": 24,
@@ -792,7 +822,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 83.33,
         "bull": 35,
         "total": 42,
@@ -801,13 +831,23 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
-        "bullPct": 83.33,
-        "bull": 35,
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 85.71,
+        "bull": 36,
         "total": 42,
         "turnBull": 5,
-        "turnBear": 2,
+        "turnBear": 1,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
+        "bullPct": 85.71,
+        "bull": 36,
+        "total": 42,
+        "turnBull": 5,
+        "turnBear": 1,
         "bear": 0
       }
     ],
@@ -994,7 +1034,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 91.11,
         "bull": 41,
         "total": 45,
@@ -1003,8 +1043,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 91.11,
+        "bull": 41,
+        "total": 45,
+        "turnBull": 4,
+        "turnBear": 0,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 91.11,
         "bull": 41,
         "total": 45,
@@ -1196,7 +1246,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 95.92,
         "bull": 47,
         "total": 49,
@@ -1205,8 +1255,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 95.92,
+        "bull": 47,
+        "total": 49,
+        "turnBull": 0,
+        "turnBear": 2,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 95.92,
         "bull": 47,
         "total": 49,
@@ -1398,7 +1458,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 73.33,
         "bull": 11,
         "total": 15,
@@ -1407,8 +1467,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 73.33,
+        "bull": 11,
+        "total": 15,
+        "turnBull": 4,
+        "turnBear": 0,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 73.33,
         "bull": 11,
         "total": 15,
@@ -1600,7 +1670,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 27.27,
         "bull": 3,
         "total": 11,
@@ -1609,8 +1679,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 2
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 27.27,
+        "bull": 3,
+        "total": 11,
+        "turnBull": 6,
+        "turnBear": 0,
+        "bear": 2
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 27.27,
         "bull": 3,
         "total": 11,
@@ -1802,7 +1882,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 64.52,
         "bull": 20,
         "total": 31,
@@ -1811,8 +1891,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 1
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 64.52,
+        "bull": 20,
+        "total": 31,
+        "turnBull": 5,
+        "turnBear": 5,
+        "bear": 1
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 64.52,
         "bull": 20,
         "total": 31,
@@ -2004,7 +2094,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 63.33,
         "bull": 38,
         "total": 60,
@@ -2013,8 +2103,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 1
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 63.33,
+        "bull": 38,
+        "total": 60,
+        "turnBull": 0,
+        "turnBear": 21,
+        "bear": 1
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 63.33,
         "bull": 38,
         "total": 60,
@@ -2206,7 +2306,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 50.79,
         "bull": 32,
         "total": 63,
@@ -2215,13 +2315,23 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 4
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
-        "bullPct": 50.79,
-        "bull": 32,
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 49.21,
+        "bull": 31,
         "total": 63,
         "turnBull": 1,
-        "turnBear": 26,
+        "turnBear": 27,
+        "bear": 4
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
+        "bullPct": 49.21,
+        "bull": 31,
+        "total": 63,
+        "turnBull": 1,
+        "turnBear": 27,
         "bear": 4
       }
     ],
@@ -2408,7 +2518,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 66.67,
         "bull": 38,
         "total": 57,
@@ -2417,8 +2527,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 2
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 66.67,
+        "bull": 38,
+        "total": 57,
+        "turnBull": 6,
+        "turnBear": 11,
+        "bear": 2
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 66.67,
         "bull": 38,
         "total": 57,
@@ -2610,7 +2730,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 24.04,
         "bull": 25,
         "total": 104,
@@ -2619,14 +2739,24 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 11
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
-        "bullPct": 24.04,
-        "bull": 25,
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 28.85,
+        "bull": 30,
         "total": 104,
-        "turnBull": 3,
-        "turnBear": 65,
-        "bear": 11
+        "turnBull": 2,
+        "turnBear": 63,
+        "bear": 9
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
+        "bullPct": 28.85,
+        "bull": 30,
+        "total": 104,
+        "turnBull": 2,
+        "turnBear": 63,
+        "bear": 9
       }
     ],
     "fintech": [
@@ -2812,7 +2942,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 5.0,
         "bull": 3,
         "total": 60,
@@ -2821,8 +2951,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 11
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 5.0,
+        "bull": 3,
+        "total": 60,
+        "turnBull": 0,
+        "turnBear": 46,
+        "bear": 11
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 5.0,
         "bull": 3,
         "total": 60,
@@ -3014,7 +3154,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 7.27,
         "bull": 4,
         "total": 55,
@@ -3023,13 +3163,23 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 1
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
-        "bullPct": 7.27,
-        "bull": 4,
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 9.09,
+        "bull": 5,
         "total": 55,
         "turnBull": 0,
-        "turnBear": 50,
+        "turnBear": 49,
+        "bear": 1
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
+        "bullPct": 9.09,
+        "bull": 5,
+        "total": 55,
+        "turnBull": 0,
+        "turnBear": 49,
         "bear": 1
       }
     ],
@@ -3216,7 +3366,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 27.27,
         "bull": 9,
         "total": 33,
@@ -3225,14 +3375,24 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 2
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
-        "bullPct": 27.27,
-        "bull": 9,
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 24.24,
+        "bull": 8,
         "total": 33,
         "turnBull": 1,
-        "turnBear": 21,
-        "bear": 2
+        "turnBear": 23,
+        "bear": 1
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
+        "bullPct": 24.24,
+        "bull": 8,
+        "total": 33,
+        "turnBull": 1,
+        "turnBear": 23,
+        "bear": 1
       }
     ],
     "grid-equipment": [
@@ -3418,7 +3578,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 26.09,
         "bull": 12,
         "total": 46,
@@ -3427,8 +3587,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 2
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 26.09,
+        "bull": 12,
+        "total": 46,
+        "turnBull": 3,
+        "turnBear": 29,
+        "bear": 2
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 26.09,
         "bull": 12,
         "total": 46,
@@ -3620,7 +3790,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 10,
@@ -3629,8 +3799,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 10,
+        "turnBull": 0,
+        "turnBear": 10,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 10,
@@ -3822,7 +4002,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 63.83,
         "bull": 30,
         "total": 47,
@@ -3831,8 +4011,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 0
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 63.83,
+        "bull": 30,
+        "total": 47,
+        "turnBull": 5,
+        "turnBear": 12,
+        "bear": 0
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 63.83,
         "bull": 30,
         "total": 47,
@@ -4024,7 +4214,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 20.51,
         "bull": 8,
         "total": 39,
@@ -4033,8 +4223,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 10
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 20.51,
+        "bull": 8,
+        "total": 39,
+        "turnBull": 0,
+        "turnBear": 21,
+        "bear": 10
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 20.51,
         "bull": 8,
         "total": 39,
@@ -4226,7 +4426,7 @@ window.GROUP_INTRADAY_TRENDS = {
       },
       {
         "time": "10:45",
-        "timestamp": "2026-11-12T10:45+08:00",
+        "timestamp": "2026-11-12T10:45:59+08:00",
         "bullPct": 20.69,
         "bull": 6,
         "total": 29,
@@ -4235,8 +4435,18 @@ window.GROUP_INTRADAY_TRENDS = {
         "bear": 5
       },
       {
-        "time": "10:45",
-        "timestamp": "2026-11-12T10:45:59+08:00",
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50+08:00",
+        "bullPct": 20.69,
+        "bull": 6,
+        "total": 29,
+        "turnBull": 1,
+        "turnBear": 17,
+        "bear": 5
+      },
+      {
+        "time": "10:50",
+        "timestamp": "2026-11-12T10:50:54+08:00",
         "bullPct": 20.69,
         "bull": 6,
         "total": 29,
