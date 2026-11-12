@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T13:08:34+08:00",
+  "generated_at": "2026-11-12T13:13:18+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-12午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-12",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.18,
+      "change_pct": 1.9,
       "constituents": 18,
-      "members": "水产概念 +2.18%",
+      "members": "水产概念 +1.90%",
       "rank": 1
     },
     {
       "date": "2026-11-12",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 1.69,
+      "change_pct": 1.35,
       "constituents": 43,
-      "members": "光刻机 +1.69%",
+      "members": "光刻机 +1.35%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "高带宽内存",
-      "representative": "高带宽内存",
-      "change_pct": 1.6,
-      "constituents": 28,
-      "members": "高带宽内存 +1.60%",
-      "rank": 3
     },
     {
       "date": "2026-11-12",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 1.51,
+      "change_pct": 1.34,
       "constituents": 29,
-      "members": "大基金持股 +1.51%",
+      "members": "大基金持股 +1.34%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-12",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": 1.3,
+      "constituents": 28,
+      "members": "高带宽内存 +1.30%",
       "rank": 4
     },
     {
       "date": "2026-11-12",
-      "theme": "CRO",
-      "representative": "CRO",
-      "change_pct": 1.42,
-      "constituents": 52,
-      "members": "CRO +1.42%",
+      "theme": "预制菜概念",
+      "representative": "预制菜概念",
+      "change_pct": 1.04,
+      "constituents": 67,
+      "members": "预制菜概念 +1.04%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.17,
+      "avg_change_pct": 1.02,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-12、11-06"
@@ -77,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.69,
+      "avg_change_pct": 1.35,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-12"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.6,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-12"
     },
     {
@@ -97,17 +87,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.51,
+      "avg_change_pct": 1.34,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-12"
+    },
+    {
+      "theme": "高带宽内存",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.3,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-12"
     },
     {
-      "theme": "CRO",
+      "theme": "预制菜概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.42,
+      "avg_change_pct": 1.04,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
