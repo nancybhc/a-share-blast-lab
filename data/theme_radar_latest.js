@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:48:49+08:00",
+  "generated_at": "2026-11-13T10:53:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 2.28,
+      "change_pct": 2.59,
       "constituents": 39,
-      "members": "猪肉概念 +2.28%",
+      "members": "猪肉概念 +2.59%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 2.16,
-      "constituents": 64,
-      "members": "影视概念 +2.16%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 1.98,
-      "constituents": 435,
-      "members": "空间站概念 +1.98% / 航天航空 +0.72% / 卫星导航 +0.60% / 商业航天 +0.14% / 卫星互联网 -0.42%",
-      "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 1.81,
+      "change_pct": 2.11,
       "constituents": 20,
-      "members": "鸡肉概念 +1.81%",
+      "members": "鸡肉概念 +2.11%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 2.05,
+      "constituents": 64,
+      "members": "影视概念 +2.05%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 1.8,
+      "constituents": 435,
+      "members": "空间站概念 +1.80% / 航天航空 +0.60% / 卫星导航 +0.43% / 商业航天 -0.05% / 卫星互联网 -0.62%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "机器人",
-      "representative": "机器人执行器",
-      "change_pct": 1.68,
-      "constituents": 469,
-      "members": "机器人执行器 +1.68% / 减速器 +1.60% / 机器视觉 +0.76% / 人形机器人 +0.69%",
+      "theme": "数据要素/安全",
+      "representative": "时空大数据",
+      "change_pct": 1.44,
+      "constituents": 345,
+      "members": "时空大数据 +1.44% / 数据确权 +0.55% / 网络安全 +0.44% / 数据要素 +0.43% / 数字水印 -0.03% / 数据安全 -0.06%",
       "rank": 5
     }
   ],
@@ -57,20 +57,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.58,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.53,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-13、11-10"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.84,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
-      "dates": "11-13、11-09"
     },
     {
       "theme": "噪声防治",
@@ -87,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.28,
+      "avg_change_pct": 2.59,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-13"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.98,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-13"
     },
     {
@@ -107,9 +87,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.81,
+      "avg_change_pct": 2.11,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-13"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.8,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "数据要素/安全",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.44,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-13"
     },
     {
@@ -241,6 +241,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.0,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-09"
     },
     {
       "theme": "退税商店",
