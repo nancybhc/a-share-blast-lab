@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T14:26:12+08:00",
+  "generated_at": "2026-11-13T14:32:02+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,18 +9,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.25,
+      "change_pct": 1.21,
       "constituents": 39,
-      "members": "猪肉概念 +1.25%",
+      "members": "猪肉概念 +1.21%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 1.14,
+      "change_pct": 1.05,
       "constituents": 64,
-      "members": "影视概念 +1.14%",
+      "members": "影视概念 +1.05%",
       "rank": 2
     },
     {
@@ -36,18 +36,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.27,
+      "change_pct": 0.25,
       "constituents": 80,
-      "members": "大盘价值 +0.27%",
+      "members": "大盘价值 +0.25%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "文娱消费",
       "representative": "文娱消费",
-      "change_pct": -0.06,
+      "change_pct": -0.13,
       "constituents": 93,
-      "members": "文娱消费 -0.06%",
+      "members": "文娱消费 -0.13%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.07,
+      "avg_change_pct": 3.03,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-13、11-10"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.25,
+      "avg_change_pct": 1.21,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-13"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.27,
+      "avg_change_pct": 0.25,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.06,
+      "avg_change_pct": -0.13,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
