@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T11:27:21+08:00",
+  "generated_at": "2026-11-13T11:31:35+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 2.58,
+      "change_pct": 2.7,
       "constituents": 64,
-      "members": "影视概念 +2.58%",
+      "members": "影视概念 +2.70%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 2.3,
+      "change_pct": 2.32,
       "constituents": 39,
-      "members": "猪肉概念 +2.30%",
+      "members": "猪肉概念 +2.32%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 1.71,
+      "change_pct": 1.76,
       "constituents": 20,
-      "members": "鸡肉概念 +1.71%",
+      "members": "鸡肉概念 +1.76%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "空间计算",
       "representative": "空间计算",
-      "change_pct": 1.54,
+      "change_pct": 1.63,
       "constituents": 26,
-      "members": "空间计算 +1.54%",
+      "members": "空间计算 +1.63%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "游戏概念/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 1.37,
-      "constituents": 106,
-      "members": "短剧互动游戏 +1.37% / 游戏概念 +1.15%",
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "representative": "华为欧拉",
+      "change_pct": 1.54,
+      "constituents": 181,
+      "members": "华为欧拉 +1.54% / 华为昇腾 +1.16% / 华为鲲鹏 +0.68%",
       "rank": 5
     }
   ],
@@ -57,19 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.79,
+      "avg_change_pct": 3.85,
       "avg_rank": 3.0,
       "latest_rank": 1,
-      "dates": "11-13、11-10"
-    },
-    {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.38,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
       "dates": "11-13、11-10"
     },
     {
@@ -87,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.3,
+      "avg_change_pct": 2.32,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-13"
@@ -97,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.71,
+      "avg_change_pct": 1.76,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -107,9 +97,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.54,
+      "avg_change_pct": 1.63,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.54,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-13"
     },
     {
@@ -191,6 +191,16 @@
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
+    },
+    {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.39,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-10"
     },
     {
       "theme": "光纤概念",
