@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T11:12:27+08:00",
+  "generated_at": "2026-11-13T11:17:12+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
   "daily_top": [
     {
       "date": "2026-11-13",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
+      "theme": "影视概念",
+      "representative": "影视概念",
       "change_pct": 2.66,
-      "constituents": 39,
-      "members": "猪肉概念 +2.66%",
+      "constituents": 64,
+      "members": "影视概念 +2.66%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 2.55,
-      "constituents": 64,
-      "members": "影视概念 +2.55%",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": 2.54,
+      "constituents": 39,
+      "members": "猪肉概念 +2.54%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 2.07,
+      "change_pct": 1.99,
       "constituents": 20,
-      "members": "鸡肉概念 +2.07%",
+      "members": "鸡肉概念 +1.99%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 1.63,
-      "constituents": 435,
-      "members": "空间站概念 +1.63% / 航天航空 +0.43% / 卫星导航 +0.31% / 商业航天 -0.18% / 卫星互联网 -0.71%",
-      "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "空间计算",
       "representative": "空间计算",
-      "change_pct": 1.61,
+      "change_pct": 1.64,
       "constituents": 26,
-      "members": "空间计算 +1.61%",
+      "members": "空间计算 +1.64%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 1.48,
+      "constituents": 435,
+      "members": "空间站概念 +1.48% / 航天航空 +0.28% / 卫星导航 +0.19% / 商业航天 -0.30% / 卫星互联网 -0.83%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.78,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.83,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-13、11-10"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.66,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.54,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-13"
     },
     {
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.07,
+      "avg_change_pct": 1.99,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-13"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.63,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-13"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.61,
+      "avg_change_pct": 1.64,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.48,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
