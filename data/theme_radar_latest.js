@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:57:38+08:00",
+  "generated_at": "2026-11-13T11:02:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 2.58,
+      "change_pct": 2.51,
       "constituents": 39,
-      "members": "猪肉概念 +2.58%",
+      "members": "猪肉概念 +2.51%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 2.07,
+      "change_pct": 2.39,
       "constituents": 64,
-      "members": "影视概念 +2.07%",
+      "members": "影视概念 +2.39%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 1.98,
+      "change_pct": 1.91,
       "constituents": 20,
-      "members": "鸡肉概念 +1.98%",
+      "members": "鸡肉概念 +1.91%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 1.66,
+      "change_pct": 1.53,
       "constituents": 435,
-      "members": "空间站概念 +1.66% / 航天航空 +0.42% / 卫星导航 +0.31% / 商业航天 -0.21% / 卫星互联网 -0.77%",
+      "members": "空间站概念 +1.53% / 航天航空 +0.34% / 卫星导航 +0.26% / 商业航天 -0.26% / 卫星互联网 -0.80%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "空间计算",
       "representative": "空间计算",
-      "change_pct": 1.42,
+      "change_pct": 1.5,
       "constituents": 26,
-      "members": "空间计算 +1.42%",
+      "members": "空间计算 +1.50%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.54,
+      "avg_change_pct": 3.7,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-13、11-10"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.51,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-13"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.98,
+      "avg_change_pct": 1.91,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.66,
+      "avg_change_pct": 1.53,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.42,
+      "avg_change_pct": 1.5,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
