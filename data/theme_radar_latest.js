@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:09:22+08:00",
+  "generated_at": "2026-11-13T10:14:10+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
   "daily_top": [
     {
       "date": "2026-11-13",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 2.18,
-      "constituents": 435,
-      "members": "空间站概念 +2.18% / 卫星导航 +0.87% / 航天航空 +0.85% / 商业航天 +0.53% / 卫星互联网 +0.18%",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 2.34,
+      "constituents": 64,
+      "members": "影视概念 +2.34%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 2.16,
-      "constituents": 64,
-      "members": "影视概念 +2.16%",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 2.15,
+      "constituents": 435,
+      "members": "空间站概念 +2.15% / 航天航空 +0.81% / 卫星导航 +0.75% / 商业航天 +0.45% / 卫星互联网 +0.05%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "芯片概念/汽车电子/消费电子概念",
       "representative": "AI芯片",
-      "change_pct": 2.05,
+      "change_pct": 1.8,
       "constituents": 1064,
-      "members": "AI芯片 +2.05% / MCU芯片 +1.03% / 芯片概念 +0.83% / 存储芯片 +0.70% / 汽车芯片 +0.48% / 华为汽车 +0.39%",
+      "members": "AI芯片 +1.80% / MCU芯片 +0.81% / 华为汽车 +0.66% / 芯片概念 +0.64% / 小米汽车 +0.53% / 存储芯片 +0.38%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 1.96,
+      "change_pct": 1.51,
       "constituents": 43,
-      "members": "光刻机 +1.96%",
+      "members": "光刻机 +1.51%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 1.59,
-      "constituents": 30,
-      "members": "大基金持股 +1.59%",
+      "theme": "数据要素/安全",
+      "representative": "时空大数据",
+      "change_pct": 1.5,
+      "constituents": 345,
+      "members": "时空大数据 +1.50% / 网络安全 +0.65% / 数据要素 +0.47% / 数据确权 +0.43% / 数字水印 +0.38% / 数据安全 +0.00%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.58,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.67,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-13、11-10"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.18,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.15,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-13"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.05,
+      "avg_change_pct": 1.8,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.96,
+      "avg_change_pct": 1.51,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
     },
     {
-      "theme": "大基金持股",
+      "theme": "数据要素/安全",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.59,
+      "avg_change_pct": 1.5,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
