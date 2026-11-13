@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:33:47+08:00",
+  "generated_at": "2026-11-13T10:38:24+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
   "daily_top": [
     {
       "date": "2026-11-13",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 2.06,
-      "constituents": 64,
-      "members": "影视概念 +2.06%",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": 1.99,
+      "constituents": 39,
+      "members": "猪肉概念 +1.99%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 1.85,
-      "constituents": 39,
-      "members": "猪肉概念 +1.85%",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 1.98,
+      "constituents": 64,
+      "members": "影视概念 +1.98%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 1.64,
+      "change_pct": 1.76,
       "constituents": 435,
-      "members": "空间站概念 +1.64% / 卫星导航 +0.35% / 航天航空 +0.32% / 商业航天 +0.06% / 卫星互联网 -0.40%",
+      "members": "空间站概念 +1.76% / 航天航空 +0.44% / 卫星导航 +0.43% / 商业航天 +0.09% / 卫星互联网 -0.40%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 1.46,
+      "change_pct": 1.54,
       "constituents": 20,
-      "members": "鸡肉概念 +1.46%",
+      "members": "鸡肉概念 +1.54%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "数据要素/安全",
-      "representative": "时空大数据",
-      "change_pct": 1.35,
-      "constituents": 345,
-      "members": "时空大数据 +1.35% / 数据确权 +0.56% / 网络安全 +0.51% / 数据要素 +0.38% / 数字水印 +0.15% / 数据安全 -0.09%",
+      "theme": "芯片概念/汽车电子/消费电子概念",
+      "representative": "AI芯片",
+      "change_pct": 1.42,
+      "constituents": 1064,
+      "members": "AI芯片 +1.42% / 华为汽车 +0.68% / MCU芯片 +0.67% / 小米汽车 +0.56% / 芯片概念 +0.41% / 智能穿戴 +0.33%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.54,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 3.5,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-13、11-10"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.85,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.99,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-13"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.64,
+      "avg_change_pct": 1.76,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.46,
+      "avg_change_pct": 1.54,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
     },
     {
-      "theme": "数据要素/安全",
+      "theme": "芯片概念/汽车电子/消费电子概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.35,
+      "avg_change_pct": 1.42,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
