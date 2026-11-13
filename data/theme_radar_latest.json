@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T13:39:55+08:00",
+  "generated_at": "2026-11-13T13:44:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -18,18 +18,18 @@
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.38,
+      "change_pct": 1.46,
       "constituents": 39,
-      "members": "猪肉概念 +1.38%",
+      "members": "猪肉概念 +1.46%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.96,
+      "change_pct": 0.98,
       "constituents": 20,
-      "members": "鸡肉概念 +0.96%",
+      "members": "鸡肉概念 +0.98%",
       "rank": 3
     },
     {
@@ -38,16 +38,16 @@
       "representative": "短剧互动游戏",
       "change_pct": 0.55,
       "constituents": 106,
-      "members": "短剧互动游戏 +0.55% / 游戏概念 +0.10%",
+      "members": "短剧互动游戏 +0.55% / 游戏概念 +0.09%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 0.4,
-      "constituents": 93,
-      "members": "文娱消费 +0.40%",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": 0.44,
+      "constituents": 80,
+      "members": "大盘价值 +0.44%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.38,
+      "avg_change_pct": 1.46,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-13"
@@ -97,17 +97,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.96,
+      "avg_change_pct": 0.98,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
     },
     {
-      "theme": "文娱消费",
+      "theme": "大盘价值",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.4,
+      "avg_change_pct": 0.44,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
