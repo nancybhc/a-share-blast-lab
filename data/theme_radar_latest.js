@@ -1,57 +1,67 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:03:43+08:00",
+  "generated_at": "2026-11-13T10:09:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
   "daily_top": [
     {
       "date": "2026-11-13",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 2.18,
+      "constituents": 435,
+      "members": "空间站概念 +2.18% / 卫星导航 +0.87% / 航天航空 +0.85% / 商业航天 +0.53% / 卫星互联网 +0.18%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 2.16,
+      "constituents": 64,
+      "members": "影视概念 +2.16%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-13",
       "theme": "芯片概念/汽车电子/消费电子概念",
       "representative": "AI芯片",
-      "change_pct": 2.94,
+      "change_pct": 2.05,
       "constituents": 1064,
-      "members": "AI芯片 +2.94% / MCU芯片 +1.83% / 存储芯片 +1.65% / 芯片概念 +1.49% / 汽车芯片 +1.23% / 智能穿戴 +0.76%",
-      "rank": 1
+      "members": "AI芯片 +2.05% / MCU芯片 +1.03% / 芯片概念 +0.83% / 存储芯片 +0.70% / 汽车芯片 +0.48% / 华为汽车 +0.39%",
+      "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 2.86,
+      "change_pct": 1.96,
       "constituents": 43,
-      "members": "光刻机 +2.86%",
-      "rank": 2
+      "members": "光刻机 +1.96%",
+      "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 2.68,
+      "change_pct": 1.59,
       "constituents": 30,
-      "members": "大基金持股 +2.68%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 2.57,
-      "constituents": 435,
-      "members": "空间站概念 +2.57% / 航天航空 +1.27% / 卫星导航 +1.27% / 商业航天 +1.02% / 卫星互联网 +0.71%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "光刻胶",
-      "representative": "光刻胶",
-      "change_pct": 2.11,
-      "constituents": 63,
-      "members": "光刻胶 +2.11%",
+      "members": "大基金持股 +1.59%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "影视概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.58,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
+      "dates": "11-13、11-10"
+    },
     {
       "theme": "噪声防治",
       "current_streak": 0,
@@ -63,13 +73,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-11、11-09"
     },
     {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.18,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
+    },
+    {
       "theme": "芯片概念/汽车电子/消费电子概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.94,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.05,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-13"
     },
     {
@@ -77,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.86,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.96,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-13"
     },
     {
@@ -87,27 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-13"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.57,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-13"
-    },
-    {
-      "theme": "光刻胶",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.11,
+      "avg_change_pct": 1.59,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
@@ -261,16 +261,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-12"
-    },
-    {
-      "theme": "影视概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.01,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-10"
     },
     {
       "theme": "毫米波概念",
