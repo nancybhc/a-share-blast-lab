@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T13:49:28+08:00",
+  "generated_at": "2026-11-13T13:54:08+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 1.28,
+      "change_pct": 1.13,
       "constituents": 64,
-      "members": "影视概念 +1.28%",
+      "members": "影视概念 +1.13%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.18,
+      "change_pct": 1.04,
       "constituents": 39,
-      "members": "猪肉概念 +1.18%",
+      "members": "猪肉概念 +1.04%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.74,
+      "change_pct": 0.59,
       "constituents": 20,
-      "members": "鸡肉概念 +0.74%",
+      "members": "鸡肉概念 +0.59%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.32,
+      "change_pct": 0.17,
       "constituents": 80,
-      "members": "大盘价值 +0.32%",
+      "members": "大盘价值 +0.17%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "游戏概念/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 0.12,
-      "constituents": 106,
-      "members": "短剧互动游戏 +0.12% / 游戏概念 -0.28%",
+      "theme": "文娱消费",
+      "representative": "文娱消费",
+      "change_pct": -0.03,
+      "constituents": 93,
+      "members": "文娱消费 -0.03%",
       "rank": 5
     }
   ],
@@ -57,19 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.15,
+      "avg_change_pct": 3.07,
       "avg_rank": 3.0,
       "latest_rank": 1,
-      "dates": "11-13、11-10"
-    },
-    {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.75,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
       "dates": "11-13、11-10"
     },
     {
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.18,
+      "avg_change_pct": 1.04,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-13"
@@ -97,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.74,
+      "avg_change_pct": 0.59,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -107,9 +97,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.32,
+      "avg_change_pct": 0.17,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "文娱消费",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.03,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-13"
     },
     {
@@ -191,6 +191,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
+    },
+    {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.39,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-10"
     },
     {
       "theme": "光纤概念",
