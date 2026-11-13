@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T13:03:11+08:00",
+  "generated_at": "2026-11-13T13:07:49+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 2.13,
+      "change_pct": 1.85,
       "constituents": 64,
-      "members": "影视概念 +2.13%",
+      "members": "影视概念 +1.85%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.99,
+      "change_pct": 1.83,
       "constituents": 39,
-      "members": "猪肉概念 +1.99%",
+      "members": "猪肉概念 +1.83%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 1.43,
+      "change_pct": 1.34,
       "constituents": 20,
-      "members": "鸡肉概念 +1.43%",
+      "members": "鸡肉概念 +1.34%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 1.11,
+      "change_pct": 1.03,
       "constituents": 181,
-      "members": "华为欧拉 +1.11% / 华为昇腾 +0.61% / 华为鲲鹏 +0.15%",
+      "members": "华为欧拉 +1.03% / 华为昇腾 +0.48% / 华为鲲鹏 +0.11%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 0.95,
-      "constituents": 93,
-      "members": "文娱消费 +0.95%",
+      "theme": "空间计算",
+      "representative": "空间计算",
+      "change_pct": 0.79,
+      "constituents": 26,
+      "members": "空间计算 +0.79%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.57,
+      "avg_change_pct": 3.43,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-13、11-10"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.99,
+      "avg_change_pct": 1.83,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-13"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.43,
+      "avg_change_pct": 1.34,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.11,
+      "avg_change_pct": 1.03,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
     },
     {
-      "theme": "文娱消费",
+      "theme": "空间计算",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.95,
+      "avg_change_pct": 0.79,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
