@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T09:40:25+08:00",
+  "generated_at": "2026-11-13T09:45:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 2.28,
+      "change_pct": 2.06,
       "constituents": 64,
-      "members": "影视概念 +2.28%",
+      "members": "影视概念 +2.06%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
-      "representative": "华为欧拉",
-      "change_pct": 1.48,
-      "constituents": 181,
-      "members": "华为欧拉 +1.48% / 华为昇腾 +0.69% / 华为鲲鹏 +0.49%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "游戏概念/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 1.47,
-      "constituents": 106,
-      "members": "短剧互动游戏 +1.47% / 游戏概念 +0.95%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 1.41,
-      "constituents": 435,
-      "members": "空间站概念 +1.41% / 卫星导航 +0.38% / 航天航空 +0.29% / 商业航天 -0.04% / 卫星互联网 -0.33%",
-      "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "智能电视",
       "representative": "智能电视",
-      "change_pct": 1.22,
+      "change_pct": 1.28,
       "constituents": 12,
-      "members": "智能电视 +1.22%",
+      "members": "智能电视 +1.28%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "representative": "华为欧拉",
+      "change_pct": 1.26,
+      "constituents": 181,
+      "members": "华为欧拉 +1.26% / 华为昇腾 +0.70% / 华为鲲鹏 +0.33%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "芯片概念/汽车电子/消费电子概念",
+      "representative": "AI芯片",
+      "change_pct": 1.17,
+      "constituents": 1064,
+      "members": "AI芯片 +1.17% / MCU芯片 +0.73% / 汽车芯片 +0.14% / 芯片概念 +0.05% / 小米汽车 -0.02% / 华为汽车 -0.04%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "游戏概念/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 1.14,
+      "constituents": 106,
+      "members": "短剧互动游戏 +1.14% / 游戏概念 +0.80%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.64,
+      "avg_change_pct": 3.54,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-13、11-10"
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.43,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 3.26,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
       "dates": "11-13、11-10"
     },
     {
@@ -83,33 +83,33 @@ window.THEME_RADAR_DATA = {
       "dates": "11-11、11-09"
     },
     {
-      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "theme": "智能电视",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.48,
+      "avg_change_pct": 1.28,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-13"
     },
     {
-      "theme": "商业航天",
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.41,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.26,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-13"
     },
     {
-      "theme": "智能电视",
+      "theme": "芯片概念/汽车电子/消费电子概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.22,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 1.17,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-13"
     },
     {
