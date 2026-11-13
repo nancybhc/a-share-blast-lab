@@ -1,53 +1,53 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T14:16:46+08:00",
+  "generated_at": "2026-11-13T14:21:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
   "daily_top": [
     {
       "date": "2026-11-13",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 1.38,
-      "constituents": 39,
-      "members": "猪肉概念 +1.38%",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 1.36,
+      "constituents": 64,
+      "members": "影视概念 +1.36%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 1.32,
-      "constituents": 64,
-      "members": "影视概念 +1.32%",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": 1.28,
+      "constituents": 39,
+      "members": "猪肉概念 +1.28%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.96,
+      "change_pct": 0.85,
       "constituents": 20,
-      "members": "鸡肉概念 +0.96%",
+      "members": "鸡肉概念 +0.85%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.27,
+      "change_pct": 0.32,
       "constituents": 80,
-      "members": "大盘价值 +0.27%",
+      "members": "大盘价值 +0.32%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "游戏概念/短剧互动游戏",
-      "representative": "短剧互动游戏",
-      "change_pct": 0.26,
-      "constituents": 106,
-      "members": "短剧互动游戏 +0.26% / 游戏概念 -0.06%",
+      "theme": "文娱消费",
+      "representative": "文娱消费",
+      "change_pct": 0.18,
+      "constituents": 93,
+      "members": "文娱消费 +0.18%",
       "rank": 5
     }
   ],
@@ -57,19 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.17,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
-      "dates": "11-13、11-10"
-    },
-    {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.82,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
+      "avg_change_pct": 3.19,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-13、11-10"
     },
     {
@@ -87,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.38,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.28,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-13"
     },
     {
@@ -97,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.96,
+      "avg_change_pct": 0.85,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -107,9 +97,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.27,
+      "avg_change_pct": 0.32,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "文娱消费",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.18,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-13"
     },
     {
@@ -191,6 +191,16 @@
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
+    },
+    {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.39,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-10"
     },
     {
       "theme": "光纤概念",
