@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:24:20+08:00",
+  "generated_at": "2026-11-13T10:29:08+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 2.24,
+      "change_pct": 1.87,
       "constituents": 39,
-      "members": "猪肉概念 +2.24%",
+      "members": "猪肉概念 +1.87%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": 1.86,
-      "constituents": 20,
-      "members": "鸡肉概念 +1.86%",
-      "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 1.79,
+      "change_pct": 1.53,
       "constituents": 435,
-      "members": "空间站概念 +1.79% / 航天航空 +0.47% / 卫星导航 +0.34% / 商业航天 +0.12% / 卫星互联网 -0.45%",
-      "rank": 3
+      "members": "空间站概念 +1.53% / 航天航空 +0.30% / 卫星导航 +0.16% / 商业航天 -0.09% / 卫星互联网 -0.64%",
+      "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 1.53,
+      "change_pct": 1.51,
       "constituents": 64,
-      "members": "影视概念 +1.53%",
+      "members": "影视概念 +1.51%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "鸡肉概念",
+      "representative": "鸡肉概念",
+      "change_pct": 1.44,
+      "constituents": 20,
+      "members": "鸡肉概念 +1.44%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
-      "theme": "光刻胶",
-      "representative": "光刻胶",
-      "change_pct": 1.27,
-      "constituents": 63,
-      "members": "光刻胶 +1.27%",
+      "theme": "数据要素/安全",
+      "representative": "时空大数据",
+      "change_pct": 1.06,
+      "constituents": 345,
+      "members": "时空大数据 +1.06% / 网络安全 +0.21% / 数据要素 +0.02% / 数据确权 -0.02% / 数字水印 -0.23% / 数据安全 -0.44%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.27,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 3.26,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-13、11-10"
     },
     {
@@ -77,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.24,
+      "avg_change_pct": 1.87,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-13"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.86,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-13"
     },
     {
@@ -97,17 +87,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.79,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.53,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-13"
     },
     {
-      "theme": "光刻胶",
+      "theme": "鸡肉概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.27,
+      "avg_change_pct": 1.44,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "数据要素/安全",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.06,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
