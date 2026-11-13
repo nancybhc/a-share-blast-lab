@@ -1,53 +1,53 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:29:08+08:00",
+  "generated_at": "2026-11-13T10:33:47+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
   "daily_top": [
     {
       "date": "2026-11-13",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 2.06,
+      "constituents": 64,
+      "members": "影视概念 +2.06%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.87,
+      "change_pct": 1.85,
       "constituents": 39,
-      "members": "猪肉概念 +1.87%",
-      "rank": 1
+      "members": "猪肉概念 +1.85%",
+      "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 1.53,
+      "change_pct": 1.64,
       "constituents": 435,
-      "members": "空间站概念 +1.53% / 航天航空 +0.30% / 卫星导航 +0.16% / 商业航天 -0.09% / 卫星互联网 -0.64%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 1.51,
-      "constituents": 64,
-      "members": "影视概念 +1.51%",
+      "members": "空间站概念 +1.64% / 卫星导航 +0.35% / 航天航空 +0.32% / 商业航天 +0.06% / 卫星互联网 -0.40%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 1.44,
+      "change_pct": 1.46,
       "constituents": 20,
-      "members": "鸡肉概念 +1.44%",
+      "members": "鸡肉概念 +1.46%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "数据要素/安全",
       "representative": "时空大数据",
-      "change_pct": 1.06,
+      "change_pct": 1.35,
       "constituents": 345,
-      "members": "时空大数据 +1.06% / 网络安全 +0.21% / 数据要素 +0.02% / 数据确权 -0.02% / 数字水印 -0.23% / 数据安全 -0.44%",
+      "members": "时空大数据 +1.35% / 数据确权 +0.56% / 网络安全 +0.51% / 数据要素 +0.38% / 数字水印 +0.15% / 数据安全 -0.09%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.26,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_change_pct": 3.54,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
       "dates": "11-13、11-10"
     },
     {
@@ -77,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.87,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.85,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-13"
     },
     {
@@ -87,9 +87,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.53,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.64,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-13"
     },
     {
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.44,
+      "avg_change_pct": 1.46,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.06,
+      "avg_change_pct": 1.35,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-13"
