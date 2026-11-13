@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T13:21:46+08:00",
+  "generated_at": "2026-11-13T13:26:25+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-13午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-13",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 1.69,
+      "change_pct": 1.48,
       "constituents": 64,
-      "members": "影视概念 +1.69%",
+      "members": "影视概念 +1.48%",
       "rank": 1
     },
     {
       "date": "2026-11-13",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.33,
+      "change_pct": 1.22,
       "constituents": 39,
-      "members": "猪肉概念 +1.33%",
+      "members": "猪肉概念 +1.22%",
       "rank": 2
     },
     {
       "date": "2026-11-13",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.94,
+      "change_pct": 0.85,
       "constituents": 20,
-      "members": "鸡肉概念 +0.94%",
+      "members": "鸡肉概念 +0.85%",
       "rank": 3
     },
     {
       "date": "2026-11-13",
       "theme": "文娱消费",
       "representative": "文娱消费",
-      "change_pct": 0.51,
+      "change_pct": 0.3,
       "constituents": 93,
-      "members": "文娱消费 +0.51%",
+      "members": "文娱消费 +0.30%",
       "rank": 4
     },
     {
       "date": "2026-11-13",
       "theme": "游戏概念/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 0.46,
+      "change_pct": 0.26,
       "constituents": 106,
-      "members": "短剧互动游戏 +0.46% / 游戏概念 +0.26%",
+      "members": "短剧互动游戏 +0.26% / 游戏概念 +0.07%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.35,
+      "avg_change_pct": 3.25,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-13、11-10"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.92,
+      "avg_change_pct": 2.82,
       "avg_rank": 4.0,
       "latest_rank": 5,
       "dates": "11-13、11-10"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.33,
+      "avg_change_pct": 1.22,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-13"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.94,
+      "avg_change_pct": 0.85,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-13"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.51,
+      "avg_change_pct": 0.3,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-13"
