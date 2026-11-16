@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T14:39:18+08:00",
+  "generated_at": "2026-11-16T14:43:31+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,67 +9,57 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.84,
+      "change_pct": 0.81,
       "constituents": 18,
-      "members": "免税概念 +0.84%",
+      "members": "免税概念 +0.81%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.42,
-      "constituents": 21,
-      "members": "净水概念 +0.42%",
-      "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.42,
+      "change_pct": 0.41,
       "constituents": 76,
-      "members": "大盘价值 +0.42%",
+      "members": "大盘价值 +0.41%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.28,
+      "constituents": 21,
+      "members": "净水概念 +0.28%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "低市净率",
+      "representative": "低市净率",
+      "change_pct": 0.09,
+      "constituents": 200,
+      "members": "低市净率 +0.09%",
+      "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 0.18,
+      "change_pct": 0.08,
       "constituents": 20,
-      "members": "退税商店 +0.18%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "白酒/酿酒概念",
-      "representative": "酿酒概念",
-      "change_pct": 0.17,
-      "constituents": 56,
-      "members": "酿酒概念 +0.17% / 白酒 -0.29%",
+      "members": "退税商店 +0.08%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 3,
-      "max_streak": 3,
-      "appearances": 3,
-      "avg_change_pct": 0.21,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "11-16、11-13、11-12"
-    },
-    {
       "theme": "大盘价值",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.31,
-      "avg_rank": 3.5,
-      "latest_rank": 3,
+      "avg_change_pct": 0.3,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
       "dates": "11-16、11-13"
     },
     {
@@ -77,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.52,
+      "avg_change_pct": 0.51,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -87,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.26,
-      "avg_rank": 3.5,
-      "latest_rank": 4,
+      "avg_change_pct": 0.21,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
       "dates": "11-16、11-12"
     },
     {
@@ -101,6 +91,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-13、11-10"
+    },
+    {
+      "theme": "白酒/酿酒概念",
+      "current_streak": 0,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.24,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
+      "dates": "11-13、11-12"
     },
     {
       "theme": "鸡肉概念",
@@ -117,9 +117,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.42,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.28,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-16"
+    },
+    {
+      "theme": "低市净率",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.09,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-16"
     },
     {
