@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T11:24:02+08:00",
+  "generated_at": "2026-11-16T11:28:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.49,
+      "change_pct": 1.48,
       "constituents": 20,
-      "members": "退税商店 +1.49%",
+      "members": "退税商店 +1.48%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "免税概念",
-      "representative": "免税概念",
-      "change_pct": 1.13,
-      "constituents": 18,
-      "members": "免税概念 +1.13%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "冰雪经济",
-      "representative": "冰雪经济",
-      "change_pct": 0.99,
-      "constituents": 42,
-      "members": "冰雪经济 +0.99%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 0.98,
-      "constituents": 39,
-      "members": "猪肉概念 +0.98%",
-      "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 0.97,
+      "change_pct": 1.1,
       "constituents": 21,
-      "members": "净水概念 +0.97%",
+      "members": "净水概念 +1.10%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "免税概念",
+      "representative": "免税概念",
+      "change_pct": 1.09,
+      "constituents": 18,
+      "members": "免税概念 +1.09%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "冰雪经济",
+      "representative": "冰雪经济",
+      "change_pct": 0.97,
+      "constituents": 42,
+      "members": "冰雪经济 +0.97%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": 0.97,
+      "constituents": 39,
+      "members": "猪肉概念 +0.97%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.18,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.17,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
       "dates": "11-16、11-13"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.92,
+      "avg_change_pct": 0.91,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.66,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.65,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-16、11-12"
     },
     {
@@ -113,23 +113,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-12"
     },
     {
-      "theme": "冰雪经济",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.99,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-16"
-    },
-    {
       "theme": "净水概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
+      "avg_change_pct": 1.1,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-16"
+    },
+    {
+      "theme": "冰雪经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
       "avg_change_pct": 0.97,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-16"
     },
     {
