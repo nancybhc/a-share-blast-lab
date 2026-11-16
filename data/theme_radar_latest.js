@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T10:52:25+08:00",
+  "generated_at": "2026-11-16T10:57:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,107 +9,97 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.26,
+      "change_pct": 1.34,
       "constituents": 20,
-      "members": "退税商店 +1.26%",
+      "members": "退税商店 +1.34%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 0.85,
+      "constituents": 64,
+      "members": "影视概念 +0.85%",
+      "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.76,
+      "change_pct": 0.79,
       "constituents": 18,
-      "members": "免税概念 +0.76%",
-      "rank": 2
+      "members": "免税概念 +0.79%",
+      "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "冰雪经济",
       "representative": "冰雪经济",
-      "change_pct": 0.67,
+      "change_pct": 0.78,
       "constituents": 42,
-      "members": "冰雪经济 +0.67%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 0.46,
-      "constituents": 39,
-      "members": "猪肉概念 +0.46%",
+      "members": "冰雪经济 +0.78%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.37,
-      "constituents": 21,
-      "members": "净水概念 +0.37%",
+      "theme": "游戏概念/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 0.74,
+      "constituents": 106,
+      "members": "短剧互动游戏 +0.74% / 游戏概念 -0.47%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "猪肉概念",
+      "theme": "影视概念",
       "current_streak": 2,
       "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 0.92,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
-      "dates": "11-16、11-13"
+      "appearances": 3,
+      "avg_change_pct": 2.3,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
+      "dates": "11-16、11-13、11-10"
     },
     {
       "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.8,
+      "avg_change_pct": 0.84,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
+    },
+    {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.06,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-16、11-10"
     },
     {
       "theme": "免税概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.48,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
+      "avg_change_pct": 0.49,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-16、11-12"
-    },
-    {
-      "theme": "影视概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.02,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
-      "dates": "11-13、11-10"
     },
     {
       "theme": "冰雪经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.67,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-16"
-    },
-    {
-      "theme": "净水概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.37,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.78,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-16"
     },
     {
@@ -143,6 +133,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-12"
     },
     {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.38,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
+    },
+    {
       "theme": "电子后视镜",
       "current_streak": 0,
       "max_streak": 1,
@@ -171,16 +171,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
-    },
-    {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.39,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
     },
     {
       "theme": "光纤概念",
