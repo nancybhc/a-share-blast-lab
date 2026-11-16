@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:03:40+08:00",
+  "generated_at": "2026-11-16T13:08:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,67 +9,57 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.14,
+      "change_pct": 1.2,
       "constituents": 20,
-      "members": "退税商店 +1.14%",
+      "members": "退税商店 +1.20%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.85,
+      "change_pct": 1.01,
       "constituents": 18,
-      "members": "免税概念 +0.85%",
+      "members": "免税概念 +1.01%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.8,
-      "constituents": 21,
-      "members": "净水概念 +0.80%",
-      "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.72,
+      "change_pct": 0.81,
       "constituents": 39,
-      "members": "猪肉概念 +0.72%",
+      "members": "猪肉概念 +0.81%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.66,
+      "constituents": 21,
+      "members": "净水概念 +0.66%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "白酒/酿酒概念",
-      "representative": "酿酒概念",
-      "change_pct": 0.55,
-      "constituents": 56,
-      "members": "酿酒概念 +0.55% / 白酒 +0.24%",
+      "theme": "冰雪经济",
+      "representative": "冰雪经济",
+      "change_pct": 0.61,
+      "constituents": 42,
+      "members": "冰雪经济 +0.61%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 3,
-      "max_streak": 3,
-      "appearances": 3,
-      "avg_change_pct": 0.34,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "11-16、11-13、11-12"
-    },
-    {
       "theme": "猪肉概念",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.05,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.09,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-16、11-13"
     },
     {
@@ -77,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.74,
+      "avg_change_pct": 0.77,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.53,
+      "avg_change_pct": 0.6,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-12"
@@ -101,6 +91,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-13、11-10"
+    },
+    {
+      "theme": "白酒/酿酒概念",
+      "current_streak": 0,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.24,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
+      "dates": "11-13、11-12"
     },
     {
       "theme": "鸡肉概念",
@@ -117,9 +117,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.8,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.66,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-16"
+    },
+    {
+      "theme": "冰雪经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.61,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-16"
     },
     {
