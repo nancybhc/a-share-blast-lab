@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T10:22:21+08:00",
+  "generated_at": "2026-11-16T10:26:36+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,75 +9,65 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.26,
+      "change_pct": 1.47,
       "constituents": 20,
-      "members": "退税商店 +1.26%",
+      "members": "退税商店 +1.47%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.79,
+      "change_pct": 1.03,
       "constituents": 18,
-      "members": "免税概念 +0.79%",
+      "members": "免税概念 +1.03%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 0.36,
-      "constituents": 39,
-      "members": "猪肉概念 +0.36%",
-      "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "冰雪经济",
       "representative": "冰雪经济",
-      "change_pct": 0.35,
+      "change_pct": 0.93,
       "constituents": 42,
-      "members": "冰雪经济 +0.35%",
+      "members": "冰雪经济 +0.93%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 0.9,
+      "constituents": 64,
+      "members": "影视概念 +0.90%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "大盘价值",
-      "representative": "大盘价值",
-      "change_pct": 0.31,
-      "constituents": 80,
-      "members": "大盘价值 +0.31%",
+      "theme": "游戏概念/短剧互动游戏",
+      "representative": "短剧互动游戏",
+      "change_pct": 0.86,
+      "constituents": 106,
+      "members": "短剧互动游戏 +0.86% / 游戏概念 -0.05%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "猪肉概念",
+      "theme": "影视概念",
       "current_streak": 2,
       "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 0.87,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
-      "dates": "11-16、11-13"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 0.23,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
-      "dates": "11-16、11-13"
+      "appearances": 3,
+      "avg_change_pct": 2.32,
+      "avg_rank": 3.7,
+      "latest_rank": 4,
+      "dates": "11-16、11-13、11-10"
     },
     {
       "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.8,
+      "avg_change_pct": 0.91,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -87,29 +77,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.49,
+      "avg_change_pct": 0.61,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-16、11-12"
     },
     {
-      "theme": "影视概念",
-      "current_streak": 0,
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.02,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
-      "dates": "11-13、11-10"
+      "avg_change_pct": 3.12,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-16、11-10"
     },
     {
       "theme": "冰雪经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.35,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 0.93,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-16"
     },
     {
@@ -143,6 +133,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-12"
     },
     {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.38,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
+    },
+    {
       "theme": "电子后视镜",
       "current_streak": 0,
       "max_streak": 1,
@@ -171,16 +171,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
-    },
-    {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.39,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
     },
     {
       "theme": "光纤概念",
@@ -231,6 +221,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
+    },
+    {
+      "theme": "大盘价值",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.16,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-13"
     },
     {
       "theme": "噪声防治",
