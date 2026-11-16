@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:34:35+08:00",
+  "generated_at": "2026-11-16T13:39:46+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.09,
+      "change_pct": 1.06,
       "constituents": 20,
-      "members": "退税商店 +1.09%",
+      "members": "退税商店 +1.06%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.08,
+      "change_pct": 1.06,
       "constituents": 18,
-      "members": "免税概念 +1.08%",
+      "members": "免税概念 +1.06%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.08,
+      "change_pct": 0.9,
       "constituents": 21,
-      "members": "净水概念 +1.08%",
+      "members": "净水概念 +0.90%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "白酒/酿酒概念",
       "representative": "酿酒概念",
-      "change_pct": 0.73,
+      "change_pct": 0.68,
       "constituents": 56,
-      "members": "酿酒概念 +0.73% / 白酒 +0.35%",
+      "members": "酿酒概念 +0.68% / 白酒 +0.29%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.73,
+      "change_pct": 0.57,
       "constituents": 39,
-      "members": "猪肉概念 +0.73%",
+      "members": "猪肉概念 +0.57%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 3,
       "max_streak": 3,
       "appearances": 3,
-      "avg_change_pct": 0.4,
+      "avg_change_pct": 0.38,
       "avg_rank": 3.7,
       "latest_rank": 4,
       "dates": "11-16、11-13、11-12"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.05,
+      "avg_change_pct": 0.97,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-16、11-13"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.72,
+      "avg_change_pct": 0.7,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.64,
+      "avg_change_pct": 0.63,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-12"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.08,
+      "avg_change_pct": 0.9,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-16"
