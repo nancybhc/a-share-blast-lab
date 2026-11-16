@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T14:29:02+08:00",
+  "generated_at": "2026-11-16T14:34:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.0,
+      "change_pct": 0.99,
       "constituents": 18,
-      "members": "免税概念 +1.00%",
+      "members": "免税概念 +0.99%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 0.67,
+      "change_pct": 0.6,
       "constituents": 21,
-      "members": "净水概念 +0.67%",
+      "members": "净水概念 +0.60%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.56,
+      "change_pct": 0.53,
       "constituents": 76,
-      "members": "大盘价值 +0.56%",
+      "members": "大盘价值 +0.53%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 0.45,
+      "change_pct": 0.38,
       "constituents": 20,
-      "members": "退税商店 +0.45%",
+      "members": "退税商店 +0.38%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "低市净率",
       "representative": "低市净率",
-      "change_pct": 0.24,
+      "change_pct": 0.22,
       "constituents": 200,
-      "members": "低市净率 +0.24%",
+      "members": "低市净率 +0.22%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.38,
+      "avg_change_pct": 0.36,
       "avg_rank": 3.5,
       "latest_rank": 3,
       "dates": "11-16、11-13"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.6,
+      "avg_change_pct": 0.59,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.4,
+      "avg_change_pct": 0.36,
       "avg_rank": 3.5,
       "latest_rank": 4,
       "dates": "11-16、11-12"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.67,
+      "avg_change_pct": 0.6,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-16"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.24,
+      "avg_change_pct": 0.22,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-16"
