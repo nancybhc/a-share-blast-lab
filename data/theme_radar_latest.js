@@ -1,19 +1,10 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:49:50+08:00",
+  "generated_at": "2026-11-16T13:54:38+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
   "daily_top": [
-    {
-      "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 1.11,
-      "constituents": 21,
-      "members": "净水概念 +1.11%",
-      "rank": 1
-    },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
@@ -21,33 +12,42 @@ window.THEME_RADAR_DATA = {
       "change_pct": 1.05,
       "constituents": 18,
       "members": "免税概念 +1.05%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.93,
+      "constituents": 21,
+      "members": "净水概念 +0.93%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 0.95,
+      "change_pct": 0.82,
       "constituents": 20,
-      "members": "退税商店 +0.95%",
+      "members": "退税商店 +0.82%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "白酒/酿酒概念",
       "representative": "酿酒概念",
-      "change_pct": 0.58,
+      "change_pct": 0.49,
       "constituents": 56,
-      "members": "酿酒概念 +0.58% / 白酒 +0.20%",
+      "members": "酿酒概念 +0.49% / 白酒 +0.12%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 0.54,
-      "constituents": 39,
-      "members": "猪肉概念 +0.54%",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": 0.46,
+      "constituents": 76,
+      "members": "大盘价值 +0.46%",
       "rank": 5
     }
   ],
@@ -57,30 +57,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 3,
       "max_streak": 3,
       "appearances": 3,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.32,
       "avg_rank": 3.7,
       "latest_rank": 4,
       "dates": "11-16、11-13、11-12"
     },
     {
-      "theme": "猪肉概念",
+      "theme": "大盘价值",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.96,
-      "avg_rank": 3.0,
+      "avg_change_pct": 0.33,
+      "avg_rank": 4.5,
       "latest_rank": 5,
       "dates": "11-16、11-13"
-    },
-    {
-      "theme": "退税商店",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 0.65,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-16、11-12"
     },
     {
       "theme": "免税概念",
@@ -88,8 +78,18 @@ window.THEME_RADAR_DATA = {
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 0.62,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-16、11-12"
+    },
+    {
+      "theme": "退税商店",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.58,
       "avg_rank": 3.0,
-      "latest_rank": 2,
+      "latest_rank": 3,
       "dates": "11-16、11-12"
     },
     {
@@ -117,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.11,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 0.93,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-16"
     },
     {
@@ -141,6 +141,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-11"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.38,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
     },
     {
       "theme": "预制菜概念",
@@ -201,16 +211,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-13"
     },
     {
       "theme": "全息技术",
