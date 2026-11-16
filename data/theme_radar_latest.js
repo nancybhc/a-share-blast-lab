@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T11:14:40+08:00",
+  "generated_at": "2026-11-16T11:19:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,75 +9,65 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.58,
+      "change_pct": 1.43,
       "constituents": 20,
-      "members": "退税商店 +1.58%",
+      "members": "退税商店 +1.43%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.2,
+      "change_pct": 1.1,
       "constituents": 18,
-      "members": "免税概念 +1.20%",
+      "members": "免税概念 +1.10%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
-      "theme": "白酒/酿酒概念",
-      "representative": "酿酒概念",
-      "change_pct": 1.13,
-      "constituents": 56,
-      "members": "酿酒概念 +1.13% / 白酒 +0.85%",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": 0.96,
+      "constituents": 39,
+      "members": "猪肉概念 +0.96%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 1.06,
-      "constituents": 64,
-      "members": "影视概念 +1.06%",
-      "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "冰雪经济",
       "representative": "冰雪经济",
-      "change_pct": 1.02,
+      "change_pct": 0.94,
       "constituents": 42,
-      "members": "冰雪经济 +1.02%",
+      "members": "冰雪经济 +0.94%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.78,
+      "constituents": 21,
+      "members": "净水概念 +0.78%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 3,
-      "max_streak": 3,
-      "appearances": 3,
-      "avg_change_pct": 0.53,
-      "avg_rank": 3.3,
-      "latest_rank": 3,
-      "dates": "11-16、11-13、11-12"
-    },
-    {
-      "theme": "影视概念",
+      "theme": "猪肉概念",
       "current_streak": 2,
       "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 2.37,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
-      "dates": "11-16、11-13、11-10"
+      "appearances": 2,
+      "avg_change_pct": 1.17,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
+      "dates": "11-16、11-13"
     },
     {
       "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.96,
+      "avg_change_pct": 0.89,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -87,10 +77,30 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.7,
+      "avg_change_pct": 0.65,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-12"
+    },
+    {
+      "theme": "影视概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.02,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
+      "dates": "11-13、11-10"
+    },
+    {
+      "theme": "白酒/酿酒概念",
+      "current_streak": 0,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.24,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
+      "dates": "11-13、11-12"
     },
     {
       "theme": "鸡肉概念",
@@ -107,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.02,
+      "avg_change_pct": 0.94,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-16"
+    },
+    {
+      "theme": "净水概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.78,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-16"
@@ -131,16 +151,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-11"
-    },
-    {
-      "theme": "猪肉概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.38,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-13"
     },
     {
       "theme": "预制菜概念",
