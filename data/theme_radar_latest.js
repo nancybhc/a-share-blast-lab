@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T09:36:23+08:00",
+  "generated_at": "2026-11-16T09:41:45+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,65 +9,55 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 0.24,
+      "change_pct": 1.08,
       "constituents": 20,
-      "members": "退税商店 +0.24%",
+      "members": "退税商店 +1.08%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": -0.1,
+      "change_pct": 0.52,
       "constituents": 18,
-      "members": "免税概念 -0.10%",
+      "members": "免税概念 +0.52%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": -0.4,
-      "constituents": 39,
-      "members": "猪肉概念 -0.40%",
+      "theme": "冰雪经济",
+      "representative": "冰雪经济",
+      "change_pct": 0.16,
+      "constituents": 42,
+      "members": "冰雪经济 +0.16%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "低市盈率/低市净率",
       "representative": "低市净率",
-      "change_pct": -0.41,
+      "change_pct": -0.09,
       "constituents": 347,
-      "members": "低市净率 -0.41% / 低市盈率 -0.82%",
+      "members": "低市净率 -0.09% / 低市盈率 -0.60%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "REITs概念",
-      "representative": "REITs概念",
-      "change_pct": -0.47,
-      "constituents": 24,
-      "members": "REITs概念 -0.47%",
+      "theme": "旅游概念/旅游酒店",
+      "representative": "旅游酒店",
+      "change_pct": -0.19,
+      "constituents": 71,
+      "members": "旅游酒店 -0.19% / 旅游概念 -0.87%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "猪肉概念",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 0.49,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
-      "dates": "11-16、11-13"
-    },
-    {
       "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.29,
+      "avg_change_pct": 0.71,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.05,
+      "avg_change_pct": 0.36,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-16、11-12"
@@ -93,21 +83,31 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-10"
     },
     {
+      "theme": "冰雪经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.16,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-16"
+    },
+    {
       "theme": "低市盈率/低市净率",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.41,
+      "avg_change_pct": -0.09,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-16"
     },
     {
-      "theme": "REITs概念",
+      "theme": "旅游概念/旅游酒店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.47,
+      "avg_change_pct": -0.19,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-16"
@@ -141,6 +141,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-12"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.38,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
     },
     {
       "theme": "电子后视镜",
