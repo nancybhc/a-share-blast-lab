@@ -1,64 +1,74 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:24:22+08:00",
+  "generated_at": "2026-11-16T13:30:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
   "daily_top": [
     {
       "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 1.14,
+      "constituents": 21,
+      "members": "净水概念 +1.14%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.41,
+      "change_pct": 1.12,
       "constituents": 20,
-      "members": "退税商店 +1.41%",
-      "rank": 1
+      "members": "退税商店 +1.12%",
+      "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.23,
+      "change_pct": 1.04,
       "constituents": 18,
-      "members": "免税概念 +1.23%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 1.19,
-      "constituents": 21,
-      "members": "净水概念 +1.19%",
+      "members": "免税概念 +1.04%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 0.92,
-      "constituents": 39,
-      "members": "猪肉概念 +0.92%",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": 0.57,
+      "constituents": 76,
+      "members": "大盘价值 +0.57%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "冰雪经济",
-      "representative": "冰雪经济",
-      "change_pct": 0.88,
-      "constituents": 42,
-      "members": "冰雪经济 +0.88%",
+      "theme": "白酒/酿酒概念",
+      "representative": "酿酒概念",
+      "change_pct": 0.55,
+      "constituents": 56,
+      "members": "酿酒概念 +0.55% / 白酒 +0.18%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "猪肉概念",
+      "theme": "白酒/酿酒概念",
+      "current_streak": 3,
+      "max_streak": 3,
+      "appearances": 3,
+      "avg_change_pct": 0.34,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-16、11-13、11-12"
+    },
+    {
+      "theme": "大盘价值",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.15,
-      "avg_rank": 2.5,
+      "avg_change_pct": 0.39,
+      "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-16、11-13"
     },
@@ -67,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.88,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
+      "avg_change_pct": 0.73,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-16、11-12"
     },
     {
@@ -77,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.71,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.62,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-16、11-12"
     },
     {
@@ -91,16 +101,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-13、11-10"
-    },
-    {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 0,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 0.24,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
-      "dates": "11-13、11-12"
     },
     {
       "theme": "鸡肉概念",
@@ -117,19 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.19,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-16"
-    },
-    {
-      "theme": "冰雪经济",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.88,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 1.14,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-16"
     },
     {
@@ -151,6 +141,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-11"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.38,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
     },
     {
       "theme": "预制菜概念",
@@ -211,16 +211,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-13"
     },
     {
       "theme": "全息技术",
