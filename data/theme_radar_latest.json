@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T10:07:26+08:00",
+  "generated_at": "2026-11-16T10:12:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.22,
+      "change_pct": 1.05,
       "constituents": 20,
-      "members": "退税商店 +1.22%",
+      "members": "退税商店 +1.05%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.66,
+      "change_pct": 0.68,
       "constituents": 18,
-      "members": "免税概念 +0.66%",
+      "members": "免税概念 +0.68%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "冰雪经济",
-      "representative": "冰雪经济",
-      "change_pct": 0.42,
-      "constituents": 42,
-      "members": "冰雪经济 +0.42%",
-      "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 0.37,
+      "change_pct": 0.58,
       "constituents": 21,
-      "members": "净水概念 +0.37%",
+      "members": "净水概念 +0.58%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "冰雪经济",
+      "representative": "冰雪经济",
+      "change_pct": 0.53,
+      "constituents": 42,
+      "members": "冰雪经济 +0.53%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.15,
+      "change_pct": 0.25,
       "constituents": 80,
-      "members": "大盘价值 +0.15%",
+      "members": "大盘价值 +0.25%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.15,
+      "avg_change_pct": 0.21,
       "avg_rank": 4.5,
       "latest_rank": 5,
       "dates": "11-16、11-13"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.78,
+      "avg_change_pct": 0.7,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.43,
+      "avg_change_pct": 0.44,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-16、11-12"
@@ -93,21 +93,21 @@
       "dates": "11-13、11-10"
     },
     {
-      "theme": "冰雪经济",
+      "theme": "净水概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.42,
+      "avg_change_pct": 0.58,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-16"
     },
     {
-      "theme": "净水概念",
+      "theme": "冰雪经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.37,
+      "avg_change_pct": 0.53,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-16"
