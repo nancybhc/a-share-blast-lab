@@ -1,116 +1,106 @@
 {
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T15:11:35+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-13收盘",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T09:25:40+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-16午盘",
   "daily_top": [
     {
-      "date": "2026-11-13",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": 1.38,
-      "constituents": 39,
-      "members": "猪肉概念 +1.38%",
+      "date": "2026-11-16",
+      "theme": "电子竞技",
+      "representative": "电子竞技",
+      "change_pct": 0.65,
+      "constituents": 35,
+      "members": "电子竞技 +0.65%",
       "rank": 1
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-16",
       "theme": "影视概念",
       "representative": "影视概念",
-      "change_pct": 1.04,
+      "change_pct": 0.6,
       "constituents": 64,
-      "members": "影视概念 +1.04%",
+      "members": "影视概念 +0.60%",
       "rank": 2
     },
     {
-      "date": "2026-11-13",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": 0.93,
-      "constituents": 20,
-      "members": "鸡肉概念 +0.93%",
+      "date": "2026-11-16",
+      "theme": "游戏概念/短剧互动游戏",
+      "representative": "游戏概念",
+      "change_pct": 0.55,
+      "constituents": 106,
+      "members": "游戏概念 +0.55% / 短剧互动游戏 +0.41%",
       "rank": 3
     },
     {
-      "date": "2026-11-13",
-      "theme": "大盘价值",
-      "representative": "大盘价值",
-      "change_pct": 0.16,
-      "constituents": 80,
-      "members": "大盘价值 +0.16%",
+      "date": "2026-11-16",
+      "theme": "文娱消费",
+      "representative": "文娱消费",
+      "change_pct": 0.43,
+      "constituents": 93,
+      "members": "文娱消费 +0.43%",
       "rank": 4
     },
     {
-      "date": "2026-11-13",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": -0.02,
-      "constituents": 93,
-      "members": "文娱消费 -0.02%",
+      "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.38,
+      "constituents": 21,
+      "members": "净水概念 +0.38%",
       "rank": 5
     }
   ],
   "five_day": [
     {
       "theme": "影视概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.02,
-      "avg_rank": 3.5,
-      "latest_rank": 2,
-      "dates": "11-13、11-10"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.01,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "11-11、11-09"
-    },
-    {
-      "theme": "猪肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.38,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-13"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.93,
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 3,
+      "avg_change_pct": 2.22,
       "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-13"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.16,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-13"
+      "latest_rank": 2,
+      "dates": "11-16、11-13、11-10"
     },
     {
       "theme": "文娱消费",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.2,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-16、11-13"
+    },
+    {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.97,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-16、11-10"
+    },
+    {
+      "theme": "电子竞技",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.02,
+      "avg_change_pct": 0.65,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-16"
+    },
+    {
+      "theme": "净水概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.38,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-13"
+      "dates": "11-16"
     },
     {
       "theme": "智能音箱",
@@ -133,16 +123,6 @@
       "dates": "11-11"
     },
     {
-      "theme": "纳米银",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.59,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-09"
-    },
-    {
       "theme": "水产概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -151,6 +131,16 @@
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-12"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.38,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-13"
     },
     {
       "theme": "电子后视镜",
@@ -173,16 +163,6 @@
       "dates": "11-11"
     },
     {
-      "theme": "6G概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.2,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-09"
-    },
-    {
       "theme": "预制菜概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -193,16 +173,6 @@
       "dates": "11-12"
     },
     {
-      "theme": "游戏概念/短剧互动游戏",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.39,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-10"
-    },
-    {
       "theme": "光纤概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -211,6 +181,16 @@
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-11"
+    },
+    {
+      "theme": "鸡肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.93,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-13"
     },
     {
       "theme": "白酒",
@@ -243,16 +223,6 @@
       "dates": "11-11"
     },
     {
-      "theme": "机器人",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.0,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-09"
-    },
-    {
       "theme": "退税商店",
       "current_streak": 0,
       "max_streak": 1,
@@ -263,14 +233,24 @@
       "dates": "11-12"
     },
     {
-      "theme": "毫米波概念",
+      "theme": "大盘价值",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.99,
+      "avg_change_pct": 0.16,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-13"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.84,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-09"
+      "dates": "11-11"
     },
     {
       "theme": "免税概念",
