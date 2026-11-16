@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:13:20+08:00",
+  "generated_at": "2026-11-16T13:19:14+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.2,
+      "change_pct": 1.19,
       "constituents": 20,
-      "members": "退税商店 +1.20%",
+      "members": "退税商店 +1.19%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.02,
+      "change_pct": 1.07,
       "constituents": 18,
-      "members": "免税概念 +1.02%",
+      "members": "免税概念 +1.07%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.76,
+      "change_pct": 0.69,
       "constituents": 39,
-      "members": "猪肉概念 +0.76%",
+      "members": "猪肉概念 +0.69%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "白酒/酿酒概念",
       "representative": "酿酒概念",
-      "change_pct": 0.59,
+      "change_pct": 0.63,
       "constituents": 56,
-      "members": "酿酒概念 +0.59% / 白酒 +0.20%",
+      "members": "酿酒概念 +0.63% / 白酒 +0.23%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.55,
-      "constituents": 21,
-      "members": "净水概念 +0.55%",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": 0.52,
+      "constituents": 76,
+      "members": "大盘价值 +0.52%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 3,
       "max_streak": 3,
       "appearances": 3,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.37,
       "avg_rank": 3.7,
       "latest_rank": 4,
       "dates": "11-16、11-13、11-12"
@@ -67,9 +67,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.07,
+      "avg_change_pct": 1.03,
       "avg_rank": 2.0,
       "latest_rank": 3,
+      "dates": "11-16、11-13"
+    },
+    {
+      "theme": "大盘价值",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.36,
+      "avg_rank": 4.5,
+      "latest_rank": 5,
       "dates": "11-16、11-13"
     },
     {
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.61,
+      "avg_change_pct": 0.64,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-12"
@@ -111,16 +121,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 3,
       "dates": "11-13、11-12"
-    },
-    {
-      "theme": "净水概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.55,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-16"
     },
     {
       "theme": "智能音箱",
@@ -201,16 +201,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-13"
     },
     {
       "theme": "全息技术",
