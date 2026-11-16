@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T14:43:31+08:00",
+  "generated_at": "2026-11-16T14:48:15+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.81,
+      "change_pct": 0.97,
       "constituents": 18,
-      "members": "免税概念 +0.81%",
+      "members": "免税概念 +0.97%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.41,
+      "change_pct": 0.57,
       "constituents": 76,
-      "members": "大盘价值 +0.41%",
+      "members": "大盘价值 +0.57%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 0.28,
+      "change_pct": 0.47,
       "constituents": 21,
-      "members": "净水概念 +0.28%",
+      "members": "净水概念 +0.47%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "低市净率",
-      "representative": "低市净率",
-      "change_pct": 0.09,
-      "constituents": 200,
-      "members": "低市净率 +0.09%",
-      "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 0.08,
+      "change_pct": 0.27,
       "constituents": 20,
-      "members": "退税商店 +0.08%",
+      "members": "退税商店 +0.27%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "低市净率",
+      "representative": "低市净率",
+      "change_pct": 0.18,
+      "constituents": 200,
+      "members": "低市净率 +0.18%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.3,
+      "avg_change_pct": 0.39,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-13"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.51,
+      "avg_change_pct": 0.58,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.21,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.31,
+      "avg_rank": 3.5,
+      "latest_rank": 4,
       "dates": "11-16、11-12"
     },
     {
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.28,
+      "avg_change_pct": 0.47,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-16"
@@ -127,9 +127,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.09,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 0.18,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-16"
     },
     {
