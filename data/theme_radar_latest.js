@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T11:02:46+08:00",
+  "generated_at": "2026-11-16T11:07:05+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.45,
+      "change_pct": 1.35,
       "constituents": 20,
-      "members": "退税商店 +1.45%",
+      "members": "退税商店 +1.35%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 1.05,
-      "constituents": 64,
-      "members": "影视概念 +1.05%",
-      "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.0,
+      "change_pct": 1.01,
       "constituents": 18,
-      "members": "免税概念 +1.00%",
-      "rank": 3
+      "members": "免税概念 +1.01%",
+      "rank": 2
     },
     {
       "date": "2026-11-16",
-      "theme": "冰雪经济",
-      "representative": "冰雪经济",
-      "change_pct": 0.89,
-      "constituents": 42,
-      "members": "冰雪经济 +0.89%",
-      "rank": 4
+      "theme": "影视概念",
+      "representative": "影视概念",
+      "change_pct": 0.99,
+      "constituents": 64,
+      "members": "影视概念 +0.99%",
+      "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "游戏概念/短剧互动游戏",
       "representative": "短剧互动游戏",
-      "change_pct": 0.88,
+      "change_pct": 0.85,
       "constituents": 106,
-      "members": "短剧互动游戏 +0.88% / 游戏概念 -0.30%",
+      "members": "短剧互动游戏 +0.85% / 游戏概念 -0.37%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "冰雪经济",
+      "representative": "冰雪经济",
+      "change_pct": 0.84,
+      "constituents": 42,
+      "members": "冰雪经济 +0.84%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 2.37,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.35,
+      "avg_rank": 3.3,
+      "latest_rank": 3,
       "dates": "11-16、11-13、11-10"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.9,
+      "avg_change_pct": 0.85,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.13,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
+      "avg_change_pct": 3.12,
+      "avg_rank": 3.5,
+      "latest_rank": 4,
       "dates": "11-16、11-10"
     },
     {
@@ -88,8 +88,8 @@ window.THEME_RADAR_DATA = {
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 0.6,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-16、11-12"
     },
     {
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.89,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 0.84,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-16"
     },
     {
