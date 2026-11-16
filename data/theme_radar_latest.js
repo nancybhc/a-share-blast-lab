@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T10:02:38+08:00",
+  "generated_at": "2026-11-16T10:07:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
@@ -9,55 +9,65 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.26,
+      "change_pct": 1.22,
       "constituents": 20,
-      "members": "退税商店 +1.26%",
+      "members": "退税商店 +1.22%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 0.61,
+      "change_pct": 0.66,
       "constituents": 18,
-      "members": "免税概念 +0.61%",
+      "members": "免税概念 +0.66%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.24,
-      "constituents": 21,
-      "members": "净水概念 +0.24%",
-      "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "冰雪经济",
       "representative": "冰雪经济",
-      "change_pct": 0.24,
+      "change_pct": 0.42,
       "constituents": 42,
-      "members": "冰雪经济 +0.24%",
+      "members": "冰雪经济 +0.42%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.37,
+      "constituents": 21,
+      "members": "净水概念 +0.37%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "白酒",
-      "representative": "白酒",
-      "change_pct": -0.01,
-      "constituents": 41,
-      "members": "白酒 -0.01%",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": 0.15,
+      "constituents": 80,
+      "members": "大盘价值 +0.15%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "大盘价值",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.15,
+      "avg_rank": 4.5,
+      "latest_rank": 5,
+      "dates": "11-16、11-13"
+    },
+    {
       "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.8,
+      "avg_change_pct": 0.78,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -67,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.41,
+      "avg_change_pct": 0.43,
       "avg_rank": 3.5,
       "latest_rank": 2,
-      "dates": "11-16、11-12"
-    },
-    {
-      "theme": "白酒",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 0.2,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
       "dates": "11-16、11-12"
     },
     {
@@ -93,21 +93,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-10"
     },
     {
-      "theme": "净水概念",
+      "theme": "冰雪经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.24,
+      "avg_change_pct": 0.42,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-16"
     },
     {
-      "theme": "冰雪经济",
+      "theme": "净水概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.24,
+      "avg_change_pct": 0.37,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-16"
@@ -213,6 +213,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13"
     },
     {
+      "theme": "白酒",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.4,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-12"
+    },
+    {
       "theme": "物理AI",
       "current_streak": 0,
       "max_streak": 1,
@@ -231,16 +241,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-11"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.16,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-13"
     },
     {
       "theme": "噪声防治",
