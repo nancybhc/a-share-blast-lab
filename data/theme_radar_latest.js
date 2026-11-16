@@ -1,103 +1,113 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T09:25:40+08:00",
+  "generated_at": "2026-11-16T09:30:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-16午盘",
   "daily_top": [
     {
       "date": "2026-11-16",
-      "theme": "电子竞技",
-      "representative": "电子竞技",
-      "change_pct": 0.65,
-      "constituents": 35,
-      "members": "电子竞技 +0.65%",
+      "theme": "肝素概念",
+      "representative": "肝素概念",
+      "change_pct": 0.67,
+      "constituents": 13,
+      "members": "肝素概念 +0.67%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
-      "theme": "影视概念",
-      "representative": "影视概念",
-      "change_pct": 0.6,
-      "constituents": 64,
-      "members": "影视概念 +0.60%",
+      "theme": "退税商店",
+      "representative": "退税商店",
+      "change_pct": 0.53,
+      "constituents": 20,
+      "members": "退税商店 +0.53%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
-      "theme": "游戏概念/短剧互动游戏",
-      "representative": "游戏概念",
-      "change_pct": 0.55,
-      "constituents": 106,
-      "members": "游戏概念 +0.55% / 短剧互动游戏 +0.41%",
+      "theme": "电子竞技",
+      "representative": "电子竞技",
+      "change_pct": 0.41,
+      "constituents": 35,
+      "members": "电子竞技 +0.41%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
-      "theme": "文娱消费",
-      "representative": "文娱消费",
-      "change_pct": 0.43,
-      "constituents": 93,
-      "members": "文娱消费 +0.43%",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": 0.4,
+      "constituents": 39,
+      "members": "猪肉概念 +0.40%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.38,
-      "constituents": 21,
-      "members": "净水概念 +0.38%",
+      "theme": "单抗概念",
+      "representative": "单抗概念",
+      "change_pct": 0.35,
+      "constituents": 50,
+      "members": "单抗概念 +0.35%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "影视概念",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 2.22,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
-      "dates": "11-16、11-13、11-10"
-    },
-    {
-      "theme": "文娱消费",
+      "theme": "猪肉概念",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.2,
-      "avg_rank": 4.5,
+      "avg_change_pct": 0.89,
+      "avg_rank": 2.5,
       "latest_rank": 4,
       "dates": "11-16、11-13"
     },
     {
-      "theme": "游戏概念/短剧互动游戏",
+      "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.97,
+      "avg_change_pct": 0.44,
       "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-16、11-10"
+      "latest_rank": 2,
+      "dates": "11-16、11-12"
+    },
+    {
+      "theme": "影视概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 3.02,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
+      "dates": "11-13、11-10"
+    },
+    {
+      "theme": "肝素概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.67,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-16"
     },
     {
       "theme": "电子竞技",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.65,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 0.41,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-16"
     },
     {
-      "theme": "净水概念",
+      "theme": "单抗概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.38,
+      "avg_change_pct": 0.35,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-16"
@@ -133,16 +143,6 @@ window.THEME_RADAR_DATA = {
       "dates": "11-12"
     },
     {
-      "theme": "猪肉概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.38,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-13"
-    },
-    {
       "theme": "电子后视镜",
       "current_streak": 0,
       "max_streak": 1,
@@ -171,6 +171,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-12"
+    },
+    {
+      "theme": "游戏概念/短剧互动游戏",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.39,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-10"
     },
     {
       "theme": "光纤概念",
@@ -223,16 +233,6 @@ window.THEME_RADAR_DATA = {
       "dates": "11-11"
     },
     {
-      "theme": "退税商店",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.34,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-12"
-    },
-    {
       "theme": "大盘价值",
       "current_streak": 0,
       "max_streak": 1,
@@ -261,6 +261,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-12"
+    },
+    {
+      "theme": "文娱消费",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.02,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-13"
     }
   ]
 };
