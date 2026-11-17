@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T13:02:58+08:00",
+  "generated_at": "2026-11-17T13:07:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 5.0,
+      "change_pct": 4.74,
       "constituents": 43,
-      "members": "光刻机 +5.00%",
+      "members": "光刻机 +4.74%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 4.75,
+      "change_pct": 4.73,
       "constituents": 63,
-      "members": "光刻胶 +4.75%",
+      "members": "光刻胶 +4.73%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 3.57,
-      "constituents": 66,
-      "members": "中芯概念 +3.57%",
-      "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 3.55,
+      "change_pct": 3.66,
       "constituents": 4,
-      "members": "第四代半导体 +3.55%",
+      "members": "第四代半导体 +3.66%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "中芯概念",
+      "representative": "中芯概念",
+      "change_pct": 3.25,
+      "constituents": 66,
+      "members": "中芯概念 +3.25%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 3.09,
+      "change_pct": 2.76,
       "constituents": 28,
-      "members": "高带宽内存 +3.09%",
+      "members": "高带宽内存 +2.76%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.0,
+      "avg_change_pct": 4.74,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -97,19 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.75,
+      "avg_change_pct": 4.73,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-17"
-    },
-    {
-      "theme": "中芯概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.57,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-17"
     },
     {
@@ -117,7 +107,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.55,
+      "avg_change_pct": 3.66,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-17"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.25,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.09,
+      "avg_change_pct": 2.76,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
