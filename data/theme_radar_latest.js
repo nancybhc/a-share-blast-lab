@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T10:28:04+08:00",
+  "generated_at": "2026-11-17T10:33:15+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 2.68,
+      "change_pct": 2.78,
       "constituents": 63,
-      "members": "光刻胶 +2.68%",
+      "members": "光刻胶 +2.78%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 2.48,
-      "constituents": 43,
-      "members": "光刻机 +2.48%",
-      "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 2.03,
+      "change_pct": 2.27,
       "constituents": 4,
-      "members": "第四代半导体 +2.03%",
+      "members": "第四代半导体 +2.27%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 2.22,
+      "constituents": 43,
+      "members": "光刻机 +2.22%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "染料",
       "representative": "染料",
-      "change_pct": 1.32,
+      "change_pct": 1.37,
       "constituents": 34,
-      "members": "染料 +1.32%",
+      "members": "染料 +1.37%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 1.17,
-      "constituents": 66,
-      "members": "中芯概念 +1.17%",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": 1.08,
+      "constituents": 23,
+      "members": "环氧丙烷 +1.08%",
       "rank": 5
     }
   ],
@@ -107,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
+      "avg_change_pct": 2.78,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-17"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.48,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-17"
     },
     {
@@ -127,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.03,
+      "avg_change_pct": 2.27,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-17"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.22,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -137,17 +137,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.32,
+      "avg_change_pct": 1.37,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
     },
     {
-      "theme": "中芯概念",
+      "theme": "环氧丙烷",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.17,
+      "avg_change_pct": 1.08,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
