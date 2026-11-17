@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -15,6 +14,7 @@ from openpyxl import load_workbook
 SITE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = SITE_DIR / "data"
 REPORT_ROOT = Path(r"C:\Users\jiach\多空趋势分析结果")
+DESKTOP_REPORT_ROOT = Path(r"C:\Users\jiach\Desktop\今日盘中\多空趋势")
 HISTORY_CACHE_ROOT = Path(r"C:\Users\jiach\题材雷达工作流\cache")
 SUMMARY_SHEETS = {"总览", "多空趋势", "量化5破10推演"}
 EXCLUDED_GROUPS = {"黄金白银"}
@@ -56,12 +56,19 @@ def parse_args() -> argparse.Namespace:
 
 def latest_report(target_date: str = "") -> tuple[str, Path]:
     if target_date:
-        path = REPORT_ROOT / f"多空阶段_{target_date}.xlsx"
-        if not path.is_file():
-            raise FileNotFoundError(path)
-        return target_date, path
+        candidates = [
+            root / f"多空阶段_{target_date}.xlsx"
+            for root in (REPORT_ROOT, DESKTOP_REPORT_ROOT)
+        ]
+        existing = [path for path in candidates if path.is_file()]
+        if not existing:
+            raise FileNotFoundError("；".join(map(str, candidates)))
+        return target_date, max(existing, key=lambda path: path.stat().st_mtime)
     reports = sorted(
-        REPORT_ROOT.glob("多空阶段_*.xlsx"),
+        [
+            *REPORT_ROOT.glob("多空阶段_*.xlsx"),
+            *DESKTOP_REPORT_ROOT.glob("多空阶段_*.xlsx"),
+        ],
         key=lambda path: path.stat().st_mtime,
         reverse=True,
     )
@@ -220,8 +227,11 @@ def series_payload(
     }
 
 
-def build_payload(target_date: str, days: int) -> dict[str, Any]:
-    report_path = REPORT_ROOT / f"多空阶段_{target_date}.xlsx"
+def build_payload(
+    target_date: str,
+    days: int,
+    report_path: Path,
+) -> dict[str, Any]:
     cache_path = latest_history_cache(target_date)
     memberships = load_memberships(report_path)
     required = {
@@ -386,7 +396,7 @@ def rebuild_latest(
     resolved_date, report_path = latest_report(target_date)
     if not report_path.is_file():
         raise FileNotFoundError(report_path)
-    payload = build_payload(resolved_date, days)
+    payload = build_payload(resolved_date, days, report_path)
     json_path, js_path = write_payload(payload)
     return payload, json_path, js_path
 
