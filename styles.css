@@ -4003,7 +4003,7 @@ button {
 
 .multitrend-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
 }
 
@@ -4070,7 +4070,7 @@ button {
 
 .multitrend-plot {
   position: relative;
-  min-height: 330px;
+  min-height: 390px;
   margin-top: 16px;
   border-top: 1px solid var(--line-soft);
   cursor: grab;
@@ -4086,7 +4086,7 @@ button {
   display: block;
   width: 100%;
   height: auto;
-  min-height: 320px;
+  min-height: 380px;
   overflow: visible;
 }
 

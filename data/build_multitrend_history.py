@@ -28,7 +28,16 @@ AI_POOL_GROUPS = (
     "存储",
     "AIDC",
 )
-AI_COMPONENT_GROUPS = ("PCB", "CPO", "光上游", "半导体", "MLCC", "存储")
+AI_COMPONENT_GROUPS = (
+    "PCB",
+    "CPO",
+    "光上游",
+    "半导体芯片",
+    "半导体设备",
+    "半导体上游",
+    "MLCC",
+    "存储",
+)
 SOLID_STORAGE_GROUPS = ("固态锂电", "储能")
 POWER_GROUPS = ("电力", "电网设备")
 KEY_GROUPS = (

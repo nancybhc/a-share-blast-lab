@@ -7,17 +7,17 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23b42335' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261117160129">
-  <script src="data/group_fund_flows_latest.js?v=20261117160129"></script>
-  <script src="data/board_daily_fund_flows_latest.js?v=20261117160129"></script>
-  <script src="data/full_market_daily_latest.js?v=20261117160129"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261117160129"></script>
-  <script src="data/theme_radar_latest.js?v=20261117160129"></script>
-  <script src="data/group_intraday_trends_latest.js?v=20261117160129"></script>
-  <script src="data/runtime_status.js?v=20261117160129"></script>
-  <script src="data/market_trend_latest.js?v=20261117160129"></script>
-  <script src="data/multitrend_history_latest.js?v=20261117160129"></script>
-  <script src="app.js?v=20261117160129" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261117161245">
+  <script src="data/group_fund_flows_latest.js?v=20261117161245"></script>
+  <script src="data/board_daily_fund_flows_latest.js?v=20261117161245"></script>
+  <script src="data/full_market_daily_latest.js?v=20261117161245"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261117161245"></script>
+  <script src="data/theme_radar_latest.js?v=20261117161245"></script>
+  <script src="data/group_intraday_trends_latest.js?v=20261117161245"></script>
+  <script src="data/runtime_status.js?v=20261117161245"></script>
+  <script src="data/market_trend_latest.js?v=20261117161245"></script>
+  <script src="data/multitrend_history_latest.js?v=20261117161245"></script>
+  <script src="app.js?v=20261117161245" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -243,7 +243,7 @@
           <div class="eyebrow"><span class="eyebrow-line"></span> 02 / 趋势回看</div>
           <h2>多空趋势</h2>
         </div>
-        <p>把多空阶段表里的四张趋势图放进同一时间轴。可显隐分组、滚轮缩放、拖动平移，四张图共用观察区间。</p>
+        <p>上下两张宽图共用观察区间。AI硬件内部拆分到芯片细分组，重点分组保留聚合视角；可显隐折线、滚轮缩放和拖动平移。</p>
       </div>
 
       <article class="panel multitrend-toolbar reveal">
@@ -253,6 +253,7 @@
           <small id="multitrendSourceLabel">日线缓存载入中</small>
         </div>
         <div class="multitrend-range-presets" id="multitrendRangePresets" aria-label="趋势区间">
+          <button type="button" data-span="7">近7日</button>
           <button type="button" data-span="22">1月</button>
           <button type="button" data-span="66">3月</button>
           <button type="button" data-span="126">6月</button>
@@ -276,48 +277,24 @@
       </article>
 
       <div class="multitrend-grid" id="multitrendGrid">
-        <article class="panel multitrend-card reveal" data-trend-chart="ai-four">
-          <div class="multitrend-card-head">
-            <div>
-              <span class="panel-label">AI硬件聚合池</span>
-              <h3>四类只数趋势</h3>
-              <p>多 / 空转多 / 多转空 / 空的数量迁移。</p>
-            </div>
-            <div class="multitrend-legend" id="multitrendLegend-ai-four"></div>
-          </div>
-          <div class="multitrend-plot" id="multitrendPlot-ai-four"></div>
-        </article>
-
         <article class="panel multitrend-card reveal" data-trend-chart="ai-components">
           <div class="multitrend-card-head">
             <div>
               <span class="panel-label">AI硬件内部</span>
-              <h3>成分分组多占比</h3>
-              <p>PCB、CPO、光上游、半导体、MLCC、存储。</p>
+              <h3>AI硬件分组多占比</h3>
+              <p>PCB、CPO、光上游、半导体芯片、半导体设备、半导体上游、MLCC、存储。</p>
             </div>
             <div class="multitrend-legend" id="multitrendLegend-ai-components"></div>
           </div>
           <div class="multitrend-plot" id="multitrendPlot-ai-components"></div>
         </article>
 
-        <article class="panel multitrend-card reveal" data-trend-chart="all-groups">
-          <div class="multitrend-card-head">
-            <div>
-              <span class="panel-label">全分组对照</span>
-              <h3>各分组多头占比</h3>
-              <p>默认突出当前核心组，可展开查看任一远航分组。</p>
-            </div>
-            <div class="multitrend-legend" id="multitrendLegend-all-groups"></div>
-          </div>
-          <div class="multitrend-plot" id="multitrendPlot-all-groups"></div>
-        </article>
-
         <article class="panel multitrend-card reveal" data-trend-chart="key-groups">
           <div class="multitrend-card-head">
             <div>
-              <span class="panel-label">重点板块</span>
-              <h3>核心分组强弱变化</h3>
-              <p>AI硬件、AI应用、机器人、商业航天、药、算力等。</p>
+              <span class="panel-label">跨分组对照</span>
+              <h3>重点分组多头占比</h3>
+              <p>AI硬件、AI应用、机器人、商业航天、药、算力等；AI硬件在这里保持聚合，不再拆成八条。</p>
             </div>
             <div class="multitrend-legend" id="multitrendLegend-key-groups"></div>
           </div>
