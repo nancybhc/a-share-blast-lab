@@ -5303,6 +5303,13 @@ button {
     width: 100%;
   }
 
+  .multitrend-gesture-hint {
+    display: block;
+    padding-top: 2px;
+    text-align: center;
+    white-space: normal;
+  }
+
   .multitrend-range-presets button {
     flex: 1;
   }

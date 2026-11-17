@@ -2491,7 +2491,10 @@ function renderMultiTrendChart(definition) {
 
 function showMultiTrendTooltip(event, container) {
   const meta = container._trendMeta;
-  if (!meta || multitrendState.drag) return;
+  if (!meta || (multitrendState.drag && multitrendState.drag.moved)) return;
+  document.querySelectorAll(".multitrend-plot").forEach((other) => {
+    if (other !== container) hideMultiTrendTooltip(other);
+  });
   const rect = container.getBoundingClientRect();
   const localX = event.clientX - rect.left;
   const localY = event.clientY - rect.top;
@@ -2556,6 +2559,9 @@ function initMultiTrendPlotEvents(container) {
     multitrendState.drag = {
       pointerId: event.pointerId,
       startX: event.clientX,
+      startY: event.clientY,
+      moved: false,
+      pointerType: event.pointerType,
       start: multitrendState.start,
       end: multitrendState.end,
     };
@@ -2565,6 +2571,12 @@ function initMultiTrendPlotEvents(container) {
   });
   container.addEventListener("pointermove", (event) => {
     if (multitrendState.drag?.pointerId === event.pointerId) {
+      const distance = Math.hypot(
+        event.clientX - multitrendState.drag.startX,
+        event.clientY - multitrendState.drag.startY,
+      );
+      if (distance < 5) return;
+      multitrendState.drag.moved = true;
       event.preventDefault();
       const rect = container.getBoundingClientRect();
       const span = multitrendState.drag.end - multitrendState.drag.start + 1;
@@ -2585,14 +2597,20 @@ function initMultiTrendPlotEvents(container) {
   });
   const finishDrag = (event) => {
     if (multitrendState.drag?.pointerId !== event.pointerId) return;
+    const drag = multitrendState.drag;
     multitrendState.drag = null;
     container.classList.remove("is-dragging");
     container.releasePointerCapture?.(event.pointerId);
+    if (event.type === "pointerup" && !drag.moved) {
+      showMultiTrendTooltip(event, container);
+    }
   };
   container.addEventListener("pointerup", finishDrag);
   container.addEventListener("pointercancel", finishDrag);
-  container.addEventListener("pointerleave", () => {
-    if (!multitrendState.drag) hideMultiTrendTooltip(container);
+  container.addEventListener("pointerleave", (event) => {
+    if (!multitrendState.drag && event.pointerType !== "touch") {
+      hideMultiTrendTooltip(container);
+    }
   });
 }
 
