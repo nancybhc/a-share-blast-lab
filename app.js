@@ -2173,7 +2173,7 @@ function multiTrendDefinitions() {
     {
       id: "key-groups",
       kind: "percent",
-      title: "重点分组多头占比",
+      title: "重点分组多占比",
       series: keyGroups.map((label, index) => ({
         id: label,
         label,
