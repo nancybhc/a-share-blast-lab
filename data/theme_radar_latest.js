@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T13:52:02+08:00",
+  "generated_at": "2026-11-17T13:56:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 4.09,
+      "change_pct": 3.86,
       "constituents": 43,
-      "members": "光刻机 +4.09%",
+      "members": "光刻机 +3.86%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 4.03,
+      "change_pct": 3.76,
       "constituents": 63,
-      "members": "光刻胶 +4.03%",
+      "members": "光刻胶 +3.76%",
       "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 3.61,
+      "change_pct": 3.4,
       "constituents": 4,
-      "members": "第四代半导体 +3.61%",
+      "members": "第四代半导体 +3.40%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 2.56,
+      "change_pct": 2.36,
       "constituents": 66,
-      "members": "中芯概念 +2.56%",
+      "members": "中芯概念 +2.36%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "小金属概念/金属回收/金属铜",
       "representative": "金属铅",
-      "change_pct": 2.28,
+      "change_pct": 1.91,
       "constituents": 228,
-      "members": "金属铅 +2.28% / 金属锌 +2.04% / 金属镍 +1.62% / 金属铜 +1.07% / 小金属概念 +0.75% / 金属回收 +0.52%",
+      "members": "金属铅 +1.91% / 金属锌 +1.71% / 金属镍 +1.29% / 金属铜 +0.81% / 小金属概念 +0.48% / 金属回收 +0.17%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.09,
+      "avg_change_pct": 3.86,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.03,
+      "avg_change_pct": 3.76,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-17"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.61,
+      "avg_change_pct": 3.4,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.56,
+      "avg_change_pct": 2.36,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.28,
+      "avg_change_pct": 1.91,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
