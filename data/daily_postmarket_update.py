@@ -443,6 +443,19 @@ def main() -> int:
                 300,
             ),
             (
+                "multitrend-history",
+                [
+                    sys.executable,
+                    "-X",
+                    "utf8",
+                    "data/build_multitrend_history.py",
+                    "--date",
+                    target_date,
+                ],
+                True,
+                300,
+            ),
+            (
                 "board-daily",
                 [
                     sys.executable,

@@ -438,7 +438,7 @@ def live_pipeline_state() -> dict[str, Any]:
         "pid": pid if running else None,
         "updated_at": payload.get("updated_at"),
         "date": payload.get("date"),
-        "interval_seconds": payload.get("interval_seconds", 180),
+        "interval_seconds": payload.get("interval_seconds", 60),
     }
 
 
@@ -459,7 +459,7 @@ def start_live_pipeline() -> dict[str, Any]:
                 str(LIVE_PIPELINE_SCRIPT),
                 "--watch",
                 "--interval",
-                "180",
+                "60",
             ],
             cwd=BASE_DIR,
             stdout=log_handle,

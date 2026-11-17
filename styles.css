@@ -3884,6 +3884,269 @@ button {
   line-height: 1.95;
 }
 
+.multitrend-section {
+  scroll-margin-top: 110px;
+}
+
+.multitrend-toolbar {
+  display: grid;
+  grid-template-columns: minmax(260px, 1.35fr) auto auto auto;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 20px 22px;
+}
+
+.multitrend-toolbar-copy {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.multitrend-toolbar-copy strong {
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 15px;
+  letter-spacing: -0.02em;
+}
+
+.multitrend-toolbar-copy small {
+  overflow: hidden;
+  color: var(--muted-2);
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.multitrend-range-presets,
+.multitrend-zoom-buttons {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.multitrend-range-presets button,
+.multitrend-zoom-buttons button,
+.multitrend-legend button {
+  min-height: 29px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  background: var(--panel-solid);
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.02em;
+}
+
+.multitrend-range-presets button {
+  min-width: 42px;
+  padding: 0 9px;
+}
+
+.multitrend-range-presets button.active {
+  border-color: rgba(var(--accent-rgb), 0.45);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.multitrend-zoom-buttons button {
+  padding: 0 10px;
+}
+
+.multitrend-range-presets button:hover,
+.multitrend-zoom-buttons button:hover,
+.multitrend-legend button:hover {
+  border-color: var(--line-strong);
+  background: var(--surface-hover);
+}
+
+.multitrend-gesture-hint {
+  color: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 8px;
+  white-space: nowrap;
+}
+
+.multitrend-sliders {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding-top: 4px;
+}
+
+.multitrend-sliders label {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.multitrend-sliders label > span {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted-2);
+  font-size: 9px;
+}
+
+.multitrend-sliders b {
+  color: var(--text);
+  font-family: var(--mono);
+  font-weight: 500;
+}
+
+.multitrend-sliders input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+  cursor: ew-resize;
+}
+
+.multitrend-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.multitrend-card {
+  min-width: 0;
+  padding: 20px;
+}
+
+.multitrend-card-head {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.72fr) minmax(0, 1.28fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.multitrend-card-head h3 {
+  margin: 5px 0 6px;
+  color: var(--text);
+  font-size: 18px;
+  letter-spacing: -0.035em;
+}
+
+.multitrend-card-head p {
+  margin: 0;
+  color: var(--muted-2);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+.multitrend-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: flex-start;
+  justify-content: flex-end;
+  max-height: 104px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.multitrend-legend button {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  min-height: 25px;
+  padding: 0 7px;
+  color: var(--muted-2);
+  opacity: 0.48;
+}
+
+.multitrend-legend button.is-visible {
+  border-color: var(--line-strong);
+  color: var(--text);
+  opacity: 1;
+}
+
+.multitrend-legend i {
+  width: 8px;
+  height: 2px;
+  border-radius: 100px;
+  background: var(--series-color);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--series-color) 15%, transparent);
+}
+
+.multitrend-plot {
+  position: relative;
+  min-height: 330px;
+  margin-top: 16px;
+  border-top: 1px solid var(--line-soft);
+  cursor: grab;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.multitrend-plot.is-dragging {
+  cursor: grabbing;
+}
+
+.multitrend-plot svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 320px;
+  overflow: visible;
+}
+
+.multitrend-plot .trend-axis-label {
+  fill: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 9px;
+}
+
+.multitrend-plot .trend-empty {
+  display: grid;
+  min-height: 320px;
+  place-items: center;
+  color: var(--muted-2);
+  font-size: 11px;
+}
+
+.multitrend-tooltip {
+  position: absolute;
+  z-index: 4;
+  min-width: 170px;
+  max-width: 260px;
+  padding: 10px 11px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: var(--shadow-soft);
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.multitrend-tooltip strong {
+  display: block;
+  margin-bottom: 5px;
+  font-family: var(--mono);
+  font-size: 9px;
+}
+
+.multitrend-tooltip span {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 2px 0;
+  color: var(--muted-2);
+}
+
+.multitrend-tooltip b {
+  color: var(--text);
+  font-family: var(--mono);
+  font-weight: 500;
+}
+
+.multitrend-note {
+  margin: 16px 2px 0;
+  color: var(--muted-2);
+  font-size: 9px;
+  line-height: 1.7;
+}
+
 .site-footer {
   display: grid;
   grid-template-columns: 220px 1fr auto;
@@ -5001,6 +5264,79 @@ button {
 
   .market-fund-table .fund-group-name small {
     font-size: 7px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .multitrend-toolbar {
+    grid-template-columns: minmax(240px, 1fr) auto auto;
+  }
+
+  .multitrend-gesture-hint {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .multitrend-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .multitrend-toolbar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .multitrend-toolbar-copy {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .multitrend-toolbar {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .multitrend-range-presets,
+  .multitrend-zoom-buttons {
+    width: 100%;
+  }
+
+  .multitrend-range-presets button {
+    flex: 1;
+  }
+
+  .multitrend-zoom-buttons button {
+    flex: 1;
+  }
+
+  .multitrend-sliders {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .multitrend-card {
+    padding: 15px;
+  }
+
+  .multitrend-card-head {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .multitrend-legend {
+    justify-content: flex-start;
+    max-height: 132px;
+  }
+
+  .multitrend-plot,
+  .multitrend-plot .trend-empty {
+    min-height: 270px;
+  }
+
+  .multitrend-plot svg {
+    min-height: 260px;
   }
 }
 

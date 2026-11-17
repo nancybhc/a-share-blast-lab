@@ -7,16 +7,17 @@
   <meta name="description" content="大A爆破实验室：用 MA5 / MA10 结构、资金脉冲与板块迁移捕捉 A 股阶段变化。">
   <title>大A爆破实验室 · A-Share Blast Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ffffff'/%3E%3Cpath d='M11 34h11l5-15 9 29 6-18 4 8h8' fill='none' stroke='%23b42335' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261117150836">
-  <script src="data/group_fund_flows_latest.js?v=20261117150836"></script>
-  <script src="data/board_daily_fund_flows_latest.js?v=20261117150836"></script>
-  <script src="data/full_market_daily_latest.js?v=20261117150836"></script>
-  <script src="data/full_market_intraday_latest.js?v=20261117150836"></script>
-  <script src="data/theme_radar_latest.js?v=20261117150836"></script>
-  <script src="data/group_intraday_trends_latest.js?v=20261117150836"></script>
-  <script src="data/runtime_status.js?v=20261117150836"></script>
-  <script src="data/market_trend_latest.js?v=20261117150836"></script>
-  <script src="app.js?v=20261117150836" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261117155754">
+  <script src="data/group_fund_flows_latest.js?v=20261117155754"></script>
+  <script src="data/board_daily_fund_flows_latest.js?v=20261117155754"></script>
+  <script src="data/full_market_daily_latest.js?v=20261117155754"></script>
+  <script src="data/full_market_intraday_latest.js?v=20261117155754"></script>
+  <script src="data/theme_radar_latest.js?v=20261117155754"></script>
+  <script src="data/group_intraday_trends_latest.js?v=20261117155754"></script>
+  <script src="data/runtime_status.js?v=20261117155754"></script>
+  <script src="data/market_trend_latest.js?v=20261117155754"></script>
+  <script src="data/multitrend_history_latest.js?v=20261117155754"></script>
+  <script src="app.js?v=20261117155754" defer></script>
 </head>
 <body>
   <div class="page-glow" aria-hidden="true"></div>
@@ -37,6 +38,7 @@
     <nav class="main-nav" id="mainNav" aria-label="主导航">
       <a class="active" href="#overview">态势</a>
       <a href="#radar">阶段雷达</a>
+      <a href="#multitrend">多空趋势</a>
       <a href="#migration">结构迁移</a>
       <a href="#capital">资金流向监控</a>
       <a href="#theme-strength">题材强度</a>
@@ -235,10 +237,103 @@
       </div>
     </section>
 
+    <section class="section shell multitrend-section" id="multitrend">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 02 / 趋势回看</div>
+          <h2>多空趋势</h2>
+        </div>
+        <p>把多空阶段表里的四张趋势图放进同一时间轴。可显隐分组、滚轮缩放、拖动平移，四张图共用观察区间。</p>
+      </div>
+
+      <article class="panel multitrend-toolbar reveal">
+        <div class="multitrend-toolbar-copy">
+          <span class="panel-label">近一年 · MA5 / MA10 四阶段</span>
+          <strong id="multitrendRangeLabel">正在读取趋势数据</strong>
+          <small id="multitrendSourceLabel">日线缓存载入中</small>
+        </div>
+        <div class="multitrend-range-presets" id="multitrendRangePresets" aria-label="趋势区间">
+          <button type="button" data-span="22">1月</button>
+          <button type="button" data-span="66">3月</button>
+          <button type="button" data-span="126">6月</button>
+          <button type="button" data-span="all" class="active">1年</button>
+        </div>
+        <div class="multitrend-zoom-buttons" aria-label="缩放区间">
+          <button type="button" id="multitrendZoomOut" title="缩小时间区间">− 缩小</button>
+          <button type="button" id="multitrendZoomIn" title="放大时间区间">＋ 放大</button>
+        </div>
+        <span class="multitrend-gesture-hint">滚轮缩放 · 按住拖动平移</span>
+        <div class="multitrend-sliders">
+          <label>
+            <span>起 <b id="multitrendStartDate">—</b></span>
+            <input type="range" id="multitrendStartRange" min="0" max="0" value="0" step="1">
+          </label>
+          <label>
+            <span>止 <b id="multitrendEndDate">—</b></span>
+            <input type="range" id="multitrendEndRange" min="0" max="0" value="0" step="1">
+          </label>
+        </div>
+      </article>
+
+      <div class="multitrend-grid" id="multitrendGrid">
+        <article class="panel multitrend-card reveal" data-trend-chart="ai-four">
+          <div class="multitrend-card-head">
+            <div>
+              <span class="panel-label">AI硬件聚合池</span>
+              <h3>四类只数趋势</h3>
+              <p>多 / 空转多 / 多转空 / 空的数量迁移。</p>
+            </div>
+            <div class="multitrend-legend" id="multitrendLegend-ai-four"></div>
+          </div>
+          <div class="multitrend-plot" id="multitrendPlot-ai-four"></div>
+        </article>
+
+        <article class="panel multitrend-card reveal" data-trend-chart="ai-components">
+          <div class="multitrend-card-head">
+            <div>
+              <span class="panel-label">AI硬件内部</span>
+              <h3>成分分组多占比</h3>
+              <p>PCB、CPO、光上游、半导体、MLCC、存储。</p>
+            </div>
+            <div class="multitrend-legend" id="multitrendLegend-ai-components"></div>
+          </div>
+          <div class="multitrend-plot" id="multitrendPlot-ai-components"></div>
+        </article>
+
+        <article class="panel multitrend-card reveal" data-trend-chart="all-groups">
+          <div class="multitrend-card-head">
+            <div>
+              <span class="panel-label">全分组对照</span>
+              <h3>各分组多头占比</h3>
+              <p>默认突出当前核心组，可展开查看任一远航分组。</p>
+            </div>
+            <div class="multitrend-legend" id="multitrendLegend-all-groups"></div>
+          </div>
+          <div class="multitrend-plot" id="multitrendPlot-all-groups"></div>
+        </article>
+
+        <article class="panel multitrend-card reveal" data-trend-chart="key-groups">
+          <div class="multitrend-card-head">
+            <div>
+              <span class="panel-label">重点板块</span>
+              <h3>核心分组强弱变化</h3>
+              <p>AI硬件、AI应用、机器人、商业航天、药、算力等。</p>
+            </div>
+            <div class="multitrend-legend" id="multitrendLegend-key-groups"></div>
+          </div>
+          <div class="multitrend-plot" id="multitrendPlot-key-groups"></div>
+        </article>
+      </div>
+
+      <p class="multitrend-note reveal">
+        点位是该分组当日处于“多 / 空转多 / 多转空 / 空”四类阶段的个股占比；聚合池按当前分组成分去重。历史区间取最近 252 个交易日。
+      </p>
+    </section>
+
     <section class="section shell" id="migration">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 02 / 结构迁移</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 03 / 结构迁移</div>
           <h2>三日结构迁移</h2>
         </div>
         <p class="transition-reminder">强弱的交接往往先发生在候选池，再发生在多头数量上。</p>
@@ -268,7 +363,7 @@
     <section class="section shell" id="capital">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 03 / 全市场资金</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / 全市场资金</div>
           <h2>资金流向监控</h2>
         </div>
         <p>行业、概念与个股分层监控。</p>
@@ -318,7 +413,7 @@
     <section class="section shell theme-radar-section" id="theme-strength">
       <div class="section-heading reveal">
         <div>
-          <div class="eyebrow"><span class="eyebrow-line"></span> 04 / 题材强度</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> 05 / 题材强度</div>
           <h2>当日题材强度</h2>
         </div>
         <p>最近 5 个交易日每日取题材涨幅前五，再按重复上榜、连续性和平均涨幅汇总。</p>

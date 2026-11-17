@@ -176,7 +176,7 @@ def run_theme(day: str) -> bool:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="爆破实验室盘中全量刷新")
-    parser.add_argument("--interval", type=int, default=180)
+    parser.add_argument("--interval", type=int, default=60)
     parser.add_argument("--watch", action="store_true")
     args = parser.parse_args()
 

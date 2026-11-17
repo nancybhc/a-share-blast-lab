@@ -228,6 +228,7 @@ let fullMarketIntraday = window.FULL_MARKET_INTRADAY || null;
 let themeRadarData = window.THEME_RADAR_DATA || null;
 let groupIntradayTrends = window.GROUP_INTRADAY_TRENDS || null;
 let siteRuntimeStatus = window.SITE_RUNTIME_STATUS || null;
+let multiTrendData = window.MULTITREND_DATA || null;
 const rankList = document.getElementById("rankList");
 const rankTabs = document.getElementById("rankTabs");
 const rankValueHead = document.getElementById("rankValueHead");
@@ -1683,6 +1684,8 @@ async function refreshDynamicSections() {
     fullMarketData = window.FULL_MARKET_DATA || fullMarketData;
     await loadFreshScript("data/full_market_intraday_latest.js");
     fullMarketIntraday = window.FULL_MARKET_INTRADAY || fullMarketIntraday;
+    await loadFreshScript("data/multitrend_history_latest.js");
+    multiTrendData = window.MULTITREND_DATA || multiTrendData;
     await loadFreshScript("data/theme_radar_latest.js");
     themeRadarData = window.THEME_RADAR_DATA || themeRadarData;
     await loadFreshScript("data/group_intraday_trends_latest.js");
@@ -1706,6 +1709,7 @@ async function refreshDynamicSections() {
     }
     renderRanking();
     renderTransitionChart();
+    renderMultitrend();
     renderFundTable();
     renderBoardComparison();
     updateMarketPanel();
@@ -2094,6 +2098,627 @@ function renderTransitionChart() {
   container.replaceChildren(svg);
 }
 
+const MULTITREND_COLORS = [
+  "#b42335",
+  "#2f6db3",
+  "#a45b12",
+  "#087a88",
+  "#187348",
+  "#7d4aa8",
+  "#c0392b",
+  "#6f7f16",
+  "#356f9f",
+  "#9b4d76",
+  "#a86f12",
+  "#26785d",
+  "#775b32",
+  "#d05b32",
+  "#475e8c",
+  "#5c7f32",
+  "#8a4b3e",
+  "#2e8f8d",
+  "#7b6b10",
+  "#98527c",
+];
+const MULTITREND_FIXED_COLORS = {
+  多: "#b42335",
+  空转多: "#c86a12",
+  多转空: "#087a88",
+  空: "#187348",
+  AI硬件: "#b42335",
+  半导体: "#8c3b52",
+  AI应用: "#2f6db3",
+  机器人: "#a45b12",
+  商业航天: "#356f9f",
+  药: "#6f7f16",
+  算力: "#7d4aa8",
+  固态储能: "#26785d",
+  电: "#98527c",
+};
+const multitrendState = {
+  start: 0,
+  end: 0,
+  dateCount: 0,
+  initialized: false,
+  visible: new Map(),
+  drag: null,
+};
+
+function multiTrendColor(label, index = 0) {
+  if (MULTITREND_FIXED_COLORS[label]) return MULTITREND_FIXED_COLORS[label];
+  let hash = 0;
+  for (const character of String(label)) {
+    hash = (hash * 31 + character.codePointAt(0)) >>> 0;
+  }
+  return MULTITREND_COLORS[(hash + index) % MULTITREND_COLORS.length];
+}
+
+function multiTrendDefinitions() {
+  const meta = multiTrendData?.meta || {};
+  const stages = meta.stages || [];
+  const aiComponents = meta.aiComponents || [];
+  const allGroups = meta.allGroups || [];
+  const keyGroups = meta.keyGroups || [];
+  const defaultAll = [
+    ...keyGroups,
+    "PCB",
+    "CPO",
+    "光上游",
+    "半导体",
+    "MLCC",
+    "存储",
+    "AIDC",
+  ].filter(
+    (label, index, labels) =>
+      allGroups.includes(label) && labels.indexOf(label) === index,
+  ).slice(0, 10);
+  return [
+    {
+      id: "ai-four",
+      kind: "count",
+      title: "AI硬件四类只数趋势",
+      series: stages.map((stage, index) => ({
+        id: stage.id,
+        group: "AI硬件",
+        label: stage.label,
+        metric: stage.id,
+        color: multiTrendColor(stage.label, index),
+      })),
+      defaults: stages.map((stage) => stage.id),
+    },
+    {
+      id: "ai-components",
+      kind: "percent",
+      title: "AI硬件成分分组多占比",
+      series: aiComponents.map((label, index) => ({
+        id: label,
+        label,
+        metric: "bullPct",
+        color: multiTrendColor(label, index),
+      })),
+      defaults: aiComponents,
+    },
+    {
+      id: "all-groups",
+      kind: "percent",
+      title: "全分组多头占比",
+      series: allGroups.map((label, index) => ({
+        id: label,
+        label,
+        metric: "bullPct",
+        color: multiTrendColor(label, index),
+      })),
+      defaults: defaultAll,
+    },
+    {
+      id: "key-groups",
+      kind: "percent",
+      title: "核心分组强弱变化",
+      series: keyGroups.map((label, index) => ({
+        id: label,
+        label,
+        metric: "bullPct",
+        color: multiTrendColor(label, index),
+      })),
+      defaults: keyGroups,
+    },
+  ];
+}
+
+function ensureMultiTrendVisibility(definitions) {
+  definitions.forEach((definition) => {
+    if (!multitrendState.visible.has(definition.id)) {
+      multitrendState.visible.set(definition.id, new Set(definition.defaults));
+      return;
+    }
+    const current = multitrendState.visible.get(definition.id);
+    definition.series.forEach((series) => {
+      if (definition.defaults.includes(series.id)) current.add(series.id);
+    });
+    for (const seriesId of current) {
+      if (!definition.series.some((series) => series.id === seriesId)) {
+        current.delete(seriesId);
+      }
+    }
+  });
+}
+
+function formatMultiTrendValue(value, kind) {
+  if (!Number.isFinite(Number(value))) return "—";
+  return kind === "percent"
+    ? `${Number(value).toFixed(1)}%`
+    : `${Math.round(Number(value))}`;
+}
+
+function updateMultiTrendControls() {
+  if (!multiTrendData?.dates?.length) return;
+  const dates = multiTrendData.dates;
+  const startInput = document.getElementById("multitrendStartRange");
+  const endInput = document.getElementById("multitrendEndRange");
+  const startDate = document.getElementById("multitrendStartDate");
+  const endDate = document.getElementById("multitrendEndDate");
+  const rangeLabel = document.getElementById("multitrendRangeLabel");
+  const sourceLabel = document.getElementById("multitrendSourceLabel");
+  if (startInput) {
+    startInput.max = String(dates.length - 1);
+    startInput.value = String(multitrendState.start);
+  }
+  if (endInput) {
+    endInput.max = String(dates.length - 1);
+    endInput.value = String(multitrendState.end);
+  }
+  if (startDate) startDate.textContent = dates[multitrendState.start] || "—";
+  if (endDate) endDate.textContent = dates[multitrendState.end] || "—";
+  const span = multitrendState.end - multitrendState.start + 1;
+  if (rangeLabel) {
+    rangeLabel.textContent =
+      `${dates[multitrendState.start]} → ${dates[multitrendState.end]} · ${span} 个交易日`;
+  }
+  if (sourceLabel) {
+    const mode = multiTrendData.dataMode === "intraday" ? "盘中同步" : "盘后同步";
+    sourceLabel.textContent =
+      `${multiTrendData.marketTime || multiTrendData.dataDate} · ${mode} · ` +
+      `${dates.length} 日历史`;
+  }
+  document.querySelectorAll("#multitrendRangePresets button").forEach((button) => {
+    const requested = button.dataset.span === "all"
+      ? dates.length
+      : Number(button.dataset.span);
+    button.classList.toggle("active", requested === span);
+  });
+}
+
+function setMultiTrendWindow(nextStart, nextEnd) {
+  if (!multiTrendData?.dates?.length) return;
+  const count = multiTrendData.dates.length;
+  const minSpan = Math.min(12, count);
+  let start = Math.max(0, Math.min(Number(nextStart) || 0, count - minSpan));
+  let end = Math.max(start + minSpan - 1, Math.min(Number(nextEnd) || 0, count - 1));
+  if (end - start + 1 > count) {
+    start = Math.max(0, end - count + 1);
+  }
+  multitrendState.start = start;
+  multitrendState.end = end;
+  updateMultiTrendControls();
+  multiTrendDefinitions().forEach(renderMultiTrendChart);
+}
+
+function setMultiTrendSpan(span) {
+  if (!multiTrendData?.dates?.length) return;
+  const count = multiTrendData.dates.length;
+  const nextSpan = Math.max(Math.min(span, count), Math.min(12, count));
+  const end = multitrendState.initialized ? multitrendState.end : count - 1;
+  setMultiTrendWindow(end - nextSpan + 1, end);
+}
+
+function zoomMultiTrend(factor) {
+  if (!multiTrendData?.dates?.length) return;
+  const count = multiTrendData.dates.length;
+  const span = multitrendState.end - multitrendState.start + 1;
+  const nextSpan = Math.max(
+    Math.min(12, count),
+    Math.min(count, Math.round(span * factor)),
+  );
+  const anchor = multitrendState.start + Math.floor((span - 1) / 2);
+  setMultiTrendWindow(anchor - Math.floor((nextSpan - 1) / 2), anchor + Math.ceil((nextSpan - 1) / 2));
+}
+
+function renderMultiTrendLegend(definition) {
+  const container = document.getElementById(`multitrendLegend-${definition.id}`);
+  if (!container) return;
+  const visible = multitrendState.visible.get(definition.id) || new Set();
+  const endIndex = multitrendState.end;
+  const buttons = definition.series
+    .map((series) => {
+      const value = multiTrendData.series?.[series.id]?.[series.metric]?.[endIndex];
+      const seriesValue =
+        multiTrendData.series?.[series.group || series.id]?.[series.metric]?.[endIndex];
+      return `
+        <button type="button"
+          data-trend-chart="${definition.id}"
+          data-trend-series="${series.id}"
+          class="${visible.has(series.id) ? "is-visible" : ""}"
+          style="--series-color:${series.color}"
+          aria-pressed="${visible.has(series.id)}"
+          title="点击${visible.has(series.id) ? "隐藏" : "显示"} ${series.label}">
+          <i></i><span>${series.label}</span>
+          <b>${visible.has(series.id) ? formatMultiTrendValue(seriesValue ?? value, definition.kind) : ""}</b>
+        </button>
+      `;
+    })
+    .join("");
+  container.innerHTML =
+    buttons +
+    `<button type="button" class="multitrend-legend-action" data-trend-chart="${definition.id}" data-trend-action="all">全显</button>` +
+    `<button type="button" class="multitrend-legend-action" data-trend-chart="${definition.id}" data-trend-action="none">清空</button>`;
+}
+
+function multiTrendDateTicks(start, end, width) {
+  const span = end - start + 1;
+  const target = Math.max(3, Math.min(8, Math.floor(width / 125)));
+  const indexes = new Set();
+  for (let index = 0; index < target; index += 1) {
+    indexes.add(start + Math.round((index / Math.max(target - 1, 1)) * (span - 1)));
+  }
+  return [...indexes].sort((a, b) => a - b);
+}
+
+function multiTrendScale(rawMin, rawMax, kind) {
+  const spread = Math.max(rawMax - rawMin, kind === "percent" ? 4 : 1);
+  const targetMin = rawMin - spread * 0.12;
+  const targetMax = rawMax + spread * 0.12;
+  const roughStep = Math.max((targetMax - targetMin) / 4, kind === "percent" ? 1 : 5);
+  const magnitude = 10 ** Math.floor(Math.log10(roughStep));
+  const normalized = roughStep / magnitude;
+  const multiplier = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 2.5 ? 2.5 : normalized <= 5 ? 5 : 10;
+  const step = multiplier * magnitude;
+  let minValue = Math.max(
+    0,
+    Math.floor(targetMin / step) * step,
+  );
+  let maxValue = Math.ceil(targetMax / step) * step;
+  if (kind === "percent") maxValue = Math.min(100, maxValue);
+  if (maxValue <= minValue) maxValue = minValue + step;
+  const ticks = [];
+  for (let value = minValue; value <= maxValue + step * 0.001; value += step) {
+    ticks.push(Number(value.toFixed(6)));
+  }
+  return { min: minValue, max: maxValue, step, ticks };
+}
+
+function renderMultiTrendChart(definition) {
+  const container = document.getElementById(`multitrendPlot-${definition.id}`);
+  if (!container || !multiTrendData?.dates?.length) return;
+  renderMultiTrendLegend(definition);
+  initMultiTrendPlotEvents(container);
+  const visible = multitrendState.visible.get(definition.id) || new Set();
+  const seriesList = definition.series.filter(
+    (series) =>
+      visible.has(series.id) &&
+      multiTrendData.series?.[series.group || series.id],
+  );
+  if (!seriesList.length) {
+    container.innerHTML = '<div class="trend-empty">已隐藏全部折线，点击图例恢复显示</div>';
+    return;
+  }
+
+  const compact = window.matchMedia("(max-width: 760px)").matches;
+  const width = compact ? 620 : 880;
+  const height = compact ? 285 : 330;
+  const padding = compact
+    ? { top: 18, right: 18, bottom: 34, left: 48 }
+    : { top: 22, right: 24, bottom: 38, left: 54 };
+  const plotWidth = width - padding.left - padding.right;
+  const plotHeight = height - padding.top - padding.bottom;
+  const start = multitrendState.start;
+  const end = multitrendState.end;
+  const visibleDates = multiTrendData.dates.slice(start, end + 1);
+  const values = seriesList.flatMap((series) =>
+    (multiTrendData.series[series.group || series.id][series.metric] || [])
+      .slice(start, end + 1)
+      .filter((value) => Number.isFinite(Number(value)))
+      .map(Number),
+  );
+  const rawMin = values.length ? Math.min(...values) : 0;
+  const rawMax = values.length ? Math.max(...values) : 1;
+  const scale = multiTrendScale(rawMin, rawMax, definition.kind);
+  const yMin = scale.min;
+  const yMax = scale.max;
+  const x = (offset) =>
+    padding.left +
+    (visibleDates.length === 1
+      ? plotWidth / 2
+      : (plotWidth / (visibleDates.length - 1)) * offset);
+  const y = (value) =>
+    padding.top + plotHeight - ((Number(value) - yMin) / (yMax - yMin)) * plotHeight;
+  const svg = svgEl("svg", {
+    viewBox: `0 0 ${width} ${height}`,
+    role: "img",
+    "aria-label": `${definition.title}，${visibleDates[0]} 至 ${visibleDates.at(-1)}`,
+  });
+
+  scale.ticks.forEach((value) => {
+    const gridY = y(value);
+    svg.append(
+      svgEl("line", {
+        x1: padding.left,
+        y1: gridY,
+        x2: width - padding.right,
+        y2: gridY,
+        stroke: "rgba(14,22,24,0.1)",
+        "stroke-width": "1",
+      }),
+    );
+    const label = svgEl("text", {
+      x: padding.left - 11,
+      y: gridY + 3,
+      class: "trend-axis-label",
+      "text-anchor": "end",
+    });
+    label.textContent =
+      definition.kind === "percent"
+        ? `${Number.isInteger(value) ? value : value.toFixed(1)}%`
+        : String(Math.round(value));
+    svg.append(label);
+  });
+
+  multiTrendDateTicks(start, end, width).forEach((dateIndex) => {
+    const offset = dateIndex - start;
+    const dateValue = multiTrendData.dates[dateIndex];
+    const label = svgEl("text", {
+      x: x(offset),
+      y: height - 13,
+      class: "trend-axis-label",
+      "text-anchor":
+        offset === 0 ? "start" : offset === visibleDates.length - 1 ? "end" : "middle",
+    });
+    label.textContent =
+      dateValue.slice(0, 4) === multiTrendData.dates.at(-1).slice(0, 4)
+        ? dateValue.slice(5)
+        : dateValue.slice(2);
+    svg.append(label);
+  });
+
+  seriesList.forEach((series) => {
+    const source =
+      multiTrendData.series[series.group || series.id][series.metric] || [];
+    const points = source
+      .slice(start, end + 1)
+      .map((value, offset) =>
+        Number.isFinite(Number(value)) ? `${x(offset)},${y(value)}` : null,
+      )
+      .filter(Boolean)
+      .join(" ");
+    const path = svgEl("path", {
+      d: `M ${points.replaceAll(" ", " L ")}`,
+      fill: "none",
+      stroke: series.color,
+      "stroke-width": "1.9",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "vector-effect": "non-scaling-stroke",
+    });
+    const title = svgEl("title");
+    title.textContent = series.label;
+    path.append(title);
+    svg.append(path);
+    const lastValue = source[end];
+    if (Number.isFinite(Number(lastValue))) {
+      svg.append(
+        svgEl("circle", {
+          cx: x(visibleDates.length - 1),
+          cy: y(lastValue),
+          r: "2.8",
+          fill: "#ffffff",
+          stroke: series.color,
+          "stroke-width": "1.8",
+        }),
+      );
+    }
+  });
+
+  const tooltip = document.createElement("div");
+  tooltip.className = "multitrend-tooltip";
+  tooltip.hidden = true;
+  container.replaceChildren(svg, tooltip);
+  container._trendMeta = {
+    definition,
+    seriesList,
+    start,
+    end,
+    width,
+    padding,
+    plotWidth,
+  };
+}
+
+function showMultiTrendTooltip(event, container) {
+  const meta = container._trendMeta;
+  if (!meta || multitrendState.drag) return;
+  const rect = container.getBoundingClientRect();
+  const localX = event.clientX - rect.left;
+  const localY = event.clientY - rect.top;
+  const svgX = (localX / Math.max(rect.width, 1)) * meta.width;
+  const ratio = Math.max(
+    0,
+    Math.min(1, (svgX - meta.padding.left) / Math.max(meta.plotWidth, 1)),
+  );
+  const count = meta.end - meta.start + 1;
+  const dateIndex = meta.start + Math.round(ratio * Math.max(count - 1, 0));
+  const tooltip = container.querySelector(".multitrend-tooltip");
+  if (!tooltip) return;
+  const rows = meta.seriesList
+    .map((series) => {
+      const value =
+        multiTrendData.series[series.group || series.id][series.metric]?.[dateIndex];
+      return `<span><em style="color:${series.color};font-style:normal">${series.label}</em><b>${formatMultiTrendValue(value, meta.definition.kind)}</b></span>`;
+    })
+    .join("");
+  tooltip.innerHTML = `<strong>${multiTrendData.dates[dateIndex]}</strong>${rows}`;
+  tooltip.hidden = false;
+  const tooltipWidth = tooltip.offsetWidth || 190;
+  const left = Math.min(
+    Math.max(6, localX + 14),
+    Math.max(6, rect.width - tooltipWidth - 6),
+  );
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${Math.min(Math.max(8, localY - 20), rect.height - 120)}px`;
+}
+
+function hideMultiTrendTooltip(container) {
+  const tooltip = container.querySelector(".multitrend-tooltip");
+  if (tooltip) tooltip.hidden = true;
+}
+
+function initMultiTrendPlotEvents(container) {
+  if (container.dataset.trendBound === "1") return;
+  container.dataset.trendBound = "1";
+  container.addEventListener("wheel", (event) => {
+    if (!container._trendMeta) return;
+    event.preventDefault();
+    const rect = container.getBoundingClientRect();
+    const localX = event.clientX - rect.left;
+    const meta = container._trendMeta;
+    const svgX = (localX / Math.max(rect.width, 1)) * meta.width;
+    const ratio = Math.max(
+      0,
+      Math.min(1, (svgX - meta.padding.left) / Math.max(meta.plotWidth, 1)),
+    );
+    const span = multitrendState.end - multitrendState.start + 1;
+    const factor = event.deltaY > 0 ? 1.22 : 0.82;
+    const nextSpan = Math.max(
+      12,
+      Math.min(multiTrendData.dates.length, Math.round(span * factor)),
+    );
+    const anchor = multitrendState.start + ratio * (span - 1);
+    const nextStart = Math.round(anchor - ratio * (nextSpan - 1));
+    setMultiTrendWindow(nextStart, nextStart + nextSpan - 1);
+  }, { passive: false });
+  container.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) return;
+    multitrendState.drag = {
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      start: multitrendState.start,
+      end: multitrendState.end,
+    };
+    container.classList.add("is-dragging");
+    hideMultiTrendTooltip(container);
+    container.setPointerCapture?.(event.pointerId);
+  });
+  container.addEventListener("pointermove", (event) => {
+    if (multitrendState.drag?.pointerId === event.pointerId) {
+      event.preventDefault();
+      const rect = container.getBoundingClientRect();
+      const span = multitrendState.drag.end - multitrendState.drag.start + 1;
+      const delta = Math.round(
+        ((multitrendState.drag.startX - event.clientX) /
+          Math.max(rect.width, 1)) *
+          span,
+      );
+      if (delta !== 0) {
+        setMultiTrendWindow(
+          multitrendState.drag.start + delta,
+          multitrendState.drag.end + delta,
+        );
+      }
+      return;
+    }
+    showMultiTrendTooltip(event, container);
+  });
+  const finishDrag = (event) => {
+    if (multitrendState.drag?.pointerId !== event.pointerId) return;
+    multitrendState.drag = null;
+    container.classList.remove("is-dragging");
+    container.releasePointerCapture?.(event.pointerId);
+  };
+  container.addEventListener("pointerup", finishDrag);
+  container.addEventListener("pointercancel", finishDrag);
+  container.addEventListener("pointerleave", () => {
+    if (!multitrendState.drag) hideMultiTrendTooltip(container);
+  });
+}
+
+function renderMultitrend() {
+  const grid = document.getElementById("multitrendGrid");
+  if (!grid) return;
+  if (!multiTrendData?.dates?.length) {
+    document.querySelectorAll(".multitrend-plot").forEach((container) => {
+      container.innerHTML = '<div class="trend-empty">近一年趋势数据载入中</div>';
+    });
+    return;
+  }
+  const definitions = multiTrendDefinitions();
+  ensureMultiTrendVisibility(definitions);
+  const count = multiTrendData.dates.length;
+  if (!multitrendState.initialized) {
+    multitrendState.initialized = true;
+    multitrendState.start = 0;
+    multitrendState.end = count - 1;
+  } else {
+    const span = Math.max(
+      Math.min(12, count),
+      multitrendState.end - multitrendState.start + 1,
+    );
+    const wasAtEnd = multitrendState.end >= multitrendState.dateCount - 1;
+    multitrendState.end = wasAtEnd
+      ? count - 1
+      : Math.min(multitrendState.end, count - 1);
+    multitrendState.start = Math.max(0, multitrendState.end - span + 1);
+  }
+  multitrendState.dateCount = count;
+  updateMultiTrendControls();
+  definitions.forEach(renderMultiTrendChart);
+}
+
+function initMultitrendControls() {
+  const grid = document.getElementById("multitrendGrid");
+  const presets = document.getElementById("multitrendRangePresets");
+  const startRange = document.getElementById("multitrendStartRange");
+  const endRange = document.getElementById("multitrendEndRange");
+  if (!grid || grid.dataset.controlsBound === "1") return;
+  grid.dataset.controlsBound = "1";
+  grid.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-trend-chart]");
+    if (!button) return;
+    const definition = multiTrendDefinitions().find(
+      (item) => item.id === button.dataset.trendChart,
+    );
+    if (!definition) return;
+    const visible = multitrendState.visible.get(definition.id) || new Set();
+    if (button.dataset.trendAction === "all") {
+      definition.series.forEach((series) => visible.add(series.id));
+    } else if (button.dataset.trendAction === "none") {
+      visible.clear();
+    } else if (button.dataset.trendSeries) {
+      const seriesId = button.dataset.trendSeries;
+      if (visible.has(seriesId)) visible.delete(seriesId);
+      else visible.add(seriesId);
+    }
+    multitrendState.visible.set(definition.id, visible);
+    renderMultiTrendChart(definition);
+  });
+  presets?.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-span]");
+    if (!button) return;
+    setMultiTrendSpan(
+      button.dataset.span === "all"
+        ? multiTrendData?.dates?.length || 252
+        : Number(button.dataset.span),
+    );
+  });
+  document.getElementById("multitrendZoomIn")?.addEventListener("click", () => zoomMultiTrend(0.68));
+  document.getElementById("multitrendZoomOut")?.addEventListener("click", () => zoomMultiTrend(1.45));
+  startRange?.addEventListener("input", () => {
+    const minEnd = Number(startRange.value) + Math.min(11, multiTrendData.dates.length - 1);
+    setMultiTrendWindow(Number(startRange.value), Math.max(minEnd, multitrendState.end));
+  });
+  endRange?.addEventListener("input", () => {
+    const maxStart = Number(endRange.value) - Math.min(11, multiTrendData.dates.length - 1);
+    setMultiTrendWindow(Math.min(maxStart, multitrendState.start), Number(endRange.value));
+  });
+}
+
 function renderStageLegend() {
   const container = document.getElementById("stageLegend");
   if (!container) return;
@@ -2410,6 +3035,8 @@ const initialGroup = marketData.groups.find((group) => group.id === activeGroupI
 if (initialGroup) updateSpotlight(initialGroup);
 renderRanking();
 renderTransitionChart();
+initMultitrendControls();
+renderMultitrend();
 renderFundTable();
 renderBoardComparison();
 updateMarketPanel();

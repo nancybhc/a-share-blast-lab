@@ -195,6 +195,21 @@ def write_payload() -> dict[str, Any]:
         ),
         encoding="utf-8",
     )
+    try:
+        from build_multitrend_history import rebuild_latest
+
+        trend_payload, _, _ = rebuild_latest(str(payload["date"]))
+        print(
+            f"[OK] 多空趋势 {trend_payload['dataDate']} "
+            f"{trend_payload['marketTime']} {trend_payload['dataMode']}",
+            flush=True,
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(
+            f"[WARN] 多空趋势同步失败，保留上一版："
+            f"{type(exc).__name__}: {exc}",
+            flush=True,
+        )
     return payload
 
 
