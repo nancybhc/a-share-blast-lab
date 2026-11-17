@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T09:56:35+08:00",
+  "generated_at": "2026-11-17T10:01:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 1.83,
+      "change_pct": 1.9,
       "constituents": 43,
-      "members": "光刻机 +1.83%",
+      "members": "光刻机 +1.90%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.45,
+      "change_pct": 1.82,
       "constituents": 63,
-      "members": "光刻胶 +1.45%",
+      "members": "光刻胶 +1.82%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": 0.84,
-      "constituents": 4,
-      "members": "第四代半导体 +0.84%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 0.82,
-      "constituents": 66,
-      "members": "中芯概念 +0.82%",
-      "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "染料",
       "representative": "染料",
-      "change_pct": 0.74,
+      "change_pct": 1.5,
       "constituents": 34,
-      "members": "染料 +0.74%",
+      "members": "染料 +1.50%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "第四代半导体",
+      "representative": "第四代半导体",
+      "change_pct": 1.09,
+      "constituents": 4,
+      "members": "第四代半导体 +1.09%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "空气能热泵",
+      "representative": "空气能热泵",
+      "change_pct": 0.72,
+      "constituents": 37,
+      "members": "空气能热泵 +0.72%",
       "rank": 5
     }
   ],
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.83,
+      "avg_change_pct": 1.9,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -117,29 +117,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.45,
+      "avg_change_pct": 1.82,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-17"
-    },
-    {
-      "theme": "第四代半导体",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.84,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-17"
-    },
-    {
-      "theme": "中芯概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.82,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-17"
     },
     {
@@ -147,7 +127,27 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.74,
+      "avg_change_pct": 1.5,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-17"
+    },
+    {
+      "theme": "第四代半导体",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.09,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-17"
+    },
+    {
+      "theme": "空气能热泵",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.72,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
