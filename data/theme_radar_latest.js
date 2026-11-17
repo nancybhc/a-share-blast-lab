@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T09:32:06+08:00",
+  "generated_at": "2026-11-17T09:37:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,68 +9,58 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.22,
+      "change_pct": 1.85,
       "constituents": 30,
-      "members": "大基金持股 +0.22%",
+      "members": "大基金持股 +1.85%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
-      "theme": "免税概念",
-      "representative": "免税概念",
-      "change_pct": 0.08,
-      "constituents": 18,
-      "members": "免税概念 +0.08%",
+      "theme": "中芯概念",
+      "representative": "中芯概念",
+      "change_pct": 1.19,
+      "constituents": 66,
+      "members": "中芯概念 +1.19%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "光刻胶",
+      "representative": "光刻胶",
+      "change_pct": 1.11,
+      "constituents": 63,
+      "members": "光刻胶 +1.11%",
+      "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": -0.01,
+      "change_pct": 0.91,
       "constituents": 4,
-      "members": "第四代半导体 -0.01%",
-      "rank": 3
+      "members": "第四代半导体 +0.91%",
+      "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "芯片概念/MCU芯片",
       "representative": "MCU芯片",
-      "change_pct": -0.2,
+      "change_pct": 0.82,
       "constituents": 451,
-      "members": "MCU芯片 -0.20% / 芯片概念 -0.85%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "退税商店",
-      "representative": "退税商店",
-      "change_pct": -0.25,
-      "constituents": 20,
-      "members": "退税商店 -0.25%",
+      "members": "MCU芯片 +0.82% / 芯片概念 -0.02%",
       "rank": 5
     }
   ],
   "five_day": [
     {
       "theme": "免税概念",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 0.51,
-      "avg_rank": 2.3,
-      "latest_rank": 2,
-      "dates": "11-17、11-16、11-12"
-    },
-    {
-      "theme": "退税商店",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 0.26,
-      "avg_rank": 3.7,
-      "latest_rank": 5,
-      "dates": "11-17、11-16、11-12"
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.72,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-16、11-12"
     },
     {
       "theme": "大盘价值",
@@ -81,6 +71,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-13"
+    },
+    {
+      "theme": "退税商店",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.52,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-16、11-12"
     },
     {
       "theme": "白酒/酿酒概念",
@@ -107,9 +107,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.22,
+      "avg_change_pct": 1.85,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-17"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.19,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-17"
+    },
+    {
+      "theme": "光刻胶",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.11,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-17"
     },
     {
@@ -117,9 +137,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.01,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.91,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-17"
     },
     {
@@ -127,9 +147,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 0.82,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-17"
     },
     {
