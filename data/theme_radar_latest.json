@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T13:07:27+08:00",
+  "generated_at": "2026-11-17T13:11:57+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 4.74,
+      "change_pct": 4.49,
       "constituents": 43,
-      "members": "光刻机 +4.74%",
+      "members": "光刻机 +4.49%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 4.73,
+      "change_pct": 4.45,
       "constituents": 63,
-      "members": "光刻胶 +4.73%",
+      "members": "光刻胶 +4.45%",
       "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 3.66,
+      "change_pct": 3.18,
       "constituents": 4,
-      "members": "第四代半导体 +3.66%",
+      "members": "第四代半导体 +3.18%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 3.25,
+      "change_pct": 2.97,
       "constituents": 66,
-      "members": "中芯概念 +3.25%",
+      "members": "中芯概念 +2.97%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 2.76,
+      "change_pct": 2.57,
       "constituents": 28,
-      "members": "高带宽内存 +2.76%",
+      "members": "高带宽内存 +2.57%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.74,
+      "avg_change_pct": 4.49,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.73,
+      "avg_change_pct": 4.45,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-17"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.66,
+      "avg_change_pct": 3.18,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.25,
+      "avg_change_pct": 2.97,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.76,
+      "avg_change_pct": 2.57,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
