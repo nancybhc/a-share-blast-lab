@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T14:54:09+08:00",
+  "generated_at": "2026-11-17T14:58:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 2.86,
+      "change_pct": 3.16,
       "constituents": 63,
-      "members": "光刻胶 +2.86%",
+      "members": "光刻胶 +3.16%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 2.81,
+      "change_pct": 3.13,
       "constituents": 43,
-      "members": "光刻机 +2.81%",
+      "members": "光刻机 +3.13%",
       "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 2.58,
+      "change_pct": 2.86,
       "constituents": 4,
-      "members": "第四代半导体 +2.58%",
+      "members": "第四代半导体 +2.86%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 1.62,
+      "change_pct": 1.94,
       "constituents": 66,
-      "members": "中芯概念 +1.62%",
+      "members": "中芯概念 +1.94%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
-      "theme": "小金属概念/金属回收/金属铜",
-      "representative": "金属铅",
-      "change_pct": 1.14,
-      "constituents": 228,
-      "members": "金属铅 +1.14% / 金属锌 +0.96% / 金属镍 +0.44% / 金属铜 +0.02% / 小金属概念 -0.34% / 金属回收 -0.69%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 1.39,
+      "constituents": 30,
+      "members": "大基金持股 +1.39%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.86,
+      "avg_change_pct": 3.16,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.81,
+      "avg_change_pct": 3.13,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-17"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.86,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -117,17 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.62,
+      "avg_change_pct": 1.94,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
     },
     {
-      "theme": "小金属概念/金属回收/金属铜",
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.14,
+      "avg_change_pct": 1.39,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
