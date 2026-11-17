@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T10:33:15+08:00",
+  "generated_at": "2026-11-17T10:39:01+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 2.78,
+      "change_pct": 2.7,
       "constituents": 63,
-      "members": "光刻胶 +2.78%",
+      "members": "光刻胶 +2.70%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 2.22,
+      "change_pct": 2.02,
       "constituents": 43,
-      "members": "光刻机 +2.22%",
+      "members": "光刻机 +2.02%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "染料",
       "representative": "染料",
-      "change_pct": 1.37,
+      "change_pct": 1.54,
       "constituents": 34,
-      "members": "染料 +1.37%",
+      "members": "染料 +1.54%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 1.08,
+      "change_pct": 1.11,
       "constituents": 23,
-      "members": "环氧丙烷 +1.08%",
+      "members": "环氧丙烷 +1.11%",
       "rank": 5
     }
   ],
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.78,
+      "avg_change_pct": 2.7,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.22,
+      "avg_change_pct": 2.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -137,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.37,
+      "avg_change_pct": 1.54,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
@@ -147,7 +147,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.08,
+      "avg_change_pct": 1.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
