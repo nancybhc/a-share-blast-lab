@@ -2248,7 +2248,7 @@ function updateMultiTrendControls() {
 function setMultiTrendWindow(nextStart, nextEnd) {
   if (!multiTrendData?.dates?.length) return;
   const count = multiTrendData.dates.length;
-  const minSpan = Math.min(7, count);
+  const minSpan = Math.min(10, count);
   let start = Math.max(0, Math.min(Number(nextStart) || 0, count - minSpan));
   let end = Math.max(start + minSpan - 1, Math.min(Number(nextEnd) || 0, count - 1));
   if (end - start + 1 > count) {
@@ -2263,7 +2263,7 @@ function setMultiTrendWindow(nextStart, nextEnd) {
 function setMultiTrendSpan(span) {
   if (!multiTrendData?.dates?.length) return;
   const count = multiTrendData.dates.length;
-  const nextSpan = Math.max(Math.min(span, count), Math.min(7, count));
+  const nextSpan = Math.max(Math.min(span, count), Math.min(10, count));
   const end = multitrendState.initialized ? multitrendState.end : count - 1;
   setMultiTrendWindow(end - nextSpan + 1, end);
 }
@@ -2273,7 +2273,7 @@ function zoomMultiTrend(factor) {
   const count = multiTrendData.dates.length;
   const span = multitrendState.end - multitrendState.start + 1;
   const nextSpan = Math.max(
-    Math.min(7, count),
+    Math.min(10, count),
     Math.min(count, Math.round(span * factor)),
   );
   const anchor = multitrendState.start + Math.floor((span - 1) / 2);
@@ -2360,8 +2360,8 @@ function renderMultiTrendChart(definition) {
   }
 
   const compact = window.matchMedia("(max-width: 760px)").matches;
-  const width = compact ? 440 : 1120;
-  const height = compact ? 300 : 410;
+  const width = compact ? 440 : 860;
+  const height = compact ? 300 : 350;
   const padding = compact
     ? { top: 18, right: 18, bottom: 34, left: 48 }
     : { top: 22, right: 24, bottom: 38, left: 54 };
@@ -2544,7 +2544,7 @@ function initMultiTrendPlotEvents(container) {
     const span = multitrendState.end - multitrendState.start + 1;
     const factor = event.deltaY > 0 ? 1.22 : 0.82;
     const nextSpan = Math.max(
-      12,
+      10,
       Math.min(multiTrendData.dates.length, Math.round(span * factor)),
     );
     const anchor = multitrendState.start + ratio * (span - 1);
@@ -2614,7 +2614,7 @@ function renderMultitrend() {
     multitrendState.end = count - 1;
   } else {
     const span = Math.max(
-      Math.min(7, count),
+      Math.min(10, count),
       multitrendState.end - multitrendState.start + 1,
     );
     const wasAtEnd = multitrendState.end >= multitrendState.dateCount - 1;
@@ -2667,11 +2667,11 @@ function initMultitrendControls() {
   document.getElementById("multitrendZoomIn")?.addEventListener("click", () => zoomMultiTrend(0.68));
   document.getElementById("multitrendZoomOut")?.addEventListener("click", () => zoomMultiTrend(1.45));
   startRange?.addEventListener("input", () => {
-    const minEnd = Number(startRange.value) + Math.min(6, multiTrendData.dates.length - 1);
+    const minEnd = Number(startRange.value) + Math.min(9, multiTrendData.dates.length - 1);
     setMultiTrendWindow(Number(startRange.value), Math.max(minEnd, multitrendState.end));
   });
   endRange?.addEventListener("input", () => {
-    const maxStart = Number(endRange.value) - Math.min(6, multiTrendData.dates.length - 1);
+    const maxStart = Number(endRange.value) - Math.min(9, multiTrendData.dates.length - 1);
     setMultiTrendWindow(Math.min(maxStart, multitrendState.start), Number(endRange.value));
   });
 }
