@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T09:45:29+08:00",
+  "generated_at": "2026-11-17T09:50:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 1.82,
+      "change_pct": 1.23,
       "constituents": 43,
-      "members": "光刻机 +1.82%",
+      "members": "光刻机 +1.23%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 1.14,
+      "change_pct": 0.61,
       "constituents": 30,
-      "members": "大基金持股 +1.14%",
+      "members": "大基金持股 +0.61%",
       "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.09,
+      "change_pct": 0.55,
       "constituents": 63,
-      "members": "光刻胶 +1.09%",
+      "members": "光刻胶 +0.55%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 0.73,
-      "constituents": 66,
-      "members": "中芯概念 +0.73%",
-      "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.65,
+      "change_pct": 0.31,
       "constituents": 4,
-      "members": "第四代半导体 +0.65%",
+      "members": "第四代半导体 +0.31%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "中芯概念",
+      "representative": "中芯概念",
+      "change_pct": 0.28,
+      "constituents": 66,
+      "members": "中芯概念 +0.28%",
       "rank": 5
     }
   ],
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.82,
+      "avg_change_pct": 1.23,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.14,
+      "avg_change_pct": 0.61,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-17"
@@ -127,19 +127,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.09,
+      "avg_change_pct": 0.55,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-17"
-    },
-    {
-      "theme": "中芯概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.73,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-17"
     },
     {
@@ -147,7 +137,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.65,
+      "avg_change_pct": 0.31,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-17"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.28,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
