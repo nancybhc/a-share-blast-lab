@@ -2633,7 +2633,7 @@ function renderMultitrend() {
   const count = multiTrendData.dates.length;
   if (!multitrendState.initialized) {
     multitrendState.initialized = true;
-    multitrendState.start = 0;
+    multitrendState.start = Math.max(0, count - Math.min(10, count));
     multitrendState.end = count - 1;
   } else {
     const span = Math.max(
