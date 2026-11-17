@@ -2658,6 +2658,10 @@ function initMultitrendControls() {
   const endRange = document.getElementById("multitrendEndRange");
   if (!grid || grid.dataset.controlsBound === "1") return;
   grid.dataset.controlsBound = "1";
+  document.addEventListener("pointerdown", (event) => {
+    if (event.target.closest(".multitrend-plot")) return;
+    document.querySelectorAll(".multitrend-plot").forEach(hideMultiTrendTooltip);
+  }, { capture: true });
   grid.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-trend-chart]");
     if (!button) return;
