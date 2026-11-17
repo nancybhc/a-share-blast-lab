@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T10:53:52+08:00",
+  "generated_at": "2026-11-17T10:58:57+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-17",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 2.66,
+      "change_pct": 2.85,
       "constituents": 63,
-      "members": "光刻胶 +2.66%",
+      "members": "光刻胶 +2.85%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": 2.31,
-      "constituents": 4,
-      "members": "第四代半导体 +2.31%",
-      "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 2.3,
+      "change_pct": 2.48,
       "constituents": 43,
-      "members": "光刻机 +2.30%",
+      "members": "光刻机 +2.48%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "第四代半导体",
+      "representative": "第四代半导体",
+      "change_pct": 2.28,
+      "constituents": 4,
+      "members": "第四代半导体 +2.28%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "染料",
       "representative": "染料",
-      "change_pct": 1.45,
+      "change_pct": 1.55,
       "constituents": 34,
-      "members": "染料 +1.45%",
+      "members": "染料 +1.55%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 1.25,
-      "constituents": 19,
-      "members": "智能音箱 +1.25%",
+      "theme": "空气能热泵",
+      "representative": "空气能热泵",
+      "change_pct": 1.43,
+      "constituents": 37,
+      "members": "空气能热泵 +1.43%",
       "rank": 5
     }
   ],
@@ -107,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.66,
+      "avg_change_pct": 2.85,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-17"
-    },
-    {
-      "theme": "第四代半导体",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.31,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-17"
     },
     {
@@ -127,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.3,
+      "avg_change_pct": 2.48,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-17"
+    },
+    {
+      "theme": "第四代半导体",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.28,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -137,17 +137,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.45,
+      "avg_change_pct": 1.55,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
     },
     {
-      "theme": "智能音箱",
+      "theme": "空气能热泵",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.25,
+      "avg_change_pct": 1.43,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
