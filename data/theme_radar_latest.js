@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T14:59:05+08:00",
-  "source": "今日盘中 / 当日题材强度",
-  "source_kind": "intraday",
-  "period_label": "11-16午盘",
+  "generated_at": "2026-11-16T15:12:59+08:00",
+  "source": "归档 / 当日题材强度",
+  "source_kind": "archive",
+  "period_label": "11-16收盘",
   "daily_top": [
     {
       "date": "2026-11-16",
       "theme": "免税概念",
       "representative": "免税概念",
-      "change_pct": 1.12,
+      "change_pct": 1.24,
       "constituents": 18,
-      "members": "免税概念 +1.12%",
+      "members": "免税概念 +1.24%",
       "rank": 1
     },
     {
       "date": "2026-11-16",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": 0.76,
+      "change_pct": 0.84,
       "constituents": 76,
-      "members": "大盘价值 +0.76%",
+      "members": "大盘价值 +0.84%",
       "rank": 2
     },
     {
       "date": "2026-11-16",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 0.65,
+      "change_pct": 0.7,
       "constituents": 20,
-      "members": "退税商店 +0.65%",
+      "members": "退税商店 +0.70%",
       "rank": 3
     },
     {
       "date": "2026-11-16",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 0.49,
+      "change_pct": 0.44,
       "constituents": 21,
-      "members": "净水概念 +0.49%",
+      "members": "净水概念 +0.44%",
       "rank": 4
     },
     {
       "date": "2026-11-16",
       "theme": "低市净率",
       "representative": "低市净率",
-      "change_pct": 0.35,
+      "change_pct": 0.38,
       "constituents": 200,
-      "members": "低市净率 +0.35%",
+      "members": "低市净率 +0.38%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.48,
+      "avg_change_pct": 0.52,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-16、11-13"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.66,
+      "avg_change_pct": 0.72,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-16、11-12"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.49,
+      "avg_change_pct": 0.52,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-16、11-12"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.49,
+      "avg_change_pct": 0.44,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-16"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.38,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-16"
