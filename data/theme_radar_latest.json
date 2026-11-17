@@ -1,53 +1,53 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T14:45:24+08:00",
+  "generated_at": "2026-11-17T14:49:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
   "daily_top": [
     {
       "date": "2026-11-17",
-      "theme": "光刻胶",
-      "representative": "光刻胶",
-      "change_pct": 2.72,
-      "constituents": 63,
-      "members": "光刻胶 +2.72%",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 2.79,
+      "constituents": 43,
+      "members": "光刻机 +2.79%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 2.67,
-      "constituents": 43,
-      "members": "光刻机 +2.67%",
+      "theme": "光刻胶",
+      "representative": "光刻胶",
+      "change_pct": 2.76,
+      "constituents": 63,
+      "members": "光刻胶 +2.76%",
       "rank": 2
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 2.6,
+      "change_pct": 2.58,
       "constituents": 4,
-      "members": "第四代半导体 +2.60%",
+      "members": "第四代半导体 +2.58%",
       "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 1.48,
+      "change_pct": 1.58,
       "constituents": 66,
-      "members": "中芯概念 +1.48%",
+      "members": "中芯概念 +1.58%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
       "theme": "小金属概念/金属回收/金属铜",
       "representative": "金属铅",
-      "change_pct": 1.11,
+      "change_pct": 1.08,
       "constituents": 228,
-      "members": "金属铅 +1.11% / 金属锌 +0.93% / 金属镍 +0.40% / 金属铜 +0.03% / 小金属概念 -0.37% / 金属回收 -0.71%",
+      "members": "金属铅 +1.08% / 金属锌 +0.92% / 金属镍 +0.42% / 金属铜 -0.01% / 小金属概念 -0.40% / 金属回收 -0.70%",
       "rank": 5
     }
   ],
@@ -83,21 +83,21 @@
       "dates": "11-16、11-12"
     },
     {
-      "theme": "光刻胶",
+      "theme": "光刻机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.72,
+      "avg_change_pct": 2.79,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
     },
     {
-      "theme": "光刻机",
+      "theme": "光刻胶",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.67,
+      "avg_change_pct": 2.76,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-17"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.6,
+      "avg_change_pct": 2.58,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-17"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.48,
+      "avg_change_pct": 1.58,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.11,
+      "avg_change_pct": 1.08,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-17"
