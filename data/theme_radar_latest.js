@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T09:26:55+08:00",
+  "generated_at": "2026-11-17T09:32:06+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-17午盘",
   "daily_top": [
     {
       "date": "2026-11-17",
-      "theme": "免税概念",
-      "representative": "免税概念",
-      "change_pct": 0.54,
-      "constituents": 18,
-      "members": "免税概念 +0.54%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 0.22,
+      "constituents": 30,
+      "members": "大基金持股 +0.22%",
       "rank": 1
     },
     {
       "date": "2026-11-17",
-      "theme": "退税商店",
-      "representative": "退税商店",
-      "change_pct": -0.13,
-      "constituents": 20,
-      "members": "退税商店 -0.13%",
+      "theme": "免税概念",
+      "representative": "免税概念",
+      "change_pct": 0.08,
+      "constituents": 18,
+      "members": "免税概念 +0.08%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-17",
-      "theme": "汽车整车",
-      "representative": "汽车整车",
-      "change_pct": -0.18,
-      "constituents": 26,
-      "members": "汽车整车 -0.18%",
-      "rank": 3
     },
     {
       "date": "2026-11-17",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": -0.18,
+      "change_pct": -0.01,
       "constituents": 4,
-      "members": "第四代半导体 -0.18%",
+      "members": "第四代半导体 -0.01%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "芯片概念/MCU芯片",
+      "representative": "MCU芯片",
+      "change_pct": -0.2,
+      "constituents": 451,
+      "members": "MCU芯片 -0.20% / 芯片概念 -0.85%",
       "rank": 4
     },
     {
       "date": "2026-11-17",
-      "theme": "发电机概念",
-      "representative": "发电机概念",
-      "change_pct": -0.27,
-      "constituents": 23,
-      "members": "发电机概念 -0.27%",
+      "theme": "退税商店",
+      "representative": "退税商店",
+      "change_pct": -0.25,
+      "constituents": 20,
+      "members": "退税商店 -0.25%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 0.66,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
+      "avg_change_pct": 0.51,
+      "avg_rank": 2.3,
+      "latest_rank": 2,
       "dates": "11-17、11-16、11-12"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 0.3,
-      "avg_rank": 2.7,
-      "latest_rank": 2,
+      "avg_change_pct": 0.26,
+      "avg_rank": 3.7,
+      "latest_rank": 5,
       "dates": "11-17、11-16、11-12"
     },
     {
@@ -103,13 +103,13 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-12"
     },
     {
-      "theme": "汽车整车",
+      "theme": "大基金持股",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.18,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.22,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-17"
     },
     {
@@ -117,19 +117,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.18,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -0.01,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-17"
     },
     {
-      "theme": "发电机概念",
+      "theme": "芯片概念/MCU芯片",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.27,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": -0.2,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-17"
     },
     {
