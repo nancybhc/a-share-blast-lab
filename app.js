@@ -2232,9 +2232,6 @@ function ensureMultiTrendVisibility(definitions) {
       return;
     }
     const current = multitrendState.visible.get(definition.id);
-    definition.series.forEach((series) => {
-      if (definition.defaults.includes(series.id)) current.add(series.id);
-    });
     for (const seriesId of current) {
       if (!definition.series.some((series) => series.id === seriesId)) {
         current.delete(seriesId);
