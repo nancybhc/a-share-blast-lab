@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:16:26+08:00",
+  "generated_at": "2026-11-18T13:18:31+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 2.46,
+      "change_pct": 3.34,
       "constituents": 122,
-      "members": "算力租赁 +2.46%",
+      "members": "算力租赁 +3.34%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 2.29,
-      "constituents": 26,
-      "members": "F5G概念 +2.29%",
-      "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 2.26,
+      "change_pct": 3.01,
       "constituents": 74,
-      "members": "东数西算 +2.26%",
+      "members": "东数西算 +3.01%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 2.84,
+      "constituents": 26,
+      "members": "F5G概念 +2.84%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "软件信创",
+      "representative": "财税数字化",
+      "change_pct": 2.17,
+      "constituents": 420,
+      "members": "财税数字化 +2.17% / 信创 +1.19% / 鸿蒙概念 +0.79% / 国产软件 +0.41%",
+      "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 1.52,
+      "change_pct": 2.13,
       "constituents": 20,
-      "members": "国资云概念 +1.52%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
-      "representative": "华为昇腾",
-      "change_pct": 1.41,
-      "constituents": 181,
-      "members": "华为昇腾 +1.41% / 华为欧拉 +0.94% / 华为鲲鹏 +0.62%",
+      "members": "国资云概念 +2.13%",
       "rank": 5
     }
   ],
@@ -87,19 +87,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.46,
+      "avg_change_pct": 3.34,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-18"
-    },
-    {
-      "theme": "F5G概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.29,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-18"
     },
     {
@@ -107,9 +97,29 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.26,
+      "avg_change_pct": 3.01,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-18"
+    },
+    {
+      "theme": "F5G概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.84,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-18"
+    },
+    {
+      "theme": "软件信创",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.17,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-18"
     },
     {
@@ -117,17 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.52,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-18"
-    },
-    {
-      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.41,
+      "avg_change_pct": 2.13,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
