@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T09:45:10+08:00",
+  "generated_at": "2026-11-18T09:47:24+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
   "daily_top": [
     {
       "date": "2026-11-18",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 1.25,
+      "theme": "汽车整车",
+      "representative": "汽车整车",
+      "change_pct": 1.5,
       "constituents": 26,
-      "members": "F5G概念 +1.25%",
+      "members": "汽车整车 +1.50%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.17,
+      "change_pct": 1.33,
       "constituents": 21,
-      "members": "净水概念 +1.17%",
+      "members": "净水概念 +1.33%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "汽车整车",
-      "representative": "汽车整车",
-      "change_pct": 1.09,
-      "constituents": 26,
-      "members": "汽车整车 +1.09%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "铜缆高速连接",
-      "representative": "铜缆高速连接",
-      "change_pct": 0.81,
-      "constituents": 41,
-      "members": "铜缆高速连接 +0.81%",
-      "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "空气能热泵",
       "representative": "空气能热泵",
-      "change_pct": 0.77,
+      "change_pct": 1.0,
       "constituents": 37,
-      "members": "空气能热泵 +0.77%",
+      "members": "空气能热泵 +1.00%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 0.93,
+      "constituents": 26,
+      "members": "F5G概念 +0.93%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "超超临界发电",
+      "representative": "超超临界发电",
+      "change_pct": 0.69,
+      "constituents": 59,
+      "members": "超超临界发电 +0.69%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.8,
+      "avg_change_pct": 0.89,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-18、11-16"
@@ -93,33 +93,13 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-12"
     },
     {
-      "theme": "F5G概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.25,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-18"
-    },
-    {
       "theme": "汽车整车",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.09,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-18"
-    },
-    {
-      "theme": "铜缆高速连接",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.81,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.5,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-18"
     },
     {
@@ -127,7 +107,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.77,
+      "avg_change_pct": 1.0,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-18"
+    },
+    {
+      "theme": "F5G概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.93,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-18"
+    },
+    {
+      "theme": "超超临界发电",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.69,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
