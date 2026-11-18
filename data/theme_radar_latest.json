@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:10:09+08:00",
+  "generated_at": "2026-11-18T13:12:10+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 0.91,
+      "change_pct": 1.19,
       "constituents": 74,
-      "members": "东数西算 +0.91%",
+      "members": "东数西算 +1.19%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 0.88,
+      "change_pct": 1.18,
       "constituents": 122,
-      "members": "算力租赁 +0.88%",
+      "members": "算力租赁 +1.18%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 0.68,
+      "change_pct": 0.85,
       "constituents": 26,
-      "members": "F5G概念 +0.68%",
+      "members": "F5G概念 +0.85%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 0.33,
+      "change_pct": 0.61,
       "constituents": 20,
-      "members": "国资云概念 +0.33%",
+      "members": "国资云概念 +0.61%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "低碳冶金",
-      "representative": "低碳冶金",
-      "change_pct": 0.17,
-      "constituents": 7,
-      "members": "低碳冶金 +0.17%",
+      "theme": "软件信创",
+      "representative": "财税数字化",
+      "change_pct": 0.33,
+      "constituents": 420,
+      "members": "财税数字化 +0.33% / 信创 -0.61% / 鸿蒙概念 -0.86% / 国产软件 -1.29%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.91,
+      "avg_change_pct": 1.19,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.88,
+      "avg_change_pct": 1.18,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.68,
+      "avg_change_pct": 0.85,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,17 +117,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.33,
+      "avg_change_pct": 0.61,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "软件信创",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.17,
+      "avg_change_pct": 0.33,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
