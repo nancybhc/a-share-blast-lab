@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T14:48:39+08:00",
+  "generated_at": "2026-11-18T14:50:38+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -27,27 +27,27 @@
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.49,
+      "change_pct": 2.55,
       "constituents": 26,
-      "members": "F5G概念 +2.49%",
+      "members": "F5G概念 +2.55%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "AI算力",
       "representative": "算力概念",
-      "change_pct": 1.9,
+      "change_pct": 1.91,
       "constituents": 699,
-      "members": "算力概念 +1.90% / CPO概念 +1.69% / 数据中心 +0.75% / 液冷服务器 +0.44% / AI语料 -1.60%",
+      "members": "算力概念 +1.91% / CPO概念 +1.74% / 数据中心 +0.75% / 液冷服务器 +0.45% / AI语料 -1.65%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 1.77,
+      "change_pct": 1.82,
       "constituents": 68,
-      "members": "英伟达概念 +1.77%",
+      "members": "英伟达概念 +1.82%",
       "rank": 5
     }
   ],
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.49,
+      "avg_change_pct": 2.55,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.9,
+      "avg_change_pct": 1.91,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.77,
+      "avg_change_pct": 1.82,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
