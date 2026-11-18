@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T09:40:39+08:00",
+  "generated_at": "2026-11-18T09:42:54+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.78,
+      "change_pct": 1.49,
       "constituents": 21,
-      "members": "净水概念 +1.78%",
+      "members": "净水概念 +1.49%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "汽车整车",
       "representative": "汽车整车",
-      "change_pct": 1.47,
+      "change_pct": 1.27,
       "constituents": 26,
-      "members": "汽车整车 +1.47%",
+      "members": "汽车整车 +1.27%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.21,
+      "change_pct": 1.11,
       "constituents": 26,
-      "members": "F5G概念 +1.21%",
+      "members": "F5G概念 +1.11%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 1.13,
-      "constituents": 473,
-      "members": "减速器 +1.13% / 机器人执行器 +0.56% / 人形机器人 +0.35% / 机器视觉 -0.04%",
+      "theme": "铜缆高速连接",
+      "representative": "铜缆高速连接",
+      "change_pct": 0.79,
+      "constituents": 41,
+      "members": "铜缆高速连接 +0.79%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "空气能热泵",
       "representative": "空气能热泵",
-      "change_pct": 1.0,
+      "change_pct": 0.76,
       "constituents": 37,
-      "members": "空气能热泵 +1.00%",
+      "members": "空气能热泵 +0.76%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.11,
+      "avg_change_pct": 0.96,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-18、11-16"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.47,
+      "avg_change_pct": 1.27,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,17 +107,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.21,
+      "avg_change_pct": 1.11,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
     },
     {
-      "theme": "机器人",
+      "theme": "铜缆高速连接",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.13,
+      "avg_change_pct": 0.79,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.0,
+      "avg_change_pct": 0.76,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
