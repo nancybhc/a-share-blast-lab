@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T09:47:24+08:00",
+  "generated_at": "2026-11-18T09:50:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
   "daily_top": [
     {
       "date": "2026-11-18",
-      "theme": "汽车整车",
-      "representative": "汽车整车",
-      "change_pct": 1.5,
-      "constituents": 26,
-      "members": "汽车整车 +1.50%",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 1.65,
+      "constituents": 21,
+      "members": "净水概念 +1.65%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 1.33,
-      "constituents": 21,
-      "members": "净水概念 +1.33%",
+      "theme": "汽车整车",
+      "representative": "汽车整车",
+      "change_pct": 1.55,
+      "constituents": 26,
+      "members": "汽车整车 +1.55%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "空气能热泵",
       "representative": "空气能热泵",
-      "change_pct": 1.0,
+      "change_pct": 1.18,
       "constituents": 37,
-      "members": "空气能热泵 +1.00%",
+      "members": "空气能热泵 +1.18%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "网约车",
+      "representative": "网约车",
+      "change_pct": 0.97,
+      "constituents": 16,
+      "members": "网约车 +0.97%",
+      "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 0.93,
+      "change_pct": 0.95,
       "constituents": 26,
-      "members": "F5G概念 +0.93%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "超超临界发电",
-      "representative": "超超临界发电",
-      "change_pct": 0.69,
-      "constituents": 59,
-      "members": "超超临界发电 +0.69%",
+      "members": "F5G概念 +0.95%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.89,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.04,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
       "dates": "11-18、11-16"
     },
     {
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.5,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.55,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-18"
     },
     {
@@ -107,9 +107,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.0,
+      "avg_change_pct": 1.18,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-18"
+    },
+    {
+      "theme": "网约车",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.97,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-18"
     },
     {
@@ -117,17 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.93,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-18"
-    },
-    {
-      "theme": "超超临界发电",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.69,
+      "avg_change_pct": 0.95,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
