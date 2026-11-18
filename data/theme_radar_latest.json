@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T09:35:38+08:00",
+  "generated_at": "2026-11-18T09:38:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.64,
+      "change_pct": 1.84,
       "constituents": 21,
-      "members": "净水概念 +1.64%",
+      "members": "净水概念 +1.84%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "汽车整车",
+      "representative": "汽车整车",
+      "change_pct": 1.39,
+      "constituents": 26,
+      "members": "汽车整车 +1.39%",
+      "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 1.48,
+      "change_pct": 1.14,
       "constituents": 473,
-      "members": "减速器 +1.48% / 机器人执行器 +1.06% / 人形机器人 +0.86% / 机器视觉 +0.70%",
-      "rank": 2
+      "members": "减速器 +1.14% / 机器人执行器 +0.67% / 人形机器人 +0.42% / 机器视觉 +0.18%",
+      "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.44,
+      "change_pct": 1.06,
       "constituents": 26,
-      "members": "F5G概念 +1.44%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 1.33,
-      "constituents": 699,
-      "members": "CPO概念 +1.33% / 液冷服务器 +0.56% / 算力概念 +0.56% / 数据中心 +0.49% / AI语料 -0.40%",
+      "members": "F5G概念 +1.06%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "英伟达概念",
-      "representative": "英伟达概念",
-      "change_pct": 1.24,
-      "constituents": 68,
-      "members": "英伟达概念 +1.24%",
+      "theme": "空气能热泵",
+      "representative": "空气能热泵",
+      "change_pct": 1.05,
+      "constituents": 37,
+      "members": "空气能热泵 +1.05%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.04,
+      "avg_change_pct": 1.14,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-18、11-16"
@@ -93,13 +93,23 @@
       "dates": "11-13、11-12"
     },
     {
+      "theme": "汽车整车",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.39,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-18"
+    },
+    {
       "theme": "机器人",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.48,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.14,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-18"
     },
     {
@@ -107,27 +117,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.44,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-18"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.33,
+      "avg_change_pct": 1.06,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
     },
     {
-      "theme": "英伟达概念",
+      "theme": "空气能热泵",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.24,
+      "avg_change_pct": 1.05,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
