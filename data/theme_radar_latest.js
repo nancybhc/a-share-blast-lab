@@ -1,66 +1,66 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T09:28:13+08:00",
+  "generated_at": "2026-11-18T09:30:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
   "daily_top": [
     {
       "date": "2026-11-18",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 1.56,
-      "constituents": 50,
-      "members": "6G概念 +1.56%",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 1.29,
+      "constituents": 21,
+      "members": "净水概念 +1.29%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 1.46,
-      "constituents": 42,
-      "members": "光刻机 +1.46%",
+      "theme": "染料",
+      "representative": "染料",
+      "change_pct": 0.89,
+      "constituents": 34,
+      "members": "染料 +0.89%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 1.43,
-      "constituents": 699,
-      "members": "CPO概念 +1.43% / 液冷服务器 +0.78% / 算力概念 +0.72% / 数据中心 +0.59% / AI语料 -0.18%",
+      "theme": "柔性直流输电",
+      "representative": "柔性直流输电",
+      "change_pct": 0.88,
+      "constituents": 42,
+      "members": "柔性直流输电 +0.88%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
-      "theme": "通信技术/5G概念/光通信模块",
-      "representative": "光通信模块",
-      "change_pct": 1.33,
-      "constituents": 439,
-      "members": "光通信模块 +1.33% / 5G概念 +1.13% / 通信技术 +1.11%",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 0.85,
+      "constituents": 50,
+      "members": "6G概念 +0.85%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 1.31,
-      "constituents": 10,
-      "members": "纳米银 +1.31%",
+      "theme": "生物疫苗",
+      "representative": "生物疫苗",
+      "change_pct": 0.72,
+      "constituents": 72,
+      "members": "生物疫苗 +0.72%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "光刻机",
-      "current_streak": 2,
-      "max_streak": 2,
+      "theme": "净水概念",
+      "current_streak": 1,
+      "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.27,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-18、11-17"
+      "avg_change_pct": 0.86,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-18、11-16"
     },
     {
       "theme": "大盘价值",
@@ -93,41 +93,41 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-12"
     },
     {
-      "theme": "6G概念",
+      "theme": "染料",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.56,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 0.89,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-18"
     },
     {
-      "theme": "AI算力",
+      "theme": "柔性直流输电",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.43,
+      "avg_change_pct": 0.88,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
     },
     {
-      "theme": "通信技术/5G概念/光通信模块",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.33,
+      "avg_change_pct": 0.85,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
     },
     {
-      "theme": "纳米银",
+      "theme": "生物疫苗",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.31,
+      "avg_change_pct": 0.72,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
@@ -171,6 +171,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-16"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.08,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-17"
     },
     {
       "theme": "影视概念",
@@ -221,16 +231,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-17"
-    },
-    {
-      "theme": "净水概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.44,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-16"
     },
     {
       "theme": "大基金持股",
