@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T10:37:13+08:00",
+  "generated_at": "2026-11-18T10:39:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -18,36 +18,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.29,
+      "change_pct": 1.25,
       "constituents": 21,
-      "members": "净水概念 +1.29%",
+      "members": "净水概念 +1.25%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 1.2,
+      "change_pct": 1.18,
       "constituents": 74,
-      "members": "东数西算 +1.20%",
+      "members": "东数西算 +1.18%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 1.17,
+      "change_pct": 1.13,
       "constituents": 20,
-      "members": "国资云概念 +1.17%",
+      "members": "国资云概念 +1.13%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "数据要素/安全",
       "representative": "时空大数据",
-      "change_pct": 0.84,
+      "change_pct": 0.73,
       "constituents": 346,
-      "members": "时空大数据 +0.84% / 网络安全 +0.12% / 数字水印 -0.12% / 数据要素 -0.65% / 数据安全 -0.70% / 数据确权 -1.23%",
+      "members": "时空大数据 +0.73% / 网络安全 +0.06% / 数字水印 -0.21% / 数据要素 -0.76% / 数据安全 -0.79% / 数据确权 -1.37%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.86,
+      "avg_change_pct": 0.84,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-18、11-16"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.2,
+      "avg_change_pct": 1.18,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.17,
+      "avg_change_pct": 1.13,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.84,
+      "avg_change_pct": 0.73,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
