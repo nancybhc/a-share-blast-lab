@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:47:56+08:00",
+  "generated_at": "2026-11-18T13:49:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,27 +9,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 4.03,
+      "change_pct": 4.01,
       "constituents": 122,
-      "members": "算力租赁 +4.03%",
+      "members": "算力租赁 +4.01%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 3.52,
+      "change_pct": 3.56,
       "constituents": 74,
-      "members": "东数西算 +3.52%",
+      "members": "东数西算 +3.56%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 3.16,
+      "change_pct": 3.21,
       "constituents": 26,
-      "members": "F5G概念 +3.16%",
+      "members": "F5G概念 +3.21%",
       "rank": 3
     },
     {
@@ -38,16 +38,16 @@ window.THEME_RADAR_DATA = {
       "representative": "算力概念",
       "change_pct": 2.45,
       "constituents": 699,
-      "members": "算力概念 +2.45% / CPO概念 +2.44% / 数据中心 +1.40% / 液冷服务器 +0.98% / AI语料 -0.93%",
+      "members": "算力概念 +2.45% / CPO概念 +2.44% / 数据中心 +1.38% / 液冷服务器 +0.97% / AI语料 -1.11%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "英伟达概念",
-      "representative": "英伟达概念",
-      "change_pct": 2.34,
-      "constituents": 68,
-      "members": "英伟达概念 +2.34%",
+      "theme": "国资云概念",
+      "representative": "国资云概念",
+      "change_pct": 2.35,
+      "constituents": 20,
+      "members": "国资云概念 +2.35%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.03,
+      "avg_change_pct": 4.01,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.52,
+      "avg_change_pct": 3.56,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.16,
+      "avg_change_pct": 3.21,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -123,11 +123,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-18"
     },
     {
-      "theme": "英伟达概念",
+      "theme": "国资云概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.34,
+      "avg_change_pct": 2.35,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
