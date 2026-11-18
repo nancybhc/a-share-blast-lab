@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import json
 import subprocess
 import sys
@@ -182,6 +183,7 @@ def main() -> int:
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     while True:
+        cycle_started = time.monotonic()
         now = datetime.now(CHINA_TZ)
         day = now.strftime("%Y-%m-%d")
         active = trading_window(now)
@@ -196,16 +198,13 @@ def main() -> int:
             )
             if latest_report(day):
                 build_market_trend(day)
-            cycle_ok = run_cycle(day)
-            write_status(
-                {
-                    "updated_at": datetime.now(CHINA_TZ).isoformat(timespec="seconds"),
-                    "date": day,
-                    "state": "running",
-                    "stage": "structure-complete" if cycle_ok else "structure-failed",
-                }
-            )
-            theme_ok = run_theme(day)
+            with concurrent.futures.ThreadPoolExecutor(
+                max_workers=2
+            ) as pool:
+                cycle_future = pool.submit(run_cycle, day)
+                theme_future = pool.submit(run_theme, day)
+                cycle_ok = cycle_future.result()
+                theme_ok = theme_future.result()
             write_status(
                 {
                     "updated_at": datetime.now(CHINA_TZ).isoformat(timespec="seconds"),
@@ -230,9 +229,12 @@ def main() -> int:
 
         if not args.watch:
             return 0
-        deadline = time.monotonic() + max(args.interval, 30)
-        while time.monotonic() < deadline:
-            time.sleep(min(10, deadline - time.monotonic()))
+        delay = max(
+            1,
+            max(args.interval, 30)
+            - (time.monotonic() - cycle_started),
+        )
+        time.sleep(delay)
 
 
 if __name__ == "__main__":
