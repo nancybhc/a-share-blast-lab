@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T14:20:38+08:00",
+  "generated_at": "2026-11-18T14:22:36+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 3.4,
+      "change_pct": 3.48,
       "constituents": 122,
-      "members": "算力租赁 +3.40%",
+      "members": "算力租赁 +3.48%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 2.89,
+      "change_pct": 2.97,
       "constituents": 74,
-      "members": "东数西算 +2.89%",
+      "members": "东数西算 +2.97%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.34,
+      "change_pct": 2.4,
       "constituents": 26,
-      "members": "F5G概念 +2.34%",
+      "members": "F5G概念 +2.40%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "AI算力",
       "representative": "算力概念",
-      "change_pct": 1.77,
+      "change_pct": 1.84,
       "constituents": 699,
-      "members": "算力概念 +1.77% / CPO概念 +1.48% / 数据中心 +0.67% / 液冷服务器 +0.26% / AI语料 -1.75%",
+      "members": "算力概念 +1.84% / CPO概念 +1.58% / 数据中心 +0.73% / 液冷服务器 +0.34% / AI语料 -1.75%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "智算中心（AIDC）",
       "representative": "智算中心（AIDC）",
-      "change_pct": 1.67,
+      "change_pct": 1.75,
       "constituents": 194,
-      "members": "智算中心（AIDC） +1.67%",
+      "members": "智算中心（AIDC） +1.75%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.4,
+      "avg_change_pct": 3.48,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.89,
+      "avg_change_pct": 2.97,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.34,
+      "avg_change_pct": 2.4,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.77,
+      "avg_change_pct": 1.84,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.67,
+      "avg_change_pct": 1.75,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
