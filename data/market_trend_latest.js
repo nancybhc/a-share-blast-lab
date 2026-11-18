@@ -1,20 +1,20 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-18",
-  "generatedAt": "2026-11-18 14:37",
-  "reportGeneratedAt": "2026-11-18 14:37",
+  "generatedAt": "2026-11-18 14:38",
+  "reportGeneratedAt": "2026-11-18 14:38",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-18.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-18.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-11-18.pptx",
-  "summary": "  AI硬件 · 近 7 个交易日（11-10 ~ 11-18）：空明显变多（+259 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 141→24 只、空 8→267 只、空转多 178→2、多转空 2→36｜存储 最明显：多 2→0 只、空 2→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-10 ~ 11-18）：空明显变多（+261 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 141→22 只、空 8→269 只、空转多 178→2、多转空 2→36｜存储 最明显：多 2→0 只、空 2→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 921,
     "positiveGroups": 0,
     "negativeGroups": 20,
     "positiveTransitions": 8,
-    "negativeTransitions": 203
+    "negativeTransitions": 206
   },
   "phaseLegend": [
     {
@@ -1763,24 +1763,24 @@ window.MARKET_TREND_DATA = {
       "name": "半导体设备",
       "date": "2026-11-18",
       "total": 47,
-      "bull": 11,
+      "bull": 9,
       "turnBull": 1,
-      "turnBear": 9,
+      "turnBear": 11,
       "bear": 26,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 22,
-      "bullPct": 23.4,
+      "negative": 23,
+      "bullPct": 19.15,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 11→11；空转多 0→1；多转空 31→9；空 5→26",
+      "change": "多 11→9；空转多 0→1；多转空 31→11；空 5→26",
       "id": "equipment",
       "code": "SEMI CAP",
-      "score": -46.8,
+      "score": -48.9,
       "fulfilled": 0,
-      "netBias": -15,
+      "netBias": -17,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
@@ -1788,7 +1788,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 11/47，空头 26；空转多候选 1，今日转多确认 0，反向转空 9。多 11→11；空转多 0→1；多转空 31→9；空 5→26，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 9/47，空头 26；空转多候选 1，今日转多确认 0，反向转空 11。多 11→9；空转多 0→1；多转空 31→11；空 5→26，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-10",
@@ -1841,11 +1841,11 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-18",
           "total": 47,
-          "bull": 11,
+          "bull": 9,
           "turnBull": 1,
-          "turnBear": 9,
+          "turnBear": 11,
           "bear": 26,
-          "bullPct": 23.4
+          "bullPct": 19.15
         }
       ]
     },
@@ -1855,22 +1855,22 @@ window.MARKET_TREND_DATA = {
       "total": 50,
       "bull": 6,
       "turnBull": 1,
-      "turnBear": 9,
-      "bear": 34,
+      "turnBear": 7,
+      "bear": 36,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 26,
+      "negative": 28,
       "bullPct": 12.0,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 10→6；空转多 1→1；多转空 28→9；空 11→34",
+      "change": "多 10→6；空转多 1→1；多转空 28→7；空 11→36",
       "id": "semiconductor-upstream",
       "code": "SEMI MATERIALS",
       "score": -50.0,
       "fulfilled": 0,
-      "netBias": -28,
+      "netBias": -30,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
@@ -1878,7 +1878,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 6/50，空头 34；空转多候选 1，今日转多确认 0，反向转空 9。多 10→6；空转多 1→1；多转空 28→9；空 11→34，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 6/50，空头 36；空转多候选 1，今日转多确认 0，反向转空 7。多 10→6；空转多 1→1；多转空 28→7；空 11→36，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-10",
@@ -1933,8 +1933,8 @@ window.MARKET_TREND_DATA = {
           "total": 50,
           "bull": 6,
           "turnBull": 1,
-          "turnBear": 9,
-          "bear": 34,
+          "turnBear": 7,
+          "bear": 36,
           "bullPct": 12.0
         }
       ]
