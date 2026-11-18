@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18T13:11:45+08:00",
+  "updated_at": "2026-11-18T13:13:45+08:00",
   "source": "real-time multi-stage snapshots",
   "groups": {
     "pcb": [
@@ -596,7 +596,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 1.45,
         "bull": 1,
         "total": 69,
@@ -605,14 +605,34 @@
         "bear": 55
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 1.45,
         "bull": 1,
         "total": 69,
         "turnBull": 0,
-        "turnBear": 13,
-        "bear": 55
+        "turnBear": 14,
+        "bear": 54
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 1.45,
+        "bull": 1,
+        "total": 69,
+        "turnBull": 0,
+        "turnBear": 16,
+        "bear": 52
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 1.45,
+        "bull": 1,
+        "total": 69,
+        "turnBull": 0,
+        "turnBear": 16,
+        "bear": 52
       }
     ],
     "cpo": [
@@ -1208,7 +1228,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 2.13,
         "bull": 1,
         "total": 47,
@@ -1217,8 +1237,28 @@
         "bear": 33
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 2.13,
+        "bull": 1,
+        "total": 47,
+        "turnBull": 0,
+        "turnBear": 13,
+        "bear": 33
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 2.13,
+        "bull": 1,
+        "total": 47,
+        "turnBull": 0,
+        "turnBear": 13,
+        "bear": 33
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 2.13,
         "bull": 1,
         "total": 47,
@@ -1820,7 +1860,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 4.17,
         "bull": 1,
         "total": 24,
@@ -1829,14 +1869,34 @@
         "bear": 17
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 4.17,
         "bull": 1,
         "total": 24,
         "turnBull": 0,
-        "turnBear": 6,
-        "bear": 17
+        "turnBear": 7,
+        "bear": 16
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 4.17,
+        "bull": 1,
+        "total": 24,
+        "turnBull": 0,
+        "turnBear": 8,
+        "bear": 15
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 4.17,
+        "bull": 1,
+        "total": 24,
+        "turnBull": 0,
+        "turnBear": 8,
+        "bear": 15
       }
     ],
     "semiconductor": [
@@ -2432,7 +2492,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 20.93,
         "bull": 9,
         "total": 43,
@@ -2441,8 +2501,28 @@
         "bear": 18
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 20.93,
+        "bull": 9,
+        "total": 43,
+        "turnBull": 0,
+        "turnBear": 16,
+        "bear": 18
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 20.93,
+        "bull": 9,
+        "total": 43,
+        "turnBull": 0,
+        "turnBear": 16,
+        "bear": 18
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 20.93,
         "bull": 9,
         "total": 43,
@@ -3044,7 +3124,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 23.4,
         "bull": 11,
         "total": 47,
@@ -3053,12 +3133,32 @@
         "bear": 9
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
-        "bullPct": 23.4,
-        "bull": 11,
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 25.53,
+        "bull": 12,
         "total": 47,
-        "turnBull": 1,
+        "turnBull": 0,
+        "turnBear": 26,
+        "bear": 9
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 25.53,
+        "bull": 12,
+        "total": 47,
+        "turnBull": 0,
+        "turnBear": 26,
+        "bear": 9
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 25.53,
+        "bull": 12,
+        "total": 47,
+        "turnBull": 0,
         "turnBear": 26,
         "bear": 9
       }
@@ -3656,7 +3756,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 16.0,
         "bull": 8,
         "total": 50,
@@ -3665,8 +3765,28 @@
         "bear": 15
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 16.0,
+        "bull": 8,
+        "total": 50,
+        "turnBull": 0,
+        "turnBear": 27,
+        "bear": 15
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 16.0,
+        "bull": 8,
+        "total": 50,
+        "turnBull": 0,
+        "turnBear": 27,
+        "bear": 15
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 16.0,
         "bull": 8,
         "total": 50,
@@ -4268,7 +4388,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 15,
@@ -4277,8 +4397,28 @@
         "bear": 14
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 15,
+        "turnBull": 0,
+        "turnBear": 1,
+        "bear": 14
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 15,
+        "turnBull": 0,
+        "turnBear": 1,
+        "bear": 14
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 15,
@@ -4880,7 +5020,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 11,
@@ -4889,14 +5029,34 @@
         "bear": 10
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 11,
         "turnBull": 0,
         "turnBear": 1,
         "bear": 10
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 11,
+        "turnBull": 0,
+        "turnBear": 2,
+        "bear": 9
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 11,
+        "turnBull": 0,
+        "turnBear": 2,
+        "bear": 9
       }
     ],
     "aidc": [
@@ -5492,7 +5652,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 31,
@@ -5501,8 +5661,28 @@
         "bear": 25
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 31,
+        "turnBull": 0,
+        "turnBear": 6,
+        "bear": 25
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 31,
+        "turnBull": 0,
+        "turnBear": 6,
+        "bear": 25
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 31,
@@ -6104,7 +6284,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 31.15,
         "bull": 19,
         "total": 61,
@@ -6113,14 +6293,34 @@
         "bear": 17
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 31.15,
         "bull": 19,
         "total": 61,
         "turnBull": 3,
-        "turnBear": 22,
-        "bear": 17
+        "turnBear": 23,
+        "bear": 16
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 31.15,
+        "bull": 19,
+        "total": 61,
+        "turnBull": 3,
+        "turnBear": 24,
+        "bear": 15
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 31.15,
+        "bull": 19,
+        "total": 61,
+        "turnBull": 3,
+        "turnBear": 24,
+        "bear": 15
       }
     ],
     "ai-app": [
@@ -6716,7 +6916,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 3.17,
         "bull": 2,
         "total": 63,
@@ -6725,14 +6925,34 @@
         "bear": 44
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 3.17,
         "bull": 2,
         "total": 63,
         "turnBull": 0,
-        "turnBear": 17,
-        "bear": 44
+        "turnBear": 18,
+        "bear": 43
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 3.17,
+        "bull": 2,
+        "total": 63,
+        "turnBull": 0,
+        "turnBear": 18,
+        "bear": 43
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 3.17,
+        "bull": 2,
+        "total": 63,
+        "turnBull": 0,
+        "turnBear": 18,
+        "bear": 43
       }
     ],
     "robot": [
@@ -7318,7 +7538,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 57,
@@ -7327,14 +7547,34 @@
         "bear": 41
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 57,
         "turnBull": 0,
         "turnBear": 16,
         "bear": 41
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 57,
+        "turnBull": 0,
+        "turnBear": 19,
+        "bear": 38
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 57,
+        "turnBull": 0,
+        "turnBear": 19,
+        "bear": 38
       }
     ],
     "pharma": [
@@ -7920,7 +8160,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 3.03,
         "bull": 3,
         "total": 99,
@@ -7929,8 +8169,28 @@
         "bear": 74
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 3.03,
+        "bull": 3,
+        "total": 99,
+        "turnBull": 7,
+        "turnBear": 15,
+        "bear": 74
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 3.03,
+        "bull": 3,
+        "total": 99,
+        "turnBull": 7,
+        "turnBear": 15,
+        "bear": 74
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 3.03,
         "bull": 3,
         "total": 99,
@@ -8522,7 +8782,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 1.67,
         "bull": 1,
         "total": 60,
@@ -8531,14 +8791,34 @@
         "bear": 58
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 1.67,
         "bull": 1,
         "total": 60,
-        "turnBull": 1,
+        "turnBull": 2,
         "turnBear": 0,
-        "bear": 58
+        "bear": 57
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 1.67,
+        "bull": 1,
+        "total": 60,
+        "turnBull": 2,
+        "turnBear": 0,
+        "bear": 57
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 1.67,
+        "bull": 1,
+        "total": 60,
+        "turnBull": 2,
+        "turnBear": 0,
+        "bear": 57
       }
     ],
     "solid-state-battery": [
@@ -9124,7 +9404,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 1.82,
         "bull": 1,
         "total": 55,
@@ -9133,8 +9413,28 @@
         "bear": 52
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 1.82,
+        "bull": 1,
+        "total": 55,
+        "turnBull": 0,
+        "turnBear": 2,
+        "bear": 52
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 1.82,
+        "bull": 1,
+        "total": 55,
+        "turnBull": 0,
+        "turnBear": 2,
+        "bear": 52
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 1.82,
         "bull": 1,
         "total": 55,
@@ -9726,7 +10026,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 9.09,
         "bull": 3,
         "total": 33,
@@ -9735,14 +10035,34 @@
         "bear": 30
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 9.09,
         "bull": 3,
         "total": 33,
         "turnBull": 0,
-        "turnBear": 0,
-        "bear": 30
+        "turnBear": 2,
+        "bear": 28
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 9.09,
+        "bull": 3,
+        "total": 33,
+        "turnBull": 0,
+        "turnBear": 4,
+        "bear": 26
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 9.09,
+        "bull": 3,
+        "total": 33,
+        "turnBull": 0,
+        "turnBear": 4,
+        "bear": 26
       }
     ],
     "grid-equipment": [
@@ -10328,7 +10648,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 8.7,
         "bull": 4,
         "total": 46,
@@ -10337,14 +10657,34 @@
         "bear": 33
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 8.7,
         "bull": 4,
         "total": 46,
         "turnBull": 1,
-        "turnBear": 8,
-        "bear": 33
+        "turnBear": 9,
+        "bear": 32
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 8.7,
+        "bull": 4,
+        "total": 46,
+        "turnBull": 1,
+        "turnBear": 9,
+        "bear": 32
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 8.7,
+        "bull": 4,
+        "total": 46,
+        "turnBull": 1,
+        "turnBear": 9,
+        "bear": 32
       }
     ],
     "energy-storage": [
@@ -10930,7 +11270,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 9,
@@ -10939,8 +11279,28 @@
         "bear": 7
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 9,
+        "turnBull": 1,
+        "turnBear": 1,
+        "bear": 7
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 9,
+        "turnBull": 1,
+        "turnBear": 1,
+        "bear": 7
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 9,
@@ -11542,7 +11902,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 46,
@@ -11551,8 +11911,28 @@
         "bear": 43
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 46,
+        "turnBull": 0,
+        "turnBear": 3,
+        "bear": 43
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 46,
+        "turnBull": 0,
+        "turnBear": 3,
+        "bear": 43
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 46,
@@ -12144,7 +12524,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 39,
@@ -12153,14 +12533,34 @@
         "bear": 36
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 39,
         "turnBull": 0,
         "turnBear": 3,
         "bear": 36
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 39,
+        "turnBull": 0,
+        "turnBear": 4,
+        "bear": 35
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 39,
+        "turnBull": 0,
+        "turnBear": 4,
+        "bear": 35
       }
     ],
     "defense": [
@@ -12746,7 +13146,7 @@
       },
       {
         "time": "13:11",
-        "timestamp": "2026-11-18T13:11+08:00",
+        "timestamp": "2026-11-18T13:11:08+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 29,
@@ -12755,8 +13155,28 @@
         "bear": 26
       },
       {
-        "time": "13:11",
-        "timestamp": "2026-11-18T13:11:08+08:00",
+        "time": "13:12",
+        "timestamp": "2026-11-18T13:12:12+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 29,
+        "turnBull": 1,
+        "turnBear": 2,
+        "bear": 26
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13+08:00",
+        "bullPct": 0.0,
+        "bull": 0,
+        "total": 29,
+        "turnBull": 1,
+        "turnBear": 2,
+        "bear": 26
+      },
+      {
+        "time": "13:13",
+        "timestamp": "2026-11-18T13:13:11+08:00",
         "bullPct": 0.0,
         "bull": 0,
         "total": 29,
