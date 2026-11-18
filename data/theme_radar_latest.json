@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T10:32:11+08:00",
+  "generated_at": "2026-11-18T10:34:55+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.59,
+      "change_pct": 1.26,
       "constituents": 26,
-      "members": "F5G概念 +1.59%",
+      "members": "F5G概念 +1.26%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.4,
+      "change_pct": 1.25,
       "constituents": 21,
-      "members": "净水概念 +1.40%",
+      "members": "净水概念 +1.25%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 1.34,
+      "change_pct": 1.08,
       "constituents": 74,
-      "members": "东数西算 +1.34%",
+      "members": "东数西算 +1.08%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 1.22,
+      "change_pct": 1.06,
       "constituents": 20,
-      "members": "国资云概念 +1.22%",
+      "members": "国资云概念 +1.06%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "数据要素/安全",
       "representative": "时空大数据",
-      "change_pct": 0.9,
+      "change_pct": 0.63,
       "constituents": 346,
-      "members": "时空大数据 +0.90% / 网络安全 +0.19% / 数字水印 -0.03% / 数据要素 -0.55% / 数据安全 -0.62% / 数据确权 -1.05%",
+      "members": "时空大数据 +0.63% / 网络安全 -0.05% / 数字水印 -0.40% / 数据要素 -0.82% / 数据安全 -0.92% / 数据确权 -1.35%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.92,
+      "avg_change_pct": 0.84,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-18、11-16"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.59,
+      "avg_change_pct": 1.26,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.34,
+      "avg_change_pct": 1.08,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.22,
+      "avg_change_pct": 1.06,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.9,
+      "avg_change_pct": 0.63,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
