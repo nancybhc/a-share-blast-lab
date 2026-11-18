@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T14:25:39+08:00",
+  "generated_at": "2026-11-18T14:26:58+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 3.48,
+      "change_pct": 3.54,
       "constituents": 122,
-      "members": "算力租赁 +3.48%",
+      "members": "算力租赁 +3.54%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 2.98,
+      "change_pct": 3.0,
       "constituents": 74,
-      "members": "东数西算 +2.98%",
+      "members": "东数西算 +3.00%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.34,
+      "change_pct": 2.46,
       "constituents": 26,
-      "members": "F5G概念 +2.34%",
+      "members": "F5G概念 +2.46%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "AI算力",
       "representative": "算力概念",
-      "change_pct": 1.83,
+      "change_pct": 1.89,
       "constituents": 699,
-      "members": "算力概念 +1.83% / CPO概念 +1.50% / 数据中心 +0.72% / 液冷服务器 +0.31% / AI语料 -1.71%",
+      "members": "算力概念 +1.89% / CPO概念 +1.65% / 数据中心 +0.77% / 液冷服务器 +0.37% / AI语料 -1.69%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "智算中心（AIDC）",
       "representative": "智算中心（AIDC）",
-      "change_pct": 1.72,
+      "change_pct": 1.78,
       "constituents": 194,
-      "members": "智算中心（AIDC） +1.72%",
+      "members": "智算中心（AIDC） +1.78%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.48,
+      "avg_change_pct": 3.54,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.98,
+      "avg_change_pct": 3.0,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.34,
+      "avg_change_pct": 2.46,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.83,
+      "avg_change_pct": 1.89,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.72,
+      "avg_change_pct": 1.78,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
