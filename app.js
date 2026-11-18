@@ -2326,10 +2326,18 @@ function multiTrendDateTicks(start, end, width) {
 }
 
 function multiTrendScale(rawMin, rawMax, kind) {
-  const spread = Math.max(rawMax - rawMin, kind === "percent" ? 4 : 1);
+  if (kind === "percent") {
+    return {
+      min: 0,
+      max: 100,
+      step: 20,
+      ticks: [0, 20, 40, 60, 80, 100],
+    };
+  }
+  const spread = Math.max(rawMax - rawMin, 1);
   const targetMin = rawMin - spread * 0.12;
   const targetMax = rawMax + spread * 0.12;
-  const roughStep = Math.max((targetMax - targetMin) / 4, kind === "percent" ? 1 : 5);
+  const roughStep = Math.max((targetMax - targetMin) / 4, 5);
   const magnitude = 10 ** Math.floor(Math.log10(roughStep));
   const normalized = roughStep / magnitude;
   const multiplier = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 2.5 ? 2.5 : normalized <= 5 ? 5 : 10;
@@ -2339,7 +2347,6 @@ function multiTrendScale(rawMin, rawMax, kind) {
     Math.floor(targetMin / step) * step,
   );
   let maxValue = Math.ceil(targetMax / step) * step;
-  if (kind === "percent") maxValue = Math.min(100, maxValue);
   if (maxValue <= minValue) maxValue = minValue + step;
   const ticks = [];
   for (let value = minValue; value <= maxValue + step * 0.001; value += step) {
