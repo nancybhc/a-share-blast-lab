@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:04:11+08:00",
+  "generated_at": "2026-11-18T13:05:11+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
   "daily_top": [
     {
       "date": "2026-11-18",
-      "theme": "算力租赁",
-      "representative": "算力租赁",
-      "change_pct": 1.4,
-      "constituents": 122,
-      "members": "算力租赁 +1.40%",
+      "theme": "东数西算",
+      "representative": "东数西算",
+      "change_pct": 1.22,
+      "constituents": 74,
+      "members": "东数西算 +1.22%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
-      "theme": "东数西算",
-      "representative": "东数西算",
-      "change_pct": 1.38,
-      "constituents": 74,
-      "members": "东数西算 +1.38%",
+      "theme": "算力租赁",
+      "representative": "算力租赁",
+      "change_pct": 1.21,
+      "constituents": 122,
+      "members": "算力租赁 +1.21%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.18,
+      "change_pct": 1.02,
       "constituents": 26,
-      "members": "F5G概念 +1.18%",
+      "members": "F5G概念 +1.02%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 0.55,
+      "change_pct": 0.46,
       "constituents": 20,
-      "members": "国资云概念 +0.55%",
+      "members": "国资云概念 +0.46%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "云计算/边缘计算",
-      "representative": "云计算",
-      "change_pct": 0.45,
-      "constituents": 241,
-      "members": "云计算 +0.45% / 边缘计算 -0.14%",
+      "theme": "软件信创",
+      "representative": "财税数字化",
+      "change_pct": 0.28,
+      "constituents": 420,
+      "members": "财税数字化 +0.28% / 信创 -0.66% / 鸿蒙概念 -0.89% / 国产软件 -1.32%",
       "rank": 5
     }
   ],
@@ -83,21 +83,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-12"
     },
     {
-      "theme": "算力租赁",
+      "theme": "东数西算",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.4,
+      "avg_change_pct": 1.22,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
     },
     {
-      "theme": "东数西算",
+      "theme": "算力租赁",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.38,
+      "avg_change_pct": 1.21,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.18,
+      "avg_change_pct": 1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,17 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.55,
+      "avg_change_pct": 0.46,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
     },
     {
-      "theme": "云计算/边缘计算",
+      "theme": "软件信创",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.45,
+      "avg_change_pct": 0.28,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
