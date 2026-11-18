@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import csv
 import json
+import math
 import os
 import time
 from datetime import datetime, time as clock_time
@@ -42,6 +44,9 @@ SCOPES = {
 }
 FIELDS = "f12,f14,f2,f3,f6,f20,f62,f184,f104,f105,f106,f124"
 EXCLUDED_CONCEPT_PREFIXES = ("昨日",)
+PAGE_SIZE = 500
+PAGE_TIMEOUT_SECONDS = 8
+PAGE_FETCH_WORKERS = 4
 
 
 def now_cn() -> datetime:
@@ -88,10 +93,10 @@ def filter_scope_rows(
 
 
 def fetch_scope(
-    scope: str, timeout: int = 25
+    scope: str, timeout: int = PAGE_TIMEOUT_SECONDS
 ) -> tuple[list[dict[str, Any]], str, int]:
     params = {
-        "pz": 500,
+        "pz": PAGE_SIZE,
         "po": 1,
         "np": 1,
         "fltt": 2,
@@ -102,62 +107,80 @@ def fetch_scope(
         "ut": UT,
     }
     errors: list[str] = []
+
+    def request_page(
+        host: str,
+        page: int,
+    ) -> tuple[list[dict[str, Any]], int]:
+        response = requests.get(
+            host + API_PATH,
+            params={**params, "pn": page},
+            headers=HEADERS,
+            timeout=timeout,
+        )
+        response.raise_for_status()
+        data = response.json().get("data") or {}
+        rows = data.get("diff") or []
+        total = int(data.get("total") or len(rows))
+        return rows, total
+
+    def load_scope_from_host(
+        host: str,
+    ) -> tuple[list[dict[str, Any]], int]:
+        first_rows, total = request_page(host, 1)
+        if not first_rows:
+            raise ValueError("empty result")
+        page_count = max(1, math.ceil(total / PAGE_SIZE))
+        all_rows = list(first_rows)
+        if page_count > 1:
+            with concurrent.futures.ThreadPoolExecutor(
+                max_workers=min(PAGE_FETCH_WORKERS, page_count - 1)
+            ) as pool:
+                futures = {
+                    page: pool.submit(request_page, host, page)
+                    for page in range(2, page_count + 1)
+                }
+                for page in range(2, page_count + 1):
+                    rows, _ = futures[page].result()
+                    all_rows.extend(rows)
+        return all_rows, total
+
     for host in HOSTS:
-        for attempt in range(3):
+        for attempt in range(2):
             try:
                 records: dict[str, dict[str, Any]] = {}
-                total = 0
-                page = 1
-                while page <= 100:
-                    response = requests.get(
-                        host + API_PATH,
-                        params={**params, "pn": page},
-                        headers=HEADERS,
-                        timeout=timeout,
-                    )
-                    response.raise_for_status()
-                    data = response.json().get("data") or {}
-                    rows = data.get("diff") or []
-                    total = int(data.get("total") or total or len(rows))
-                    if not rows:
-                        break
-                    before = len(records)
-                    for row in rows:
-                        flow = numeric(row.get("f62"), 1e8)
-                        if flow is None:
-                            continue
-                        code = str(row.get("f12") or "").strip()
-                        name = str(row.get("f14") or "").strip()
-                        if not code or not name:
-                            continue
-                        up_count = integer(row.get("f104"))
-                        down_count = integer(row.get("f105"))
-                        flat_count = integer(row.get("f106"))
-                        records[code] = {
-                            "code": code,
-                            "name": name,
-                            "flow_yi": flow,
-                            "change_pct": numeric(row.get("f3")),
-                            "amount_yi": numeric(row.get("f6"), 1e8),
-                            "market_cap_yi": numeric(row.get("f20"), 1e8),
-                            "main_ratio": numeric(row.get("f184")),
-                            "up_count": up_count,
-                            "down_count": down_count,
-                            "flat_count": flat_count,
-                            "breadth_pct": (
-                                round(
-                                    up_count
-                                    / max(up_count + down_count + flat_count, 1)
-                                    * 100,
-                                    2,
-                                )
-                            ),
-                        }
-                    if len(records) >= total:
-                        break
-                    if page > 1 and len(records) == before:
-                        raise ValueError(f"pagination stalled at page {page}")
-                    page += 1
+                rows, total = load_scope_from_host(host)
+                for row in rows:
+                    flow = numeric(row.get("f62"), 1e8)
+                    if flow is None:
+                        continue
+                    code = str(row.get("f12") or "").strip()
+                    name = str(row.get("f14") or "").strip()
+                    if not code or not name:
+                        continue
+                    up_count = integer(row.get("f104"))
+                    down_count = integer(row.get("f105"))
+                    flat_count = integer(row.get("f106"))
+                    records[code] = {
+                        "code": code,
+                        "name": name,
+                        "flow_yi": flow,
+                        "change_pct": numeric(row.get("f3")),
+                        "amount_yi": numeric(row.get("f6"), 1e8),
+                        "market_cap_yi": numeric(row.get("f20"), 1e8),
+                        "main_ratio": numeric(row.get("f184")),
+                        "up_count": up_count,
+                        "down_count": down_count,
+                        "flat_count": flat_count,
+                        "breadth_pct": (
+                            round(
+                                up_count
+                                / max(up_count + down_count + flat_count, 1)
+                                * 100,
+                                2,
+                            )
+                        ),
+                    }
                 if not records:
                     raise ValueError("empty result")
                 if total and len(records) < total * 0.9:
@@ -170,7 +193,7 @@ def fetch_scope(
                     f"{host} attempt {attempt + 1}: "
                     f"{type(exc).__name__}: {exc}"
                 )
-                if attempt < 2:
+                if attempt < 1:
                     time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"{scope}: " + "; ".join(errors))
 
@@ -459,8 +482,18 @@ def load_live_state(date: str) -> dict[str, Any]:
 
 def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
     point_time = captured_at.strftime("%H:%M:%S")
-    for scope in ("industry", "concept"):
-        rows, _, _ = fetch_scope(scope)
+    scopes = ("industry", "concept")
+    with concurrent.futures.ThreadPoolExecutor(
+        max_workers=len(scopes)
+    ) as pool:
+        results = dict(
+            zip(
+                scopes,
+                pool.map(lambda scope: fetch_scope(scope), scopes),
+            )
+        )
+    for scope in scopes:
+        rows, _, _ = results[scope]
         rows = filter_scope_rows(scope, rows)
         for row in rows:
             entry = state["boards"].setdefault(
