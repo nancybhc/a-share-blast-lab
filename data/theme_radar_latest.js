@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T14:19:49+08:00",
+  "generated_at": "2026-11-18T14:20:38+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -18,36 +18,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 2.91,
+      "change_pct": 2.89,
       "constituents": 74,
-      "members": "东数西算 +2.91%",
+      "members": "东数西算 +2.89%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.33,
+      "change_pct": 2.34,
       "constituents": 26,
-      "members": "F5G概念 +2.33%",
+      "members": "F5G概念 +2.34%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "AI算力",
       "representative": "算力概念",
-      "change_pct": 1.78,
+      "change_pct": 1.77,
       "constituents": 699,
-      "members": "算力概念 +1.78% / CPO概念 +1.54% / 数据中心 +0.69% / 液冷服务器 +0.30% / AI语料 -1.74%",
+      "members": "算力概念 +1.77% / CPO概念 +1.48% / 数据中心 +0.67% / 液冷服务器 +0.26% / AI语料 -1.75%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "智算中心（AIDC）",
       "representative": "智算中心（AIDC）",
-      "change_pct": 1.7,
+      "change_pct": 1.67,
       "constituents": 194,
-      "members": "智算中心（AIDC） +1.70%",
+      "members": "智算中心（AIDC） +1.67%",
       "rank": 5
     }
   ],
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.91,
+      "avg_change_pct": 2.89,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.33,
+      "avg_change_pct": 2.34,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.78,
+      "avg_change_pct": 1.77,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.7,
+      "avg_change_pct": 1.67,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
