@@ -1,20 +1,20 @@
 {
   "dataDate": "2026-11-18",
-  "generatedAt": "2026-11-18 14:30",
-  "reportGeneratedAt": "2026-11-18 14:30",
+  "generatedAt": "2026-11-18 14:31",
+  "reportGeneratedAt": "2026-11-18 14:31",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-18.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-18.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-11-18.pptx",
-  "summary": "  AI硬件 · 近 7 个交易日（11-10 ~ 11-18）：空明显变多（+257 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 141→25 只、空 8→265 只、空转多 178→2、多转空 2→37｜存储 最明显：多 2→0 只、空 2→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-10 ~ 11-18）：空明显变多（+257 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 141→23 只、空 8→265 只、空转多 178→2、多转空 2→39｜存储 最明显：多 2→0 只、空 2→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 921,
     "positiveGroups": 0,
     "negativeGroups": 20,
     "positiveTransitions": 9,
-    "negativeTransitions": 199
+    "negativeTransitions": 201
   },
   "phaseLegend": [
     {
@@ -415,8 +415,8 @@
       "total": 33,
       "bull": 3,
       "turnBull": 0,
-      "turnBear": 3,
-      "bear": 27,
+      "turnBear": 2,
+      "bear": 28,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
@@ -425,12 +425,12 @@
       "bullPct": 9.09,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 3→3；空转多 0→0；多转空 3→3；空 27→27",
+      "change": "多 3→3；空转多 0→0；多转空 3→2；空 27→28",
       "id": "power",
       "code": "POWER",
       "score": -6.1,
       "fulfilled": 0,
-      "netBias": -24,
+      "netBias": -25,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -438,7 +438,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/33，空头 27；空转多候选 0，今日转多确认 0，反向转空 3。多 3→3；空转多 0→0；多转空 3→3；空 27→27，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 3/33，空头 28；空转多候选 0，今日转多确认 0，反向转空 2。多 3→3；空转多 0→0；多转空 3→2；空 27→28，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-10",
@@ -493,8 +493,8 @@
           "total": 33,
           "bull": 3,
           "turnBull": 0,
-          "turnBear": 3,
-          "bear": 27,
+          "turnBear": 2,
+          "bear": 28,
           "bullPct": 9.09
         }
       ]
@@ -1763,24 +1763,24 @@
       "name": "半导体设备",
       "date": "2026-11-18",
       "total": 47,
-      "bull": 12,
+      "bull": 10,
       "turnBull": 1,
-      "turnBear": 8,
+      "turnBear": 10,
       "bear": 26,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 21,
-      "bullPct": 25.53,
+      "negative": 23,
+      "bullPct": 21.28,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 11→12；空转多 0→1；多转空 31→8；空 5→26",
+      "change": "多 11→10；空转多 0→1；多转空 31→10；空 5→26",
       "id": "equipment",
       "code": "SEMI CAP",
-      "score": -44.7,
+      "score": -48.9,
       "fulfilled": 0,
-      "netBias": -14,
+      "netBias": -16,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
@@ -1788,7 +1788,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 12/47，空头 26；空转多候选 1，今日转多确认 0，反向转空 8。多 11→12；空转多 0→1；多转空 31→8；空 5→26，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 10/47，空头 26；空转多候选 1，今日转多确认 0，反向转空 10。多 11→10；空转多 0→1；多转空 31→10；空 5→26，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-10",
@@ -1841,11 +1841,11 @@
         {
           "date": "2026-11-18",
           "total": 47,
-          "bull": 12,
+          "bull": 10,
           "turnBull": 1,
-          "turnBear": 8,
+          "turnBear": 10,
           "bear": 26,
-          "bullPct": 25.53
+          "bullPct": 21.28
         }
       ]
     },
