@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T10:51:43+08:00",
+  "generated_at": "2026-11-18T11:21:55+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
   "daily_top": [
     {
       "date": "2026-11-18",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 1.1,
-      "constituents": 26,
-      "members": "F5G概念 +1.10%",
+      "theme": "东数西算",
+      "representative": "东数西算",
+      "change_pct": 1.74,
+      "constituents": 74,
+      "members": "东数西算 +1.74%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.79,
-      "constituents": 21,
-      "members": "净水概念 +0.79%",
+      "theme": "算力租赁",
+      "representative": "算力租赁",
+      "change_pct": 1.66,
+      "constituents": 122,
+      "members": "算力租赁 +1.66%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
-      "theme": "东数西算",
-      "representative": "东数西算",
-      "change_pct": 0.77,
-      "constituents": 74,
-      "members": "东数西算 +0.77%",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 1.5,
+      "constituents": 26,
+      "members": "F5G概念 +1.50%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 0.65,
+      "change_pct": 1.08,
       "constituents": 20,
-      "members": "国资云概念 +0.65%",
+      "members": "国资云概念 +1.08%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "低碳冶金",
-      "representative": "低碳冶金",
-      "change_pct": 0.29,
-      "constituents": 7,
-      "members": "低碳冶金 +0.29%",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.94,
+      "constituents": 21,
+      "members": "净水概念 +0.94%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.61,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.69,
+      "avg_rank": 4.5,
+      "latest_rank": 5,
       "dates": "11-18、11-16"
     },
     {
@@ -93,21 +93,31 @@ window.THEME_RADAR_DATA = {
       "dates": "11-13、11-12"
     },
     {
-      "theme": "F5G概念",
+      "theme": "东数西算",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.1,
+      "avg_change_pct": 1.74,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
     },
     {
-      "theme": "东数西算",
+      "theme": "算力租赁",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.77,
+      "avg_change_pct": 1.66,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-18"
+    },
+    {
+      "theme": "F5G概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.5,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,19 +127,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.65,
+      "avg_change_pct": 1.08,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-18"
-    },
-    {
-      "theme": "低碳冶金",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.29,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-18"
     },
     {
