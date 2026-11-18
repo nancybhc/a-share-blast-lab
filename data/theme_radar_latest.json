@@ -1,66 +1,66 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T15:10:24+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-17收盘",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T09:28:13+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-18午盘",
   "daily_top": [
     {
-      "date": "2026-11-17",
-      "theme": "光刻胶",
-      "representative": "光刻胶",
-      "change_pct": 3.12,
-      "constituents": 63,
-      "members": "光刻胶 +3.12%",
+      "date": "2026-11-18",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 1.56,
+      "constituents": 50,
+      "members": "6G概念 +1.56%",
       "rank": 1
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 3.08,
-      "constituents": 43,
-      "members": "光刻机 +3.08%",
+      "change_pct": 1.46,
+      "constituents": 42,
+      "members": "光刻机 +1.46%",
       "rank": 2
     },
     {
-      "date": "2026-11-17",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": 3.01,
-      "constituents": 4,
-      "members": "第四代半导体 +3.01%",
+      "date": "2026-11-18",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 1.43,
+      "constituents": 699,
+      "members": "CPO概念 +1.43% / 液冷服务器 +0.78% / 算力概念 +0.72% / 数据中心 +0.59% / AI语料 -0.18%",
       "rank": 3
     },
     {
-      "date": "2026-11-17",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 1.9,
-      "constituents": 66,
-      "members": "中芯概念 +1.90%",
+      "date": "2026-11-18",
+      "theme": "通信技术/5G概念/光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 1.33,
+      "constituents": 439,
+      "members": "光通信模块 +1.33% / 5G概念 +1.13% / 通信技术 +1.11%",
       "rank": 4
     },
     {
-      "date": "2026-11-17",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 1.34,
-      "constituents": 30,
-      "members": "大基金持股 +1.34%",
+      "date": "2026-11-18",
+      "theme": "纳米银",
+      "representative": "纳米银",
+      "change_pct": 1.31,
+      "constituents": 10,
+      "members": "纳米银 +1.31%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "白酒/酿酒概念",
-      "current_streak": 0,
-      "max_streak": 3,
-      "appearances": 3,
-      "avg_change_pct": 0.25,
-      "avg_rank": 4.3,
-      "latest_rank": 5,
-      "dates": "11-16、11-13、11-12"
+      "theme": "光刻机",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 2.27,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-18、11-17"
     },
     {
       "theme": "大盘价值",
@@ -68,8 +68,8 @@
       "max_streak": 2,
       "appearances": 2,
       "avg_change_pct": 0.5,
-      "avg_rank": 2.5,
-      "latest_rank": 1,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
       "dates": "11-16、11-13"
     },
     {
@@ -78,69 +78,69 @@
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 0.52,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-16、11-12"
     },
     {
-      "theme": "光刻胶",
+      "theme": "白酒/酿酒概念",
+      "current_streak": 0,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.21,
+      "avg_rank": 4.0,
+      "latest_rank": 5,
+      "dates": "11-13、11-12"
+    },
+    {
+      "theme": "6G概念",
       "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.56,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-18"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.43,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-18"
+    },
+    {
+      "theme": "通信技术/5G概念/光通信模块",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.33,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-18"
+    },
+    {
+      "theme": "纳米银",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.31,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-18"
+    },
+    {
+      "theme": "光刻胶",
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 3.12,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-17"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.08,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-17"
-    },
-    {
-      "theme": "第四代半导体",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.01,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-17"
-    },
-    {
-      "theme": "中芯概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.9,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-17"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.34,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-17"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.83,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-11"
     },
     {
       "theme": "水产概念",
@@ -163,14 +163,14 @@
       "dates": "11-13"
     },
     {
-      "theme": "通信技术/5G概念/光通信模块",
+      "theme": "免税概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.33,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-11"
+      "avg_change_pct": 1.24,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-16"
     },
     {
       "theme": "影视概念",
@@ -193,14 +193,14 @@
       "dates": "11-12"
     },
     {
-      "theme": "光纤概念",
+      "theme": "第四代半导体",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.71,
+      "avg_change_pct": 3.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-11"
+      "dates": "11-17"
     },
     {
       "theme": "鸡肉概念",
@@ -213,44 +213,44 @@
       "dates": "11-13"
     },
     {
+      "theme": "中芯概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.9,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-17"
+    },
+    {
       "theme": "净水概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 0.44,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-16"
     },
     {
-      "theme": "F5G概念",
+      "theme": "大基金持股",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.18,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-11"
+      "avg_change_pct": 1.34,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-17"
     },
     {
-      "theme": "低市净率",
+      "theme": "低市盈率/低市净率",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 0.36,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-16"
-    },
-    {
-      "theme": "铜缆高速连接",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.9,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-11"
+      "dates": "11-16"
     },
     {
       "theme": "乳业",
