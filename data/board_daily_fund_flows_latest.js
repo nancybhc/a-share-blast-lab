@@ -1,14 +1,22 @@
 window.BOARD_FUND_DATA = {
   "source": "东方财富板块资金流 daykline",
   "definition": "f52 主力净流入，原始单位元",
-  "captured_at": "2026-11-17T15:07:54+08:00",
-  "date": "2026-11-17",
+  "captured_at": "2026-11-18T15:08:14+08:00",
+  "date": "2026-11-18",
   "boards": {
     "BK0917": {
       "board_code": "BK0917",
       "board_name": "半导体概念",
       "source_host": "https://push2his.eastmoney.com",
       "current": {
+        "date": "2026-11-18",
+        "main_net_yi": 71.2274,
+        "small_net_yi": -44.2966,
+        "medium_net_yi": -28.2995,
+        "large_net_yi": 35.1904,
+        "super_large_net_yi": 36.037
+      },
+      "previous": {
         "date": "2026-11-17",
         "main_net_yi": 15.2607,
         "small_net_yi": 7.8178,
@@ -16,24 +24,8 @@ window.BOARD_FUND_DATA = {
         "large_net_yi": -7.3459,
         "super_large_net_yi": 22.6065
       },
-      "previous": {
-        "date": "2026-11-16",
-        "main_net_yi": -209.1269,
-        "small_net_yi": 158.2839,
-        "medium_net_yi": 48.4791,
-        "large_net_yi": -85.1646,
-        "super_large_net_yi": -123.9623
-      },
-      "main_net_change_yi": 224.3876,
+      "main_net_change_yi": 55.9667,
       "recent": [
-        {
-          "date": "2026-11-10",
-          "main_net_yi": 55.2006,
-          "small_net_yi": -33.1502,
-          "medium_net_yi": -21.3197,
-          "large_net_yi": 42.2809,
-          "super_large_net_yi": 12.9196
-        },
         {
           "date": "2026-11-11",
           "main_net_yi": 111.9812,
@@ -73,6 +65,14 @@ window.BOARD_FUND_DATA = {
           "medium_net_yi": -22.7116,
           "large_net_yi": -7.3459,
           "super_large_net_yi": 22.6065
+        },
+        {
+          "date": "2026-11-18",
+          "main_net_yi": 71.2274,
+          "small_net_yi": -44.2966,
+          "medium_net_yi": -28.2995,
+          "large_net_yi": 35.1904,
+          "super_large_net_yi": 36.037
         }
       ]
     },
@@ -81,6 +81,14 @@ window.BOARD_FUND_DATA = {
       "board_name": "芯片概念",
       "source_host": "https://push2his.eastmoney.com",
       "current": {
+        "date": "2026-11-18",
+        "main_net_yi": 63.6128,
+        "small_net_yi": -31.539,
+        "medium_net_yi": -32.327,
+        "large_net_yi": 12.0415,
+        "super_large_net_yi": 51.5713
+      },
+      "previous": {
         "date": "2026-11-17",
         "main_net_yi": 1.0238,
         "small_net_yi": 28.4385,
@@ -88,24 +96,8 @@ window.BOARD_FUND_DATA = {
         "large_net_yi": -13.3711,
         "super_large_net_yi": 14.395
       },
-      "previous": {
-        "date": "2026-11-16",
-        "main_net_yi": -188.4598,
-        "small_net_yi": 154.0602,
-        "medium_net_yi": 33.7354,
-        "large_net_yi": -72.854,
-        "super_large_net_yi": -115.6058
-      },
-      "main_net_change_yi": 189.4836,
+      "main_net_change_yi": 62.589,
       "recent": [
-        {
-          "date": "2026-11-10",
-          "main_net_yi": 62.6008,
-          "small_net_yi": -38.0978,
-          "medium_net_yi": -24.4274,
-          "large_net_yi": 33.6364,
-          "super_large_net_yi": 28.9644
-        },
         {
           "date": "2026-11-11",
           "main_net_yi": 118.8359,
@@ -145,6 +137,14 @@ window.BOARD_FUND_DATA = {
           "medium_net_yi": -29.0887,
           "large_net_yi": -13.3711,
           "super_large_net_yi": 14.395
+        },
+        {
+          "date": "2026-11-18",
+          "main_net_yi": 63.6128,
+          "small_net_yi": -31.539,
+          "medium_net_yi": -32.327,
+          "large_net_yi": 12.0415,
+          "super_large_net_yi": 51.5713
         }
       ]
     },
@@ -153,6 +153,14 @@ window.BOARD_FUND_DATA = {
       "board_name": "半导体",
       "source_host": "https://push2his.eastmoney.com",
       "current": {
+        "date": "2026-11-18",
+        "main_net_yi": 45.5255,
+        "small_net_yi": -21.9251,
+        "medium_net_yi": -23.6791,
+        "large_net_yi": 29.3832,
+        "super_large_net_yi": 16.1423
+      },
+      "previous": {
         "date": "2026-11-17",
         "main_net_yi": 29.6326,
         "small_net_yi": -1.3299,
@@ -160,24 +168,8 @@ window.BOARD_FUND_DATA = {
         "large_net_yi": -0.3749,
         "super_large_net_yi": 30.0075
       },
-      "previous": {
-        "date": "2026-11-16",
-        "main_net_yi": -126.6722,
-        "small_net_yi": 87.0729,
-        "medium_net_yi": 39.1999,
-        "large_net_yi": -47.3771,
-        "super_large_net_yi": -79.2951
-      },
-      "main_net_change_yi": 156.3048,
+      "main_net_change_yi": 15.8929,
       "recent": [
-        {
-          "date": "2026-11-10",
-          "main_net_yi": 40.6241,
-          "small_net_yi": -20.0343,
-          "medium_net_yi": -20.4027,
-          "large_net_yi": 25.0027,
-          "super_large_net_yi": 15.6215
-        },
         {
           "date": "2026-11-11",
           "main_net_yi": 76.7511,
@@ -217,6 +209,14 @@ window.BOARD_FUND_DATA = {
           "medium_net_yi": -28.2332,
           "large_net_yi": -0.3749,
           "super_large_net_yi": 30.0075
+        },
+        {
+          "date": "2026-11-18",
+          "main_net_yi": 45.5255,
+          "small_net_yi": -21.9251,
+          "medium_net_yi": -23.6791,
+          "large_net_yi": 29.3832,
+          "super_large_net_yi": 16.1423
         }
       ]
     }
