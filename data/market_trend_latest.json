@@ -1,7 +1,7 @@
 {
   "dataDate": "2026-11-18",
-  "generatedAt": "2026-11-18 14:26",
-  "reportGeneratedAt": "2026-11-18 14:26",
+  "generatedAt": "2026-11-18 14:27",
+  "reportGeneratedAt": "2026-11-18 14:27",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-18.xlsx",
@@ -415,8 +415,8 @@
       "total": 33,
       "bull": 3,
       "turnBull": 0,
-      "turnBear": 2,
-      "bear": 28,
+      "turnBear": 3,
+      "bear": 27,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
@@ -425,12 +425,12 @@
       "bullPct": 9.09,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 3→3；空转多 0→0；多转空 3→2；空 27→28",
+      "change": "多 3→3；空转多 0→0；多转空 3→3；空 27→27",
       "id": "power",
       "code": "POWER",
       "score": -6.1,
       "fulfilled": 0,
-      "netBias": -25,
+      "netBias": -24,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -438,7 +438,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/33，空头 28；空转多候选 0，今日转多确认 0，反向转空 2。多 3→3；空转多 0→0；多转空 3→2；空 27→28，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 3/33，空头 27；空转多候选 0，今日转多确认 0，反向转空 3。多 3→3；空转多 0→0；多转空 3→3；空 27→27，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-10",
@@ -493,8 +493,8 @@
           "total": 33,
           "bull": 3,
           "turnBull": 0,
-          "turnBear": 2,
-          "bear": 28,
+          "turnBear": 3,
+          "bear": 27,
           "bullPct": 9.09
         }
       ]
