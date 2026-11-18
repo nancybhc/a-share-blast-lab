@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T09:38:19+08:00",
+  "generated_at": "2026-11-18T09:40:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.84,
+      "change_pct": 1.78,
       "constituents": 21,
-      "members": "净水概念 +1.84%",
+      "members": "净水概念 +1.78%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "汽车整车",
       "representative": "汽车整车",
-      "change_pct": 1.39,
+      "change_pct": 1.47,
       "constituents": 26,
-      "members": "汽车整车 +1.39%",
+      "members": "汽车整车 +1.47%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 1.14,
-      "constituents": 473,
-      "members": "减速器 +1.14% / 机器人执行器 +0.67% / 人形机器人 +0.42% / 机器视觉 +0.18%",
-      "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.06,
+      "change_pct": 1.21,
       "constituents": 26,
-      "members": "F5G概念 +1.06%",
+      "members": "F5G概念 +1.21%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "机器人",
+      "representative": "减速器",
+      "change_pct": 1.13,
+      "constituents": 473,
+      "members": "减速器 +1.13% / 机器人执行器 +0.56% / 人形机器人 +0.35% / 机器视觉 -0.04%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
       "theme": "空气能热泵",
       "representative": "空气能热泵",
-      "change_pct": 1.05,
+      "change_pct": 1.0,
       "constituents": 37,
-      "members": "空气能热泵 +1.05%",
+      "members": "空气能热泵 +1.00%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.14,
+      "avg_change_pct": 1.11,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-18、11-16"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.39,
+      "avg_change_pct": 1.47,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-18"
-    },
-    {
-      "theme": "机器人",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.14,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-18"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.06,
+      "avg_change_pct": 1.21,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-18"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.13,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.05,
+      "avg_change_pct": 1.0,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
