@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:33:34+08:00",
+  "generated_at": "2026-11-18T13:35:46+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 4.35,
+      "change_pct": 3.98,
       "constituents": 122,
-      "members": "算力租赁 +4.35%",
+      "members": "算力租赁 +3.98%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 3.91,
+      "change_pct": 3.49,
       "constituents": 74,
-      "members": "东数西算 +3.91%",
+      "members": "东数西算 +3.49%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 3.62,
+      "change_pct": 3.24,
       "constituents": 26,
-      "members": "F5G概念 +3.62%",
+      "members": "F5G概念 +3.24%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 3.05,
+      "representative": "算力概念",
+      "change_pct": 2.47,
       "constituents": 699,
-      "members": "CPO概念 +3.05% / 算力概念 +2.86% / 数据中心 +1.82% / 液冷服务器 +1.48% / AI语料 -0.63%",
+      "members": "算力概念 +2.47% / CPO概念 +2.43% / 数据中心 +1.43% / 液冷服务器 +0.97% / AI语料 -0.85%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 2.79,
-      "constituents": 10,
-      "members": "纳米银 +2.79%",
+      "theme": "国资云概念",
+      "representative": "国资云概念",
+      "change_pct": 2.38,
+      "constituents": 20,
+      "members": "国资云概念 +2.38%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.35,
+      "avg_change_pct": 3.98,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.91,
+      "avg_change_pct": 3.49,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.62,
+      "avg_change_pct": 3.24,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,17 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.05,
+      "avg_change_pct": 2.47,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
     },
     {
-      "theme": "纳米银",
+      "theme": "国资云概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.79,
+      "avg_change_pct": 2.38,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
