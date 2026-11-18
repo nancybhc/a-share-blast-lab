@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-18",
-  "generatedAt": "2026-11-18 14:14",
-  "reportGeneratedAt": "2026-11-18 14:14",
+  "generatedAt": "2026-11-18 14:15",
+  "reportGeneratedAt": "2026-11-18 14:15",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-18.xlsx",
