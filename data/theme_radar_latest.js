@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T10:27:27+08:00",
+  "generated_at": "2026-11-18T10:30:02+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.64,
+      "change_pct": 1.59,
       "constituents": 26,
-      "members": "F5G概念 +1.64%",
+      "members": "F5G概念 +1.59%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "国资云概念",
-      "representative": "国资云概念",
-      "change_pct": 1.45,
-      "constituents": 20,
-      "members": "国资云概念 +1.45%",
-      "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 1.41,
+      "change_pct": 1.49,
       "constituents": 74,
-      "members": "东数西算 +1.41%",
+      "members": "东数西算 +1.49%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "国资云概念",
+      "representative": "国资云概念",
+      "change_pct": 1.47,
+      "constituents": 20,
+      "members": "国资云概念 +1.47%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "净水概念",
       "representative": "净水概念",
-      "change_pct": 1.27,
+      "change_pct": 1.2,
       "constituents": 21,
-      "members": "净水概念 +1.27%",
+      "members": "净水概念 +1.20%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "数据要素/安全",
-      "representative": "时空大数据",
-      "change_pct": 0.87,
-      "constituents": 346,
-      "members": "时空大数据 +0.87% / 网络安全 +0.23% / 数字水印 +0.06% / 数据要素 -0.56% / 数据安全 -0.58% / 数据确权 -1.04%",
+      "theme": "算力租赁",
+      "representative": "算力租赁",
+      "change_pct": 0.96,
+      "constituents": 122,
+      "members": "算力租赁 +0.96%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.85,
+      "avg_change_pct": 0.82,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18、11-16"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.64,
+      "avg_change_pct": 1.59,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-18"
-    },
-    {
-      "theme": "国资云概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.45,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-18"
     },
     {
@@ -117,17 +107,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.41,
+      "avg_change_pct": 1.49,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-18"
+    },
+    {
+      "theme": "国资云概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.47,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
     },
     {
-      "theme": "数据要素/安全",
+      "theme": "算力租赁",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.87,
+      "avg_change_pct": 0.96,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
