@@ -1,20 +1,20 @@
 {
   "dataDate": "2026-11-18",
-  "generatedAt": "2026-11-18 10:43",
-  "reportGeneratedAt": "2026-11-18 10:43",
+  "generatedAt": "2026-11-18 10:46",
+  "reportGeneratedAt": "2026-11-18 10:46",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-18.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-18.xlsx",
   "sourceBrief": "assets/多空阶段简报_2026-11-18.pptx",
-  "summary": "  AI硬件 · 近 7 个交易日（11-10 ~ 11-18）：空明显变多（+268 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 141→16 只、空 7→275 只、空转多 179→2、多转空 2→36｜存储 最明显：多 2→0 只、空 2→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-10 ~ 11-18）：空明显变多（+267 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 141→16 只、空 7→274 只、空转多 179→2、多转空 2→37｜存储 最明显：多 2→0 只、空 2→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 921,
     "positiveGroups": 0,
     "negativeGroups": 20,
     "positiveTransitions": 9,
-    "negativeTransitions": 222
+    "negativeTransitions": 221
   },
   "phaseLegend": [
     {
@@ -1765,22 +1765,22 @@
       "total": 47,
       "bull": 6,
       "turnBull": 1,
-      "turnBear": 12,
-      "bear": 28,
+      "turnBear": 13,
+      "bear": 27,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 28,
+      "negative": 27,
       "bullPct": 12.77,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 11→6；空转多 0→1；多转空 31→12；空 5→28",
+      "change": "多 11→6；空转多 0→1；多转空 31→13；空 5→27",
       "id": "equipment",
       "code": "SEMI CAP",
       "score": -50.0,
       "fulfilled": 0,
-      "netBias": -22,
+      "netBias": -21,
       "phase": "转空加速",
       "badge": "风险升高",
       "tone": "red",
@@ -1788,7 +1788,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 6/47，空头 28；空转多候选 1，今日转多确认 0，反向转空 12。多 11→6；空转多 0→1；多转空 31→12；空 5→28，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 6/47，空头 27；空转多候选 1，今日转多确认 0，反向转空 13。多 11→6；空转多 0→1；多转空 31→13；空 5→27，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-10",
@@ -1843,8 +1843,8 @@
           "total": 47,
           "bull": 6,
           "turnBull": 1,
-          "turnBear": 12,
-          "bear": 28,
+          "turnBear": 13,
+          "bear": 27,
           "bullPct": 12.77
         }
       ]
