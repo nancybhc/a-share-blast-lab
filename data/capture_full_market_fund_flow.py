@@ -684,6 +684,7 @@ def watch(
     waiting_reported = False
 
     while True:
+        cycle_started = time.monotonic()
         now = now_cn()
         if not ignore_session and not is_trading_window(now):
             if wait_for_open:
@@ -704,7 +705,13 @@ def watch(
                 f"{type(exc).__name__}: {exc}",
                 flush=True,
             )
-            time.sleep(max(interval, 10))
+            time.sleep(
+                max(
+                    1,
+                    max(interval, 10)
+                    - (time.monotonic() - cycle_started),
+                )
+            )
             continue
 
         should_snapshot_stocks = (
@@ -746,7 +753,13 @@ def watch(
         if not ignore_session and now.time() >= clock_time(15, 5):
             print("[DONE] 已过收盘时间。", flush=True)
             break
-        time.sleep(max(interval, 10))
+        time.sleep(
+            max(
+                1,
+                max(interval, 10)
+                - (time.monotonic() - cycle_started),
+            )
+        )
 
 
 def ensure_placeholder() -> None:
