@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:19:29+08:00",
+  "generated_at": "2026-11-18T13:20:30+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-18午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-18",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 3.25,
+      "change_pct": 3.58,
       "constituents": 122,
-      "members": "算力租赁 +3.25%",
+      "members": "算力租赁 +3.58%",
       "rank": 1
     },
     {
       "date": "2026-11-18",
       "theme": "东数西算",
       "representative": "东数西算",
-      "change_pct": 2.93,
+      "change_pct": 3.2,
       "constituents": 74,
-      "members": "东数西算 +2.93%",
+      "members": "东数西算 +3.20%",
       "rank": 2
     },
     {
       "date": "2026-11-18",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.72,
+      "change_pct": 3.08,
       "constituents": 26,
-      "members": "F5G概念 +2.72%",
+      "members": "F5G概念 +3.08%",
       "rank": 3
     },
     {
       "date": "2026-11-18",
       "theme": "国资云概念",
       "representative": "国资云概念",
-      "change_pct": 2.16,
+      "change_pct": 2.36,
       "constituents": 20,
-      "members": "国资云概念 +2.16%",
+      "members": "国资云概念 +2.36%",
       "rank": 4
     },
     {
       "date": "2026-11-18",
-      "theme": "云计算/边缘计算",
-      "representative": "云计算",
-      "change_pct": 2.06,
-      "constituents": 241,
-      "members": "云计算 +2.06% / 边缘计算 +1.49%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 2.33,
+      "constituents": 699,
+      "members": "CPO概念 +2.33% / 算力概念 +2.19% / 数据中心 +1.32% / 液冷服务器 +0.83% / AI语料 -0.60%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.25,
+      "avg_change_pct": 3.58,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.93,
+      "avg_change_pct": 3.2,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.72,
+      "avg_change_pct": 3.08,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
@@ -117,17 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 2.36,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
     },
     {
-      "theme": "云计算/边缘计算",
+      "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.06,
+      "avg_change_pct": 2.33,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
