@@ -1,75 +1,75 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:32:28+08:00",
+  "generated_at": "2026-11-19T09:34:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
   "daily_top": [
     {
       "date": "2026-11-19",
-      "theme": "环氧丙烷",
-      "representative": "环氧丙烷",
-      "change_pct": 0.11,
-      "constituents": 23,
-      "members": "环氧丙烷 +0.11%",
+      "theme": "光刻胶",
+      "representative": "光刻胶",
+      "change_pct": 0.57,
+      "constituents": 64,
+      "members": "光刻胶 +0.57%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.1,
-      "constituents": 43,
-      "members": "光刻机 +0.10%",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": 0.48,
+      "constituents": 23,
+      "members": "环氧丙烷 +0.48%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "光刻胶",
-      "representative": "光刻胶",
-      "change_pct": 0.06,
-      "constituents": 64,
-      "members": "光刻胶 +0.06%",
-      "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -0.11,
+      "change_pct": -0.17,
       "constituents": 53,
-      "members": "券商概念 -0.11%",
+      "members": "券商概念 -0.17%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "调味品概念",
+      "representative": "调味品概念",
+      "change_pct": -0.22,
+      "constituents": 33,
+      "members": "调味品概念 -0.22%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
-      "theme": "独家药品/特色药",
-      "representative": "特色药",
-      "change_pct": -0.27,
-      "constituents": 57,
-      "members": "特色药 -0.27% / 独家药品 -0.38%",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": -0.24,
+      "constituents": 43,
+      "members": "光刻机 -0.24%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.59,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
-      "dates": "11-19、11-17"
-    },
-    {
       "theme": "光刻胶",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.32,
+      "avg_change_pct": 1.58,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.42,
       "avg_rank": 3.0,
-      "latest_rank": 3,
+      "latest_rank": 5,
       "dates": "11-19、11-17"
     },
     {
@@ -97,9 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.11,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 0.48,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-19"
     },
     {
@@ -107,19 +107,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.11,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -0.17,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-19"
     },
     {
-      "theme": "独家药品/特色药",
+      "theme": "调味品概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.27,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": -0.22,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
