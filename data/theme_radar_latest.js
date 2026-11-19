@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:11:52+08:00",
+  "generated_at": "2026-11-19T10:12:51+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,67 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.59,
+      "change_pct": 0.82,
       "constituents": 64,
-      "members": "光刻胶 +0.59%",
+      "members": "光刻胶 +0.82%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
-      "theme": "调味品概念",
-      "representative": "调味品概念",
-      "change_pct": 0.22,
-      "constituents": 33,
-      "members": "调味品概念 +0.22%",
+      "theme": "第四代半导体",
+      "representative": "第四代半导体",
+      "change_pct": 0.51,
+      "constituents": 4,
+      "members": "第四代半导体 +0.51%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 0.19,
+      "change_pct": 0.34,
       "constituents": 23,
-      "members": "环氧丙烷 +0.19%",
+      "members": "环氧丙烷 +0.34%",
       "rank": 3
     },
     {
       "date": "2026-11-19",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": -0.0,
-      "constituents": 4,
-      "members": "第四代半导体 -0.00%",
+      "theme": "调味品概念",
+      "representative": "调味品概念",
+      "change_pct": 0.29,
+      "constituents": 33,
+      "members": "调味品概念 +0.29%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "染料",
       "representative": "染料",
-      "change_pct": -0.27,
+      "change_pct": -0.17,
       "constituents": 34,
-      "members": "染料 -0.27%",
+      "members": "染料 -0.17%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "光刻胶",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.59,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
-      "dates": "11-19、11-17"
-    },
-    {
       "theme": "第四代半导体",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.5,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.76,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "光刻胶",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.7,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
       "dates": "11-19、11-17"
     },
     {
@@ -93,23 +93,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-16、11-13"
     },
     {
-      "theme": "调味品概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.22,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-19"
-    },
-    {
       "theme": "环氧丙烷",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.19,
+      "avg_change_pct": 0.34,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-19"
+    },
+    {
+      "theme": "调味品概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.29,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.27,
+      "avg_change_pct": -0.17,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
