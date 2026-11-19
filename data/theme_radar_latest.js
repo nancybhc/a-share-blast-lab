@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T13:42:17+08:00",
+  "generated_at": "2026-11-19T13:43:16+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,27 +9,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 1.32,
+      "change_pct": 1.2,
       "constituents": 4,
-      "members": "第四代半导体 +1.32%",
+      "members": "第四代半导体 +1.20%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.66,
+      "change_pct": 0.64,
       "constituents": 64,
-      "members": "光刻胶 +0.66%",
+      "members": "光刻胶 +0.64%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 0.5,
+      "change_pct": 0.47,
       "constituents": 114,
-      "members": "先进封装 +0.50%",
+      "members": "先进封装 +0.47%",
       "rank": 3
     },
     {
@@ -45,9 +45,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 0.25,
+      "change_pct": 0.23,
       "constituents": 66,
-      "members": "中芯概念 +0.25%",
+      "members": "中芯概念 +0.23%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.17,
+      "avg_change_pct": 2.1,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.62,
+      "avg_change_pct": 1.61,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.08,
+      "avg_change_pct": 1.07,
       "avg_rank": 4.5,
       "latest_rank": 5,
       "dates": "11-19、11-17"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.5,
+      "avg_change_pct": 0.47,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
