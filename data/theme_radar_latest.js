@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:01:42+08:00",
+  "generated_at": "2026-11-19T10:03:18+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.14,
+      "change_pct": 1.08,
       "constituents": 64,
-      "members": "光刻胶 +1.14%",
+      "members": "光刻胶 +1.08%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "环氧丙烷",
-      "representative": "环氧丙烷",
-      "change_pct": 0.78,
-      "constituents": 23,
-      "members": "环氧丙烷 +0.78%",
-      "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": 0.55,
+      "change_pct": 0.57,
       "constituents": 33,
-      "members": "调味品概念 +0.55%",
+      "members": "调味品概念 +0.57%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": 0.53,
+      "constituents": 23,
+      "members": "环氧丙烷 +0.53%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.29,
+      "constituents": 21,
+      "members": "净水概念 +0.29%",
+      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.26,
+      "change_pct": 0.18,
       "constituents": 4,
-      "members": "第四代半导体 +0.26%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "染料",
-      "representative": "染料",
-      "change_pct": 0.22,
-      "constituents": 34,
-      "members": "染料 +0.22%",
+      "members": "第四代半导体 +0.18%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.86,
+      "avg_change_pct": 1.83,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,10 +67,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.63,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.59,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
       "dates": "11-19、11-17"
+    },
+    {
+      "theme": "净水概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.36,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-19、11-16"
     },
     {
       "theme": "大盘价值",
@@ -93,33 +103,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-16、11-13"
     },
     {
-      "theme": "环氧丙烷",
+      "theme": "调味品概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.78,
+      "avg_change_pct": 0.57,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
     },
     {
-      "theme": "调味品概念",
+      "theme": "环氧丙烷",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.55,
+      "avg_change_pct": 0.53,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-19"
-    },
-    {
-      "theme": "染料",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.22,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-19"
     },
     {
@@ -231,16 +231,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-18"
-    },
-    {
-      "theme": "净水概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.44,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-16"
     },
     {
       "theme": "智算中心（AIDC）",
