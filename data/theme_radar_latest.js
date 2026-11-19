@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T14:53:11+08:00",
+  "generated_at": "2026-11-19T14:54:10+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -18,9 +18,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.85,
+      "change_pct": 0.86,
       "constituents": 30,
-      "members": "大基金持股 +0.85%",
+      "members": "大基金持股 +0.86%",
       "rank": 2
     },
     {
@@ -36,18 +36,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 0.37,
+      "change_pct": 0.38,
       "constituents": 66,
-      "members": "中芯概念 +0.37%",
+      "members": "中芯概念 +0.38%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 0.32,
+      "change_pct": 0.31,
       "constituents": 114,
-      "members": "先进封装 +0.32%",
+      "members": "先进封装 +0.31%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.09,
+      "avg_change_pct": 1.1,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.32,
+      "avg_change_pct": 0.31,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
