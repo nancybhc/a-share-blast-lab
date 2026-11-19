@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:38:29+08:00",
+  "generated_at": "2026-11-19T09:39:31+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,67 +9,67 @@
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.4,
+      "change_pct": 1.81,
       "constituents": 64,
-      "members": "光刻胶 +1.40%",
+      "members": "光刻胶 +1.81%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
-      "theme": "环氧丙烷",
-      "representative": "环氧丙烷",
-      "change_pct": 0.46,
-      "constituents": 23,
-      "members": "环氧丙烷 +0.46%",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 0.72,
+      "constituents": 43,
+      "members": "光刻机 +0.72%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": 0.34,
+      "change_pct": 0.66,
       "constituents": 66,
-      "members": "中芯概念 +0.34%",
+      "members": "中芯概念 +0.66%",
       "rank": 3
     },
     {
       "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.33,
-      "constituents": 43,
-      "members": "光刻机 +0.33%",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": 0.62,
+      "constituents": 23,
+      "members": "环氧丙烷 +0.62%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 0.19,
+      "change_pct": 0.45,
       "constituents": 28,
-      "members": "高带宽内存 +0.19%",
+      "members": "高带宽内存 +0.45%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "光刻胶",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.99,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
-      "dates": "11-19、11-17"
-    },
-    {
       "theme": "光刻机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.71,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.9,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "光刻胶",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.2,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
       "dates": "11-19、11-17"
     },
     {
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.13,
+      "avg_change_pct": 1.29,
       "avg_rank": 3.5,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -107,9 +107,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.46,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.62,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.19,
+      "avg_change_pct": 0.45,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
