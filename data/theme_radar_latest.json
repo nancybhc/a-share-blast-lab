@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T14:27:39+08:00",
+  "generated_at": "2026-11-19T14:28:50+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,27 +9,27 @@
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 1.32,
+      "change_pct": 1.33,
       "constituents": 4,
-      "members": "第四代半导体 +1.32%",
+      "members": "第四代半导体 +1.33%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.28,
+      "change_pct": 0.29,
       "constituents": 64,
-      "members": "光刻胶 +0.28%",
+      "members": "光刻胶 +0.29%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.22,
+      "change_pct": 0.23,
       "constituents": 30,
-      "members": "大基金持股 +0.22%",
+      "members": "大基金持股 +0.23%",
       "rank": 3
     },
     {
@@ -45,9 +45,9 @@
       "date": "2026-11-19",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 0.06,
+      "change_pct": 0.07,
       "constituents": 28,
-      "members": "高带宽内存 +0.06%",
+      "members": "高带宽内存 +0.07%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.78,
+      "avg_change_pct": 0.79,
       "avg_rank": 4.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.06,
+      "avg_change_pct": 0.07,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
