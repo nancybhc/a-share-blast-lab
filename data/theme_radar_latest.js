@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T13:27:52+08:00",
+  "generated_at": "2026-11-19T13:28:53+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,27 +9,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 1.81,
+      "change_pct": 1.69,
       "constituents": 4,
-      "members": "第四代半导体 +1.81%",
+      "members": "第四代半导体 +1.69%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 1.35,
+      "change_pct": 1.42,
       "constituents": 114,
-      "members": "先进封装 +1.35%",
+      "members": "先进封装 +1.42%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.29,
+      "change_pct": 1.28,
       "constituents": 64,
-      "members": "光刻胶 +1.29%",
+      "members": "光刻胶 +1.28%",
       "rank": 3
     },
     {
@@ -45,9 +45,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 1.06,
+      "change_pct": 1.11,
       "constituents": 43,
-      "members": "光刻机 +1.06%",
+      "members": "光刻机 +1.11%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.41,
+      "avg_change_pct": 2.35,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.07,
+      "avg_change_pct": 2.1,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-19、11-17"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.35,
+      "avg_change_pct": 1.42,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
