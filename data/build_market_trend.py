@@ -513,13 +513,18 @@ def main() -> None:
     cycle_path = latest_file(args.source_dir, "多空阶段_{date}.xlsx", args.date)
     report_date = args.date or re.search(r"(\d{4}-\d{2}-\d{2})", cycle_path.name).group(1)
     migration_path = latest_file(args.source_dir, "多空阶段迁移日报_{date}.xlsx", report_date)
-    brief_path = latest_file(
-        args.brief_dir or args.source_dir,
-        "多空阶段简报_{date}.pptx",
-        report_date,
-    )
+    try:
+        brief_path = latest_file(
+            args.brief_dir or args.source_dir,
+            "多空阶段简报_{date}.pptx",
+            report_date,
+        )
+    except FileNotFoundError:
+        brief_path = None
 
     payload = build_payload(cycle_path, migration_path, args.session)
+    if brief_path is None:
+        payload["sourceBrief"] = ""
     output_dir = args.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     json_path = output_dir / "market_trend_latest.json"
@@ -533,7 +538,8 @@ def main() -> None:
 
     assets_dir = output_dir.parent / "assets"
     assets_dir.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(brief_path, assets_dir / brief_path.name)
+    if brief_path is not None:
+        shutil.copy2(brief_path, assets_dir / brief_path.name)
     print(f"[OK] {json_path}")
     print(f"[OK] {js_path}")
     print(

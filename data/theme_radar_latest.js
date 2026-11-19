@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:59:59+08:00",
+  "generated_at": "2026-11-19T10:01:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.36,
+      "change_pct": 1.14,
       "constituents": 64,
-      "members": "光刻胶 +1.36%",
+      "members": "光刻胶 +1.14%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 0.99,
+      "change_pct": 0.78,
       "constituents": 23,
-      "members": "环氧丙烷 +0.99%",
+      "members": "环氧丙烷 +0.78%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": 0.69,
+      "change_pct": 0.55,
       "constituents": 33,
-      "members": "调味品概念 +0.69%",
+      "members": "调味品概念 +0.55%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "染料",
-      "representative": "染料",
-      "change_pct": 0.53,
-      "constituents": 34,
-      "members": "染料 +0.53%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.49,
+      "change_pct": 0.26,
       "constituents": 4,
-      "members": "第四代半导体 +0.49%",
+      "members": "第四代半导体 +0.26%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "染料",
+      "representative": "染料",
+      "change_pct": 0.22,
+      "constituents": 34,
+      "members": "染料 +0.22%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.98,
+      "avg_change_pct": 1.86,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.75,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
+      "avg_change_pct": 1.63,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.99,
+      "avg_change_pct": 0.78,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.69,
+      "avg_change_pct": 0.55,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
@@ -117,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.53,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 0.22,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-19"
     },
     {

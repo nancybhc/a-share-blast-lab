@@ -615,15 +615,29 @@ function renderMarketOverview() {
     ? fullMarketIntraday.market?.outflow_count
     : market?.outflow_count;
   const validStockCount = validCounts.stock || market?.count || 0;
+  const liveSource = String(fullMarketIntraday?.source || "");
+  const usingSinaFallback = liveSource.includes("新浪");
 
   document.getElementById("marketCoverage").textContent =
     `${counts.industry || 0} 行业 / ${counts.concept || 0} 概念 / ${counts.stock || 0} 股`;
   document.getElementById("marketCaptureStatus").textContent =
     fullMarketIntraday?.available
       ? fullMarketIntraday.is_close
-        ? `收盘 · 15:00 · ${fullMarketIntraday.date.slice(5)}`
-        : `盘中 · ${fullMarketIntraday.capture_count} 次 · ${shortDateTime(fullMarketIntraday.last_capture_at).slice(5)}`
+        ? `收盘 · 15:00 · ${fullMarketIntraday.date.slice(5)}${usingSinaFallback ? " · 备用源" : ""}`
+        : `盘中 · ${fullMarketIntraday.capture_count} 次 · ${shortDateTime(fullMarketIntraday.last_capture_at).slice(5)}${usingSinaFallback ? " · 备用源" : ""}`
       : "仅收盘数据";
+  const sourceTitle = document.getElementById("marketSourceTitle");
+  if (sourceTitle) {
+    sourceTitle.textContent = usingSinaFallback
+      ? "来源 / 新浪财经备用源"
+      : "来源 / 东方财富全市场";
+  }
+  const sourceNote = document.getElementById("marketSourceNote");
+  if (sourceNote) {
+    sourceNote.innerHTML = usingSinaFallback
+      ? "口径：东方财富接口不可用时自动切换新浪财经资金流，<b>个股使用 r0_net（主力净流入）</b>，板块使用净流入资金。行业采用证监会行业分类、概念采用新浪概念分类；切换备用源时板块分类和覆盖数量会与东方财富不同。"
+      : "口径：东方财富全市场接口 <b>f62（主力净流入）</b>。行业与概念板块存在成分重叠，不能横向相加；个股合计仅覆盖当日有有效资金流数据的标的。分钟级最大流出/最大流入必须在交易时段采样，收盘后公共接口不保留历史曲线。";
+  }
 
   document.getElementById("marketOverview").innerHTML = `
     <article class="market-stat">
