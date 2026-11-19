@@ -1,16 +1,16 @@
 {
   "dataDate": "2026-11-19",
-  "generatedAt": "2026-11-19 11:33",
-  "reportGeneratedAt": "2026-11-19 11:33",
+  "generatedAt": "2026-11-19 12:43",
+  "reportGeneratedAt": "2026-11-19 12:43",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-19.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-19.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-11 ~ 11-19）：空明显变多（+255 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 123→23 只、空 20→275 只、空转多 166→13、多转空 20→18｜存储 最明显：多 1→0 只、空 5→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-11 ~ 11-19）：空明显变多（+255 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 123→24 只、空 20→275 只、空转多 166→13、多转空 20→18｜存储 最明显：多 1→0 只、空 5→11 只",
   "overview": {
     "groups": 21,
-    "uniqueStocks": 922,
+    "uniqueStocks": 923,
     "positiveGroups": 1,
     "negativeGroups": 13,
     "positiveTransitions": 27,
@@ -1222,8 +1222,8 @@
     {
       "name": "半导体芯片",
       "date": "2026-11-19",
-      "total": 43,
-      "bull": 4,
+      "total": 44,
+      "bull": 5,
       "turnBull": 4,
       "turnBear": 6,
       "bear": 29,
@@ -1232,15 +1232,15 @@
       "direct": 0,
       "positive": 4,
       "negative": 6,
-      "bullPct": 9.3,
+      "bullPct": 11.36,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 6→4；空转多 0→4；多转空 8→6；空 29→29",
+      "change": "多 6→5；空转多 0→4；多转空 8→6；空 29→29",
       "id": "semiconductor",
       "code": "SEMICONDUCTOR",
-      "score": -4.7,
+      "score": -4.5,
       "fulfilled": 0,
-      "netBias": -25,
+      "netBias": -24,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1248,7 +1248,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 4/43，空头 29；空转多候选 4，今日转多确认 0，反向转空 6。多 6→4；空转多 0→4；多转空 8→6；空 29→29，候选回升，等待 5破10 推进。",
+      "thesis": "多头 5/44，空头 29；空转多候选 4，今日转多确认 0，反向转空 6。多 6→5；空转多 0→4；多转空 8→6；空 29→29，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-11",
@@ -1300,12 +1300,12 @@
         },
         {
           "date": "2026-11-19",
-          "total": 43,
-          "bull": 4,
+          "total": 44,
+          "bull": 5,
           "turnBull": 4,
           "turnBear": 6,
           "bear": 29,
-          "bullPct": 9.3
+          "bullPct": 11.36
         }
       ]
     },
