@@ -594,8 +594,18 @@ function renderMarketOverview() {
   if (!fullMarketData) return;
 
   const market = fullMarketData.market;
-  const counts = fullMarketData.counts || {};
-  const validCounts = fullMarketData.valid_counts || {};
+  const liveIndustry = liveBoardRows("industry");
+  const liveConcept = liveBoardRows("concept");
+  const counts = fullMarketIntraday?.available
+    ? {
+        industry: liveIndustry.length,
+        concept: liveConcept.length,
+        stock: fullMarketIntraday.market?.count || 0,
+      }
+    : fullMarketData.counts || {};
+  const validCounts = fullMarketIntraday?.available
+    ? counts
+    : fullMarketData.valid_counts || {};
   const conceptLive = liveBoardRows("concept").filter((row) =>
     Number.isFinite(Number(row.flow_yi)),
   );
@@ -664,6 +674,22 @@ function renderMarketOverview() {
 }
 
 function liveBoardRows(scope) {
+  if (fullMarketIntraday?.available && fullMarketIntraday.boards?.length) {
+    return fullMarketIntraday.boards
+      .filter((row) => row.kind === scope)
+      .filter(
+        (row) =>
+          scope !== "concept" ||
+          !EXCLUDED_MARKET_CONCEPT_PREFIXES.some((prefix) =>
+            String(row.name || "").startsWith(prefix),
+          ),
+      )
+      .map((row) => ({
+        ...row,
+        flow_yi: row.close_yi ?? row.flow_yi,
+        track: row,
+      }));
+  }
   const source = (fullMarketData?.[scope]?.all || []).filter(
     (row) =>
       scope !== "concept" ||
