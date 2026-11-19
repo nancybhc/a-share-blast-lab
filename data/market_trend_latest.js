@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-19",
-  "generatedAt": "2026-11-19 13:48",
-  "reportGeneratedAt": "2026-11-19 13:48",
+  "generatedAt": "2026-11-19 13:49",
+  "reportGeneratedAt": "2026-11-19 13:49",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-19.xlsx",
@@ -13,7 +13,7 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 924,
     "positiveGroups": 2,
     "negativeGroups": 14,
-    "positiveTransitions": 25,
+    "positiveTransitions": 26,
     "negativeTransitions": 80
   },
   "phaseLegend": [
@@ -54,31 +54,31 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-19",
       "total": 60,
       "bull": 1,
-      "turnBull": 10,
+      "turnBull": 11,
       "turnBear": 0,
-      "bear": 49,
-      "newBull": 7,
+      "bear": 48,
+      "newBull": 8,
       "confirm": 1,
       "direct": 0,
-      "positive": 8,
+      "positive": 9,
       "negative": 1,
       "bullPct": 1.67,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 0→1；空转多 4→10；多转空 1→0；空 55→49",
+      "change": "多 0→1；空转多 4→11；多转空 1→0；空 55→48",
       "id": "fintech",
       "code": "FINTECH",
-      "score": 13.3,
+      "score": 15.0,
       "fulfilled": 1,
-      "netBias": -48,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "10",
+      "netBias": -47,
+      "phase": "转多兑现",
+      "badge": "扩散确认",
+      "tone": "lime",
+      "setup": "11",
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/60，空头 49；空转多候选 10，今日转多确认 1，反向转空 0。多 0→1；空转多 4→10；多转空 1→0；空 55→49，修复进入确认，观察扩散。",
+      "thesis": "多头 1/60，空头 48；空转多候选 11，今日转多确认 1，反向转空 0。多 0→1；空转多 4→11；多转空 1→0；空 55→48，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-11",
@@ -132,9 +132,9 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-19",
           "total": 60,
           "bull": 1,
-          "turnBull": 10,
+          "turnBull": 11,
           "turnBear": 0,
-          "bear": 49,
+          "bear": 48,
           "bullPct": 1.67
         }
       ]
@@ -1955,11 +1955,11 @@ window.MARKET_TREND_DATA = {
         "name": "互金证券",
         "group_id": "fintech",
         "color": "#bf2f45",
-        "delta": 7,
+        "delta": 8,
         "values": [
           3,
           4,
-          10
+          11
         ]
       },
       {
