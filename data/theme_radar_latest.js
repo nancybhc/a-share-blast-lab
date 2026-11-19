@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:45:46+08:00",
+  "generated_at": "2026-11-19T09:47:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,65 +9,55 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.58,
+      "change_pct": 0.98,
       "constituents": 64,
-      "members": "光刻胶 +1.58%",
+      "members": "光刻胶 +0.98%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.64,
-      "constituents": 43,
-      "members": "光刻机 +0.64%",
-      "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 0.48,
+      "change_pct": 0.34,
       "constituents": 23,
-      "members": "环氧丙烷 +0.48%",
-      "rank": 3
+      "members": "环氧丙烷 +0.34%",
+      "rank": 2
     },
     {
       "date": "2026-11-19",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": 0.48,
-      "constituents": 66,
-      "members": "中芯概念 +0.48%",
-      "rank": 4
+      "theme": "调味品概念",
+      "representative": "调味品概念",
+      "change_pct": 0.06,
+      "constituents": 33,
+      "members": "调味品概念 +0.06%",
+      "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.43,
+      "change_pct": 0.04,
       "constituents": 4,
-      "members": "第四代半导体 +0.43%",
+      "members": "第四代半导体 +0.04%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "地热能",
+      "representative": "地热能",
+      "change_pct": -0.01,
+      "constituents": 9,
+      "members": "地热能 -0.01%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.86,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
-      "dates": "11-19、11-17"
-    },
-    {
       "theme": "光刻胶",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.08,
+      "avg_change_pct": 1.78,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -77,18 +67,8 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.72,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
-      "dates": "11-19、11-17"
-    },
-    {
-      "theme": "中芯概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.2,
-      "avg_rank": 4.0,
+      "avg_change_pct": 1.52,
+      "avg_rank": 3.0,
       "latest_rank": 4,
       "dates": "11-19、11-17"
     },
@@ -117,9 +97,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.48,
+      "avg_change_pct": 0.34,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-19"
+    },
+    {
+      "theme": "调味品概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.06,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-19"
+    },
+    {
+      "theme": "地热能",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.01,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-19"
     },
     {
@@ -131,6 +131,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.08,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-17"
     },
     {
       "theme": "猪肉概念",
@@ -201,6 +211,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-16"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.92,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-17"
     },
     {
       "theme": "AI算力",
