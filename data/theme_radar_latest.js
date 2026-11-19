@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T11:27:04+08:00",
+  "generated_at": "2026-11-19T11:27:40+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 1.24,
+      "change_pct": 1.02,
       "constituents": 4,
-      "members": "第四代半导体 +1.24%",
+      "members": "第四代半导体 +1.02%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.96,
+      "change_pct": 0.84,
       "constituents": 30,
-      "members": "大基金持股 +0.96%",
+      "members": "大基金持股 +0.84%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.83,
+      "change_pct": 0.65,
       "constituents": 64,
-      "members": "光刻胶 +0.83%",
+      "members": "光刻胶 +0.65%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.44,
-      "constituents": 43,
-      "members": "光刻机 +0.44%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "IGBT概念",
       "representative": "IGBT概念",
-      "change_pct": 0.43,
+      "change_pct": 0.32,
       "constituents": 44,
-      "members": "IGBT概念 +0.43%",
+      "members": "IGBT概念 +0.32%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 0.27,
+      "constituents": 43,
+      "members": "光刻机 +0.27%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.12,
+      "avg_change_pct": 2.01,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.76,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.68,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
       "dates": "11-19、11-17"
     },
     {
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.71,
+      "avg_change_pct": 1.62,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.15,
+      "avg_change_pct": 1.09,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -117,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.43,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.32,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
