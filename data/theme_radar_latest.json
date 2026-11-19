@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:03:52+08:00",
+  "generated_at": "2026-11-19T10:04:51+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -16,38 +16,38 @@
     },
     {
       "date": "2026-11-19",
-      "theme": "环氧丙烷",
-      "representative": "环氧丙烷",
-      "change_pct": 0.4,
-      "constituents": 23,
-      "members": "环氧丙烷 +0.40%",
+      "theme": "调味品概念",
+      "representative": "调味品概念",
+      "change_pct": 0.38,
+      "constituents": 33,
+      "members": "调味品概念 +0.38%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
-      "theme": "调味品概念",
-      "representative": "调味品概念",
-      "change_pct": 0.37,
-      "constituents": 33,
-      "members": "调味品概念 +0.37%",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": 0.36,
+      "constituents": 23,
+      "members": "环氧丙烷 +0.36%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "净水概念",
-      "representative": "净水概念",
-      "change_pct": 0.18,
-      "constituents": 21,
-      "members": "净水概念 +0.18%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.12,
+      "change_pct": 0.11,
       "constituents": 4,
-      "members": "第四代半导体 +0.12%",
+      "members": "第四代半导体 +0.11%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "净水概念",
+      "representative": "净水概念",
+      "change_pct": 0.01,
+      "constituents": 21,
+      "members": "净水概念 +0.01%",
       "rank": 5
     }
   ],
@@ -68,8 +68,8 @@
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 1.56,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {
@@ -77,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.31,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 0.23,
+      "avg_rank": 4.5,
+      "latest_rank": 5,
       "dates": "11-19、11-16"
     },
     {
@@ -103,21 +103,21 @@
       "dates": "11-16、11-13"
     },
     {
-      "theme": "环氧丙烷",
+      "theme": "调味品概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.4,
+      "avg_change_pct": 0.38,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
     },
     {
-      "theme": "调味品概念",
+      "theme": "环氧丙烷",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.37,
+      "avg_change_pct": 0.36,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
