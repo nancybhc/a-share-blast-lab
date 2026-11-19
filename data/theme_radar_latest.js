@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T14:39:50+08:00",
+  "generated_at": "2026-11-19T14:42:05+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.88,
+      "change_pct": 1.02,
       "constituents": 4,
-      "members": "第四代半导体 +0.88%",
+      "members": "第四代半导体 +1.02%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": -0.21,
+      "change_pct": 0.15,
       "constituents": 30,
-      "members": "大基金持股 -0.21%",
+      "members": "大基金持股 +0.15%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": -0.24,
+      "change_pct": -0.07,
       "constituents": 64,
-      "members": "光刻胶 -0.24%",
+      "members": "光刻胶 -0.07%",
       "rank": 3
     },
     {
       "date": "2026-11-19",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": -0.29,
-      "constituents": 114,
-      "members": "先进封装 -0.29%",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": -0.07,
+      "constituents": 28,
+      "members": "高带宽内存 -0.07%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": -0.35,
+      "change_pct": -0.11,
       "constituents": 66,
-      "members": "中芯概念 -0.35%",
+      "members": "中芯概念 -0.11%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.94,
+      "avg_change_pct": 2.01,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.17,
+      "avg_change_pct": 1.26,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.57,
+      "avg_change_pct": 0.74,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.78,
+      "avg_change_pct": 0.9,
       "avg_rank": 4.5,
       "latest_rank": 5,
       "dates": "11-19、11-17"
@@ -113,11 +113,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-16、11-13"
     },
     {
-      "theme": "先进封装",
+      "theme": "高带宽内存",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.29,
+      "avg_change_pct": -0.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-19"
