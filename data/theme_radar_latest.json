@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T11:24:35+08:00",
+  "generated_at": "2026-11-19T11:25:36+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 1.01,
+      "change_pct": 1.26,
       "constituents": 4,
-      "members": "第四代半导体 +1.01%",
+      "members": "第四代半导体 +1.26%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.93,
+      "change_pct": 1.01,
       "constituents": 30,
-      "members": "大基金持股 +0.93%",
+      "members": "大基金持股 +1.01%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.79,
+      "change_pct": 0.78,
       "constituents": 64,
-      "members": "光刻胶 +0.79%",
+      "members": "光刻胶 +0.78%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.45,
-      "constituents": 43,
-      "members": "光刻机 +0.45%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "IGBT概念",
       "representative": "IGBT概念",
-      "change_pct": 0.38,
+      "change_pct": 0.47,
       "constituents": 44,
-      "members": "IGBT概念 +0.38%",
+      "members": "IGBT概念 +0.47%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "光刻机",
+      "representative": "光刻机",
+      "change_pct": 0.4,
+      "constituents": 43,
+      "members": "光刻机 +0.40%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.01,
+      "avg_change_pct": 2.13,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.77,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.74,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
       "dates": "11-19、11-17"
     },
     {
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.14,
+      "avg_change_pct": 1.18,
       "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -117,9 +117,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.38,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.47,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
