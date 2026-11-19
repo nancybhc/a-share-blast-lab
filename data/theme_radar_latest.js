@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T11:22:00+08:00",
+  "generated_at": "2026-11-19T11:23:35+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
   "daily_top": [
     {
       "date": "2026-11-19",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 1.03,
-      "constituents": 30,
-      "members": "大基金持股 +1.03%",
+      "theme": "第四代半导体",
+      "representative": "第四代半导体",
+      "change_pct": 1.3,
+      "constituents": 4,
+      "members": "第四代半导体 +1.30%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": 0.84,
-      "constituents": 4,
-      "members": "第四代半导体 +0.84%",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 1.01,
+      "constituents": 30,
+      "members": "大基金持股 +1.01%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.69,
+      "change_pct": 0.94,
       "constituents": 64,
-      "members": "光刻胶 +0.69%",
+      "members": "光刻胶 +0.94%",
       "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 0.39,
+      "change_pct": 0.62,
       "constituents": 43,
-      "members": "光刻机 +0.39%",
+      "members": "光刻机 +0.62%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": 0.32,
-      "constituents": 114,
-      "members": "先进封装 +0.32%",
+      "theme": "IGBT概念",
+      "representative": "IGBT概念",
+      "change_pct": 0.44,
+      "constituents": 44,
+      "members": "IGBT概念 +0.44%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.92,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.15,
+      "avg_rank": 1.5,
+      "latest_rank": 1,
       "dates": "11-19、11-17"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.74,
+      "avg_change_pct": 1.85,
       "avg_rank": 2.5,
       "latest_rank": 4,
       "dates": "11-19、11-17"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.64,
+      "avg_change_pct": 1.76,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -87,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.19,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.18,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-19、11-17"
     },
     {
@@ -113,11 +113,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-16、11-13"
     },
     {
-      "theme": "先进封装",
+      "theme": "IGBT概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.32,
+      "avg_change_pct": 0.44,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
