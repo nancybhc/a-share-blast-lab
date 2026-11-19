@@ -49,6 +49,7 @@ AUTO_MONITOR_STOP = clock_time(15, 0)
 LAST_AUTO_START_ATTEMPT: datetime | None = None
 LAST_AUTO_STOP_ATTEMPT: datetime | None = None
 LAST_AUTO_REPAIR_ATTEMPT: datetime | None = None
+LAST_COMPONENT_REPAIR_AT: dict[str, datetime] = {}
 FULL_MARKET_STALE_SECONDS = 3 * 60
 THEME_STALE_SECONDS = 4 * 60
 LIVE_PIPELINE_STALE_SECONDS = 9 * 60
@@ -611,6 +612,7 @@ def repair_stale_monitors(now: datetime | None = None) -> dict[str, Any]:
         stale = stale_monitor_components(before, current)
         errors: list[str] = []
         repaired: list[str] = []
+        skipped: list[str] = []
         if stale:
             stoppers = {
                 "full_market": stop_collector,
@@ -625,10 +627,19 @@ def repair_stale_monitors(now: datetime | None = None) -> dict[str, Any]:
             for name in stale:
                 component = before["components"].get(name, {})
                 try:
+                    last_repair = LAST_COMPONENT_REPAIR_AT.get(name)
+                    if (
+                        component.get("running")
+                        and last_repair is not None
+                        and (current - last_repair).total_seconds() < 300
+                    ):
+                        skipped.append(name)
+                        continue
                     if component.get("running"):
                         stoppers[name]()
                     starters[name]()
                     repaired.append(name)
+                    LAST_COMPONENT_REPAIR_AT[name] = current
                 except Exception as exc:  # noqa: BLE001
                     errors.append(f"{name}: {type(exc).__name__}: {exc}")
         result = all_monitor_state()
@@ -637,6 +648,7 @@ def repair_stale_monitors(now: datetime | None = None) -> dict[str, Any]:
                 "checked_at": current.isoformat(timespec="seconds"),
                 "stale_before_repair": stale,
                 "repaired_components": repaired,
+                "skipped_components": skipped,
                 "errors": errors,
             }
         )
@@ -681,7 +693,8 @@ def monitor_schedule_loop() -> None:
                     else:
                         print(
                             f"[AUTO] repair completed: "
-                            f"{', '.join(result['repaired_components']) or 'none'}",
+                            f"{', '.join(result['repaired_components']) or 'none'}"
+                            f"; cooldown={', '.join(result.get('skipped_components', [])) or 'none'}",
                             flush=True,
                         )
                 elif not state["all_running"] and start_retry_ready:

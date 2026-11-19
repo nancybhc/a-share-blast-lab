@@ -142,17 +142,26 @@ def main() -> int:
                 + (", ".join(status.get("stale_components", [])) or "unknown")
             )
             repaired = request_json("/api/monitors/repair", "POST", timeout=60)
+            repaired_components = repaired.get("repaired_components", [])
+            skipped_components = repaired.get("skipped_components", [])
             payload.update(
                 {
-                    "action": "repaired",
-                    "repaired_components": repaired.get("repaired_components", []),
+                    "action": (
+                        "repaired"
+                        if repaired_components
+                        else "waiting-for-upstream"
+                    ),
+                    "repaired_components": repaired_components,
+                    "skipped_components": skipped_components,
                     "repair_errors": repaired.get("errors", []),
                     "components_after": component_summary(repaired),
                 }
             )
             append_log(
                 "repair requested; repaired="
-                + (", ".join(repaired.get("repaired_components", [])) or "none")
+                + (", ".join(repaired_components) or "none")
+                + "; cooldown="
+                + (", ".join(skipped_components) or "none")
             )
             if repaired.get("errors"):
                 raise RuntimeError("; ".join(repaired["errors"]))
