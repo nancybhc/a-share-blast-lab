@@ -14,7 +14,7 @@
     "positiveGroups": 1,
     "negativeGroups": 14,
     "positiveTransitions": 13,
-    "negativeTransitions": 82
+    "negativeTransitions": 81
   },
   "phaseLegend": [
     {
@@ -54,31 +54,31 @@
       "date": "2026-11-19",
       "total": 60,
       "bull": 0,
-      "turnBull": 6,
+      "turnBull": 7,
       "turnBear": 0,
-      "bear": 54,
+      "bear": 53,
       "newBull": 3,
       "confirm": 0,
       "direct": 0,
       "positive": 3,
-      "negative": 2,
+      "negative": 1,
       "bullPct": 0.0,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 4→6；多转空 1→0；空 55→54",
+      "change": "多 0→0；空转多 4→7；多转空 1→0；空 55→53",
       "id": "fintech",
       "code": "FINTECH",
-      "score": 1.7,
+      "score": 3.3,
       "fulfilled": 0,
-      "netBias": -54,
+      "netBias": -53,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "6",
+      "setup": "7",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/60，空头 54；空转多候选 6，今日转多确认 0，反向转空 0。多 0→0；空转多 4→6；多转空 1→0；空 55→54，候选回升，等待 5破10 推进。",
+      "thesis": "多头 0/60，空头 53；空转多候选 7，今日转多确认 0，反向转空 0。多 0→0；空转多 4→7；多转空 1→0；空 55→53，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-11",
@@ -132,9 +132,9 @@
           "date": "2026-11-19",
           "total": 60,
           "bull": 0,
-          "turnBull": 6,
+          "turnBull": 7,
           "turnBear": 0,
-          "bear": 54,
+          "bear": 53,
           "bullPct": 0.0
         }
       ]
@@ -1955,11 +1955,11 @@
         "name": "互金证券",
         "group_id": "fintech",
         "color": "#bf2f45",
-        "delta": 3,
+        "delta": 4,
         "values": [
           3,
           4,
-          6
+          7
         ]
       },
       {
