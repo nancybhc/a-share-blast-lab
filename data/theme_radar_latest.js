@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:50:03+08:00",
+  "generated_at": "2026-11-19T09:51:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.84,
+      "change_pct": 1.16,
       "constituents": 64,
-      "members": "光刻胶 +0.84%",
+      "members": "光刻胶 +1.16%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 0.45,
+      "change_pct": 0.58,
       "constituents": 23,
-      "members": "环氧丙烷 +0.45%",
+      "members": "环氧丙烷 +0.58%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": 0.37,
+      "change_pct": 0.48,
       "constituents": 33,
-      "members": "调味品概念 +0.37%",
+      "members": "调味品概念 +0.48%",
       "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "汽车一体化压铸",
       "representative": "汽车一体化压铸",
-      "change_pct": 0.35,
+      "change_pct": 0.46,
       "constituents": 29,
-      "members": "汽车一体化压铸 +0.35%",
+      "members": "汽车一体化压铸 +0.46%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
-      "theme": "地热能",
-      "representative": "地热能",
-      "change_pct": 0.31,
-      "constituents": 9,
-      "members": "地热能 +0.31%",
+      "theme": "第四代半导体",
+      "representative": "第四代半导体",
+      "change_pct": 0.45,
+      "constituents": 4,
+      "members": "第四代半导体 +0.45%",
       "rank": 5
     }
   ],
@@ -57,9 +57,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.71,
+      "avg_change_pct": 1.88,
       "avg_rank": 2.0,
       "latest_rank": 1,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "第四代半导体",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.73,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
       "dates": "11-19、11-17"
     },
     {
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.45,
+      "avg_change_pct": 0.58,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
@@ -97,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.37,
+      "avg_change_pct": 0.48,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
@@ -107,19 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.46,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-19"
-    },
-    {
-      "theme": "地热能",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.31,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-19"
     },
     {
@@ -161,16 +161,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-16"
-    },
-    {
-      "theme": "第四代半导体",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.01,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-17"
     },
     {
       "theme": "东数西算",
