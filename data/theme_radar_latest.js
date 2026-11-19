@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:29:29+08:00",
+  "generated_at": "2026-11-19T09:30:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
   "daily_top": [
     {
       "date": "2026-11-19",
-      "theme": "MLOps概念",
-      "representative": "MLOps概念",
-      "change_pct": 0.75,
-      "constituents": 10,
-      "members": "MLOps概念 +0.75%",
+      "theme": "VPN",
+      "representative": "VPN",
+      "change_pct": 1.12,
+      "constituents": 19,
+      "members": "VPN +1.12%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
-      "theme": "VPN",
-      "representative": "VPN",
-      "change_pct": 0.75,
-      "constituents": 19,
-      "members": "VPN +0.75%",
+      "theme": "MLOps概念",
+      "representative": "MLOps概念",
+      "change_pct": 0.65,
+      "constituents": 10,
+      "members": "MLOps概念 +0.65%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "数据要素/安全",
       "representative": "数字水印",
-      "change_pct": 0.6,
+      "change_pct": 0.56,
       "constituents": 347,
-      "members": "数字水印 +0.60% / 数据安全 +0.51% / 网络安全 +0.32% / 时空大数据 -0.10% / 数据要素 -0.21% / 数据确权 -0.33%",
+      "members": "数字水印 +0.56% / 数据安全 +0.44% / 网络安全 +0.26% / 时空大数据 -0.15% / 数据要素 -0.30% / 数据确权 -0.49%",
       "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "IPv6",
       "representative": "IPv6",
-      "change_pct": 0.5,
+      "change_pct": 0.45,
       "constituents": 18,
-      "members": "IPv6 +0.50%",
+      "members": "IPv6 +0.45%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
-      "theme": "托育服务",
-      "representative": "托育服务",
+      "theme": "电子身份证",
+      "representative": "电子身份证",
       "change_pct": 0.34,
-      "constituents": 6,
-      "members": "托育服务 +0.34%",
+      "constituents": 38,
+      "members": "电子身份证 +0.34%",
       "rank": 5
     }
   ],
@@ -73,21 +73,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-16、11-13"
     },
     {
-      "theme": "MLOps概念",
+      "theme": "VPN",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.75,
+      "avg_change_pct": 1.12,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-19"
     },
     {
-      "theme": "VPN",
+      "theme": "MLOps概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.75,
+      "avg_change_pct": 0.65,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.6,
+      "avg_change_pct": 0.56,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
@@ -107,13 +107,13 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.5,
+      "avg_change_pct": 0.45,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-19"
     },
     {
-      "theme": "托育服务",
+      "theme": "电子身份证",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
