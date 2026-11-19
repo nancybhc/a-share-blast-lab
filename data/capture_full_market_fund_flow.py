@@ -677,6 +677,12 @@ def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
                 pool.map(lambda scope: fetch_scope(scope), scopes),
             )
         )
+    current_board_hosts = sorted(
+        {results[scope][1] for scope in scopes}
+    )
+    if state.get("board_source_hosts") != current_board_hosts:
+        state["boards"] = {}
+        state["board_source_hosts"] = current_board_hosts
     for scope in scopes:
         rows, host, _ = results[scope]
         hosts.add(host)
@@ -704,11 +710,10 @@ def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
                 "breadth_pct": row.get("breadth_pct"),
             }
             entry["points"] = [points[key] for key in sorted(points)]
-    all_hosts = sorted(set(state.get("source_hosts") or []) | hosts)
-    state["source_hosts"] = all_hosts
-    if all(host.startswith("sina_") for host in all_hosts):
+    state["source_hosts"] = sorted(hosts)
+    if all(host.startswith("sina_") for host in hosts):
         state["source"] = "新浪财经 MoneyFlow / 主力净流入"
-    elif any(host.startswith("sina_") for host in all_hosts):
+    elif any(host.startswith("sina_") for host in hosts):
         state["source"] = "东方财富 + 新浪财经资金流备用源"
     else:
         state["source"] = "东方财富 clist f62 / 主力净流入"

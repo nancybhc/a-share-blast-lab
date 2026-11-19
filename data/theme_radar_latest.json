@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T09:58:40+08:00",
+  "generated_at": "2026-11-19T09:59:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,18 +9,18 @@
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 1.21,
+      "change_pct": 1.36,
       "constituents": 64,
-      "members": "光刻胶 +1.21%",
+      "members": "光刻胶 +1.36%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 0.84,
+      "change_pct": 0.99,
       "constituents": 23,
-      "members": "环氧丙烷 +0.84%",
+      "members": "环氧丙烷 +0.99%",
       "rank": 2
     },
     {
@@ -34,20 +34,20 @@
     },
     {
       "date": "2026-11-19",
-      "theme": "第四代半导体",
-      "representative": "第四代半导体",
-      "change_pct": 0.61,
-      "constituents": 4,
-      "members": "第四代半导体 +0.61%",
+      "theme": "染料",
+      "representative": "染料",
+      "change_pct": 0.53,
+      "constituents": 34,
+      "members": "染料 +0.53%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
-      "theme": "乳业",
-      "representative": "乳业",
-      "change_pct": 0.39,
-      "constituents": 34,
-      "members": "乳业 +0.39%",
+      "theme": "第四代半导体",
+      "representative": "第四代半导体",
+      "change_pct": 0.49,
+      "constituents": 4,
+      "members": "第四代半导体 +0.49%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.9,
+      "avg_change_pct": 1.98,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.81,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.75,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
       "dates": "11-19、11-17"
     },
     {
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.84,
+      "avg_change_pct": 0.99,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
@@ -113,13 +113,13 @@
       "dates": "11-19"
     },
     {
-      "theme": "乳业",
+      "theme": "染料",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.39,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.53,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
