@@ -1,7 +1,7 @@
 {
   "dataDate": "2026-11-19",
-  "generatedAt": "2026-11-19 14:02",
-  "reportGeneratedAt": "2026-11-19 14:02",
+  "generatedAt": "2026-11-19 14:03",
+  "reportGeneratedAt": "2026-11-19 14:03",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-19.xlsx",
@@ -13,7 +13,7 @@
     "uniqueStocks": 924,
     "positiveGroups": 2,
     "negativeGroups": 14,
-    "positiveTransitions": 26,
+    "positiveTransitions": 27,
     "negativeTransitions": 79
   },
   "phaseLegend": [
@@ -54,31 +54,31 @@
       "date": "2026-11-19",
       "total": 60,
       "bull": 1,
-      "turnBull": 9,
+      "turnBull": 10,
       "turnBear": 0,
-      "bear": 50,
-      "newBull": 6,
+      "bear": 49,
+      "newBull": 7,
       "confirm": 1,
       "direct": 0,
-      "positive": 7,
+      "positive": 8,
       "negative": 1,
       "bullPct": 1.67,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 0→1；空转多 4→9；多转空 1→0；空 55→50",
+      "change": "多 0→1；空转多 4→10；多转空 1→0；空 55→49",
       "id": "fintech",
       "code": "FINTECH",
-      "score": 11.7,
+      "score": 13.3,
       "fulfilled": 1,
-      "netBias": -49,
+      "netBias": -48,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "9",
+      "setup": "10",
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/60，空头 50；空转多候选 9，今日转多确认 1，反向转空 0。多 0→1；空转多 4→9；多转空 1→0；空 55→50，修复进入确认，观察扩散。",
+      "thesis": "多头 1/60，空头 49；空转多候选 10，今日转多确认 1，反向转空 0。多 0→1；空转多 4→10；多转空 1→0；空 55→49，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-11",
@@ -132,9 +132,9 @@
           "date": "2026-11-19",
           "total": 60,
           "bull": 1,
-          "turnBull": 9,
+          "turnBull": 10,
           "turnBear": 0,
-          "bear": 50,
+          "bear": 49,
           "bullPct": 1.67
         }
       ]
@@ -953,8 +953,8 @@
       "name": "药",
       "date": "2026-11-19",
       "total": 99,
-      "bull": 3,
-      "turnBull": 6,
+      "bull": 4,
+      "turnBull": 5,
       "turnBear": 2,
       "bear": 88,
       "newBull": 1,
@@ -962,23 +962,23 @@
       "direct": 0,
       "positive": 1,
       "negative": 5,
-      "bullPct": 3.03,
+      "bullPct": 4.04,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 6→3；空转多 3→6；多转空 5→2；空 85→88",
+      "change": "多 6→4；空转多 3→5；多转空 5→2；空 85→88",
       "id": "pharma",
       "code": "PHARMA",
       "score": -4.0,
       "fulfilled": 0,
-      "netBias": -85,
+      "netBias": -84,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
-      "setup": "6",
+      "setup": "5",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/99，空头 88；空转多候选 6，今日转多确认 0，反向转空 2。多 6→3；空转多 3→6；多转空 5→2；空 85→88，候选回升，等待 5破10 推进。",
+      "thesis": "多头 4/99，空头 88；空转多候选 5，今日转多确认 0，反向转空 2。多 6→4；空转多 3→5；多转空 5→2；空 85→88，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-11",
@@ -1031,11 +1031,11 @@
         {
           "date": "2026-11-19",
           "total": 99,
-          "bull": 3,
-          "turnBull": 6,
+          "bull": 4,
+          "turnBull": 5,
           "turnBear": 2,
           "bear": 88,
-          "bullPct": 3.03
+          "bullPct": 4.04
         }
       ]
     },
@@ -1955,24 +1955,24 @@
         "name": "互金证券",
         "group_id": "fintech",
         "color": "#bf2f45",
-        "delta": 6,
+        "delta": 7,
         "values": [
           3,
           4,
-          9
+          10
         ]
       },
       {
-        "id": "pressure:defense",
+        "id": "pressure:pharma",
         "kind": "pressure",
-        "name": "军工",
-        "group_id": "defense",
+        "name": "药",
+        "group_id": "pharma",
         "color": "#187348",
         "delta": -1,
         "values": [
-          2,
-          1,
-          1
+          6,
+          3,
+          5
         ]
       }
     ]
