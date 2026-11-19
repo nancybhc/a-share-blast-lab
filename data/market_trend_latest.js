@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-19",
-  "generatedAt": "2026-11-19 10:56",
-  "reportGeneratedAt": "2026-11-19 10:56",
+  "generatedAt": "2026-11-19 10:57",
+  "reportGeneratedAt": "2026-11-19 10:57",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-19.xlsx",
@@ -13,8 +13,8 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 922,
     "positiveGroups": 1,
     "negativeGroups": 14,
-    "positiveTransitions": 16,
-    "negativeTransitions": 78
+    "positiveTransitions": 15,
+    "negativeTransitions": 77
   },
   "phaseLegend": [
     {
@@ -1767,14 +1767,14 @@ window.MARKET_TREND_DATA = {
       "turnBull": 3,
       "turnBear": 7,
       "bear": 30,
-      "newBull": 1,
+      "newBull": 0,
       "confirm": 0,
       "direct": 0,
-      "positive": 1,
-      "negative": 11,
+      "positive": 0,
+      "negative": 10,
       "bullPct": 14.89,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
+      "state": "转空扩散",
+      "action": "先处理跌破 MA5 / MA10 的标的",
       "change": "多 11→7；空转多 1→3；多转空 10→7；空 25→30",
       "id": "equipment",
       "code": "SEMI CAP",
@@ -1788,7 +1788,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 7/47，空头 30；空转多候选 3，今日转多确认 0，反向转空 7。多 11→7；空转多 1→3；多转空 10→7；空 25→30，候选回升，等待 5破10 推进。",
+      "thesis": "多头 7/47，空头 30；空转多候选 3，今日转多确认 0，反向转空 7。多 11→7；空转多 1→3；多转空 10→7；空 25→30，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-11",
