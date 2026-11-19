@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:51:42+08:00",
+  "generated_at": "2026-11-19T10:52:16+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.86,
+      "change_pct": 0.93,
       "constituents": 64,
-      "members": "光刻胶 +0.86%",
+      "members": "光刻胶 +0.93%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.67,
+      "change_pct": 0.59,
       "constituents": 4,
-      "members": "第四代半导体 +0.67%",
+      "members": "第四代半导体 +0.59%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 0.24,
-      "constituents": 30,
-      "members": "大基金持股 +0.24%",
-      "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "光刻机",
       "representative": "光刻机",
-      "change_pct": 0.23,
+      "change_pct": 0.4,
       "constituents": 43,
-      "members": "光刻机 +0.23%",
+      "members": "光刻机 +0.40%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 0.33,
+      "constituents": 30,
+      "members": "大基金持股 +0.33%",
       "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": -0.07,
+      "change_pct": 0.04,
       "constituents": 66,
-      "members": "中芯概念 -0.07%",
+      "members": "中芯概念 +0.04%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.84,
+      "avg_change_pct": 1.8,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.72,
+      "avg_change_pct": 1.76,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -77,18 +77,8 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.66,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
-      "dates": "11-19、11-17"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 0.79,
-      "avg_rank": 4.0,
+      "avg_change_pct": 1.74,
+      "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
     },
@@ -97,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.92,
+      "avg_change_pct": 0.98,
       "avg_rank": 4.5,
       "latest_rank": 5,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.84,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {

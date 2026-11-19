@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-19",
-  "generatedAt": "2026-11-19 10:51",
-  "reportGeneratedAt": "2026-11-19 10:51",
+  "generatedAt": "2026-11-19 10:52",
+  "reportGeneratedAt": "2026-11-19 10:52",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-19.xlsx",
@@ -13,7 +13,7 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 922,
     "positiveGroups": 1,
     "negativeGroups": 14,
-    "positiveTransitions": 16,
+    "positiveTransitions": 15,
     "negativeTransitions": 79
   },
   "phaseLegend": [
@@ -680,96 +680,6 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "电网设备",
-      "date": "2026-11-19",
-      "total": 46,
-      "bull": 4,
-      "turnBull": 2,
-      "turnBear": 0,
-      "bear": 40,
-      "newBull": 2,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 2,
-      "negative": 3,
-      "bullPct": 8.7,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 4→4；空转多 1→2；多转空 2→0；空 39→40",
-      "id": "grid-equipment",
-      "code": "GRID EQUIPMENT",
-      "score": -2.2,
-      "fulfilled": 0,
-      "netBias": -36,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "2",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 4/46，空头 40；空转多候选 2，今日转多确认 0，反向转空 0。多 4→4；空转多 1→2；多转空 2→0；空 39→40，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-11",
-          "bull": 23,
-          "turnBull": 12,
-          "turnBear": 9,
-          "bear": 2,
-          "bullPct": 50.0
-        },
-        {
-          "date": "2026-11-12",
-          "bull": 5,
-          "turnBull": 1,
-          "turnBear": 38,
-          "bear": 2,
-          "bullPct": 10.87
-        },
-        {
-          "date": "2026-11-13",
-          "bull": 4,
-          "turnBull": 0,
-          "turnBear": 37,
-          "bear": 5,
-          "bullPct": 8.7
-        },
-        {
-          "date": "2026-11-16",
-          "bull": 4,
-          "turnBull": 3,
-          "turnBear": 29,
-          "bear": 10,
-          "bullPct": 8.7
-        },
-        {
-          "date": "2026-11-17",
-          "bull": 3,
-          "turnBull": 2,
-          "turnBear": 21,
-          "bear": 20,
-          "bullPct": 6.52
-        },
-        {
-          "date": "2026-11-18",
-          "bull": 4,
-          "turnBull": 1,
-          "turnBear": 2,
-          "bear": 39,
-          "bullPct": 8.7
-        },
-        {
-          "date": "2026-11-19",
-          "total": 46,
-          "bull": 4,
-          "turnBull": 2,
-          "turnBear": 0,
-          "bear": 40,
-          "bullPct": 8.7
-        }
-      ]
-    },
-    {
       "name": "药",
       "date": "2026-11-19",
       "total": 99,
@@ -1126,6 +1036,96 @@ window.MARKET_TREND_DATA = {
           "turnBear": 0,
           "bear": 38,
           "bullPct": 20.0
+        }
+      ]
+    },
+    {
+      "name": "电网设备",
+      "date": "2026-11-19",
+      "total": 46,
+      "bull": 4,
+      "turnBull": 1,
+      "turnBear": 0,
+      "bear": 41,
+      "newBull": 1,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 1,
+      "negative": 3,
+      "bullPct": 8.7,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 4→4；空转多 1→1；多转空 2→0；空 39→41",
+      "id": "grid-equipment",
+      "code": "GRID EQUIPMENT",
+      "score": -4.3,
+      "fulfilled": 0,
+      "netBias": -37,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "1",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 4/46，空头 41；空转多候选 1，今日转多确认 0，反向转空 0。多 4→4；空转多 1→1；多转空 2→0；空 39→41，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-11",
+          "bull": 23,
+          "turnBull": 12,
+          "turnBear": 9,
+          "bear": 2,
+          "bullPct": 50.0
+        },
+        {
+          "date": "2026-11-12",
+          "bull": 5,
+          "turnBull": 1,
+          "turnBear": 38,
+          "bear": 2,
+          "bullPct": 10.87
+        },
+        {
+          "date": "2026-11-13",
+          "bull": 4,
+          "turnBull": 0,
+          "turnBear": 37,
+          "bear": 5,
+          "bullPct": 8.7
+        },
+        {
+          "date": "2026-11-16",
+          "bull": 4,
+          "turnBull": 3,
+          "turnBear": 29,
+          "bear": 10,
+          "bullPct": 8.7
+        },
+        {
+          "date": "2026-11-17",
+          "bull": 3,
+          "turnBull": 2,
+          "turnBear": 21,
+          "bear": 20,
+          "bullPct": 6.52
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 4,
+          "turnBull": 1,
+          "turnBear": 2,
+          "bear": 39,
+          "bullPct": 8.7
+        },
+        {
+          "date": "2026-11-19",
+          "total": 46,
+          "bull": 4,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 41,
+          "bullPct": 8.7
         }
       ]
     },
