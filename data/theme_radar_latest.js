@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:28:02+08:00",
+  "generated_at": "2026-11-19T10:29:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.96,
+      "change_pct": 0.8,
       "constituents": 64,
-      "members": "光刻胶 +0.96%",
+      "members": "光刻胶 +0.80%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.35,
+      "change_pct": 0.14,
       "constituents": 30,
-      "members": "大基金持股 +0.35%",
+      "members": "大基金持股 +0.14%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": 0.28,
-      "constituents": 43,
-      "members": "光刻机 +0.28%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": 0.17,
+      "change_pct": 0.07,
       "constituents": 33,
-      "members": "调味品概念 +0.17%",
+      "members": "调味品概念 +0.07%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": 0.06,
+      "constituents": 23,
+      "members": "环氧丙烷 +0.06%",
       "rank": 5
     }
   ],
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.77,
+      "avg_change_pct": 1.69,
       "avg_rank": 2.0,
       "latest_rank": 1,
-      "dates": "11-19、11-17"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.68,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.84,
+      "avg_change_pct": 0.74,
       "avg_rank": 4.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.17,
+      "avg_change_pct": 0.07,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-19"
+    },
+    {
+      "theme": "环氧丙烷",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.06,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
@@ -131,6 +131,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.08,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-17"
     },
     {
       "theme": "猪肉概念",
