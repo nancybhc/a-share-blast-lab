@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:30:03+08:00",
+  "generated_at": "2026-11-19T10:31:17+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.73,
+      "change_pct": 0.74,
       "constituents": 64,
-      "members": "光刻胶 +0.73%",
+      "members": "光刻胶 +0.74%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.57,
+      "change_pct": 0.48,
       "constituents": 4,
-      "members": "第四代半导体 +0.57%",
+      "members": "第四代半导体 +0.48%",
       "rank": 2
     },
     {
       "date": "2026-11-19",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 0.04,
+      "change_pct": 0.1,
       "constituents": 30,
-      "members": "大基金持股 +0.04%",
+      "members": "大基金持股 +0.10%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "环氧丙烷",
-      "representative": "环氧丙烷",
-      "change_pct": 0.01,
-      "constituents": 23,
-      "members": "环氧丙烷 +0.01%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": 0.0,
+      "change_pct": 0.02,
       "constituents": 33,
-      "members": "调味品概念 +0.00%",
+      "members": "调味品概念 +0.02%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "环氧丙烷",
+      "representative": "环氧丙烷",
+      "change_pct": -0.02,
+      "constituents": 23,
+      "members": "环氧丙烷 -0.02%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.79,
+      "avg_change_pct": 1.74,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.66,
+      "avg_change_pct": 1.67,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.69,
+      "avg_change_pct": 0.72,
       "avg_rank": 4.0,
       "latest_rank": 3,
       "dates": "11-19、11-17"
@@ -103,21 +103,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-16、11-13"
     },
     {
-      "theme": "环氧丙烷",
+      "theme": "调味品概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.01,
+      "avg_change_pct": 0.02,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-19"
     },
     {
-      "theme": "调味品概念",
+      "theme": "环氧丙烷",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.0,
+      "avg_change_pct": -0.02,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
