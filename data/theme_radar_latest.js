@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T11:13:43+08:00",
+  "generated_at": "2026-11-19T11:14:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.27,
+      "change_pct": 0.26,
       "constituents": 4,
-      "members": "第四代半导体 +0.27%",
+      "members": "第四代半导体 +0.26%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.12,
+      "change_pct": -0.04,
       "constituents": 64,
-      "members": "光刻胶 +0.12%",
+      "members": "光刻胶 -0.04%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": -0.25,
-      "constituents": 30,
-      "members": "大基金持股 -0.25%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "光刻机",
-      "representative": "光刻机",
-      "change_pct": -0.45,
-      "constituents": 43,
-      "members": "光刻机 -0.45%",
-      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": -0.48,
+      "change_pct": -0.44,
       "constituents": 33,
-      "members": "调味品概念 -0.48%",
+      "members": "调味品概念 -0.44%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": -0.49,
+      "constituents": 30,
+      "members": "大基金持股 -0.49%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "IGBT概念",
+      "representative": "IGBT概念",
+      "change_pct": -0.69,
+      "constituents": 44,
+      "members": "IGBT概念 -0.69%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.64,
+      "avg_change_pct": 1.63,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.35,
+      "avg_change_pct": 1.27,
       "avg_rank": 2.5,
       "latest_rank": 2,
-      "dates": "11-19、11-17"
-    },
-    {
-      "theme": "光刻机",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.31,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {
@@ -87,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.55,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.43,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.48,
+      "avg_change_pct": -0.44,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-19"
+    },
+    {
+      "theme": "IGBT概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.69,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
@@ -131,6 +131,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
+    },
+    {
+      "theme": "光刻机",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.08,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-17"
     },
     {
       "theme": "猪肉概念",
