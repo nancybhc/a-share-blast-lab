@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:15:52+08:00",
+  "generated_at": "2026-11-19T10:16:52+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-19午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-19",
       "theme": "光刻胶",
       "representative": "光刻胶",
-      "change_pct": 0.74,
+      "change_pct": 1.0,
       "constituents": 64,
-      "members": "光刻胶 +0.74%",
+      "members": "光刻胶 +1.00%",
       "rank": 1
     },
     {
       "date": "2026-11-19",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": 0.47,
+      "change_pct": 0.67,
       "constituents": 4,
-      "members": "第四代半导体 +0.47%",
+      "members": "第四代半导体 +0.67%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 0.33,
+      "constituents": 30,
+      "members": "大基金持股 +0.33%",
+      "rank": 3
     },
     {
       "date": "2026-11-19",
       "theme": "调味品概念",
       "representative": "调味品概念",
-      "change_pct": 0.23,
+      "change_pct": 0.3,
       "constituents": 33,
-      "members": "调味品概念 +0.23%",
-      "rank": 3
+      "members": "调味品概念 +0.30%",
+      "rank": 4
     },
     {
       "date": "2026-11-19",
       "theme": "环氧丙烷",
       "representative": "环氧丙烷",
-      "change_pct": 0.16,
+      "change_pct": 0.27,
       "constituents": 23,
-      "members": "环氧丙烷 +0.16%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "乳业",
-      "representative": "乳业",
-      "change_pct": -0.34,
-      "constituents": 34,
-      "members": "乳业 -0.34%",
+      "members": "环氧丙烷 +0.27%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.74,
+      "avg_change_pct": 1.84,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19、11-17"
@@ -67,9 +67,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.67,
+      "avg_change_pct": 1.79,
       "avg_rank": 2.0,
       "latest_rank": 1,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.84,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-19、11-17"
     },
     {
@@ -97,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.23,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.3,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-19"
     },
     {
@@ -107,17 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.16,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-19"
-    },
-    {
-      "theme": "乳业",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.34,
+      "avg_change_pct": 0.27,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
@@ -251,16 +251,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.34,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-17"
     }
   ]
 };
