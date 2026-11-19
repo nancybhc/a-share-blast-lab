@@ -22,7 +22,19 @@ API_PATH = "/api/qt/clist/get"
 HOSTS = (
     "https://push2.eastmoney.com",
     "https://push2test.eastmoney.com",
+    "https://82.push2.eastmoney.com",
+    "https://push2delay.eastmoney.com",
 )
+SINA_MONEYFLOW_API = (
+    "https://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/"
+)
+SINA_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "Referer": "https://vip.stock.finance.sina.com.cn/moneyflow/",
+}
+SINA_BOARD_FENLEI = {"industry": "2", "concept": "1"}
+EASTMONEY_BACKOFF_FILE = DATA_DIR / ".eastmoney_backoff_until"
+EASTMONEY_BACKOFF_SECONDS = 5 * 60
 UT = "b2884a393a59ad64002292a3e90d46a5"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -51,6 +63,26 @@ PAGE_FETCH_WORKERS = 4
 
 def now_cn() -> datetime:
     return datetime.now(CHINA_TZ)
+
+
+def eastmoney_backoff_until() -> float:
+    try:
+        return float(EASTMONEY_BACKOFF_FILE.read_text(encoding="ascii").strip())
+    except (OSError, ValueError):
+        return 0.0
+
+
+def set_eastmoney_backoff(active: bool) -> None:
+    try:
+        if active:
+            EASTMONEY_BACKOFF_FILE.write_text(
+                str(time.time() + EASTMONEY_BACKOFF_SECONDS),
+                encoding="ascii",
+            )
+        else:
+            EASTMONEY_BACKOFF_FILE.unlink(missing_ok=True)
+    except OSError:
+        pass
 
 
 def is_trading_window(now: datetime) -> bool:
@@ -90,6 +122,148 @@ def filter_scope_rows(
         for row in rows
         if not str(row.get("name") or "").startswith(EXCLUDED_CONCEPT_PREFIXES)
     ]
+
+
+def sina_json(method: str, params: dict[str, Any], timeout: int) -> Any:
+    response = requests.get(
+        SINA_MONEYFLOW_API + method,
+        params=params,
+        headers=SINA_HEADERS,
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def known_stock_codes() -> set[str]:
+    for path in (
+        FULL_DIR / "full_market_daily_latest.json",
+        DATA_DIR / "full_market_intraday_latest.json",
+    ):
+        if not path.is_file():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            rows = (payload.get("stock") or {}).get("all") or []
+            codes = {str(row.get("code") or "").strip() for row in rows}
+            codes.discard("")
+            if len(codes) >= 500:
+                return codes
+        except (OSError, json.JSONDecodeError):
+            continue
+    return set()
+
+
+def fetch_stock_scope_sina(
+    timeout: int,
+) -> tuple[list[dict[str, Any]], str, int]:
+    rows: list[dict[str, Any]] = []
+    for page in range(1, 20):
+        chunk = sina_json(
+            "MoneyFlow.ssl_bkzj_ssggzj",
+            {"page": page, "num": 1000, "sort": "r0_net", "asc": 0},
+            timeout,
+        )
+        if not isinstance(chunk, list):
+            raise ValueError(f"unexpected Sina payload: {type(chunk).__name__}")
+        rows.extend(chunk)
+        if len(chunk) < 1000:
+            break
+    known_codes = known_stock_codes()
+    records: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        symbol = str(row.get("symbol") or "").strip()
+        code = str(row.get("code") or symbol[2:] or "").strip()
+        if not code or (known_codes and code not in known_codes):
+            continue
+        flow = numeric(row.get("r0_net"), 1e8)
+        if flow is None:
+            continue
+        change = numeric(row.get("changeratio"))
+        main_ratio = numeric(row.get("r0_ratio"))
+        records[code] = {
+            "code": code,
+            "name": str(row.get("name") or "").strip(),
+            "flow_yi": flow,
+            "change_pct": round(change * 100, 2) if change is not None else None,
+            "amount_yi": numeric(row.get("amount"), 1e8),
+            "market_cap_yi": None,
+            "main_ratio": (
+                round(main_ratio * 100, 2) if main_ratio is not None else None
+            ),
+            "up_count": 0,
+            "down_count": 0,
+            "flat_count": 0,
+            "breadth_pct": None,
+        }
+    if not records:
+        raise ValueError("empty Sina stock result")
+    return (
+        sorted(records.values(), key=lambda item: item["flow_yi"], reverse=True),
+        "sina_moneyflow_stock",
+        len(records),
+    )
+
+
+def fetch_board_scope_sina(
+    scope: str,
+    timeout: int,
+) -> tuple[list[dict[str, Any]], str, int]:
+    raw_rows = sina_json(
+        "MoneyFlow.ssl_bkzj_bk",
+        {
+            "page": 1,
+            "num": 1000,
+            "sort": "netamount",
+            "asc": 0,
+            "fenlei": SINA_BOARD_FENLEI[scope],
+        },
+        timeout,
+    )
+    if not isinstance(raw_rows, list) or not raw_rows:
+        raise ValueError(f"empty Sina {scope} result")
+    records: dict[str, dict[str, Any]] = {}
+    for row in raw_rows:
+        code = str(row.get("cate_id") or row.get("category") or "").strip()
+        name = str(row.get("name") or "").strip()
+        flow = numeric(row.get("netamount"), 1e8)
+        if not code or not name or flow is None:
+            continue
+        change = numeric(row.get("avg_changeratio"))
+        main_ratio = numeric(row.get("ratioamount"))
+        inflow = numeric(row.get("inamount"), 1e8) or 0.0
+        outflow = numeric(row.get("outamount"), 1e8) or 0.0
+        records[code] = {
+            "code": code,
+            "name": name,
+            "flow_yi": flow,
+            "change_pct": round(change * 100, 2) if change is not None else None,
+            "amount_yi": round(inflow + outflow, 2),
+            "market_cap_yi": None,
+            "main_ratio": (
+                round(main_ratio * 100, 2) if main_ratio is not None else None
+            ),
+            "up_count": 0,
+            "down_count": 0,
+            "flat_count": 0,
+            "breadth_pct": None,
+        }
+    if not records:
+        raise ValueError(f"empty Sina {scope} records")
+    return (
+        sorted(records.values(), key=lambda item: item["flow_yi"], reverse=True),
+        f"sina_moneyflow_{scope}",
+        len(records),
+    )
+
+
+def fetch_scope_sina(
+    scope: str,
+    timeout: int,
+) -> tuple[list[dict[str, Any]], str, int]:
+    if scope == "stock":
+        return fetch_stock_scope_sina(timeout)
+    return fetch_board_scope_sina(scope, timeout)
 
 
 def fetch_scope(
@@ -145,8 +319,11 @@ def fetch_scope(
                     all_rows.extend(rows)
         return all_rows, total
 
-    for host in HOSTS:
-        for attempt in range(2):
+    eastmoney_available = time.time() >= eastmoney_backoff_until()
+    if not eastmoney_available:
+        errors.append("Eastmoney hosts in temporary backoff")
+    for host in HOSTS if eastmoney_available else ():
+        for attempt in range(1):
             try:
                 records: dict[str, dict[str, Any]] = {}
                 rows, total = load_scope_from_host(host)
@@ -187,6 +364,7 @@ def fetch_scope(
                     raise ValueError(
                         f"incomplete result: received {len(records)}/{total}"
                     )
+                set_eastmoney_backoff(False)
                 return list(records.values()), host, total
             except Exception as exc:  # noqa: BLE001
                 errors.append(
@@ -195,6 +373,12 @@ def fetch_scope(
                 )
                 if attempt < 1:
                     time.sleep(1.5 * (attempt + 1))
+    if eastmoney_available:
+        set_eastmoney_backoff(True)
+    try:
+        return fetch_scope_sina(scope, max(timeout, 15))
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"Sina fallback: {type(exc).__name__}: {exc}")
     raise RuntimeError(f"{scope}: " + "; ".join(errors))
 
 
@@ -483,6 +667,7 @@ def load_live_state(date: str) -> dict[str, Any]:
 def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
     point_time = captured_at.strftime("%H:%M:%S")
     scopes = ("industry", "concept")
+    hosts: set[str] = set()
     with concurrent.futures.ThreadPoolExecutor(
         max_workers=len(scopes)
     ) as pool:
@@ -493,7 +678,8 @@ def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
             )
         )
     for scope in scopes:
-        rows, _, _ = results[scope]
+        rows, host, _ = results[scope]
+        hosts.add(host)
         rows = filter_scope_rows(scope, rows)
         for row in rows:
             entry = state["boards"].setdefault(
@@ -518,10 +704,18 @@ def append_live_boards(state: dict[str, Any], captured_at: datetime) -> None:
                 "breadth_pct": row.get("breadth_pct"),
             }
             entry["points"] = [points[key] for key in sorted(points)]
+    all_hosts = sorted(set(state.get("source_hosts") or []) | hosts)
+    state["source_hosts"] = all_hosts
+    if all(host.startswith("sina_") for host in all_hosts):
+        state["source"] = "新浪财经 MoneyFlow / 主力净流入"
+    elif any(host.startswith("sina_") for host in all_hosts):
+        state["source"] = "东方财富 + 新浪财经资金流备用源"
+    else:
+        state["source"] = "东方财富 clist f62 / 主力净流入"
 
 
 def append_live_market(state: dict[str, Any], captured_at: datetime) -> None:
-    stocks, _, _ = fetch_scope("stock")
+    stocks, host, _ = fetch_scope("stock")
     market = summarize_stocks(stocks)
     latest = {
         "time": captured_at.strftime("%H:%M:%S"),
@@ -534,6 +728,12 @@ def append_live_market(state: dict[str, Any], captured_at: datetime) -> None:
     }
     state["market_series"].append(latest)
     state["latest_stock_snapshot"] = latest
+    all_hosts = sorted(set(state.get("source_hosts") or []) | {host})
+    state["source_hosts"] = all_hosts
+    if all(item.startswith("sina_") for item in all_hosts):
+        state["source"] = "新浪财经 MoneyFlow / 主力净流入"
+    elif any(item.startswith("sina_") for item in all_hosts):
+        state["source"] = "东方财富 + 新浪财经资金流备用源"
 
 
 def live_summary(state: dict[str, Any]) -> dict[str, Any]:

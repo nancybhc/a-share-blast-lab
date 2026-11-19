@@ -47,6 +47,7 @@ EXCLUDED_NAMES = {
     "daily_postmarket_update.log",
     "daily_postmarket_status.json",
     ".daily_postmarket_update.lock",
+    ".eastmoney_backoff_until",
     "monitor_auto_schedule.log",
     "monitor_auto_schedule_status.json",
     "monitor_watchdog.log",
