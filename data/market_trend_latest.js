@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-20",
-  "generatedAt": "2026-11-20 09:52",
-  "reportGeneratedAt": "2026-11-20 09:52",
+  "generatedAt": "2026-11-20 09:53",
+  "reportGeneratedAt": "2026-11-20 09:53",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-20.xlsx",
@@ -14,7 +14,7 @@ window.MARKET_TREND_DATA = {
     "positiveGroups": 3,
     "negativeGroups": 11,
     "positiveTransitions": 15,
-    "negativeTransitions": 45
+    "negativeTransitions": 44
   },
   "phaseLegend": [
     {
@@ -1854,31 +1854,31 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-20",
       "total": 60,
       "bull": 0,
-      "turnBull": 4,
+      "turnBull": 5,
       "turnBear": 0,
-      "bear": 56,
+      "bear": 55,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 8,
+      "negative": 7,
       "bullPct": 0.0,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 1→0；空转多 11→4；多转空 0→0；空 48→56",
+      "change": "多 1→0；空转多 11→5；多转空 0→0；空 48→55",
       "id": "fintech",
       "code": "FINTECH",
-      "score": -13.3,
+      "score": -11.7,
       "fulfilled": 0,
-      "netBias": -56,
+      "netBias": -55,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
-      "setup": "4",
+      "setup": "5",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/60，空头 56；空转多候选 4，今日转多确认 0，反向转空 0。多 1→0；空转多 11→4；多转空 0→0；空 48→56，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 0/60，空头 55；空转多候选 5，今日转多确认 0，反向转空 0。多 1→0；空转多 11→5；多转空 0→0；空 48→55，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-12",
@@ -1932,9 +1932,9 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-20",
           "total": 60,
           "bull": 0,
-          "turnBull": 4,
+          "turnBull": 5,
           "turnBear": 0,
-          "bear": 56,
+          "bear": 55,
           "bullPct": 0.0
         }
       ]

@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T09:52:27+08:00",
+  "generated_at": "2026-11-20T09:54:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,65 +9,55 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.17,
+      "change_pct": -1.23,
       "constituents": 58,
-      "members": "大盘价值 -1.17%",
+      "members": "大盘价值 -1.23%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.57,
+      "change_pct": -1.72,
       "constituents": 53,
-      "members": "券商概念 -1.57%",
+      "members": "券商概念 -1.72%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": -1.84,
+      "constituents": 215,
+      "members": "PCB -1.84%",
+      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "EDA概念",
       "representative": "EDA概念",
-      "change_pct": -1.62,
+      "change_pct": -1.85,
       "constituents": 13,
-      "members": "EDA概念 -1.62%",
-      "rank": 3
+      "members": "EDA概念 -1.85%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -1.78,
+      "change_pct": -1.88,
       "constituents": 7,
-      "members": "低碳冶金 -1.78%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "中芯概念",
-      "representative": "中芯概念",
-      "change_pct": -1.78,
-      "constituents": 66,
-      "members": "中芯概念 -1.78%",
+      "members": "低碳冶金 -1.88%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "中芯概念",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 0.09,
-      "avg_rank": 4.0,
-      "latest_rank": 5,
-      "dates": "11-20、11-19、11-17"
-    },
-    {
       "theme": "大盘价值",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.16,
+      "avg_change_pct": -0.2,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -80,6 +70,16 @@ window.THEME_RADAR_DATA = {
       "avg_change_pct": 2.09,
       "avg_rank": 2.0,
       "latest_rank": 1,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "中芯概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.03,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-19、11-17"
     },
     {
@@ -97,9 +97,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.57,
+      "avg_change_pct": -1.72,
       "avg_rank": 2.0,
       "latest_rank": 2,
+      "dates": "11-20"
+    },
+    {
+      "theme": "PCB",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.84,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -107,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.62,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": -1.85,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -117,9 +127,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.78,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -1.88,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-20"
     },
     {
