@@ -1,20 +1,20 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-20",
-  "generatedAt": "2026-11-20 11:08",
-  "reportGeneratedAt": "2026-11-20 11:08",
+  "generatedAt": "2026-11-20 11:09",
+  "reportGeneratedAt": "2026-11-20 11:09",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-20.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-20.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-12 ~ 11-20）：空明显变多（+255 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 160→17 只、空 22→277 只、空转多 58→14、多转空 90→22｜存储 最明显：多 3→0 只、空 5→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-12 ~ 11-20）：空明显变多（+256 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 160→17 只、空 22→278 只、空转多 58→14、多转空 90→21｜存储 最明显：多 3→0 只、空 5→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 923,
     "positiveGroups": 3,
     "negativeGroups": 10,
-    "positiveTransitions": 16,
-    "negativeTransitions": 47
+    "positiveTransitions": 17,
+    "negativeTransitions": 46
   },
   "phaseLegend": [
     {
@@ -595,8 +595,8 @@ window.MARKET_TREND_DATA = {
       "total": 47,
       "bull": 0,
       "turnBull": 0,
-      "turnBear": 2,
-      "bear": 45,
+      "turnBear": 1,
+      "bear": 46,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
@@ -605,12 +605,12 @@ window.MARKET_TREND_DATA = {
       "bullPct": 0.0,
       "state": "结构分化",
       "action": "等下一次候选池方向变化",
-      "change": "多 0→0；空转多 0→0；多转空 1→2；空 46→45",
+      "change": "多 0→0；空转多 0→0；多转空 1→1；空 46→46",
       "id": "cpo",
       "code": "CPO",
       "score": 0.0,
       "fulfilled": 0,
-      "netBias": -45,
+      "netBias": -46,
       "phase": "结构分化",
       "badge": "临界观察",
       "tone": "amber",
@@ -618,7 +618,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/47，空头 45；空转多候选 0，今日转多确认 0，反向转空 2。多 0→0；空转多 0→0；多转空 1→2；空 46→45，等下一次候选池方向变化。",
+      "thesis": "多头 0/47，空头 46；空转多候选 0，今日转多确认 0，反向转空 1。多 0→0；空转多 0→0；多转空 1→1；空 46→46，等下一次候选池方向变化。",
       "history": [
         {
           "date": "2026-11-12",
@@ -673,8 +673,8 @@ window.MARKET_TREND_DATA = {
           "total": 47,
           "bull": 0,
           "turnBull": 0,
-          "turnBear": 2,
-          "bear": 45,
+          "turnBear": 1,
+          "bear": 46,
           "bullPct": 0.0
         }
       ]
@@ -1040,6 +1040,96 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
+      "name": "算力",
+      "date": "2026-11-20",
+      "total": 62,
+      "bull": 8,
+      "turnBull": 4,
+      "turnBear": 9,
+      "bear": 41,
+      "newBull": 3,
+      "confirm": 2,
+      "direct": 0,
+      "positive": 5,
+      "negative": 8,
+      "bullPct": 12.9,
+      "state": "转多确认",
+      "action": "修复进入确认，观察扩散",
+      "change": "多 10→8；空转多 5→4；多转空 7→9；空 40→41",
+      "id": "compute",
+      "code": "COMPUTE",
+      "score": -1.6,
+      "fulfilled": 2,
+      "netBias": -33,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "4",
+      "setupCaption": "空转多候选",
+      "confirmValue": "2",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 8/62，空头 41；空转多候选 4，今日转多确认 2，反向转空 9。多 10→8；空转多 5→4；多转空 7→9；空 40→41，修复进入确认，观察扩散。",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "bull": 20,
+          "turnBull": 1,
+          "turnBear": 38,
+          "bear": 3,
+          "bullPct": 32.26
+        },
+        {
+          "date": "2026-11-13",
+          "bull": 29,
+          "turnBull": 1,
+          "turnBear": 29,
+          "bear": 3,
+          "bullPct": 46.77
+        },
+        {
+          "date": "2026-11-16",
+          "bull": 13,
+          "turnBull": 1,
+          "turnBear": 30,
+          "bear": 18,
+          "bullPct": 20.97
+        },
+        {
+          "date": "2026-11-17",
+          "bull": 13,
+          "turnBull": 2,
+          "turnBear": 22,
+          "bear": 25,
+          "bullPct": 20.97
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 15,
+          "turnBull": 7,
+          "turnBear": 20,
+          "bear": 20,
+          "bullPct": 24.19
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 10,
+          "turnBull": 5,
+          "turnBear": 7,
+          "bear": 40,
+          "bullPct": 16.13
+        },
+        {
+          "date": "2026-11-20",
+          "total": 62,
+          "bull": 8,
+          "turnBull": 4,
+          "turnBear": 9,
+          "bear": 41,
+          "bullPct": 12.9
+        }
+      ]
+    },
+    {
       "name": "电网设备",
       "date": "2026-11-20",
       "total": 46,
@@ -1220,6 +1310,96 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
+      "name": "药",
+      "date": "2026-11-20",
+      "total": 99,
+      "bull": 2,
+      "turnBull": 4,
+      "turnBear": 3,
+      "bear": 90,
+      "newBull": 0,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 0,
+      "negative": 3,
+      "bullPct": 2.02,
+      "state": "转空扩散",
+      "action": "先处理跌破 MA5 / MA10 的标的",
+      "change": "多 5→2；空转多 4→4；多转空 2→3；空 88→90",
+      "id": "pharma",
+      "code": "PHARMA",
+      "score": -3.0,
+      "fulfilled": 0,
+      "netBias": -88,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "4",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 2/99，空头 90；空转多候选 4，今日转多确认 0，反向转空 3。多 5→2；空转多 4→4；多转空 2→3；空 88→90，先处理跌破 MA5 / MA10 的标的。",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "bull": 18,
+          "turnBull": 3,
+          "turnBear": 64,
+          "bear": 14,
+          "bullPct": 18.18
+        },
+        {
+          "date": "2026-11-13",
+          "bull": 11,
+          "turnBull": 10,
+          "turnBear": 40,
+          "bear": 38,
+          "bullPct": 11.11
+        },
+        {
+          "date": "2026-11-16",
+          "bull": 4,
+          "turnBull": 6,
+          "turnBear": 26,
+          "bear": 63,
+          "bullPct": 4.04
+        },
+        {
+          "date": "2026-11-17",
+          "bull": 3,
+          "turnBull": 6,
+          "turnBear": 25,
+          "bear": 65,
+          "bullPct": 3.03
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 6,
+          "turnBull": 3,
+          "turnBear": 5,
+          "bear": 85,
+          "bullPct": 6.06
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 5,
+          "turnBull": 4,
+          "turnBear": 2,
+          "bear": 88,
+          "bullPct": 5.05
+        },
+        {
+          "date": "2026-11-20",
+          "total": 99,
+          "bull": 2,
+          "turnBull": 4,
+          "turnBear": 3,
+          "bear": 90,
+          "bullPct": 2.02
+        }
+      ]
+    },
+    {
       "name": "军工",
       "date": "2026-11-20",
       "total": 29,
@@ -1396,186 +1576,6 @@ window.MARKET_TREND_DATA = {
           "turnBear": 3,
           "bear": 55,
           "bullPct": 0.0
-        }
-      ]
-    },
-    {
-      "name": "药",
-      "date": "2026-11-20",
-      "total": 99,
-      "bull": 2,
-      "turnBull": 4,
-      "turnBear": 2,
-      "bear": 91,
-      "newBull": 0,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 0,
-      "negative": 4,
-      "bullPct": 2.02,
-      "state": "转空扩散",
-      "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 5→2；空转多 4→4；多转空 2→2；空 88→91",
-      "id": "pharma",
-      "code": "PHARMA",
-      "score": -4.0,
-      "fulfilled": 0,
-      "netBias": -89,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "4",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/99，空头 91；空转多候选 4，今日转多确认 0，反向转空 2。多 5→2；空转多 4→4；多转空 2→2；空 88→91，先处理跌破 MA5 / MA10 的标的。",
-      "history": [
-        {
-          "date": "2026-11-12",
-          "bull": 18,
-          "turnBull": 3,
-          "turnBear": 64,
-          "bear": 14,
-          "bullPct": 18.18
-        },
-        {
-          "date": "2026-11-13",
-          "bull": 11,
-          "turnBull": 10,
-          "turnBear": 40,
-          "bear": 38,
-          "bullPct": 11.11
-        },
-        {
-          "date": "2026-11-16",
-          "bull": 4,
-          "turnBull": 6,
-          "turnBear": 26,
-          "bear": 63,
-          "bullPct": 4.04
-        },
-        {
-          "date": "2026-11-17",
-          "bull": 3,
-          "turnBull": 6,
-          "turnBear": 25,
-          "bear": 65,
-          "bullPct": 3.03
-        },
-        {
-          "date": "2026-11-18",
-          "bull": 6,
-          "turnBull": 3,
-          "turnBear": 5,
-          "bear": 85,
-          "bullPct": 6.06
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 5,
-          "turnBull": 4,
-          "turnBear": 2,
-          "bear": 88,
-          "bullPct": 5.05
-        },
-        {
-          "date": "2026-11-20",
-          "total": 99,
-          "bull": 2,
-          "turnBull": 4,
-          "turnBear": 2,
-          "bear": 91,
-          "bullPct": 2.02
-        }
-      ]
-    },
-    {
-      "name": "算力",
-      "date": "2026-11-20",
-      "total": 62,
-      "bull": 7,
-      "turnBull": 5,
-      "turnBear": 9,
-      "bear": 41,
-      "newBull": 3,
-      "confirm": 1,
-      "direct": 0,
-      "positive": 4,
-      "negative": 8,
-      "bullPct": 11.29,
-      "state": "转多确认",
-      "action": "修复进入确认，观察扩散",
-      "change": "多 10→7；空转多 5→5；多转空 7→9；空 40→41",
-      "id": "compute",
-      "code": "COMPUTE",
-      "score": -4.8,
-      "fulfilled": 1,
-      "netBias": -34,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "5",
-      "setupCaption": "空转多候选",
-      "confirmValue": "1",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 7/62，空头 41；空转多候选 5，今日转多确认 1，反向转空 9。多 10→7；空转多 5→5；多转空 7→9；空 40→41，修复进入确认，观察扩散。",
-      "history": [
-        {
-          "date": "2026-11-12",
-          "bull": 20,
-          "turnBull": 1,
-          "turnBear": 38,
-          "bear": 3,
-          "bullPct": 32.26
-        },
-        {
-          "date": "2026-11-13",
-          "bull": 29,
-          "turnBull": 1,
-          "turnBear": 29,
-          "bear": 3,
-          "bullPct": 46.77
-        },
-        {
-          "date": "2026-11-16",
-          "bull": 13,
-          "turnBull": 1,
-          "turnBear": 30,
-          "bear": 18,
-          "bullPct": 20.97
-        },
-        {
-          "date": "2026-11-17",
-          "bull": 13,
-          "turnBull": 2,
-          "turnBear": 22,
-          "bear": 25,
-          "bullPct": 20.97
-        },
-        {
-          "date": "2026-11-18",
-          "bull": 15,
-          "turnBull": 7,
-          "turnBear": 20,
-          "bear": 20,
-          "bullPct": 24.19
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 10,
-          "turnBull": 5,
-          "turnBear": 7,
-          "bear": 40,
-          "bullPct": 16.13
-        },
-        {
-          "date": "2026-11-20",
-          "total": 62,
-          "bull": 7,
-          "turnBull": 5,
-          "turnBear": 9,
-          "bear": 41,
-          "bullPct": 11.29
         }
       ]
     },
@@ -1968,11 +1968,11 @@ window.MARKET_TREND_DATA = {
         "name": "算力",
         "group_id": "compute",
         "color": "#187348",
-        "delta": -2,
+        "delta": -3,
         "values": [
           7,
           5,
-          5
+          4
         ]
       }
     ]
