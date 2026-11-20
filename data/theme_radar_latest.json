@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T13:04:27+08:00",
+  "generated_at": "2026-11-20T13:06:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "托育服务",
       "representative": "托育服务",
-      "change_pct": 1.49,
+      "change_pct": 1.59,
       "constituents": 6,
-      "members": "托育服务 +1.49%",
+      "members": "托育服务 +1.59%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.54,
+      "change_pct": 0.71,
       "constituents": 18,
-      "members": "水产概念 +0.54%",
+      "members": "水产概念 +0.71%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.34,
+      "change_pct": 0.5,
       "constituents": 39,
-      "members": "猪肉概念 +0.34%",
+      "members": "猪肉概念 +0.50%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.3,
+      "change_pct": 0.46,
       "constituents": 20,
-      "members": "鸡肉概念 +0.30%",
+      "members": "鸡肉概念 +0.46%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "转基因",
-      "representative": "转基因",
-      "change_pct": 0.27,
-      "constituents": 20,
-      "members": "转基因 +0.27%",
+      "theme": "网红经济/谷子经济/首发经济",
+      "representative": "盲盒经济",
+      "change_pct": 0.38,
+      "constituents": 224,
+      "members": "盲盒经济 +0.38% / 谷子经济 -1.01% / 首发经济 -1.43% / 网红经济 -1.90%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.49,
+      "avg_change_pct": 1.59,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.54,
+      "avg_change_pct": 0.71,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.34,
+      "avg_change_pct": 0.5,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,17 +117,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.3,
+      "avg_change_pct": 0.46,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "转基因",
+      "theme": "网红经济/谷子经济/首发经济",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.27,
+      "avg_change_pct": 0.38,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
