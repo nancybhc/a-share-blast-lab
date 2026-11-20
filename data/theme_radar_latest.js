@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:12:28+08:00",
+  "generated_at": "2026-11-20T10:14:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -1.36,
+      "change_pct": -1.31,
       "constituents": 20,
-      "members": "转基因 -1.36%",
+      "members": "转基因 -1.31%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.39,
+      "change_pct": -1.35,
       "constituents": 58,
-      "members": "大盘价值 -1.39%",
+      "members": "大盘价值 -1.35%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "券商概念",
-      "representative": "券商概念",
-      "change_pct": -2.01,
-      "constituents": 53,
-      "members": "券商概念 -2.01%",
-      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -2.03,
+      "change_pct": -1.89,
       "constituents": 7,
-      "members": "低碳冶金 -2.03%",
+      "members": "低碳冶金 -1.89%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "券商概念",
+      "representative": "券商概念",
+      "change_pct": -1.93,
+      "constituents": 53,
+      "members": "券商概念 -1.93%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -2.11,
+      "change_pct": -2.03,
       "constituents": 37,
-      "members": "粮食概念 -2.11%",
+      "members": "粮食概念 -2.03%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.27,
+      "avg_change_pct": -0.26,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20、11-16"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.36,
+      "avg_change_pct": -1.31,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-20"
-    },
-    {
-      "theme": "券商概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -2.01,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.03,
+      "avg_change_pct": -1.89,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "券商概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.93,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.11,
+      "avg_change_pct": -2.03,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
