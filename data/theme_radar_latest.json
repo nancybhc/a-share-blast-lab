@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:33:29+08:00",
+  "generated_at": "2026-11-20T10:34:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.28,
+      "change_pct": -0.25,
       "constituents": 20,
-      "members": "转基因 -0.28%",
+      "members": "转基因 -0.25%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "粮食概念",
-      "representative": "粮食概念",
-      "change_pct": -1.4,
-      "constituents": 37,
-      "members": "粮食概念 -1.40%",
-      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -1.44,
+      "change_pct": -1.43,
       "constituents": 20,
-      "members": "鸡肉概念 -1.44%",
-      "rank": 3
+      "members": "鸡肉概念 -1.43%",
+      "rank": 2
     },
     {
       "date": "2026-11-20",
-      "theme": "大盘价值",
-      "representative": "大盘价值",
-      "change_pct": -1.53,
-      "constituents": 58,
-      "members": "大盘价值 -1.53%",
-      "rank": 4
+      "theme": "粮食概念",
+      "representative": "粮食概念",
+      "change_pct": -1.45,
+      "constituents": 37,
+      "members": "粮食概念 -1.45%",
+      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.55,
+      "change_pct": -1.56,
       "constituents": 53,
-      "members": "券商概念 -1.55%",
+      "members": "券商概念 -1.56%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": -1.58,
+      "constituents": 58,
+      "members": "大盘价值 -1.58%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.35,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
+      "avg_change_pct": -0.37,
+      "avg_rank": 3.5,
+      "latest_rank": 5,
       "dates": "11-20、11-16"
     },
     {
@@ -97,19 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.28,
+      "avg_change_pct": -0.25,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-20"
-    },
-    {
-      "theme": "粮食概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.4,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-20"
     },
     {
@@ -117,7 +107,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.44,
+      "avg_change_pct": -1.43,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-20"
+    },
+    {
+      "theme": "粮食概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.45,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -127,9 +127,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.55,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": -1.56,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
