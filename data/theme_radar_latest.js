@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:08:29+08:00",
+  "generated_at": "2026-11-20T10:09:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -1.35,
+      "change_pct": -1.23,
       "constituents": 20,
-      "members": "转基因 -1.35%",
+      "members": "转基因 -1.23%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.39,
+      "change_pct": -1.37,
       "constituents": 58,
-      "members": "大盘价值 -1.39%",
+      "members": "大盘价值 -1.37%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.96,
+      "change_pct": -1.95,
       "constituents": 53,
-      "members": "券商概念 -1.96%",
+      "members": "券商概念 -1.95%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -2.03,
+      "change_pct": -2.08,
       "constituents": 7,
-      "members": "低碳冶金 -2.03%",
+      "members": "低碳冶金 -2.08%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "券商金股",
       "representative": "券商金股",
-      "change_pct": -2.07,
+      "change_pct": -2.1,
       "constituents": 30,
-      "members": "券商金股 -2.07%",
+      "members": "券商金股 -2.10%",
       "rank": 5
     }
   ],
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.35,
+      "avg_change_pct": -1.23,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.96,
+      "avg_change_pct": -1.95,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.03,
+      "avg_change_pct": -2.08,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.07,
+      "avg_change_pct": -2.1,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
