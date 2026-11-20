@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T14:43:28+08:00",
+  "generated_at": "2026-11-20T14:44:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,28 +9,37 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -0.84,
+      "change_pct": -0.76,
       "constituents": 58,
-      "members": "大盘价值 -0.84%",
+      "members": "大盘价值 -0.76%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "低碳冶金",
-      "representative": "低碳冶金",
-      "change_pct": -0.88,
-      "constituents": 7,
-      "members": "低碳冶金 -0.88%",
-      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.95,
+      "change_pct": -0.88,
       "constituents": 20,
-      "members": "转基因 -0.95%",
+      "members": "转基因 -0.88%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "托育服务",
+      "representative": "托育服务",
+      "change_pct": -0.9,
+      "constituents": 6,
+      "members": "托育服务 -0.90%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "低碳冶金",
+      "representative": "低碳冶金",
+      "change_pct": -0.93,
+      "constituents": 7,
+      "members": "低碳冶金 -0.93%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
@@ -39,15 +48,6 @@ window.THEME_RADAR_DATA = {
       "change_pct": -0.96,
       "constituents": 39,
       "members": "猪肉概念 -0.96%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "托育服务",
-      "representative": "托育服务",
-      "change_pct": -0.99,
-      "constituents": 6,
-      "members": "托育服务 -0.99%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.0,
+      "avg_change_pct": 0.04,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -93,7 +93,7 @@ window.THEME_RADAR_DATA = {
       "dates": "11-19、11-17"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "转基因",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -103,13 +103,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-20"
     },
     {
-      "theme": "转基因",
+      "theme": "托育服务",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.95,
+      "avg_change_pct": -0.9,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "低碳冶金",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.93,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -118,16 +128,6 @@ window.THEME_RADAR_DATA = {
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": -0.96,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
-    },
-    {
-      "theme": "托育服务",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.99,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
