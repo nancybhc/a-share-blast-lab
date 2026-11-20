@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T14:50:24+08:00",
+  "generated_at": "2026-11-20T14:52:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -0.39,
+      "change_pct": -0.5,
       "constituents": 58,
-      "members": "大盘价值 -0.39%",
+      "members": "大盘价值 -0.50%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
-      "theme": "转基因",
-      "representative": "转基因",
-      "change_pct": -0.81,
+      "theme": "鸡肉概念",
+      "representative": "鸡肉概念",
+      "change_pct": -0.93,
       "constituents": 20,
-      "members": "转基因 -0.81%",
+      "members": "鸡肉概念 -0.93%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": -0.82,
+      "change_pct": -0.95,
       "constituents": 39,
-      "members": "猪肉概念 -0.82%",
+      "members": "猪肉概念 -0.95%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "转基因",
+      "representative": "转基因",
+      "change_pct": -0.96,
+      "constituents": 20,
+      "members": "转基因 -0.96%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -0.83,
+      "change_pct": -1.04,
       "constituents": 7,
-      "members": "低碳冶金 -0.83%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": -0.83,
-      "constituents": 20,
-      "members": "鸡肉概念 -0.83%",
+      "members": "低碳冶金 -1.04%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.22,
+      "avg_change_pct": 0.17,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -93,11 +93,11 @@
       "dates": "11-19、11-17"
     },
     {
-      "theme": "转基因",
+      "theme": "鸡肉概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.81,
+      "avg_change_pct": -0.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,9 +107,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.82,
+      "avg_change_pct": -0.95,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "转基因",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.96,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -117,17 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.83,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.83,
+      "avg_change_pct": -1.04,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
