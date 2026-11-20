@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:40:30+08:00",
+  "generated_at": "2026-11-20T10:41:30+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.0,
+      "change_pct": 0.21,
       "constituents": 20,
-      "members": "转基因 +0.00%",
+      "members": "转基因 +0.21%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "裸眼3D",
       "representative": "裸眼3D",
-      "change_pct": -1.13,
+      "change_pct": -0.74,
       "constituents": 24,
-      "members": "裸眼3D -1.13%",
+      "members": "裸眼3D -0.74%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "粮食概念",
-      "representative": "粮食概念",
-      "change_pct": -1.14,
-      "constituents": 37,
-      "members": "粮食概念 -1.14%",
-      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -1.19,
+      "change_pct": -0.83,
       "constituents": 20,
-      "members": "鸡肉概念 -1.19%",
+      "members": "鸡肉概念 -0.83%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "粮食概念",
+      "representative": "粮食概念",
+      "change_pct": -0.89,
+      "constituents": 37,
+      "members": "粮食概念 -0.89%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "低碳冶金",
-      "representative": "低碳冶金",
-      "change_pct": -1.21,
-      "constituents": 7,
-      "members": "低碳冶金 -1.21%",
+      "theme": "猪肉概念",
+      "representative": "猪肉概念",
+      "change_pct": -0.99,
+      "constituents": 39,
+      "members": "猪肉概念 -0.99%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.0,
+      "avg_change_pct": 0.21,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.13,
+      "avg_change_pct": -0.74,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-20"
-    },
-    {
-      "theme": "粮食概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.14,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -117,17 +107,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.19,
+      "avg_change_pct": -0.83,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "粮食概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.89,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "猪肉概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.21,
+      "avg_change_pct": -0.99,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
