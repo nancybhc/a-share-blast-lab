@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T11:00:27+08:00",
+  "generated_at": "2026-11-20T11:01:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.57,
+      "change_pct": 0.6,
       "constituents": 20,
-      "members": "转基因 +0.57%",
+      "members": "转基因 +0.60%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.27,
+      "change_pct": 0.15,
       "constituents": 20,
-      "members": "鸡肉概念 +0.27%",
+      "members": "鸡肉概念 +0.15%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.25,
+      "change_pct": 0.11,
       "constituents": 39,
-      "members": "猪肉概念 +0.25%",
+      "members": "猪肉概念 +0.11%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "裸眼3D",
       "representative": "裸眼3D",
-      "change_pct": 0.11,
+      "change_pct": -0.12,
       "constituents": 24,
-      "members": "裸眼3D +0.11%",
+      "members": "裸眼3D -0.12%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "网红经济/谷子经济/首发经济",
-      "representative": "盲盒经济",
-      "change_pct": -0.23,
-      "constituents": 224,
-      "members": "盲盒经济 -0.23% / 首发经济 -1.63% / 谷子经济 -1.87% / 网红经济 -2.31%",
+      "theme": "粮食概念",
+      "representative": "粮食概念",
+      "change_pct": -0.27,
+      "constituents": 37,
+      "members": "粮食概念 -0.27%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.57,
+      "avg_change_pct": 0.6,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.27,
+      "avg_change_pct": 0.15,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.25,
+      "avg_change_pct": 0.11,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,17 +117,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.11,
+      "avg_change_pct": -0.12,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "网红经济/谷子经济/首发经济",
+      "theme": "粮食概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.23,
+      "avg_change_pct": -0.27,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
