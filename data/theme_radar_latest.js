@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T11:30:27+08:00",
+  "generated_at": "2026-11-20T11:31:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -36,9 +36,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.13,
+      "change_pct": 1.14,
       "constituents": 39,
-      "members": "猪肉概念 +1.13%",
+      "members": "猪肉概念 +1.14%",
       "rank": 4
     },
     {
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.13,
+      "avg_change_pct": 1.14,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
