@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T13:16:28+08:00",
+  "generated_at": "2026-11-20T13:17:30+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,36 +9,36 @@
       "date": "2026-11-20",
       "theme": "托育服务",
       "representative": "托育服务",
-      "change_pct": 0.76,
+      "change_pct": 0.69,
       "constituents": 6,
-      "members": "托育服务 +0.76%",
+      "members": "托育服务 +0.69%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.29,
+      "change_pct": 0.21,
       "constituents": 18,
-      "members": "水产概念 +0.29%",
+      "members": "水产概念 +0.21%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": 0.25,
+      "change_pct": 0.11,
       "constituents": 20,
-      "members": "鸡肉概念 +0.25%",
+      "members": "鸡肉概念 +0.11%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.12,
+      "change_pct": 0.08,
       "constituents": 39,
-      "members": "猪肉概念 +0.12%",
+      "members": "猪肉概念 +0.08%",
       "rank": 4
     },
     {
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.76,
+      "avg_change_pct": 0.69,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.29,
+      "avg_change_pct": 0.21,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.25,
+      "avg_change_pct": 0.11,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.12,
+      "avg_change_pct": 0.08,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
