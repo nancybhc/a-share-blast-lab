@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:34:29+08:00",
+  "generated_at": "2026-11-20T10:35:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,59 +9,49 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.25,
+      "change_pct": -0.19,
       "constituents": 20,
-      "members": "转基因 -0.25%",
+      "members": "转基因 -0.19%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -1.43,
+      "change_pct": -1.32,
       "constituents": 20,
-      "members": "鸡肉概念 -1.43%",
+      "members": "鸡肉概念 -1.32%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -1.45,
+      "change_pct": -1.34,
       "constituents": 37,
-      "members": "粮食概念 -1.45%",
+      "members": "粮食概念 -1.34%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
-      "theme": "券商概念",
-      "representative": "券商概念",
-      "change_pct": -1.56,
-      "constituents": 53,
-      "members": "券商概念 -1.56%",
+      "theme": "裸眼3D",
+      "representative": "裸眼3D",
+      "change_pct": -1.38,
+      "constituents": 24,
+      "members": "裸眼3D -1.38%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "大盘价值",
-      "representative": "大盘价值",
-      "change_pct": -1.58,
-      "constituents": 58,
-      "members": "大盘价值 -1.58%",
+      "theme": "低碳冶金",
+      "representative": "低碳冶金",
+      "change_pct": -1.49,
+      "constituents": 7,
+      "members": "低碳冶金 -1.49%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "大盘价值",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": -0.37,
-      "avg_rank": 3.5,
-      "latest_rank": 5,
-      "dates": "11-20、11-16"
-    },
     {
       "theme": "第四代半导体",
       "current_streak": 0,
@@ -97,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.25,
+      "avg_change_pct": -0.19,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -107,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.43,
+      "avg_change_pct": -1.32,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -117,19 +107,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.45,
+      "avg_change_pct": -1.34,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
     },
     {
-      "theme": "券商概念",
+      "theme": "裸眼3D",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.56,
+      "avg_change_pct": -1.38,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "低碳冶金",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.49,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-20"
     },
     {
@@ -181,6 +181,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
+    },
+    {
+      "theme": "大盘价值",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.84,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-16"
     },
     {
       "theme": "F5G概念",
