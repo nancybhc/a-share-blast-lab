@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T14:30:24+08:00",
+  "generated_at": "2026-11-20T14:31:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,49 +9,59 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "托育服务",
       "representative": "托育服务",
-      "change_pct": -0.61,
+      "change_pct": -0.69,
       "constituents": 6,
-      "members": "托育服务 -0.61%",
+      "members": "托育服务 -0.69%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.69,
+      "change_pct": -0.75,
       "constituents": 20,
-      "members": "转基因 -0.69%",
+      "members": "转基因 -0.75%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": -0.82,
+      "change_pct": -0.87,
       "constituents": 39,
-      "members": "猪肉概念 -0.82%",
+      "members": "猪肉概念 -0.87%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": -0.88,
-      "constituents": 20,
-      "members": "鸡肉概念 -0.88%",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": -0.95,
+      "constituents": 58,
+      "members": "大盘价值 -0.95%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": -0.88,
+      "change_pct": -0.95,
       "constituents": 18,
-      "members": "水产概念 -0.88%",
+      "members": "水产概念 -0.95%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "大盘价值",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": -0.05,
+      "avg_rank": 3.0,
+      "latest_rank": 4,
+      "dates": "11-20、11-16"
+    },
     {
       "theme": "第四代半导体",
       "current_streak": 0,
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.61,
+      "avg_change_pct": -0.69,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.69,
+      "avg_change_pct": -0.75,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,19 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.82,
+      "avg_change_pct": -0.87,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-20"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.88,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.88,
+      "avg_change_pct": -0.95,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
@@ -181,16 +181,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.84,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-16"
     },
     {
       "theme": "F5G概念",
