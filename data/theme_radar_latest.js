@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:57:28+08:00",
+  "generated_at": "2026-11-20T10:59:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.73,
+      "change_pct": 0.64,
       "constituents": 20,
-      "members": "转基因 +0.73%",
+      "members": "转基因 +0.64%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": 0.67,
-      "constituents": 20,
-      "members": "鸡肉概念 +0.67%",
-      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 0.57,
+      "change_pct": 0.48,
       "constituents": 39,
-      "members": "猪肉概念 +0.57%",
+      "members": "猪肉概念 +0.48%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "鸡肉概念",
+      "representative": "鸡肉概念",
+      "change_pct": 0.44,
+      "constituents": 20,
+      "members": "鸡肉概念 +0.44%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "裸眼3D",
       "representative": "裸眼3D",
-      "change_pct": 0.09,
+      "change_pct": 0.07,
       "constituents": 24,
-      "members": "裸眼3D +0.09%",
+      "members": "裸眼3D +0.07%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -0.19,
+      "change_pct": -0.25,
       "constituents": 37,
-      "members": "粮食概念 -0.19%",
+      "members": "粮食概念 -0.25%",
       "rank": 5
     }
   ],
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.73,
+      "avg_change_pct": 0.64,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-20"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.67,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-20"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.57,
+      "avg_change_pct": 0.48,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-20"
+    },
+    {
+      "theme": "鸡肉概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.44,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.09,
+      "avg_change_pct": 0.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.19,
+      "avg_change_pct": -0.25,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
