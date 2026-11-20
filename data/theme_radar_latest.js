@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T09:45:45+08:00",
+  "generated_at": "2026-11-20T09:46:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "EDA概念",
       "representative": "EDA概念",
-      "change_pct": -1.02,
+      "change_pct": -1.06,
       "constituents": 13,
-      "members": "EDA概念 -1.02%",
+      "members": "EDA概念 -1.06%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.08,
+      "change_pct": -1.09,
       "constituents": 58,
-      "members": "大盘价值 -1.08%",
+      "members": "大盘价值 -1.09%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": -1.3,
+      "change_pct": -1.23,
       "constituents": 66,
-      "members": "中芯概念 -1.30%",
+      "members": "中芯概念 -1.23%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "化工原料/煤化工概念/磷化工",
       "representative": "煤化工概念",
-      "change_pct": -1.41,
+      "change_pct": -1.33,
       "constituents": 221,
-      "members": "煤化工概念 -1.41% / 化工原料 -2.10% / 磷化工 -2.47% / 氟化工概念 -2.56%",
+      "members": "煤化工概念 -1.33% / 化工原料 -2.02% / 磷化工 -2.45% / 氟化工概念 -2.57%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": -1.42,
-      "constituents": 10,
-      "members": "纳米银 -1.42%",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": -1.33,
+      "constituents": 215,
+      "members": "PCB -1.33%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 0.25,
+      "avg_change_pct": 0.28,
       "avg_rank": 3.3,
       "latest_rank": 3,
       "dates": "11-20、11-19、11-17"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.12,
+      "avg_change_pct": -0.13,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20、11-16"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -1.06,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -107,17 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.41,
+      "avg_change_pct": -1.33,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "纳米银",
+      "theme": "PCB",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.42,
+      "avg_change_pct": -1.33,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
