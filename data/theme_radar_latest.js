@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T14:06:28+08:00",
+  "generated_at": "2026-11-20T14:07:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "托育服务",
       "representative": "托育服务",
-      "change_pct": -0.12,
+      "change_pct": -0.16,
       "constituents": 6,
-      "members": "托育服务 -0.12%",
+      "members": "托育服务 -0.16%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.29,
+      "change_pct": -0.4,
       "constituents": 20,
-      "members": "转基因 -0.29%",
+      "members": "转基因 -0.40%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": -0.3,
+      "change_pct": -0.43,
       "constituents": 39,
-      "members": "猪肉概念 -0.30%",
+      "members": "猪肉概念 -0.43%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -0.33,
+      "change_pct": -0.44,
       "constituents": 20,
-      "members": "鸡肉概念 -0.33%",
+      "members": "鸡肉概念 -0.44%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": -0.37,
+      "change_pct": -0.47,
       "constituents": 18,
-      "members": "水产概念 -0.37%",
+      "members": "水产概念 -0.47%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.12,
+      "avg_change_pct": -0.16,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.29,
+      "avg_change_pct": -0.4,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.3,
+      "avg_change_pct": -0.43,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.33,
+      "avg_change_pct": -0.44,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.37,
+      "avg_change_pct": -0.47,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
