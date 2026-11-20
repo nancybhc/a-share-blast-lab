@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:44:43+08:00",
+  "generated_at": "2026-11-20T10:46:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.28,
+      "change_pct": 0.35,
       "constituents": 20,
-      "members": "转基因 +0.28%",
+      "members": "转基因 +0.35%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "裸眼3D",
       "representative": "裸眼3D",
-      "change_pct": -0.13,
+      "change_pct": 0.18,
       "constituents": 24,
-      "members": "裸眼3D -0.13%",
+      "members": "裸眼3D +0.18%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "网红经济/谷子经济/首发经济",
-      "representative": "盲盒经济",
-      "change_pct": -0.53,
-      "constituents": 224,
-      "members": "盲盒经济 -0.53% / 首发经济 -1.82% / 谷子经济 -2.23% / 网红经济 -2.55%",
-      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -0.56,
+      "change_pct": -0.32,
       "constituents": 20,
-      "members": "鸡肉概念 -0.56%",
+      "members": "鸡肉概念 -0.32%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "网红经济/谷子经济/首发经济",
+      "representative": "盲盒经济",
+      "change_pct": -0.37,
+      "constituents": 224,
+      "members": "盲盒经济 -0.37% / 首发经济 -1.59% / 谷子经济 -2.02% / 网红经济 -2.40%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": -0.7,
+      "change_pct": -0.42,
       "constituents": 39,
-      "members": "猪肉概念 -0.70%",
+      "members": "猪肉概念 -0.42%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.28,
+      "avg_change_pct": 0.35,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.13,
+      "avg_change_pct": 0.18,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-20"
-    },
-    {
-      "theme": "网红经济/谷子经济/首发经济",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.53,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.56,
+      "avg_change_pct": -0.32,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "网红经济/谷子经济/首发经济",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.37,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
@@ -127,7 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.7,
+      "avg_change_pct": -0.42,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
