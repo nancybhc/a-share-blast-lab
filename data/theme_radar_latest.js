@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:11:44+08:00",
+  "generated_at": "2026-11-20T10:12:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -1.28,
+      "change_pct": -1.36,
       "constituents": 20,
-      "members": "转基因 -1.28%",
+      "members": "转基因 -1.36%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.98,
+      "change_pct": -2.01,
       "constituents": 53,
-      "members": "券商概念 -1.98%",
+      "members": "券商概念 -2.01%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "低碳冶金",
+      "representative": "低碳冶金",
+      "change_pct": -2.03,
+      "constituents": 7,
+      "members": "低碳冶金 -2.03%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -2.04,
+      "change_pct": -2.11,
       "constituents": 37,
-      "members": "粮食概念 -2.04%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "券商金股",
-      "representative": "券商金股",
-      "change_pct": -2.08,
-      "constituents": 30,
-      "members": "券商金股 -2.08%",
+      "members": "粮食概念 -2.11%",
       "rank": 5
     }
   ],
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.28,
+      "avg_change_pct": -1.36,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -107,9 +107,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.98,
+      "avg_change_pct": -2.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "低碳冶金",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -2.03,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -117,17 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.04,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
-    },
-    {
-      "theme": "券商金股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -2.08,
+      "avg_change_pct": -2.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
