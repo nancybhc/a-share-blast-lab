@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:03:27+08:00",
+  "generated_at": "2026-11-20T10:04:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.27,
+      "change_pct": -1.21,
       "constituents": 58,
-      "members": "大盘价值 -1.27%",
+      "members": "大盘价值 -1.21%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "PCB",
-      "representative": "PCB",
-      "change_pct": -1.74,
-      "constituents": 215,
-      "members": "PCB -1.74%",
-      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -1.79,
+      "change_pct": -1.57,
       "constituents": 20,
-      "members": "转基因 -1.79%",
+      "members": "转基因 -1.57%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "低碳冶金",
+      "representative": "低碳冶金",
+      "change_pct": -1.88,
+      "constituents": 7,
+      "members": "低碳冶金 -1.88%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": -1.94,
+      "constituents": 215,
+      "members": "PCB -1.94%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.85,
+      "change_pct": -1.96,
       "constituents": 53,
-      "members": "券商概念 -1.85%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "券商金股",
-      "representative": "券商金股",
-      "change_pct": -1.97,
-      "constituents": 30,
-      "members": "券商金股 -1.97%",
+      "members": "券商概念 -1.96%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.22,
+      "avg_change_pct": -0.18,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -93,23 +93,33 @@
       "dates": "11-19、11-17"
     },
     {
-      "theme": "PCB",
+      "theme": "转基因",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.74,
+      "avg_change_pct": -1.57,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
     },
     {
-      "theme": "转基因",
+      "theme": "低碳冶金",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.79,
+      "avg_change_pct": -1.88,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "PCB",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.94,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -117,17 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.85,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
-    },
-    {
-      "theme": "券商金股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.97,
+      "avg_change_pct": -1.96,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
