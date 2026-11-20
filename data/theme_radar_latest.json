@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:37:30+08:00",
+  "generated_at": "2026-11-20T10:39:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": 0.05,
+      "change_pct": 0.09,
       "constituents": 20,
-      "members": "转基因 +0.05%",
+      "members": "转基因 +0.09%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "裸眼3D",
+      "representative": "裸眼3D",
+      "change_pct": -1.07,
+      "constituents": 24,
+      "members": "裸眼3D -1.07%",
+      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -1.13,
+      "change_pct": -1.09,
       "constituents": 37,
-      "members": "粮食概念 -1.13%",
-      "rank": 2
+      "members": "粮食概念 -1.09%",
+      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -1.22,
+      "change_pct": -1.26,
       "constituents": 20,
-      "members": "鸡肉概念 -1.22%",
-      "rank": 3
+      "members": "鸡肉概念 -1.26%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -1.24,
-      "constituents": 7,
-      "members": "低碳冶金 -1.24%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
       "change_pct": -1.33,
-      "constituents": 39,
-      "members": "猪肉概念 -1.33%",
+      "constituents": 7,
+      "members": "低碳冶金 -1.33%",
       "rank": 5
     }
   ],
@@ -87,9 +87,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.05,
+      "avg_change_pct": 0.09,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-20"
+    },
+    {
+      "theme": "裸眼3D",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.07,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-20"
     },
     {
@@ -97,9 +107,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.13,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": -1.09,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -107,23 +117,13 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.22,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-20"
-    },
-    {
-      "theme": "低碳冶金",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.24,
+      "avg_change_pct": -1.26,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "猪肉概念",
+      "theme": "低碳冶金",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
