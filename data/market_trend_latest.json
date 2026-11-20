@@ -1,20 +1,20 @@
 {
   "dataDate": "2026-11-20",
-  "generatedAt": "2026-11-20 10:00",
-  "reportGeneratedAt": "2026-11-20 10:00",
+  "generatedAt": "2026-11-20 10:02",
+  "reportGeneratedAt": "2026-11-20 10:02",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-20.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-20.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-12 ~ 11-20）：空明显变多（+257 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 160→19 只、空 22→279 只、空转多 58→13、多转空 90→19｜存储 最明显：多 3→0 只、空 5→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-12 ~ 11-20）：空明显变多（+252 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 160→21 只、空 22→274 只、空转多 58→15、多转空 90→20｜存储 最明显：多 3→0 只、空 5→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 923,
-    "positiveGroups": 2,
+    "positiveGroups": 3,
     "negativeGroups": 11,
-    "positiveTransitions": 15,
-    "negativeTransitions": 50
+    "positiveTransitions": 16,
+    "negativeTransitions": 46
   },
   "phaseLegend": [
     {
@@ -54,9 +54,9 @@
       "date": "2026-11-20",
       "total": 69,
       "bull": 1,
-      "turnBull": 4,
+      "turnBull": 5,
       "turnBear": 5,
-      "bear": 59,
+      "bear": 58,
       "newBull": 4,
       "confirm": 0,
       "direct": 0,
@@ -65,20 +65,20 @@
       "bullPct": 1.45,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→1；空转多 0→4；多转空 2→5；空 66→59",
+      "change": "多 1→1；空转多 0→5；多转空 2→5；空 66→58",
       "id": "pcb",
       "code": "PCB",
       "score": 5.8,
       "fulfilled": 0,
-      "netBias": -58,
+      "netBias": -57,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "4",
+      "setup": "5",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/69，空头 59；空转多候选 4，今日转多确认 0，反向转空 5。多 1→1；空转多 0→4；多转空 2→5；空 66→59，候选回升，等待 5破10 推进。",
+      "thesis": "多头 1/69，空头 58；空转多候选 5，今日转多确认 0，反向转空 5。多 1→1；空转多 0→5；多转空 2→5；空 66→58，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-12",
@@ -132,9 +132,9 @@
           "date": "2026-11-20",
           "total": 69,
           "bull": 1,
-          "turnBull": 4,
+          "turnBull": 5,
           "turnBear": 5,
-          "bear": 59,
+          "bear": 58,
           "bullPct": 1.45
         }
       ]
@@ -233,32 +233,32 @@
       "name": "半导体上游",
       "date": "2026-11-20",
       "total": 49,
-      "bull": 4,
-      "turnBull": 4,
-      "turnBear": 3,
-      "bear": 38,
+      "bull": 5,
+      "turnBull": 3,
+      "turnBear": 4,
+      "bear": 37,
       "newBull": 1,
       "confirm": 1,
       "direct": 0,
       "positive": 2,
-      "negative": 3,
-      "bullPct": 8.16,
+      "negative": 2,
+      "bullPct": 10.2,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 7→4；空转多 3→4；多转空 2→3；空 38→38",
+      "change": "多 7→5；空转多 3→3；多转空 2→4；空 38→37",
       "id": "semiconductor-upstream",
       "code": "SEMI MATERIALS",
-      "score": 0.0,
+      "score": 2.0,
       "fulfilled": 1,
-      "netBias": -34,
-      "phase": "结构分化",
-      "badge": "临界观察",
+      "netBias": -32,
+      "phase": "温和修复",
+      "badge": "边际改善",
       "tone": "amber",
-      "setup": "4",
+      "setup": "3",
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 4/49，空头 38；空转多候选 4，今日转多确认 1，反向转空 3。多 7→4；空转多 3→4；多转空 2→3；空 38→38，修复进入确认，观察扩散。",
+      "thesis": "多头 5/49，空头 37；空转多候选 3，今日转多确认 1，反向转空 4。多 7→5；空转多 3→3；多转空 2→4；空 38→37，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-12",
@@ -311,11 +311,11 @@
         {
           "date": "2026-11-20",
           "total": 49,
-          "bull": 4,
-          "turnBull": 4,
-          "turnBear": 3,
-          "bear": 38,
-          "bullPct": 8.16
+          "bull": 5,
+          "turnBull": 3,
+          "turnBear": 4,
+          "bear": 37,
+          "bullPct": 10.2
         }
       ]
     },
@@ -415,8 +415,8 @@
       "total": 47,
       "bull": 0,
       "turnBull": 0,
-      "turnBear": 2,
-      "bear": 45,
+      "turnBear": 3,
+      "bear": 44,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
@@ -425,12 +425,12 @@
       "bullPct": 0.0,
       "state": "结构分化",
       "action": "等下一次候选池方向变化",
-      "change": "多 0→0；空转多 0→0；多转空 1→2；空 46→45",
+      "change": "多 0→0；空转多 0→0；多转空 1→3；空 46→44",
       "id": "cpo",
       "code": "CPO",
       "score": 0.0,
       "fulfilled": 0,
-      "netBias": -45,
+      "netBias": -44,
       "phase": "结构分化",
       "badge": "临界观察",
       "tone": "amber",
@@ -438,7 +438,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/47，空头 45；空转多候选 0，今日转多确认 0，反向转空 2。多 0→0；空转多 0→0；多转空 1→2；空 46→45，等下一次候选池方向变化。",
+      "thesis": "多头 0/47，空头 44；空转多候选 0，今日转多确认 0，反向转空 3。多 0→0；空转多 0→0；多转空 1→3；空 46→44，等下一次候选池方向变化。",
       "history": [
         {
           "date": "2026-11-12",
@@ -493,8 +493,8 @@
           "total": 47,
           "bull": 0,
           "turnBull": 0,
-          "turnBear": 2,
-          "bear": 45,
+          "turnBear": 3,
+          "bear": 44,
           "bullPct": 0.0
         }
       ]
@@ -946,6 +946,96 @@
           "turnBear": 0,
           "bear": 11,
           "bullPct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "半导体设备",
+      "date": "2026-11-20",
+      "total": 47,
+      "bull": 8,
+      "turnBull": 4,
+      "turnBear": 5,
+      "bear": 30,
+      "newBull": 1,
+      "confirm": 1,
+      "direct": 0,
+      "positive": 2,
+      "negative": 4,
+      "bullPct": 17.02,
+      "state": "转多确认",
+      "action": "修复进入确认，观察扩散",
+      "change": "多 8→8；空转多 5→4；多转空 6→5；空 28→30",
+      "id": "equipment",
+      "code": "SEMI CAP",
+      "score": -2.1,
+      "fulfilled": 1,
+      "netBias": -22,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "4",
+      "setupCaption": "空转多候选",
+      "confirmValue": "1",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 8/47，空头 30；空转多候选 4，今日转多确认 1，反向转空 5。多 8→8；空转多 5→4；多转空 6→5；空 28→30，修复进入确认，观察扩散。",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "bull": 30,
+          "turnBull": 1,
+          "turnBear": 13,
+          "bear": 3,
+          "bullPct": 63.83
+        },
+        {
+          "date": "2026-11-13",
+          "bull": 26,
+          "turnBull": 1,
+          "turnBear": 18,
+          "bear": 2,
+          "bullPct": 55.32
+        },
+        {
+          "date": "2026-11-16",
+          "bull": 8,
+          "turnBull": 0,
+          "turnBear": 35,
+          "bear": 4,
+          "bullPct": 17.02
+        },
+        {
+          "date": "2026-11-17",
+          "bull": 11,
+          "turnBull": 0,
+          "turnBear": 31,
+          "bear": 5,
+          "bullPct": 23.4
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 11,
+          "turnBull": 1,
+          "turnBear": 10,
+          "bear": 25,
+          "bullPct": 23.4
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 8,
+          "turnBull": 5,
+          "turnBear": 6,
+          "bear": 28,
+          "bullPct": 17.02
+        },
+        {
+          "date": "2026-11-20",
+          "total": 47,
+          "bull": 8,
+          "turnBull": 4,
+          "turnBear": 5,
+          "bear": 30,
+          "bullPct": 17.02
         }
       ]
     },
@@ -1670,117 +1760,27 @@
       ]
     },
     {
-      "name": "半导体设备",
-      "date": "2026-11-20",
-      "total": 47,
-      "bull": 7,
-      "turnBull": 2,
-      "turnBear": 6,
-      "bear": 32,
-      "newBull": 0,
-      "confirm": 1,
-      "direct": 0,
-      "positive": 1,
-      "negative": 6,
-      "bullPct": 14.89,
-      "state": "转多确认",
-      "action": "修复进入确认，观察扩散",
-      "change": "多 8→7；空转多 5→2；多转空 6→6；空 28→32",
-      "id": "equipment",
-      "code": "SEMI CAP",
-      "score": -8.5,
-      "fulfilled": 1,
-      "netBias": -25,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "2",
-      "setupCaption": "空转多候选",
-      "confirmValue": "1",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 7/47，空头 32；空转多候选 2，今日转多确认 1，反向转空 6。多 8→7；空转多 5→2；多转空 6→6；空 28→32，修复进入确认，观察扩散。",
-      "history": [
-        {
-          "date": "2026-11-12",
-          "bull": 30,
-          "turnBull": 1,
-          "turnBear": 13,
-          "bear": 3,
-          "bullPct": 63.83
-        },
-        {
-          "date": "2026-11-13",
-          "bull": 26,
-          "turnBull": 1,
-          "turnBear": 18,
-          "bear": 2,
-          "bullPct": 55.32
-        },
-        {
-          "date": "2026-11-16",
-          "bull": 8,
-          "turnBull": 0,
-          "turnBear": 35,
-          "bear": 4,
-          "bullPct": 17.02
-        },
-        {
-          "date": "2026-11-17",
-          "bull": 11,
-          "turnBull": 0,
-          "turnBear": 31,
-          "bear": 5,
-          "bullPct": 23.4
-        },
-        {
-          "date": "2026-11-18",
-          "bull": 11,
-          "turnBull": 1,
-          "turnBear": 10,
-          "bear": 25,
-          "bullPct": 23.4
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 8,
-          "turnBull": 5,
-          "turnBear": 6,
-          "bear": 28,
-          "bullPct": 17.02
-        },
-        {
-          "date": "2026-11-20",
-          "total": 47,
-          "bull": 7,
-          "turnBull": 2,
-          "turnBear": 6,
-          "bear": 32,
-          "bullPct": 14.89
-        }
-      ]
-    },
-    {
       "name": "算力",
       "date": "2026-11-20",
       "total": 62,
-      "bull": 6,
+      "bull": 7,
       "turnBull": 4,
-      "turnBear": 9,
+      "turnBear": 8,
       "bear": 43,
       "newBull": 3,
       "confirm": 1,
       "direct": 0,
       "positive": 4,
-      "negative": 11,
-      "bullPct": 9.68,
+      "negative": 10,
+      "bullPct": 11.29,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 10→6；空转多 5→4；多转空 7→9；空 40→43",
+      "change": "多 10→7；空转多 5→4；多转空 7→8；空 40→43",
       "id": "compute",
       "code": "COMPUTE",
-      "score": -9.7,
+      "score": -8.1,
       "fulfilled": 1,
-      "netBias": -37,
+      "netBias": -36,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1788,7 +1788,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 6/62，空头 43；空转多候选 4，今日转多确认 1，反向转空 9。多 10→6；空转多 5→4；多转空 7→9；空 40→43，修复进入确认，观察扩散。",
+      "thesis": "多头 7/62，空头 43；空转多候选 4，今日转多确认 1，反向转空 8。多 10→7；空转多 5→4；多转空 7→8；空 40→43，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-12",
@@ -1841,11 +1841,11 @@
         {
           "date": "2026-11-20",
           "total": 62,
-          "bull": 6,
+          "bull": 7,
           "turnBull": 4,
-          "turnBear": 9,
+          "turnBear": 8,
           "bear": 43,
-          "bullPct": 9.68
+          "bullPct": 11.29
         }
       ]
     },
@@ -1955,11 +1955,11 @@
         "name": "PCB",
         "group_id": "pcb",
         "color": "#bf2f45",
-        "delta": 4,
+        "delta": 5,
         "values": [
           0,
           0,
-          4
+          5
         ]
       },
       {
