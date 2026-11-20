@@ -1,19 +1,19 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-20",
-  "generatedAt": "2026-11-20 13:41",
-  "reportGeneratedAt": "2026-11-20 13:41",
+  "generatedAt": "2026-11-20 13:42",
+  "reportGeneratedAt": "2026-11-20 13:42",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-20.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-20.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-12 ~ 11-20）：空明显变多（+259 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 160→17 只、空 22→281 只、空转多 58→11、多转空 90→21｜存储 最明显：多 3→0 只、空 5→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-12 ~ 11-20）：空明显变多（+259 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 160→17 只、空 22→281 只、空转多 58→12、多转空 90→20｜存储 最明显：多 3→0 只、空 5→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 923,
     "positiveGroups": 3,
     "negativeGroups": 12,
-    "positiveTransitions": 15,
+    "positiveTransitions": 16,
     "negativeTransitions": 50
   },
   "phaseLegend": [
@@ -54,31 +54,31 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-20",
       "total": 69,
       "bull": 1,
-      "turnBull": 3,
-      "turnBear": 7,
+      "turnBull": 4,
+      "turnBear": 6,
       "bear": 58,
-      "newBull": 3,
+      "newBull": 4,
       "confirm": 0,
       "direct": 0,
-      "positive": 3,
+      "positive": 4,
       "negative": 0,
       "bullPct": 1.45,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→1；空转多 0→3；多转空 2→7；空 66→58",
+      "change": "多 1→1；空转多 0→4；多转空 2→6；空 66→58",
       "id": "pcb",
       "code": "PCB",
-      "score": 4.3,
+      "score": 5.8,
       "fulfilled": 0,
       "netBias": -57,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "3",
+      "setup": "4",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/69，空头 58；空转多候选 3，今日转多确认 0，反向转空 7。多 1→1；空转多 0→3；多转空 2→7；空 66→58，候选回升，等待 5破10 推进。",
+      "thesis": "多头 1/69，空头 58；空转多候选 4，今日转多确认 0，反向转空 6。多 1→1；空转多 0→4；多转空 2→6；空 66→58，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-12",
@@ -132,8 +132,8 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-20",
           "total": 69,
           "bull": 1,
-          "turnBull": 3,
-          "turnBear": 7,
+          "turnBull": 4,
+          "turnBear": 6,
           "bear": 58,
           "bullPct": 1.45
         }
@@ -1950,16 +1950,16 @@ window.MARKET_TREND_DATA = {
     ],
     "series": [
       {
-        "id": "repair:fintech",
+        "id": "repair:pcb",
         "kind": "repair",
-        "name": "互金证券",
-        "group_id": "fintech",
+        "name": "PCB",
+        "group_id": "pcb",
         "color": "#bf2f45",
         "delta": 4,
         "values": [
-          4,
-          10,
-          8
+          0,
+          0,
+          4
         ]
       },
       {
