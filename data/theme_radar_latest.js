@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:27:26+08:00",
+  "generated_at": "2026-11-20T10:28:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.22,
+      "change_pct": -0.13,
       "constituents": 20,
-      "members": "转基因 -0.22%",
+      "members": "转基因 -0.13%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "大盘价值",
-      "representative": "大盘价值",
-      "change_pct": -1.47,
-      "constituents": 58,
-      "members": "大盘价值 -1.47%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "粮食概念",
-      "representative": "粮食概念",
-      "change_pct": -1.62,
-      "constituents": 37,
-      "members": "粮食概念 -1.62%",
-      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.68,
+      "change_pct": -1.27,
       "constituents": 53,
-      "members": "券商概念 -1.68%",
+      "members": "券商概念 -1.27%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "大盘价值",
+      "representative": "大盘价值",
+      "change_pct": -1.38,
+      "constituents": 58,
+      "members": "大盘价值 -1.38%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "粮食概念",
+      "representative": "粮食概念",
+      "change_pct": -1.49,
+      "constituents": 37,
+      "members": "粮食概念 -1.49%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "低碳冶金",
-      "representative": "低碳冶金",
-      "change_pct": -1.75,
-      "constituents": 7,
-      "members": "低碳冶金 -1.75%",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": -1.51,
+      "constituents": 215,
+      "members": "PCB -1.51%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.32,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": -0.27,
+      "avg_rank": 2.5,
+      "latest_rank": 3,
       "dates": "11-20、11-16"
     },
     {
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.22,
+      "avg_change_pct": -0.13,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-20"
-    },
-    {
-      "theme": "粮食概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.62,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -117,17 +107,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.68,
+      "avg_change_pct": -1.27,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-20"
+    },
+    {
+      "theme": "粮食概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.49,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "PCB",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.75,
+      "avg_change_pct": -1.51,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
