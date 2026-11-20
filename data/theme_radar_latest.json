@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:07:30+08:00",
+  "generated_at": "2026-11-20T10:08:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,37 +9,28 @@
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -1.06,
+      "change_pct": -1.35,
       "constituents": 20,
-      "members": "转基因 -1.06%",
+      "members": "转基因 -1.35%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.4,
+      "change_pct": -1.39,
       "constituents": 58,
-      "members": "大盘价值 -1.40%",
+      "members": "大盘价值 -1.39%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "粮食概念",
-      "representative": "粮食概念",
-      "change_pct": -1.92,
-      "constituents": 37,
-      "members": "粮食概念 -1.92%",
-      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.98,
+      "change_pct": -1.96,
       "constituents": 53,
-      "members": "券商概念 -1.98%",
-      "rank": 4
+      "members": "券商概念 -1.96%",
+      "rank": 3
     },
     {
       "date": "2026-11-20",
@@ -48,6 +39,15 @@
       "change_pct": -2.03,
       "constituents": 7,
       "members": "低碳冶金 -2.03%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "券商金股",
+      "representative": "券商金股",
+      "change_pct": -2.07,
+      "constituents": 30,
+      "members": "券商金股 -2.07%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.28,
+      "avg_change_pct": -0.27,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20、11-16"
@@ -97,19 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.06,
+      "avg_change_pct": -1.35,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-20"
-    },
-    {
-      "theme": "粮食概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.92,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -117,9 +107,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.98,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -1.96,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -128,6 +118,16 @@
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": -2.03,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "券商金股",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -2.07,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
