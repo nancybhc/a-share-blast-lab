@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T09:49:29+08:00",
+  "generated_at": "2026-11-20T09:50:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.03,
+      "change_pct": -1.09,
       "constituents": 58,
-      "members": "大盘价值 -1.03%",
+      "members": "大盘价值 -1.09%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.37,
+      "change_pct": -1.43,
       "constituents": 53,
-      "members": "券商概念 -1.37%",
+      "members": "券商概念 -1.43%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -1.57,
+      "change_pct": -1.63,
       "constituents": 7,
-      "members": "低碳冶金 -1.57%",
+      "members": "低碳冶金 -1.63%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "EDA概念",
+      "representative": "EDA概念",
+      "change_pct": -1.75,
+      "constituents": 13,
+      "members": "EDA概念 -1.75%",
+      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "化工原料/煤化工概念/磷化工",
       "representative": "煤化工概念",
-      "change_pct": -1.59,
+      "change_pct": -1.79,
       "constituents": 221,
-      "members": "煤化工概念 -1.59% / 化工原料 -2.34% / 磷化工 -2.73% / 氟化工概念 -2.89%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "可燃冰",
-      "representative": "可燃冰",
-      "change_pct": -1.65,
-      "constituents": 9,
-      "members": "可燃冰 -1.65%",
+      "members": "煤化工概念 -1.79% / 化工原料 -2.46% / 磷化工 -2.86% / 氟化工概念 -3.03%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.1,
+      "avg_change_pct": -0.13,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.37,
+      "avg_change_pct": -1.43,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,9 +107,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.57,
+      "avg_change_pct": -1.63,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "EDA概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.75,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -117,17 +127,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.59,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
-    },
-    {
-      "theme": "可燃冰",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.65,
+      "avg_change_pct": -1.79,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
