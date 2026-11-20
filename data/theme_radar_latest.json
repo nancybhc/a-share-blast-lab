@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T12:59:26+08:00",
+  "generated_at": "2026-11-20T13:01:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "托育服务",
       "representative": "托育服务",
-      "change_pct": 2.43,
+      "change_pct": 1.58,
       "constituents": 6,
-      "members": "托育服务 +2.43%",
+      "members": "托育服务 +1.58%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 0.85,
+      "constituents": 18,
+      "members": "水产概念 +0.85%",
+      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "网红经济/谷子经济/首发经济",
       "representative": "盲盒经济",
-      "change_pct": 1.51,
+      "change_pct": 0.74,
       "constituents": 224,
-      "members": "盲盒经济 +1.51% / 谷子经济 -0.12% / 首发经济 -0.53% / 网红经济 -1.07%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": 1.15,
-      "constituents": 20,
-      "members": "鸡肉概念 +1.15%",
+      "members": "盲盒经济 +0.74% / 谷子经济 -0.73% / 首发经济 -1.12% / 网红经济 -1.64%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": 1.14,
+      "change_pct": 0.69,
       "constituents": 39,
-      "members": "猪肉概念 +1.14%",
+      "members": "猪肉概念 +0.69%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
-      "theme": "裸眼3D",
-      "representative": "裸眼3D",
-      "change_pct": 1.13,
-      "constituents": 24,
-      "members": "裸眼3D +1.13%",
+      "theme": "鸡肉概念",
+      "representative": "鸡肉概念",
+      "change_pct": 0.65,
+      "constituents": 20,
+      "members": "鸡肉概念 +0.65%",
       "rank": 5
     }
   ],
@@ -87,9 +87,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.43,
+      "avg_change_pct": 1.58,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-20"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.85,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-20"
     },
     {
@@ -97,17 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.51,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-20"
-    },
-    {
-      "theme": "鸡肉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.15,
+      "avg_change_pct": 0.74,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,17 +117,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.14,
+      "avg_change_pct": 0.69,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "裸眼3D",
+      "theme": "鸡肉概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.13,
+      "avg_change_pct": 0.65,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
