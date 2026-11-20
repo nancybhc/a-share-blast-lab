@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:25:26+08:00",
+  "generated_at": "2026-11-20T10:27:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.2,
+      "change_pct": -0.22,
       "constituents": 20,
-      "members": "转基因 -0.20%",
+      "members": "转基因 -0.22%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.49,
+      "change_pct": -1.47,
       "constituents": 58,
-      "members": "大盘价值 -1.49%",
+      "members": "大盘价值 -1.47%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "粮食概念",
       "representative": "粮食概念",
-      "change_pct": -1.49,
+      "change_pct": -1.62,
       "constituents": 37,
-      "members": "粮食概念 -1.49%",
+      "members": "粮食概念 -1.62%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.81,
+      "change_pct": -1.68,
       "constituents": 53,
-      "members": "券商概念 -1.81%",
+      "members": "券商概念 -1.68%",
       "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -1.91,
+      "change_pct": -1.75,
       "constituents": 7,
-      "members": "低碳冶金 -1.91%",
+      "members": "低碳冶金 -1.75%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.33,
+      "avg_change_pct": -0.32,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20、11-16"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.2,
+      "avg_change_pct": -0.22,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.49,
+      "avg_change_pct": -1.62,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.81,
+      "avg_change_pct": -1.68,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
@@ -127,7 +127,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.91,
+      "avg_change_pct": -1.75,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
