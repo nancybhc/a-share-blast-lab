@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T13:40:28+08:00",
+  "generated_at": "2026-11-20T13:41:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "托育服务",
       "representative": "托育服务",
-      "change_pct": 0.03,
+      "change_pct": -0.23,
       "constituents": 6,
-      "members": "托育服务 +0.03%",
+      "members": "托育服务 -0.23%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "鸡肉概念",
       "representative": "鸡肉概念",
-      "change_pct": -0.23,
+      "change_pct": -0.33,
       "constituents": 20,
-      "members": "鸡肉概念 -0.23%",
+      "members": "鸡肉概念 -0.33%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": -0.27,
-      "constituents": 18,
-      "members": "水产概念 -0.27%",
-      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "猪肉概念",
       "representative": "猪肉概念",
-      "change_pct": -0.28,
+      "change_pct": -0.35,
       "constituents": 39,
-      "members": "猪肉概念 -0.28%",
-      "rank": 4
+      "members": "猪肉概念 -0.35%",
+      "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "转基因",
       "representative": "转基因",
-      "change_pct": -0.32,
+      "change_pct": -0.43,
       "constituents": 20,
-      "members": "转基因 -0.32%",
+      "members": "转基因 -0.43%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": -0.43,
+      "constituents": 18,
+      "members": "水产概念 -0.43%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.03,
+      "avg_change_pct": -0.23,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.23,
+      "avg_change_pct": -0.33,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-20"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.27,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -117,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.28,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -0.35,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-20"
     },
     {
@@ -127,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.32,
+      "avg_change_pct": -0.43,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.43,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
