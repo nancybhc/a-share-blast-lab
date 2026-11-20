@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T09:37:41+08:00",
+  "generated_at": "2026-11-20T09:38:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "EDA概念",
       "representative": "EDA概念",
-      "change_pct": -0.76,
+      "change_pct": -0.72,
       "constituents": 13,
-      "members": "EDA概念 -0.76%",
+      "members": "EDA概念 -0.72%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.12,
+      "change_pct": -1.03,
       "constituents": 58,
-      "members": "大盘价值 -1.12%",
+      "members": "大盘价值 -1.03%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "中芯概念",
       "representative": "中芯概念",
-      "change_pct": -1.19,
+      "change_pct": -1.16,
       "constituents": 66,
-      "members": "中芯概念 -1.19%",
+      "members": "中芯概念 -1.16%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "券商概念",
-      "representative": "券商概念",
-      "change_pct": -1.45,
-      "constituents": 53,
-      "members": "券商概念 -1.45%",
-      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "第四代半导体",
       "representative": "第四代半导体",
-      "change_pct": -1.51,
+      "change_pct": -1.33,
       "constituents": 4,
-      "members": "第四代半导体 -1.51%",
+      "members": "第四代半导体 -1.33%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "券商概念",
+      "representative": "券商概念",
+      "change_pct": -1.39,
+      "constituents": 53,
+      "members": "券商概念 -1.39%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 0.89,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
+      "avg_change_pct": 0.95,
+      "avg_rank": 2.7,
+      "latest_rank": 4,
       "dates": "11-20、11-19、11-17"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 3,
-      "avg_change_pct": 0.29,
+      "avg_change_pct": 0.3,
       "avg_rank": 3.3,
       "latest_rank": 3,
       "dates": "11-20、11-19、11-17"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.14,
+      "avg_change_pct": -0.1,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20、11-16"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.76,
+      "avg_change_pct": -0.72,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.45,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": -1.39,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-20"
     },
     {
