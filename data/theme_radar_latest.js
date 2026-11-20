@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T09:55:28+08:00",
+  "generated_at": "2026-11-20T09:56:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.23,
+      "change_pct": -1.25,
       "constituents": 58,
-      "members": "大盘价值 -1.23%",
+      "members": "大盘价值 -1.25%",
       "rank": 1
     },
     {
       "date": "2026-11-20",
       "theme": "券商概念",
       "representative": "券商概念",
-      "change_pct": -1.8,
+      "change_pct": -1.81,
       "constituents": 53,
-      "members": "券商概念 -1.80%",
+      "members": "券商概念 -1.81%",
       "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -1.9,
+      "change_pct": -2.01,
       "constituents": 7,
-      "members": "低碳冶金 -1.90%",
+      "members": "低碳冶金 -2.01%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "EDA概念",
-      "representative": "EDA概念",
-      "change_pct": -2.09,
-      "constituents": 13,
-      "members": "EDA概念 -2.09%",
-      "rank": 4
     },
     {
       "date": "2026-11-20",
       "theme": "行业龙头",
       "representative": "行业龙头",
-      "change_pct": -2.11,
+      "change_pct": -2.12,
       "constituents": 92,
-      "members": "行业龙头 -2.11%",
+      "members": "行业龙头 -2.12%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "券商金股",
+      "representative": "券商金股",
+      "change_pct": -2.18,
+      "constituents": 30,
+      "members": "券商金股 -2.18%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.2,
+      "avg_change_pct": -0.21,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.8,
+      "avg_change_pct": -1.81,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -107,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.9,
+      "avg_change_pct": -2.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-20"
-    },
-    {
-      "theme": "EDA概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -2.09,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-20"
     },
     {
@@ -127,7 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.11,
+      "avg_change_pct": -2.12,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "券商金股",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -2.18,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
