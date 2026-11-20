@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-20",
-  "generatedAt": "2026-11-20 09:58",
-  "reportGeneratedAt": "2026-11-20 09:58",
+  "generatedAt": "2026-11-20 09:59",
+  "reportGeneratedAt": "2026-11-20 09:59",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-20.xlsx",
@@ -12,9 +12,9 @@ window.MARKET_TREND_DATA = {
     "groups": 21,
     "uniqueStocks": 923,
     "positiveGroups": 2,
-    "negativeGroups": 10,
+    "negativeGroups": 11,
     "positiveTransitions": 15,
-    "negativeTransitions": 48
+    "negativeTransitions": 49
   },
   "phaseLegend": [
     {
@@ -950,96 +950,6 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "金属矿业",
-      "date": "2026-11-20",
-      "total": 39,
-      "bull": 0,
-      "turnBull": 1,
-      "turnBear": 0,
-      "bear": 38,
-      "newBull": 0,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 0,
-      "negative": 0,
-      "bullPct": 0.0,
-      "state": "结构分化",
-      "action": "等下一次候选池方向变化",
-      "change": "多 0→0；空转多 1→1；多转空 0→0；空 38→38",
-      "id": "metal-mining",
-      "code": "METAL MINING",
-      "score": 0.0,
-      "fulfilled": 0,
-      "netBias": -38,
-      "phase": "结构分化",
-      "badge": "临界观察",
-      "tone": "amber",
-      "setup": "1",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/39，空头 38；空转多候选 1，今日转多确认 0，反向转空 0。多 0→0；空转多 1→1；多转空 0→0；空 38→38，等下一次候选池方向变化。",
-      "history": [
-        {
-          "date": "2026-11-12",
-          "bull": 6,
-          "turnBull": 0,
-          "turnBear": 20,
-          "bear": 12,
-          "bullPct": 15.79
-        },
-        {
-          "date": "2026-11-13",
-          "bull": 3,
-          "turnBull": 0,
-          "turnBear": 13,
-          "bear": 22,
-          "bullPct": 7.89
-        },
-        {
-          "date": "2026-11-16",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 7,
-          "bear": 31,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-17",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 5,
-          "bear": 34,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-18",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 38,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 38,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "total": 39,
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 38,
-          "bullPct": 0.0
-        }
-      ]
-    },
-    {
       "name": "电网设备",
       "date": "2026-11-20",
       "total": 46,
@@ -1126,6 +1036,96 @@ window.MARKET_TREND_DATA = {
           "turnBear": 0,
           "bear": 41,
           "bullPct": 8.7
+        }
+      ]
+    },
+    {
+      "name": "金属矿业",
+      "date": "2026-11-20",
+      "total": 39,
+      "bull": 0,
+      "turnBull": 0,
+      "turnBear": 0,
+      "bear": 39,
+      "newBull": 0,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 0,
+      "negative": 1,
+      "bullPct": 0.0,
+      "state": "转空扩散",
+      "action": "先处理跌破 MA5 / MA10 的标的",
+      "change": "多 0→0；空转多 1→0；多转空 0→0；空 38→39",
+      "id": "metal-mining",
+      "code": "METAL MINING",
+      "score": -2.6,
+      "fulfilled": 0,
+      "netBias": -39,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "0",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/39，空头 39；空转多候选 0，今日转多确认 0，反向转空 0。多 0→0；空转多 1→0；多转空 0→0；空 38→39，先处理跌破 MA5 / MA10 的标的。",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "bull": 6,
+          "turnBull": 0,
+          "turnBear": 20,
+          "bear": 12,
+          "bullPct": 15.79
+        },
+        {
+          "date": "2026-11-13",
+          "bull": 3,
+          "turnBull": 0,
+          "turnBear": 13,
+          "bear": 22,
+          "bullPct": 7.89
+        },
+        {
+          "date": "2026-11-16",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 7,
+          "bear": 31,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-17",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 5,
+          "bear": 34,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 38,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 38,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "total": 39,
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 39,
+          "bullPct": 0.0
         }
       ]
     },

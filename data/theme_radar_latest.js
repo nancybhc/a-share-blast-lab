@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T09:58:44+08:00",
+  "generated_at": "2026-11-20T09:59:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-20午盘",
@@ -9,36 +9,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-20",
       "theme": "大盘价值",
       "representative": "大盘价值",
-      "change_pct": -1.3,
+      "change_pct": -1.28,
       "constituents": 58,
-      "members": "大盘价值 -1.30%",
+      "members": "大盘价值 -1.28%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "券商概念",
-      "representative": "券商概念",
-      "change_pct": -1.89,
-      "constituents": 53,
-      "members": "券商概念 -1.89%",
-      "rank": 2
     },
     {
       "date": "2026-11-20",
       "theme": "低碳冶金",
       "representative": "低碳冶金",
-      "change_pct": -2.0,
+      "change_pct": -1.93,
       "constituents": 7,
-      "members": "低碳冶金 -2.00%",
+      "members": "低碳冶金 -1.93%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "券商概念",
+      "representative": "券商概念",
+      "change_pct": -1.94,
+      "constituents": 53,
+      "members": "券商概念 -1.94%",
       "rank": 3
     },
     {
       "date": "2026-11-20",
       "theme": "券商金股",
       "representative": "券商金股",
-      "change_pct": -2.16,
+      "change_pct": -2.14,
       "constituents": 30,
-      "members": "券商金股 -2.16%",
+      "members": "券商金股 -2.14%",
       "rank": 4
     },
     {
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": -0.23,
+      "avg_change_pct": -0.22,
       "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-20、11-16"
@@ -93,21 +93,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-19、11-17"
     },
     {
-      "theme": "券商概念",
+      "theme": "低碳冶金",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.89,
+      "avg_change_pct": -1.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "券商概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.0,
+      "avg_change_pct": -1.94,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -2.16,
+      "avg_change_pct": -2.14,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
