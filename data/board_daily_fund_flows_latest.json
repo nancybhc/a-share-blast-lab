@@ -1,7 +1,7 @@
 {
   "source": "东方财富板块资金流 daykline",
   "definition": "f52 主力净流入，原始单位元",
-  "captured_at": "2026-11-20T15:07:46+08:00",
+  "captured_at": "2026-11-22T22:48:17+08:00",
   "date": "2026-11-20",
   "boards": {
     "BK0917": {
@@ -82,10 +82,10 @@
       "source_host": "https://push2his.eastmoney.com",
       "current": {
         "date": "2026-11-20",
-        "main_net_yi": -159.1725,
-        "small_net_yi": 127.7731,
-        "medium_net_yi": 30.444,
-        "large_net_yi": -89.8181,
+        "main_net_yi": -159.1746,
+        "small_net_yi": 127.7733,
+        "medium_net_yi": 30.447,
+        "large_net_yi": -89.8201,
         "super_large_net_yi": -69.3544
       },
       "previous": {
@@ -96,7 +96,7 @@
         "large_net_yi": -17.2209,
         "super_large_net_yi": -18.57
       },
-      "main_net_change_yi": -123.3816,
+      "main_net_change_yi": -123.3837,
       "recent": [
         {
           "date": "2026-11-13",
@@ -140,10 +140,10 @@
         },
         {
           "date": "2026-11-20",
-          "main_net_yi": -159.1725,
-          "small_net_yi": 127.7731,
-          "medium_net_yi": 30.444,
-          "large_net_yi": -89.8181,
+          "main_net_yi": -159.1746,
+          "small_net_yi": 127.7733,
+          "medium_net_yi": 30.447,
+          "large_net_yi": -89.8201,
           "super_large_net_yi": -69.3544
         }
       ]
@@ -154,10 +154,10 @@
       "source_host": "https://push2his.eastmoney.com",
       "current": {
         "date": "2026-11-20",
-        "main_net_yi": -109.4526,
-        "small_net_yi": 86.9152,
-        "medium_net_yi": 22.1679,
-        "large_net_yi": -54.574,
+        "main_net_yi": -109.4619,
+        "small_net_yi": 86.9156,
+        "medium_net_yi": 22.1676,
+        "large_net_yi": -54.5833,
         "super_large_net_yi": -54.8785
       },
       "previous": {
@@ -168,7 +168,7 @@
         "large_net_yi": 20.5177,
         "super_large_net_yi": 9.9953
       },
-      "main_net_change_yi": -139.9656,
+      "main_net_change_yi": -139.9749,
       "recent": [
         {
           "date": "2026-11-13",
@@ -212,10 +212,10 @@
         },
         {
           "date": "2026-11-20",
-          "main_net_yi": -109.4526,
-          "small_net_yi": 86.9152,
-          "medium_net_yi": 22.1679,
-          "large_net_yi": -54.574,
+          "main_net_yi": -109.4619,
+          "small_net_yi": 86.9156,
+          "medium_net_yi": 22.1676,
+          "large_net_yi": -54.5833,
           "super_large_net_yi": -54.8785
         }
       ]
