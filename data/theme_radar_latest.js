@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T11:30:26+08:00",
+  "generated_at": "2026-11-23T11:32:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -20,7 +20,7 @@ window.THEME_RADAR_DATA = {
       "representative": "机器人执行器",
       "change_pct": 3.15,
       "constituents": 475,
-      "members": "机器人执行器 +3.15% / 人形机器人 +2.28% / 减速器 +2.06% / 机器视觉 +1.45%",
+      "members": "机器人执行器 +3.15% / 人形机器人 +2.28% / 减速器 +2.07% / 机器视觉 +1.45%",
       "rank": 2
     },
     {
@@ -29,25 +29,25 @@ window.THEME_RADAR_DATA = {
       "representative": "3D玻璃",
       "change_pct": 2.49,
       "constituents": 73,
-      "members": "3D玻璃 +2.49% / 玻璃基板 +0.99%",
+      "members": "3D玻璃 +2.49% / 玻璃基板 +1.00%",
       "rank": 3
     },
     {
       "date": "2026-11-23",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.33,
+      "change_pct": 2.32,
       "constituents": 19,
-      "members": "智能音箱 +2.33%",
+      "members": "智能音箱 +2.32%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 2.06,
+      "change_pct": 2.07,
       "constituents": 33,
-      "members": "AI视频 +2.06%",
+      "members": "AI视频 +2.07%",
       "rank": 5
     }
   ],
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.33,
+      "avg_change_pct": 2.32,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.06,
+      "avg_change_pct": 2.07,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
