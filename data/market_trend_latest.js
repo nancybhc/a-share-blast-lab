@@ -1,19 +1,19 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-23",
-  "generatedAt": "2026-11-23 13:21",
-  "reportGeneratedAt": "2026-11-23 13:21",
+  "generatedAt": "2026-11-23 13:22",
+  "reportGeneratedAt": "2026-11-23 13:22",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-23.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-23.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-13 ~ 11-23）：空明显变多（+228 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 130→22 只、空 29→257 只、空转多 45→43、多转空 126→8｜存储 最明显：多 3→0 只、空 3→11 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-13 ~ 11-23）：空明显变多（+227 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 130→22 只、空 29→256 只、空转多 45→43、多转空 126→9｜存储 最明显：多 3→0 只、空 3→11 只",
   "overview": {
     "groups": 21,
     "uniqueStocks": 923,
-    "positiveGroups": 12,
+    "positiveGroups": 13,
     "negativeGroups": 5,
-    "positiveTransitions": 58,
+    "positiveTransitions": 59,
     "negativeTransitions": 20
   },
   "phaseLegend": [
@@ -415,8 +415,8 @@ window.MARKET_TREND_DATA = {
       "total": 24,
       "bull": 0,
       "turnBull": 3,
-      "turnBear": 0,
-      "bear": 21,
+      "turnBear": 1,
+      "bear": 20,
       "newBull": 2,
       "confirm": 0,
       "direct": 0,
@@ -425,12 +425,12 @@ window.MARKET_TREND_DATA = {
       "bullPct": 0.0,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 1→3；多转空 0→0；空 23→21",
+      "change": "多 0→0；空转多 1→3；多转空 0→1；空 23→20",
       "id": "optics",
       "code": "OPTICS",
       "score": 8.3,
       "fulfilled": 0,
-      "netBias": -21,
+      "netBias": -20,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
@@ -438,7 +438,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/24，空头 21；空转多候选 3，今日转多确认 0，反向转空 0。多 0→0；空转多 1→3；多转空 0→0；空 23→21，候选回升，等待 5破10 推进。",
+      "thesis": "多头 0/24，空头 20；空转多候选 3，今日转多确认 0，反向转空 1。多 0→0；空转多 1→3；多转空 0→1；空 23→20，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-13",
@@ -493,8 +493,8 @@ window.MARKET_TREND_DATA = {
           "total": 24,
           "bull": 0,
           "turnBull": 3,
-          "turnBear": 0,
-          "bear": 21,
+          "turnBear": 1,
+          "bear": 20,
           "bullPct": 0.0
         }
       ]
@@ -1134,31 +1134,31 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-23",
       "total": 60,
       "bull": 1,
-      "turnBull": 6,
-      "turnBear": 2,
-      "bear": 51,
-      "newBull": 1,
+      "turnBull": 7,
+      "turnBear": 3,
+      "bear": 49,
+      "newBull": 2,
       "confirm": 0,
       "direct": 0,
-      "positive": 1,
+      "positive": 2,
       "negative": 1,
       "bullPct": 1.67,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→1；空转多 8→6；多转空 0→2；空 51→51",
+      "change": "多 1→1；空转多 8→7；多转空 0→3；空 51→49",
       "id": "fintech",
       "code": "FINTECH",
-      "score": 0.0,
+      "score": 1.7,
       "fulfilled": 0,
-      "netBias": -50,
-      "phase": "结构分化",
-      "badge": "临界观察",
+      "netBias": -48,
+      "phase": "温和修复",
+      "badge": "边际改善",
       "tone": "amber",
-      "setup": "6",
+      "setup": "7",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/60，空头 51；空转多候选 6，今日转多确认 0，反向转空 2。多 1→1；空转多 8→6；多转空 0→2；空 51→51，候选回升，等待 5破10 推进。",
+      "thesis": "多头 1/60，空头 49；空转多候选 7，今日转多确认 0，反向转空 3。多 1→1；空转多 8→7；多转空 0→3；空 51→49，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-13",
@@ -1212,9 +1212,9 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-23",
           "total": 60,
           "bull": 1,
-          "turnBull": 6,
-          "turnBear": 2,
-          "bear": 51,
+          "turnBull": 7,
+          "turnBear": 3,
+          "bear": 49,
           "bullPct": 1.67
         }
       ]
@@ -1968,11 +1968,11 @@ window.MARKET_TREND_DATA = {
         "name": "互金证券",
         "group_id": "fintech",
         "color": "#187348",
-        "delta": -4,
+        "delta": -3,
         "values": [
           10,
           8,
-          6
+          7
         ]
       }
     ]
