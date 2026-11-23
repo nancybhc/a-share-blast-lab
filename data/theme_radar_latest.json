@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T10:45:24+08:00",
+  "generated_at": "2026-11-23T10:46:45+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 0.76,
+      "change_pct": 0.64,
       "constituents": 81,
-      "members": "物理AI +0.76%",
+      "members": "物理AI +0.64%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 0.13,
+      "change_pct": 0.1,
       "constituents": 475,
-      "members": "机器人执行器 +0.13% / 人形机器人 -0.44% / 减速器 -0.52% / 机器视觉 -1.23%",
+      "members": "机器人执行器 +0.10% / 人形机器人 -0.50% / 减速器 -0.55% / 机器视觉 -1.31%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": -0.08,
+      "change_pct": -0.19,
       "constituents": 33,
-      "members": "AI视频 -0.08%",
+      "members": "AI视频 -0.19%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": -0.35,
+      "constituents": 19,
+      "members": "智能音箱 -0.35%",
+      "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "券商金股",
       "representative": "券商金股",
-      "change_pct": -0.23,
+      "change_pct": -0.35,
       "constituents": 30,
-      "members": "券商金股 -0.23%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-23",
-      "theme": "屏下摄像/3D摄像头",
-      "representative": "3D摄像头",
-      "change_pct": -0.26,
-      "constituents": 16,
-      "members": "3D摄像头 -0.26% / 屏下摄像 -0.43%",
+      "members": "券商金股 -0.35%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.76,
+      "avg_change_pct": 0.64,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.13,
+      "avg_change_pct": 0.1,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,9 +97,19 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.08,
+      "avg_change_pct": -0.19,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-23"
+    },
+    {
+      "theme": "智能音箱",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.35,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-23"
     },
     {
@@ -107,17 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.23,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-23"
-    },
-    {
-      "theme": "屏下摄像/3D摄像头",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.26,
+      "avg_change_pct": -0.35,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
