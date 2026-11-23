@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T09:50:54+08:00",
+  "generated_at": "2026-11-23T09:51:55+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.15,
+      "change_pct": 2.65,
       "constituents": 81,
-      "members": "物理AI +3.15%",
+      "members": "物理AI +2.65%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 2.93,
+      "change_pct": 2.46,
       "constituents": 475,
-      "members": "机器人执行器 +2.93% / 人形机器人 +2.71% / 减速器 +2.64% / 机器视觉 +2.34%",
+      "members": "机器人执行器 +2.46% / 人形机器人 +2.26% / 减速器 +2.20% / 机器视觉 +1.81%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-23",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 2.44,
-      "constituents": 9,
-      "members": "噪声防治 +2.44%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-23",
-      "theme": "电子后视镜",
-      "representative": "电子后视镜",
-      "change_pct": 2.38,
-      "constituents": 26,
-      "members": "电子后视镜 +2.38%",
-      "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.32,
+      "change_pct": 2.02,
       "constituents": 18,
-      "members": "水产概念 +2.32%",
+      "members": "水产概念 +2.02%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 1.94,
+      "constituents": 9,
+      "members": "噪声防治 +1.94%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "电子后视镜",
+      "representative": "电子后视镜",
+      "change_pct": 1.91,
+      "constituents": 26,
+      "members": "电子后视镜 +1.91%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 0.56,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
+      "avg_change_pct": 0.41,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-23、11-20"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.15,
+      "avg_change_pct": 2.65,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.93,
+      "avg_change_pct": 2.46,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.44,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.94,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-23"
     },
     {
@@ -117,9 +117,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.38,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.91,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-23"
     },
     {
