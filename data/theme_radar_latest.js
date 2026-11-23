@@ -1,85 +1,75 @@
 window.THEME_RADAR_DATA = {
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T15:10:01+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-20收盘",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T09:26:34+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-23午盘",
   "daily_top": [
     {
-      "date": "2026-11-20",
-      "theme": "大盘价值",
-      "representative": "大盘价值",
-      "change_pct": -0.08,
-      "constituents": 58,
-      "members": "大盘价值 -0.08%",
+      "date": "2026-11-23",
+      "theme": "屏下摄像/3D摄像头",
+      "representative": "屏下摄像",
+      "change_pct": 0.3,
+      "constituents": 16,
+      "members": "屏下摄像 +0.30% / 3D摄像头 -0.16%",
       "rank": 1
     },
     {
-      "date": "2026-11-20",
-      "theme": "低碳冶金",
-      "representative": "低碳冶金",
-      "change_pct": -0.93,
-      "constituents": 7,
-      "members": "低碳冶金 -0.93%",
+      "date": "2026-11-23",
+      "theme": "青蒿素",
+      "representative": "青蒿素",
+      "change_pct": 0.1,
+      "constituents": 11,
+      "members": "青蒿素 +0.10%",
       "rank": 2
     },
     {
-      "date": "2026-11-20",
-      "theme": "鸡肉概念",
-      "representative": "鸡肉概念",
-      "change_pct": -0.93,
-      "constituents": 20,
-      "members": "鸡肉概念 -0.93%",
+      "date": "2026-11-23",
+      "theme": "小金属概念/金属回收/金属铜",
+      "representative": "金属铅",
+      "change_pct": -0.16,
+      "constituents": 228,
+      "members": "金属铅 -0.16% / 金属锌 -0.43% / 金属钴 -0.65% / 金属铜 -0.73% / 小金属概念 -1.02% / 金属镍 -1.20%",
       "rank": 3
     },
     {
-      "date": "2026-11-20",
-      "theme": "猪肉概念",
-      "representative": "猪肉概念",
-      "change_pct": -1.02,
-      "constituents": 39,
-      "members": "猪肉概念 -1.02%",
+      "date": "2026-11-23",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": -0.21,
+      "constituents": 18,
+      "members": "水产概念 -0.21%",
       "rank": 4
     },
     {
-      "date": "2026-11-20",
-      "theme": "转基因",
-      "representative": "转基因",
-      "change_pct": -1.1,
-      "constituents": 20,
-      "members": "转基因 -1.10%",
+      "date": "2026-11-23",
+      "theme": "黄金概念",
+      "representative": "黄金概念",
+      "change_pct": -0.23,
+      "constituents": 76,
+      "members": "黄金概念 -0.23%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "大盘价值",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 0.38,
-      "avg_rank": 1.5,
-      "latest_rank": 1,
-      "dates": "11-20、11-16"
-    },
     {
       "theme": "第四代半导体",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 2.09,
-      "avg_rank": 2.0,
+      "avg_rank": 1.5,
       "latest_rank": 1,
       "dates": "11-19、11-17"
     },
     {
-      "theme": "中芯概念",
+      "theme": "光刻胶",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.03,
+      "avg_change_pct": 1.38,
       "avg_rank": 3.5,
-      "latest_rank": 3,
+      "latest_rank": 4,
       "dates": "11-19、11-17"
     },
     {
@@ -93,94 +83,114 @@ window.THEME_RADAR_DATA = {
       "dates": "11-19、11-17"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "中芯概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 1.06,
+      "avg_rank": 4.5,
+      "latest_rank": 5,
+      "dates": "11-19、11-17"
+    },
+    {
+      "theme": "屏下摄像/3D摄像头",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.93,
+      "avg_change_pct": 0.3,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-23"
+    },
+    {
+      "theme": "青蒿素",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.1,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-20"
+      "dates": "11-23"
     },
     {
-      "theme": "鸡肉概念",
+      "theme": "小金属概念/金属回收/金属铜",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.93,
+      "avg_change_pct": -0.16,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-20"
+      "dates": "11-23"
     },
     {
-      "theme": "猪肉概念",
+      "theme": "水产概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -0.21,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-20"
+      "dates": "11-23"
     },
     {
-      "theme": "转基因",
+      "theme": "黄金概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.1,
+      "avg_change_pct": -0.23,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-20"
+      "dates": "11-23"
     },
     {
       "theme": "算力租赁",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.62,
+      "avg_change_pct": 3.33,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
-    },
-    {
-      "theme": "光刻胶",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.12,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-17"
-    },
-    {
-      "theme": "免税概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.24,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-16"
     },
     {
       "theme": "光刻机",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.08,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 3.2,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-17"
+    },
+    {
+      "theme": "大盘价值",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.12,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-20"
     },
     {
       "theme": "东数西算",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.99,
+      "avg_change_pct": 2.78,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
+    },
+    {
+      "theme": "低碳冶金",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.93,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-20"
     },
     {
       "theme": "F5G概念",
@@ -193,74 +203,64 @@ window.THEME_RADAR_DATA = {
       "dates": "11-18"
     },
     {
-      "theme": "退税商店",
+      "theme": "高带宽内存",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.7,
+      "avg_change_pct": 0.28,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-16"
+      "dates": "11-19"
+    },
+    {
+      "theme": "鸡肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.02,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-20"
+    },
+    {
+      "theme": "智算中心（AIDC）",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.87,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-18"
+    },
+    {
+      "theme": "猪肉概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.07,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
     },
     {
       "theme": "AI算力",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.96,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-18"
-    },
-    {
-      "theme": "净水概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.44,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-16"
-    },
-    {
-      "theme": "IGBT概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.09,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-19"
-    },
-    {
-      "theme": "英伟达概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.78,
+      "avg_change_pct": 1.86,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-18"
     },
     {
-      "theme": "低市盈率/低市净率",
+      "theme": "托育服务",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.36,
+      "avg_change_pct": -1.2,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-16"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.08,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-19"
+      "dates": "11-20"
     }
   ]
 };
