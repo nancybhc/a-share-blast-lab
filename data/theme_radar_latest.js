@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T10:57:24+08:00",
+  "generated_at": "2026-11-23T10:59:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 1.67,
+      "change_pct": 2.34,
       "constituents": 81,
-      "members": "物理AI +1.67%",
+      "members": "物理AI +2.34%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 1.3,
+      "change_pct": 1.98,
       "constituents": 475,
-      "members": "机器人执行器 +1.30% / 减速器 +0.63% / 人形机器人 +0.55% / 机器视觉 -0.40%",
+      "members": "机器人执行器 +1.98% / 减速器 +1.26% / 人形机器人 +1.16% / 机器视觉 +0.13%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 0.66,
+      "change_pct": 1.18,
       "constituents": 19,
-      "members": "智能音箱 +0.66%",
+      "members": "智能音箱 +1.18%",
       "rank": 3
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 0.59,
+      "change_pct": 1.15,
       "constituents": 33,
-      "members": "AI视频 +0.59%",
+      "members": "AI视频 +1.15%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
-      "theme": "屏下摄像/3D摄像头",
-      "representative": "3D摄像头",
-      "change_pct": 0.35,
-      "constituents": 16,
-      "members": "3D摄像头 +0.35% / 屏下摄像 -0.26%",
+      "theme": "混合现实",
+      "representative": "混合现实",
+      "change_pct": 0.82,
+      "constituents": 34,
+      "members": "混合现实 +0.82%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.67,
+      "avg_change_pct": 2.34,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.3,
+      "avg_change_pct": 1.98,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.66,
+      "avg_change_pct": 1.18,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -107,17 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.59,
+      "avg_change_pct": 1.15,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
     },
     {
-      "theme": "屏下摄像/3D摄像头",
+      "theme": "混合现实",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.82,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
