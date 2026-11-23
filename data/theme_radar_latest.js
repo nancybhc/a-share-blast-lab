@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T09:56:20+08:00",
+  "generated_at": "2026-11-23T09:58:00+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,49 +9,59 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.05,
+      "change_pct": 2.8,
       "constituents": 81,
-      "members": "物理AI +3.05%",
+      "members": "物理AI +2.80%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 2.46,
+      "change_pct": 2.39,
       "constituents": 475,
-      "members": "机器人执行器 +2.46% / 人形机器人 +2.28% / 减速器 +2.15% / 机器视觉 +1.85%",
+      "members": "机器人执行器 +2.39% / 人形机器人 +2.05% / 减速器 +1.95% / 机器视觉 +1.60%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.35,
+      "change_pct": 2.34,
       "constituents": 19,
-      "members": "智能音箱 +2.35%",
+      "members": "智能音箱 +2.34%",
       "rank": 3
     },
     {
       "date": "2026-11-23",
-      "theme": "混合现实",
-      "representative": "混合现实",
-      "change_pct": 2.13,
-      "constituents": 34,
-      "members": "混合现实 +2.13%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.03,
+      "constituents": 18,
+      "members": "水产概念 +2.03%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
-      "theme": "电子后视镜",
-      "representative": "电子后视镜",
-      "change_pct": 2.05,
-      "constituents": 26,
-      "members": "电子后视镜 +2.05%",
+      "theme": "玻璃基板/3D玻璃",
+      "representative": "3D玻璃",
+      "change_pct": 1.92,
+      "constituents": 73,
+      "members": "3D玻璃 +1.92% / 玻璃基板 +0.69%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "水产概念",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 0.41,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-23、11-20"
+    },
     {
       "theme": "第四代半导体",
       "current_streak": 0,
@@ -77,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.05,
+      "avg_change_pct": 2.8,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.46,
+      "avg_change_pct": 2.39,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,27 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.35,
+      "avg_change_pct": 2.34,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
     },
     {
-      "theme": "混合现实",
+      "theme": "玻璃基板/3D玻璃",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.13,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-23"
-    },
-    {
-      "theme": "电子后视镜",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.05,
+      "avg_change_pct": 1.92,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
@@ -231,16 +231,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-19"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
     },
     {
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
