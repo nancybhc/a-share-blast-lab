@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T14:45:08+08:00",
+  "generated_at": "2026-11-23T14:46:07+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -11,43 +11,43 @@ window.THEME_RADAR_DATA = {
       "representative": "机器人执行器",
       "change_pct": 7.62,
       "constituents": 475,
-      "members": "机器人执行器 +7.62% / 减速器 +6.40% / 人形机器人 +6.24% / 机器视觉 +5.52%",
+      "members": "机器人执行器 +7.62% / 减速器 +6.40% / 人形机器人 +6.23% / 机器视觉 +5.51%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 7.25,
+      "change_pct": 7.26,
       "constituents": 81,
-      "members": "物理AI +7.25%",
+      "members": "物理AI +7.26%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 6.6,
+      "change_pct": 6.58,
       "constituents": 33,
-      "members": "AI视频 +6.60%",
+      "members": "AI视频 +6.58%",
       "rank": 3
     },
     {
       "date": "2026-11-23",
       "theme": "噪声防治",
       "representative": "噪声防治",
-      "change_pct": 5.61,
+      "change_pct": 5.64,
       "constituents": 9,
-      "members": "噪声防治 +5.61%",
+      "members": "噪声防治 +5.64%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
-      "theme": "玻璃基板/3D玻璃",
-      "representative": "3D玻璃",
-      "change_pct": 5.54,
-      "constituents": 73,
-      "members": "3D玻璃 +5.54% / 玻璃基板 +3.92%",
+      "theme": "CRO",
+      "representative": "CRO",
+      "change_pct": 5.51,
+      "constituents": 53,
+      "members": "CRO +5.51%",
       "rank": 5
     }
   ],
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.25,
+      "avg_change_pct": 7.26,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.6,
+      "avg_change_pct": 6.58,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -107,17 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.61,
+      "avg_change_pct": 5.64,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
     },
     {
-      "theme": "玻璃基板/3D玻璃",
+      "theme": "CRO",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.54,
+      "avg_change_pct": 5.51,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
