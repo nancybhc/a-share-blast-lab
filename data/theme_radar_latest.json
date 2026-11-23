@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T11:19:23+08:00",
+  "generated_at": "2026-11-23T11:20:24+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.81,
+      "change_pct": 4.0,
       "constituents": 81,
-      "members": "物理AI +3.81%",
+      "members": "物理AI +4.00%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 3.69,
+      "change_pct": 3.91,
       "constituents": 475,
-      "members": "机器人执行器 +3.69% / 人形机器人 +2.79% / 减速器 +2.62% / 机器视觉 +1.75%",
+      "members": "机器人执行器 +3.91% / 人形机器人 +3.01% / 减速器 +2.80% / 机器视觉 +2.07%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.71,
+      "change_pct": 2.97,
       "constituents": 19,
-      "members": "智能音箱 +2.71%",
+      "members": "智能音箱 +2.97%",
       "rank": 3
     },
     {
       "date": "2026-11-23",
       "theme": "玻璃基板/3D玻璃",
       "representative": "3D玻璃",
-      "change_pct": 2.53,
+      "change_pct": 2.9,
       "constituents": 73,
-      "members": "3D玻璃 +2.53% / 玻璃基板 +1.20%",
+      "members": "3D玻璃 +2.90% / 玻璃基板 +1.58%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 2.52,
+      "change_pct": 2.72,
       "constituents": 33,
-      "members": "AI视频 +2.52%",
+      "members": "AI视频 +2.72%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.81,
+      "avg_change_pct": 4.0,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.69,
+      "avg_change_pct": 3.91,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.71,
+      "avg_change_pct": 2.97,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.53,
+      "avg_change_pct": 2.9,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
@@ -117,7 +117,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.52,
+      "avg_change_pct": 2.72,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
