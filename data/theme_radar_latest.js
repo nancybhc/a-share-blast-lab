@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T10:08:09+08:00",
+  "generated_at": "2026-11-23T10:09:10+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 2.79,
+      "change_pct": 2.64,
       "constituents": 81,
-      "members": "物理AI +2.79%",
+      "members": "物理AI +2.64%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 2.42,
+      "change_pct": 2.32,
       "constituents": 475,
-      "members": "机器人执行器 +2.42% / 人形机器人 +1.75% / 减速器 +1.66% / 机器视觉 +1.05%",
+      "members": "机器人执行器 +2.32% / 人形机器人 +1.60% / 减速器 +1.57% / 机器视觉 +0.89%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.03,
+      "change_pct": 1.81,
       "constituents": 19,
-      "members": "智能音箱 +2.03%",
+      "members": "智能音箱 +1.81%",
       "rank": 3
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 1.64,
+      "change_pct": 1.45,
       "constituents": 33,
-      "members": "AI视频 +1.64%",
+      "members": "AI视频 +1.45%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "混合现实",
       "representative": "混合现实",
-      "change_pct": 1.58,
+      "change_pct": 1.4,
       "constituents": 34,
-      "members": "混合现实 +1.58%",
+      "members": "混合现实 +1.40%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.79,
+      "avg_change_pct": 2.64,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.42,
+      "avg_change_pct": 2.32,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.03,
+      "avg_change_pct": 1.81,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.64,
+      "avg_change_pct": 1.45,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.58,
+      "avg_change_pct": 1.4,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
