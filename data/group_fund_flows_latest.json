@@ -1,15 +1,15 @@
 {
   "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs；当日缺失时用东方财富 f62 补齐",
   "definition": "主力净流入；历史 r0_net，当日 f62",
-  "retrieved_at": "2026-11-22T22:48:52+08:00",
-  "date": "2026-11-20",
+  "retrieved_at": "2026-11-23T15:08:20+08:00",
+  "date": "2026-11-23",
   "dates": [
-    "2026-11-13",
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-23"
   ],
   "groups": {
     "PCB": {
@@ -18,73 +18,67 @@
       "covered": 69,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 22.21,
-      "main_net_change_yi": 7.25,
-      "five_day_main_net_yi": 71.91,
-      "positive_stock_count": 42,
-      "negative_stock_count": 27,
+      "date": "2026-11-23",
+      "main_net_yi": 50.72,
+      "main_net_change_yi": 28.51,
+      "five_day_main_net_yi": 153.17,
+      "positive_stock_count": 40,
+      "negative_stock_count": 29,
       "top_positive": [
         {
-          "code": "000823",
-          "name": "超声电子",
-          "main_net_yi": 6.517
+          "code": "002384",
+          "name": "东山精密",
+          "main_net_yi": 8.4216
         },
         {
-          "code": "002741",
-          "name": "光华科技",
-          "main_net_yi": 3.3293
+          "code": "300476",
+          "name": "胜宏科技",
+          "main_net_yi": 7.406
         },
         {
-          "code": "002579",
-          "name": "中京电子",
-          "main_net_yi": 2.7037
+          "code": "600183",
+          "name": "生益科技",
+          "main_net_yi": 4.9543
         },
         {
-          "code": "301132",
-          "name": "满坤科技",
-          "main_net_yi": 1.8312
+          "code": "002815",
+          "name": "崇达技术",
+          "main_net_yi": 3.9901
         },
         {
-          "code": "002636",
-          "name": "金安国纪",
-          "main_net_yi": 1.6789
+          "code": "002463",
+          "name": "沪电股份",
+          "main_net_yi": 3.5004
         }
       ],
       "top_negative": [
         {
-          "code": "002008",
-          "name": "大族激光",
-          "main_net_yi": -1.199
+          "code": "000823",
+          "name": "超声电子",
+          "main_net_yi": -2.4822
         },
         {
-          "code": "600176",
-          "name": "中国巨石",
-          "main_net_yi": -0.8655
+          "code": "301200",
+          "name": "大族数控",
+          "main_net_yi": -1.0215
         },
         {
-          "code": "002436",
-          "name": "兴森科技",
-          "main_net_yi": -0.7805
+          "code": "301511",
+          "name": "德福科技",
+          "main_net_yi": -0.5156
         },
         {
-          "code": "603228",
-          "name": "景旺电子",
-          "main_net_yi": -0.669
+          "code": "002636",
+          "name": "金安国纪",
+          "main_net_yi": -0.4599
         },
         {
-          "code": "002916",
-          "name": "深南电路",
-          "main_net_yi": -0.4591
+          "code": "300776",
+          "name": "帝尔激光",
+          "main_net_yi": -0.3818
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -110.59,
-          "total_net_yi": -146.21,
-          "covered": 69
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -30.54,
@@ -114,6 +108,12 @@
           "main_net_yi": 22.21,
           "total_net_yi": 23.28,
           "covered": 69
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 50.72,
+          "total_net_yi": 0.0,
+          "covered": 69
         }
       ]
     },
@@ -123,73 +123,67 @@
       "covered": 47,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -2.59,
-      "main_net_change_yi": -29.56,
-      "five_day_main_net_yi": -33.01,
-      "positive_stock_count": 20,
-      "negative_stock_count": 26,
+      "date": "2026-11-23",
+      "main_net_yi": 87.0,
+      "main_net_change_yi": 89.6,
+      "five_day_main_net_yi": 105.87,
+      "positive_stock_count": 34,
+      "negative_stock_count": 13,
       "top_positive": [
-        {
-          "code": "300308",
-          "name": "中际旭创",
-          "main_net_yi": 7.5457
-        },
-        {
-          "code": "300903",
-          "name": "科翔股份",
-          "main_net_yi": 1.5108
-        },
-        {
-          "code": "601869",
-          "name": "长飞光纤",
-          "main_net_yi": 0.7817
-        },
-        {
-          "code": "688143",
-          "name": "长盈通",
-          "main_net_yi": 0.4459
-        },
-        {
-          "code": "300757",
-          "name": "罗博特科",
-          "main_net_yi": 0.2752
-        }
-      ],
-      "top_negative": [
         {
           "code": "300502",
           "name": "新易盛",
-          "main_net_yi": -4.3967
+          "main_net_yi": 22.9385
         },
         {
-          "code": "688808",
-          "name": "联讯仪器",
-          "main_net_yi": -1.4191
-        },
-        {
-          "code": "600522",
-          "name": "中天科技",
-          "main_net_yi": -1.4062
+          "code": "300308",
+          "name": "中际旭创",
+          "main_net_yi": 22.2346
         },
         {
           "code": "300394",
           "name": "天孚通信",
-          "main_net_yi": -1.26
+          "main_net_yi": 14.133
         },
         {
-          "code": "603083",
-          "name": "剑桥科技",
-          "main_net_yi": -0.885
+          "code": "002384",
+          "name": "东山精密",
+          "main_net_yi": 8.4216
+        },
+        {
+          "code": "688498",
+          "name": "源杰科技",
+          "main_net_yi": 3.9261
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "300131",
+          "name": "英唐智控",
+          "main_net_yi": -0.3455
+        },
+        {
+          "code": "002957",
+          "name": "科瑞技术",
+          "main_net_yi": -0.1754
+        },
+        {
+          "code": "688312",
+          "name": "燕麦科技",
+          "main_net_yi": -0.1095
+        },
+        {
+          "code": "600184",
+          "name": "光电股份",
+          "main_net_yi": -0.0639
+        },
+        {
+          "code": "688112",
+          "name": "鼎阳科技",
+          "main_net_yi": -0.0635
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -141.45,
-          "total_net_yi": -161.51,
-          "covered": 47
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -51.87,
@@ -219,6 +213,12 @@
           "main_net_yi": -2.59,
           "total_net_yi": -13.54,
           "covered": 47
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 87.0,
+          "total_net_yi": 0.0,
+          "covered": 47
         }
       ]
     },
@@ -228,73 +228,67 @@
       "covered": 24,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 4.56,
-      "main_net_change_yi": 4.34,
-      "five_day_main_net_yi": 7.98,
-      "positive_stock_count": 15,
-      "negative_stock_count": 9,
+      "date": "2026-11-23",
+      "main_net_yi": 4.71,
+      "main_net_change_yi": 0.15,
+      "five_day_main_net_yi": 23.97,
+      "positive_stock_count": 10,
+      "negative_stock_count": 14,
       "top_positive": [
-        {
-          "code": "002741",
-          "name": "光华科技",
-          "main_net_yi": 3.3293
-        },
         {
           "code": "000725",
           "name": "京东方Ａ",
-          "main_net_yi": 1.4579
+          "main_net_yi": 3.1359
         },
         {
-          "code": "300489",
-          "name": "光智科技",
-          "main_net_yi": 0.4458
+          "code": "002741",
+          "name": "光华科技",
+          "main_net_yi": 1.1162
+        },
+        {
+          "code": "300620",
+          "name": "光库科技",
+          "main_net_yi": 1.0148
         },
         {
           "code": "002138",
           "name": "顺络电子",
-          "main_net_yi": 0.4279
+          "main_net_yi": 0.4106
         },
         {
-          "code": "600330",
-          "name": "天通股份",
-          "main_net_yi": 0.3528
+          "code": "300489",
+          "name": "光智科技",
+          "main_net_yi": 0.3148
         }
       ],
       "top_negative": [
         {
-          "code": "002428",
-          "name": "云南锗业",
-          "main_net_yi": -1.5142
+          "code": "002222",
+          "name": "福晶科技",
+          "main_net_yi": -0.251
         },
         {
-          "code": "002975",
-          "name": "博杰股份",
-          "main_net_yi": -0.3163
+          "code": "603738",
+          "name": "泰晶科技",
+          "main_net_yi": -0.2279
         },
         {
-          "code": "600707",
-          "name": "彩虹股份",
-          "main_net_yi": -0.1758
+          "code": "300398",
+          "name": "飞凯材料",
+          "main_net_yi": -0.1958
         },
         {
-          "code": "600552",
-          "name": "凯盛科技",
-          "main_net_yi": -0.0876
+          "code": "600367",
+          "name": "红星发展",
+          "main_net_yi": -0.1568
         },
         {
-          "code": "002254",
-          "name": "泰和新材",
-          "main_net_yi": -0.0747
+          "code": "603773",
+          "name": "沃格光电",
+          "main_net_yi": -0.1512
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -11.93,
-          "total_net_yi": -23.51,
-          "covered": 24
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -11.28,
@@ -324,6 +318,12 @@
           "main_net_yi": 4.56,
           "total_net_yi": 2.35,
           "covered": 24
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 4.71,
+          "total_net_yi": 0.0,
+          "covered": 24
         }
       ]
     },
@@ -333,73 +333,67 @@
       "covered": 45,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 19.42,
-      "main_net_change_yi": -4.36,
-      "five_day_main_net_yi": 71.59,
-      "positive_stock_count": 26,
-      "negative_stock_count": 19,
+      "date": "2026-11-23",
+      "main_net_yi": 6.05,
+      "main_net_change_yi": -13.37,
+      "five_day_main_net_yi": 99.8,
+      "positive_stock_count": 18,
+      "negative_stock_count": 27,
       "top_positive": [
         {
-          "code": "688981",
-          "name": "中芯国际",
-          "main_net_yi": 9.166
+          "code": "603893",
+          "name": "瑞芯微",
+          "main_net_yi": 4.7333
         },
         {
           "code": "688256",
           "name": "寒武纪",
-          "main_net_yi": 6.229
+          "main_net_yi": 1.7271
         },
         {
-          "code": "688041",
-          "name": "海光信息",
-          "main_net_yi": 2.5335
+          "code": "688801",
+          "name": "燧原科技-U",
+          "main_net_yi": 1.3426
+        },
+        {
+          "code": "688702",
+          "name": "盛科通信-U",
+          "main_net_yi": 1.0874
         },
         {
           "code": "688008",
           "name": "澜起科技",
-          "main_net_yi": 2.4388
-        },
-        {
-          "code": "301095",
-          "name": "广立微",
-          "main_net_yi": 1.4593
+          "main_net_yi": 1.02
         }
       ],
       "top_negative": [
         {
-          "code": "688347",
-          "name": "华虹宏力",
-          "main_net_yi": -3.5525
+          "code": "688981",
+          "name": "中芯国际",
+          "main_net_yi": -1.3101
         },
         {
-          "code": "603893",
-          "name": "瑞芯微",
-          "main_net_yi": -1.0671
+          "code": "688041",
+          "name": "海光信息",
+          "main_net_yi": -1.2439
         },
         {
-          "code": "000066",
-          "name": "中国长城",
-          "main_net_yi": -0.9088
+          "code": "688110",
+          "name": "东芯股份",
+          "main_net_yi": -0.8269
         },
         {
-          "code": "688795",
-          "name": "摩尔线程-U",
-          "main_net_yi": -0.7365
+          "code": "603501",
+          "name": "豪威集团",
+          "main_net_yi": -0.7511
         },
         {
-          "code": "688249",
-          "name": "晶合集成",
-          "main_net_yi": -0.6645
+          "code": "688502",
+          "name": "茂莱光学",
+          "main_net_yi": -0.312
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -4.65,
-          "total_net_yi": -24.64,
-          "covered": 45
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -22.16,
@@ -429,6 +423,12 @@
           "main_net_yi": 19.42,
           "total_net_yi": 4.84,
           "covered": 45
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 6.05,
+          "total_net_yi": 0.0,
+          "covered": 45
         }
       ]
     },
@@ -438,73 +438,67 @@
       "covered": 47,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -13.78,
-      "main_net_change_yi": -46.55,
-      "five_day_main_net_yi": 64.95,
-      "positive_stock_count": 20,
-      "negative_stock_count": 27,
+      "date": "2026-11-23",
+      "main_net_yi": -6.54,
+      "main_net_change_yi": 7.24,
+      "five_day_main_net_yi": 58.19,
+      "positive_stock_count": 13,
+      "negative_stock_count": 34,
       "top_positive": [
         {
           "code": "688012",
           "name": "中微公司",
-          "main_net_yi": 7.5121
+          "main_net_yi": 3.5021
         },
         {
-          "code": "688120",
-          "name": "华海清科",
-          "main_net_yi": 1.8407
+          "code": "600641",
+          "name": "先导基电",
+          "main_net_yi": 0.9983
         },
         {
-          "code": "301583",
-          "name": "托伦斯",
-          "main_net_yi": 0.8622
+          "code": "603283",
+          "name": "赛腾股份",
+          "main_net_yi": 0.6505
         },
         {
-          "code": "688361",
-          "name": "中科飞测",
-          "main_net_yi": 0.5953
+          "code": "688082",
+          "name": "盛美上海",
+          "main_net_yi": 0.5093
         },
         {
-          "code": "688729",
-          "name": "屹唐股份",
-          "main_net_yi": 0.3635
+          "code": "688627",
+          "name": "精智达",
+          "main_net_yi": 0.4476
         }
       ],
       "top_negative": [
         {
-          "code": "600584",
-          "name": "长电科技",
-          "main_net_yi": -8.3384
+          "code": "300604",
+          "name": "长川科技",
+          "main_net_yi": -2.0618
         },
         {
-          "code": "002156",
-          "name": "通富微电",
-          "main_net_yi": -6.6451
+          "code": "688361",
+          "name": "中科飞测",
+          "main_net_yi": -1.3928
+        },
+        {
+          "code": "688820",
+          "name": "盛合晶微",
+          "main_net_yi": -0.9788
         },
         {
           "code": "002185",
           "name": "华天科技",
-          "main_net_yi": -3.8025
+          "main_net_yi": -0.9212
         },
         {
-          "code": "300604",
-          "name": "长川科技",
-          "main_net_yi": -1.7975
-        },
-        {
-          "code": "600667",
-          "name": "太极实业",
-          "main_net_yi": -0.9246
+          "code": "002371",
+          "name": "北方华创",
+          "main_net_yi": -0.8954
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -20.19,
-          "total_net_yi": -46.83,
-          "covered": 47
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 0.22,
@@ -534,6 +528,12 @@
           "main_net_yi": -13.78,
           "total_net_yi": -27.86,
           "covered": 47
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": -6.54,
+          "total_net_yi": 0.0,
+          "covered": 47
         }
       ]
     },
@@ -543,73 +543,67 @@
       "covered": 49,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -2.0,
-      "main_net_change_yi": -5.6,
-      "five_day_main_net_yi": 47.08,
-      "positive_stock_count": 23,
-      "negative_stock_count": 25,
+      "date": "2026-11-23",
+      "main_net_yi": -3.72,
+      "main_net_change_yi": -1.72,
+      "five_day_main_net_yi": 42.01,
+      "positive_stock_count": 14,
+      "negative_stock_count": 35,
       "top_positive": [
-        {
-          "code": "300666",
-          "name": "江丰电子",
-          "main_net_yi": 2.49
-        },
-        {
-          "code": "688268",
-          "name": "华特气体",
-          "main_net_yi": 0.5019
-        },
-        {
-          "code": "688432",
-          "name": "有研硅",
-          "main_net_yi": 0.3405
-        },
         {
           "code": "002584",
           "name": "西陇科学",
-          "main_net_yi": 0.3275
+          "main_net_yi": 2.1843
         },
         {
-          "code": "002119",
-          "name": "康强电子",
-          "main_net_yi": 0.3165
+          "code": "603931",
+          "name": "格林达",
+          "main_net_yi": 0.4587
+        },
+        {
+          "code": "603078",
+          "name": "江化微",
+          "main_net_yi": 0.446
+        },
+        {
+          "code": "000657",
+          "name": "中钨高新",
+          "main_net_yi": 0.429
+        },
+        {
+          "code": "600549",
+          "name": "厦门钨业",
+          "main_net_yi": 0.3786
         }
       ],
       "top_negative": [
         {
-          "code": "600206",
-          "name": "有研新材",
-          "main_net_yi": -1.6062
-        },
-        {
-          "code": "300054",
-          "name": "鼎龙股份",
-          "main_net_yi": -1.1189
-        },
-        {
-          "code": "688019",
-          "name": "安集科技",
-          "main_net_yi": -0.7974
-        },
-        {
           "code": "688783",
           "name": "西安奕材-U",
-          "main_net_yi": -0.6397
+          "main_net_yi": -0.9995
         },
         {
-          "code": "002409",
-          "name": "雅克科技",
-          "main_net_yi": -0.6203
+          "code": "300666",
+          "name": "江丰电子",
+          "main_net_yi": -0.9813
+        },
+        {
+          "code": "688268",
+          "name": "华特气体",
+          "main_net_yi": -0.8174
+        },
+        {
+          "code": "688146",
+          "name": "中船特气",
+          "main_net_yi": -0.6649
+        },
+        {
+          "code": "688432",
+          "name": "有研硅",
+          "main_net_yi": -0.5939
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -3.42,
-          "total_net_yi": -23.51,
-          "covered": 49
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 1.36,
@@ -639,6 +633,12 @@
           "main_net_yi": -2.0,
           "total_net_yi": -15.14,
           "covered": 49
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": -3.72,
+          "total_net_yi": 0.0,
+          "covered": 49
         }
       ]
     },
@@ -648,73 +648,67 @@
       "covered": 15,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 2.69,
-      "main_net_change_yi": -0.3,
-      "five_day_main_net_yi": 11.96,
-      "positive_stock_count": 12,
-      "negative_stock_count": 3,
+      "date": "2026-11-23",
+      "main_net_yi": 6.2,
+      "main_net_change_yi": 3.51,
+      "five_day_main_net_yi": 21.1,
+      "positive_stock_count": 6,
+      "negative_stock_count": 9,
       "top_positive": [
-        {
-          "code": "300408",
-          "name": "三环集团",
-          "main_net_yi": 1.6339
-        },
-        {
-          "code": "300285",
-          "name": "国瓷材料",
-          "main_net_yi": 0.3742
-        },
         {
           "code": "000636",
           "name": "风华高科",
-          "main_net_yi": 0.2869
+          "main_net_yi": 4.2796
+        },
+        {
+          "code": "300408",
+          "name": "三环集团",
+          "main_net_yi": 1.5039
         },
         {
           "code": "688025",
           "name": "杰普特",
-          "main_net_yi": 0.265
+          "main_net_yi": 0.4394
         },
         {
-          "code": "301566",
-          "name": "达利凯普",
-          "main_net_yi": 0.185
+          "code": "300806",
+          "name": "斯迪克",
+          "main_net_yi": 0.4379
+        },
+        {
+          "code": "300285",
+          "name": "国瓷材料",
+          "main_net_yi": 0.3012
         }
       ],
       "top_negative": [
         {
-          "code": "002975",
-          "name": "博杰股份",
-          "main_net_yi": -0.3163
-        },
-        {
-          "code": "603267",
-          "name": "鸿远电子",
-          "main_net_yi": -0.1295
-        },
-        {
-          "code": "605376",
-          "name": "博迁新材",
-          "main_net_yi": -0.0652
+          "code": "300726",
+          "name": "宏达电子",
+          "main_net_yi": -0.1459
         },
         {
           "code": "603678",
           "name": "火炬电子",
-          "main_net_yi": 0.0084
+          "main_net_yi": -0.1364
         },
         {
-          "code": "002859",
-          "name": "洁美科技",
-          "main_net_yi": 0.054
+          "code": "688260",
+          "name": "昀冢科技",
+          "main_net_yi": -0.1235
+        },
+        {
+          "code": "301013",
+          "name": "利和兴",
+          "main_net_yi": -0.1203
+        },
+        {
+          "code": "603267",
+          "name": "鸿远电子",
+          "main_net_yi": -0.113
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -10.31,
-          "total_net_yi": -17.82,
-          "covered": 15
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -2.94,
@@ -744,6 +738,12 @@
           "main_net_yi": 2.69,
           "total_net_yi": -1.76,
           "covered": 15
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 6.2,
+          "total_net_yi": 0.0,
+          "covered": 15
         }
       ]
     },
@@ -753,73 +753,67 @@
       "covered": 11,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -18.32,
-      "main_net_change_yi": -26.11,
-      "five_day_main_net_yi": -46.36,
+      "date": "2026-11-23",
+      "main_net_yi": 1.47,
+      "main_net_change_yi": 19.79,
+      "five_day_main_net_yi": -5.01,
       "positive_stock_count": 3,
       "negative_stock_count": 8,
       "top_positive": [
         {
-          "code": "301666",
-          "name": "大普微-UW",
-          "main_net_yi": 0.6725
-        },
-        {
-          "code": "300302",
-          "name": "同有科技",
-          "main_net_yi": 0.0302
-        },
-        {
-          "code": "301563",
-          "name": "云汉芯城",
-          "main_net_yi": 0.0003
-        },
-        {
-          "code": "300475",
-          "name": "香农芯创",
-          "main_net_yi": -0.4506
+          "code": "603986",
+          "name": "兆易创新",
+          "main_net_yi": 3.8197
         },
         {
           "code": "688766",
           "name": "普冉股份",
-          "main_net_yi": -0.8703
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "688825",
-          "name": "长鑫科技",
-          "main_net_yi": -8.3666
+          "main_net_yi": 0.4951
         },
         {
-          "code": "688525",
-          "name": "佰维存储",
-          "main_net_yi": -3.4603
+          "code": "300302",
+          "name": "同有科技",
+          "main_net_yi": 0.0677
         },
         {
-          "code": "301308",
-          "name": "江波龙",
-          "main_net_yi": -1.8567
-        },
-        {
-          "code": "001309",
-          "name": "德明利",
-          "main_net_yi": -1.7835
+          "code": "301563",
+          "name": "云汉芯城",
+          "main_net_yi": -0.0466
         },
         {
           "code": "300223",
           "name": "君正股份",
-          "main_net_yi": -1.2916
+          "main_net_yi": -0.0736
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "001309",
+          "name": "德明利",
+          "main_net_yi": -1.0201
+        },
+        {
+          "code": "301308",
+          "name": "江波龙",
+          "main_net_yi": -0.721
+        },
+        {
+          "code": "300475",
+          "name": "香农芯创",
+          "main_net_yi": -0.3557
+        },
+        {
+          "code": "301666",
+          "name": "大普微-UW",
+          "main_net_yi": -0.3083
+        },
+        {
+          "code": "688825",
+          "name": "长鑫科技",
+          "main_net_yi": -0.1981
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -35.15,
-          "total_net_yi": -45.04,
-          "covered": 11
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -39.88,
@@ -849,6 +843,12 @@
           "main_net_yi": -18.32,
           "total_net_yi": -23.06,
           "covered": 11
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 1.47,
+          "total_net_yi": 0.0,
+          "covered": 11
         }
       ]
     },
@@ -858,73 +858,67 @@
       "covered": 31,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -0.72,
-      "main_net_change_yi": -1.76,
-      "five_day_main_net_yi": 15.57,
-      "positive_stock_count": 15,
-      "negative_stock_count": 14,
+      "date": "2026-11-23",
+      "main_net_yi": 9.12,
+      "main_net_change_yi": 9.84,
+      "five_day_main_net_yi": 29.95,
+      "positive_stock_count": 14,
+      "negative_stock_count": 17,
       "top_positive": [
         {
-          "code": "300602",
-          "name": "飞荣达",
-          "main_net_yi": 0.5802
-        },
-        {
-          "code": "300684",
-          "name": "中石科技",
-          "main_net_yi": 0.4735
-        },
-        {
-          "code": "002353",
-          "name": "杰瑞股份",
-          "main_net_yi": 0.3963
-        },
-        {
-          "code": "002518",
-          "name": "科士达",
-          "main_net_yi": 0.2043
-        },
-        {
-          "code": "603308",
-          "name": "应流股份",
-          "main_net_yi": 0.1162
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "002418",
-          "name": "康盛股份",
-          "main_net_yi": -1.076
+          "code": "601138",
+          "name": "工业富联",
+          "main_net_yi": 3.9289
         },
         {
           "code": "002851",
           "name": "麦格米特",
-          "main_net_yi": -0.5311
+          "main_net_yi": 2.4097
         },
         {
-          "code": "002837",
-          "name": "英维克",
-          "main_net_yi": -0.3452
+          "code": "000338",
+          "name": "潍柴动力",
+          "main_net_yi": 2.0551
+        },
+        {
+          "code": "002353",
+          "name": "杰瑞股份",
+          "main_net_yi": 0.8414
         },
         {
           "code": "002484",
           "name": "江海股份",
-          "main_net_yi": -0.3215
+          "main_net_yi": 0.4201
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "300602",
+          "name": "飞荣达",
+          "main_net_yi": -0.2366
         },
         {
-          "code": "300990",
-          "name": "同飞股份",
-          "main_net_yi": -0.1727
+          "code": "301489",
+          "name": "思泉新材",
+          "main_net_yi": -0.2147
+        },
+        {
+          "code": "002518",
+          "name": "科士达",
+          "main_net_yi": -0.1712
+        },
+        {
+          "code": "002335",
+          "name": "科华数据",
+          "main_net_yi": -0.1396
+        },
+        {
+          "code": "002364",
+          "name": "中恒电气",
+          "main_net_yi": -0.1334
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -20.5,
-          "total_net_yi": -28.19,
-          "covered": 31
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -5.26,
@@ -954,6 +948,12 @@
           "main_net_yi": -0.72,
           "total_net_yi": -3.14,
           "covered": 31
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 9.12,
+          "total_net_yi": 0.0,
+          "covered": 31
         }
       ]
     },
@@ -963,73 +963,67 @@
       "covered": 62,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -1.08,
-      "main_net_change_yi": 33.34,
-      "five_day_main_net_yi": 80.72,
-      "positive_stock_count": 31,
-      "negative_stock_count": 31,
+      "date": "2026-11-23",
+      "main_net_yi": -10.1,
+      "main_net_change_yi": -9.02,
+      "five_day_main_net_yi": 70.13,
+      "positive_stock_count": 21,
+      "negative_stock_count": 41,
       "top_positive": [
         {
-          "code": "000977",
-          "name": "浪潮信息",
-          "main_net_yi": 3.5974
+          "code": "301396",
+          "name": "宏景科技",
+          "main_net_yi": 1.8132
         },
         {
-          "code": "000158",
-          "name": "常山北明",
-          "main_net_yi": 2.4882
+          "code": "300209",
+          "name": "行云科技",
+          "main_net_yi": 1.1217
         },
         {
-          "code": "600410",
-          "name": "华胜天成",
-          "main_net_yi": 1.4847
+          "code": "002642",
+          "name": "荣联科技",
+          "main_net_yi": 1.0253
         },
         {
           "code": "300857",
           "name": "协创数据",
-          "main_net_yi": 0.7141
+          "main_net_yi": 0.9456
         },
         {
-          "code": "300339",
-          "name": "润和软件",
-          "main_net_yi": 0.4856
+          "code": "002929",
+          "name": "润建股份",
+          "main_net_yi": 0.762
         }
       ],
       "top_negative": [
         {
+          "code": "600410",
+          "name": "华胜天成",
+          "main_net_yi": -3.8841
+        },
+        {
+          "code": "000977",
+          "name": "浪潮信息",
+          "main_net_yi": -2.4853
+        },
+        {
           "code": "000938",
           "name": "紫光股份",
-          "main_net_yi": -2.6343
-        },
-        {
-          "code": "688629",
-          "name": "华丰科技",
-          "main_net_yi": -1.6445
-        },
-        {
-          "code": "603629",
-          "name": "利通电子",
-          "main_net_yi": -1.6338
-        },
-        {
-          "code": "002261",
-          "name": "拓维信息",
-          "main_net_yi": -1.4711
+          "main_net_yi": -1.965
         },
         {
           "code": "002396",
           "name": "星网锐捷",
-          "main_net_yi": -1.1437
+          "main_net_yi": -1.1324
+        },
+        {
+          "code": "688629",
+          "name": "华丰科技",
+          "main_net_yi": -1.055
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 24.51,
-          "total_net_yi": 12.29,
-          "covered": 62
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 0.49,
@@ -1059,6 +1053,12 @@
           "main_net_yi": -1.08,
           "total_net_yi": -14.43,
           "covered": 62
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": -10.1,
+          "total_net_yi": 0.0,
+          "covered": 62
         }
       ]
     },
@@ -1068,73 +1068,67 @@
       "covered": 62,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -7.32,
-      "main_net_change_yi": 2.51,
-      "five_day_main_net_yi": -41.1,
-      "positive_stock_count": 20,
-      "negative_stock_count": 38,
+      "date": "2026-11-23",
+      "main_net_yi": 16.09,
+      "main_net_change_yi": 23.41,
+      "five_day_main_net_yi": -12.73,
+      "positive_stock_count": 43,
+      "negative_stock_count": 19,
       "top_positive": [
         {
-          "code": "605577",
-          "name": "龙版传媒",
-          "main_net_yi": 2.1066
+          "code": "300413",
+          "name": "芒果超媒",
+          "main_net_yi": 4.3928
         },
         {
-          "code": "688111",
-          "name": "金山办公",
-          "main_net_yi": 0.7663
+          "code": "301052",
+          "name": "果麦文化",
+          "main_net_yi": 1.8432
         },
         {
-          "code": "301218",
-          "name": "华是科技",
-          "main_net_yi": 0.6974
-        },
-        {
-          "code": "002739",
-          "name": "儒意电影",
-          "main_net_yi": 0.2196
-        },
-        {
-          "code": "603258",
-          "name": "电魂网络",
-          "main_net_yi": 0.1869
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "300058",
-          "name": "蓝色光标",
-          "main_net_yi": -1.6112
-        },
-        {
-          "code": "002517",
-          "name": "恺英网络",
-          "main_net_yi": -1.5302
+          "code": "603533",
+          "name": "掌阅科技",
+          "main_net_yi": 1.4276
         },
         {
           "code": "300418",
           "name": "昆仑万维",
-          "main_net_yi": -1.1177
+          "main_net_yi": 0.8064
         },
         {
-          "code": "301171",
-          "name": "易点天下",
-          "main_net_yi": -1.0545
+          "code": "002558",
+          "name": "巨人网络",
+          "main_net_yi": 0.7322
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "605577",
+          "name": "龙版传媒",
+          "main_net_yi": -0.342
         },
         {
-          "code": "002131",
-          "name": "利欧股份",
-          "main_net_yi": -1.0266
+          "code": "002174",
+          "name": "游族网络",
+          "main_net_yi": -0.2747
+        },
+        {
+          "code": "600986",
+          "name": "浙文互联",
+          "main_net_yi": -0.2638
+        },
+        {
+          "code": "002905",
+          "name": "金逸影视",
+          "main_net_yi": -0.1529
+        },
+        {
+          "code": "603258",
+          "name": "电魂网络",
+          "main_net_yi": -0.1162
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 14.36,
-          "total_net_yi": 8.44,
-          "covered": 62
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -12.27,
@@ -1164,6 +1158,12 @@
           "main_net_yi": -7.32,
           "total_net_yi": -7.04,
           "covered": 62
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 16.09,
+          "total_net_yi": 0.0,
+          "covered": 62
         }
       ]
     },
@@ -1173,73 +1173,67 @@
       "covered": 58,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 10.76,
-      "main_net_change_yi": 9.85,
-      "five_day_main_net_yi": -1.38,
-      "positive_stock_count": 31,
-      "negative_stock_count": 27,
+      "date": "2026-11-23",
+      "main_net_yi": 53.33,
+      "main_net_change_yi": 42.56,
+      "five_day_main_net_yi": 61.08,
+      "positive_stock_count": 52,
+      "negative_stock_count": 6,
       "top_positive": [
-        {
-          "code": "301313",
-          "name": "凡拓数创",
-          "main_net_yi": 4.244
-        },
-        {
-          "code": "603466",
-          "name": "风语筑",
-          "main_net_yi": 2.7119
-        },
         {
           "code": "688836",
           "name": "宇树科技-W",
-          "main_net_yi": 2.5905
-        },
-        {
-          "code": "688507",
-          "name": "索辰科技",
-          "main_net_yi": 0.9165
-        },
-        {
-          "code": "605488",
-          "name": "福莱新材",
-          "main_net_yi": 0.6935
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "688585",
-          "name": "上纬新材",
-          "main_net_yi": -0.5541
-        },
-        {
-          "code": "002050",
-          "name": "三花智控",
-          "main_net_yi": -0.508
+          "main_net_yi": 5.8228
         },
         {
           "code": "601689",
           "name": "拓普集团",
-          "main_net_yi": -0.4336
+          "main_net_yi": 4.7977
         },
         {
-          "code": "301529",
-          "name": "福赛科技",
-          "main_net_yi": -0.2151
+          "code": "002050",
+          "name": "三花智控",
+          "main_net_yi": 3.936
         },
         {
-          "code": "601100",
-          "name": "恒立液压",
-          "main_net_yi": -0.2139
+          "code": "605488",
+          "name": "福莱新材",
+          "main_net_yi": 3.0313
+        },
+        {
+          "code": "688322",
+          "name": "奥比中光-W",
+          "main_net_yi": 2.4754
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "688698",
+          "name": "伟创电气",
+          "main_net_yi": -0.109
+        },
+        {
+          "code": "002048",
+          "name": "宁波华翔",
+          "main_net_yi": -0.1
+        },
+        {
+          "code": "002920",
+          "name": "德赛西威",
+          "main_net_yi": -0.0788
+        },
+        {
+          "code": "300952",
+          "name": "恒辉安防",
+          "main_net_yi": -0.0266
+        },
+        {
+          "code": "300258",
+          "name": "精锻科技",
+          "main_net_yi": -0.0168
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 27.17,
-          "total_net_yi": 9.57,
-          "covered": 58
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -9.13,
@@ -1269,6 +1263,12 @@
           "main_net_yi": 10.76,
           "total_net_yi": 10.77,
           "covered": 58
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 53.33,
+          "total_net_yi": 0.0,
+          "covered": 58
         }
       ]
     },
@@ -1278,73 +1278,67 @@
       "covered": 99,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -1.47,
-      "main_net_change_yi": -3.45,
-      "five_day_main_net_yi": -4.82,
-      "positive_stock_count": 50,
-      "negative_stock_count": 42,
+      "date": "2026-11-23",
+      "main_net_yi": 5.68,
+      "main_net_change_yi": 7.14,
+      "five_day_main_net_yi": 3.73,
+      "positive_stock_count": 44,
+      "negative_stock_count": 55,
       "top_positive": [
         {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "main_net_yi": 1.3425
+          "code": "600276",
+          "name": "恒瑞医药",
+          "main_net_yi": 1.6496
         },
         {
           "code": "603127",
           "name": "昭衍新药",
-          "main_net_yi": 1.0778
+          "main_net_yi": 1.5944
         },
         {
-          "code": "000538",
-          "name": "云南白药",
-          "main_net_yi": 0.8125
+          "code": "002172",
+          "name": "澳洋健康",
+          "main_net_yi": 1.4479
         },
         {
-          "code": "300759",
-          "name": "康龙化成",
-          "main_net_yi": 0.7333
+          "code": "603259",
+          "name": "药明康德",
+          "main_net_yi": 0.9969
         },
         {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "main_net_yi": 0.729
+          "code": "600664",
+          "name": "哈药股份",
+          "main_net_yi": 0.7108
         }
       ],
       "top_negative": [
         {
-          "code": "002432",
-          "name": "九安医疗",
-          "main_net_yi": -4.2591
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "main_net_yi": -0.9345
         },
         {
-          "code": "002044",
-          "name": "美年健康",
-          "main_net_yi": -0.8687
+          "code": "002019",
+          "name": "亿帆医药",
+          "main_net_yi": -0.3764
         },
         {
-          "code": "688235",
-          "name": "百济神州",
-          "main_net_yi": -0.4806
+          "code": "300199",
+          "name": "翰宇药业",
+          "main_net_yi": -0.3501
         },
         {
-          "code": "600521",
-          "name": "华海药业",
-          "main_net_yi": -0.4437
+          "code": "300832",
+          "name": "新产业",
+          "main_net_yi": -0.3458
         },
         {
-          "code": "300244",
-          "name": "迪安诊断",
-          "main_net_yi": -0.3699
+          "code": "000538",
+          "name": "云南白药",
+          "main_net_yi": -0.3146
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -20.79,
-          "total_net_yi": -50.39,
-          "covered": 99
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -2.88,
@@ -1374,6 +1368,12 @@
           "main_net_yi": -1.47,
           "total_net_yi": -7.08,
           "covered": 99
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 5.68,
+          "total_net_yi": 0.0,
+          "covered": 99
         }
       ]
     },
@@ -1383,73 +1383,67 @@
       "covered": 60,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 12.36,
-      "main_net_change_yi": 4.51,
-      "five_day_main_net_yi": 27.04,
-      "positive_stock_count": 21,
-      "negative_stock_count": 38,
+      "date": "2026-11-23",
+      "main_net_yi": 6.06,
+      "main_net_change_yi": -6.3,
+      "five_day_main_net_yi": 28.98,
+      "positive_stock_count": 37,
+      "negative_stock_count": 23,
       "top_positive": [
-        {
-          "code": "300059",
-          "name": "东方财富",
-          "main_net_yi": 5.3652
-        },
         {
           "code": "600030",
           "name": "中信证券",
-          "main_net_yi": 2.6038
+          "main_net_yi": 1.6356
         },
         {
           "code": "601211",
           "name": "国泰海通",
-          "main_net_yi": 2.2283
+          "main_net_yi": 1.4204
         },
         {
-          "code": "300033",
-          "name": "同花顺",
-          "main_net_yi": 1.9064
+          "code": "300085",
+          "name": "银之杰",
+          "main_net_yi": 0.7229
         },
         {
-          "code": "601688",
-          "name": "华泰证券",
-          "main_net_yi": 1.1805
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "600999",
-          "name": "招商证券",
-          "main_net_yi": -0.4926
+          "code": "300803",
+          "name": "指南针",
+          "main_net_yi": 0.681
         },
         {
           "code": "000783",
           "name": "长江证券",
-          "main_net_yi": -0.4245
+          "main_net_yi": 0.4344
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "601995",
+          "name": "中金公司",
+          "main_net_yi": -0.5322
+        },
+        {
+          "code": "300033",
+          "name": "同花顺",
+          "main_net_yi": -0.3825
+        },
+        {
+          "code": "600621",
+          "name": "华鑫股份",
+          "main_net_yi": -0.3346
         },
         {
           "code": "600909",
           "name": "华安证券",
-          "main_net_yi": -0.3894
+          "main_net_yi": -0.195
         },
         {
-          "code": "601099",
-          "name": "太平洋",
-          "main_net_yi": -0.2406
-        },
-        {
-          "code": "601995",
-          "name": "中金公司",
-          "main_net_yi": -0.1887
+          "code": "600155",
+          "name": "华创云信",
+          "main_net_yi": -0.188
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -0.36,
-          "total_net_yi": -8.5,
-          "covered": 60
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 4.12,
@@ -1479,6 +1473,12 @@
           "main_net_yi": 12.36,
           "total_net_yi": 16.77,
           "covered": 60
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 6.06,
+          "total_net_yi": 0.0,
+          "covered": 60
         }
       ]
     },
@@ -1488,73 +1488,67 @@
       "covered": 55,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 11.2,
-      "main_net_change_yi": 8.18,
-      "five_day_main_net_yi": 27.89,
-      "positive_stock_count": 29,
-      "negative_stock_count": 24,
+      "date": "2026-11-23",
+      "main_net_yi": 0.39,
+      "main_net_change_yi": -10.81,
+      "five_day_main_net_yi": 26.81,
+      "positive_stock_count": 15,
+      "negative_stock_count": 40,
       "top_positive": [
         {
           "code": "300750",
           "name": "宁德时代",
-          "main_net_yi": 12.4957
-        },
-        {
-          "code": "603200",
-          "name": "上海洗霸",
-          "main_net_yi": 0.1881
-        },
-        {
-          "code": "688499",
-          "name": "利元亨",
-          "main_net_yi": 0.1782
+          "main_net_yi": 4.0223
         },
         {
           "code": "301487",
           "name": "盟固利",
-          "main_net_yi": 0.1736
+          "main_net_yi": 0.2327
         },
         {
-          "code": "688353",
-          "name": "华盛锂电",
-          "main_net_yi": 0.1731
+          "code": "002407",
+          "name": "多氟多",
+          "main_net_yi": 0.2311
+        },
+        {
+          "code": "300390",
+          "name": "天华新能",
+          "main_net_yi": 0.2257
+        },
+        {
+          "code": "002460",
+          "name": "赣锋锂业",
+          "main_net_yi": 0.1887
         }
       ],
       "top_negative": [
         {
-          "code": "002460",
-          "name": "赣锋锂业",
-          "main_net_yi": -0.5418
+          "code": "300014",
+          "name": "亿纬锂能",
+          "main_net_yi": -0.7809
         },
         {
-          "code": "300207",
-          "name": "欣旺达",
-          "main_net_yi": -0.4955
+          "code": "002812",
+          "name": "恩捷股份",
+          "main_net_yi": -0.5186
         },
         {
-          "code": "002245",
-          "name": "蔚蓝锂芯",
-          "main_net_yi": -0.472
+          "code": "300037",
+          "name": "新宙邦",
+          "main_net_yi": -0.3448
         },
         {
-          "code": "600884",
-          "name": "杉杉股份",
-          "main_net_yi": -0.3735
+          "code": "300450",
+          "name": "先导智能",
+          "main_net_yi": -0.3141
         },
         {
-          "code": "002466",
-          "name": "天齐锂业",
-          "main_net_yi": -0.3035
+          "code": "301358",
+          "name": "湖南裕能",
+          "main_net_yi": -0.3004
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 1.22,
-          "total_net_yi": -18.0,
-          "covered": 55
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 1.46,
@@ -1584,6 +1578,12 @@
           "main_net_yi": 11.2,
           "total_net_yi": 9.86,
           "covered": 55
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 0.39,
+          "total_net_yi": 0.0,
+          "covered": 55
         }
       ]
     },
@@ -1593,73 +1593,67 @@
       "covered": 33,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -0.44,
-      "main_net_change_yi": 0.35,
-      "five_day_main_net_yi": -0.72,
-      "positive_stock_count": 12,
-      "negative_stock_count": 21,
+      "date": "2026-11-23",
+      "main_net_yi": 0.8,
+      "main_net_change_yi": 1.24,
+      "five_day_main_net_yi": 2.11,
+      "positive_stock_count": 13,
+      "negative_stock_count": 20,
       "top_positive": [
         {
           "code": "601985",
           "name": "中国核电",
-          "main_net_yi": 1.5599
-        },
-        {
-          "code": "002487",
-          "name": "大金重工",
-          "main_net_yi": 0.3269
-        },
-        {
-          "code": "603011",
-          "name": "合锻智能",
-          "main_net_yi": 0.2099
-        },
-        {
-          "code": "600396",
-          "name": "华电辽能",
-          "main_net_yi": 0.1896
-        },
-        {
-          "code": "001896",
-          "name": "豫能控股",
-          "main_net_yi": 0.1441
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "601991",
-          "name": "大唐发电",
-          "main_net_yi": -0.4892
-        },
-        {
-          "code": "600744",
-          "name": "华银电力",
-          "main_net_yi": -0.4179
-        },
-        {
-          "code": "601615",
-          "name": "明阳智能",
-          "main_net_yi": -0.3713
+          "main_net_yi": 0.8716
         },
         {
           "code": "002202",
           "name": "金风科技",
-          "main_net_yi": -0.3436
+          "main_net_yi": 0.4365
         },
         {
-          "code": "601399",
-          "name": "国机重装",
-          "main_net_yi": -0.3054
+          "code": "600011",
+          "name": "华能国际",
+          "main_net_yi": 0.3708
+        },
+        {
+          "code": "600396",
+          "name": "华电辽能",
+          "main_net_yi": 0.3232
+        },
+        {
+          "code": "601991",
+          "name": "大唐发电",
+          "main_net_yi": 0.315
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "002531",
+          "name": "天顺风能",
+          "main_net_yi": -0.7639
+        },
+        {
+          "code": "600310",
+          "name": "广西能源",
+          "main_net_yi": -0.1922
+        },
+        {
+          "code": "000767",
+          "name": "晋控电力",
+          "main_net_yi": -0.1191
+        },
+        {
+          "code": "002039",
+          "name": "黔源电力",
+          "main_net_yi": -0.1178
+        },
+        {
+          "code": "688122",
+          "name": "西部超导",
+          "main_net_yi": -0.1065
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 0.12,
-          "total_net_yi": -7.93,
-          "covered": 33
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -2.03,
@@ -1689,6 +1683,12 @@
           "main_net_yi": -0.44,
           "total_net_yi": -1.81,
           "covered": 33
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 0.8,
+          "total_net_yi": 0.0,
+          "covered": 33
         }
       ]
     },
@@ -1698,73 +1698,67 @@
       "covered": 46,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 0.8,
-      "main_net_change_yi": 0.12,
-      "five_day_main_net_yi": 17.56,
-      "positive_stock_count": 18,
-      "negative_stock_count": 25,
+      "date": "2026-11-23",
+      "main_net_yi": -1.51,
+      "main_net_change_yi": -2.31,
+      "five_day_main_net_yi": 3.98,
+      "positive_stock_count": 15,
+      "negative_stock_count": 31,
       "top_positive": [
         {
           "code": "002028",
           "name": "思源电气",
-          "main_net_yi": 1.248
-        },
-        {
-          "code": "600089",
-          "name": "特变电工",
-          "main_net_yi": 0.6735
-        },
-        {
-          "code": "000400",
-          "name": "许继电气",
-          "main_net_yi": 0.3544
-        },
-        {
-          "code": "605196",
-          "name": "华通线缆",
-          "main_net_yi": 0.1764
-        },
-        {
-          "code": "600312",
-          "name": "平高电气",
-          "main_net_yi": 0.1748
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "600406",
-          "name": "国电南瑞",
-          "main_net_yi": -0.633
-        },
-        {
-          "code": "601179",
-          "name": "中国西电",
-          "main_net_yi": -0.4185
-        },
-        {
-          "code": "002922",
-          "name": "伊戈尔",
-          "main_net_yi": -0.184
+          "main_net_yi": 0.5128
         },
         {
           "code": "601126",
           "name": "四方股份",
-          "main_net_yi": -0.1626
+          "main_net_yi": 0.1827
         },
         {
-          "code": "002706",
-          "name": "良信股份",
-          "main_net_yi": -0.1426
+          "code": "603063",
+          "name": "禾望电气",
+          "main_net_yi": 0.1307
+        },
+        {
+          "code": "002922",
+          "name": "伊戈尔",
+          "main_net_yi": 0.0764
+        },
+        {
+          "code": "600406",
+          "name": "国电南瑞",
+          "main_net_yi": 0.0708
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "300001",
+          "name": "特锐德",
+          "main_net_yi": -0.318
+        },
+        {
+          "code": "600312",
+          "name": "平高电气",
+          "main_net_yi": -0.2508
+        },
+        {
+          "code": "002270",
+          "name": "华明装备",
+          "main_net_yi": -0.1845
+        },
+        {
+          "code": "002350",
+          "name": "北京科锐",
+          "main_net_yi": -0.1765
+        },
+        {
+          "code": "688676",
+          "name": "金盘科技",
+          "main_net_yi": -0.1475
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 0.03,
-          "total_net_yi": -8.01,
-          "covered": 46
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 12.06,
@@ -1794,6 +1788,12 @@
           "main_net_yi": 0.8,
           "total_net_yi": -2.11,
           "covered": 46
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": -1.51,
+          "total_net_yi": 0.0,
+          "covered": 46
         }
       ]
     },
@@ -1803,73 +1803,67 @@
       "covered": 9,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": 1.95,
-      "main_net_change_yi": 2.46,
-      "five_day_main_net_yi": 8.0,
-      "positive_stock_count": 5,
-      "negative_stock_count": 4,
+      "date": "2026-11-23",
+      "main_net_yi": 0.86,
+      "main_net_change_yi": -1.08,
+      "five_day_main_net_yi": 8.57,
+      "positive_stock_count": 6,
+      "negative_stock_count": 3,
       "top_positive": [
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "main_net_yi": 1.9936
-        },
         {
           "code": "688411",
           "name": "海博思创",
-          "main_net_yi": 0.0786
+          "main_net_yi": 0.4166
         },
         {
-          "code": "688717",
-          "name": "艾罗能源",
-          "main_net_yi": 0.0472
+          "code": "300274",
+          "name": "阳光电源",
+          "main_net_yi": 0.237
         },
         {
           "code": "688390",
           "name": "固德威",
-          "main_net_yi": 0.0125
-        },
-        {
-          "code": "002150",
-          "name": "正泰电源",
-          "main_net_yi": 0.0083
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "300827",
-          "name": "上能电气",
-          "main_net_yi": -0.0695
-        },
-        {
-          "code": "688063",
-          "name": "派能科技",
-          "main_net_yi": -0.0484
-        },
-        {
-          "code": "688472",
-          "name": "阿特斯",
-          "main_net_yi": -0.0478
+          "main_net_yi": 0.1912
         },
         {
           "code": "605117",
           "name": "德业股份",
-          "main_net_yi": -0.0257
+          "main_net_yi": 0.1129
+        },
+        {
+          "code": "688063",
+          "name": "派能科技",
+          "main_net_yi": 0.0918
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "688472",
+          "name": "阿特斯",
+          "main_net_yi": -0.0952
         },
         {
           "code": "002150",
           "name": "正泰电源",
-          "main_net_yi": 0.0083
+          "main_net_yi": -0.0732
+        },
+        {
+          "code": "300827",
+          "name": "上能电气",
+          "main_net_yi": -0.0207
+        },
+        {
+          "code": "688717",
+          "name": "艾罗能源",
+          "main_net_yi": 0.0037
+        },
+        {
+          "code": "688063",
+          "name": "派能科技",
+          "main_net_yi": 0.0918
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": 0.02,
-          "total_net_yi": -3.68,
-          "covered": 9
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 0.29,
@@ -1899,6 +1893,12 @@
           "main_net_yi": 1.95,
           "total_net_yi": -0.11,
           "covered": 9
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 0.86,
+          "total_net_yi": 0.0,
+          "covered": 9
         }
       ]
     },
@@ -1908,73 +1908,67 @@
       "covered": 46,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -1.07,
-      "main_net_change_yi": 0.85,
-      "five_day_main_net_yi": -18.95,
-      "positive_stock_count": 17,
-      "negative_stock_count": 29,
+      "date": "2026-11-23",
+      "main_net_yi": 5.04,
+      "main_net_change_yi": 6.11,
+      "five_day_main_net_yi": 2.67,
+      "positive_stock_count": 26,
+      "negative_stock_count": 20,
       "top_positive": [
         {
-          "code": "300416",
-          "name": "苏试试验",
-          "main_net_yi": 0.4986
-        },
-        {
-          "code": "002792",
-          "name": "通宇通讯",
-          "main_net_yi": 0.2683
-        },
-        {
-          "code": "002149",
-          "name": "西部材料",
-          "main_net_yi": 0.2435
+          "code": "300136",
+          "name": "信维通信",
+          "main_net_yi": 1.2773
         },
         {
           "code": "002565",
           "name": "顺灏股份",
-          "main_net_yi": 0.1928
+          "main_net_yi": 1.0402
         },
         {
-          "code": "601698",
-          "name": "中国卫通",
-          "main_net_yi": 0.1511
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "600879",
-          "name": "航天电子",
-          "main_net_yi": -0.5836
+          "code": "603131",
+          "name": "上海沪工",
+          "main_net_yi": 0.5298
         },
         {
           "code": "002202",
           "name": "金风科技",
-          "main_net_yi": -0.3436
+          "main_net_yi": 0.4365
         },
         {
-          "code": "600498",
-          "name": "烽火通信",
-          "main_net_yi": -0.3178
+          "code": "300416",
+          "name": "苏试试验",
+          "main_net_yi": 0.4227
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "000738",
+          "name": "航发控制",
+          "main_net_yi": -0.2344
         },
         {
-          "code": "002465",
-          "name": "海格通信",
-          "main_net_yi": -0.2526
+          "code": "688102",
+          "name": "斯瑞新材",
+          "main_net_yi": -0.1758
         },
         {
-          "code": "002115",
-          "name": "三维通信",
-          "main_net_yi": -0.1997
+          "code": "002297",
+          "name": "博云新材",
+          "main_net_yi": -0.121
+        },
+        {
+          "code": "688375",
+          "name": "国博电子",
+          "main_net_yi": -0.0797
+        },
+        {
+          "code": "603308",
+          "name": "应流股份",
+          "main_net_yi": -0.0792
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -6.6,
-          "total_net_yi": -24.56,
-          "covered": 46
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -16.57,
@@ -2004,6 +1998,12 @@
           "main_net_yi": -1.07,
           "total_net_yi": -4.24,
           "covered": 46
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 5.04,
+          "total_net_yi": 0.0,
+          "covered": 46
         }
       ]
     },
@@ -2013,73 +2013,67 @@
       "covered": 39,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -0.74,
-      "main_net_change_yi": -8.95,
-      "five_day_main_net_yi": -0.01,
-      "positive_stock_count": 17,
-      "negative_stock_count": 22,
+      "date": "2026-11-23",
+      "main_net_yi": 5.3,
+      "main_net_change_yi": 6.04,
+      "five_day_main_net_yi": 3.85,
+      "positive_stock_count": 26,
+      "negative_stock_count": 13,
       "top_positive": [
-        {
-          "code": "000807",
-          "name": "云铝股份",
-          "main_net_yi": 0.4944
-        },
-        {
-          "code": "000630",
-          "name": "铜陵有色",
-          "main_net_yi": 0.3704
-        },
-        {
-          "code": "000408",
-          "name": "藏格矿业",
-          "main_net_yi": 0.3241
-        },
-        {
-          "code": "601600",
-          "name": "中国铝业",
-          "main_net_yi": 0.3169
-        },
-        {
-          "code": "600362",
-          "name": "江西铜业",
-          "main_net_yi": 0.2776
-        }
-      ],
-      "top_negative": [
-        {
-          "code": "000831",
-          "name": "中国稀土",
-          "main_net_yi": -0.7946
-        },
         {
           "code": "601168",
           "name": "西部矿业",
-          "main_net_yi": -0.5615
-        },
-        {
-          "code": "600219",
-          "name": "南山铝业",
-          "main_net_yi": -0.3591
+          "main_net_yi": 0.8845
         },
         {
           "code": "603799",
           "name": "华友钴业",
-          "main_net_yi": -0.3384
+          "main_net_yi": 0.8448
+        },
+        {
+          "code": "000831",
+          "name": "中国稀土",
+          "main_net_yi": 0.6396
         },
         {
           "code": "600259",
           "name": "中稀有色",
-          "main_net_yi": -0.3117
+          "main_net_yi": 0.6151
+        },
+        {
+          "code": "000603",
+          "name": "盛达资源",
+          "main_net_yi": 0.5264
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "000792",
+          "name": "盐湖股份",
+          "main_net_yi": -0.5189
+        },
+        {
+          "code": "601020",
+          "name": "华钰矿业",
+          "main_net_yi": -0.2286
+        },
+        {
+          "code": "001280",
+          "name": "中国铀业",
+          "main_net_yi": -0.2244
+        },
+        {
+          "code": "601677",
+          "name": "明泰铝业",
+          "main_net_yi": -0.2065
+        },
+        {
+          "code": "600714",
+          "name": "金瑞矿业",
+          "main_net_yi": -0.1545
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -10.13,
-          "total_net_yi": -24.19,
-          "covered": 39
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": 1.45,
@@ -2109,6 +2103,12 @@
           "main_net_yi": -0.74,
           "total_net_yi": 0.58,
           "covered": 39
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 5.3,
+          "total_net_yi": 0.0,
+          "covered": 39
         }
       ]
     },
@@ -2118,73 +2118,67 @@
       "covered": 29,
       "missing": [],
       "coverage_pct": 100.0,
-      "date": "2026-11-20",
-      "main_net_yi": -3.02,
-      "main_net_change_yi": -0.51,
-      "five_day_main_net_yi": -10.54,
-      "positive_stock_count": 9,
+      "date": "2026-11-23",
+      "main_net_yi": 1.64,
+      "main_net_change_yi": 4.66,
+      "five_day_main_net_yi": -3.26,
+      "positive_stock_count": 11,
       "negative_stock_count": 18,
       "top_positive": [
         {
+          "code": "002414",
+          "name": "高德红外",
+          "main_net_yi": 2.8438
+        },
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "main_net_yi": 1.0489
+        },
+        {
           "code": "601606",
           "name": "长城军工",
-          "main_net_yi": 0.2078
+          "main_net_yi": 0.1539
         },
         {
-          "code": "302132",
-          "name": "中航成飞",
-          "main_net_yi": 0.2047
-        },
-        {
-          "code": "688543",
-          "name": "国科军工",
-          "main_net_yi": 0.076
+          "code": "600562",
+          "name": "国睿科技",
+          "main_net_yi": 0.0906
         },
         {
           "code": "301357",
           "name": "北方长龙",
-          "main_net_yi": 0.0542
-        },
-        {
-          "code": "000519",
-          "name": "中兵红箭",
-          "main_net_yi": 0.0201
+          "main_net_yi": 0.063
         }
       ],
       "top_negative": [
         {
-          "code": "600893",
-          "name": "航发动力",
-          "main_net_yi": -0.7699
-        },
-        {
           "code": "600150",
           "name": "中国船舶",
-          "main_net_yi": -0.6664
+          "main_net_yi": -1.164
         },
         {
           "code": "000768",
           "name": "中航西飞",
-          "main_net_yi": -0.416
+          "main_net_yi": -0.593
         },
         {
-          "code": "600862",
-          "name": "中航高科",
-          "main_net_yi": -0.3123
+          "code": "000519",
+          "name": "中兵红箭",
+          "main_net_yi": -0.1497
         },
         {
-          "code": "600760",
-          "name": "中航沈飞",
-          "main_net_yi": -0.2538
+          "code": "600765",
+          "name": "中航重机",
+          "main_net_yi": -0.1267
+        },
+        {
+          "code": "688122",
+          "name": "西部超导",
+          "main_net_yi": -0.1065
         }
       ],
       "daily": [
-        {
-          "date": "2026-11-13",
-          "main_net_yi": -3.96,
-          "total_net_yi": -12.96,
-          "covered": 29
-        },
         {
           "date": "2026-11-16",
           "main_net_yi": -5.64,
@@ -2213,6 +2207,12 @@
           "date": "2026-11-20",
           "main_net_yi": -3.02,
           "total_net_yi": -1.8,
+          "covered": 29
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 1.64,
+          "total_net_yi": 0.0,
           "covered": 29
         }
       ]
