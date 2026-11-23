@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-23",
-  "generatedAt": "2026-11-23 10:40",
-  "reportGeneratedAt": "2026-11-23 10:40",
+  "generatedAt": "2026-11-23 10:41",
+  "reportGeneratedAt": "2026-11-23 10:41",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-23.xlsx",
@@ -1045,8 +1045,8 @@ window.MARKET_TREND_DATA = {
       "total": 62,
       "bull": 0,
       "turnBull": 1,
-      "turnBear": 4,
-      "bear": 57,
+      "turnBear": 5,
+      "bear": 56,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
@@ -1055,12 +1055,12 @@ window.MARKET_TREND_DATA = {
       "bullPct": 0.0,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 0→0；空转多 2→1；多转空 3→4；空 57→57",
+      "change": "多 0→0；空转多 2→1；多转空 3→5；空 57→56",
       "id": "ai-app",
       "code": "AI APPS",
       "score": -1.6,
       "fulfilled": 0,
-      "netBias": -57,
+      "netBias": -56,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1068,7 +1068,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/62，空头 57；空转多候选 1，今日转多确认 0，反向转空 4。多 0→0；空转多 2→1；多转空 3→4；空 57→57，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 0/62，空头 56；空转多候选 1，今日转多确认 0，反向转空 5。多 0→0；空转多 2→1；多转空 3→5；空 57→56，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-13",
@@ -1123,8 +1123,8 @@ window.MARKET_TREND_DATA = {
           "total": 62,
           "bull": 0,
           "turnBull": 1,
-          "turnBear": 4,
-          "bear": 57,
+          "turnBear": 5,
+          "bear": 56,
           "bullPct": 0.0
         }
       ]
