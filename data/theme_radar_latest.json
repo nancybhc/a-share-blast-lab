@@ -1,53 +1,53 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T09:29:42+08:00",
+  "generated_at": "2026-11-23T09:30:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
   "daily_top": [
     {
       "date": "2026-11-23",
-      "theme": "屏下摄像/3D摄像头",
-      "representative": "屏下摄像",
-      "change_pct": 0.3,
-      "constituents": 16,
-      "members": "屏下摄像 +0.30% / 3D摄像头 -0.16%",
+      "theme": "券商概念",
+      "representative": "券商概念",
+      "change_pct": 0.49,
+      "constituents": 53,
+      "members": "券商概念 +0.49%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
-      "theme": "青蒿素",
-      "representative": "青蒿素",
-      "change_pct": 0.1,
-      "constituents": 11,
-      "members": "青蒿素 +0.10%",
+      "theme": "屏下摄像/3D摄像头",
+      "representative": "屏下摄像",
+      "change_pct": 0.21,
+      "constituents": 16,
+      "members": "屏下摄像 +0.21% / 3D摄像头 -0.17%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "小金属概念/金属回收/金属铜",
       "representative": "金属铅",
-      "change_pct": -0.16,
+      "change_pct": 0.14,
       "constituents": 228,
-      "members": "金属铅 -0.16% / 金属锌 -0.43% / 金属钴 -0.65% / 金属铜 -0.73% / 小金属概念 -1.02% / 金属镍 -1.20%",
+      "members": "金属铅 +0.14% / 金属锌 -0.10% / 金属钴 -0.38% / 金属铜 -0.41% / 金属镍 -0.48% / 小金属概念 -0.86%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-23",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": -0.21,
-      "constituents": 18,
-      "members": "水产概念 -0.21%",
-      "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": -0.23,
+      "change_pct": 0.08,
       "constituents": 76,
-      "members": "黄金概念 -0.23%",
+      "members": "黄金概念 +0.08%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "青蒿素",
+      "representative": "青蒿素",
+      "change_pct": 0.04,
+      "constituents": 11,
+      "members": "青蒿素 +0.04%",
       "rank": 5
     }
   ],
@@ -93,21 +93,21 @@
       "dates": "11-19、11-17"
     },
     {
-      "theme": "屏下摄像/3D摄像头",
+      "theme": "券商概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.3,
+      "avg_change_pct": 0.49,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
     },
     {
-      "theme": "青蒿素",
+      "theme": "屏下摄像/3D摄像头",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.1,
+      "avg_change_pct": 0.21,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -117,19 +117,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.16,
+      "avg_change_pct": 0.14,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-23"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.21,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-23"
     },
     {
@@ -137,7 +127,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.23,
+      "avg_change_pct": 0.08,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-23"
+    },
+    {
+      "theme": "青蒿素",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.04,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
