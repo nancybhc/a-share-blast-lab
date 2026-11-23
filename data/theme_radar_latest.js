@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T14:48:07+08:00",
+  "generated_at": "2026-11-23T14:50:09+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 7.79,
+      "change_pct": 7.74,
       "constituents": 475,
-      "members": "机器人执行器 +7.79% / 减速器 +6.55% / 人形机器人 +6.37% / 机器视觉 +5.69%",
+      "members": "机器人执行器 +7.74% / 减速器 +6.52% / 人形机器人 +6.32% / 机器视觉 +5.66%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 7.43,
+      "change_pct": 7.37,
       "constituents": 81,
-      "members": "物理AI +7.43%",
+      "members": "物理AI +7.37%",
       "rank": 2
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 6.66,
+      "change_pct": 6.62,
       "constituents": 33,
-      "members": "AI视频 +6.66%",
+      "members": "AI视频 +6.62%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-23",
-      "theme": "噪声防治",
-      "representative": "噪声防治",
-      "change_pct": 5.75,
-      "constituents": 9,
-      "members": "噪声防治 +5.75%",
-      "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "玻璃基板/3D玻璃",
       "representative": "3D玻璃",
-      "change_pct": 5.64,
+      "change_pct": 5.7,
       "constituents": 73,
-      "members": "3D玻璃 +5.64% / 玻璃基板 +4.06%",
+      "members": "3D玻璃 +5.70% / 玻璃基板 +3.98%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "噪声防治",
+      "representative": "噪声防治",
+      "change_pct": 5.65,
+      "constituents": 9,
+      "members": "噪声防治 +5.65%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.79,
+      "avg_change_pct": 7.74,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.43,
+      "avg_change_pct": 7.37,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -97,19 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.66,
+      "avg_change_pct": 6.62,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-23"
-    },
-    {
-      "theme": "噪声防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 5.75,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-23"
     },
     {
@@ -117,7 +107,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.64,
+      "avg_change_pct": 5.7,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-23"
+    },
+    {
+      "theme": "噪声防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.65,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
