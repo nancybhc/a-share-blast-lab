@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T11:22:24+08:00",
+  "generated_at": "2026-11-23T11:24:24+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-23午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-23",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.95,
+      "change_pct": 3.77,
       "constituents": 81,
-      "members": "物理AI +3.95%",
+      "members": "物理AI +3.77%",
       "rank": 1
     },
     {
       "date": "2026-11-23",
       "theme": "机器人",
       "representative": "机器人执行器",
-      "change_pct": 3.85,
+      "change_pct": 3.52,
       "constituents": 475,
-      "members": "机器人执行器 +3.85% / 人形机器人 +2.95% / 减速器 +2.74% / 机器视觉 +2.03%",
+      "members": "机器人执行器 +3.52% / 人形机器人 +2.71% / 减速器 +2.49% / 机器视觉 +1.86%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-23",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 2.91,
-      "constituents": 19,
-      "members": "智能音箱 +2.91%",
-      "rank": 3
     },
     {
       "date": "2026-11-23",
       "theme": "玻璃基板/3D玻璃",
       "representative": "3D玻璃",
-      "change_pct": 2.89,
+      "change_pct": 2.87,
       "constituents": 73,
-      "members": "3D玻璃 +2.89% / 玻璃基板 +1.59%",
+      "members": "3D玻璃 +2.87% / 玻璃基板 +1.32%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 2.67,
+      "constituents": 19,
+      "members": "智能音箱 +2.67%",
       "rank": 4
     },
     {
       "date": "2026-11-23",
       "theme": "AI视频",
       "representative": "AI视频",
-      "change_pct": 2.6,
+      "change_pct": 2.56,
       "constituents": 33,
-      "members": "AI视频 +2.60%",
+      "members": "AI视频 +2.56%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.95,
+      "avg_change_pct": 3.77,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.85,
+      "avg_change_pct": 3.52,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-23"
-    },
-    {
-      "theme": "智能音箱",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.91,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-23"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.89,
+      "avg_change_pct": 2.87,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-23"
+    },
+    {
+      "theme": "智能音箱",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.67,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.6,
+      "avg_change_pct": 2.56,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
