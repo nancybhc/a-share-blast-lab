@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T10:43:12+08:00",
+  "generated_at": "2026-11-24T10:44:24+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 5.15,
+      "change_pct": 5.44,
       "constituents": 473,
-      "members": "减速器 +5.15% / 人形机器人 +4.22% / 机器视觉 +3.30%",
+      "members": "减速器 +5.44% / 人形机器人 +4.56% / 机器视觉 +3.66%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 4.68,
+      "change_pct": 5.05,
       "constituents": 68,
-      "members": "英伟达概念 +4.68%",
+      "members": "英伟达概念 +5.05%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "金属回收/金属铜/动力电池回收",
-      "representative": "金属钴",
-      "change_pct": 4.6,
-      "constituents": 169,
-      "members": "金属钴 +4.60% / 动力电池回收 +2.63% / 金属回收 +1.26% / 金属铜 +0.46% / 金属锌 -0.05% / 金属铅 -0.26%",
-      "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "拼多多概念",
       "representative": "拼多多概念",
-      "change_pct": 4.47,
+      "change_pct": 4.97,
       "constituents": 29,
-      "members": "拼多多概念 +4.47%",
-      "rank": 4
+      "members": "拼多多概念 +4.97%",
+      "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.34,
+      "change_pct": 4.9,
       "constituents": 19,
-      "members": "智能音箱 +4.34%",
+      "members": "智能音箱 +4.90%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "金属回收/金属铜/动力电池回收",
+      "representative": "金属钴",
+      "change_pct": 4.79,
+      "constituents": 169,
+      "members": "金属钴 +4.79% / 动力电池回收 +2.82% / 金属回收 +1.42% / 金属铜 +0.65% / 金属锌 +0.10% / 金属铅 -0.09%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.93,
+      "avg_change_pct": 6.08,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.68,
+      "avg_change_pct": 5.05,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-24"
-    },
-    {
-      "theme": "金属回收/金属铜/动力电池回收",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.6,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-24"
     },
     {
@@ -87,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.47,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 4.97,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-24"
     },
     {
@@ -97,7 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.34,
+      "avg_change_pct": 4.9,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-24"
+    },
+    {
+      "theme": "金属回收/金属铜/动力电池回收",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.79,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
