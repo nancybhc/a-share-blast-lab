@@ -1,53 +1,53 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T11:15:38+08:00",
+  "generated_at": "2026-11-24T11:17:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
   "daily_top": [
     {
       "date": "2026-11-24",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 4.33,
-      "constituents": 19,
-      "members": "智能音箱 +4.33%",
+      "theme": "机器人",
+      "representative": "减速器",
+      "change_pct": 4.22,
+      "constituents": 473,
+      "members": "减速器 +4.22% / 人形机器人 +3.41% / 机器视觉 +2.35%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 4.14,
-      "constituents": 473,
-      "members": "减速器 +4.14% / 人形机器人 +3.34% / 机器视觉 +2.31%",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 4.16,
+      "constituents": 19,
+      "members": "智能音箱 +4.16%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 3.63,
+      "change_pct": 3.71,
       "constituents": 68,
-      "members": "英伟达概念 +3.63%",
+      "members": "英伟达概念 +3.71%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "拼多多概念",
       "representative": "拼多多概念",
-      "change_pct": 3.55,
+      "change_pct": 3.54,
       "constituents": 29,
-      "members": "拼多多概念 +3.55%",
+      "members": "拼多多概念 +3.54%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.49,
+      "change_pct": 3.53,
       "constituents": 81,
-      "members": "物理AI +3.49%",
+      "members": "物理AI +3.53%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.42,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
+      "avg_change_pct": 5.46,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
       "dates": "11-24、11-23"
     },
     {
@@ -67,7 +67,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.58,
+      "avg_change_pct": 5.6,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-24、11-23"
@@ -77,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.33,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 4.16,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-24"
     },
     {
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.63,
+      "avg_change_pct": 3.71,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.55,
+      "avg_change_pct": 3.54,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
