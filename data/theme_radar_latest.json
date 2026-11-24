@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:44:58+08:00",
+  "generated_at": "2026-11-24T14:46:49+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,9 +9,9 @@
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 3.18,
+      "change_pct": 3.13,
       "constituents": 169,
-      "members": "金属钴 +3.18% / 动力电池回收 +0.70% / 金属回收 -0.71% / 金属铜 -1.36% / 金属锌 -1.99% / 金属铅 -2.16%",
+      "members": "金属钴 +3.13% / 动力电池回收 +0.74% / 金属回收 -0.71% / 金属铜 -1.39% / 金属锌 -2.04% / 金属铅 -2.21%",
       "rank": 1
     },
     {
@@ -27,9 +27,9 @@
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 2.82,
+      "change_pct": 2.83,
       "constituents": 473,
-      "members": "减速器 +2.82% / 人形机器人 +2.02% / 机器视觉 +1.11%",
+      "members": "减速器 +2.83% / 人形机器人 +2.01% / 机器视觉 +1.11%",
       "rank": 3
     },
     {
@@ -38,16 +38,16 @@
       "representative": "空间站概念",
       "change_pct": 2.34,
       "constituents": 434,
-      "members": "空间站概念 +2.34% / 航天航空 +0.96% / 商业航天 +0.92% / 卫星互联网 +0.90% / 卫星导航 +0.71%",
+      "members": "空间站概念 +2.34% / 航天航空 +0.97% / 商业航天 +0.94% / 卫星互联网 +0.91% / 卫星导航 +0.73%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 2.16,
+      "change_pct": 2.14,
       "constituents": 81,
-      "members": "物理AI +2.16%",
+      "members": "物理AI +2.14%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.92,
+      "avg_change_pct": 4.91,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-24、11-23"
@@ -67,7 +67,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.76,
+      "avg_change_pct": 4.77,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.18,
+      "avg_change_pct": 3.13,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
