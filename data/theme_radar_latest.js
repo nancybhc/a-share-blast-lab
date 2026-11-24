@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T09:35:10+08:00",
+  "generated_at": "2026-11-24T09:36:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,97 +9,97 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 6.93,
+      "change_pct": 7.1,
       "constituents": 370,
-      "members": "CPO概念 +6.93% / 算力概念 +3.76% / AI语料 +3.21%",
+      "members": "CPO概念 +7.10% / 算力概念 +3.93% / AI语料 +3.06%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "通信技术/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 6.3,
+      "change_pct": 6.4,
       "constituents": 427,
-      "members": "光通信模块 +6.30% / 通信技术 +4.85%",
+      "members": "光通信模块 +6.40% / 通信技术 +4.96%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 6.28,
+      "change_pct": 6.24,
       "constituents": 68,
-      "members": "英伟达概念 +6.28%",
+      "members": "英伟达概念 +6.24%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 5.72,
+      "change_pct": 6.12,
       "constituents": 28,
-      "members": "高带宽内存 +5.72%",
+      "members": "高带宽内存 +6.12%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "PCB",
-      "representative": "PCB",
-      "change_pct": 5.48,
-      "constituents": 215,
-      "members": "PCB +5.48%",
+      "theme": "先进封装",
+      "representative": "先进封装",
+      "change_pct": 5.79,
+      "constituents": 115,
+      "members": "先进封装 +5.79%",
       "rank": 5
     }
   ],
   "five_day": [
     {
       "theme": "AI算力",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 5.0,
-      "avg_rank": 3.3,
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.48,
+      "avg_rank": 2.5,
       "latest_rank": 1,
-      "dates": "11-24、11-23、11-18"
+      "dates": "11-24、11-18"
     },
     {
       "theme": "高带宽内存",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.9,
+      "avg_change_pct": 3.2,
       "avg_rank": 3.0,
       "latest_rank": 4,
       "dates": "11-24、11-19"
     },
     {
-      "theme": "英伟达概念",
+      "theme": "先进封装",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.03,
+      "avg_change_pct": 2.96,
       "avg_rank": 4.0,
-      "latest_rank": 3,
-      "dates": "11-24、11-18"
+      "latest_rank": 5,
+      "dates": "11-24、11-19"
     },
     {
       "theme": "通信技术/光通信模块",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.3,
+      "avg_change_pct": 6.4,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
     },
     {
-      "theme": "PCB",
+      "theme": "英伟达概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.48,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 6.24,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-24"
     },
     {
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.83,
+      "avg_change_pct": 7.67,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.62,
+      "avg_change_pct": 3.33,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
@@ -137,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.08,
+      "avg_change_pct": -0.12,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -157,7 +157,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.99,
+      "avg_change_pct": 2.78,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
@@ -177,7 +177,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.72,
+      "avg_change_pct": 6.71,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -193,21 +193,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-18"
     },
     {
-      "theme": "先进封装",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.05,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-19"
-    },
-    {
       "theme": "鸡肉概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.93,
+      "avg_change_pct": -1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -237,10 +227,30 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -1.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
+    },
+    {
+      "theme": "玻璃基板/3D玻璃",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.03,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-23"
+    },
+    {
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.73,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-18"
     },
     {
       "theme": "科创板做市股",
@@ -253,11 +263,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-19"
     },
     {
-      "theme": "转基因",
+      "theme": "托育服务",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.1,
+      "avg_change_pct": -1.2,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
