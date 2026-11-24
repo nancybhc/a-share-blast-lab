@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:55:33+08:00",
+  "generated_at": "2026-11-24T14:57:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 3.02,
+      "change_pct": 3.07,
       "constituents": 169,
-      "members": "金属钴 +3.02% / 动力电池回收 +0.52% / 金属回收 -0.91% / 金属铜 -1.58% / 金属锌 -2.29% / 金属铅 -2.44%",
+      "members": "金属钴 +3.07% / 动力电池回收 +0.54% / 金属回收 -0.85% / 金属铜 -1.53% / 金属锌 -2.23% / 金属铅 -2.39%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.53,
+      "change_pct": 2.55,
       "constituents": 19,
-      "members": "智能音箱 +2.53%",
+      "members": "智能音箱 +2.55%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 2.07,
+      "change_pct": 2.11,
       "constituents": 434,
-      "members": "空间站概念 +2.07% / 航天航空 +0.79% / 卫星互联网 +0.69% / 商业航天 +0.68% / 卫星导航 +0.54%",
+      "members": "空间站概念 +2.11% / 航天航空 +0.77% / 卫星互联网 +0.67% / 商业航天 +0.65% / 卫星导航 +0.53%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "AI手机",
-      "representative": "AI手机",
-      "change_pct": 1.91,
-      "constituents": 31,
-      "members": "AI手机 +1.91%",
+      "theme": "屏下摄像",
+      "representative": "屏下摄像",
+      "change_pct": 1.92,
+      "constituents": 9,
+      "members": "屏下摄像 +1.92%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.02,
+      "avg_change_pct": 3.07,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.53,
+      "avg_change_pct": 2.55,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24"
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.07,
+      "avg_change_pct": 2.11,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
     },
     {
-      "theme": "AI手机",
+      "theme": "屏下摄像",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.91,
+      "avg_change_pct": 1.92,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
