@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:14:28+08:00",
+  "generated_at": "2026-11-24T14:16:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 2.68,
+      "change_pct": 2.7,
       "constituents": 169,
-      "members": "金属钴 +2.68% / 动力电池回收 +0.22% / 金属回收 -1.25% / 金属铜 -1.86% / 金属锌 -2.41% / 金属铅 -2.64%",
+      "members": "金属钴 +2.70% / 动力电池回收 +0.18% / 金属回收 -1.19% / 金属铜 -1.86% / 金属锌 -2.42% / 金属铅 -2.65%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.22,
+      "change_pct": 2.3,
       "constituents": 19,
-      "members": "智能音箱 +2.22%",
+      "members": "智能音箱 +2.30%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 2.12,
+      "change_pct": 2.23,
       "constituents": 473,
-      "members": "减速器 +2.12% / 人形机器人 +1.41% / 机器视觉 +0.59%",
+      "members": "减速器 +2.23% / 人形机器人 +1.52% / 机器视觉 +0.67%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "AI手机",
       "representative": "AI手机",
-      "change_pct": 1.65,
+      "change_pct": 1.73,
       "constituents": 31,
-      "members": "AI手机 +1.65%",
+      "members": "AI手机 +1.73%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 1.61,
+      "change_pct": 1.73,
       "constituents": 81,
-      "members": "物理AI +1.61%",
+      "members": "物理AI +1.73%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.64,
+      "avg_change_pct": 4.7,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-24、11-23"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.42,
+      "avg_change_pct": 4.47,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
+      "avg_change_pct": 2.7,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.22,
+      "avg_change_pct": 2.3,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.65,
+      "avg_change_pct": 1.73,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
