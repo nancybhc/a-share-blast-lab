@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T11:06:13+08:00",
+  "generated_at": "2026-11-24T11:07:12+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.58,
+      "change_pct": 4.44,
       "constituents": 19,
-      "members": "智能音箱 +4.58%",
+      "members": "智能音箱 +4.44%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.33,
+      "change_pct": 4.25,
       "constituents": 473,
-      "members": "减速器 +4.33% / 人形机器人 +3.52% / 机器视觉 +2.58%",
+      "members": "减速器 +4.25% / 人形机器人 +3.46% / 机器视觉 +2.50%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "拼多多概念",
       "representative": "拼多多概念",
-      "change_pct": 4.28,
+      "change_pct": 4.22,
       "constituents": 29,
-      "members": "拼多多概念 +4.28%",
+      "members": "拼多多概念 +4.22%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "Kimi概念",
       "representative": "Kimi概念",
-      "change_pct": 4.27,
+      "change_pct": 4.11,
       "constituents": 17,
-      "members": "Kimi概念 +4.27%",
+      "members": "Kimi概念 +4.11%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "英伟达概念",
-      "representative": "英伟达概念",
-      "change_pct": 4.05,
-      "constituents": 68,
-      "members": "英伟达概念 +4.05%",
+      "theme": "快手概念",
+      "representative": "快手概念",
+      "change_pct": 3.97,
+      "constituents": 36,
+      "members": "快手概念 +3.97%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.52,
+      "avg_change_pct": 5.48,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-24、11-23"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.58,
+      "avg_change_pct": 4.44,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.28,
+      "avg_change_pct": 4.22,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24"
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.27,
+      "avg_change_pct": 4.11,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
     },
     {
-      "theme": "英伟达概念",
+      "theme": "快手概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.05,
+      "avg_change_pct": 3.97,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
