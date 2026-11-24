@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T10:38:13+08:00",
+  "generated_at": "2026-11-24T10:41:14+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 5.27,
+      "change_pct": 5.1,
       "constituents": 473,
-      "members": "减速器 +5.27% / 人形机器人 +4.36% / 机器视觉 +3.37%",
+      "members": "减速器 +5.10% / 人形机器人 +4.15% / 机器视觉 +3.16%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 5.02,
+      "change_pct": 4.84,
       "constituents": 169,
-      "members": "金属钴 +5.02% / 动力电池回收 +2.97% / 金属回收 +1.55% / 金属铜 +0.85% / 金属锌 +0.39% / 金属铅 +0.17%",
+      "members": "金属钴 +4.84% / 动力电池回收 +2.70% / 金属回收 +1.31% / 金属铜 +0.59% / 金属锌 +0.07% / 金属铅 -0.15%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 4.94,
+      "change_pct": 4.66,
       "constituents": 68,
-      "members": "英伟达概念 +4.94%",
+      "members": "英伟达概念 +4.66%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
-      "theme": "高带宽内存",
-      "representative": "高带宽内存",
-      "change_pct": 4.74,
-      "constituents": 28,
-      "members": "高带宽内存 +4.74%",
+      "theme": "电子烟",
+      "representative": "电子烟",
+      "change_pct": 4.2,
+      "constituents": 39,
+      "members": "电子烟 +4.20%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 4.72,
-      "constituents": 30,
-      "members": "大基金持股 +4.72%",
+      "theme": "苹果概念",
+      "representative": "苹果概念",
+      "change_pct": 4.16,
+      "constituents": 125,
+      "members": "苹果概念 +4.16%",
       "rank": 5
     }
   ],
@@ -57,37 +57,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.99,
+      "avg_change_pct": 5.9,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.69,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-24、11-19"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.51,
-      "avg_rank": 3.0,
-      "latest_rank": 4,
-      "dates": "11-24、11-19"
     },
     {
       "theme": "金属回收/金属铜/动力电池回收",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.02,
+      "avg_change_pct": 4.84,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
@@ -97,9 +77,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.94,
+      "avg_change_pct": 4.66,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-24"
+    },
+    {
+      "theme": "电子烟",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.2,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-24"
+    },
+    {
+      "theme": "苹果概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.16,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-24"
     },
     {
@@ -121,6 +121,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.66,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-19"
     },
     {
       "theme": "大盘价值",
@@ -151,6 +161,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
+    },
+    {
+      "theme": "高带宽内存",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.28,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-19"
     },
     {
       "theme": "低碳冶金",
