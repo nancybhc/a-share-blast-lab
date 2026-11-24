@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:09:19+08:00",
+  "generated_at": "2026-11-24T13:10:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,18 +9,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.81,
+      "change_pct": 4.83,
       "constituents": 19,
-      "members": "智能音箱 +4.81%",
+      "members": "智能音箱 +4.83%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.68,
+      "change_pct": 4.71,
       "constituents": 473,
-      "members": "减速器 +4.68% / 人形机器人 +4.07% / 机器视觉 +3.14%",
+      "members": "减速器 +4.71% / 人形机器人 +4.07% / 机器视觉 +3.12%",
       "rank": 2
     },
     {
@@ -36,18 +36,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 4.31,
+      "change_pct": 4.3,
       "constituents": 68,
-      "members": "英伟达概念 +4.31%",
+      "members": "英伟达概念 +4.30%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "玻璃基板/3D玻璃",
       "representative": "3D玻璃",
-      "change_pct": 4.25,
+      "change_pct": 4.2,
       "constituents": 73,
-      "members": "3D玻璃 +4.25% / 玻璃基板 +2.90%",
+      "members": "3D玻璃 +4.20% / 玻璃基板 +2.86%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.7,
+      "avg_change_pct": 5.71,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-24、11-23"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.14,
+      "avg_change_pct": 5.12,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24、11-23"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.81,
+      "avg_change_pct": 4.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.31,
+      "avg_change_pct": 4.3,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
