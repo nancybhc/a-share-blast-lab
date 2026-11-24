@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:17:31+08:00",
+  "generated_at": "2026-11-24T13:18:38+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,67 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.25,
+      "change_pct": 4.05,
       "constituents": 473,
-      "members": "减速器 +4.25% / 人形机器人 +3.50% / 机器视觉 +2.51%",
+      "members": "减速器 +4.05% / 人形机器人 +3.28% / 机器视觉 +2.28%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.0,
+      "change_pct": 3.83,
       "constituents": 19,
-      "members": "智能音箱 +4.00%",
+      "members": "智能音箱 +3.83%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "物理AI",
-      "representative": "物理AI",
-      "change_pct": 3.89,
-      "constituents": 81,
-      "members": "物理AI +3.89%",
-      "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "玻璃基板/3D玻璃",
       "representative": "3D玻璃",
-      "change_pct": 3.8,
+      "change_pct": 3.68,
       "constituents": 73,
-      "members": "3D玻璃 +3.80% / 玻璃基板 +1.99%",
+      "members": "3D玻璃 +3.68% / 玻璃基板 +1.79%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "物理AI",
+      "representative": "物理AI",
+      "change_pct": 3.64,
+      "constituents": 81,
+      "members": "物理AI +3.64%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 3.54,
+      "change_pct": 3.34,
       "constituents": 68,
-      "members": "英伟达概念 +3.54%",
+      "members": "英伟达概念 +3.34%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "物理AI",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 5.78,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
-      "dates": "11-24、11-23"
-    },
-    {
       "theme": "机器人",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.48,
+      "avg_change_pct": 5.38,
       "avg_rank": 2.0,
       "latest_rank": 1,
+      "dates": "11-24、11-23"
+    },
+    {
+      "theme": "物理AI",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 5.66,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-24、11-23"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.92,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 4.86,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-24、11-23"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.0,
+      "avg_change_pct": 3.83,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.54,
+      "avg_change_pct": 3.34,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
