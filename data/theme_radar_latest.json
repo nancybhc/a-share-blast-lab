@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:54:33+08:00",
+  "generated_at": "2026-11-24T14:55:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 3.08,
+      "change_pct": 3.02,
       "constituents": 169,
-      "members": "金属钴 +3.08% / 动力电池回收 +0.55% / 金属回收 -0.88% / 金属铜 -1.53% / 金属锌 -2.21% / 金属铅 -2.36%",
+      "members": "金属钴 +3.02% / 动力电池回收 +0.52% / 金属回收 -0.91% / 金属铜 -1.58% / 金属锌 -2.29% / 金属铅 -2.44%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 2.54,
-      "constituents": 19,
-      "members": "智能音箱 +2.54%",
-      "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 2.53,
+      "change_pct": 2.56,
       "constituents": 473,
-      "members": "减速器 +2.53% / 人形机器人 +1.72% / 机器视觉 +0.81%",
+      "members": "减速器 +2.56% / 人形机器人 +1.73% / 机器视觉 +0.81%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 2.53,
+      "constituents": 19,
+      "members": "智能音箱 +2.53%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 2.08,
+      "change_pct": 2.07,
       "constituents": 434,
-      "members": "空间站概念 +2.08% / 航天航空 +0.76% / 商业航天 +0.66% / 卫星互联网 +0.65% / 卫星导航 +0.52%",
+      "members": "空间站概念 +2.07% / 航天航空 +0.79% / 卫星互联网 +0.69% / 商业航天 +0.68% / 卫星导航 +0.54%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "屏下摄像",
-      "representative": "屏下摄像",
-      "change_pct": 1.96,
-      "constituents": 9,
-      "members": "屏下摄像 +1.96%",
+      "theme": "AI手机",
+      "representative": "AI手机",
+      "change_pct": 1.91,
+      "constituents": 31,
+      "members": "AI手机 +1.91%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.62,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.63,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-24、11-23"
     },
     {
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.08,
+      "avg_change_pct": 3.02,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -77,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.54,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.53,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-24"
     },
     {
@@ -87,17 +87,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.08,
+      "avg_change_pct": 2.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
     },
     {
-      "theme": "屏下摄像",
+      "theme": "AI手机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.96,
+      "avg_change_pct": 1.91,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"

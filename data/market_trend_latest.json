@@ -1,20 +1,20 @@
 {
   "dataDate": "2026-11-24",
-  "generatedAt": "2026-11-24 14:54",
-  "reportGeneratedAt": "2026-11-24 14:54",
+  "generatedAt": "2026-11-24 14:55",
+  "reportGeneratedAt": "2026-11-24 14:55",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-24.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-24.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-16 ~ 11-24）：空明显变多（+135 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 32→22 只、空 84→219 只、空转多 5→83、多转空 209→6",
+  "summary": "  AI硬件 · 近 7 个交易日（11-16 ~ 11-24）：空明显变多（+136 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 32→22 只、空 84→220 只、空转多 5→82、多转空 209→6",
   "overview": {
     "groups": 21,
     "uniqueStocks": 923,
-    "positiveGroups": 13,
+    "positiveGroups": 12,
     "negativeGroups": 4,
-    "positiveTransitions": 85,
-    "negativeTransitions": 30
+    "positiveTransitions": 83,
+    "negativeTransitions": 31
   },
   "phaseLegend": [
     {
@@ -54,31 +54,31 @@
       "date": "2026-11-24",
       "total": 58,
       "bull": 2,
-      "turnBull": 36,
+      "turnBull": 35,
       "turnBear": 0,
-      "bear": 20,
-      "newBull": 28,
+      "bear": 21,
+      "newBull": 27,
       "confirm": 2,
       "direct": 0,
-      "positive": 30,
+      "positive": 29,
       "negative": 0,
       "bullPct": 3.45,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 0→2；空转多 10→36；多转空 0→0；空 48→20",
+      "change": "多 0→2；空转多 10→35；多转空 0→0；空 48→21",
       "id": "robot",
       "code": "ROBOTICS",
-      "score": 55.2,
+      "score": 53.4,
       "fulfilled": 2,
-      "netBias": -18,
+      "netBias": -19,
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
-      "setup": "36",
+      "setup": "35",
       "setupCaption": "空转多候选",
       "confirmValue": "2",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/58，空头 20；空转多候选 36，今日转多确认 2，反向转空 0。多 0→2；空转多 10→36；多转空 0→0；空 48→20，修复进入确认，观察扩散。",
+      "thesis": "多头 2/58，空头 21；空转多候选 35，今日转多确认 2，反向转空 0。多 0→2；空转多 10→35；多转空 0→0；空 48→21，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-16",
@@ -132,9 +132,9 @@
           "date": "2026-11-24",
           "total": 58,
           "bull": 2,
-          "turnBull": 36,
+          "turnBull": 35,
           "turnBear": 0,
-          "bear": 20,
+          "bear": 21,
           "bullPct": 3.45
         }
       ]
@@ -226,96 +226,6 @@
           "turnBear": 0,
           "bear": 24,
           "bullPct": 6.9
-        }
-      ]
-    },
-    {
-      "name": "储能",
-      "date": "2026-11-24",
-      "total": 9,
-      "bull": 1,
-      "turnBull": 0,
-      "turnBear": 0,
-      "bear": 8,
-      "newBull": 0,
-      "confirm": 1,
-      "direct": 0,
-      "positive": 1,
-      "negative": 0,
-      "bullPct": 11.11,
-      "state": "转多确认",
-      "action": "修复进入确认，观察扩散",
-      "change": "多 0→1；空转多 1→0；多转空 0→0；空 8→8",
-      "id": "energy-storage",
-      "code": "ENERGY STORAGE",
-      "score": 22.2,
-      "fulfilled": 1,
-      "netBias": -7,
-      "phase": "转多兑现",
-      "badge": "扩散确认",
-      "tone": "lime",
-      "setup": "0",
-      "setupCaption": "空转多候选",
-      "confirmValue": "1",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/9，空头 8；空转多候选 0，今日转多确认 1，反向转空 0。多 0→1；空转多 1→0；多转空 0→0；空 8→8，修复进入确认，观察扩散。",
-      "history": [
-        {
-          "date": "2026-11-16",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 5,
-          "bear": 4,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-17",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 2,
-          "bear": 7,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-18",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 1,
-          "bear": 7,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-24",
-          "total": 9,
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 11.11
         }
       ]
     },
@@ -504,31 +414,31 @@
       "date": "2026-11-24",
       "total": 69,
       "bull": 3,
-      "turnBull": 40,
+      "turnBull": 39,
       "turnBear": 0,
-      "bear": 26,
+      "bear": 27,
       "newBull": 8,
       "confirm": 1,
       "direct": 0,
       "positive": 9,
-      "negative": 3,
+      "negative": 4,
       "bullPct": 4.35,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 2→3；空转多 34→40；多转空 2→0；空 31→26",
+      "change": "多 2→3；空转多 34→39；多转空 2→0；空 31→27",
       "id": "pcb",
       "code": "PCB",
-      "score": 10.1,
+      "score": 8.7,
       "fulfilled": 1,
-      "netBias": -23,
+      "netBias": -24,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "40",
+      "setup": "39",
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/69，空头 26；空转多候选 40，今日转多确认 1，反向转空 0。多 2→3；空转多 34→40；多转空 2→0；空 31→26，修复进入确认，观察扩散。",
+      "thesis": "多头 3/69，空头 27；空转多候选 39，今日转多确认 1，反向转空 0。多 2→3；空转多 34→39；多转空 2→0；空 31→27，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-16",
@@ -582,9 +492,9 @@
           "date": "2026-11-24",
           "total": 69,
           "bull": 3,
-          "turnBull": 40,
+          "turnBull": 39,
           "turnBear": 0,
-          "bear": 26,
+          "bear": 27,
           "bullPct": 4.35
         }
       ]
@@ -1490,6 +1400,96 @@
       ]
     },
     {
+      "name": "储能",
+      "date": "2026-11-24",
+      "total": 9,
+      "bull": 0,
+      "turnBull": 1,
+      "turnBear": 0,
+      "bear": 8,
+      "newBull": 0,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 0,
+      "negative": 0,
+      "bullPct": 0.0,
+      "state": "结构分化",
+      "action": "等下一次候选池方向变化",
+      "change": "多 0→0；空转多 1→1；多转空 0→0；空 8→8",
+      "id": "energy-storage",
+      "code": "ENERGY STORAGE",
+      "score": 0.0,
+      "fulfilled": 0,
+      "netBias": -8,
+      "phase": "结构分化",
+      "badge": "临界观察",
+      "tone": "amber",
+      "setup": "1",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/9，空头 8；空转多候选 1，今日转多确认 0，反向转空 0。多 0→0；空转多 1→1；多转空 0→0；空 8→8，等下一次候选池方向变化。",
+      "history": [
+        {
+          "date": "2026-11-16",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 5,
+          "bear": 4,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-17",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 2,
+          "bear": 7,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 1,
+          "bear": 7,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "total": 9,
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        }
+      ]
+    },
+    {
       "name": "存储",
       "date": "2026-11-24",
       "total": 11,
@@ -1955,11 +1955,11 @@
         "name": "PCB",
         "group_id": "pcb",
         "color": "#bf2f45",
-        "delta": 37,
+        "delta": 36,
         "values": [
           3,
           34,
-          40
+          39
         ]
       },
       {
