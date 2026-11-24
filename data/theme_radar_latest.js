@@ -1,103 +1,103 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T09:40:04+08:00",
+  "generated_at": "2026-11-24T09:42:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
   "daily_top": [
     {
       "date": "2026-11-24",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 6.77,
-      "constituents": 370,
-      "members": "CPO概念 +6.77% / 算力概念 +3.75% / AI语料 +2.75%",
+      "theme": "英伟达概念",
+      "representative": "英伟达概念",
+      "change_pct": 5.77,
+      "constituents": 68,
+      "members": "英伟达概念 +5.77%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
-      "theme": "高带宽内存",
-      "representative": "高带宽内存",
-      "change_pct": 6.31,
-      "constituents": 28,
-      "members": "高带宽内存 +6.31%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 5.76,
+      "constituents": 370,
+      "members": "CPO概念 +5.76% / 算力概念 +3.44% / AI语料 +3.18%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "苹果概念",
+      "representative": "苹果概念",
+      "change_pct": 5.26,
+      "constituents": 125,
+      "members": "苹果概念 +5.26%",
+      "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "通信技术/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 6.21,
+      "change_pct": 5.21,
       "constituents": 427,
-      "members": "光通信模块 +6.21% / 通信技术 +4.72%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "英伟达概念",
-      "representative": "英伟达概念",
-      "change_pct": 6.09,
-      "constituents": 68,
-      "members": "英伟达概念 +6.09%",
+      "members": "光通信模块 +5.21% / 通信技术 +4.21%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": 5.75,
-      "constituents": 115,
-      "members": "先进封装 +5.75%",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": 5.0,
+      "constituents": 28,
+      "members": "高带宽内存 +5.00%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "高带宽内存",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.29,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-24、11-19"
-    },
-    {
       "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.31,
-      "avg_rank": 2.5,
-      "latest_rank": 1,
+      "avg_change_pct": 3.81,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
       "dates": "11-24、11-18"
     },
     {
-      "theme": "先进封装",
+      "theme": "高带宽内存",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.94,
-      "avg_rank": 4.0,
+      "avg_change_pct": 2.64,
+      "avg_rank": 3.5,
       "latest_rank": 5,
       "dates": "11-24、11-19"
+    },
+    {
+      "theme": "英伟达概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.77,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-24"
+    },
+    {
+      "theme": "苹果概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 5.26,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-24"
     },
     {
       "theme": "通信技术/光通信模块",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.21,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-24"
-    },
-    {
-      "theme": "英伟达概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.09,
+      "avg_change_pct": 5.21,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
@@ -191,6 +191,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-18"
+    },
+    {
+      "theme": "先进封装",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.12,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-19"
     },
     {
       "theme": "鸡肉概念",
