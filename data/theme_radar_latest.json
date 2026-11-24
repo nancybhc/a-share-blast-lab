@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:21:30+08:00",
+  "generated_at": "2026-11-24T13:22:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.14,
+      "change_pct": 3.92,
       "constituents": 473,
-      "members": "减速器 +4.14% / 人形机器人 +3.48% / 机器视觉 +2.54%",
+      "members": "减速器 +3.92% / 人形机器人 +3.25% / 机器视觉 +2.33%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.09,
+      "change_pct": 3.82,
       "constituents": 19,
-      "members": "智能音箱 +4.09%",
+      "members": "智能音箱 +3.82%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "玻璃基板/3D玻璃",
       "representative": "3D玻璃",
-      "change_pct": 3.83,
+      "change_pct": 3.71,
       "constituents": 73,
-      "members": "3D玻璃 +3.83% / 玻璃基板 +2.20%",
+      "members": "3D玻璃 +3.71% / 玻璃基板 +1.94%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.76,
+      "change_pct": 3.54,
       "constituents": 81,
-      "members": "物理AI +3.76%",
+      "members": "物理AI +3.54%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 3.69,
+      "change_pct": 3.52,
       "constituents": 68,
-      "members": "英伟达概念 +3.69%",
+      "members": "英伟达概念 +3.52%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.42,
+      "avg_change_pct": 5.31,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
@@ -67,7 +67,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.71,
+      "avg_change_pct": 5.61,
       "avg_rank": 2.5,
       "latest_rank": 4,
       "dates": "11-24、11-23"
@@ -77,7 +77,7 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.93,
+      "avg_change_pct": 4.87,
       "avg_rank": 4.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.09,
+      "avg_change_pct": 3.82,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.69,
+      "avg_change_pct": 3.52,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
