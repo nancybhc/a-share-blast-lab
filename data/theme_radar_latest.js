@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T09:49:26+08:00",
+  "generated_at": "2026-11-24T09:50:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,85 +9,85 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 6.43,
+      "change_pct": 6.19,
       "constituents": 68,
-      "members": "英伟达概念 +6.43%",
+      "members": "英伟达概念 +6.19%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 6.05,
+      "change_pct": 5.94,
       "constituents": 370,
-      "members": "CPO概念 +6.05% / AI语料 +4.59% / 算力概念 +3.96%",
+      "members": "CPO概念 +5.94% / AI语料 +4.45% / 算力概念 +3.93%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 5.73,
+      "change_pct": 5.81,
       "constituents": 473,
-      "members": "减速器 +5.73% / 人形机器人 +5.25% / 机器视觉 +4.33%",
+      "members": "减速器 +5.81% / 人形机器人 +5.22% / 机器视觉 +4.30%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "苹果概念",
       "representative": "苹果概念",
-      "change_pct": 5.53,
+      "change_pct": 5.56,
       "constituents": 125,
-      "members": "苹果概念 +5.53%",
+      "members": "苹果概念 +5.56%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "通信技术/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 5.52,
+      "change_pct": 5.42,
       "constituents": 427,
-      "members": "光通信模块 +5.52% / 通信技术 +4.68%",
+      "members": "光通信模块 +5.42% / 通信技术 +4.62%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "AI算力",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 3,
-      "avg_change_pct": 4.71,
-      "avg_rank": 3.7,
-      "latest_rank": 2,
-      "dates": "11-24、11-23、11-18"
-    },
-    {
       "theme": "机器人",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 6.22,
+      "avg_change_pct": 6.26,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
     },
     {
-      "theme": "英伟达概念",
+      "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 4.1,
+      "avg_change_pct": 3.9,
       "avg_rank": 3.0,
-      "latest_rank": 1,
+      "latest_rank": 2,
       "dates": "11-24、11-18"
+    },
+    {
+      "theme": "英伟达概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.19,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-24"
     },
     {
       "theme": "苹果概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.53,
+      "avg_change_pct": 5.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.52,
+      "avg_change_pct": 5.42,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.83,
+      "avg_change_pct": 7.67,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -117,17 +117,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.62,
+      "avg_change_pct": 3.33,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
     },
     {
-      "theme": "高带宽内存",
+      "theme": "大基金持股",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.08,
+      "avg_change_pct": 0.66,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-19"
@@ -137,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.08,
+      "avg_change_pct": -0.12,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -157,17 +157,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.99,
+      "avg_change_pct": 2.78,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-18"
     },
     {
-      "theme": "券商概念",
+      "theme": "高带宽内存",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.1,
+      "avg_change_pct": 0.28,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-19"
@@ -193,11 +193,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-18"
     },
     {
-      "theme": "科创板做市股",
+      "theme": "先进封装",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.35,
+      "avg_change_pct": 0.12,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
@@ -207,7 +207,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.93,
+      "avg_change_pct": -1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -223,11 +223,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "券商金股",
+      "theme": "券商概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.39,
+      "avg_change_pct": -0.1,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-19"
@@ -237,27 +237,47 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -1.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "净水概念",
+      "theme": "玻璃基板/3D玻璃",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.47,
+      "avg_change_pct": 6.03,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-23"
+    },
+    {
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.73,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-18"
+    },
+    {
+      "theme": "科创板做市股",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.35,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
     },
     {
-      "theme": "转基因",
+      "theme": "托育服务",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.1,
+      "avg_change_pct": -1.2,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-20"
