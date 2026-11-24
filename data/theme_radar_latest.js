@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:44:33+08:00",
+  "generated_at": "2026-11-24T13:45:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,36 +9,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 3.72,
+      "change_pct": 3.71,
       "constituents": 473,
-      "members": "减速器 +3.72% / 人形机器人 +2.99% / 机器视觉 +2.13%",
+      "members": "减速器 +3.71% / 人形机器人 +2.98% / 机器视觉 +2.14%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 3.68,
+      "change_pct": 3.69,
       "constituents": 19,
-      "members": "智能音箱 +3.68%",
+      "members": "智能音箱 +3.69%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 3.33,
+      "change_pct": 3.32,
       "constituents": 169,
-      "members": "金属钴 +3.33% / 动力电池回收 +1.22% / 金属回收 -0.08% / 金属铜 -0.72% / 金属锌 -1.17% / 金属铅 -1.48%",
+      "members": "金属钴 +3.32% / 动力电池回收 +1.24% / 金属回收 -0.08% / 金属铜 -0.68% / 金属锌 -1.14% / 金属铅 -1.47%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.26,
+      "change_pct": 3.24,
       "constituents": 81,
-      "members": "物理AI +3.26%",
+      "members": "物理AI +3.24%",
       "rank": 4
     },
     {
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.68,
+      "avg_change_pct": 3.69,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.33,
+      "avg_change_pct": 3.32,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24"
