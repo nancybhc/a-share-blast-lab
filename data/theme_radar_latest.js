@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:38:57+08:00",
+  "generated_at": "2026-11-24T14:39:58+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,27 +9,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 3.02,
+      "change_pct": 3.09,
       "constituents": 169,
-      "members": "金属钴 +3.02% / 动力电池回收 +0.38% / 金属回收 -1.11% / 金属铜 -1.73% / 金属锌 -2.39% / 金属铅 -2.60%",
+      "members": "金属钴 +3.09% / 动力电池回收 +0.39% / 金属回收 -1.07% / 金属铜 -1.73% / 金属锌 -2.41% / 金属铅 -2.62%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 2.38,
-      "constituents": 19,
-      "members": "智能音箱 +2.38%",
-      "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 2.35,
+      "change_pct": 2.37,
       "constituents": 473,
-      "members": "减速器 +2.35% / 人形机器人 +1.57% / 机器视觉 +0.69%",
+      "members": "减速器 +2.37% / 人形机器人 +1.60% / 机器视觉 +0.69%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 2.37,
+      "constituents": 19,
+      "members": "智能音箱 +2.37%",
       "rank": 3
     },
     {
@@ -38,38 +38,28 @@ window.THEME_RADAR_DATA = {
       "representative": "空间站概念",
       "change_pct": 1.9,
       "constituents": 434,
-      "members": "空间站概念 +1.90% / 航天航空 +0.63% / 卫星互联网 +0.50% / 商业航天 +0.49% / 卫星导航 +0.34%",
+      "members": "空间站概念 +1.90% / 航天航空 +0.64% / 商业航天 +0.51% / 卫星互联网 +0.51% / 卫星导航 +0.34%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "物理AI",
-      "representative": "物理AI",
-      "change_pct": 1.73,
-      "constituents": 81,
-      "members": "物理AI +1.73%",
+      "theme": "AI手机",
+      "representative": "AI手机",
+      "change_pct": 1.74,
+      "constituents": 31,
+      "members": "AI手机 +1.74%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "物理AI",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 4.7,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-24、11-23"
-    },
-    {
       "theme": "机器人",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.53,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.54,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-24、11-23"
     },
     {
@@ -77,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.02,
+      "avg_change_pct": 3.09,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -87,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.38,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.37,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-24"
     },
     {
@@ -101,6 +91,26 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
+    },
+    {
+      "theme": "AI手机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.74,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-24"
+    },
+    {
+      "theme": "物理AI",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 7.67,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-23"
     },
     {
       "theme": "算力租赁",
