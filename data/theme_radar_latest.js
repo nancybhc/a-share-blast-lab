@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T09:27:54+08:00",
+  "generated_at": "2026-11-24T09:30:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -10,8 +10,8 @@ window.THEME_RADAR_DATA = {
       "theme": "AI算力",
       "representative": "CPO概念",
       "change_pct": 6.33,
-      "constituents": 411,
-      "members": "CPO概念 +6.33% / 数据中心 +2.93%",
+      "constituents": 370,
+      "members": "CPO概念 +6.33% / 算力概念 +2.99% / AI语料 +1.79%",
       "rank": 1
     },
     {
@@ -53,6 +53,16 @@ window.THEME_RADAR_DATA = {
   ],
   "five_day": [
     {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.09,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-24、11-18"
+    },
+    {
       "theme": "高带宽内存",
       "current_streak": 1,
       "max_streak": 1,
@@ -61,16 +71,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 2.5,
       "latest_rank": 3,
       "dates": "11-24、11-19"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.33,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-24"
     },
     {
       "theme": "通信技术/光通信模块",
@@ -103,11 +103,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24"
     },
     {
-      "theme": "机器人",
+      "theme": "物理AI",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.02,
+      "avg_change_pct": 7.67,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -117,37 +117,37 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.36,
+      "avg_change_pct": 3.33,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
     },
     {
-      "theme": "第四代半导体",
+      "theme": "大基金持股",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.18,
+      "avg_change_pct": 0.66,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-19"
     },
     {
-      "theme": "低碳冶金",
+      "theme": "大盘价值",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.93,
+      "avg_change_pct": -0.12,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
     },
     {
-      "theme": "物理AI",
+      "theme": "AI视频",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.67,
+      "avg_change_pct": 6.83,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -163,21 +163,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-18"
     },
     {
-      "theme": "鸡肉概念",
+      "theme": "低碳冶金",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -0.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
     },
     {
-      "theme": "AI视频",
+      "theme": "机器人",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.83,
+      "avg_change_pct": 6.71,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -197,17 +197,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.13,
+      "avg_change_pct": 0.12,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-19"
     },
     {
-      "theme": "猪肉概念",
+      "theme": "鸡肉概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.07,
+      "avg_change_pct": -1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -223,31 +223,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "智算中心（AIDC）",
+      "theme": "券商概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.88,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-18"
-    },
-    {
-      "theme": "IGBT概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.31,
+      "avg_change_pct": -0.1,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-19"
     },
     {
-      "theme": "水产概念",
+      "theme": "猪肉概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.2,
+      "avg_change_pct": -1.07,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
