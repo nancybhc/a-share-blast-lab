@@ -67,9 +67,28 @@ def load_groups(workbook_path: Path) -> tuple[dict[str, list[Stock]], dict[str, 
         if sheet.title in EXCLUDED_GROUPS or sheet.title in SUMMARY_SHEETS:
             continue
         members: list[Stock] = []
-        for row in sheet.iter_rows(min_row=5, values_only=True):
-            code = str(row[3] or "").strip()
-            name = str(row[4] or "").strip()
+        header: dict[str, int] | None = None
+        for row in sheet.iter_rows(values_only=True):
+            cleaned = [str(value or "").strip() for value in row]
+            if header is None:
+                if "代码" in cleaned and "名称" in cleaned:
+                    header = {
+                        value: index
+                        for index, value in enumerate(cleaned)
+                        if value
+                    }
+                continue
+            code_index = header.get("代码")
+            name_index = header.get("名称")
+            if (
+                code_index is None
+                or name_index is None
+                or code_index >= len(row)
+                or name_index >= len(row)
+            ):
+                continue
+            code = cleaned[code_index]
+            name = cleaned[name_index]
             if code.isdigit() and name:
                 members.append(Stock(code=code, name=name, group=sheet.title))
         groups[sheet.title] = members

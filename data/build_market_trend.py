@@ -150,15 +150,46 @@ def read_group_rows(workbook: openpyxl.Workbook) -> list[dict[str, object]]:
 
 def read_detail_groups(workbook: openpyxl.Workbook) -> dict[str, dict[str, str]]:
     groups: dict[str, dict[str, str]] = {}
-    valid_stages = {"多", "空转多", "多转空", "空"}
     for sheet in workbook.worksheets:
         if sheet.title in EXCLUDED_GROUPS or sheet.title in SUMMARY_SHEETS:
             continue
         members: dict[str, str] = {}
-        for values in sheet.iter_rows(min_row=5, values_only=True):
-            stage = str(values[0] or "").strip()
-            code = str(values[3] or "").strip() if len(values) > 3 else ""
-            if stage in valid_stages and re.fullmatch(r"\d{6}", code):
+        header: dict[str, int] | None = None
+        for values in sheet.iter_rows(values_only=True):
+            cleaned = [str(value or "").strip() for value in values]
+            if header is None:
+                if "代码" in cleaned and (
+                    "趋势" in cleaned or "阶段" in cleaned
+                ):
+                    header = {
+                        name: index
+                        for index, name in enumerate(cleaned)
+                        if name
+                    }
+                continue
+            code = (
+                cleaned[header["代码"]]
+                if header.get("代码") is not None
+                and header["代码"] < len(cleaned)
+                else ""
+            )
+            if not re.fullmatch(r"\d{6}", code):
+                continue
+            if "趋势" in header:
+                label = cleaned[header["趋势"]]
+                match = re.fullmatch(
+                    r"(多转空|空转多|多|空)([123])?",
+                    label,
+                )
+                stage = match.group(1) if match else ""
+            else:
+                stage = (
+                    cleaned[header["阶段"]]
+                    if header.get("阶段") is not None
+                    and header["阶段"] < len(cleaned)
+                    else ""
+                )
+            if stage in {"多", "空转多", "多转空", "空"}:
                 members[code] = stage
         if members:
             groups[sheet.title] = members
@@ -441,8 +472,21 @@ def build_payload(
     for sheet in cycle.worksheets:
         if sheet.title in EXCLUDED_GROUPS or sheet.title in SUMMARY_SHEETS:
             continue
-        for values in sheet.iter_rows(min_row=4, values_only=True):
-            code = str(values[3] or "").strip() if len(values) > 3 else ""
+        header: dict[str, int] | None = None
+        for values in sheet.iter_rows(values_only=True):
+            cleaned = [str(value or "").strip() for value in values]
+            if header is None:
+                if "代码" in cleaned:
+                    header = {
+                        name: index
+                        for index, name in enumerate(cleaned)
+                        if name
+                    }
+                continue
+            code_index = header.get("代码")
+            if code_index is None or code_index >= len(cleaned):
+                continue
+            code = cleaned[code_index]
             if re.fullmatch(r"\d{6}", code):
                 detailed_codes.add(code)
 

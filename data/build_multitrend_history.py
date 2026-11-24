@@ -110,8 +110,21 @@ def load_memberships(report_path: Path) -> dict[str, list[str]]:
             continue
         codes: list[str] = []
         seen: set[str] = set()
-        for row in sheet.iter_rows(min_row=5, values_only=True):
-            code = str(row[3] or "").strip()
+        header: dict[str, int] | None = None
+        for row in sheet.iter_rows(values_only=True):
+            cleaned = [str(value or "").strip() for value in row]
+            if header is None:
+                if "代码" in cleaned:
+                    header = {
+                        name: index
+                        for index, name in enumerate(cleaned)
+                        if name
+                    }
+                continue
+            code_index = header.get("代码")
+            if code_index is None or code_index >= len(row):
+                continue
+            code = cleaned[code_index]
             if code.isdigit() and code not in seen:
                 seen.add(code)
                 codes.append(code)
