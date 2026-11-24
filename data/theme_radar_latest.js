@@ -1,95 +1,85 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:02:27+08:00",
+  "generated_at": "2026-11-24T14:03:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
   "daily_top": [
     {
       "date": "2026-11-24",
-      "theme": "机器人",
-      "representative": "减速器",
-      "change_pct": 2.91,
-      "constituents": 473,
-      "members": "减速器 +2.91% / 人形机器人 +2.18% / 机器视觉 +1.30%",
+      "theme": "智能音箱",
+      "representative": "智能音箱",
+      "change_pct": 2.78,
+      "constituents": 19,
+      "members": "智能音箱 +2.78%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 2.89,
-      "constituents": 19,
-      "members": "智能音箱 +2.89%",
+      "theme": "机器人",
+      "representative": "减速器",
+      "change_pct": 2.73,
+      "constituents": 473,
+      "members": "减速器 +2.73% / 人形机器人 +1.99% / 机器视觉 +1.13%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 2.82,
+      "change_pct": 2.57,
       "constituents": 169,
-      "members": "金属钴 +2.82% / 动力电池回收 +0.68% / 金属回收 -0.62% / 金属铜 -1.24% / 金属锌 -1.66% / 金属铅 -1.96%",
+      "members": "金属钴 +2.57% / 动力电池回收 +0.50% / 金属回收 -0.81% / 金属铜 -1.41% / 金属锌 -1.87% / 金属铅 -2.18%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 2.4,
+      "change_pct": 2.21,
       "constituents": 81,
-      "members": "物理AI +2.40%",
+      "members": "物理AI +2.21%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 2.35,
-      "constituents": 30,
-      "members": "大基金持股 +2.35%",
+      "theme": "AI手机",
+      "representative": "AI手机",
+      "change_pct": 2.14,
+      "constituents": 31,
+      "members": "AI手机 +2.14%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "机器人",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 4.81,
-      "avg_rank": 2.0,
-      "latest_rank": 1,
-      "dates": "11-24、11-23"
-    },
-    {
       "theme": "物理AI",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.04,
+      "avg_change_pct": 4.94,
       "avg_rank": 2.5,
       "latest_rank": 4,
       "dates": "11-24、11-23"
     },
     {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
+      "theme": "机器人",
+      "current_streak": 2,
+      "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 1.51,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-24、11-19"
+      "avg_change_pct": 4.72,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
+      "dates": "11-24、11-23"
     },
     {
       "theme": "智能音箱",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.89,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.78,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-24"
     },
     {
@@ -97,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.82,
+      "avg_change_pct": 2.57,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-24"
+    },
+    {
+      "theme": "AI手机",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.14,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-24"
     },
     {
@@ -111,6 +111,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.66,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-19"
     },
     {
       "theme": "大盘价值",
