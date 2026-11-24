@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:49:08+08:00",
+  "generated_at": "2026-11-24T13:50:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,67 +9,67 @@
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 4.1,
+      "change_pct": 3.84,
       "constituents": 19,
-      "members": "智能音箱 +4.10%",
+      "members": "智能音箱 +3.84%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 3.85,
+      "change_pct": 3.74,
       "constituents": 473,
-      "members": "减速器 +3.85% / 人形机器人 +3.23% / 机器视觉 +2.43%",
+      "members": "减速器 +3.74% / 人形机器人 +3.06% / 机器视觉 +2.30%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 3.66,
-      "constituents": 30,
-      "members": "大基金持股 +3.66%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "英伟达概念",
-      "representative": "英伟达概念",
-      "change_pct": 3.52,
-      "constituents": 68,
-      "members": "英伟达概念 +3.52%",
-      "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.47,
+      "change_pct": 3.32,
       "constituents": 81,
-      "members": "物理AI +3.47%",
+      "members": "物理AI +3.32%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 3.3,
+      "constituents": 30,
+      "members": "大基金持股 +3.30%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "英伟达概念",
+      "representative": "英伟达概念",
+      "change_pct": 3.29,
+      "constituents": 68,
+      "members": "英伟达概念 +3.29%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "机器人",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 5.28,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
-      "dates": "11-24、11-23"
-    },
-    {
       "theme": "物理AI",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.57,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
+      "avg_change_pct": 5.5,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
+      "dates": "11-24、11-23"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 5.22,
+      "avg_rank": 2.5,
+      "latest_rank": 2,
       "dates": "11-24、11-23"
     },
     {
@@ -77,9 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.16,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.98,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-24、11-19"
     },
     {
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.1,
+      "avg_change_pct": 3.84,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24"
@@ -97,9 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.52,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 3.29,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-24"
     },
     {
