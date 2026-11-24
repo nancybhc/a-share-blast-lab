@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:40:32+08:00",
+  "generated_at": "2026-11-24T13:41:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,36 +9,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 3.9,
+      "change_pct": 3.89,
       "constituents": 473,
-      "members": "减速器 +3.90% / 人形机器人 +3.15% / 机器视觉 +2.24%",
+      "members": "减速器 +3.89% / 人形机器人 +3.14% / 机器视觉 +2.27%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 3.86,
+      "change_pct": 3.83,
       "constituents": 19,
-      "members": "智能音箱 +3.86%",
+      "members": "智能音箱 +3.83%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.45,
+      "change_pct": 3.4,
       "constituents": 81,
-      "members": "物理AI +3.45%",
+      "members": "物理AI +3.40%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "金属回收/金属铜/动力电池回收",
       "representative": "金属钴",
-      "change_pct": 3.28,
+      "change_pct": 3.31,
       "constituents": 169,
-      "members": "金属钴 +3.28% / 动力电池回收 +1.27% / 金属回收 -0.05% / 金属铜 -0.65% / 金属锌 -1.08% / 金属铅 -1.44%",
+      "members": "金属钴 +3.31% / 动力电池回收 +1.37% / 金属回收 -0.01% / 金属铜 -0.63% / 金属锌 -1.09% / 金属铅 -1.42%",
       "rank": 4
     },
     {
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.56,
+      "avg_change_pct": 5.54,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.86,
+      "avg_change_pct": 3.83,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.28,
+      "avg_change_pct": 3.31,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
