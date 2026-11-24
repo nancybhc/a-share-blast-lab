@@ -1,95 +1,95 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:05:27+08:00",
+  "generated_at": "2026-11-24T14:06:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
   "daily_top": [
     {
       "date": "2026-11-24",
+      "theme": "金属回收/金属铜/动力电池回收",
+      "representative": "金属钴",
+      "change_pct": 2.71,
+      "constituents": 169,
+      "members": "金属钴 +2.71% / 动力电池回收 +0.47% / 金属回收 -0.91% / 金属铜 -1.47% / 金属锌 -1.99% / 金属铅 -2.24%",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 2.67,
+      "change_pct": 2.71,
       "constituents": 19,
-      "members": "智能音箱 +2.67%",
-      "rank": 1
+      "members": "智能音箱 +2.71%",
+      "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 2.6,
+      "change_pct": 2.59,
       "constituents": 473,
-      "members": "减速器 +2.60% / 人形机器人 +1.90% / 机器视觉 +1.04%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "金属回收/金属铜/动力电池回收",
-      "representative": "金属钴",
-      "change_pct": 2.53,
-      "constituents": 169,
-      "members": "金属钴 +2.53% / 动力电池回收 +0.43% / 金属回收 -0.93% / 金属铜 -1.49% / 金属锌 -2.03% / 金属铅 -2.25%",
+      "members": "减速器 +2.59% / 人形机器人 +1.92% / 机器视觉 +1.07%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "AI手机",
-      "representative": "AI手机",
-      "change_pct": 2.09,
-      "constituents": 31,
-      "members": "AI手机 +2.09%",
-      "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 2.09,
+      "change_pct": 2.15,
       "constituents": 81,
-      "members": "物理AI +2.09%",
+      "members": "物理AI +2.15%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "AI手机",
+      "representative": "AI手机",
+      "change_pct": 2.14,
+      "constituents": 31,
+      "members": "AI手机 +2.14%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "机器人",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 4.66,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
-      "dates": "11-24、11-23"
-    },
-    {
       "theme": "物理AI",
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.88,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
+      "avg_change_pct": 4.91,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-24、11-23"
+    },
+    {
+      "theme": "机器人",
+      "current_streak": 2,
+      "max_streak": 2,
+      "appearances": 2,
+      "avg_change_pct": 4.65,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-24、11-23"
+    },
+    {
+      "theme": "金属回收/金属铜/动力电池回收",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.71,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-24"
     },
     {
       "theme": "智能音箱",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.67,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-24"
-    },
-    {
-      "theme": "金属回收/金属铜/动力电池回收",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.53,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.71,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-24"
     },
     {
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.09,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.14,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-24"
     },
     {
