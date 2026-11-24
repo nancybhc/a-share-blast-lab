@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T13:50:42+08:00",
+  "generated_at": "2026-11-24T13:51:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-24",
       "theme": "智能音箱",
       "representative": "智能音箱",
-      "change_pct": 3.84,
+      "change_pct": 3.59,
       "constituents": 19,
-      "members": "智能音箱 +3.84%",
+      "members": "智能音箱 +3.59%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 3.74,
+      "change_pct": 3.57,
       "constituents": 473,
-      "members": "减速器 +3.74% / 人形机器人 +3.06% / 机器视觉 +2.30%",
+      "members": "减速器 +3.57% / 人形机器人 +2.84% / 机器视觉 +2.05%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "金属回收/金属铜/动力电池回收",
+      "representative": "金属钴",
+      "change_pct": 3.16,
+      "constituents": 169,
+      "members": "金属钴 +3.16% / 动力电池回收 +1.16% / 金属回收 -0.14% / 金属铜 -0.76% / 金属锌 -1.23% / 金属铅 -1.54%",
+      "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.32,
+      "change_pct": 3.05,
       "constituents": 81,
-      "members": "物理AI +3.32%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-24",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 3.3,
-      "constituents": 30,
-      "members": "大基金持股 +3.30%",
+      "members": "物理AI +3.05%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 3.29,
+      "change_pct": 3.03,
       "constituents": 68,
-      "members": "英伟达概念 +3.29%",
+      "members": "英伟达概念 +3.03%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.5,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
+      "avg_change_pct": 5.36,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-24、11-23"
     },
     {
@@ -67,29 +67,29 @@
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.22,
+      "avg_change_pct": 5.14,
       "avg_rank": 2.5,
       "latest_rank": 2,
       "dates": "11-24、11-23"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 1.98,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
-      "dates": "11-24、11-19"
     },
     {
       "theme": "智能音箱",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.84,
+      "avg_change_pct": 3.59,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-24"
+    },
+    {
+      "theme": "金属回收/金属铜/动力电池回收",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.16,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-24"
     },
     {
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.29,
+      "avg_change_pct": 3.03,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
@@ -111,6 +111,16 @@
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-18"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.66,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-19"
     },
     {
       "theme": "大盘价值",
