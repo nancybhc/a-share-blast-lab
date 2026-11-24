@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T10:23:22+08:00",
+  "generated_at": "2026-11-24T10:24:04+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.74,
+      "change_pct": 4.67,
       "constituents": 473,
-      "members": "减速器 +4.74% / 人形机器人 +3.94% / 机器视觉 +3.07%",
+      "members": "减速器 +4.67% / 人形机器人 +3.82% / 机器视觉 +2.94%",
       "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 4.66,
+      "change_pct": 4.48,
       "constituents": 68,
-      "members": "英伟达概念 +4.66%",
+      "members": "英伟达概念 +4.48%",
       "rank": 2
     },
     {
       "date": "2026-11-24",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 4.59,
+      "change_pct": 4.33,
       "constituents": 30,
-      "members": "大基金持股 +4.59%",
+      "members": "大基金持股 +4.33%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 4.4,
+      "change_pct": 4.07,
       "constituents": 28,
-      "members": "高带宽内存 +4.40%",
+      "members": "高带宽内存 +4.07%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 4.33,
-      "constituents": 370,
-      "members": "CPO概念 +4.33% / AI语料 +3.13% / 算力概念 +3.00%",
+      "theme": "苹果概念",
+      "representative": "苹果概念",
+      "change_pct": 4.03,
+      "constituents": 125,
+      "members": "苹果概念 +4.03%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.72,
+      "avg_change_pct": 5.69,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.62,
+      "avg_change_pct": 2.5,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-24、11-19"
@@ -77,29 +77,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.34,
+      "avg_change_pct": 2.18,
       "avg_rank": 3.0,
       "latest_rank": 4,
       "dates": "11-24、11-19"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 3.1,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
-      "dates": "11-24、11-18"
     },
     {
       "theme": "英伟达概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.66,
+      "avg_change_pct": 4.48,
       "avg_rank": 2.0,
       "latest_rank": 2,
+      "dates": "11-24"
+    },
+    {
+      "theme": "苹果概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.03,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-24"
     },
     {
@@ -201,6 +201,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.86,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-18"
     },
     {
       "theme": "券商概念",
