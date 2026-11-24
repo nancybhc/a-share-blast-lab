@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T11:19:42+08:00",
+  "generated_at": "2026-11-24T11:21:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.0,
+      "change_pct": 3.95,
       "constituents": 473,
-      "members": "减速器 +4.00% / 人形机器人 +3.19% / 机器视觉 +2.14%",
+      "members": "减速器 +3.95% / 人形机器人 +3.14% / 机器视觉 +2.06%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 3.46,
+      "change_pct": 3.41,
       "constituents": 68,
-      "members": "英伟达概念 +3.46%",
+      "members": "英伟达概念 +3.41%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
-      "theme": "AI手机",
-      "representative": "AI手机",
-      "change_pct": 3.28,
-      "constituents": 31,
-      "members": "AI手机 +3.28%",
+      "theme": "金属回收/金属铜/动力电池回收",
+      "representative": "金属钴",
+      "change_pct": 3.24,
+      "constituents": 169,
+      "members": "金属钴 +3.24% / 动力电池回收 +1.34% / 金属回收 +0.11% / 金属铜 -0.49% / 金属锌 -0.92% / 金属铅 -1.14%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
       "theme": "物理AI",
       "representative": "物理AI",
-      "change_pct": 3.25,
+      "change_pct": 3.22,
       "constituents": 81,
-      "members": "物理AI +3.25%",
+      "members": "物理AI +3.22%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.36,
+      "avg_change_pct": 5.33,
       "avg_rank": 2.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.46,
+      "avg_change_pct": 5.45,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-24、11-23"
@@ -87,17 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.46,
+      "avg_change_pct": 3.41,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24"
     },
     {
-      "theme": "AI手机",
+      "theme": "金属回收/金属铜/动力电池回收",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.28,
+      "avg_change_pct": 3.24,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
