@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T10:20:04+08:00",
+  "generated_at": "2026-11-24T10:22:04+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-24午盘",
   "daily_top": [
     {
       "date": "2026-11-24",
-      "theme": "大基金持股",
-      "representative": "大基金持股",
-      "change_pct": 5.03,
-      "constituents": 30,
-      "members": "大基金持股 +5.03%",
-      "rank": 1
-    },
-    {
-      "date": "2026-11-24",
       "theme": "机器人",
       "representative": "减速器",
-      "change_pct": 4.91,
+      "change_pct": 4.96,
       "constituents": 473,
-      "members": "减速器 +4.91% / 人形机器人 +4.15% / 机器视觉 +3.25%",
-      "rank": 2
+      "members": "减速器 +4.96% / 人形机器人 +4.12% / 机器视觉 +3.21%",
+      "rank": 1
     },
     {
       "date": "2026-11-24",
       "theme": "英伟达概念",
       "representative": "英伟达概念",
-      "change_pct": 4.9,
+      "change_pct": 4.77,
       "constituents": 68,
-      "members": "英伟达概念 +4.90%",
+      "members": "英伟达概念 +4.77%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 4.71,
+      "constituents": 30,
+      "members": "大基金持股 +4.71%",
       "rank": 3
     },
     {
       "date": "2026-11-24",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 4.73,
+      "change_pct": 4.43,
       "constituents": 28,
-      "members": "高带宽内存 +4.73%",
+      "members": "高带宽内存 +4.43%",
       "rank": 4
     },
     {
       "date": "2026-11-24",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": 4.7,
-      "constituents": 115,
-      "members": "先进封装 +4.70%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 4.4,
+      "constituents": 370,
+      "members": "CPO概念 +4.40% / AI语料 +3.24% / 算力概念 +3.07%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 2,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.81,
-      "avg_rank": 2.5,
-      "latest_rank": 2,
+      "avg_change_pct": 5.83,
+      "avg_rank": 2.0,
+      "latest_rank": 1,
       "dates": "11-24、11-23"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.85,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.69,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-24、11-19"
     },
     {
@@ -77,29 +77,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.51,
+      "avg_change_pct": 2.35,
       "avg_rank": 3.0,
       "latest_rank": 4,
       "dates": "11-24、11-19"
     },
     {
-      "theme": "先进封装",
+      "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.41,
-      "avg_rank": 4.0,
+      "avg_change_pct": 3.13,
+      "avg_rank": 4.5,
       "latest_rank": 5,
-      "dates": "11-24、11-19"
+      "dates": "11-24、11-18"
     },
     {
       "theme": "英伟达概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.9,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 4.77,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-24"
     },
     {
@@ -173,6 +173,16 @@ window.THEME_RADAR_DATA = {
       "dates": "11-18"
     },
     {
+      "theme": "先进封装",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.12,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-19"
+    },
+    {
       "theme": "鸡肉概念",
       "current_streak": 0,
       "max_streak": 1,
@@ -191,16 +201,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.86,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-18"
     },
     {
       "theme": "券商概念",
