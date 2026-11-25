@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:52:44+08:00",
+  "generated_at": "2026-11-25T09:54:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.02,
+      "change_pct": 3.04,
       "constituents": 21,
-      "members": "退税商店 +3.02%",
+      "members": "退税商店 +3.04%",
       "rank": 1
     },
     {
@@ -27,27 +27,27 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 2.09,
+      "change_pct": 2.01,
       "constituents": 71,
-      "members": "旅游酒店 +2.09% / 旅游概念 +1.62%",
+      "members": "旅游酒店 +2.01% / 旅游概念 +1.65%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
-      "theme": "钛白粉概念",
-      "representative": "钛白粉概念",
-      "change_pct": 1.85,
-      "constituents": 12,
-      "members": "钛白粉概念 +1.85%",
+      "theme": "拼多多概念",
+      "representative": "拼多多概念",
+      "change_pct": 1.99,
+      "constituents": 29,
+      "members": "拼多多概念 +1.99%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "病原体防治/流感/病毒防治",
-      "representative": "流感",
-      "change_pct": 1.77,
-      "constituents": 238,
-      "members": "流感 +1.77% / 病原体防治 +1.58% / 病毒防治 +1.43%",
+      "theme": "全息技术",
+      "representative": "全息技术",
+      "change_pct": 1.94,
+      "constituents": 11,
+      "members": "全息技术 +1.94%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.02,
+      "avg_change_pct": 3.04,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -87,27 +87,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.09,
+      "avg_change_pct": 2.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
     },
     {
-      "theme": "钛白粉概念",
+      "theme": "拼多多概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.85,
+      "avg_change_pct": 1.99,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "病原体防治/流感/病毒防治",
+      "theme": "全息技术",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.77,
+      "avg_change_pct": 1.94,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
