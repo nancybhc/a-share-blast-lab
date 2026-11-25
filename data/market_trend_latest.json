@@ -1,7 +1,7 @@
 {
   "dataDate": "2026-11-25",
   "generatedAt": "2026-11-25 15:00",
-  "reportGeneratedAt": "2026-11-25 22:31",
+  "reportGeneratedAt": "2026-11-25 22:39",
   "isIntraday": false,
   "session": "postmarket",
   "sourceReport": "多空阶段_2026-11-25.xlsx",
@@ -10,7 +10,7 @@
   "summary": "  AI硬件 · 近 7 个交易日（11-17 ~ 11-25）：空明显变多（+104 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 31→9 只、空 173→277 只、空转多 2→21、多转空 124→23｜PCB 最明显：多 0→3 只、空 54→51 只",
   "overview": {
     "groups": 22,
-    "uniqueStocks": 946,
+    "uniqueStocks": 945,
     "positiveGroups": 1,
     "negativeGroups": 19,
     "positiveTransitions": 19,
@@ -1312,23 +1312,23 @@
     {
       "name": "机器人",
       "date": "2026-11-25",
-      "total": 59,
+      "total": 58,
       "bull": 3,
       "turnBull": 20,
-      "turnBear": 1,
+      "turnBear": 0,
       "bear": 35,
       "newBull": 1,
       "confirm": 3,
       "direct": 0,
       "positive": 4,
       "negative": 16,
-      "bullPct": 5.08,
+      "bullPct": 5.17,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 2→3；空转多 36→20；多转空 0→1；空 20→35",
+      "change": "多 2→3；空转多 36→20；多转空 0→0；空 20→35",
       "id": "robot",
       "code": "ROBOTICS",
-      "score": -15.3,
+      "score": -15.5,
       "fulfilled": 3,
       "netBias": -32,
       "phase": "转空加速",
@@ -1338,28 +1338,28 @@
       "setupCaption": "空转多候选",
       "confirmValue": "3",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/59，空头 35；空转多候选 20，今日转多确认 3，反向转空 1。多 2→3；空转多 36→20；多转空 0→1；空 20→35，修复进入确认，观察扩散。",
+      "thesis": "多头 3/58，空头 35；空转多候选 20，今日转多确认 3，反向转空 0。多 2→3；空转多 36→20；多转空 0→0；空 20→35，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-17",
           "bull": 2,
           "turnBull": 0,
           "turnBear": 24,
-          "bear": 33,
-          "bullPct": 3.39
+          "bear": 32,
+          "bullPct": 3.45
         },
         {
           "date": "2026-11-18",
           "bull": 0,
           "turnBull": 0,
           "turnBear": 10,
-          "bear": 49,
+          "bear": 48,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-19",
           "bull": 0,
-          "turnBull": 2,
+          "turnBull": 1,
           "turnBear": 2,
           "bear": 55,
           "bullPct": 0.0
@@ -1369,13 +1369,13 @@
           "bull": 0,
           "turnBull": 0,
           "turnBear": 2,
-          "bear": 57,
+          "bear": 56,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-23",
           "bull": 0,
-          "turnBull": 10,
+          "turnBull": 9,
           "turnBear": 0,
           "bear": 49,
           "bullPct": 0.0
@@ -1383,19 +1383,19 @@
         {
           "date": "2026-11-24",
           "bull": 2,
-          "turnBull": 36,
+          "turnBull": 35,
           "turnBear": 0,
           "bear": 21,
-          "bullPct": 3.39
+          "bullPct": 3.45
         },
         {
           "date": "2026-11-25",
-          "total": 59,
+          "total": 58,
           "bull": 3,
           "turnBull": 20,
-          "turnBear": 1,
+          "turnBear": 0,
           "bear": 35,
-          "bullPct": 5.08
+          "bullPct": 5.17
         }
       ]
     },
@@ -2045,10 +2045,10 @@
         "name": "机器人",
         "group_id": "robot",
         "color": "#bf2f45",
-        "delta": 10,
+        "delta": 11,
         "values": [
-          10,
-          36,
+          9,
+          35,
           20
         ]
       },
