@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:03:34+08:00",
+  "generated_at": "2026-11-25T10:04:35+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,18 +9,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.64,
+      "change_pct": 3.89,
       "constituents": 21,
-      "members": "退税商店 +3.64%",
+      "members": "退税商店 +3.89%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 3.1,
+      "change_pct": 3.13,
       "constituents": 14,
-      "members": "长寿药 +3.10%",
+      "members": "长寿药 +3.13%",
       "rank": 2
     },
     {
@@ -36,18 +36,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.69,
+      "change_pct": 2.7,
       "constituents": 238,
-      "members": "流感 +2.69% / 病原体防治 +2.48% / 病毒防治 +2.31%",
+      "members": "流感 +2.70% / 病原体防治 +2.48% / 病毒防治 +2.32%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 2.58,
+      "change_pct": 2.69,
       "constituents": 71,
-      "members": "旅游酒店 +2.58% / 旅游概念 +2.15%",
+      "members": "旅游酒店 +2.69% / 旅游概念 +2.24%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.64,
+      "avg_change_pct": 3.89,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.1,
+      "avg_change_pct": 3.13,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.69,
+      "avg_change_pct": 2.7,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.69,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
