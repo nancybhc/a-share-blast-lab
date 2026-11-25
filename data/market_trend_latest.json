@@ -1,7 +1,7 @@
 {
   "dataDate": "2026-11-25",
-  "generatedAt": "2026-11-25 11:34",
-  "reportGeneratedAt": "2026-11-25 11:34",
+  "generatedAt": "2026-11-25 12:55",
+  "reportGeneratedAt": "2026-11-25 12:55",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-25.xlsx",
@@ -1672,9 +1672,9 @@
     {
       "name": "MLCC",
       "date": "2026-11-25",
-      "total": 15,
+      "total": 14,
       "bull": 0,
-      "turnBull": 2,
+      "turnBull": 1,
       "turnBear": 0,
       "bear": 13,
       "newBull": 0,
@@ -1685,27 +1685,27 @@
       "bullPct": 0.0,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 0→0；空转多 4→2；多转空 0→0；空 11→13",
+      "change": "多 0→0；空转多 4→1；多转空 0→0；空 11→13",
       "id": "mlcc",
       "code": "PASSIVE",
-      "score": -13.3,
+      "score": -14.3,
       "fulfilled": 0,
       "netBias": -13,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
-      "setup": "2",
+      "setup": "1",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/15，空头 13；空转多候选 2，今日转多确认 0，反向转空 0。多 0→0；空转多 4→2；多转空 0→0；空 11→13，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 0/14，空头 13；空转多候选 1，今日转多确认 0，反向转空 0。多 0→0；空转多 4→1；多转空 0→0；空 11→13，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-17",
           "bull": 0,
           "turnBull": 0,
           "turnBear": 2,
-          "bear": 13,
+          "bear": 12,
           "bullPct": 0.0
         },
         {
@@ -1713,7 +1713,7 @@
           "bull": 0,
           "turnBull": 0,
           "turnBear": 0,
-          "bear": 15,
+          "bear": 14,
           "bullPct": 0.0
         },
         {
@@ -1721,7 +1721,7 @@
           "bull": 0,
           "turnBull": 0,
           "turnBear": 0,
-          "bear": 15,
+          "bear": 14,
           "bullPct": 0.0
         },
         {
@@ -1729,7 +1729,7 @@
           "bull": 0,
           "turnBull": 0,
           "turnBear": 0,
-          "bear": 15,
+          "bear": 14,
           "bullPct": 0.0
         },
         {
@@ -1737,22 +1737,22 @@
           "bull": 0,
           "turnBull": 3,
           "turnBear": 0,
-          "bear": 12,
+          "bear": 11,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-24",
           "bull": 0,
-          "turnBull": 4,
+          "turnBull": 3,
           "turnBear": 0,
           "bear": 11,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-25",
-          "total": 15,
+          "total": 14,
           "bull": 0,
-          "turnBull": 2,
+          "turnBull": 1,
           "turnBear": 0,
           "bear": 13,
           "bullPct": 0.0
