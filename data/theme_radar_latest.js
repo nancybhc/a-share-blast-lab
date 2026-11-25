@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T14:40:40+08:00",
+  "generated_at": "2026-11-25T14:41:45+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.91,
+      "change_pct": 1.83,
       "constituents": 21,
-      "members": "退税商店 +1.91%",
+      "members": "退税商店 +1.83%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "肝素概念",
       "representative": "肝素概念",
-      "change_pct": 0.84,
+      "change_pct": 0.81,
       "constituents": 13,
-      "members": "肝素概念 +0.84%",
+      "members": "肝素概念 +0.81%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "青蒿素",
       "representative": "青蒿素",
-      "change_pct": 0.75,
+      "change_pct": 0.73,
       "constituents": 11,
-      "members": "青蒿素 +0.75%",
+      "members": "青蒿素 +0.73%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "独家药品/特色药",
-      "representative": "特色药",
-      "change_pct": 0.5,
-      "constituents": 57,
-      "members": "特色药 +0.50% / 独家药品 +0.46%",
-      "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 0.5,
+      "change_pct": 0.48,
       "constituents": 66,
-      "members": "医药电商 +0.50%",
+      "members": "医药电商 +0.48%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "长寿药",
+      "representative": "长寿药",
+      "change_pct": 0.46,
+      "constituents": 14,
+      "members": "长寿药 +0.46%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.91,
+      "avg_change_pct": 1.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.84,
+      "avg_change_pct": 0.81,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.75,
+      "avg_change_pct": 0.73,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-25"
-    },
-    {
-      "theme": "独家药品/特色药",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.5,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-25"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.5,
+      "avg_change_pct": 0.48,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-25"
+    },
+    {
+      "theme": "长寿药",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 0.46,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
