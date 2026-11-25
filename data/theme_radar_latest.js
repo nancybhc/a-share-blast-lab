@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T11:05:16+08:00",
+  "generated_at": "2026-11-25T11:05:49+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.58,
+      "change_pct": 4.59,
       "constituents": 21,
-      "members": "退税商店 +4.58%",
+      "members": "退税商店 +4.59%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 2.94,
+      "change_pct": 2.86,
       "constituents": 66,
-      "members": "医药电商 +2.94%",
+      "members": "医药电商 +2.86%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "SPD概念",
       "representative": "SPD概念",
-      "change_pct": 2.92,
+      "change_pct": 2.84,
       "constituents": 14,
-      "members": "SPD概念 +2.92%",
+      "members": "SPD概念 +2.84%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 2.81,
+      "change_pct": 2.79,
       "constituents": 71,
-      "members": "旅游酒店 +2.81% / 旅游概念 +1.93%",
+      "members": "旅游酒店 +2.79% / 旅游概念 +1.88%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "肝素概念",
-      "representative": "肝素概念",
-      "change_pct": 2.66,
-      "constituents": 13,
-      "members": "肝素概念 +2.66%",
+      "theme": "病原体防治/流感/病毒防治",
+      "representative": "流感",
+      "change_pct": 2.61,
+      "constituents": 238,
+      "members": "流感 +2.61% / 病原体防治 +2.14% / 病毒防治 +2.11%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.58,
+      "avg_change_pct": 4.59,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.94,
+      "avg_change_pct": 2.86,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.92,
+      "avg_change_pct": 2.84,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.81,
+      "avg_change_pct": 2.79,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "肝素概念",
+      "theme": "病原体防治/流感/病毒防治",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.66,
+      "avg_change_pct": 2.61,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
