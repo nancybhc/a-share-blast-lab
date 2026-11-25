@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T14:47:40+08:00",
+  "generated_at": "2026-11-25T14:48:59+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -18,36 +18,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "肝素概念",
       "representative": "肝素概念",
-      "change_pct": 0.98,
+      "change_pct": 0.88,
       "constituents": 13,
-      "members": "肝素概念 +0.98%",
+      "members": "肝素概念 +0.88%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "青蒿素",
       "representative": "青蒿素",
-      "change_pct": 0.81,
+      "change_pct": 0.76,
       "constituents": 11,
-      "members": "青蒿素 +0.81%",
+      "members": "青蒿素 +0.76%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 0.67,
+      "change_pct": 0.58,
       "constituents": 66,
-      "members": "医药电商 +0.67%",
+      "members": "医药电商 +0.58%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "独家药品/特色药",
-      "representative": "特色药",
-      "change_pct": 0.6,
-      "constituents": 57,
-      "members": "特色药 +0.60% / 独家药品 +0.56%",
+      "theme": "长寿药",
+      "representative": "长寿药",
+      "change_pct": 0.51,
+      "constituents": 14,
+      "members": "长寿药 +0.51%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.98,
+      "avg_change_pct": 0.88,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.81,
+      "avg_change_pct": 0.76,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.67,
+      "avg_change_pct": 0.58,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "独家药品/特色药",
+      "theme": "长寿药",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.6,
+      "avg_change_pct": 0.51,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
