@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T11:26:15+08:00",
+  "generated_at": "2026-11-25T11:27:14+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.7,
+      "change_pct": 4.69,
       "constituents": 21,
-      "members": "退税商店 +4.70%",
+      "members": "退税商店 +4.69%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "旅游概念/旅游酒店",
-      "representative": "旅游酒店",
-      "change_pct": 3.0,
-      "constituents": 71,
-      "members": "旅游酒店 +3.00% / 旅游概念 +2.38%",
-      "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 2.98,
+      "change_pct": 2.94,
       "constituents": 66,
-      "members": "医药电商 +2.98%",
+      "members": "医药电商 +2.94%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "旅游概念/旅游酒店",
+      "representative": "旅游酒店",
+      "change_pct": 2.94,
+      "constituents": 71,
+      "members": "旅游酒店 +2.94% / 旅游概念 +2.34%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.82,
+      "change_pct": 2.8,
       "constituents": 238,
-      "members": "流感 +2.82% / 病原体防治 +2.35% / 病毒防治 +2.29%",
+      "members": "流感 +2.80% / 病原体防治 +2.33% / 病毒防治 +2.29%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "中药概念",
       "representative": "中药概念",
-      "change_pct": 2.73,
+      "change_pct": 2.7,
       "constituents": 146,
-      "members": "中药概念 +2.73%",
+      "members": "中药概念 +2.70%",
       "rank": 5
     }
   ],
@@ -67,19 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.7,
+      "avg_change_pct": 4.69,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-25"
-    },
-    {
-      "theme": "旅游概念/旅游酒店",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.0,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-25"
     },
     {
@@ -87,7 +77,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.98,
+      "avg_change_pct": 2.94,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-25"
+    },
+    {
+      "theme": "旅游概念/旅游酒店",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.94,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.82,
+      "avg_change_pct": 2.8,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.73,
+      "avg_change_pct": 2.7,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
