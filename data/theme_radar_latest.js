@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:57:03+08:00",
+  "generated_at": "2026-11-25T09:57:55+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.24,
+      "change_pct": 3.36,
       "constituents": 21,
-      "members": "退税商店 +3.24%",
+      "members": "退税商店 +3.36%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 2.54,
+      "change_pct": 2.63,
       "constituents": 14,
-      "members": "长寿药 +2.54%",
+      "members": "长寿药 +2.63%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 2.17,
+      "change_pct": 2.25,
       "constituents": 71,
-      "members": "旅游酒店 +2.17% / 旅游概念 +1.71%",
+      "members": "旅游酒店 +2.25% / 旅游概念 +1.81%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.12,
+      "change_pct": 2.23,
       "constituents": 238,
-      "members": "流感 +2.12% / 病原体防治 +1.89% / 病毒防治 +1.71%",
+      "members": "流感 +2.23% / 病原体防治 +2.03% / 病毒防治 +1.82%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "医药电商",
-      "representative": "医药电商",
-      "change_pct": 2.05,
-      "constituents": 66,
-      "members": "医药电商 +2.05%",
+      "theme": "阿兹海默",
+      "representative": "阿兹海默",
+      "change_pct": 2.14,
+      "constituents": 22,
+      "members": "阿兹海默 +2.14%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.24,
+      "avg_change_pct": 3.36,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.54,
+      "avg_change_pct": 2.63,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.17,
+      "avg_change_pct": 2.25,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.12,
+      "avg_change_pct": 2.23,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "医药电商",
+      "theme": "阿兹海默",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.05,
+      "avg_change_pct": 2.14,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
