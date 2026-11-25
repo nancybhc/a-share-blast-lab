@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:04:35+08:00",
+  "generated_at": "2026-11-25T10:06:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.89,
+      "change_pct": 4.03,
       "constituents": 21,
-      "members": "退税商店 +3.89%",
+      "members": "退税商店 +4.03%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 3.13,
+      "change_pct": 3.06,
       "constituents": 14,
-      "members": "长寿药 +3.13%",
+      "members": "长寿药 +3.06%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "阿兹海默",
-      "representative": "阿兹海默",
-      "change_pct": 2.73,
-      "constituents": 22,
-      "members": "阿兹海默 +2.73%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "病原体防治/流感/病毒防治",
-      "representative": "流感",
-      "change_pct": 2.7,
-      "constituents": 238,
-      "members": "流感 +2.70% / 病原体防治 +2.48% / 病毒防治 +2.32%",
-      "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 2.69,
+      "change_pct": 2.84,
       "constituents": 71,
-      "members": "旅游酒店 +2.69% / 旅游概念 +2.24%",
+      "members": "旅游酒店 +2.84% / 旅游概念 +2.32%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "阿兹海默",
+      "representative": "阿兹海默",
+      "change_pct": 2.82,
+      "constituents": 22,
+      "members": "阿兹海默 +2.82%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "病原体防治/流感/病毒防治",
+      "representative": "流感",
+      "change_pct": 2.78,
+      "constituents": 238,
+      "members": "流感 +2.78% / 病原体防治 +2.56% / 病毒防治 +2.42%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.89,
+      "avg_change_pct": 4.03,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,29 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.13,
+      "avg_change_pct": 3.06,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-25"
-    },
-    {
-      "theme": "阿兹海默",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.73,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-25"
-    },
-    {
-      "theme": "病原体防治/流感/病毒防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.7,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-25"
     },
     {
@@ -107,7 +87,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.69,
+      "avg_change_pct": 2.84,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "阿兹海默",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.82,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-25"
+    },
+    {
+      "theme": "病原体防治/流感/病毒防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.78,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
