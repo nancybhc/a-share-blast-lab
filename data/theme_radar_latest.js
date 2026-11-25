@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:21:16+08:00",
+  "generated_at": "2026-11-25T10:22:07+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,19 +9,28 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.38,
+      "change_pct": 4.44,
       "constituents": 21,
-      "members": "退税商店 +4.38%",
+      "members": "退税商店 +4.44%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
-      "theme": "钛白粉概念",
-      "representative": "钛白粉概念",
-      "change_pct": 2.69,
-      "constituents": 12,
-      "members": "钛白粉概念 +2.69%",
+      "theme": "医药电商",
+      "representative": "医药电商",
+      "change_pct": 2.68,
+      "constituents": 66,
+      "members": "医药电商 +2.68%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.64,
+      "constituents": 18,
+      "members": "水产概念 +2.64%",
+      "rank": 3
     },
     {
       "date": "2026-11-25",
@@ -30,24 +39,15 @@ window.THEME_RADAR_DATA = {
       "change_pct": 2.62,
       "constituents": 14,
       "members": "长寿药 +2.62%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.58,
-      "constituents": 18,
-      "members": "水产概念 +2.58%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "医药电商",
-      "representative": "医药电商",
-      "change_pct": 2.57,
-      "constituents": 66,
-      "members": "医药电商 +2.57%",
+      "theme": "钛白粉概念",
+      "representative": "钛白粉概念",
+      "change_pct": 2.58,
+      "constituents": 12,
+      "members": "钛白粉概念 +2.58%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.69,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 0.72,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-25、11-20"
     },
     {
@@ -77,17 +77,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.38,
+      "avg_change_pct": 4.44,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
     },
     {
-      "theme": "钛白粉概念",
+      "theme": "医药电商",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.69,
+      "avg_change_pct": 2.68,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -98,16 +98,16 @@ window.THEME_RADAR_DATA = {
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 2.62,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "医药电商",
+      "theme": "钛白粉概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.57,
+      "avg_change_pct": 2.58,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
