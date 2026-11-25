@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T13:58:11+08:00",
+  "generated_at": "2026-11-25T13:59:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.22,
+      "change_pct": 3.17,
       "constituents": 21,
-      "members": "退税商店 +3.22%",
+      "members": "退税商店 +3.17%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "医药电商",
-      "representative": "医药电商",
-      "change_pct": 1.35,
-      "constituents": 66,
-      "members": "医药电商 +1.35%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "病原体防治/流感/病毒防治",
-      "representative": "流感",
-      "change_pct": 1.29,
-      "constituents": 238,
-      "members": "流感 +1.29% / 病毒防治 +0.76% / 病原体防治 +0.73%",
-      "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "肝素概念",
       "representative": "肝素概念",
-      "change_pct": 1.29,
+      "change_pct": 1.36,
       "constituents": 13,
-      "members": "肝素概念 +1.29%",
+      "members": "肝素概念 +1.36%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "医药电商",
+      "representative": "医药电商",
+      "change_pct": 1.32,
+      "constituents": 66,
+      "members": "医药电商 +1.32%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "病原体防治/流感/病毒防治",
+      "representative": "流感",
+      "change_pct": 1.27,
+      "constituents": 238,
+      "members": "流感 +1.27% / 病毒防治 +0.71% / 病原体防治 +0.68%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "旅游概念/旅游酒店",
-      "representative": "旅游酒店",
-      "change_pct": 1.19,
-      "constituents": 71,
-      "members": "旅游酒店 +1.19% / 旅游概念 +0.40%",
+      "theme": "青蒿素",
+      "representative": "青蒿素",
+      "change_pct": 1.12,
+      "constituents": 11,
+      "members": "青蒿素 +1.12%",
       "rank": 5
     }
   ],
@@ -67,29 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.22,
+      "avg_change_pct": 3.17,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-25"
-    },
-    {
-      "theme": "医药电商",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.35,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-25"
-    },
-    {
-      "theme": "病原体防治/流感/病毒防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.29,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-25"
     },
     {
@@ -97,17 +77,37 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.29,
+      "avg_change_pct": 1.36,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-25"
+    },
+    {
+      "theme": "医药电商",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.32,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "病原体防治/流感/病毒防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.27,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "旅游概念/旅游酒店",
+      "theme": "青蒿素",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.19,
+      "avg_change_pct": 1.12,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
