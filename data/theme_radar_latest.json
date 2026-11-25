@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:16:54+08:00",
+  "generated_at": "2026-11-25T10:17:55+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.35,
+      "change_pct": 4.22,
       "constituents": 21,
-      "members": "退税商店 +4.35%",
+      "members": "退税商店 +4.22%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "钛白粉概念",
+      "representative": "钛白粉概念",
+      "change_pct": 2.69,
+      "constituents": 12,
+      "members": "钛白粉概念 +2.69%",
+      "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 2.74,
+      "change_pct": 2.68,
       "constituents": 14,
-      "members": "长寿药 +2.74%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.69,
-      "constituents": 18,
-      "members": "水产概念 +2.69%",
+      "members": "长寿药 +2.68%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 2.65,
+      "change_pct": 2.66,
       "constituents": 66,
-      "members": "医药电商 +2.65%",
+      "members": "医药电商 +2.66%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
-      "theme": "钛白粉概念",
-      "representative": "钛白粉概念",
-      "change_pct": 2.61,
-      "constituents": 12,
-      "members": "钛白粉概念 +2.61%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.6,
+      "constituents": 18,
+      "members": "水产概念 +2.60%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.74,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
+      "avg_change_pct": 0.7,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-25、11-20"
     },
     {
@@ -77,29 +77,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.35,
+      "avg_change_pct": 4.22,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-25"
-    },
-    {
-      "theme": "长寿药",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.74,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-25"
-    },
-    {
-      "theme": "医药电商",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.65,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-25"
     },
     {
@@ -107,9 +87,29 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.61,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 2.69,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-25"
+    },
+    {
+      "theme": "长寿药",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.68,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "医药电商",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.66,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-25"
     },
     {
