@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:34:23+08:00",
+  "generated_at": "2026-11-25T09:35:25+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
   "daily_top": [
     {
       "date": "2026-11-25",
-      "theme": "退税商店",
-      "representative": "退税商店",
-      "change_pct": 1.8,
-      "constituents": 21,
-      "members": "退税商店 +1.80%",
+      "theme": "轮毂电机",
+      "representative": "轮毂电机",
+      "change_pct": 1.74,
+      "constituents": 9,
+      "members": "轮毂电机 +1.74%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
-      "theme": "轮毂电机",
-      "representative": "轮毂电机",
-      "change_pct": 1.46,
-      "constituents": 9,
-      "members": "轮毂电机 +1.46%",
+      "theme": "退税商店",
+      "representative": "退税商店",
+      "change_pct": 1.68,
+      "constituents": 21,
+      "members": "退税商店 +1.68%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "病原体防治/流感/病毒防治",
-      "representative": "流感",
-      "change_pct": 1.36,
-      "constituents": 238,
-      "members": "流感 +1.36% / 病原体防治 +1.01% / 病毒防治 +0.76%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "维生素",
-      "representative": "维生素",
-      "change_pct": 1.24,
-      "constituents": 35,
-      "members": "维生素 +1.24%",
-      "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "钛白粉概念",
       "representative": "钛白粉概念",
-      "change_pct": 1.22,
+      "change_pct": 1.56,
       "constituents": 12,
-      "members": "钛白粉概念 +1.22%",
+      "members": "钛白粉概念 +1.56%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "病原体防治/流感/病毒防治",
+      "representative": "流感",
+      "change_pct": 1.35,
+      "constituents": 238,
+      "members": "流感 +1.35% / 病原体防治 +1.00% / 病毒防治 +0.79%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "阿兹海默",
+      "representative": "阿兹海默",
+      "change_pct": 1.31,
+      "constituents": 22,
+      "members": "阿兹海默 +1.31%",
       "rank": 5
     }
   ],
@@ -63,43 +63,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24、11-23"
     },
     {
-      "theme": "退税商店",
+      "theme": "轮毂电机",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.8,
+      "avg_change_pct": 1.74,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
     },
     {
-      "theme": "轮毂电机",
+      "theme": "退税商店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.46,
+      "avg_change_pct": 1.68,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-25"
-    },
-    {
-      "theme": "病原体防治/流感/病毒防治",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.36,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-25"
-    },
-    {
-      "theme": "维生素",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.24,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-25"
     },
     {
@@ -107,7 +87,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.22,
+      "avg_change_pct": 1.56,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "病原体防治/流感/病毒防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.35,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-25"
+    },
+    {
+      "theme": "阿兹海默",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.31,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
