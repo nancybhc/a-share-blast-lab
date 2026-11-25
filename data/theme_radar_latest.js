@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T14:53:43+08:00",
+  "generated_at": "2026-11-25T14:56:06+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 1.98,
+      "change_pct": 2.11,
       "constituents": 21,
-      "members": "退税商店 +1.98%",
+      "members": "退税商店 +2.11%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "肝素概念",
       "representative": "肝素概念",
-      "change_pct": 0.91,
+      "change_pct": 0.95,
       "constituents": 13,
-      "members": "肝素概念 +0.91%",
+      "members": "肝素概念 +0.95%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "青蒿素",
       "representative": "青蒿素",
-      "change_pct": 0.81,
+      "change_pct": 0.84,
       "constituents": 11,
-      "members": "青蒿素 +0.81%",
+      "members": "青蒿素 +0.84%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 0.6,
+      "change_pct": 0.66,
       "constituents": 66,
-      "members": "医药电商 +0.60%",
+      "members": "医药电商 +0.66%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "独家药品/特色药",
       "representative": "特色药",
-      "change_pct": 0.52,
+      "change_pct": 0.59,
       "constituents": 57,
-      "members": "特色药 +0.52% / 独家药品 +0.50%",
+      "members": "特色药 +0.59% / 独家药品 +0.58%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.98,
+      "avg_change_pct": 2.11,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.91,
+      "avg_change_pct": 0.95,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.81,
+      "avg_change_pct": 0.84,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.6,
+      "avg_change_pct": 0.66,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.52,
+      "avg_change_pct": 0.59,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
