@@ -1,7 +1,7 @@
 {
   "source": "新浪财经 MoneyFlow.ssl_qsfx_zjlrqs；当日缺失时用东方财富 f62 补齐",
   "definition": "主力净流入；历史 r0_net，当日 f62",
-  "retrieved_at": "2026-11-25T22:04:28+08:00",
+  "retrieved_at": "2026-11-25T22:32:23+08:00",
   "date": "2026-11-25",
   "dates": [
     "2026-11-18",
@@ -2007,6 +2007,111 @@
         }
       ]
     },
+    "黄金白银": {
+      "group": "黄金白银",
+      "constituents": 22,
+      "covered": 22,
+      "missing": [],
+      "coverage_pct": 100.0,
+      "date": "2026-11-25",
+      "main_net_yi": 3.28,
+      "main_net_change_yi": 19.63,
+      "five_day_main_net_yi": 6.82,
+      "positive_stock_count": 12,
+      "negative_stock_count": 9,
+      "top_positive": [
+        {
+          "code": "603993",
+          "name": "洛阳钼业",
+          "main_net_yi": 1.6244
+        },
+        {
+          "code": "600547",
+          "name": "山东黄金",
+          "main_net_yi": 0.6918
+        },
+        {
+          "code": "600988",
+          "name": "赤峰黄金",
+          "main_net_yi": 0.5629
+        },
+        {
+          "code": "601899",
+          "name": "紫金矿业",
+          "main_net_yi": 0.3453
+        },
+        {
+          "code": "000426",
+          "name": "兴业银锡",
+          "main_net_yi": 0.3395
+        }
+      ],
+      "top_negative": [
+        {
+          "code": "002155",
+          "name": "湖南黄金",
+          "main_net_yi": -0.5254
+        },
+        {
+          "code": "002716",
+          "name": "湖南白银",
+          "main_net_yi": -0.2237
+        },
+        {
+          "code": "601069",
+          "name": "西部黄金",
+          "main_net_yi": -0.221
+        },
+        {
+          "code": "601212",
+          "name": "白银有色",
+          "main_net_yi": -0.1609
+        },
+        {
+          "code": "000960",
+          "name": "锡业股份",
+          "main_net_yi": -0.0689
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-11-18",
+          "main_net_yi": -14.22,
+          "total_net_yi": -16.12,
+          "covered": 22
+        },
+        {
+          "date": "2026-11-19",
+          "main_net_yi": 7.51,
+          "total_net_yi": 4.14,
+          "covered": 22
+        },
+        {
+          "date": "2026-11-20",
+          "main_net_yi": 7.73,
+          "total_net_yi": 5.92,
+          "covered": 22
+        },
+        {
+          "date": "2026-11-23",
+          "main_net_yi": 4.65,
+          "total_net_yi": 8.04,
+          "covered": 22
+        },
+        {
+          "date": "2026-11-24",
+          "main_net_yi": -16.35,
+          "total_net_yi": -22.54,
+          "covered": 22
+        },
+        {
+          "date": "2026-11-25",
+          "main_net_yi": 3.28,
+          "total_net_yi": -1.44,
+          "covered": 22
+        }
+      ]
+    },
     "金属矿业": {
       "group": "金属矿业",
       "constituents": 39,
@@ -2239,6 +2344,7 @@
     "电网设备": 46,
     "储能": 9,
     "商业航天": 46,
+    "黄金白银": 22,
     "金属矿业": 39,
     "军工": 29
   }

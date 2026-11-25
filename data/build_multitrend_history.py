@@ -17,7 +17,7 @@ REPORT_ROOT = Path(r"C:\Users\jiach\多空趋势分析结果")
 DESKTOP_REPORT_ROOT = Path(r"C:\Users\jiach\Desktop\今日盘中\多空趋势")
 HISTORY_CACHE_ROOT = Path(r"C:\Users\jiach\题材雷达工作流\cache")
 SUMMARY_SHEETS = {"总览", "多空趋势", "量化5破10推演"}
-EXCLUDED_GROUPS = {"黄金白银"}
+EXCLUDED_GROUPS: set[str] = set()
 SEMI_GROUPS = ("半导体芯片", "半导体设备", "半导体上游")
 AI_POOL_GROUPS = (
     "PCB",

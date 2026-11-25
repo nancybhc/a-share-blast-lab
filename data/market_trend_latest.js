@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-25",
   "generatedAt": "2026-11-25 15:00",
-  "reportGeneratedAt": "2026-11-25 22:01",
+  "reportGeneratedAt": "2026-11-25 22:31",
   "isIntraday": false,
   "session": "postmarket",
   "sourceReport": "多空阶段_2026-11-25.xlsx",
@@ -9,8 +9,8 @@ window.MARKET_TREND_DATA = {
   "sourceBrief": "assets/多空阶段简报_2026-11-25.pptx",
   "summary": "  AI硬件 · 近 7 个交易日（11-17 ~ 11-25）：空明显变多（+104 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 31→9 只、空 173→277 只、空转多 2→21、多转空 124→23｜PCB 最明显：多 0→3 只、空 54→51 只",
   "overview": {
-    "groups": 21,
-    "uniqueStocks": 924,
+    "groups": 22,
+    "uniqueStocks": 946,
     "positiveGroups": 1,
     "negativeGroups": 19,
     "positiveTransitions": 19,
@@ -136,6 +136,96 @@ window.MARKET_TREND_DATA = {
           "turnBear": 5,
           "bear": 82,
           "bullPct": 1.01
+        }
+      ]
+    },
+    {
+      "name": "黄金白银",
+      "date": "2026-11-25",
+      "total": 22,
+      "bull": 2,
+      "turnBull": 1,
+      "turnBear": 0,
+      "bear": 19,
+      "newBull": 0,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 0,
+      "negative": 0,
+      "bullPct": 9.09,
+      "state": "结构分化",
+      "action": "等下一次候选池方向变化",
+      "change": "多 2→2；空转多 1→1；多转空 0→0；空 19→19",
+      "id": "黄金白银",
+      "code": "黄金白银",
+      "score": 0.0,
+      "fulfilled": 0,
+      "netBias": -17,
+      "phase": "结构分化",
+      "badge": "临界观察",
+      "tone": "amber",
+      "setup": "1",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 2/22，空头 19；空转多候选 1，今日转多确认 0，反向转空 0。多 2→2；空转多 1→1；多转空 0→0；空 19→19，等下一次候选池方向变化。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 11,
+          "bear": 9,
+          "bullPct": 4.55
+        },
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 21,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 22,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 22,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 1,
+          "turnBull": 3,
+          "turnBear": 0,
+          "bear": 18,
+          "bullPct": 4.55
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 20,
+          "bullPct": 4.55
+        },
+        {
+          "date": "2026-11-25",
+          "total": 22,
+          "bull": 2,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 19,
+          "bullPct": 9.09
         }
       ]
     },

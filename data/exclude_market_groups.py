@@ -21,7 +21,8 @@ BACKUP_ROOT = (
     / "outputs"
     / "market_group_backups"
 )
-EXCLUDED_GROUPS = ("黄金白银",)
+# 多空趋势 Excel 保留观察分组；网页端如需隐藏，由各自的读取器单独过滤。
+EXCLUDED_GROUPS: tuple[str, ...] = ()
 
 
 def workbook_paths(target_date: str) -> list[Path]:

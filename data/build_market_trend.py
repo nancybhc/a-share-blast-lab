@@ -37,7 +37,7 @@ GROUP_META = {
     "商业航天": ("aerospace", "AEROSPACE"),
     "散热液冷": ("cooling", "LIQUID COOLING"),
 }
-EXCLUDED_GROUPS = {"黄金白银"}
+EXCLUDED_GROUPS: set[str] = set()
 SUMMARY_SHEETS = {"总览", "量化5破10推演", "多空趋势"}
 PHASE_ORDER = (
     "空→多跳级",
