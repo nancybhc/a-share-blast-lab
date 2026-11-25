@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-25",
-  "generatedAt": "2026-11-25 14:42",
-  "reportGeneratedAt": "2026-11-25 14:42",
+  "generatedAt": "2026-11-25 14:43",
+  "reportGeneratedAt": "2026-11-25 14:43",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-25.xlsx",
@@ -14,7 +14,7 @@ window.MARKET_TREND_DATA = {
     "positiveGroups": 1,
     "negativeGroups": 18,
     "positiveTransitions": 15,
-    "negativeTransitions": 128
+    "negativeTransitions": 127
   },
   "phaseLegend": [
     {
@@ -55,22 +55,22 @@ window.MARKET_TREND_DATA = {
       "total": 99,
       "bull": 1,
       "turnBull": 10,
-      "turnBear": 4,
-      "bear": 84,
+      "turnBear": 5,
+      "bear": 83,
       "newBull": 5,
       "confirm": 1,
       "direct": 0,
       "positive": 6,
-      "negative": 4,
+      "negative": 3,
       "bullPct": 1.01,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 0→1；空转多 8→10；多转空 6→4；空 85→84",
+      "change": "多 0→1；空转多 8→10；多转空 6→5；空 85→83",
       "id": "pharma",
       "code": "PHARMA",
-      "score": 3.0,
+      "score": 4.0,
       "fulfilled": 1,
-      "netBias": -83,
+      "netBias": -82,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
@@ -78,7 +78,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/99，空头 84；空转多候选 10，今日转多确认 1，反向转空 4。多 0→1；空转多 8→10；多转空 6→4；空 85→84，修复进入确认，观察扩散。",
+      "thesis": "多头 1/99，空头 83；空转多候选 10，今日转多确认 1，反向转空 5。多 0→1；空转多 8→10；多转空 6→5；空 85→83，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-17",
@@ -133,8 +133,8 @@ window.MARKET_TREND_DATA = {
           "total": 99,
           "bull": 1,
           "turnBull": 10,
-          "turnBear": 4,
-          "bear": 84,
+          "turnBear": 5,
+          "bear": 83,
           "bullPct": 1.01
         }
       ]
