@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T13:46:35+08:00",
+  "generated_at": "2026-11-25T13:48:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.39,
+      "change_pct": 3.44,
       "constituents": 21,
-      "members": "退税商店 +3.39%",
+      "members": "退税商店 +3.44%",
       "rank": 1
     },
     {
@@ -27,9 +27,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "肝素概念",
       "representative": "肝素概念",
-      "change_pct": 1.56,
+      "change_pct": 1.6,
       "constituents": 13,
-      "members": "肝素概念 +1.56%",
+      "members": "肝素概念 +1.60%",
       "rank": 3
     },
     {
@@ -38,16 +38,16 @@ window.THEME_RADAR_DATA = {
       "representative": "流感",
       "change_pct": 1.5,
       "constituents": 238,
-      "members": "流感 +1.50% / 病毒防治 +0.98% / 病原体防治 +0.95%",
+      "members": "流感 +1.50% / 病毒防治 +0.97% / 病原体防治 +0.95%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 1.46,
+      "change_pct": 1.48,
       "constituents": 14,
-      "members": "长寿药 +1.46%",
+      "members": "长寿药 +1.48%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.39,
+      "avg_change_pct": 3.44,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.56,
+      "avg_change_pct": 1.6,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.46,
+      "avg_change_pct": 1.48,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
