@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:47:28+08:00",
+  "generated_at": "2026-11-25T09:48:46+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.52,
+      "change_pct": 3.11,
       "constituents": 21,
-      "members": "退税商店 +3.52%",
+      "members": "退税商店 +3.11%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 2.84,
+      "change_pct": 2.7,
       "constituents": 14,
-      "members": "长寿药 +2.84%",
+      "members": "长寿药 +2.70%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "拼多多概念",
-      "representative": "拼多多概念",
-      "change_pct": 2.41,
-      "constituents": 29,
-      "members": "拼多多概念 +2.41%",
-      "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "阿兹海默",
       "representative": "阿兹海默",
-      "change_pct": 2.25,
+      "change_pct": 2.1,
       "constituents": 22,
-      "members": "阿兹海默 +2.25%",
-      "rank": 4
+      "members": "阿兹海默 +2.10%",
+      "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "钛白粉概念",
       "representative": "钛白粉概念",
-      "change_pct": 2.24,
+      "change_pct": 2.06,
       "constituents": 12,
-      "members": "钛白粉概念 +2.24%",
+      "members": "钛白粉概念 +2.06%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "病原体防治/流感/病毒防治",
+      "representative": "流感",
+      "change_pct": 2.0,
+      "constituents": 238,
+      "members": "流感 +2.00% / 病原体防治 +1.83% / 病毒防治 +1.64%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.52,
+      "avg_change_pct": 3.11,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.84,
+      "avg_change_pct": 2.7,
       "avg_rank": 2.0,
       "latest_rank": 2,
-      "dates": "11-25"
-    },
-    {
-      "theme": "拼多多概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.41,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
       "dates": "11-25"
     },
     {
@@ -97,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.25,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.1,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-25"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.24,
+      "avg_change_pct": 2.06,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-25"
+    },
+    {
+      "theme": "病原体防治/流感/病毒防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.0,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
