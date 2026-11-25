@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:42:28+08:00",
+  "generated_at": "2026-11-25T09:44:27+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,59 +9,49 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.05,
+      "change_pct": 3.07,
       "constituents": 21,
-      "members": "退税商店 +3.05%",
+      "members": "退税商店 +3.07%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 2.9,
+      "change_pct": 2.98,
       "constituents": 14,
-      "members": "长寿药 +2.90%",
+      "members": "长寿药 +2.98%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "智能音箱",
-      "representative": "智能音箱",
-      "change_pct": 2.52,
-      "constituents": 19,
-      "members": "智能音箱 +2.52%",
-      "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "阿兹海默",
       "representative": "阿兹海默",
-      "change_pct": 2.08,
+      "change_pct": 2.28,
       "constituents": 22,
-      "members": "阿兹海默 +2.08%",
+      "members": "阿兹海默 +2.28%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "病原体防治/流感/病毒防治",
+      "representative": "流感",
+      "change_pct": 2.18,
+      "constituents": 238,
+      "members": "流感 +2.18% / 病原体防治 +2.01% / 病毒防治 +1.70%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "钛白粉概念",
       "representative": "钛白粉概念",
-      "change_pct": 2.05,
+      "change_pct": 2.16,
       "constituents": 12,
-      "members": "钛白粉概念 +2.05%",
+      "members": "钛白粉概念 +2.16%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "智能音箱",
-      "current_streak": 2,
-      "max_streak": 2,
-      "appearances": 2,
-      "avg_change_pct": 2.51,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-25、11-24"
-    },
     {
       "theme": "机器人",
       "current_streak": 0,
@@ -77,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.05,
+      "avg_change_pct": 3.07,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.9,
+      "avg_change_pct": 2.98,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -97,7 +87,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.08,
+      "avg_change_pct": 2.28,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "病原体防治/流感/病毒防治",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.18,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.05,
+      "avg_change_pct": 2.16,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
@@ -181,6 +181,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
+    },
+    {
+      "theme": "智能音箱",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.5,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-24"
     },
     {
       "theme": "高带宽内存",
