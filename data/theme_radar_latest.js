@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:52:57+08:00",
+  "generated_at": "2026-11-25T10:54:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,49 +9,59 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.78,
+      "change_pct": 4.71,
       "constituents": 21,
-      "members": "退税商店 +4.78%",
+      "members": "退税商店 +4.71%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "SPD概念",
-      "representative": "SPD概念",
-      "change_pct": 3.22,
-      "constituents": 14,
-      "members": "SPD概念 +3.22%",
-      "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 3.17,
+      "change_pct": 3.08,
       "constituents": 66,
-      "members": "医药电商 +3.17%",
+      "members": "医药电商 +3.08%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "SPD概念",
+      "representative": "SPD概念",
+      "change_pct": 3.02,
+      "constituents": 14,
+      "members": "SPD概念 +3.02%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
-      "theme": "旅游概念/旅游酒店",
-      "representative": "旅游酒店",
-      "change_pct": 2.99,
-      "constituents": 71,
-      "members": "旅游酒店 +2.99% / 旅游概念 +2.01%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.9,
+      "constituents": 18,
+      "members": "水产概念 +2.90%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.92,
+      "change_pct": 2.82,
       "constituents": 238,
-      "members": "流感 +2.92% / 病原体防治 +2.48% / 病毒防治 +2.42%",
+      "members": "流感 +2.82% / 病原体防治 +2.36% / 病毒防治 +2.32%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.85,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-25、11-20"
+    },
     {
       "theme": "机器人",
       "current_streak": 0,
@@ -67,19 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.78,
+      "avg_change_pct": 4.71,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-25"
-    },
-    {
-      "theme": "SPD概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.22,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-25"
     },
     {
@@ -87,19 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.17,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 3.08,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-25"
     },
     {
-      "theme": "旅游概念/旅游酒店",
+      "theme": "SPD概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.99,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 3.02,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-25"
     },
     {
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.92,
+      "avg_change_pct": 2.82,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
@@ -281,16 +281,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-20"
     }
   ]
 };
