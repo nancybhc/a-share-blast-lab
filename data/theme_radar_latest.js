@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:50:38+08:00",
+  "generated_at": "2026-11-25T10:51:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.91,
+      "change_pct": 4.86,
       "constituents": 21,
-      "members": "退税商店 +4.91%",
+      "members": "退税商店 +4.86%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "SPD概念",
       "representative": "SPD概念",
-      "change_pct": 3.3,
+      "change_pct": 3.27,
       "constituents": 14,
-      "members": "SPD概念 +3.30%",
+      "members": "SPD概念 +3.27%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 3.28,
+      "change_pct": 3.25,
       "constituents": 66,
-      "members": "医药电商 +3.28%",
+      "members": "医药电商 +3.25%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 3.1,
+      "change_pct": 3.03,
       "constituents": 71,
-      "members": "旅游酒店 +3.10% / 旅游概念 +2.15%",
+      "members": "旅游酒店 +3.03% / 旅游概念 +2.09%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 3.03,
+      "change_pct": 2.96,
       "constituents": 238,
-      "members": "流感 +3.03% / 病原体防治 +2.56% / 病毒防治 +2.49%",
+      "members": "流感 +2.96% / 病原体防治 +2.52% / 病毒防治 +2.46%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.91,
+      "avg_change_pct": 4.86,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.3,
+      "avg_change_pct": 3.27,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.28,
+      "avg_change_pct": 3.25,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.1,
+      "avg_change_pct": 3.03,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.03,
+      "avg_change_pct": 2.96,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
