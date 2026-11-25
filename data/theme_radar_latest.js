@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T10:48:33+08:00",
+  "generated_at": "2026-11-25T10:49:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.89,
+      "change_pct": 4.83,
       "constituents": 21,
-      "members": "退税商店 +4.89%",
+      "members": "退税商店 +4.83%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "SPD概念",
-      "representative": "SPD概念",
-      "change_pct": 3.24,
-      "constituents": 14,
-      "members": "SPD概念 +3.24%",
-      "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 3.23,
+      "change_pct": 3.25,
       "constituents": 66,
-      "members": "医药电商 +3.23%",
+      "members": "医药电商 +3.25%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "SPD概念",
+      "representative": "SPD概念",
+      "change_pct": 3.21,
+      "constituents": 14,
+      "members": "SPD概念 +3.21%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "旅游概念/旅游酒店",
       "representative": "旅游酒店",
-      "change_pct": 3.05,
+      "change_pct": 3.08,
       "constituents": 71,
-      "members": "旅游酒店 +3.05% / 旅游概念 +2.08%",
+      "members": "旅游酒店 +3.08% / 旅游概念 +2.13%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.95,
+      "change_pct": 2.97,
       "constituents": 238,
-      "members": "流感 +2.95% / 病原体防治 +2.47% / 病毒防治 +2.42%",
+      "members": "流感 +2.97% / 病原体防治 +2.48% / 病毒防治 +2.44%",
       "rank": 5
     }
   ],
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.89,
+      "avg_change_pct": 4.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-25"
-    },
-    {
-      "theme": "SPD概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.24,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-25"
     },
     {
@@ -87,7 +77,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.23,
+      "avg_change_pct": 3.25,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-25"
+    },
+    {
+      "theme": "SPD概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 3.21,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.05,
+      "avg_change_pct": 3.08,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.95,
+      "avg_change_pct": 2.97,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
