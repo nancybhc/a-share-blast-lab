@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T13:02:33+08:00",
+  "generated_at": "2026-11-25T13:03:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,19 +9,10 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 4.32,
+      "change_pct": 4.37,
       "constituents": 21,
-      "members": "退税商店 +4.32%",
+      "members": "退税商店 +4.37%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "旅游概念/旅游酒店",
-      "representative": "旅游酒店",
-      "change_pct": 2.55,
-      "constituents": 71,
-      "members": "旅游酒店 +2.55% / 旅游概念 +1.86%",
-      "rank": 2
     },
     {
       "date": "2026-11-25",
@@ -30,24 +21,33 @@ window.THEME_RADAR_DATA = {
       "change_pct": 2.52,
       "constituents": 66,
       "members": "医药电商 +2.52%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "旅游概念/旅游酒店",
+      "representative": "旅游酒店",
+      "change_pct": 2.52,
+      "constituents": 71,
+      "members": "旅游酒店 +2.52% / 旅游概念 +1.91%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.29,
+      "change_pct": 2.3,
       "constituents": 238,
-      "members": "流感 +2.29% / 病毒防治 +1.79% / 病原体防治 +1.76%",
+      "members": "流感 +2.30% / 病毒防治 +1.81% / 病原体防治 +1.80%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "中药概念",
       "representative": "中药概念",
-      "change_pct": 2.25,
+      "change_pct": 2.24,
       "constituents": 146,
-      "members": "中药概念 +2.25%",
+      "members": "中药概念 +2.24%",
       "rank": 5
     }
   ],
@@ -67,23 +67,23 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.32,
+      "avg_change_pct": 4.37,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
     },
     {
-      "theme": "旅游概念/旅游酒店",
+      "theme": "医药电商",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.55,
+      "avg_change_pct": 2.52,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
     },
     {
-      "theme": "医药电商",
+      "theme": "旅游概念/旅游酒店",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.29,
+      "avg_change_pct": 2.3,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.25,
+      "avg_change_pct": 2.24,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
