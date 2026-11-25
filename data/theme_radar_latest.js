@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:44:27+08:00",
+  "generated_at": "2026-11-25T09:45:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.07,
+      "change_pct": 2.9,
       "constituents": 21,
-      "members": "退税商店 +3.07%",
+      "members": "退税商店 +2.90%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 2.98,
+      "change_pct": 2.82,
       "constituents": 14,
-      "members": "长寿药 +2.98%",
+      "members": "长寿药 +2.82%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "阿兹海默",
       "representative": "阿兹海默",
-      "change_pct": 2.28,
+      "change_pct": 2.19,
       "constituents": 22,
-      "members": "阿兹海默 +2.28%",
+      "members": "阿兹海默 +2.19%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "旅游概念/旅游酒店",
+      "representative": "旅游酒店",
+      "change_pct": 2.15,
+      "constituents": 71,
+      "members": "旅游酒店 +2.15% / 旅游概念 +1.60%",
+      "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.18,
+      "change_pct": 2.11,
       "constituents": 238,
-      "members": "流感 +2.18% / 病原体防治 +2.01% / 病毒防治 +1.70%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-25",
-      "theme": "钛白粉概念",
-      "representative": "钛白粉概念",
-      "change_pct": 2.16,
-      "constituents": 12,
-      "members": "钛白粉概念 +2.16%",
+      "members": "流感 +2.11% / 病原体防治 +1.94% / 病毒防治 +1.69%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.07,
+      "avg_change_pct": 2.9,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.98,
+      "avg_change_pct": 2.82,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.28,
+      "avg_change_pct": 2.19,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "旅游概念/旅游酒店",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.15,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-25"
     },
     {
@@ -97,17 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.18,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-25"
-    },
-    {
-      "theme": "钛白粉概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 2.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
