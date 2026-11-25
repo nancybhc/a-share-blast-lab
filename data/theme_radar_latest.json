@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T13:28:53+08:00",
+  "generated_at": "2026-11-25T13:29:26+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-25",
       "theme": "退税商店",
       "representative": "退税商店",
-      "change_pct": 3.68,
+      "change_pct": 3.54,
       "constituents": 21,
-      "members": "退税商店 +3.68%",
+      "members": "退税商店 +3.54%",
       "rank": 1
     },
     {
       "date": "2026-11-25",
       "theme": "医药电商",
       "representative": "医药电商",
-      "change_pct": 2.13,
+      "change_pct": 1.98,
       "constituents": 66,
-      "members": "医药电商 +2.13%",
+      "members": "医药电商 +1.98%",
       "rank": 2
     },
     {
       "date": "2026-11-25",
       "theme": "肝素概念",
       "representative": "肝素概念",
-      "change_pct": 1.91,
+      "change_pct": 1.8,
       "constituents": 13,
-      "members": "肝素概念 +1.91%",
+      "members": "肝素概念 +1.80%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 1.86,
+      "change_pct": 1.74,
       "constituents": 238,
-      "members": "流感 +1.86% / 病毒防治 +1.41% / 病原体防治 +1.32%",
+      "members": "流感 +1.74% / 病毒防治 +1.27% / 病原体防治 +1.17%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "长寿药",
       "representative": "长寿药",
-      "change_pct": 1.85,
+      "change_pct": 1.73,
       "constituents": 14,
-      "members": "长寿药 +1.85%",
+      "members": "长寿药 +1.73%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.68,
+      "avg_change_pct": 3.54,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-25"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.13,
+      "avg_change_pct": 1.98,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.91,
+      "avg_change_pct": 1.8,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.86,
+      "avg_change_pct": 1.74,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.85,
+      "avg_change_pct": 1.73,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
