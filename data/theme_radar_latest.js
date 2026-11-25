@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T11:00:46+08:00",
+  "generated_at": "2026-11-25T11:02:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-25午盘",
@@ -27,41 +27,31 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-25",
       "theme": "SPD概念",
       "representative": "SPD概念",
-      "change_pct": 2.92,
+      "change_pct": 3.01,
       "constituents": 14,
-      "members": "SPD概念 +2.92%",
+      "members": "SPD概念 +3.01%",
       "rank": 3
     },
     {
       "date": "2026-11-25",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.83,
-      "constituents": 18,
-      "members": "水产概念 +2.83%",
+      "theme": "旅游概念/旅游酒店",
+      "representative": "旅游酒店",
+      "change_pct": 2.82,
+      "constituents": 71,
+      "members": "旅游酒店 +2.82% / 旅游概念 +1.91%",
       "rank": 4
     },
     {
       "date": "2026-11-25",
       "theme": "病原体防治/流感/病毒防治",
       "representative": "流感",
-      "change_pct": 2.79,
+      "change_pct": 2.78,
       "constituents": 238,
-      "members": "流感 +2.79% / 病原体防治 +2.34% / 病毒防治 +2.26%",
+      "members": "流感 +2.78% / 病原体防治 +2.32% / 病毒防治 +2.26%",
       "rank": 5
     }
   ],
   "five_day": [
-    {
-      "theme": "水产概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 0.82,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
-      "dates": "11-25、11-20"
-    },
     {
       "theme": "机器人",
       "current_streak": 0,
@@ -97,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.92,
+      "avg_change_pct": 3.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-25"
+    },
+    {
+      "theme": "旅游概念/旅游酒店",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.82,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-25"
     },
     {
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.79,
+      "avg_change_pct": 2.78,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
@@ -281,6 +281,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-19"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.2,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-20"
     }
   ]
 };
