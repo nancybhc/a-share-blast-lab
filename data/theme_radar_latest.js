@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T11:22:17+08:00",
+  "generated_at": "2026-11-26T11:23:18+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.62,
+      "change_pct": 2.58,
       "constituents": 18,
-      "members": "水产概念 +2.62%",
+      "members": "水产概念 +2.58%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.49,
+      "change_pct": 2.4,
       "constituents": 97,
-      "members": "金属铅 +2.49% / 金属镍 +2.37% / 金属铜 +2.05% / 金属钴 +1.43%",
+      "members": "金属铅 +2.40% / 金属镍 +2.29% / 金属铜 +1.91% / 金属钴 +1.29%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.32,
+      "change_pct": 2.14,
       "constituents": 51,
-      "members": "6G概念 +2.32%",
+      "members": "6G概念 +2.14%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "PCB",
-      "representative": "PCB",
-      "change_pct": 2.11,
-      "constituents": 215,
-      "members": "PCB +2.11%",
-      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 2.09,
+      "change_pct": 2.03,
       "constituents": 30,
-      "members": "资源开采概念 +2.09%",
+      "members": "资源开采概念 +2.03%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": 1.97,
+      "constituents": 215,
+      "members": "PCB +1.97%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.71,
+      "avg_change_pct": 2.67,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.71,
+      "avg_change_pct": 0.69,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.32,
+      "avg_change_pct": 2.14,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-26"
-    },
-    {
-      "theme": "PCB",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.11,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.09,
+      "avg_change_pct": 2.03,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-26"
+    },
+    {
+      "theme": "PCB",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.97,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
