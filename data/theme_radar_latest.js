@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T11:15:12+08:00",
+  "generated_at": "2026-11-26T11:16:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,37 +9,28 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.7,
+      "change_pct": 2.73,
       "constituents": 97,
-      "members": "金属铅 +2.70% / 金属镍 +2.54% / 金属铜 +2.21% / 金属钴 +1.72%",
+      "members": "金属铅 +2.73% / 金属镍 +2.49% / 金属铜 +2.20% / 金属钴 +1.70%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.48,
+      "change_pct": 2.39,
       "constituents": 18,
-      "members": "水产概念 +2.48%",
+      "members": "水产概念 +2.39%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.41,
-      "constituents": 51,
-      "members": "6G概念 +2.41%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "资源开采概念",
-      "representative": "资源开采概念",
       "change_pct": 2.26,
-      "constituents": 30,
-      "members": "资源开采概念 +2.26%",
-      "rank": 4
+      "constituents": 51,
+      "members": "6G概念 +2.26%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
@@ -48,6 +39,15 @@ window.THEME_RADAR_DATA = {
       "change_pct": 2.22,
       "constituents": 76,
       "members": "黄金概念 +2.22%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 2.22,
+      "constituents": 30,
+      "members": "资源开采概念 +2.22%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.82,
+      "avg_change_pct": 2.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.64,
+      "avg_change_pct": 0.6,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-26、11-20"
@@ -87,23 +87,23 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.41,
+      "avg_change_pct": 2.26,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "资源开采概念",
+      "theme": "黄金概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.26,
+      "avg_change_pct": 2.22,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "黄金概念",
+      "theme": "资源开采概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
