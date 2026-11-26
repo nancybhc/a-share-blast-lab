@@ -1,53 +1,53 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:55:09+08:00",
+  "generated_at": "2026-11-26T09:56:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 1.58,
-      "constituents": 18,
-      "members": "水产概念 +1.58%",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属钴",
+      "change_pct": 1.65,
+      "constituents": 97,
+      "members": "金属钴 +1.65% / 金属铅 +1.41% / 金属铜 +1.15% / 金属镍 +1.12%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属钴",
-      "change_pct": 1.46,
-      "constituents": 97,
-      "members": "金属钴 +1.46% / 金属铅 +1.33% / 金属铜 +1.11% / 金属镍 +0.97%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 1.62,
+      "constituents": 18,
+      "members": "水产概念 +1.62%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "资源开采概念",
-      "representative": "资源开采概念",
-      "change_pct": 1.4,
-      "constituents": 30,
-      "members": "资源开采概念 +1.40%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 1.31,
+      "change_pct": 1.34,
       "constituents": 215,
-      "members": "PCB +1.31%",
+      "members": "PCB +1.34%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "EDA概念",
+      "representative": "EDA概念",
+      "change_pct": 1.3,
+      "constituents": 13,
+      "members": "EDA概念 +1.30%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "被动元件概念",
-      "representative": "被动元件概念",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
       "change_pct": 1.28,
       "constituents": 30,
-      "members": "被动元件概念 +1.28%",
+      "members": "资源开采概念 +1.28%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.2,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
+      "avg_change_pct": 2.29,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.19,
-      "avg_rank": 2.5,
-      "latest_rank": 1,
+      "avg_change_pct": 0.21,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
       "dates": "11-26、11-20"
     },
     {
@@ -83,27 +83,27 @@
       "dates": "11-24、11-23"
     },
     {
-      "theme": "资源开采概念",
+      "theme": "PCB",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.4,
+      "avg_change_pct": 1.34,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "PCB",
+      "theme": "EDA概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.31,
+      "avg_change_pct": 1.3,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "被动元件概念",
+      "theme": "资源开采概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
