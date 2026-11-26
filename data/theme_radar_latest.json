@@ -1,53 +1,53 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:39:44+08:00",
+  "generated_at": "2026-11-26T10:40:49+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属铅",
+      "theme": "水产概念",
+      "representative": "水产概念",
       "change_pct": 3.42,
-      "constituents": 97,
-      "members": "金属铅 +3.42% / 金属镍 +2.89% / 金属铜 +2.89% / 金属钴 +2.65%",
+      "constituents": 18,
+      "members": "水产概念 +3.42%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 3.41,
-      "constituents": 18,
-      "members": "水产概念 +3.41%",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属铅",
+      "change_pct": 3.28,
+      "constituents": 97,
+      "members": "金属铅 +3.28% / 金属镍 +2.78% / 金属铜 +2.77% / 金属钴 +2.48%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 3.11,
+      "change_pct": 2.98,
       "constituents": 76,
-      "members": "黄金概念 +3.11%",
+      "members": "黄金概念 +2.98%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 2.8,
+      "change_pct": 2.64,
       "constituents": 215,
-      "members": "PCB +2.80%",
+      "members": "PCB +2.64%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "民爆概念",
-      "representative": "民爆概念",
-      "change_pct": 2.52,
-      "constituents": 22,
-      "members": "民爆概念 +2.52%",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 2.55,
+      "constituents": 30,
+      "members": "资源开采概念 +2.55%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.18,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 3.11,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.1,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.11,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
       "dates": "11-26、11-20"
     },
     {
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.11,
+      "avg_change_pct": 2.98,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,17 +97,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.8,
+      "avg_change_pct": 2.64,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "民爆概念",
+      "theme": "资源开采概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.52,
+      "avg_change_pct": 2.55,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
