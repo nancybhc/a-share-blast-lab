@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:59:43+08:00",
+  "generated_at": "2026-11-26T10:01:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.01,
+      "change_pct": 1.83,
       "constituents": 18,
-      "members": "水产概念 +2.01%",
+      "members": "水产概念 +1.83%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属钴",
-      "change_pct": 1.72,
+      "representative": "金属铅",
+      "change_pct": 1.68,
       "constituents": 97,
-      "members": "金属钴 +1.72% / 金属铅 +1.64% / 金属铜 +1.33% / 金属镍 +1.20%",
+      "members": "金属铅 +1.68% / 金属钴 +1.60% / 金属铜 +1.31% / 金属镍 +1.03%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "煤化工概念",
-      "representative": "煤化工概念",
-      "change_pct": 1.62,
-      "constituents": 80,
-      "members": "煤化工概念 +1.62%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "磷化工/氟化工概念",
       "representative": "磷化工",
-      "change_pct": 1.59,
+      "change_pct": 1.66,
       "constituents": 87,
-      "members": "磷化工 +1.59% / 氟化工概念 +0.72%",
-      "rank": 4
+      "members": "磷化工 +1.66% / 氟化工概念 +0.61%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.56,
+      "change_pct": 1.51,
       "constituents": 30,
-      "members": "资源开采概念 +1.56%",
+      "members": "资源开采概念 +1.51%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "煤化工概念",
+      "representative": "煤化工概念",
+      "change_pct": 1.48,
+      "constituents": 80,
+      "members": "煤化工概念 +1.48%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.33,
+      "avg_change_pct": 2.31,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.4,
+      "avg_change_pct": 0.32,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -83,23 +83,13 @@
       "dates": "11-24、11-23"
     },
     {
-      "theme": "煤化工概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.62,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-26"
-    },
-    {
       "theme": "磷化工/氟化工概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.59,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.66,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
@@ -107,7 +97,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.56,
+      "avg_change_pct": 1.51,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-26"
+    },
+    {
+      "theme": "煤化工概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.48,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
