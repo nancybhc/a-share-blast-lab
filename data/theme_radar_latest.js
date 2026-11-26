@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:54:26+08:00",
+  "generated_at": "2026-11-26T09:55:09+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.94,
+      "change_pct": 1.58,
       "constituents": 18,
-      "members": "水产概念 +1.94%",
+      "members": "水产概念 +1.58%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "资源开采概念",
-      "representative": "资源开采概念",
-      "change_pct": 1.51,
-      "constituents": 30,
-      "members": "资源开采概念 +1.51%",
-      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属钴",
-      "change_pct": 1.43,
+      "change_pct": 1.46,
       "constituents": 97,
-      "members": "金属钴 +1.43% / 金属铅 +1.34% / 金属铜 +1.15% / 金属镍 +1.07%",
-      "rank": 3
+      "members": "金属钴 +1.46% / 金属铅 +1.33% / 金属铜 +1.11% / 金属镍 +0.97%",
+      "rank": 2
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 1.42,
-      "constituents": 51,
-      "members": "6G概念 +1.42%",
-      "rank": 4
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 1.4,
+      "constituents": 30,
+      "members": "资源开采概念 +1.40%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 1.38,
+      "change_pct": 1.31,
       "constituents": 215,
-      "members": "PCB +1.38%",
+      "members": "PCB +1.31%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "被动元件概念",
+      "representative": "被动元件概念",
+      "change_pct": 1.28,
+      "constituents": 30,
+      "members": "被动元件概念 +1.28%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.19,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.2,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
       "dates": "11-26、11-24"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.37,
+      "avg_change_pct": 0.19,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.51,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-26"
-    },
-    {
-      "theme": "6G概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.42,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.4,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.38,
+      "avg_change_pct": 1.31,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-26"
+    },
+    {
+      "theme": "被动元件概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.28,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
