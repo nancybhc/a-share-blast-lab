@@ -1,20 +1,20 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 14:07",
-  "reportGeneratedAt": "2026-11-26 14:07",
+  "generatedAt": "2026-11-26 14:08",
+  "reportGeneratedAt": "2026-11-26 14:08",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-26.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+16 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→8 只、空 264→280 只、空转多 2→26、多转空 41→16｜PCB 最明显：多 1→4 只、空 64→46 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+16 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→7 只、空 264→280 只、空转多 2→26、多转空 41→17｜PCB 最明显：多 1→4 只、空 64→46 只",
   "overview": {
     "groups": 22,
     "uniqueStocks": 945,
     "positiveGroups": 12,
     "negativeGroups": 5,
     "positiveTransitions": 39,
-    "negativeTransitions": 31
+    "negativeTransitions": 32
   },
   "phaseLegend": [
     {
@@ -1673,24 +1673,24 @@ window.MARKET_TREND_DATA = {
       "name": "半导体设备",
       "date": "2026-11-26",
       "total": 47,
-      "bull": 2,
+      "bull": 1,
       "turnBull": 0,
-      "turnBear": 4,
+      "turnBear": 5,
       "bear": 41,
       "newBull": 0,
       "confirm": 0,
       "direct": 0,
       "positive": 0,
-      "negative": 2,
-      "bullPct": 4.26,
+      "negative": 3,
+      "bullPct": 2.13,
       "state": "转空扩散",
       "action": "先处理跌破 MA5 / MA10 的标的",
-      "change": "多 1→2；空转多 0→0；多转空 7→4；空 39→41",
+      "change": "多 1→1；空转多 0→0；多转空 7→5；空 39→41",
       "id": "equipment",
       "code": "SEMI CAP",
-      "score": -4.3,
+      "score": -6.4,
       "fulfilled": 0,
-      "netBias": -39,
+      "netBias": -40,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1698,7 +1698,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/47，空头 41；空转多候选 0，今日转多确认 0，反向转空 4。多 1→2；空转多 0→0；多转空 7→4；空 39→41，先处理跌破 MA5 / MA10 的标的。",
+      "thesis": "多头 1/47，空头 41；空转多候选 0，今日转多确认 0，反向转空 5。多 1→1；空转多 0→0；多转空 7→5；空 39→41，先处理跌破 MA5 / MA10 的标的。",
       "history": [
         {
           "date": "2026-11-18",
@@ -1751,11 +1751,11 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-26",
           "total": 47,
-          "bull": 2,
+          "bull": 1,
           "turnBull": 0,
-          "turnBear": 4,
+          "turnBear": 5,
           "bear": 41,
-          "bullPct": 4.26
+          "bullPct": 2.13
         }
       ]
     },
