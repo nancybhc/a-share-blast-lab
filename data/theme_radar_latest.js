@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:39:10+08:00",
+  "generated_at": "2026-11-26T13:39:43+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.59,
+      "change_pct": 2.37,
       "constituents": 26,
-      "members": "F5G概念 +2.59%",
+      "members": "F5G概念 +2.37%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属镍",
+      "change_pct": 2.09,
+      "constituents": 97,
+      "members": "金属镍 +2.09% / 金属铅 +2.07% / 金属铜 +1.56% / 金属钴 +1.04%",
+      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.27,
+      "change_pct": 2.08,
       "constituents": 51,
-      "members": "6G概念 +2.27%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属铅",
-      "change_pct": 2.15,
-      "constituents": 97,
-      "members": "金属铅 +2.15% / 金属镍 +2.15% / 金属铜 +1.67% / 金属钴 +1.09%",
+      "members": "6G概念 +2.08%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.99,
+      "change_pct": 1.93,
       "constituents": 18,
-      "members": "水产概念 +1.99%",
+      "members": "水产概念 +1.93%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "铜缆高速连接",
-      "representative": "铜缆高速连接",
-      "change_pct": 1.88,
-      "constituents": 41,
-      "members": "铜缆高速连接 +1.88%",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 1.76,
+      "constituents": 30,
+      "members": "资源开采概念 +1.76%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.54,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.51,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
       "dates": "11-26、11-24"
     },
     {
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.4,
+      "avg_change_pct": 0.36,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26、11-20"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.59,
+      "avg_change_pct": 2.37,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.27,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.08,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "铜缆高速连接",
+      "theme": "资源开采概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.88,
+      "avg_change_pct": 1.76,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
