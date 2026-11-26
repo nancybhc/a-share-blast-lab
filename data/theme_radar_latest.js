@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T11:01:58+08:00",
+  "generated_at": "2026-11-26T11:03:29+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.98,
+      "change_pct": 2.92,
       "constituents": 97,
-      "members": "金属铅 +2.98% / 金属镍 +2.63% / 金属铜 +2.36% / 金属钴 +1.78%",
+      "members": "金属铅 +2.92% / 金属镍 +2.68% / 金属铜 +2.34% / 金属钴 +1.79%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.73,
+      "change_pct": 2.8,
       "constituents": 51,
-      "members": "6G概念 +2.73%",
+      "members": "6G概念 +2.80%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.63,
+      "change_pct": 2.59,
       "constituents": 18,
-      "members": "水产概念 +2.63%",
+      "members": "水产概念 +2.59%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 2.54,
+      "change_pct": 2.53,
       "constituents": 434,
-      "members": "空间站概念 +2.54% / 卫星互联网 +1.85% / 商业航天 +1.35% / 卫星导航 +1.09% / 航天航空 +0.55%",
+      "members": "空间站概念 +2.53% / 卫星互联网 +1.90% / 商业航天 +1.37% / 卫星导航 +1.11% / 航天航空 +0.61%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 2.5,
+      "change_pct": 2.45,
       "constituents": 76,
-      "members": "黄金概念 +2.50%",
+      "members": "黄金概念 +2.45%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.96,
+      "avg_change_pct": 2.93,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.71,
+      "avg_change_pct": 0.69,
       "avg_rank": 3.5,
       "latest_rank": 3,
       "dates": "11-26、11-20"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.73,
+      "avg_change_pct": 2.8,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.5,
+      "avg_change_pct": 2.45,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
