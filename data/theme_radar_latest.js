@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:12:46+08:00",
+  "generated_at": "2026-11-26T13:13:28+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属镍",
-      "change_pct": 2.46,
+      "change_pct": 2.44,
       "constituents": 97,
-      "members": "金属镍 +2.46% / 金属铅 +2.26% / 金属铜 +1.77% / 金属钴 +1.34%",
+      "members": "金属镍 +2.44% / 金属铅 +2.25% / 金属铜 +1.77% / 金属钴 +1.37%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.15,
+      "change_pct": 2.26,
       "constituents": 51,
-      "members": "6G概念 +2.15%",
+      "members": "6G概念 +2.26%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.08,
+      "change_pct": 2.1,
       "constituents": 18,
-      "members": "水产概念 +2.08%",
+      "members": "水产概念 +2.10%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 1.98,
+      "change_pct": 2.03,
       "constituents": 215,
-      "members": "PCB +1.98%",
+      "members": "PCB +2.03%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 1.96,
-      "constituents": 434,
-      "members": "空间站概念 +1.96% / 卫星互联网 +1.17% / 商业航天 +0.91% / 卫星导航 +0.28% / 航天航空 +0.08%",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 2.02,
+      "constituents": 30,
+      "members": "资源开采概念 +2.02%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.7,
+      "avg_change_pct": 2.69,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -67,20 +67,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.44,
+      "avg_change_pct": 0.45,
       "avg_rank": 3.5,
       "latest_rank": 3,
       "dates": "11-26、11-20"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.05,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-26、11-24"
     },
     {
       "theme": "机器人",
@@ -97,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 2.26,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,9 +97,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.98,
+      "avg_change_pct": 2.03,
       "avg_rank": 4.0,
       "latest_rank": 4,
+      "dates": "11-26"
+    },
+    {
+      "theme": "资源开采概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.02,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-26"
     },
     {
@@ -241,6 +241,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.15,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-24"
     },
     {
       "theme": "独家药品/特色药",
