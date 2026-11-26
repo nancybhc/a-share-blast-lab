@@ -1,7 +1,7 @@
 {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 14:31",
-  "reportGeneratedAt": "2026-11-26 14:31",
+  "generatedAt": "2026-11-26 14:33",
+  "reportGeneratedAt": "2026-11-26 14:33",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
@@ -14,7 +14,7 @@
     "positiveGroups": 12,
     "negativeGroups": 5,
     "positiveTransitions": 44,
-    "negativeTransitions": 28
+    "negativeTransitions": 30
   },
   "phaseLegend": [
     {
@@ -680,96 +680,6 @@
       ]
     },
     {
-      "name": "药",
-      "date": "2026-11-26",
-      "total": 99,
-      "bull": 3,
-      "turnBull": 12,
-      "turnBear": 3,
-      "bear": 81,
-      "newBull": 6,
-      "confirm": 2,
-      "direct": 0,
-      "positive": 8,
-      "negative": 5,
-      "bullPct": 3.03,
-      "state": "转多确认",
-      "action": "修复进入确认，观察扩散",
-      "change": "多 1→3；空转多 11→12；多转空 5→3；空 82→81",
-      "id": "pharma",
-      "code": "PHARMA",
-      "score": 5.1,
-      "fulfilled": 2,
-      "netBias": -78,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "12",
-      "setupCaption": "空转多候选",
-      "confirmValue": "2",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/99，空头 81；空转多候选 12，今日转多确认 2，反向转空 3。多 1→3；空转多 11→12；多转空 5→3；空 82→81，修复进入确认，观察扩散。",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "bull": 6,
-          "turnBull": 3,
-          "turnBear": 5,
-          "bear": 85,
-          "bullPct": 6.06
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 5,
-          "turnBull": 4,
-          "turnBear": 2,
-          "bear": 88,
-          "bullPct": 5.05
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 2,
-          "turnBull": 4,
-          "turnBear": 2,
-          "bear": 91,
-          "bullPct": 2.02
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 2,
-          "turnBull": 7,
-          "turnBear": 5,
-          "bear": 85,
-          "bullPct": 2.02
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 0,
-          "turnBull": 8,
-          "turnBear": 6,
-          "bear": 85,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 1,
-          "turnBull": 11,
-          "turnBear": 5,
-          "bear": 82,
-          "bullPct": 1.01
-        },
-        {
-          "date": "2026-11-26",
-          "total": 99,
-          "bull": 3,
-          "turnBull": 12,
-          "turnBear": 3,
-          "bear": 81,
-          "bullPct": 3.03
-        }
-      ]
-    },
-    {
       "name": "CPO",
       "date": "2026-11-26",
       "total": 47,
@@ -856,6 +766,96 @@
           "turnBear": 0,
           "bear": 37,
           "bullPct": 0.0
+        }
+      ]
+    },
+    {
+      "name": "药",
+      "date": "2026-11-26",
+      "total": 99,
+      "bull": 3,
+      "turnBull": 11,
+      "turnBear": 3,
+      "bear": 82,
+      "newBull": 6,
+      "confirm": 2,
+      "direct": 0,
+      "positive": 8,
+      "negative": 6,
+      "bullPct": 3.03,
+      "state": "转多确认",
+      "action": "修复进入确认，观察扩散",
+      "change": "多 1→3；空转多 11→11；多转空 5→3；空 82→82",
+      "id": "pharma",
+      "code": "PHARMA",
+      "score": 4.0,
+      "fulfilled": 2,
+      "netBias": -79,
+      "phase": "温和修复",
+      "badge": "边际改善",
+      "tone": "amber",
+      "setup": "11",
+      "setupCaption": "空转多候选",
+      "confirmValue": "2",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 3/99，空头 82；空转多候选 11，今日转多确认 2，反向转空 3。多 1→3；空转多 11→11；多转空 5→3；空 82→82，修复进入确认，观察扩散。",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "bull": 6,
+          "turnBull": 3,
+          "turnBear": 5,
+          "bear": 85,
+          "bullPct": 6.06
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 5,
+          "turnBull": 4,
+          "turnBear": 2,
+          "bear": 88,
+          "bullPct": 5.05
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 2,
+          "turnBull": 4,
+          "turnBear": 2,
+          "bear": 91,
+          "bullPct": 2.02
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 2,
+          "turnBull": 7,
+          "turnBear": 5,
+          "bear": 85,
+          "bullPct": 2.02
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 0,
+          "turnBull": 8,
+          "turnBear": 6,
+          "bear": 85,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 1,
+          "turnBull": 11,
+          "turnBear": 5,
+          "bear": 82,
+          "bullPct": 1.01
+        },
+        {
+          "date": "2026-11-26",
+          "total": 99,
+          "bull": 3,
+          "turnBull": 11,
+          "turnBear": 3,
+          "bear": 82,
+          "bullPct": 3.03
         }
       ]
     },
@@ -1855,22 +1855,22 @@
       "total": 60,
       "bull": 0,
       "turnBull": 1,
-      "turnBear": 3,
-      "bear": 56,
+      "turnBear": 2,
+      "bear": 57,
       "newBull": 1,
       "confirm": 0,
       "direct": 0,
       "positive": 1,
-      "negative": 5,
+      "negative": 6,
       "bullPct": 0.0,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→0；空转多 0→1；多转空 6→3；空 53→56",
+      "change": "多 1→0；空转多 0→1；多转空 6→2；空 53→57",
       "id": "fintech",
       "code": "FINTECH",
-      "score": -6.7,
+      "score": -8.3,
       "fulfilled": 0,
-      "netBias": -56,
+      "netBias": -57,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1878,7 +1878,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/60，空头 56；空转多候选 1，今日转多确认 0，反向转空 3。多 1→0；空转多 0→1；多转空 6→3；空 53→56，候选回升，等待 5破10 推进。",
+      "thesis": "多头 0/60，空头 57；空转多候选 1，今日转多确认 0，反向转空 2。多 1→0；空转多 0→1；多转空 6→2；空 53→57，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-18",
@@ -1933,8 +1933,8 @@
           "total": 60,
           "bull": 0,
           "turnBull": 1,
-          "turnBear": 3,
-          "bear": 56,
+          "turnBear": 2,
+          "bear": 57,
           "bullPct": 0.0
         }
       ]
