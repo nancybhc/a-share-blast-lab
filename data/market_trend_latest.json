@@ -1,19 +1,19 @@
 {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 11:07",
-  "reportGeneratedAt": "2026-11-26 11:07",
+  "generatedAt": "2026-11-26 11:08",
+  "reportGeneratedAt": "2026-11-26 11:08",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-26.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+10 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→8 只、空 264→274 只、空转多 2→35、多转空 41→13｜PCB 最明显：多 1→4 只、空 64→44 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+9 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→8 只、空 264→273 只、空转多 2→36、多转空 41→13｜PCB 最明显：多 1→4 只、空 64→44 只",
   "overview": {
     "groups": 22,
     "uniqueStocks": 945,
     "positiveGroups": 13,
-    "negativeGroups": 4,
-    "positiveTransitions": 66,
+    "negativeGroups": 5,
+    "positiveTransitions": 67,
     "negativeTransitions": 22
   },
   "phaseLegend": [
@@ -324,31 +324,31 @@
       "date": "2026-11-26",
       "total": 58,
       "bull": 4,
-      "turnBull": 23,
+      "turnBull": 24,
       "turnBear": 2,
-      "bear": 29,
-      "newBull": 6,
+      "bear": 28,
+      "newBull": 7,
       "confirm": 1,
       "direct": 0,
-      "positive": 7,
+      "positive": 8,
       "negative": 0,
       "bullPct": 6.9,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 3→4；空转多 20→23；多转空 0→2；空 35→29",
+      "change": "多 3→4；空转多 20→24；多转空 0→2；空 35→28",
       "id": "robot",
       "code": "ROBOTICS",
-      "score": 13.8,
+      "score": 15.5,
       "fulfilled": 1,
-      "netBias": -25,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "23",
+      "netBias": -24,
+      "phase": "转多兑现",
+      "badge": "扩散确认",
+      "tone": "lime",
+      "setup": "24",
       "setupCaption": "空转多候选",
       "confirmValue": "1",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 4/58，空头 29；空转多候选 23，今日转多确认 1，反向转空 2。多 3→4；空转多 20→23；多转空 0→2；空 35→29，修复进入确认，观察扩散。",
+      "thesis": "多头 4/58，空头 28；空转多候选 24，今日转多确认 1，反向转空 2。多 3→4；空转多 20→24；多转空 0→2；空 35→28，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-18",
@@ -402,9 +402,9 @@
           "date": "2026-11-26",
           "total": 58,
           "bull": 4,
-          "turnBull": 23,
+          "turnBull": 24,
           "turnBear": 2,
-          "bear": 29,
+          "bear": 28,
           "bullPct": 6.9
         }
       ]
@@ -770,6 +770,96 @@
       ]
     },
     {
+      "name": "CPO",
+      "date": "2026-11-26",
+      "total": 47,
+      "bull": 0,
+      "turnBull": 12,
+      "turnBear": 0,
+      "bear": 35,
+      "newBull": 5,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 5,
+      "negative": 1,
+      "bullPct": 0.0,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 0→0；空转多 8→12；多转空 0→0；空 39→35",
+      "id": "cpo",
+      "code": "CPO",
+      "score": 8.5,
+      "fulfilled": 0,
+      "netBias": -35,
+      "phase": "温和修复",
+      "badge": "边际改善",
+      "tone": "amber",
+      "setup": "12",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/47，空头 35；空转多候选 12，今日转多确认 0，反向转空 0。多 0→0；空转多 8→12；多转空 0→0；空 39→35，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 5,
+          "bear": 42,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 46,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 46,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 0,
+          "turnBull": 9,
+          "turnBear": 1,
+          "bear": 37,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 0,
+          "turnBull": 17,
+          "turnBear": 0,
+          "bear": 30,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 0,
+          "turnBull": 8,
+          "turnBear": 0,
+          "bear": 39,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "total": 47,
+          "bull": 0,
+          "turnBull": 12,
+          "turnBear": 0,
+          "bear": 35,
+          "bullPct": 0.0
+        }
+      ]
+    },
+    {
       "name": "药",
       "date": "2026-11-26",
       "total": 99,
@@ -856,96 +946,6 @@
           "turnBear": 3,
           "bear": 79,
           "bullPct": 3.03
-        }
-      ]
-    },
-    {
-      "name": "CPO",
-      "date": "2026-11-26",
-      "total": 47,
-      "bull": 0,
-      "turnBull": 11,
-      "turnBear": 0,
-      "bear": 36,
-      "newBull": 4,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 4,
-      "negative": 1,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 8→11；多转空 0→0；空 39→36",
-      "id": "cpo",
-      "code": "CPO",
-      "score": 6.4,
-      "fulfilled": 0,
-      "netBias": -36,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "11",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/47，空头 36；空转多候选 11，今日转多确认 0，反向转空 0。多 0→0；空转多 8→11；多转空 0→0；空 39→36，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 5,
-          "bear": 42,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 46,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 46,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 0,
-          "turnBull": 9,
-          "turnBear": 1,
-          "bear": 37,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 0,
-          "turnBull": 17,
-          "turnBear": 0,
-          "bear": 30,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 0,
-          "turnBull": 8,
-          "turnBear": 0,
-          "bear": 39,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-26",
-          "total": 47,
-          "bull": 0,
-          "turnBull": 11,
-          "turnBear": 0,
-          "bear": 36,
-          "bullPct": 0.0
         }
       ]
     },
@@ -1400,96 +1400,6 @@
       ]
     },
     {
-      "name": "储能",
-      "date": "2026-11-26",
-      "total": 9,
-      "bull": 0,
-      "turnBull": 1,
-      "turnBear": 0,
-      "bear": 8,
-      "newBull": 1,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 1,
-      "negative": 1,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 0→1；多转空 1→0；空 8→8",
-      "id": "energy-storage",
-      "code": "ENERGY STORAGE",
-      "score": 0.0,
-      "fulfilled": 0,
-      "netBias": -8,
-      "phase": "结构分化",
-      "badge": "临界观察",
-      "tone": "amber",
-      "setup": "1",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/9，空头 8；空转多候选 1，今日转多确认 0，反向转空 0。多 0→0；空转多 0→1；多转空 1→0；空 8→8，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 1,
-          "bear": 7,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 8,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-26",
-          "total": 9,
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 8,
-          "bullPct": 0.0
-        }
-      ]
-    },
-    {
       "name": "固态锂电",
       "date": "2026-11-26",
       "total": 55,
@@ -1936,6 +1846,96 @@
           "turnBear": 4,
           "bear": 37,
           "bullPct": 2.22
+        }
+      ]
+    },
+    {
+      "name": "储能",
+      "date": "2026-11-26",
+      "total": 9,
+      "bull": 0,
+      "turnBull": 0,
+      "turnBear": 0,
+      "bear": 9,
+      "newBull": 0,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 0,
+      "negative": 1,
+      "bullPct": 0.0,
+      "state": "转空扩散",
+      "action": "先处理跌破 MA5 / MA10 的标的",
+      "change": "多 0→0；空转多 0→0；多转空 1→0；空 8→9",
+      "id": "energy-storage",
+      "code": "ENERGY STORAGE",
+      "score": -11.1,
+      "fulfilled": 0,
+      "netBias": -9,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "0",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/9，空头 9；空转多候选 0，今日转多确认 0，反向转空 0。多 0→0；空转多 0→0；多转空 1→0；空 8→9，先处理跌破 MA5 / MA10 的标的。",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 1,
+          "bear": 7,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 8,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "total": 9,
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 9,
+          "bullPct": 0.0
         }
       ]
     },
