@@ -1,20 +1,20 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 14:40",
-  "reportGeneratedAt": "2026-11-26 14:40",
+  "generatedAt": "2026-11-26 14:41",
+  "reportGeneratedAt": "2026-11-26 14:41",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-26.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+14 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→7 只、空 264→278 只、空转多 2→28、多转空 41→17｜PCB 最明显：多 1→4 只、空 64→46 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+15 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→7 只、空 264→279 只、空转多 2→28、多转空 41→16｜PCB 最明显：多 1→4 只、空 64→46 只",
   "overview": {
     "groups": 22,
     "uniqueStocks": 945,
     "positiveGroups": 11,
     "negativeGroups": 5,
     "positiveTransitions": 41,
-    "negativeTransitions": 31
+    "negativeTransitions": 32
   },
   "phaseLegend": [
     {
@@ -1855,22 +1855,22 @@ window.MARKET_TREND_DATA = {
       "total": 45,
       "bull": 0,
       "turnBull": 3,
-      "turnBear": 5,
-      "bear": 37,
+      "turnBear": 4,
+      "bear": 38,
       "newBull": 1,
       "confirm": 0,
       "direct": 0,
       "positive": 1,
-      "negative": 5,
+      "negative": 6,
       "bullPct": 0.0,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 2→0；空转多 1→3；多转空 7→5；空 35→37",
+      "change": "多 2→0；空转多 1→3；多转空 7→4；空 35→38",
       "id": "semiconductor",
       "code": "SEMICONDUCTOR",
-      "score": -8.9,
+      "score": -11.1,
       "fulfilled": 0,
-      "netBias": -37,
+      "netBias": -38,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1878,7 +1878,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/45，空头 37；空转多候选 3，今日转多确认 0，反向转空 5。多 2→0；空转多 1→3；多转空 7→5；空 35→37，候选回升，等待 5破10 推进。",
+      "thesis": "多头 0/45，空头 38；空转多候选 3，今日转多确认 0，反向转空 4。多 2→0；空转多 1→3；多转空 7→4；空 35→38，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-18",
@@ -1933,8 +1933,8 @@ window.MARKET_TREND_DATA = {
           "total": 45,
           "bull": 0,
           "turnBull": 3,
-          "turnBear": 5,
-          "bear": 37,
+          "turnBear": 4,
+          "bear": 38,
           "bullPct": 0.0
         }
       ]
