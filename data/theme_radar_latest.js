@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:45:22+08:00",
+  "generated_at": "2026-11-26T09:46:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属钴",
-      "change_pct": 1.74,
-      "constituents": 97,
-      "members": "金属钴 +1.74% / 金属镍 +1.07% / 金属铅 +0.95% / 金属铜 +0.83%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 1.88,
+      "constituents": 18,
+      "members": "水产概念 +1.88%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 1.71,
-      "constituents": 18,
-      "members": "水产概念 +1.71%",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属钴",
+      "change_pct": 1.82,
+      "constituents": 97,
+      "members": "金属钴 +1.82% / 金属镍 +0.89% / 金属铅 +0.78% / 金属铜 +0.71%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.39,
+      "change_pct": 1.24,
       "constituents": 30,
-      "members": "资源开采概念 +1.39%",
+      "members": "资源开采概念 +1.24%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "煤化工概念",
       "representative": "煤化工概念",
-      "change_pct": 1.1,
+      "change_pct": 0.96,
       "constituents": 80,
-      "members": "煤化工概念 +1.10%",
+      "members": "煤化工概念 +0.96%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "船舶制造",
       "representative": "船舶制造",
-      "change_pct": 0.94,
+      "change_pct": 0.86,
       "constituents": 17,
-      "members": "船舶制造 +0.94%",
+      "members": "船舶制造 +0.86%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.34,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.38,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.26,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.34,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
       "dates": "11-26、11-20"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.39,
+      "avg_change_pct": 1.24,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.1,
+      "avg_change_pct": 0.96,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.94,
+      "avg_change_pct": 0.86,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
