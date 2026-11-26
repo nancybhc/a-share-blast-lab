@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:31:38+08:00",
+  "generated_at": "2026-11-26T13:32:39+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -18,36 +18,36 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.55,
+      "change_pct": 2.46,
       "constituents": 51,
-      "members": "6G概念 +2.55%",
+      "members": "6G概念 +2.46%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属镍",
-      "change_pct": 2.32,
+      "change_pct": 2.31,
       "constituents": 97,
-      "members": "金属镍 +2.32% / 金属铅 +2.10% / 金属铜 +1.68% / 金属钴 +1.18%",
+      "members": "金属镍 +2.31% / 金属铅 +2.16% / 金属铜 +1.67% / 金属钴 +1.14%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "铜缆高速连接",
       "representative": "铜缆高速连接",
-      "change_pct": 2.23,
+      "change_pct": 2.08,
       "constituents": 41,
-      "members": "铜缆高速连接 +2.23%",
+      "members": "铜缆高速连接 +2.08%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.11,
+      "change_pct": 1.98,
       "constituents": 18,
-      "members": "水产概念 +2.11%",
+      "members": "水产概念 +1.98%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.63,
+      "avg_change_pct": 2.62,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.45,
+      "avg_change_pct": 0.39,
       "avg_rank": 4.5,
       "latest_rank": 5,
       "dates": "11-26、11-20"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.55,
+      "avg_change_pct": 2.46,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.23,
+      "avg_change_pct": 2.08,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
