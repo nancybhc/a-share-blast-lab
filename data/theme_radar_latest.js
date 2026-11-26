@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T14:21:24+08:00",
+  "generated_at": "2026-11-26T14:22:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,75 +9,75 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 0.89,
+      "change_pct": 0.99,
       "constituents": 18,
-      "members": "水产概念 +0.89%",
+      "members": "水产概念 +0.99%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 0.88,
+      "change_pct": 0.9,
       "constituents": 30,
-      "members": "资源开采概念 +0.88%",
+      "members": "资源开采概念 +0.90%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "煤化工概念",
       "representative": "煤化工概念",
-      "change_pct": 0.71,
+      "change_pct": 0.63,
       "constituents": 80,
-      "members": "煤化工概念 +0.71%",
+      "members": "煤化工概念 +0.63%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 0.35,
+      "change_pct": 0.59,
       "constituents": 26,
-      "members": "F5G概念 +0.35%",
+      "members": "F5G概念 +0.59%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 0.35,
+      "change_pct": 0.54,
       "constituents": 97,
-      "members": "金属铅 +0.35% / 金属镍 +0.33% / 金属铜 +0.07% / 金属钴 -0.32%",
+      "members": "金属铅 +0.54% / 金属镍 +0.49% / 金属铜 +0.05% / 金属钴 -0.19%",
       "rank": 5
     }
   ],
   "five_day": [
     {
-      "theme": "水产概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": -0.15,
-      "avg_rank": 2.5,
-      "latest_rank": 1,
-      "dates": "11-26、11-20"
-    },
-    {
       "theme": "金属铜/金属铅/金属镍",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.65,
+      "avg_change_pct": 1.74,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-26、11-24"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": -0.1,
+      "avg_rank": 3.0,
+      "latest_rank": 1,
+      "dates": "11-26、11-20"
     },
     {
       "theme": "机器人",
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.62,
+      "avg_change_pct": 4.49,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.88,
+      "avg_change_pct": 0.9,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.71,
+      "avg_change_pct": 0.63,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.35,
+      "avg_change_pct": 0.59,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.51,
+      "avg_change_pct": 7.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -137,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.11,
+      "avg_change_pct": -0.08,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -177,7 +177,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -0.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -197,7 +197,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.07,
+      "avg_change_pct": -1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -213,11 +213,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "无线耳机/无线充电",
+      "theme": "商业航天",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 2.15,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
@@ -227,27 +227,37 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.61,
+      "avg_change_pct": 0.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "玻璃基板/3D玻璃",
+      "theme": "转基因",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": -1.1,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
     },
     {
-      "theme": "商业航天",
+      "theme": "无线耳机/无线充电",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 2.09,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
@@ -261,16 +271,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
-    },
-    {
-      "theme": "托育服务",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-20"
     }
   ]
 };
