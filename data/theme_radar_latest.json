@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:50:22+08:00",
+  "generated_at": "2026-11-26T10:51:57+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 3.08,
+      "change_pct": 3.04,
       "constituents": 97,
-      "members": "金属铅 +3.08% / 金属镍 +2.53% / 金属铜 +2.51% / 金属钴 +1.95%",
+      "members": "金属铅 +3.04% / 金属镍 +2.53% / 金属铜 +2.44% / 金属钴 +1.85%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.9,
+      "change_pct": 2.86,
       "constituents": 51,
-      "members": "6G概念 +2.90%",
+      "members": "6G概念 +2.86%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.86,
+      "change_pct": 2.79,
       "constituents": 18,
-      "members": "水产概念 +2.86%",
+      "members": "水产概念 +2.79%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 2.81,
+      "change_pct": 2.7,
       "constituents": 434,
-      "members": "空间站概念 +2.81% / 卫星互联网 +2.03% / 商业航天 +1.60% / 卫星导航 +1.22% / 航天航空 +0.87%",
+      "members": "空间站概念 +2.70% / 卫星互联网 +1.97% / 商业航天 +1.53% / 卫星导航 +1.14% / 航天航空 +0.78%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 2.68,
+      "change_pct": 2.6,
       "constituents": 76,
-      "members": "黄金概念 +2.68%",
+      "members": "黄金概念 +2.60%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.01,
+      "avg_change_pct": 2.99,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.83,
+      "avg_change_pct": 0.8,
       "avg_rank": 3.5,
       "latest_rank": 3,
       "dates": "11-26、11-20"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.48,
+      "avg_change_pct": 2.42,
       "avg_rank": 4.5,
       "latest_rank": 4,
       "dates": "11-26、11-24"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.9,
+      "avg_change_pct": 2.86,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
+      "avg_change_pct": 2.6,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
