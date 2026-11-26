@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:48:23+08:00",
+  "generated_at": "2026-11-26T10:49:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,9 +9,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 3.56,
+      "change_pct": 3.46,
       "constituents": 97,
-      "members": "金属铅 +3.56% / 金属铜 +2.91% / 金属镍 +2.84% / 金属钴 +2.40%",
+      "members": "金属铅 +3.46% / 金属铜 +2.84% / 金属镍 +2.79% / 金属钴 +2.38%",
       "rank": 1
     },
     {
@@ -25,29 +25,29 @@ window.THEME_RADAR_DATA = {
     },
     {
       "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 3.06,
+      "constituents": 434,
+      "members": "空间站概念 +3.06% / 卫星互联网 +2.30% / 商业航天 +1.83% / 卫星导航 +1.47% / 航天航空 +1.07%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 3.12,
+      "change_pct": 3.04,
       "constituents": 76,
-      "members": "黄金概念 +3.12%",
-      "rank": 3
+      "members": "黄金概念 +3.04%",
+      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 3.03,
+      "change_pct": 3.04,
       "constituents": 18,
-      "members": "水产概念 +3.03%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 2.99,
-      "constituents": 434,
-      "members": "空间站概念 +2.99% / 卫星互联网 +2.31% / 商业航天 +1.83% / 卫星导航 +1.44% / 航天航空 +1.08%",
+      "members": "水产概念 +3.04%",
       "rank": 5
     }
   ],
@@ -57,9 +57,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.25,
+      "avg_change_pct": 3.2,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-26、11-24"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.6,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-26、11-24"
     },
     {
@@ -67,20 +77,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.91,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-26、11-20"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.57,
-      "avg_rank": 5.0,
+      "avg_change_pct": 0.92,
+      "avg_rank": 4.5,
       "latest_rank": 5,
-      "dates": "11-26、11-24"
+      "dates": "11-26、11-20"
     },
     {
       "theme": "机器人",
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.12,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 3.04,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
