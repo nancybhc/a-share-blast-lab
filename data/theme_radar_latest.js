@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:20:34+08:00",
+  "generated_at": "2026-11-26T13:22:52+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,57 +9,67 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.56,
+      "change_pct": 2.93,
       "constituents": 51,
-      "members": "6G概念 +3.56%",
+      "members": "6G概念 +2.93%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 3.55,
+      "change_pct": 2.91,
       "constituents": 26,
-      "members": "F5G概念 +3.55%",
+      "members": "F5G概念 +2.91%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属镍",
+      "change_pct": 2.67,
+      "constituents": 97,
+      "members": "金属镍 +2.67% / 金属铅 +2.41% / 金属铜 +2.02% / 金属钴 +1.57%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "铜缆高速连接",
       "representative": "铜缆高速连接",
-      "change_pct": 3.34,
+      "change_pct": 2.63,
       "constituents": 41,
-      "members": "铜缆高速连接 +3.34%",
-      "rank": 3
+      "members": "铜缆高速连接 +2.63%",
+      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 3.21,
+      "change_pct": 2.56,
       "constituents": 434,
-      "members": "空间站概念 +3.21% / 卫星互联网 +2.36% / 商业航天 +2.01% / 卫星导航 +1.52% / 航天航空 +1.15%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 3.08,
-      "constituents": 10,
-      "members": "纳米银 +3.08%",
+      "members": "空间站概念 +2.56% / 卫星互联网 +1.75% / 商业航天 +1.43% / 卫星导航 +0.94% / 航天航空 +0.56%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "金属铜/金属铅/金属镍",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.8,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
+      "dates": "11-26、11-24"
+    },
+    {
       "theme": "商业航天",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.68,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 2.35,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-26、11-24"
     },
     {
@@ -77,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.56,
+      "avg_change_pct": 2.93,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.55,
+      "avg_change_pct": 2.91,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -97,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.34,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-26"
-    },
-    {
-      "theme": "纳米银",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.08,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 2.63,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -121,16 +121,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
-    },
-    {
-      "theme": "金属铜/金属铅/金属镍",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.94,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-24"
     },
     {
       "theme": "退税商店",
