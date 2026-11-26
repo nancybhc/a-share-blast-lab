@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:53:51+08:00",
+  "generated_at": "2026-11-26T10:55:04+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属铅",
-      "change_pct": 3.03,
-      "constituents": 97,
-      "members": "金属铅 +3.03% / 金属镍 +2.54% / 金属铜 +2.43% / 金属钴 +1.86%",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 2.85,
+      "constituents": 51,
+      "members": "6G概念 +2.85%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 2.88,
-      "constituents": 51,
-      "members": "6G概念 +2.88%",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属铅",
+      "change_pct": 2.75,
+      "constituents": 97,
+      "members": "金属铅 +2.75% / 金属镍 +2.32% / 金属铜 +1.98% / 金属钴 +1.60%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 2.74,
-      "constituents": 434,
-      "members": "空间站概念 +2.74% / 卫星互联网 +1.98% / 商业航天 +1.54% / 卫星导航 +1.19% / 航天航空 +0.79%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.66,
+      "change_pct": 2.5,
       "constituents": 18,
-      "members": "水产概念 +2.66%",
+      "members": "水产概念 +2.50%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 2.37,
+      "constituents": 434,
+      "members": "空间站概念 +2.37% / 卫星互联网 +1.82% / 商业航天 +1.38% / 卫星导航 +1.07% / 航天航空 +0.53%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 2.54,
+      "change_pct": 2.33,
       "constituents": 76,
-      "members": "黄金概念 +2.54%",
+      "members": "黄金概念 +2.33%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.98,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.84,
+      "avg_rank": 1.5,
+      "latest_rank": 2,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.45,
+      "avg_change_pct": 2.26,
       "avg_rank": 4.0,
-      "latest_rank": 3,
+      "latest_rank": 4,
       "dates": "11-26、11-24"
     },
     {
@@ -77,9 +77,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.73,
+      "avg_change_pct": 0.65,
       "avg_rank": 4.0,
-      "latest_rank": 4,
+      "latest_rank": 3,
       "dates": "11-26、11-20"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.62,
+      "avg_change_pct": 4.49,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.88,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.85,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-26"
     },
     {
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.54,
+      "avg_change_pct": 2.33,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.51,
+      "avg_change_pct": 7.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -137,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.11,
+      "avg_change_pct": -0.08,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -177,7 +177,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -0.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -197,7 +197,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.07,
+      "avg_change_pct": -1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -213,34 +213,44 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "无线耳机/无线充电",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.16,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-24"
-    },
-    {
       "theme": "医药电商",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.61,
+      "avg_change_pct": 0.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "玻璃基板/3D玻璃",
+      "theme": "转基因",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": -1.1,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
+    },
+    {
+      "theme": "无线耳机/无线充电",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.09,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-24"
     },
     {
       "theme": "独家药品/特色药",
@@ -251,16 +261,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
-    },
-    {
-      "theme": "托育服务",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-20"
     }
   ]
 };
