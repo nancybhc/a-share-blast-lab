@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:30:00+08:00",
+  "generated_at": "2026-11-26T09:32:02+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "商业航天",
       "representative": "卫星互联网",
-      "change_pct": 2.75,
+      "change_pct": 2.24,
       "constituents": 434,
-      "members": "卫星互联网 +2.75% / 空间站概念 +2.22% / 商业航天 +2.13% / 卫星导航 +1.94% / 航天航空 +1.92%",
+      "members": "卫星互联网 +2.24% / 空间站概念 +2.15% / 航天航空 +2.05% / 商业航天 +1.92% / 卫星导航 +1.57%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "碳纤维",
+      "representative": "碳纤维",
+      "change_pct": 2.16,
+      "constituents": 46,
+      "members": "碳纤维 +2.16%",
+      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.66,
+      "change_pct": 2.14,
       "constituents": 51,
-      "members": "6G概念 +2.66%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "UWB概念",
-      "representative": "UWB概念",
-      "change_pct": 2.38,
-      "constituents": 19,
-      "members": "UWB概念 +2.38%",
+      "members": "6G概念 +2.14%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
-      "theme": "毫米波概念",
-      "representative": "毫米波概念",
-      "change_pct": 2.32,
-      "constituents": 56,
-      "members": "毫米波概念 +2.32%",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "representative": "BC电池",
+      "change_pct": 1.85,
+      "constituents": 107,
+      "members": "BC电池 +1.85% / 钙钛矿电池 +1.64% / HJT电池 +1.59% / TOPCon电池 +1.33%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "通信技术/5G概念/光通信模块",
-      "representative": "光通信模块",
-      "change_pct": 2.1,
-      "constituents": 441,
-      "members": "光通信模块 +2.10% / 通信技术 +1.62% / 5G概念 +1.57%",
+      "theme": "MLCC",
+      "representative": "MLCC",
+      "change_pct": 1.8,
+      "constituents": 42,
+      "members": "MLCC +1.80%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.45,
+      "avg_change_pct": 2.2,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -73,41 +73,41 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24、11-23"
     },
     {
-      "theme": "6G概念",
+      "theme": "碳纤维",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.66,
+      "avg_change_pct": 2.16,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
     },
     {
-      "theme": "UWB概念",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.38,
+      "avg_change_pct": 2.14,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "毫米波概念",
+      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.32,
+      "avg_change_pct": 1.85,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "通信技术/5G概念/光通信模块",
+      "theme": "MLCC",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.1,
+      "avg_change_pct": 1.8,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
