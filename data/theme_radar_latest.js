@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T11:21:07+08:00",
+  "generated_at": "2026-11-26T11:22:17+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.63,
+      "change_pct": 2.62,
       "constituents": 18,
-      "members": "水产概念 +2.63%",
+      "members": "水产概念 +2.62%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.53,
+      "change_pct": 2.49,
       "constituents": 97,
-      "members": "金属铅 +2.53% / 金属镍 +2.36% / 金属铜 +2.03% / 金属钴 +1.42%",
+      "members": "金属铅 +2.49% / 金属镍 +2.37% / 金属铜 +2.05% / 金属钴 +1.43%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.23,
+      "change_pct": 2.32,
       "constituents": 51,
-      "members": "6G概念 +2.23%",
+      "members": "6G概念 +2.32%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": 2.11,
+      "constituents": 215,
+      "members": "PCB +2.11%",
+      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 2.19,
+      "change_pct": 2.09,
       "constituents": 30,
-      "members": "资源开采概念 +2.19%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "黄金概念",
-      "representative": "黄金概念",
-      "change_pct": 2.05,
-      "constituents": 76,
-      "members": "黄金概念 +2.05%",
+      "members": "资源开采概念 +2.09%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.73,
+      "avg_change_pct": 2.71,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -87,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.23,
+      "avg_change_pct": 2.32,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-26"
+    },
+    {
+      "theme": "PCB",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.11,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -97,17 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.19,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-26"
-    },
-    {
-      "theme": "黄金概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.05,
+      "avg_change_pct": 2.09,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
