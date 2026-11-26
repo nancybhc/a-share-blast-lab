@@ -1,76 +1,76 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:58:59+08:00",
+  "generated_at": "2026-11-26T14:00:01+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 1.64,
-      "constituents": 18,
-      "members": "水产概念 +1.64%",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 1.67,
+      "constituents": 30,
+      "members": "资源开采概念 +1.67%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "资源开采概念",
-      "representative": "资源开采概念",
-      "change_pct": 1.6,
-      "constituents": 30,
-      "members": "资源开采概念 +1.60%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 1.65,
+      "constituents": 18,
+      "members": "水产概念 +1.65%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 1.46,
+      "change_pct": 1.57,
       "constituents": 26,
-      "members": "F5G概念 +1.46%",
+      "members": "F5G概念 +1.57%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 1.3,
+      "change_pct": 1.38,
       "constituents": 51,
-      "members": "6G概念 +1.30%",
+      "members": "6G概念 +1.38%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 1.23,
+      "change_pct": 1.3,
       "constituents": 97,
-      "members": "金属铅 +1.23% / 金属镍 +1.11% / 金属铜 +0.89% / 金属钴 +0.31%",
+      "members": "金属铅 +1.30% / 金属镍 +1.14% / 金属铜 +0.92% / 金属钴 +0.32%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "金属铜/金属铅/金属镍",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.12,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
+      "dates": "11-26、11-24"
+    },
     {
       "theme": "水产概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 0.22,
-      "avg_rank": 2.5,
-      "latest_rank": 1,
-      "dates": "11-26、11-20"
-    },
-    {
-      "theme": "金属铜/金属铅/金属镍",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.08,
       "avg_rank": 3.0,
-      "latest_rank": 5,
-      "dates": "11-26、11-24"
+      "latest_rank": 2,
+      "dates": "11-26、11-20"
     },
     {
       "theme": "机器人",
@@ -87,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.6,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.67,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-26"
     },
     {
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.46,
+      "avg_change_pct": 1.57,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.3,
+      "avg_change_pct": 1.38,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
