@@ -1,53 +1,53 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:50:00+08:00",
+  "generated_at": "2026-11-26T13:51:01+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 1.65,
-      "constituents": 26,
-      "members": "F5G概念 +1.65%",
-      "rank": 1
-    },
-    {
-      "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.64,
+      "change_pct": 1.65,
       "constituents": 30,
-      "members": "资源开采概念 +1.64%",
-      "rank": 2
+      "members": "资源开采概念 +1.65%",
+      "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.64,
+      "change_pct": 1.6,
       "constituents": 18,
-      "members": "水产概念 +1.64%",
-      "rank": 3
+      "members": "水产概念 +1.60%",
+      "rank": 2
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 1.48,
-      "constituents": 51,
-      "members": "6G概念 +1.48%",
-      "rank": 4
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 1.58,
+      "constituents": 26,
+      "members": "F5G概念 +1.58%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 1.44,
+      "change_pct": 1.46,
       "constituents": 97,
-      "members": "金属铅 +1.44% / 金属镍 +1.30% / 金属铜 +1.06% / 金属钴 +0.41%",
+      "members": "金属铅 +1.46% / 金属镍 +1.30% / 金属铜 +1.06% / 金属钴 +0.39%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 1.43,
+      "constituents": 51,
+      "members": "6G概念 +1.43%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.19,
-      "avg_rank": 3.0,
-      "latest_rank": 5,
+      "avg_change_pct": 2.2,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.22,
-      "avg_rank": 3.5,
-      "latest_rank": 3,
+      "avg_change_pct": 0.2,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
       "dates": "11-26、11-20"
     },
     {
@@ -83,7 +83,7 @@
       "dates": "11-24、11-23"
     },
     {
-      "theme": "F5G概念",
+      "theme": "资源开采概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -93,13 +93,13 @@
       "dates": "11-26"
     },
     {
-      "theme": "资源开采概念",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.64,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.58,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
@@ -107,9 +107,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.48,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.43,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-26"
     },
     {
