@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:25:23+08:00",
+  "generated_at": "2026-11-26T10:27:42+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 3.35,
+      "change_pct": 3.13,
       "constituents": 215,
-      "members": "PCB +3.35%",
+      "members": "PCB +3.13%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 3.29,
+      "change_pct": 2.93,
       "constituents": 600,
-      "members": "CPO概念 +3.29% / 数据中心 +1.35% / 算力概念 +1.33% / AI语料 -0.10%",
+      "members": "CPO概念 +2.93% / 数据中心 +1.12% / 算力概念 +1.09% / AI语料 -0.32%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.78,
+      "constituents": 18,
+      "members": "水产概念 +2.78%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 3.08,
+      "change_pct": 2.77,
       "constituents": 441,
-      "members": "光通信模块 +3.08% / 5G概念 +2.03% / 通信技术 +1.95%",
-      "rank": 3
+      "members": "光通信模块 +2.77% / 5G概念 +1.76% / 通信技术 +1.67%",
+      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 3.0,
+      "change_pct": 2.76,
       "constituents": 97,
-      "members": "金属铅 +3.00% / 金属镍 +2.55% / 金属钴 +2.53% / 金属铜 +2.52%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": 2.83,
-      "constituents": 115,
-      "members": "先进封装 +2.83%",
+      "members": "金属铅 +2.76% / 金属镍 +2.35% / 金属铜 +2.34% / 金属钴 +2.34%",
       "rank": 5
     }
   ],
@@ -57,10 +57,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.97,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 2.85,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
       "dates": "11-26、11-24"
+    },
+    {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.79,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
+      "dates": "11-26、11-20"
     },
     {
       "theme": "机器人",
@@ -77,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.35,
+      "avg_change_pct": 3.13,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.29,
+      "avg_change_pct": 2.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -97,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.08,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-26"
-    },
-    {
-      "theme": "先进封装",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.83,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 2.77,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -231,16 +231,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
     },
     {
       "theme": "玻璃基板/3D玻璃",
