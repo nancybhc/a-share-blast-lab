@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:35:09+08:00",
+  "generated_at": "2026-11-26T09:36:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.05,
+      "change_pct": 2.33,
       "constituents": 18,
-      "members": "水产概念 +2.05%",
+      "members": "水产概念 +2.33%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 1.69,
-      "constituents": 51,
-      "members": "6G概念 +1.69%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "碳纤维",
-      "representative": "碳纤维",
-      "change_pct": 1.54,
-      "constituents": 46,
-      "members": "碳纤维 +1.54%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 1.5,
-      "constituents": 434,
-      "members": "空间站概念 +1.50% / 卫星互联网 +1.43% / 商业航天 +1.23% / 航天航空 +1.15% / 卫星导航 +0.69%",
-      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.47,
+      "change_pct": 1.52,
       "constituents": 30,
-      "members": "资源开采概念 +1.47%",
+      "members": "资源开采概念 +1.52%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 1.4,
+      "constituents": 51,
+      "members": "6G概念 +1.40%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "碳纤维",
+      "representative": "碳纤维",
+      "change_pct": 1.28,
+      "constituents": 46,
+      "members": "碳纤维 +1.28%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 1.25,
+      "constituents": 434,
+      "members": "空间站概念 +1.25% / 卫星互联网 +1.00% / 商业航天 +0.89% / 航天航空 +0.69% / 卫星导航 +0.39%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.42,
+      "avg_change_pct": 0.57,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.82,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 1.7,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-26、11-24"
     },
     {
@@ -83,13 +83,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24、11-23"
     },
     {
+      "theme": "资源开采概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.52,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-26"
+    },
+    {
       "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.69,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 1.4,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
@@ -97,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.54,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-26"
-    },
-    {
-      "theme": "资源开采概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.47,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
+      "avg_change_pct": 1.28,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
