@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:56:02+08:00",
+  "generated_at": "2026-11-26T13:57:04+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -25,40 +25,50 @@ window.THEME_RADAR_DATA = {
     },
     {
       "date": "2026-11-26",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 1.44,
-      "constituents": 26,
-      "members": "F5G概念 +1.44%",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 1.6,
+      "constituents": 51,
+      "members": "6G概念 +1.60%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
-      "theme": "煤化工概念",
-      "representative": "煤化工概念",
-      "change_pct": 1.35,
-      "constituents": 80,
-      "members": "煤化工概念 +1.35%",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 1.56,
+      "constituents": 26,
+      "members": "F5G概念 +1.56%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 1.33,
-      "constituents": 51,
-      "members": "6G概念 +1.33%",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属铅",
+      "change_pct": 1.27,
+      "constituents": 97,
+      "members": "金属铅 +1.27% / 金属镍 +1.10% / 金属铜 +0.75% / 金属钴 +0.27%",
       "rank": 5
     }
   ],
   "five_day": [
+    {
+      "theme": "金属铜/金属铅/金属镍",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.1,
+      "avg_rank": 3.0,
+      "latest_rank": 5,
+      "dates": "11-26、11-24"
+    },
     {
       "theme": "水产概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 0.21,
-      "avg_rank": 3.0,
+      "avg_rank": 3.5,
       "latest_rank": 2,
       "dates": "11-26、11-20"
     },
@@ -67,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.62,
+      "avg_change_pct": 4.49,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -83,33 +93,23 @@ window.THEME_RADAR_DATA = {
       "dates": "11-26"
     },
     {
-      "theme": "F5G概念",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.44,
+      "avg_change_pct": 1.6,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "煤化工概念",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.35,
+      "avg_change_pct": 1.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-26"
-    },
-    {
-      "theme": "6G概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.33,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-26"
     },
     {
@@ -117,20 +117,10 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.51,
+      "avg_change_pct": 7.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
-    },
-    {
-      "theme": "金属铜/金属铅/金属镍",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.94,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-24"
     },
     {
       "theme": "退税商店",
@@ -147,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.11,
+      "avg_change_pct": -0.08,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -187,7 +177,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -0.93,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -207,7 +197,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.07,
+      "avg_change_pct": -1.02,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -223,11 +213,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "无线耳机/无线充电",
+      "theme": "商业航天",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 2.15,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
@@ -237,27 +227,37 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.61,
+      "avg_change_pct": 0.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "玻璃基板/3D玻璃",
+      "theme": "转基因",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": -1.1,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-20"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
     },
     {
-      "theme": "商业航天",
+      "theme": "无线耳机/无线充电",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 2.09,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
@@ -271,16 +271,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
-    },
-    {
-      "theme": "托育服务",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-20"
     }
   ]
 };

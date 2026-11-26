@@ -7,14 +7,14 @@
   "sourceReport": "多空阶段_2026-11-26.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-26.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+16 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→10 只、空 264→280 只、空转多 2→27、多转空 41→13｜PCB 最明显：多 1→4 只、空 64→46 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+16 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→9 只、空 264→280 只、空转多 2→27、多转空 41→14｜PCB 最明显：多 1→4 只、空 64→46 只",
   "overview": {
     "groups": 22,
     "uniqueStocks": 945,
     "positiveGroups": 12,
     "negativeGroups": 5,
     "positiveTransitions": 41,
-    "negativeTransitions": 30
+    "negativeTransitions": 31
   },
   "phaseLegend": [
     {
@@ -1853,24 +1853,24 @@
       "name": "半导体芯片",
       "date": "2026-11-26",
       "total": 45,
-      "bull": 2,
+      "bull": 1,
       "turnBull": 2,
-      "turnBear": 3,
+      "turnBear": 4,
       "bear": 38,
       "newBull": 1,
       "confirm": 0,
       "direct": 0,
       "positive": 1,
-      "negative": 5,
-      "bullPct": 4.44,
+      "negative": 6,
+      "bullPct": 2.22,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 2→2；空转多 1→2；多转空 7→3；空 35→38",
+      "change": "多 2→1；空转多 1→2；多转空 7→4；空 35→38",
       "id": "semiconductor",
       "code": "SEMICONDUCTOR",
-      "score": -8.9,
+      "score": -11.1,
       "fulfilled": 0,
-      "netBias": -36,
+      "netBias": -37,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1878,7 +1878,7 @@
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/45，空头 38；空转多候选 2，今日转多确认 0，反向转空 3。多 2→2；空转多 1→2；多转空 7→3；空 35→38，候选回升，等待 5破10 推进。",
+      "thesis": "多头 1/45，空头 38；空转多候选 2，今日转多确认 0，反向转空 4。多 2→1；空转多 1→2；多转空 7→4；空 35→38，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-18",
@@ -1931,11 +1931,11 @@
         {
           "date": "2026-11-26",
           "total": 45,
-          "bull": 2,
+          "bull": 1,
           "turnBull": 2,
-          "turnBear": 3,
+          "turnBear": 4,
           "bear": 38,
-          "bullPct": 4.44
+          "bullPct": 2.22
         }
       ]
     },
