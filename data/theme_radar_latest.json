@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:27:42+08:00",
+  "generated_at": "2026-11-26T10:28:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 3.13,
+      "change_pct": 3.28,
       "constituents": 215,
-      "members": "PCB +3.13%",
+      "members": "PCB +3.28%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.93,
+      "change_pct": 3.15,
       "constituents": 600,
-      "members": "CPO概念 +2.93% / 数据中心 +1.12% / 算力概念 +1.09% / AI语料 -0.32%",
+      "members": "CPO概念 +3.15% / 数据中心 +1.23% / 算力概念 +1.22% / AI语料 -0.07%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 2.78,
-      "constituents": 18,
-      "members": "水产概念 +2.78%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.77,
+      "change_pct": 2.97,
       "constituents": 441,
-      "members": "光通信模块 +2.77% / 5G概念 +1.76% / 通信技术 +1.67%",
+      "members": "光通信模块 +2.97% / 5G概念 +1.91% / 通信技术 +1.83%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 2.87,
+      "constituents": 18,
+      "members": "水产概念 +2.87%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.76,
+      "change_pct": 2.68,
       "constituents": 97,
-      "members": "金属铅 +2.76% / 金属镍 +2.35% / 金属铜 +2.34% / 金属钴 +2.34%",
+      "members": "金属铅 +2.68% / 金属镍 +2.35% / 金属钴 +2.33% / 金属铜 +2.30%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.85,
+      "avg_change_pct": 2.81,
       "avg_rank": 3.0,
       "latest_rank": 5,
       "dates": "11-26、11-24"
@@ -67,9 +67,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.79,
-      "avg_rank": 3.5,
-      "latest_rank": 3,
+      "avg_change_pct": 0.84,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26、11-20"
     },
     {
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.13,
+      "avg_change_pct": 3.28,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.93,
+      "avg_change_pct": 3.15,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,9 +107,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.77,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.97,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
