@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:44:22+08:00",
+  "generated_at": "2026-11-26T10:46:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 3.58,
+      "change_pct": 3.37,
       "constituents": 97,
-      "members": "金属铅 +3.58% / 金属铜 +2.97% / 金属镍 +2.97% / 金属钴 +2.59%",
+      "members": "金属铅 +3.37% / 金属铜 +2.80% / 金属镍 +2.74% / 金属钴 +2.33%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 3.19,
-      "constituents": 18,
-      "members": "水产概念 +3.19%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "黄金概念",
-      "representative": "黄金概念",
-      "change_pct": 3.16,
-      "constituents": 76,
-      "members": "黄金概念 +3.16%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.02,
+      "change_pct": 3.22,
       "constituents": 51,
-      "members": "6G概念 +3.02%",
+      "members": "6G概念 +3.22%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 3.08,
+      "constituents": 18,
+      "members": "水产概念 +3.08%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 3.04,
+      "constituents": 434,
+      "members": "空间站概念 +3.04% / 卫星互联网 +2.30% / 商业航天 +1.85% / 卫星导航 +1.46% / 航天航空 +1.10%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "PCB",
-      "representative": "PCB",
-      "change_pct": 2.82,
-      "constituents": 215,
-      "members": "PCB +2.82%",
+      "theme": "黄金概念",
+      "representative": "黄金概念",
+      "change_pct": 3.03,
+      "constituents": 76,
+      "members": "黄金概念 +3.03%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.26,
+      "avg_change_pct": 3.16,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -67,10 +67,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.99,
-      "avg_rank": 3.0,
-      "latest_rank": 2,
+      "avg_change_pct": 0.94,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-26、11-20"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.59,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-26、11-24"
     },
     {
       "theme": "机器人",
@@ -83,31 +93,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24、11-23"
     },
     {
-      "theme": "黄金概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 3.16,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-26"
-    },
-    {
       "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.02,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 3.22,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-26"
     },
     {
-      "theme": "PCB",
+      "theme": "黄金概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.82,
+      "avg_change_pct": 3.03,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
@@ -241,16 +241,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.15,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-24"
     },
     {
       "theme": "独家药品/特色药",
