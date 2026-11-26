@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:32:02+08:00",
+  "generated_at": "2026-11-26T09:33:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -8,46 +8,46 @@ window.THEME_RADAR_DATA = {
     {
       "date": "2026-11-26",
       "theme": "商业航天",
-      "representative": "卫星互联网",
-      "change_pct": 2.24,
+      "representative": "空间站概念",
+      "change_pct": 2.18,
       "constituents": 434,
-      "members": "卫星互联网 +2.24% / 空间站概念 +2.15% / 航天航空 +2.05% / 商业航天 +1.92% / 卫星导航 +1.57%",
+      "members": "空间站概念 +2.18% / 卫星互联网 +2.03% / 航天航空 +1.87% / 商业航天 +1.77% / 卫星导航 +1.34%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "碳纤维",
-      "representative": "碳纤维",
-      "change_pct": 2.16,
-      "constituents": 46,
-      "members": "碳纤维 +2.16%",
-      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.14,
+      "change_pct": 2.17,
       "constituents": 51,
-      "members": "6G概念 +2.14%",
+      "members": "6G概念 +2.17%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "碳纤维",
+      "representative": "碳纤维",
+      "change_pct": 2.0,
+      "constituents": 46,
+      "members": "碳纤维 +2.00%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
-      "representative": "BC电池",
-      "change_pct": 1.85,
-      "constituents": 107,
-      "members": "BC电池 +1.85% / 钙钛矿电池 +1.64% / HJT电池 +1.59% / TOPCon电池 +1.33%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 1.82,
+      "constituents": 600,
+      "members": "CPO概念 +1.82% / 数据中心 +0.56% / 算力概念 +0.43% / AI语料 -0.23%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "MLCC",
-      "representative": "MLCC",
+      "theme": "被动元件概念",
+      "representative": "被动元件概念",
       "change_pct": 1.8,
-      "constituents": 42,
-      "members": "MLCC +1.80%",
+      "constituents": 30,
+      "members": "被动元件概念 +1.80%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.2,
+      "avg_change_pct": 2.17,
       "avg_rank": 3.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -73,37 +73,37 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24、11-23"
     },
     {
-      "theme": "碳纤维",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 2.17,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
     },
     {
-      "theme": "6G概念",
+      "theme": "碳纤维",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.14,
+      "avg_change_pct": 2.0,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "HJT电池/钙钛矿电池/TOPCon电池",
+      "theme": "AI算力",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.85,
+      "avg_change_pct": 1.82,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "MLCC",
+      "theme": "被动元件概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
