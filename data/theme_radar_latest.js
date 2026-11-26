@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:02:35+08:00",
+  "generated_at": "2026-11-26T10:03:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.94,
+      "change_pct": 2.0,
       "constituents": 18,
-      "members": "水产概念 +1.94%",
+      "members": "水产概念 +2.00%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 1.49,
+      "change_pct": 1.44,
       "constituents": 97,
-      "members": "金属铅 +1.49% / 金属钴 +1.22% / 金属铜 +0.92% / 金属镍 +0.86%",
+      "members": "金属铅 +1.44% / 金属钴 +1.17% / 金属铜 +1.04% / 金属镍 +0.79%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "转基因",
-      "representative": "转基因",
-      "change_pct": 1.47,
-      "constituents": 20,
-      "members": "转基因 +1.47%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.35,
+      "change_pct": 1.4,
       "constituents": 30,
-      "members": "资源开采概念 +1.35%",
-      "rank": 4
+      "members": "资源开采概念 +1.40%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "磷化工/氟化工概念",
       "representative": "磷化工",
-      "change_pct": 1.34,
+      "change_pct": 1.31,
       "constituents": 87,
-      "members": "磷化工 +1.34% / 氟化工概念 +0.34%",
+      "members": "磷化工 +1.31% / 氟化工概念 +0.31%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "煤化工概念",
+      "representative": "煤化工概念",
+      "change_pct": 1.28,
+      "constituents": 80,
+      "members": "煤化工概念 +1.28%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.21,
+      "avg_change_pct": 2.19,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.37,
-      "avg_rank": 3.0,
+      "avg_change_pct": 0.4,
+      "avg_rank": 2.5,
       "latest_rank": 1,
-      "dates": "11-26、11-20"
-    },
-    {
-      "theme": "转基因",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 0.18,
-      "avg_rank": 3.5,
-      "latest_rank": 3,
       "dates": "11-26、11-20"
     },
     {
@@ -87,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.49,
+      "avg_change_pct": 4.62,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-24、11-23"
@@ -97,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.35,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.4,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-26"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.34,
+      "avg_change_pct": 1.31,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-26"
+    },
+    {
+      "theme": "煤化工概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.28,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
@@ -117,7 +117,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.83,
+      "avg_change_pct": 7.51,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-23"
@@ -137,7 +137,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.08,
+      "avg_change_pct": -0.11,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-20"
@@ -177,7 +177,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -0.93,
+      "avg_change_pct": -1.02,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-20"
@@ -197,7 +197,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": -1.02,
+      "avg_change_pct": -1.07,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-20"
@@ -213,11 +213,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "商业航天",
+      "theme": "无线耳机/无线充电",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 2.16,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
@@ -227,27 +227,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.56,
+      "avg_change_pct": 0.61,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
     },
     {
-      "theme": "AI算力",
+      "theme": "玻璃基板/3D玻璃",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.11,
+      "avg_change_pct": 6.03,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
     },
     {
-      "theme": "无线耳机/无线充电",
+      "theme": "商业航天",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.09,
+      "avg_change_pct": 2.15,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
@@ -261,6 +261,16 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
+    },
+    {
+      "theme": "托育服务",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -1.2,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-20"
     }
   ]
 };
