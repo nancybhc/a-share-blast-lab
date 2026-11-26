@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:22:52+08:00",
+  "generated_at": "2026-11-26T13:23:33+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 2.93,
-      "constituents": 51,
-      "members": "6G概念 +2.93%",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 2.83,
+      "constituents": 26,
+      "members": "F5G概念 +2.83%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "F5G概念",
-      "representative": "F5G概念",
-      "change_pct": 2.91,
-      "constituents": 26,
-      "members": "F5G概念 +2.91%",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 2.8,
+      "constituents": 51,
+      "members": "6G概念 +2.80%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属镍",
-      "change_pct": 2.67,
+      "change_pct": 2.52,
       "constituents": 97,
-      "members": "金属镍 +2.67% / 金属铅 +2.41% / 金属铜 +2.02% / 金属钴 +1.57%",
+      "members": "金属镍 +2.52% / 金属铅 +2.26% / 金属铜 +1.89% / 金属钴 +1.40%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "铜缆高速连接",
       "representative": "铜缆高速连接",
-      "change_pct": 2.63,
+      "change_pct": 2.42,
       "constituents": 41,
-      "members": "铜缆高速连接 +2.63%",
+      "members": "铜缆高速连接 +2.42%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 2.56,
+      "change_pct": 2.41,
       "constituents": 434,
-      "members": "空间站概念 +2.56% / 卫星互联网 +1.75% / 商业航天 +1.43% / 卫星导航 +0.94% / 航天航空 +0.56%",
+      "members": "空间站概念 +2.41% / 卫星互联网 +1.63% / 商业航天 +1.28% / 卫星导航 +0.81% / 航天航空 +0.42%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.8,
+      "avg_change_pct": 2.73,
       "avg_rank": 2.0,
       "latest_rank": 3,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.35,
+      "avg_change_pct": 2.28,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26、11-24"
@@ -83,21 +83,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24、11-23"
     },
     {
-      "theme": "6G概念",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.93,
+      "avg_change_pct": 2.83,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
     },
     {
-      "theme": "F5G概念",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.91,
+      "avg_change_pct": 2.8,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.63,
+      "avg_change_pct": 2.42,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
