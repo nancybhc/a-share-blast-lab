@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:42:56+08:00",
+  "generated_at": "2026-11-26T13:45:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.22,
+      "change_pct": 2.19,
       "constituents": 26,
-      "members": "F5G概念 +2.22%",
+      "members": "F5G概念 +2.19%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属镍",
-      "change_pct": 1.89,
-      "constituents": 97,
-      "members": "金属镍 +1.89% / 金属铅 +1.88% / 金属铜 +1.40% / 金属钴 +0.84%",
-      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 1.86,
+      "change_pct": 1.93,
       "constituents": 51,
-      "members": "6G概念 +1.86%",
-      "rank": 3
+      "members": "6G概念 +1.93%",
+      "rank": 2
     },
     {
       "date": "2026-11-26",
-      "theme": "资源开采概念",
-      "representative": "资源开采概念",
-      "change_pct": 1.79,
-      "constituents": 30,
-      "members": "资源开采概念 +1.79%",
-      "rank": 4
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属镍",
+      "change_pct": 1.92,
+      "constituents": 97,
+      "members": "金属镍 +1.92% / 金属铅 +1.91% / 金属铜 +1.44% / 金属钴 +0.91%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.78,
+      "change_pct": 1.91,
       "constituents": 18,
-      "members": "水产概念 +1.78%",
+      "members": "水产概念 +1.91%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 1.81,
+      "constituents": 30,
+      "members": "资源开采概念 +1.81%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.42,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
+      "avg_change_pct": 2.43,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.29,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
+      "avg_change_pct": 0.35,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26、11-20"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.22,
+      "avg_change_pct": 2.19,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -97,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.86,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.93,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-26"
     },
     {
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.79,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 1.81,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-26"
     },
     {
