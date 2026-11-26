@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T11:28:13+08:00",
+  "generated_at": "2026-11-26T11:29:14+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.36,
+      "change_pct": 2.39,
       "constituents": 18,
-      "members": "水产概念 +2.36%",
+      "members": "水产概念 +2.39%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.24,
+      "change_pct": 2.2,
       "constituents": 97,
-      "members": "金属铅 +2.24% / 金属镍 +1.96% / 金属铜 +1.68% / 金属钴 +1.19%",
+      "members": "金属铅 +2.20% / 金属镍 +1.98% / 金属铜 +1.68% / 金属钴 +1.18%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "资源开采概念",
-      "representative": "资源开采概念",
-      "change_pct": 1.82,
-      "constituents": 30,
-      "members": "资源开采概念 +1.82%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 1.81,
+      "change_pct": 1.86,
       "constituents": 51,
-      "members": "6G概念 +1.81%",
+      "members": "6G概念 +1.86%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "资源开采概念",
+      "representative": "资源开采概念",
+      "change_pct": 1.83,
+      "constituents": 30,
+      "members": "资源开采概念 +1.83%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "黄金概念",
-      "representative": "黄金概念",
-      "change_pct": 1.72,
-      "constituents": 76,
-      "members": "黄金概念 +1.72%",
+      "theme": "PCB",
+      "representative": "PCB",
+      "change_pct": 1.77,
+      "constituents": 215,
+      "members": "PCB +1.77%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.59,
+      "avg_change_pct": 2.57,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.58,
+      "avg_change_pct": 0.6,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -83,31 +83,31 @@
       "dates": "11-24、11-23"
     },
     {
-      "theme": "资源开采概念",
+      "theme": "6G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.82,
+      "avg_change_pct": 1.86,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
     },
     {
-      "theme": "6G概念",
+      "theme": "资源开采概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.81,
+      "avg_change_pct": 1.83,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "黄金概念",
+      "theme": "PCB",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.72,
+      "avg_change_pct": 1.77,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
