@@ -1,20 +1,20 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 14:51",
-  "reportGeneratedAt": "2026-11-26 14:51",
+  "generatedAt": "2026-11-26 14:53",
+  "reportGeneratedAt": "2026-11-26 14:53",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-26.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+12 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→8 只、空 264→276 只、空转多 2→32、多转空 41→14｜PCB 最明显：多 1→4 只、空 64→44 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-18 ~ 11-26）：空明显变多（+11 只），记得减仓 —— 手上 MA5 刚拐头的先处理｜多 23→9 只、空 264→275 只、空转多 2→32、多转空 41→14｜PCB 最明显：多 1→4 只、空 64→44 只",
   "overview": {
     "groups": 22,
     "uniqueStocks": 945,
     "positiveGroups": 12,
     "negativeGroups": 4,
     "positiveTransitions": 52,
-    "negativeTransitions": 30
+    "negativeTransitions": 27
   },
   "phaseLegend": [
     {
@@ -1133,8 +1133,8 @@ window.MARKET_TREND_DATA = {
       "name": "电网设备",
       "date": "2026-11-26",
       "total": 46,
-      "bull": 2,
-      "turnBull": 1,
+      "bull": 3,
+      "turnBull": 0,
       "turnBear": 2,
       "bear": 41,
       "newBull": 0,
@@ -1142,23 +1142,23 @@ window.MARKET_TREND_DATA = {
       "direct": 0,
       "positive": 0,
       "negative": 0,
-      "bullPct": 4.35,
+      "bullPct": 6.52,
       "state": "结构分化",
       "action": "等下一次候选池方向变化",
-      "change": "多 2→2；空转多 0→1；多转空 3→2；空 41→41",
+      "change": "多 2→3；空转多 0→0；多转空 3→2；空 41→41",
       "id": "grid-equipment",
       "code": "GRID EQUIPMENT",
       "score": 0.0,
       "fulfilled": 0,
-      "netBias": -39,
+      "netBias": -38,
       "phase": "结构分化",
       "badge": "临界观察",
       "tone": "amber",
-      "setup": "1",
+      "setup": "0",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/46，空头 41；空转多候选 1，今日转多确认 0，反向转空 2。多 2→2；空转多 0→1；多转空 3→2；空 41→41，等下一次候选池方向变化。",
+      "thesis": "多头 3/46，空头 41；空转多候选 0，今日转多确认 0，反向转空 2。多 2→3；空转多 0→0；多转空 3→2；空 41→41，等下一次候选池方向变化。",
       "history": [
         {
           "date": "2026-11-18",
@@ -1211,11 +1211,11 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-26",
           "total": 46,
-          "bull": 2,
-          "turnBull": 1,
+          "bull": 3,
+          "turnBull": 0,
           "turnBear": 2,
           "bear": 41,
-          "bullPct": 4.35
+          "bullPct": 6.52
         }
       ]
     },
@@ -1760,117 +1760,27 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "互金证券",
-      "date": "2026-11-26",
-      "total": 60,
-      "bull": 0,
-      "turnBull": 1,
-      "turnBear": 2,
-      "bear": 57,
-      "newBull": 1,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 1,
-      "negative": 6,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→0；空转多 0→1；多转空 6→2；空 53→57",
-      "id": "fintech",
-      "code": "FINTECH",
-      "score": -8.3,
-      "fulfilled": 0,
-      "netBias": -57,
-      "phase": "结构承压",
-      "badge": "等待止跌",
-      "tone": "cyan",
-      "setup": "1",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/60，空头 57；空转多候选 1，今日转多确认 0，反向转空 2。多 1→0；空转多 0→1；多转空 6→2；空 53→57，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "bull": 0,
-          "turnBull": 4,
-          "turnBear": 1,
-          "bear": 55,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 1,
-          "turnBull": 10,
-          "turnBear": 0,
-          "bear": 49,
-          "bullPct": 1.67
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 1,
-          "turnBull": 8,
-          "turnBear": 0,
-          "bear": 51,
-          "bullPct": 1.67
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 2,
-          "turnBull": 10,
-          "turnBear": 1,
-          "bear": 47,
-          "bullPct": 3.33
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 2,
-          "turnBull": 4,
-          "turnBear": 5,
-          "bear": 49,
-          "bullPct": 3.33
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 6,
-          "bear": 53,
-          "bullPct": 1.67
-        },
-        {
-          "date": "2026-11-26",
-          "total": 60,
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 2,
-          "bear": 57,
-          "bullPct": 0.0
-        }
-      ]
-    },
-    {
       "name": "半导体芯片",
       "date": "2026-11-26",
       "total": 45,
-      "bull": 1,
+      "bull": 2,
       "turnBull": 3,
       "turnBear": 3,
-      "bear": 38,
+      "bear": 37,
       "newBull": 1,
       "confirm": 0,
       "direct": 0,
       "positive": 1,
-      "negative": 6,
-      "bullPct": 2.22,
+      "negative": 4,
+      "bullPct": 4.44,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 2→1；空转多 1→3；多转空 7→3；空 35→38",
+      "change": "多 2→2；空转多 1→3；多转空 7→3；空 35→37",
       "id": "semiconductor",
       "code": "SEMICONDUCTOR",
-      "score": -11.1,
+      "score": -6.7,
       "fulfilled": 0,
-      "netBias": -37,
+      "netBias": -35,
       "phase": "结构承压",
       "badge": "等待止跌",
       "tone": "cyan",
@@ -1878,7 +1788,7 @@ window.MARKET_TREND_DATA = {
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/45，空头 38；空转多候选 3，今日转多确认 0，反向转空 3。多 2→1；空转多 1→3；多转空 7→3；空 35→38，候选回升，等待 5破10 推进。",
+      "thesis": "多头 2/45，空头 37；空转多候选 3，今日转多确认 0，反向转空 3。多 2→2；空转多 1→3；多转空 7→3；空 35→37，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-18",
@@ -1931,11 +1841,101 @@ window.MARKET_TREND_DATA = {
         {
           "date": "2026-11-26",
           "total": 45,
-          "bull": 1,
+          "bull": 2,
           "turnBull": 3,
           "turnBear": 3,
-          "bear": 38,
-          "bullPct": 2.22
+          "bear": 37,
+          "bullPct": 4.44
+        }
+      ]
+    },
+    {
+      "name": "互金证券",
+      "date": "2026-11-26",
+      "total": 60,
+      "bull": 1,
+      "turnBull": 1,
+      "turnBear": 1,
+      "bear": 57,
+      "newBull": 1,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 1,
+      "negative": 5,
+      "bullPct": 1.67,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 1→1；空转多 0→1；多转空 6→1；空 53→57",
+      "id": "fintech",
+      "code": "FINTECH",
+      "score": -6.7,
+      "fulfilled": 0,
+      "netBias": -56,
+      "phase": "结构承压",
+      "badge": "等待止跌",
+      "tone": "cyan",
+      "setup": "1",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 1/60，空头 57；空转多候选 1，今日转多确认 0，反向转空 1。多 1→1；空转多 0→1；多转空 6→1；空 53→57，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 4,
+          "turnBear": 1,
+          "bear": 55,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 1,
+          "turnBull": 10,
+          "turnBear": 0,
+          "bear": 49,
+          "bullPct": 1.67
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 1,
+          "turnBull": 8,
+          "turnBear": 0,
+          "bear": 51,
+          "bullPct": 1.67
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 2,
+          "turnBull": 10,
+          "turnBear": 1,
+          "bear": 47,
+          "bullPct": 3.33
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 2,
+          "turnBull": 4,
+          "turnBear": 5,
+          "bear": 49,
+          "bullPct": 3.33
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 1,
+          "turnBull": 0,
+          "turnBear": 6,
+          "bear": 53,
+          "bullPct": 1.67
+        },
+        {
+          "date": "2026-11-26",
+          "total": 60,
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 1,
+          "bear": 57,
+          "bullPct": 1.67
         }
       ]
     },
