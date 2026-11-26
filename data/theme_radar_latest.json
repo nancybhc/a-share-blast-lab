@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:15:41+08:00",
+  "generated_at": "2026-11-26T10:16:18+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 3.04,
+      "change_pct": 3.21,
       "constituents": 215,
-      "members": "PCB +3.04%",
+      "members": "PCB +3.21%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.75,
+      "change_pct": 2.91,
       "constituents": 600,
-      "members": "CPO概念 +2.75% / 数据中心 +1.03% / 算力概念 +0.99% / AI语料 -0.20%",
+      "members": "CPO概念 +2.91% / 数据中心 +1.18% / 算力概念 +1.15% / AI语料 -0.00%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.58,
+      "change_pct": 2.79,
       "constituents": 441,
-      "members": "光通信模块 +2.58% / 5G概念 +1.66% / 通信技术 +1.55%",
+      "members": "光通信模块 +2.79% / 5G概念 +1.81% / 通信技术 +1.71%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "被动元件概念",
       "representative": "被动元件概念",
-      "change_pct": 2.42,
+      "change_pct": 2.55,
       "constituents": 30,
-      "members": "被动元件概念 +2.42%",
+      "members": "被动元件概念 +2.55%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.31,
+      "change_pct": 2.52,
       "constituents": 26,
-      "members": "F5G概念 +2.31%",
+      "members": "F5G概念 +2.52%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.04,
+      "avg_change_pct": 3.21,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.75,
+      "avg_change_pct": 2.91,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.58,
+      "avg_change_pct": 2.79,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,7 +97,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.42,
+      "avg_change_pct": 2.55,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.31,
+      "avg_change_pct": 2.52,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
