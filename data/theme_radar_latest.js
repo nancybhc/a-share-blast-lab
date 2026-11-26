@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:35:36+08:00",
+  "generated_at": "2026-11-26T10:36:37+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "水产概念",
-      "representative": "水产概念",
-      "change_pct": 3.31,
-      "constituents": 18,
-      "members": "水产概念 +3.31%",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属铅",
+      "change_pct": 3.63,
+      "constituents": 97,
+      "members": "金属铅 +3.63% / 金属镍 +3.00% / 金属铜 +2.94% / 金属钴 +2.94%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属铅",
-      "change_pct": 3.19,
-      "constituents": 97,
-      "members": "金属铅 +3.19% / 金属镍 +2.64% / 金属钴 +2.58% / 金属铜 +2.52%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 3.51,
+      "constituents": 18,
+      "members": "水产概念 +3.51%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 2.96,
+      "change_pct": 3.3,
       "constituents": 215,
-      "members": "PCB +2.96%",
+      "members": "PCB +3.30%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 2.81,
+      "change_pct": 3.27,
       "constituents": 76,
-      "members": "黄金概念 +2.81%",
+      "members": "黄金概念 +3.27%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 2.7,
-      "constituents": 51,
-      "members": "6G概念 +2.70%",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 3.1,
+      "constituents": 600,
+      "members": "CPO概念 +3.10% / 算力概念 +1.67% / 数据中心 +1.62% / AI语料 +0.24%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.06,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
+      "avg_change_pct": 3.29,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-26、11-24"
     },
     {
@@ -67,10 +67,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.06,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 1.15,
+      "avg_rank": 3.5,
+      "latest_rank": 2,
       "dates": "11-26、11-20"
+    },
+    {
+      "theme": "AI算力",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 4.61,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-26、11-23"
     },
     {
       "theme": "机器人",
@@ -87,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.96,
+      "avg_change_pct": 3.3,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,19 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.81,
+      "avg_change_pct": 3.27,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-26"
-    },
-    {
-      "theme": "6G概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.7,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
       "dates": "11-26"
     },
     {
@@ -241,16 +241,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
-    },
-    {
-      "theme": "AI算力",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.11,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-23"
     },
     {
       "theme": "无线耳机/无线充电",
