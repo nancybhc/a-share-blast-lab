@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:14:38+08:00",
+  "generated_at": "2026-11-26T10:15:41+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 3.34,
+      "change_pct": 3.04,
       "constituents": 215,
-      "members": "PCB +3.34%",
+      "members": "PCB +3.04%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 2.94,
+      "change_pct": 2.75,
       "constituents": 600,
-      "members": "CPO概念 +2.94% / 数据中心 +1.23% / 算力概念 +1.20% / AI语料 +0.16%",
+      "members": "CPO概念 +2.75% / 数据中心 +1.03% / 算力概念 +0.99% / AI语料 -0.20%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "通信技术/5G概念/光通信模块",
       "representative": "光通信模块",
-      "change_pct": 2.84,
+      "change_pct": 2.58,
       "constituents": 441,
-      "members": "光通信模块 +2.84% / 5G概念 +1.91% / 通信技术 +1.81%",
+      "members": "光通信模块 +2.58% / 5G概念 +1.66% / 通信技术 +1.55%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "被动元件概念",
       "representative": "被动元件概念",
-      "change_pct": 2.66,
+      "change_pct": 2.42,
       "constituents": 30,
-      "members": "被动元件概念 +2.66%",
+      "members": "被动元件概念 +2.42%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": 2.48,
-      "constituents": 115,
-      "members": "先进封装 +2.48%",
+      "theme": "F5G概念",
+      "representative": "F5G概念",
+      "change_pct": 2.31,
+      "constituents": 26,
+      "members": "F5G概念 +2.31%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.34,
+      "avg_change_pct": 3.04,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.94,
+      "avg_change_pct": 2.75,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.84,
+      "avg_change_pct": 2.58,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.66,
+      "avg_change_pct": 2.42,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "先进封装",
+      "theme": "F5G概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.48,
+      "avg_change_pct": 2.31,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
