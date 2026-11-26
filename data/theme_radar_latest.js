@@ -1,70 +1,140 @@
 window.THEME_RADAR_DATA = {
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T15:10:02+08:00",
-  "source": "归档 / 当日题材强度",
-  "source_kind": "archive",
-  "period_label": "11-25收盘",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T09:28:18+08:00",
+  "source": "今日盘中 / 当日题材强度",
+  "source_kind": "intraday",
+  "period_label": "11-26午盘",
   "daily_top": [
     {
-      "date": "2026-11-25",
-      "theme": "退税商店",
-      "representative": "退税商店",
-      "change_pct": 2.14,
-      "constituents": 21,
-      "members": "退税商店 +2.14%",
+      "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "卫星互联网",
+      "change_pct": 2.78,
+      "constituents": 434,
+      "members": "卫星互联网 +2.78% / 空间站概念 +2.22% / 商业航天 +2.18% / 卫星导航 +2.00% / 航天航空 +1.89%",
       "rank": 1
     },
     {
-      "date": "2026-11-25",
-      "theme": "肝素概念",
-      "representative": "肝素概念",
-      "change_pct": 0.9,
-      "constituents": 13,
-      "members": "肝素概念 +0.90%",
+      "date": "2026-11-26",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 2.77,
+      "constituents": 51,
+      "members": "6G概念 +2.77%",
       "rank": 2
     },
     {
-      "date": "2026-11-25",
-      "theme": "青蒿素",
-      "representative": "青蒿素",
-      "change_pct": 0.88,
-      "constituents": 11,
-      "members": "青蒿素 +0.88%",
+      "date": "2026-11-26",
+      "theme": "UWB概念",
+      "representative": "UWB概念",
+      "change_pct": 2.38,
+      "constituents": 19,
+      "members": "UWB概念 +2.38%",
       "rank": 3
     },
     {
-      "date": "2026-11-25",
-      "theme": "医药电商",
-      "representative": "医药电商",
-      "change_pct": 0.61,
-      "constituents": 66,
-      "members": "医药电商 +0.61%",
+      "date": "2026-11-26",
+      "theme": "毫米波概念",
+      "representative": "毫米波概念",
+      "change_pct": 2.38,
+      "constituents": 56,
+      "members": "毫米波概念 +2.38%",
       "rank": 4
     },
     {
-      "date": "2026-11-25",
-      "theme": "独家药品/特色药",
-      "representative": "特色药",
-      "change_pct": 0.48,
-      "constituents": 57,
-      "members": "特色药 +0.48% / 独家药品 +0.45%",
+      "date": "2026-11-26",
+      "theme": "WiFi",
+      "representative": "WiFi",
+      "change_pct": 2.11,
+      "constituents": 41,
+      "members": "WiFi +2.11%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.46,
+      "avg_rank": 2.5,
+      "latest_rank": 1,
+      "dates": "11-26、11-24"
+    },
+    {
       "theme": "机器人",
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.28,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
+      "avg_change_pct": 4.49,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-24、11-23"
     },
     {
-      "theme": "退税商店",
+      "theme": "6G概念",
       "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.77,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-26"
+    },
+    {
+      "theme": "UWB概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.38,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-26"
+    },
+    {
+      "theme": "毫米波概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.38,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-26"
+    },
+    {
+      "theme": "WiFi",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.11,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
+      "dates": "11-26"
+    },
+    {
+      "theme": "物理AI",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 7.83,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-23"
+    },
+    {
+      "theme": "金属铜/金属铅/金属镍",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.94,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-24"
+    },
+    {
+      "theme": "退税商店",
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 2.14,
@@ -73,8 +143,38 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
+      "theme": "大盘价值",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": -0.08,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-20"
+    },
+    {
+      "theme": "AI视频",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.83,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-23"
+    },
+    {
+      "theme": "屏下摄像/3D摄像头",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 2.6,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-24"
+    },
+    {
       "theme": "肝素概念",
-      "current_streak": 1,
+      "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 0.9,
@@ -83,87 +183,7 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "青蒿素",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.88,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-25"
-    },
-    {
-      "theme": "医药电商",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.61,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-25"
-    },
-    {
-      "theme": "独家药品/特色药",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.48,
-      "avg_rank": 5.0,
-      "latest_rank": 5,
-      "dates": "11-25"
-    },
-    {
-      "theme": "屏下摄像/3D摄像头",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.6,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-24"
-    },
-    {
-      "theme": "第四代半导体",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.18,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-19"
-    },
-    {
-      "theme": "大盘价值",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -0.12,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-20"
-    },
-    {
-      "theme": "物理AI",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.67,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-23"
-    },
-    {
-      "theme": "大基金持股",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.66,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-19"
-    },
-    {
-      "theme": "低碳冶金",
+      "theme": "鸡肉概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
@@ -173,37 +193,17 @@ window.THEME_RADAR_DATA = {
       "dates": "11-20"
     },
     {
-      "theme": "AI视频",
+      "theme": "青蒿素",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.83,
+      "avg_change_pct": 0.88,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-23"
+      "dates": "11-25"
     },
     {
-      "theme": "智能音箱",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.5,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-24"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 0.28,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-19"
-    },
-    {
-      "theme": "鸡肉概念",
+      "theme": "猪肉概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
@@ -223,64 +223,54 @@ window.THEME_RADAR_DATA = {
       "dates": "11-23"
     },
     {
-      "theme": "无线耳机/无线充电",
+      "theme": "医药电商",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 0.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
-      "dates": "11-24"
+      "dates": "11-25"
     },
     {
-      "theme": "光刻胶",
+      "theme": "转基因",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.26,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-19"
-    },
-    {
-      "theme": "猪肉概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.07,
+      "avg_change_pct": -1.1,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-20"
     },
     {
-      "theme": "玻璃基板/3D玻璃",
+      "theme": "AI算力",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": 6.11,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
     },
     {
-      "theme": "商业航天",
+      "theme": "无线耳机/无线充电",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 2.09,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
     },
     {
-      "theme": "中芯概念",
+      "theme": "独家药品/特色药",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.2,
+      "avg_change_pct": 0.48,
       "avg_rank": 5.0,
       "latest_rank": 5,
-      "dates": "11-19"
+      "dates": "11-25"
     },
     {
       "theme": "水产概念",
