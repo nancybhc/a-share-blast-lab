@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:49:23+08:00",
+  "generated_at": "2026-11-26T10:50:22+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 3.46,
+      "change_pct": 3.08,
       "constituents": 97,
-      "members": "金属铅 +3.46% / 金属铜 +2.84% / 金属镍 +2.79% / 金属钴 +2.38%",
+      "members": "金属铅 +3.08% / 金属镍 +2.53% / 金属铜 +2.51% / 金属钴 +1.95%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 3.17,
+      "change_pct": 2.9,
       "constituents": 51,
-      "members": "6G概念 +3.17%",
+      "members": "6G概念 +2.90%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 3.06,
-      "constituents": 434,
-      "members": "空间站概念 +3.06% / 卫星互联网 +2.30% / 商业航天 +1.83% / 卫星导航 +1.47% / 航天航空 +1.07%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "黄金概念",
-      "representative": "黄金概念",
-      "change_pct": 3.04,
-      "constituents": 76,
-      "members": "黄金概念 +3.04%",
-      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 3.04,
+      "change_pct": 2.86,
       "constituents": 18,
-      "members": "水产概念 +3.04%",
+      "members": "水产概念 +2.86%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 2.81,
+      "constituents": 434,
+      "members": "空间站概念 +2.81% / 卫星互联网 +2.03% / 商业航天 +1.60% / 卫星导航 +1.22% / 航天航空 +0.87%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "黄金概念",
+      "representative": "黄金概念",
+      "change_pct": 2.68,
+      "constituents": 76,
+      "members": "黄金概念 +2.68%",
       "rank": 5
     }
   ],
@@ -57,19 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.2,
+      "avg_change_pct": 3.01,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-26、11-24"
-    },
-    {
-      "theme": "商业航天",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.6,
-      "avg_rank": 4.0,
-      "latest_rank": 3,
       "dates": "11-26、11-24"
     },
     {
@@ -77,10 +67,20 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.92,
-      "avg_rank": 4.5,
-      "latest_rank": 5,
+      "avg_change_pct": 0.83,
+      "avg_rank": 3.5,
+      "latest_rank": 3,
       "dates": "11-26、11-20"
+    },
+    {
+      "theme": "商业航天",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 2.48,
+      "avg_rank": 4.5,
+      "latest_rank": 4,
+      "dates": "11-26、11-24"
     },
     {
       "theme": "机器人",
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.17,
+      "avg_change_pct": 2.9,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -107,9 +107,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.04,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
+      "avg_change_pct": 2.68,
+      "avg_rank": 5.0,
+      "latest_rank": 5,
       "dates": "11-26"
     },
     {
