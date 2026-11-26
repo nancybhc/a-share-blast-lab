@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:16:34+08:00",
+  "generated_at": "2026-11-26T13:18:32+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 2.77,
+      "change_pct": 2.94,
       "constituents": 51,
-      "members": "6G概念 +2.77%",
+      "members": "6G概念 +2.94%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "金属铜/金属铅/金属镍",
-      "representative": "金属镍",
-      "change_pct": 2.7,
-      "constituents": 97,
-      "members": "金属镍 +2.70% / 金属铅 +2.52% / 金属铜 +2.10% / 金属钴 +1.60%",
-      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.68,
+      "change_pct": 2.87,
       "constituents": 26,
-      "members": "F5G概念 +2.68%",
-      "rank": 3
+      "members": "F5G概念 +2.87%",
+      "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "商业航天",
       "representative": "空间站概念",
-      "change_pct": 2.5,
+      "change_pct": 2.73,
       "constituents": 434,
-      "members": "空间站概念 +2.50% / 卫星互联网 +1.67% / 商业航天 +1.33% / 卫星导航 +0.82% / 航天航空 +0.48%",
+      "members": "空间站概念 +2.73% / 卫星互联网 +1.84% / 商业航天 +1.51% / 卫星导航 +1.04% / 航天航空 +0.65%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "金属铜/金属铅/金属镍",
+      "representative": "金属镍",
+      "change_pct": 2.71,
+      "constituents": 97,
+      "members": "金属镍 +2.71% / 金属铅 +2.44% / 金属铜 +2.10% / 金属钴 +1.45%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "纳米银",
-      "representative": "纳米银",
-      "change_pct": 2.37,
-      "constituents": 10,
-      "members": "纳米银 +2.37%",
+      "theme": "铜缆高速连接",
+      "representative": "铜缆高速连接",
+      "change_pct": 2.63,
+      "constituents": 41,
+      "members": "铜缆高速连接 +2.63%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.82,
-      "avg_rank": 1.5,
-      "latest_rank": 2,
+      "avg_change_pct": 2.83,
+      "avg_rank": 2.5,
+      "latest_rank": 4,
       "dates": "11-26、11-24"
     },
     {
@@ -67,9 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.33,
-      "avg_rank": 4.5,
-      "latest_rank": 4,
+      "avg_change_pct": 2.44,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-26、11-24"
     },
     {
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.77,
+      "avg_change_pct": 2.94,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.68,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.87,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-26"
     },
     {
-      "theme": "纳米银",
+      "theme": "铜缆高速连接",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.37,
+      "avg_change_pct": 2.63,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
