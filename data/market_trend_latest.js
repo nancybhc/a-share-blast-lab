@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 13:51",
-  "reportGeneratedAt": "2026-11-26 13:51",
+  "generatedAt": "2026-11-26 13:52",
+  "reportGeneratedAt": "2026-11-26 13:52",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
@@ -13,7 +13,7 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 945,
     "positiveGroups": 12,
     "negativeGroups": 5,
-    "positiveTransitions": 41,
+    "positiveTransitions": 43,
     "negativeTransitions": 30
   },
   "phaseLegend": [
@@ -226,6 +226,96 @@ window.MARKET_TREND_DATA = {
           "turnBear": 0,
           "bear": 16,
           "bullPct": 9.09
+        }
+      ]
+    },
+    {
+      "name": "机器人",
+      "date": "2026-11-26",
+      "total": 58,
+      "bull": 5,
+      "turnBull": 18,
+      "turnBear": 2,
+      "bear": 33,
+      "newBull": 3,
+      "confirm": 2,
+      "direct": 0,
+      "positive": 5,
+      "negative": 1,
+      "bullPct": 8.62,
+      "state": "转多确认",
+      "action": "修复进入确认，观察扩散",
+      "change": "多 3→5；空转多 20→18；多转空 0→2；空 35→33",
+      "id": "robot",
+      "code": "ROBOTICS",
+      "score": 10.3,
+      "fulfilled": 2,
+      "netBias": -28,
+      "phase": "温和修复",
+      "badge": "边际改善",
+      "tone": "amber",
+      "setup": "18",
+      "setupCaption": "空转多候选",
+      "confirmValue": "2",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 5/58，空头 33；空转多候选 18，今日转多确认 2，反向转空 2。多 3→5；空转多 20→18；多转空 0→2；空 35→33，修复进入确认，观察扩散。",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 10,
+          "bear": 48,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 2,
+          "bear": 55,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 2,
+          "bear": 56,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 0,
+          "turnBull": 9,
+          "turnBear": 0,
+          "bear": 49,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 2,
+          "turnBull": 34,
+          "turnBear": 0,
+          "bear": 22,
+          "bullPct": 3.45
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 3,
+          "turnBull": 20,
+          "turnBear": 0,
+          "bear": 35,
+          "bullPct": 5.17
+        },
+        {
+          "date": "2026-11-26",
+          "total": 58,
+          "bull": 5,
+          "turnBull": 18,
+          "turnBear": 2,
+          "bear": 33,
+          "bullPct": 8.62
         }
       ]
     },
@@ -590,92 +680,92 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "机器人",
+      "name": "金属矿业",
       "date": "2026-11-26",
-      "total": 58,
-      "bull": 4,
-      "turnBull": 19,
-      "turnBear": 2,
-      "bear": 33,
-      "newBull": 3,
-      "confirm": 1,
+      "total": 39,
+      "bull": 0,
+      "turnBull": 3,
+      "turnBear": 0,
+      "bear": 36,
+      "newBull": 2,
+      "confirm": 0,
       "direct": 0,
-      "positive": 4,
-      "negative": 1,
-      "bullPct": 6.9,
-      "state": "转多确认",
-      "action": "修复进入确认，观察扩散",
-      "change": "多 3→4；空转多 20→19；多转空 0→2；空 35→33",
-      "id": "robot",
-      "code": "ROBOTICS",
-      "score": 6.9,
-      "fulfilled": 1,
-      "netBias": -29,
+      "positive": 2,
+      "negative": 0,
+      "bullPct": 0.0,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 0→0；空转多 1→3；多转空 0→0；空 38→36",
+      "id": "metal-mining",
+      "code": "METAL MINING",
+      "score": 5.1,
+      "fulfilled": 0,
+      "netBias": -36,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "19",
+      "setup": "3",
       "setupCaption": "空转多候选",
-      "confirmValue": "1",
+      "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 4/58，空头 33；空转多候选 19，今日转多确认 1，反向转空 2。多 3→4；空转多 20→19；多转空 0→2；空 35→33，修复进入确认，观察扩散。",
+      "thesis": "多头 0/39，空头 36；空转多候选 3，今日转多确认 0，反向转空 0。多 0→0；空转多 1→3；多转空 0→0；空 38→36，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-18",
           "bull": 0,
           "turnBull": 0,
-          "turnBear": 10,
-          "bear": 48,
+          "turnBear": 1,
+          "bear": 38,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-19",
           "bull": 0,
           "turnBull": 1,
-          "turnBear": 2,
-          "bear": 55,
+          "turnBear": 0,
+          "bear": 38,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-20",
           "bull": 0,
-          "turnBull": 0,
-          "turnBear": 2,
-          "bear": 56,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 38,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-23",
           "bull": 0,
-          "turnBull": 9,
+          "turnBull": 0,
           "turnBear": 0,
-          "bear": 49,
+          "bear": 39,
           "bullPct": 0.0
         },
         {
           "date": "2026-11-24",
-          "bull": 2,
-          "turnBull": 34,
+          "bull": 0,
+          "turnBull": 2,
           "turnBear": 0,
-          "bear": 22,
-          "bullPct": 3.45
+          "bear": 37,
+          "bullPct": 0.0
         },
         {
           "date": "2026-11-25",
-          "bull": 3,
-          "turnBull": 20,
+          "bull": 0,
+          "turnBull": 1,
           "turnBear": 0,
-          "bear": 35,
-          "bullPct": 5.17
+          "bear": 38,
+          "bullPct": 0.0
         },
         {
           "date": "2026-11-26",
-          "total": 58,
-          "bull": 4,
-          "turnBull": 19,
-          "turnBear": 2,
-          "bear": 33,
-          "bullPct": 6.9
+          "total": 39,
+          "bull": 0,
+          "turnBull": 3,
+          "turnBear": 0,
+          "bear": 36,
+          "bullPct": 0.0
         }
       ]
     },
@@ -856,96 +946,6 @@ window.MARKET_TREND_DATA = {
           "turnBear": 3,
           "bear": 81,
           "bullPct": 1.01
-        }
-      ]
-    },
-    {
-      "name": "金属矿业",
-      "date": "2026-11-26",
-      "total": 39,
-      "bull": 0,
-      "turnBull": 2,
-      "turnBear": 0,
-      "bear": 37,
-      "newBull": 1,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 1,
-      "negative": 0,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 1→2；多转空 0→0；空 38→37",
-      "id": "metal-mining",
-      "code": "METAL MINING",
-      "score": 2.6,
-      "fulfilled": 0,
-      "netBias": -37,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "2",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/39，空头 37；空转多候选 2，今日转多确认 0，反向转空 0。多 0→0；空转多 1→2；多转空 0→0；空 38→37，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 38,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 38,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 38,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 39,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 0,
-          "turnBull": 2,
-          "turnBear": 0,
-          "bear": 37,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 38,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-26",
-          "total": 39,
-          "bull": 0,
-          "turnBull": 2,
-          "turnBear": 0,
-          "bear": 37,
-          "bullPct": 0.0
         }
       ]
     },
