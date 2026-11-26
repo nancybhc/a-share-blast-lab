@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:38:37+08:00",
+  "generated_at": "2026-11-26T10:39:44+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 3.53,
+      "change_pct": 3.42,
       "constituents": 97,
-      "members": "金属铅 +3.53% / 金属铜 +3.01% / 金属镍 +2.98% / 金属钴 +2.79%",
+      "members": "金属铅 +3.42% / 金属镍 +2.89% / 金属铜 +2.89% / 金属钴 +2.65%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 3.46,
+      "change_pct": 3.41,
       "constituents": 18,
-      "members": "水产概念 +3.46%",
+      "members": "水产概念 +3.41%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "黄金概念",
       "representative": "黄金概念",
-      "change_pct": 3.19,
+      "change_pct": 3.11,
       "constituents": 76,
-      "members": "黄金概念 +3.19%",
+      "members": "黄金概念 +3.11%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 3.04,
+      "change_pct": 2.8,
       "constituents": 215,
-      "members": "PCB +3.04%",
+      "members": "PCB +2.80%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 2.77,
-      "constituents": 51,
-      "members": "6G概念 +2.77%",
+      "theme": "民爆概念",
+      "representative": "民爆概念",
+      "change_pct": 2.52,
+      "constituents": 22,
+      "members": "民爆概念 +2.52%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 3.23,
+      "avg_change_pct": 3.18,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.13,
+      "avg_change_pct": 1.1,
       "avg_rank": 3.0,
       "latest_rank": 2,
       "dates": "11-26、11-20"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.19,
+      "avg_change_pct": 3.11,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.04,
+      "avg_change_pct": 2.8,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "6G概念",
+      "theme": "民爆概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.77,
+      "avg_change_pct": 2.52,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
