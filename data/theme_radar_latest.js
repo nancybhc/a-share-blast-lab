@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:37:06+08:00",
+  "generated_at": "2026-11-26T09:38:34+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 2.26,
+      "change_pct": 2.62,
       "constituents": 18,
-      "members": "水产概念 +2.26%",
+      "members": "水产概念 +2.62%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属钴",
-      "change_pct": 1.82,
+      "change_pct": 1.99,
       "constituents": 97,
-      "members": "金属钴 +1.82% / 金属镍 +1.07% / 金属铅 +1.03% / 金属铜 +0.92%",
+      "members": "金属钴 +1.99% / 金属镍 +1.26% / 金属铅 +1.24% / 金属铜 +1.13%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.61,
+      "change_pct": 1.83,
       "constituents": 30,
-      "members": "资源开采概念 +1.61%",
+      "members": "资源开采概念 +1.83%",
       "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "碳纤维",
+      "representative": "碳纤维",
+      "change_pct": 1.34,
+      "constituents": 46,
+      "members": "碳纤维 +1.34%",
+      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "6G概念",
       "representative": "6G概念",
-      "change_pct": 1.15,
+      "change_pct": 1.29,
       "constituents": 51,
-      "members": "6G概念 +1.15%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "煤化工概念",
-      "representative": "煤化工概念",
-      "change_pct": 1.09,
-      "constituents": 80,
-      "members": "煤化工概念 +1.09%",
+      "members": "6G概念 +1.29%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.38,
+      "avg_change_pct": 2.46,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.53,
+      "avg_change_pct": 0.71,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -87,9 +87,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.61,
+      "avg_change_pct": 1.83,
       "avg_rank": 3.0,
       "latest_rank": 3,
+      "dates": "11-26"
+    },
+    {
+      "theme": "碳纤维",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.34,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -97,17 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.15,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-26"
-    },
-    {
-      "theme": "煤化工概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.09,
+      "avg_change_pct": 1.29,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
