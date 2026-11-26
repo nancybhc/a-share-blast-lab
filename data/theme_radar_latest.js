@@ -1,65 +1,75 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:33:03+08:00",
+  "generated_at": "2026-11-26T09:34:00+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
   "daily_top": [
     {
       "date": "2026-11-26",
-      "theme": "商业航天",
-      "representative": "空间站概念",
-      "change_pct": 2.18,
-      "constituents": 434,
-      "members": "空间站概念 +2.18% / 卫星互联网 +2.03% / 航天航空 +1.87% / 商业航天 +1.77% / 卫星导航 +1.34%",
+      "theme": "6G概念",
+      "representative": "6G概念",
+      "change_pct": 2.13,
+      "constituents": 51,
+      "members": "6G概念 +2.13%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
-      "theme": "6G概念",
-      "representative": "6G概念",
-      "change_pct": 2.17,
-      "constituents": 51,
-      "members": "6G概念 +2.17%",
+      "theme": "水产概念",
+      "representative": "水产概念",
+      "change_pct": 1.96,
+      "constituents": 18,
+      "members": "水产概念 +1.96%",
       "rank": 2
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "商业航天",
+      "representative": "空间站概念",
+      "change_pct": 1.91,
+      "constituents": 434,
+      "members": "空间站概念 +1.91% / 卫星互联网 +1.85% / 商业航天 +1.58% / 航天航空 +1.58% / 卫星导航 +1.14%",
+      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "碳纤维",
       "representative": "碳纤维",
-      "change_pct": 2.0,
+      "change_pct": 1.86,
       "constituents": 46,
-      "members": "碳纤维 +2.00%",
-      "rank": 3
+      "members": "碳纤维 +1.86%",
+      "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "AI算力",
       "representative": "CPO概念",
-      "change_pct": 1.82,
+      "change_pct": 1.81,
       "constituents": 600,
-      "members": "CPO概念 +1.82% / 数据中心 +0.56% / 算力概念 +0.43% / AI语料 -0.23%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "被动元件概念",
-      "representative": "被动元件概念",
-      "change_pct": 1.8,
-      "constituents": 30,
-      "members": "被动元件概念 +1.80%",
+      "members": "CPO概念 +1.81% / 数据中心 +0.32% / 算力概念 +0.20% / AI语料 -0.24%",
       "rank": 5
     }
   ],
   "five_day": [
     {
+      "theme": "水产概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 2,
+      "avg_change_pct": 0.38,
+      "avg_rank": 3.0,
+      "latest_rank": 2,
+      "dates": "11-26、11-20"
+    },
+    {
       "theme": "商业航天",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.17,
-      "avg_rank": 3.0,
-      "latest_rank": 1,
+      "avg_change_pct": 2.03,
+      "avg_rank": 4.0,
+      "latest_rank": 3,
       "dates": "11-26、11-24"
     },
     {
@@ -77,9 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.17,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 2.13,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-26"
     },
     {
@@ -87,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.0,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 1.86,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -97,17 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.82,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-26"
-    },
-    {
-      "theme": "被动元件概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 1.8,
+      "avg_change_pct": 1.81,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
@@ -241,16 +241,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
-    },
-    {
-      "theme": "水产概念",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": -1.2,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-20"
     },
     {
       "theme": "玻璃基板/3D玻璃",
