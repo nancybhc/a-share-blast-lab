@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T10:32:22+08:00",
+  "generated_at": "2026-11-26T10:33:48+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 3.22,
+      "change_pct": 3.21,
       "constituents": 18,
-      "members": "水产概念 +3.22%",
+      "members": "水产概念 +3.21%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "PCB",
       "representative": "PCB",
-      "change_pct": 2.91,
+      "change_pct": 2.77,
       "constituents": 215,
-      "members": "PCB +2.91%",
+      "members": "PCB +2.77%",
       "rank": 2
-    },
-    {
-      "date": "2026-11-26",
-      "theme": "AI算力",
-      "representative": "CPO概念",
-      "change_pct": 2.72,
-      "constituents": 600,
-      "members": "CPO概念 +2.72% / 数据中心 +1.21% / 算力概念 +1.19% / AI语料 -0.20%",
-      "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属铅",
-      "change_pct": 2.68,
+      "change_pct": 2.64,
       "constituents": 97,
-      "members": "金属铅 +2.68% / 金属镍 +2.32% / 金属铜 +2.29% / 金属钴 +2.16%",
+      "members": "金属铅 +2.64% / 金属镍 +2.32% / 金属铜 +2.25% / 金属钴 +2.09%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "AI算力",
+      "representative": "CPO概念",
+      "change_pct": 2.58,
+      "constituents": 600,
+      "members": "CPO概念 +2.58% / 数据中心 +1.15% / 算力概念 +1.08% / AI语料 -0.24%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
       "theme": "F5G概念",
       "representative": "F5G概念",
-      "change_pct": 2.61,
+      "change_pct": 2.47,
       "constituents": 26,
-      "members": "F5G概念 +2.61%",
+      "members": "F5G概念 +2.47%",
       "rank": 5
     }
   ],
@@ -57,9 +57,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.81,
-      "avg_rank": 2.5,
-      "latest_rank": 4,
+      "avg_change_pct": 2.79,
+      "avg_rank": 2.0,
+      "latest_rank": 3,
       "dates": "11-26、11-24"
     },
     {
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 1.01,
+      "avg_change_pct": 1.0,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.91,
+      "avg_change_pct": 2.77,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -97,9 +97,9 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.72,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 2.58,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-26"
     },
     {
@@ -107,7 +107,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.61,
+      "avg_change_pct": 2.47,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
