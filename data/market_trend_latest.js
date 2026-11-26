@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-26",
-  "generatedAt": "2026-11-26 14:15",
-  "reportGeneratedAt": "2026-11-26 14:15",
+  "generatedAt": "2026-11-26 14:16",
+  "reportGeneratedAt": "2026-11-26 14:16",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-26.xlsx",
@@ -13,7 +13,7 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 945,
     "positiveGroups": 11,
     "negativeGroups": 5,
-    "positiveTransitions": 37,
+    "positiveTransitions": 36,
     "negativeTransitions": 32
   },
   "phaseLegend": [
@@ -230,96 +230,6 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "AI应用",
-      "date": "2026-11-26",
-      "total": 62,
-      "bull": 3,
-      "turnBull": 6,
-      "turnBear": 1,
-      "bear": 52,
-      "newBull": 4,
-      "confirm": 1,
-      "direct": 0,
-      "positive": 5,
-      "negative": 0,
-      "bullPct": 4.84,
-      "state": "转多确认",
-      "action": "修复进入确认，观察扩散",
-      "change": "多 2→3；空转多 4→6；多转空 0→1；空 56→52",
-      "id": "ai-app",
-      "code": "AI APPS",
-      "score": 9.7,
-      "fulfilled": 1,
-      "netBias": -49,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "6",
-      "setupCaption": "空转多候选",
-      "confirmValue": "1",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 3/62，空头 52；空转多候选 6，今日转多确认 1，反向转空 1。多 2→3；空转多 4→6；多转空 0→1；空 56→52，修复进入确认，观察扩散。",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "bull": 3,
-          "turnBull": 0,
-          "turnBear": 8,
-          "bear": 51,
-          "bullPct": 4.84
-        },
-        {
-          "date": "2026-11-19",
-          "bull": 2,
-          "turnBull": 1,
-          "turnBear": 4,
-          "bear": 55,
-          "bullPct": 3.23
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 2,
-          "turnBear": 3,
-          "bear": 57,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 1,
-          "turnBull": 5,
-          "turnBear": 3,
-          "bear": 53,
-          "bullPct": 1.61
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 1,
-          "turnBull": 8,
-          "turnBear": 2,
-          "bear": 51,
-          "bullPct": 1.61
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 2,
-          "turnBull": 4,
-          "turnBear": 0,
-          "bear": 56,
-          "bullPct": 3.23
-        },
-        {
-          "date": "2026-11-26",
-          "total": 62,
-          "bull": 3,
-          "turnBull": 6,
-          "turnBear": 1,
-          "bear": 52,
-          "bullPct": 4.84
-        }
-      ]
-    },
-    {
       "name": "PCB",
       "date": "2026-11-26",
       "total": 69,
@@ -406,6 +316,96 @@ window.MARKET_TREND_DATA = {
           "turnBear": 5,
           "bear": 46,
           "bullPct": 5.8
+        }
+      ]
+    },
+    {
+      "name": "AI应用",
+      "date": "2026-11-26",
+      "total": 62,
+      "bull": 3,
+      "turnBull": 5,
+      "turnBear": 1,
+      "bear": 53,
+      "newBull": 3,
+      "confirm": 1,
+      "direct": 0,
+      "positive": 4,
+      "negative": 0,
+      "bullPct": 4.84,
+      "state": "转多确认",
+      "action": "修复进入确认，观察扩散",
+      "change": "多 2→3；空转多 4→5；多转空 0→1；空 56→53",
+      "id": "ai-app",
+      "code": "AI APPS",
+      "score": 8.1,
+      "fulfilled": 1,
+      "netBias": -50,
+      "phase": "温和修复",
+      "badge": "边际改善",
+      "tone": "amber",
+      "setup": "5",
+      "setupCaption": "空转多候选",
+      "confirmValue": "1",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 3/62，空头 53；空转多候选 5，今日转多确认 1，反向转空 1。多 2→3；空转多 4→5；多转空 0→1；空 56→53，修复进入确认，观察扩散。",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "bull": 3,
+          "turnBull": 0,
+          "turnBear": 8,
+          "bear": 51,
+          "bullPct": 4.84
+        },
+        {
+          "date": "2026-11-19",
+          "bull": 2,
+          "turnBull": 1,
+          "turnBear": 4,
+          "bear": 55,
+          "bullPct": 3.23
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 2,
+          "turnBear": 3,
+          "bear": 57,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 1,
+          "turnBull": 5,
+          "turnBear": 3,
+          "bear": 53,
+          "bullPct": 1.61
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 1,
+          "turnBull": 8,
+          "turnBear": 2,
+          "bear": 51,
+          "bullPct": 1.61
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 2,
+          "turnBull": 4,
+          "turnBear": 0,
+          "bear": 56,
+          "bullPct": 3.23
+        },
+        {
+          "date": "2026-11-26",
+          "total": 62,
+          "bull": 3,
+          "turnBull": 5,
+          "turnBear": 1,
+          "bear": 53,
+          "bullPct": 4.84
         }
       ]
     },
