@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T09:40:21+08:00",
+  "generated_at": "2026-11-26T09:42:08+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-26午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-26",
       "theme": "水产概念",
       "representative": "水产概念",
-      "change_pct": 1.92,
+      "change_pct": 2.03,
       "constituents": 18,
-      "members": "水产概念 +1.92%",
+      "members": "水产概念 +2.03%",
       "rank": 1
     },
     {
       "date": "2026-11-26",
       "theme": "金属铜/金属铅/金属镍",
       "representative": "金属钴",
-      "change_pct": 1.52,
+      "change_pct": 1.79,
       "constituents": 97,
-      "members": "金属钴 +1.52% / 金属镍 +0.84% / 金属铅 +0.78% / 金属铜 +0.72%",
+      "members": "金属钴 +1.79% / 金属镍 +1.17% / 金属铅 +1.01% / 金属铜 +0.90%",
       "rank": 2
     },
     {
       "date": "2026-11-26",
       "theme": "资源开采概念",
       "representative": "资源开采概念",
-      "change_pct": 1.52,
+      "change_pct": 1.59,
       "constituents": 30,
-      "members": "资源开采概念 +1.52%",
+      "members": "资源开采概念 +1.59%",
       "rank": 3
     },
     {
       "date": "2026-11-26",
       "theme": "煤化工概念",
       "representative": "煤化工概念",
-      "change_pct": 1.18,
+      "change_pct": 1.31,
       "constituents": 80,
-      "members": "煤化工概念 +1.18%",
+      "members": "煤化工概念 +1.31%",
       "rank": 4
     },
     {
       "date": "2026-11-26",
-      "theme": "油气设服",
-      "representative": "油气设服",
-      "change_pct": 0.87,
-      "constituents": 54,
-      "members": "油气设服 +0.87%",
+      "theme": "船舶制造",
+      "representative": "船舶制造",
+      "change_pct": 1.1,
+      "constituents": 17,
+      "members": "船舶制造 +1.10%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 2.23,
+      "avg_change_pct": 2.37,
       "avg_rank": 1.5,
       "latest_rank": 2,
       "dates": "11-26、11-24"
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 2,
-      "avg_change_pct": 0.36,
+      "avg_change_pct": 0.41,
       "avg_rank": 2.5,
       "latest_rank": 1,
       "dates": "11-26、11-20"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.52,
+      "avg_change_pct": 1.59,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.18,
+      "avg_change_pct": 1.31,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
     },
     {
-      "theme": "油气设服",
+      "theme": "船舶制造",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.87,
+      "avg_change_pct": 1.1,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
