@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T13:14:22+08:00",
+  "generated_at": "2026-11-27T13:15:19+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 13.34,
+      "change_pct": 13.24,
       "constituents": 184,
-      "members": "华为欧拉 +13.34% / 华为昇腾 +10.80% / 华为鲲鹏 +9.74%",
+      "members": "华为欧拉 +13.24% / 华为昇腾 +10.80%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 12.6,
+      "change_pct": 12.55,
       "constituents": 28,
-      "members": "高带宽内存 +12.60%",
+      "members": "高带宽内存 +12.55%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 11.15,
+      "change_pct": 11.01,
       "constituents": 30,
-      "members": "大基金持股 +11.15%",
+      "members": "大基金持股 +11.01%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 11.07,
+      "change_pct": 10.98,
       "constituents": 324,
-      "members": "财税数字化 +11.07% / 鸿蒙概念 +8.49% / 国产软件 +8.26%",
+      "members": "财税数字化 +10.98% / 鸿蒙概念 +8.40% / 国产软件 +8.18%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
-      "theme": "先进封装",
-      "representative": "先进封装",
-      "change_pct": 10.55,
-      "constituents": 115,
-      "members": "先进封装 +10.55%",
+      "theme": "华为海思",
+      "representative": "华为海思",
+      "change_pct": 9.48,
+      "constituents": 46,
+      "members": "华为海思 +9.48%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 13.34,
+      "avg_change_pct": 13.24,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 12.6,
+      "avg_change_pct": 12.55,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 11.15,
+      "avg_change_pct": 11.01,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 11.07,
+      "avg_change_pct": 10.98,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
     },
     {
-      "theme": "先进封装",
+      "theme": "华为海思",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.55,
+      "avg_change_pct": 9.48,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
@@ -133,11 +133,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "噪声防治",
+      "theme": "AI算力",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.2,
+      "avg_change_pct": 6.11,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-23"
@@ -173,11 +173,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "AI算力",
+      "theme": "3D玻璃",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.11,
+      "avg_change_pct": 6.03,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -213,11 +213,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "3D玻璃",
+      "theme": "CRO",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": 5.67,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
@@ -253,11 +253,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "CRO",
+      "theme": "同步磁阻电机",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.67,
+      "avg_change_pct": 5.65,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
