@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T09:59:21+08:00",
+  "generated_at": "2026-11-27T10:00:21+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 6.6,
+      "change_pct": 7.12,
       "constituents": 184,
-      "members": "华为欧拉 +6.60% / 华为昇腾 +4.98% / 华为鲲鹏 +4.02%",
+      "members": "华为欧拉 +7.12% / 华为昇腾 +5.43% / 华为鲲鹏 +4.47%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 5.19,
+      "change_pct": 5.73,
       "constituents": 324,
-      "members": "财税数字化 +5.19% / 鸿蒙概念 +3.39% / 国产软件 +2.91%",
+      "members": "财税数字化 +5.73% / 鸿蒙概念 +3.86% / 国产软件 +3.36%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 3.91,
+      "change_pct": 4.3,
       "constituents": 123,
-      "members": "算力租赁 +3.91%",
+      "members": "算力租赁 +4.30%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "电子身份证",
       "representative": "电子身份证",
-      "change_pct": 3.73,
+      "change_pct": 4.1,
       "constituents": 38,
-      "members": "电子身份证 +3.73%",
+      "members": "电子身份证 +4.10%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
-      "theme": "移动支付/跨境支付",
-      "representative": "跨境支付",
-      "change_pct": 3.63,
-      "constituents": 119,
-      "members": "跨境支付 +3.63% / 移动支付 +2.52%",
+      "theme": "虚拟机器人",
+      "representative": "虚拟机器人",
+      "change_pct": 4.05,
+      "constituents": 16,
+      "members": "虚拟机器人 +4.05%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.6,
+      "avg_change_pct": 7.12,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.19,
+      "avg_change_pct": 5.73,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.91,
+      "avg_change_pct": 4.3,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.73,
+      "avg_change_pct": 4.1,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
     },
     {
-      "theme": "移动支付/跨境支付",
+      "theme": "虚拟机器人",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 3.63,
+      "avg_change_pct": 4.05,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
