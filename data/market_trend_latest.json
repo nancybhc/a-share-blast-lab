@@ -1,19 +1,19 @@
 {
   "dataDate": "2026-11-27",
-  "generatedAt": "2026-11-27 11:03",
-  "reportGeneratedAt": "2026-11-27 11:03",
+  "generatedAt": "2026-11-27 11:04",
+  "reportGeneratedAt": "2026-11-27 11:04",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-27.xlsx",
   "sourcePath": "C:\\Users\\jiach\\Desktop\\今日盘中\\多空趋势\\多空阶段_2026-11-27.xlsx",
   "sourceBrief": "",
-  "summary": "  AI硬件 · 近 7 个交易日（11-19 ~ 11-27）：多明显变多（+7 只）、空也在收（-171 只），可以慢慢介入｜多 20→27 只、空 278→107 只、空转多 13→188、多转空 19→8｜PCB 最明显：多 1→12 只、空 65→10 只",
+  "summary": "  AI硬件 · 近 7 个交易日（11-19 ~ 11-27）：多明显变多（+7 只）、空也在收（-171 只），可以慢慢介入｜多 20→27 只、空 278→107 只、空转多 13→187、多转空 19→9｜PCB 最明显：多 1→12 只、空 65→10 只",
   "overview": {
     "groups": 22,
     "uniqueStocks": 947,
     "positiveGroups": 22,
     "negativeGroups": 0,
-    "positiveTransitions": 412,
+    "positiveTransitions": 410,
     "negativeTransitions": 11
   },
   "phaseLegend": [
@@ -414,8 +414,8 @@
       "date": "2026-11-27",
       "total": 68,
       "bull": 12,
-      "turnBull": 44,
-      "turnBear": 2,
+      "turnBull": 43,
+      "turnBear": 3,
       "bear": 10,
       "newBull": 34,
       "confirm": 5,
@@ -425,7 +425,7 @@
       "bullPct": 17.65,
       "state": "转多确认",
       "action": "修复进入确认，观察扩散",
-      "change": "多 4→12；空转多 17→44；多转空 3→2；空 44→10",
+      "change": "多 4→12；空转多 17→43；多转空 3→3；空 44→10",
       "id": "pcb",
       "code": "PCB",
       "score": 64.7,
@@ -434,11 +434,11 @@
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
-      "setup": "44",
+      "setup": "43",
       "setupCaption": "空转多候选",
       "confirmValue": "5",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 12/68，空头 10；空转多候选 44，今日转多确认 5，反向转空 2。多 4→12；空转多 17→44；多转空 3→2；空 44→10，修复进入确认，观察扩散。",
+      "thesis": "多头 12/68，空头 10；空转多候选 43，今日转多确认 5，反向转空 3。多 4→12；空转多 17→43；多转空 3→3；空 44→10，修复进入确认，观察扩散。",
       "history": [
         {
           "date": "2026-11-19",
@@ -492,8 +492,8 @@
           "date": "2026-11-27",
           "total": 68,
           "bull": 12,
-          "turnBull": 44,
-          "turnBear": 2,
+          "turnBull": 43,
+          "turnBear": 3,
           "bear": 10,
           "bullPct": 17.65
         }
@@ -590,96 +590,6 @@
       ]
     },
     {
-      "name": "商业航天",
-      "date": "2026-11-27",
-      "total": 46,
-      "bull": 0,
-      "turnBull": 33,
-      "turnBear": 1,
-      "bear": 12,
-      "newBull": 28,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 28,
-      "negative": 0,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 5→33；多转空 1→1；空 40→12",
-      "id": "aerospace",
-      "code": "AEROSPACE",
-      "score": 60.9,
-      "fulfilled": 0,
-      "netBias": -12,
-      "phase": "转多兑现",
-      "badge": "扩散确认",
-      "tone": "lime",
-      "setup": "33",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/46，空头 12；空转多候选 33，今日转多确认 0，反向转空 1。多 0→0；空转多 5→33；多转空 1→1；空 40→12，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 45,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 45,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 45,
-          "bullPct": 2.17
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 1,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 44,
-          "bullPct": 2.17
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 1,
-          "bear": 44,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-26",
-          "bull": 0,
-          "turnBull": 5,
-          "turnBear": 1,
-          "bear": 40,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-27",
-          "total": 46,
-          "bull": 0,
-          "turnBull": 33,
-          "turnBear": 1,
-          "bear": 12,
-          "bullPct": 0.0
-        }
-      ]
-    },
-    {
       "name": "AI应用",
       "date": "2026-11-27",
       "total": 62,
@@ -766,6 +676,96 @@
           "turnBear": 1,
           "bear": 11,
           "bullPct": 1.61
+        }
+      ]
+    },
+    {
+      "name": "商业航天",
+      "date": "2026-11-27",
+      "total": 46,
+      "bull": 0,
+      "turnBull": 32,
+      "turnBear": 1,
+      "bear": 13,
+      "newBull": 27,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 27,
+      "negative": 0,
+      "bullPct": 0.0,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 0→0；空转多 5→32；多转空 1→1；空 40→13",
+      "id": "aerospace",
+      "code": "AEROSPACE",
+      "score": 58.7,
+      "fulfilled": 0,
+      "netBias": -13,
+      "phase": "转多兑现",
+      "badge": "扩散确认",
+      "tone": "lime",
+      "setup": "32",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/46，空头 13；空转多候选 32，今日转多确认 0，反向转空 1。多 0→0；空转多 5→32；多转空 1→1；空 40→13，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 45,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 45,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 1,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 45,
+          "bullPct": 2.17
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 44,
+          "bullPct": 2.17
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 1,
+          "bear": 44,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "bull": 0,
+          "turnBull": 5,
+          "turnBear": 1,
+          "bear": 40,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "total": 46,
+          "bull": 0,
+          "turnBull": 32,
+          "turnBear": 1,
+          "bear": 13,
+          "bullPct": 0.0
         }
       ]
     },
@@ -1854,31 +1854,31 @@
       "date": "2026-11-27",
       "total": 55,
       "bull": 0,
-      "turnBull": 5,
+      "turnBull": 4,
       "turnBear": 0,
-      "bear": 50,
-      "newBull": 5,
+      "bear": 51,
+      "newBull": 4,
       "confirm": 0,
       "direct": 0,
-      "positive": 5,
+      "positive": 4,
       "negative": 0,
       "bullPct": 0.0,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 0→5；多转空 0→0；空 55→50",
+      "change": "多 0→0；空转多 0→4；多转空 0→0；空 55→51",
       "id": "solid-state-battery",
       "code": "SOLID-STATE BATTERY",
-      "score": 9.1,
+      "score": 7.3,
       "fulfilled": 0,
-      "netBias": -50,
+      "netBias": -51,
       "phase": "温和修复",
       "badge": "边际改善",
       "tone": "amber",
-      "setup": "5",
+      "setup": "4",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/55，空头 50；空转多候选 5，今日转多确认 0，反向转空 0。多 0→0；空转多 0→5；多转空 0→0；空 55→50，候选回升，等待 5破10 推进。",
+      "thesis": "多头 0/55，空头 51；空转多候选 4，今日转多确认 0，反向转空 0。多 0→0；空转多 0→4；多转空 0→0；空 55→51，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-19",
@@ -1932,9 +1932,9 @@
           "date": "2026-11-27",
           "total": 55,
           "bull": 0,
-          "turnBull": 5,
+          "turnBull": 4,
           "turnBear": 0,
-          "bear": 50,
+          "bear": 51,
           "bullPct": 0.0
         }
       ]
