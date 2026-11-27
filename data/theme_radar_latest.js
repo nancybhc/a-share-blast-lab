@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T14:31:19+08:00",
+  "generated_at": "2026-11-27T14:33:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -18,18 +18,18 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 14.46,
+      "change_pct": 14.5,
       "constituents": 184,
-      "members": "华为欧拉 +14.46% / 华为昇腾 +12.26% / 华为鲲鹏 +11.04%",
+      "members": "华为欧拉 +14.50% / 华为昇腾 +12.29% / 华为鲲鹏 +11.09%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 14.11,
+      "change_pct": 14.13,
       "constituents": 30,
-      "members": "大基金持股 +14.11%",
+      "members": "大基金持股 +14.13%",
       "rank": 3
     },
     {
@@ -45,9 +45,9 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 11.85,
+      "change_pct": 11.88,
       "constituents": 324,
-      "members": "财税数字化 +11.85% / 国产软件 +9.79% / 鸿蒙概念 +9.77%",
+      "members": "财税数字化 +11.88% / 国产软件 +9.84% / 鸿蒙概念 +9.82%",
       "rank": 5
     }
   ],
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 14.46,
+      "avg_change_pct": 14.5,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 14.11,
+      "avg_change_pct": 14.13,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 11.85,
+      "avg_change_pct": 11.88,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
