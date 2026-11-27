@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T10:50:54+08:00",
+  "generated_at": "2026-11-27T10:52:18+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 8.34,
+      "change_pct": 8.59,
       "constituents": 184,
-      "members": "华为欧拉 +8.34% / 华为昇腾 +6.68% / 华为鲲鹏 +5.43%",
+      "members": "华为欧拉 +8.59% / 华为昇腾 +6.90% / 华为鲲鹏 +5.62%",
       "rank": 1
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "软件信创",
-      "representative": "财税数字化",
-      "change_pct": 6.67,
-      "constituents": 324,
-      "members": "财税数字化 +6.67% / 鸿蒙概念 +4.54% / 国产软件 +4.14%",
-      "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 6.65,
+      "change_pct": 7.29,
       "constituents": 28,
-      "members": "高带宽内存 +6.65%",
+      "members": "高带宽内存 +7.29%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "软件信创",
+      "representative": "财税数字化",
+      "change_pct": 6.83,
+      "constituents": 324,
+      "members": "财税数字化 +6.83% / 鸿蒙概念 +4.72% / 国产软件 +4.30%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 5.33,
+      "change_pct": 5.6,
       "constituents": 123,
-      "members": "算力租赁 +5.33%",
+      "members": "算力租赁 +5.60%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "华为海思",
       "representative": "华为海思",
-      "change_pct": 5.16,
+      "change_pct": 5.46,
       "constituents": 46,
-      "members": "华为海思 +5.16%",
+      "members": "华为海思 +5.46%",
       "rank": 5
     }
   ],
@@ -67,19 +67,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.34,
+      "avg_change_pct": 8.59,
       "avg_rank": 1.0,
       "latest_rank": 1,
-      "dates": "11-27"
-    },
-    {
-      "theme": "软件信创",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.67,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
       "dates": "11-27"
     },
     {
@@ -87,7 +77,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.65,
+      "avg_change_pct": 7.29,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-27"
+    },
+    {
+      "theme": "软件信创",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.83,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.33,
+      "avg_change_pct": 5.6,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.16,
+      "avg_change_pct": 5.46,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
