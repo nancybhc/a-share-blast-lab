@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-27",
-  "generatedAt": "2026-11-27 10:43",
-  "reportGeneratedAt": "2026-11-27 10:43",
+  "generatedAt": "2026-11-27 10:44",
+  "reportGeneratedAt": "2026-11-27 10:44",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-27.xlsx",
@@ -13,7 +13,7 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 947,
     "positiveGroups": 22,
     "negativeGroups": 0,
-    "positiveTransitions": 431,
+    "positiveTransitions": 433,
     "negativeTransitions": 11
   },
   "phaseLegend": [
@@ -410,96 +410,6 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
-      "name": "MLCC",
-      "date": "2026-11-27",
-      "total": 14,
-      "bull": 0,
-      "turnBull": 10,
-      "turnBear": 0,
-      "bear": 4,
-      "newBull": 10,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 10,
-      "negative": 0,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 0→10；多转空 0→0；空 14→4",
-      "id": "mlcc",
-      "code": "PASSIVE",
-      "score": 71.4,
-      "fulfilled": 0,
-      "netBias": -4,
-      "phase": "转多兑现",
-      "badge": "扩散确认",
-      "tone": "lime",
-      "setup": "10",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/14，空头 4；空转多候选 10，今日转多确认 0，反向转空 0。多 0→0；空转多 0→10；多转空 0→0；空 14→4，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 14,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 14,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 0,
-          "turnBull": 3,
-          "turnBear": 0,
-          "bear": 11,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 0,
-          "turnBull": 3,
-          "turnBear": 0,
-          "bear": 11,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 14,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-26",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 14,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-27",
-          "total": 14,
-          "bull": 0,
-          "turnBull": 10,
-          "turnBear": 0,
-          "bear": 4,
-          "bullPct": 0.0
-        }
-      ]
-    },
-    {
       "name": "PCB",
       "date": "2026-11-27",
       "total": 68,
@@ -590,35 +500,125 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
+      "name": "MLCC",
+      "date": "2026-11-27",
+      "total": 14,
+      "bull": 0,
+      "turnBull": 9,
+      "turnBear": 0,
+      "bear": 5,
+      "newBull": 9,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 9,
+      "negative": 0,
+      "bullPct": 0.0,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 0→0；空转多 0→9；多转空 0→0；空 14→5",
+      "id": "mlcc",
+      "code": "PASSIVE",
+      "score": 64.3,
+      "fulfilled": 0,
+      "netBias": -5,
+      "phase": "转多兑现",
+      "badge": "扩散确认",
+      "tone": "lime",
+      "setup": "9",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/14，空头 5；空转多候选 9，今日转多确认 0，反向转空 0。多 0→0；空转多 0→9；多转空 0→0；空 14→5，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 14,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 14,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 0,
+          "turnBull": 3,
+          "turnBear": 0,
+          "bear": 11,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 0,
+          "turnBull": 3,
+          "turnBear": 0,
+          "bear": 11,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 14,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 14,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "total": 14,
+          "bull": 0,
+          "turnBull": 9,
+          "turnBear": 0,
+          "bear": 5,
+          "bullPct": 0.0
+        }
+      ]
+    },
+    {
       "name": "AI应用",
       "date": "2026-11-27",
       "total": 62,
       "bull": 1,
-      "turnBull": 50,
+      "turnBull": 51,
       "turnBear": 1,
-      "bear": 10,
-      "newBull": 38,
+      "bear": 9,
+      "newBull": 39,
       "confirm": 0,
       "direct": 0,
-      "positive": 38,
+      "positive": 39,
       "negative": 0,
       "bullPct": 1.61,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 3→1；空转多 10→50；多转空 1→1；空 48→10",
+      "change": "多 3→1；空转多 10→51；多转空 1→1；空 48→9",
       "id": "ai-app",
       "code": "AI APPS",
-      "score": 61.3,
+      "score": 62.9,
       "fulfilled": 0,
-      "netBias": -9,
+      "netBias": -8,
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
-      "setup": "50",
+      "setup": "51",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 1/62，空头 10；空转多候选 50，今日转多确认 0，反向转空 1。多 3→1；空转多 10→50；多转空 1→1；空 48→10，候选回升，等待 5破10 推进。",
+      "thesis": "多头 1/62，空头 9；空转多候选 51，今日转多确认 0，反向转空 1。多 3→1；空转多 10→51；多转空 1→1；空 48→9，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-19",
@@ -672,9 +672,9 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-27",
           "total": 62,
           "bull": 1,
-          "turnBull": 50,
+          "turnBull": 51,
           "turnBear": 1,
-          "bear": 10,
+          "bear": 9,
           "bullPct": 1.61
         }
       ]
@@ -864,31 +864,31 @@ window.MARKET_TREND_DATA = {
       "date": "2026-11-27",
       "total": 47,
       "bull": 2,
-      "turnBull": 25,
+      "turnBull": 26,
       "turnBear": 2,
-      "bear": 18,
-      "newBull": 24,
+      "bear": 17,
+      "newBull": 25,
       "confirm": 0,
       "direct": 0,
-      "positive": 24,
+      "positive": 25,
       "negative": 1,
       "bullPct": 4.26,
       "state": "空转多试探",
       "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→2；空转多 0→25；多转空 5→2；空 41→18",
+      "change": "多 1→2；空转多 0→26；多转空 5→2；空 41→17",
       "id": "equipment",
       "code": "SEMI CAP",
-      "score": 48.9,
+      "score": 51.1,
       "fulfilled": 0,
-      "netBias": -16,
+      "netBias": -15,
       "phase": "转多兑现",
       "badge": "扩散确认",
       "tone": "lime",
-      "setup": "25",
+      "setup": "26",
       "setupCaption": "空转多候选",
       "confirmValue": "0",
       "confirmCaption": "今日转多确认",
-      "thesis": "多头 2/47，空头 18；空转多候选 25，今日转多确认 0，反向转空 2。多 1→2；空转多 0→25；多转空 5→2；空 41→18，候选回升，等待 5破10 推进。",
+      "thesis": "多头 2/47，空头 17；空转多候选 26，今日转多确认 0，反向转空 2。多 1→2；空转多 0→26；多转空 5→2；空 41→17，候选回升，等待 5破10 推进。",
       "history": [
         {
           "date": "2026-11-19",
@@ -942,9 +942,9 @@ window.MARKET_TREND_DATA = {
           "date": "2026-11-27",
           "total": 47,
           "bull": 2,
-          "turnBull": 25,
+          "turnBull": 26,
           "turnBear": 2,
-          "bear": 18,
+          "bear": 17,
           "bullPct": 4.26
         }
       ]
@@ -1760,6 +1760,96 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
+      "name": "电力",
+      "date": "2026-11-27",
+      "total": 33,
+      "bull": 0,
+      "turnBull": 8,
+      "turnBear": 2,
+      "bear": 23,
+      "newBull": 7,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 7,
+      "negative": 2,
+      "bullPct": 0.0,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 1→0；空转多 1→8；多转空 2→2；空 29→23",
+      "id": "power",
+      "code": "POWER",
+      "score": 15.2,
+      "fulfilled": 0,
+      "netBias": -23,
+      "phase": "转多兑现",
+      "badge": "扩散确认",
+      "tone": "lime",
+      "setup": "8",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/33，空头 23；空转多候选 8，今日转多确认 0，反向转空 2。多 1→0；空转多 1→8；多转空 2→2；空 29→23，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "bull": 3,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 29,
+          "bullPct": 9.09
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 3,
+          "turnBull": 1,
+          "turnBear": 0,
+          "bear": 29,
+          "bullPct": 9.09
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 2,
+          "bear": 29,
+          "bullPct": 3.03
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 1,
+          "turnBull": 3,
+          "turnBear": 2,
+          "bear": 27,
+          "bullPct": 3.03
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 1,
+          "turnBull": 0,
+          "turnBear": 2,
+          "bear": 30,
+          "bullPct": 3.03
+        },
+        {
+          "date": "2026-11-26",
+          "bull": 1,
+          "turnBull": 1,
+          "turnBear": 2,
+          "bear": 29,
+          "bullPct": 3.03
+        },
+        {
+          "date": "2026-11-27",
+          "total": 33,
+          "bull": 0,
+          "turnBull": 8,
+          "turnBear": 2,
+          "bear": 23,
+          "bullPct": 0.0
+        }
+      ]
+    },
+    {
       "name": "固态锂电",
       "date": "2026-11-27",
       "total": 55,
@@ -1845,96 +1935,6 @@ window.MARKET_TREND_DATA = {
           "turnBull": 8,
           "turnBear": 0,
           "bear": 47,
-          "bullPct": 0.0
-        }
-      ]
-    },
-    {
-      "name": "电力",
-      "date": "2026-11-27",
-      "total": 33,
-      "bull": 0,
-      "turnBull": 7,
-      "turnBear": 2,
-      "bear": 24,
-      "newBull": 6,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 6,
-      "negative": 2,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 1→0；空转多 1→7；多转空 2→2；空 29→24",
-      "id": "power",
-      "code": "POWER",
-      "score": 12.1,
-      "fulfilled": 0,
-      "netBias": -24,
-      "phase": "温和修复",
-      "badge": "边际改善",
-      "tone": "amber",
-      "setup": "7",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/33，空头 24；空转多候选 7，今日转多确认 0，反向转空 2。多 1→0；空转多 1→7；多转空 2→2；空 29→24，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-19",
-          "bull": 3,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 29,
-          "bullPct": 9.09
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 3,
-          "turnBull": 1,
-          "turnBear": 0,
-          "bear": 29,
-          "bullPct": 9.09
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 1,
-          "turnBull": 1,
-          "turnBear": 2,
-          "bear": 29,
-          "bullPct": 3.03
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 1,
-          "turnBull": 3,
-          "turnBear": 2,
-          "bear": 27,
-          "bullPct": 3.03
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 2,
-          "bear": 30,
-          "bullPct": 3.03
-        },
-        {
-          "date": "2026-11-26",
-          "bull": 1,
-          "turnBull": 1,
-          "turnBear": 2,
-          "bear": 29,
-          "bullPct": 3.03
-        },
-        {
-          "date": "2026-11-27",
-          "total": 33,
-          "bull": 0,
-          "turnBull": 7,
-          "turnBear": 2,
-          "bear": 24,
           "bullPct": 0.0
         }
       ]
@@ -2045,11 +2045,11 @@ window.MARKET_TREND_DATA = {
         "name": "AI应用",
         "group_id": "ai-app",
         "color": "#bf2f45",
-        "delta": 46,
+        "delta": 47,
         "values": [
           4,
           10,
-          50
+          51
         ]
       },
       {
