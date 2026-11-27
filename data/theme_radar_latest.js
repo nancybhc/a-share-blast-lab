@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T11:16:02+08:00",
+  "generated_at": "2026-11-27T11:18:03+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 10.02,
+      "change_pct": 10.25,
       "constituents": 184,
-      "members": "华为欧拉 +10.02% / 华为昇腾 +7.74% / 华为鲲鹏 +6.62%",
+      "members": "华为欧拉 +10.25% / 华为昇腾 +8.02% / 华为鲲鹏 +6.86%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 8.02,
+      "change_pct": 8.52,
       "constituents": 28,
-      "members": "高带宽内存 +8.02%",
+      "members": "高带宽内存 +8.52%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 7.74,
+      "change_pct": 7.98,
       "constituents": 324,
-      "members": "财税数字化 +7.74% / 鸿蒙概念 +5.52% / 国产软件 +5.16%",
+      "members": "财税数字化 +7.98% / 鸿蒙概念 +5.73% / 国产软件 +5.39%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "算力租赁",
-      "representative": "算力租赁",
-      "change_pct": 6.33,
-      "constituents": 123,
-      "members": "算力租赁 +6.33%",
-      "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 6.26,
+      "change_pct": 6.63,
       "constituents": 115,
-      "members": "先进封装 +6.26%",
+      "members": "先进封装 +6.63%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "算力租赁",
+      "representative": "算力租赁",
+      "change_pct": 6.61,
+      "constituents": 123,
+      "members": "算力租赁 +6.61%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.02,
+      "avg_change_pct": 10.25,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.02,
+      "avg_change_pct": 8.52,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.74,
+      "avg_change_pct": 7.98,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-27"
-    },
-    {
-      "theme": "算力租赁",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.33,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-27"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.26,
+      "avg_change_pct": 6.63,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-27"
+    },
+    {
+      "theme": "算力租赁",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.61,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
