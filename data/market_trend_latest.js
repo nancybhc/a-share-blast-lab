@@ -1,7 +1,7 @@
 window.MARKET_TREND_DATA = {
   "dataDate": "2026-11-27",
-  "generatedAt": "2026-11-27 14:33",
-  "reportGeneratedAt": "2026-11-27 14:33",
+  "generatedAt": "2026-11-27 14:34",
+  "reportGeneratedAt": "2026-11-27 14:34",
   "isIntraday": true,
   "session": "intraday",
   "sourceReport": "多空阶段_2026-11-27.xlsx",
@@ -13,7 +13,7 @@ window.MARKET_TREND_DATA = {
     "uniqueStocks": 947,
     "positiveGroups": 22,
     "negativeGroups": 0,
-    "positiveTransitions": 775,
+    "positiveTransitions": 776,
     "negativeTransitions": 4
   },
   "phaseLegend": [
@@ -1670,6 +1670,96 @@ window.MARKET_TREND_DATA = {
       ]
     },
     {
+      "name": "固态锂电",
+      "date": "2026-11-27",
+      "total": 55,
+      "bull": 0,
+      "turnBull": 41,
+      "turnBear": 0,
+      "bear": 14,
+      "newBull": 41,
+      "confirm": 0,
+      "direct": 0,
+      "positive": 41,
+      "negative": 0,
+      "bullPct": 0.0,
+      "state": "空转多试探",
+      "action": "候选回升，等待 5破10 推进",
+      "change": "多 0→0；空转多 0→41；多转空 0→0；空 55→14",
+      "id": "solid-state-battery",
+      "code": "SOLID-STATE BATTERY",
+      "score": 74.5,
+      "fulfilled": 0,
+      "netBias": -14,
+      "phase": "转多兑现",
+      "badge": "扩散确认",
+      "tone": "lime",
+      "setup": "41",
+      "setupCaption": "空转多候选",
+      "confirmValue": "0",
+      "confirmCaption": "今日转多确认",
+      "thesis": "多头 0/55，空头 14；空转多候选 41，今日转多确认 0，反向转空 0。多 0→0；空转多 0→41；多转空 0→0；空 55→14，候选回升，等待 5破10 推进。",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "bull": 0,
+          "turnBull": 2,
+          "turnBear": 0,
+          "bear": 53,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "bull": 1,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 53,
+          "bullPct": 1.82
+        },
+        {
+          "date": "2026-11-23",
+          "bull": 0,
+          "turnBull": 1,
+          "turnBear": 1,
+          "bear": 53,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 1,
+          "bear": 54,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 55,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "bull": 0,
+          "turnBull": 0,
+          "turnBear": 0,
+          "bear": 55,
+          "bullPct": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "total": 55,
+          "bull": 0,
+          "turnBull": 41,
+          "turnBear": 0,
+          "bear": 14,
+          "bullPct": 0.0
+        }
+      ]
+    },
+    {
       "name": "电网设备",
       "date": "2026-11-27",
       "total": 46,
@@ -1756,96 +1846,6 @@ window.MARKET_TREND_DATA = {
           "turnBear": 1,
           "bear": 7,
           "bullPct": 6.52
-        }
-      ]
-    },
-    {
-      "name": "固态锂电",
-      "date": "2026-11-27",
-      "total": 55,
-      "bull": 0,
-      "turnBull": 40,
-      "turnBear": 0,
-      "bear": 15,
-      "newBull": 40,
-      "confirm": 0,
-      "direct": 0,
-      "positive": 40,
-      "negative": 0,
-      "bullPct": 0.0,
-      "state": "空转多试探",
-      "action": "候选回升，等待 5破10 推进",
-      "change": "多 0→0；空转多 0→40；多转空 0→0；空 55→15",
-      "id": "solid-state-battery",
-      "code": "SOLID-STATE BATTERY",
-      "score": 72.7,
-      "fulfilled": 0,
-      "netBias": -15,
-      "phase": "转多兑现",
-      "badge": "扩散确认",
-      "tone": "lime",
-      "setup": "40",
-      "setupCaption": "空转多候选",
-      "confirmValue": "0",
-      "confirmCaption": "今日转多确认",
-      "thesis": "多头 0/55，空头 15；空转多候选 40，今日转多确认 0，反向转空 0。多 0→0；空转多 0→40；多转空 0→0；空 55→15，候选回升，等待 5破10 推进。",
-      "history": [
-        {
-          "date": "2026-11-19",
-          "bull": 0,
-          "turnBull": 2,
-          "turnBear": 0,
-          "bear": 53,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-20",
-          "bull": 1,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 53,
-          "bullPct": 1.82
-        },
-        {
-          "date": "2026-11-23",
-          "bull": 0,
-          "turnBull": 1,
-          "turnBear": 1,
-          "bear": 53,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-24",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 1,
-          "bear": 54,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-25",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 55,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-26",
-          "bull": 0,
-          "turnBull": 0,
-          "turnBear": 0,
-          "bear": 55,
-          "bullPct": 0.0
-        },
-        {
-          "date": "2026-11-27",
-          "total": 55,
-          "bull": 0,
-          "turnBull": 40,
-          "turnBear": 0,
-          "bear": 15,
-          "bullPct": 0.0
         }
       ]
     },
