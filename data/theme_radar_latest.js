@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T10:26:03+08:00",
+  "generated_at": "2026-11-27T10:27:02+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 7.41,
+      "change_pct": 7.55,
       "constituents": 184,
-      "members": "华为欧拉 +7.41% / 华为昇腾 +5.68% / 华为鲲鹏 +4.72%",
+      "members": "华为欧拉 +7.55% / 华为昇腾 +5.82% / 华为鲲鹏 +4.82%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "软件信创",
+      "representative": "财税数字化",
+      "change_pct": 6.52,
+      "constituents": 324,
+      "members": "财税数字化 +6.52% / 鸿蒙概念 +3.91% / 国产软件 +3.51%",
+      "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 4.63,
+      "change_pct": 4.78,
       "constituents": 123,
-      "members": "算力租赁 +4.63%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "东数西算",
-      "representative": "东数西算",
-      "change_pct": 4.2,
-      "constituents": 74,
-      "members": "东数西算 +4.20%",
+      "members": "算力租赁 +4.78%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 4.19,
+      "change_pct": 4.61,
       "constituents": 28,
-      "members": "高带宽内存 +4.19%",
+      "members": "高带宽内存 +4.61%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
-      "theme": "智谱AI概念",
-      "representative": "智谱AI概念",
-      "change_pct": 4.08,
-      "constituents": 35,
-      "members": "智谱AI概念 +4.08%",
+      "theme": "东数西算",
+      "representative": "东数西算",
+      "change_pct": 4.38,
+      "constituents": 74,
+      "members": "东数西算 +4.38%",
       "rank": 5
     }
   ],
@@ -67,9 +67,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.41,
+      "avg_change_pct": 7.55,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-27"
+    },
+    {
+      "theme": "软件信创",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.52,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-27"
     },
     {
@@ -77,17 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.63,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-27"
-    },
-    {
-      "theme": "东数西算",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.2,
+      "avg_change_pct": 4.78,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.19,
+      "avg_change_pct": 4.61,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
     },
     {
-      "theme": "智谱AI概念",
+      "theme": "东数西算",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.08,
+      "avg_change_pct": 4.38,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
@@ -163,11 +163,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-26"
     },
     {
-      "theme": "青蒿素",
+      "theme": "肝素概念",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.88,
+      "avg_change_pct": 0.9,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-25"
@@ -203,11 +203,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-26"
     },
     {
-      "theme": "医药电商",
+      "theme": "青蒿素",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.56,
+      "avg_change_pct": 0.88,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-25"
@@ -243,11 +243,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-26"
     },
     {
-      "theme": "独家药品/特色药",
+      "theme": "医药电商",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.48,
+      "avg_change_pct": 0.56,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -283,11 +283,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-26"
     },
     {
-      "theme": "病原体防治/流感/病毒防治",
+      "theme": "独家药品/特色药",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.43,
+      "avg_change_pct": 0.48,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-25"
