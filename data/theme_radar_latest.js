@@ -1,53 +1,53 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T14:34:47+08:00",
+  "generated_at": "2026-11-27T14:35:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
   "daily_top": [
     {
       "date": "2026-11-27",
-      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
-      "representative": "华为欧拉",
-      "change_pct": 15.36,
-      "constituents": 184,
-      "members": "华为欧拉 +15.36% / 华为昇腾 +12.49% / 华为鲲鹏 +11.45%",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": 15.25,
+      "constituents": 28,
+      "members": "高带宽内存 +15.25%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
-      "theme": "高带宽内存",
-      "representative": "高带宽内存",
-      "change_pct": 15.21,
-      "constituents": 28,
-      "members": "高带宽内存 +15.21%",
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "representative": "华为欧拉",
+      "change_pct": 14.61,
+      "constituents": 184,
+      "members": "华为欧拉 +14.61% / 华为昇腾 +12.37% / 华为鲲鹏 +11.19%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 14.14,
+      "change_pct": 14.16,
       "constituents": 30,
-      "members": "大基金持股 +14.14%",
+      "members": "大基金持股 +14.16%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 13.7,
+      "change_pct": 13.55,
       "constituents": 115,
-      "members": "先进封装 +13.70%",
+      "members": "先进封装 +13.55%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 12.38,
+      "change_pct": 11.96,
       "constituents": 324,
-      "members": "财税数字化 +12.38% / 国产软件 +10.17% / 鸿蒙概念 +10.12%",
+      "members": "财税数字化 +11.96% / 国产软件 +9.93% / 鸿蒙概念 +9.89%",
       "rank": 5
     }
   ],
@@ -57,27 +57,27 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.09,
+      "avg_change_pct": 5.28,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
-    },
-    {
-      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 15.36,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-27"
     },
     {
       "theme": "高带宽内存",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 15.21,
+      "avg_change_pct": 15.25,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
+      "dates": "11-27"
+    },
+    {
+      "theme": "华为鲲鹏/华为昇腾/华为欧拉",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 14.61,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 14.14,
+      "avg_change_pct": 14.16,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 13.7,
+      "avg_change_pct": 13.55,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 12.38,
+      "avg_change_pct": 11.96,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
@@ -153,11 +153,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24"
     },
     {
-      "theme": "小金属概念/金属回收/动力电池回收",
+      "theme": "化工原料/煤化工概念/磷化工",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.52,
+      "avg_change_pct": 1.6,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -173,11 +173,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "AI算力",
+      "theme": "3D玻璃",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.11,
+      "avg_change_pct": 6.03,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-23"
@@ -193,11 +193,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-24"
     },
     {
-      "theme": "化工原料/煤化工概念/磷化工",
+      "theme": "小金属概念/金属回收/动力电池回收",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.44,
+      "avg_change_pct": 1.52,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-26"
@@ -213,11 +213,11 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "3D玻璃",
+      "theme": "AI算力",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": 6.0,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-23"
@@ -237,7 +237,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.33,
+      "avg_change_pct": 1.36,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
@@ -247,7 +247,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 0.56,
+      "avg_change_pct": 0.61,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-25"
@@ -257,7 +257,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.67,
+      "avg_change_pct": 5.75,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
@@ -267,17 +267,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.75,
+      "avg_change_pct": 1.81,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
     },
     {
-      "theme": "黄金概念",
+      "theme": "铜缆高速连接",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.29,
+      "avg_change_pct": 1.31,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
