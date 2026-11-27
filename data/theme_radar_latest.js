@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T13:05:06+08:00",
+  "generated_at": "2026-11-27T13:06:05+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 12.35,
+      "change_pct": 12.42,
       "constituents": 184,
-      "members": "华为欧拉 +12.35% / 华为昇腾 +10.35% / 华为鲲鹏 +9.08%",
+      "members": "华为欧拉 +12.42% / 华为昇腾 +10.42% / 华为鲲鹏 +9.24%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 12.13,
+      "change_pct": 11.99,
       "constituents": 28,
-      "members": "高带宽内存 +12.13%",
+      "members": "高带宽内存 +11.99%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 10.27,
+      "change_pct": 10.42,
       "constituents": 324,
-      "members": "财税数字化 +10.27% / 鸿蒙概念 +7.87% / 国产软件 +7.65%",
+      "members": "财税数字化 +10.42% / 鸿蒙概念 +8.00% / 国产软件 +7.79%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 10.06,
+      "change_pct": 9.98,
       "constituents": 115,
-      "members": "先进封装 +10.06%",
+      "members": "先进封装 +9.98%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 9.87,
+      "change_pct": 9.82,
       "constituents": 30,
-      "members": "大基金持股 +9.87%",
+      "members": "大基金持股 +9.82%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 12.35,
+      "avg_change_pct": 12.42,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 12.13,
+      "avg_change_pct": 11.99,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.27,
+      "avg_change_pct": 10.42,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 10.06,
+      "avg_change_pct": 9.98,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 9.87,
+      "avg_change_pct": 9.82,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
