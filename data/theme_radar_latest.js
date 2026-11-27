@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T10:12:23+08:00",
+  "generated_at": "2026-11-27T10:13:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 8.27,
+      "change_pct": 7.92,
       "constituents": 184,
-      "members": "华为欧拉 +8.27% / 华为昇腾 +6.41% / 华为鲲鹏 +5.27%",
+      "members": "华为欧拉 +7.92% / 华为昇腾 +6.15% / 华为鲲鹏 +4.99%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 6.8,
+      "change_pct": 6.52,
       "constituents": 324,
-      "members": "财税数字化 +6.80% / 鸿蒙概念 +4.40% / 国产软件 +3.98%",
+      "members": "财税数字化 +6.52% / 鸿蒙概念 +4.21% / 国产软件 +3.76%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 5.07,
+      "change_pct": 4.85,
       "constituents": 123,
-      "members": "算力租赁 +5.07%",
+      "members": "算力租赁 +4.85%",
       "rank": 3
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "电子身份证",
-      "representative": "电子身份证",
-      "change_pct": 4.69,
-      "constituents": 38,
-      "members": "电子身份证 +4.69%",
-      "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "云计算/边缘计算",
       "representative": "云计算",
-      "change_pct": 4.69,
+      "change_pct": 4.42,
       "constituents": 242,
-      "members": "云计算 +4.69% / 边缘计算 +3.90%",
+      "members": "云计算 +4.42% / 边缘计算 +3.74%",
+      "rank": 4
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "智谱AI概念",
+      "representative": "智谱AI概念",
+      "change_pct": 4.4,
+      "constituents": 35,
+      "members": "智谱AI概念 +4.40%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.27,
+      "avg_change_pct": 7.92,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.8,
+      "avg_change_pct": 6.52,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,19 +87,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.07,
+      "avg_change_pct": 4.85,
       "avg_rank": 3.0,
       "latest_rank": 3,
-      "dates": "11-27"
-    },
-    {
-      "theme": "电子身份证",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 4.69,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
       "dates": "11-27"
     },
     {
@@ -107,7 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 4.69,
+      "avg_change_pct": 4.42,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-27"
+    },
+    {
+      "theme": "智谱AI概念",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 4.4,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
