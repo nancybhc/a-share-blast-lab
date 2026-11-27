@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T10:43:08+08:00",
+  "generated_at": "2026-11-27T10:44:09+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 8.6,
+      "change_pct": 8.79,
       "constituents": 184,
-      "members": "华为欧拉 +8.60% / 华为昇腾 +6.96% / 华为鲲鹏 +5.71%",
+      "members": "华为欧拉 +8.79% / 华为昇腾 +7.13% / 华为鲲鹏 +5.90%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 7.47,
+      "change_pct": 7.66,
       "constituents": 324,
-      "members": "财税数字化 +7.47% / 鸿蒙概念 +4.73% / 国产软件 +4.28%",
+      "members": "财税数字化 +7.66% / 鸿蒙概念 +4.88% / 国产软件 +4.40%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 6.45,
+      "change_pct": 6.88,
       "constituents": 28,
-      "members": "高带宽内存 +6.45%",
+      "members": "高带宽内存 +6.88%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 5.59,
+      "change_pct": 5.75,
       "constituents": 123,
-      "members": "算力租赁 +5.59%",
+      "members": "算力租赁 +5.75%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
-      "theme": "东数西算",
-      "representative": "东数西算",
-      "change_pct": 5.21,
-      "constituents": 74,
-      "members": "东数西算 +5.21%",
+      "theme": "华为海思",
+      "representative": "华为海思",
+      "change_pct": 5.43,
+      "constituents": 46,
+      "members": "华为海思 +5.43%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.6,
+      "avg_change_pct": 8.79,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 7.47,
+      "avg_change_pct": 7.66,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.45,
+      "avg_change_pct": 6.88,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,17 +97,17 @@
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.59,
+      "avg_change_pct": 5.75,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
     },
     {
-      "theme": "东数西算",
+      "theme": "华为海思",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.21,
+      "avg_change_pct": 5.43,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
