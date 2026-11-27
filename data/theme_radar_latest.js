@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T09:25:50+08:00",
+  "generated_at": "2026-11-27T09:29:11+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -25,20 +25,20 @@ window.THEME_RADAR_DATA = {
     },
     {
       "date": "2026-11-27",
-      "theme": "智谱AI概念",
-      "representative": "智谱AI概念",
-      "change_pct": 1.06,
-      "constituents": 35,
-      "members": "智谱AI概念 +1.06%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
       "change_pct": 1.06,
       "constituents": 123,
       "members": "算力租赁 +1.06%",
+      "rank": 3
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "智谱AI概念",
+      "representative": "智谱AI概念",
+      "change_pct": 1.06,
+      "constituents": 35,
+      "members": "智谱AI概念 +1.06%",
       "rank": 4
     },
     {
@@ -58,28 +58,18 @@ window.THEME_RADAR_DATA = {
       "max_streak": 1,
       "appearances": 2,
       "avg_change_pct": 3.64,
-      "avg_rank": 3.0,
+      "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27、11-23"
-    },
-    {
-      "theme": "金属铜/金属铅/金属镍",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 2,
-      "avg_change_pct": 2.36,
-      "avg_rank": 2.0,
-      "latest_rank": 3,
-      "dates": "11-26、11-24"
     },
     {
       "theme": "机器人",
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 4.62,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
+      "avg_change_pct": 5.28,
+      "avg_rank": 1.0,
+      "latest_rank": 1,
       "dates": "11-24、11-23"
     },
     {
@@ -93,7 +83,7 @@ window.THEME_RADAR_DATA = {
       "dates": "11-27"
     },
     {
-      "theme": "智谱AI概念",
+      "theme": "算力租赁",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -103,7 +93,7 @@ window.THEME_RADAR_DATA = {
       "dates": "11-27"
     },
     {
-      "theme": "算力租赁",
+      "theme": "智谱AI概念",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
@@ -121,16 +111,6 @@ window.THEME_RADAR_DATA = {
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
-    },
-    {
-      "theme": "物理AI",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 7.51,
-      "avg_rank": 1.0,
-      "latest_rank": 1,
-      "dates": "11-23"
     },
     {
       "theme": "水产概念",
@@ -153,31 +133,21 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "AI视频",
+      "theme": "商业航天",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.83,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-23"
-    },
-    {
-      "theme": "屏下摄像/3D摄像头",
-      "current_streak": 0,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 2.6,
+      "avg_change_pct": 2.15,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-24"
     },
     {
-      "theme": "F5G概念",
+      "theme": "化工原料/煤化工概念/磷化工",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.28,
+      "avg_change_pct": 1.6,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-26"
@@ -193,6 +163,36 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
+      "theme": "3D玻璃",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 6.03,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-23"
+    },
+    {
+      "theme": "虚拟现实/虚拟数字人/混合现实",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.93,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-24"
+    },
+    {
+      "theme": "小金属概念/金属回收/动力电池回收",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.52,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
+      "dates": "11-26"
+    },
+    {
       "theme": "青蒿素",
       "current_streak": 0,
       "max_streak": 1,
@@ -203,21 +203,31 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "无线耳机/无线充电",
+      "theme": "AI算力",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.16,
+      "avg_change_pct": 6.0,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
+      "dates": "11-23"
+    },
+    {
+      "theme": "屏下摄像",
+      "current_streak": 0,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 1.87,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-24"
     },
     {
-      "theme": "6G概念",
+      "theme": "稀缺资源",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.76,
+      "avg_change_pct": 1.36,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-26"
@@ -233,31 +243,31 @@ window.THEME_RADAR_DATA = {
       "dates": "11-25"
     },
     {
-      "theme": "玻璃基板/3D玻璃",
+      "theme": "CRO",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.03,
+      "avg_change_pct": 5.75,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-23"
     },
     {
-      "theme": "商业航天",
+      "theme": "汽车电子/消费电子概念/智能穿戴",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 2.15,
+      "avg_change_pct": 1.81,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-24"
     },
     {
-      "theme": "煤化工概念",
+      "theme": "铜缆高速连接",
       "current_streak": 0,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 1.6,
+      "avg_change_pct": 1.31,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-26"
