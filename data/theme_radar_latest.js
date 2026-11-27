@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T11:05:02+08:00",
+  "generated_at": "2026-11-27T11:06:23+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,10 +9,19 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 9.27,
+      "change_pct": 9.22,
       "constituents": 184,
-      "members": "华为欧拉 +9.27% / 华为昇腾 +7.06% / 华为鲲鹏 +5.82%",
+      "members": "华为欧拉 +9.22% / 华为昇腾 +7.10% / 华为鲲鹏 +5.84%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": 7.18,
+      "constituents": 28,
+      "members": "高带宽内存 +7.18%",
+      "rank": 2
     },
     {
       "date": "2026-11-27",
@@ -20,34 +29,25 @@ window.THEME_RADAR_DATA = {
       "representative": "财税数字化",
       "change_pct": 7.08,
       "constituents": 324,
-      "members": "财税数字化 +7.08% / 鸿蒙概念 +4.86% / 国产软件 +4.41%",
-      "rank": 2
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "高带宽内存",
-      "representative": "高带宽内存",
-      "change_pct": 6.85,
-      "constituents": 28,
-      "members": "高带宽内存 +6.85%",
+      "members": "财税数字化 +7.08% / 鸿蒙概念 +4.87% / 国产软件 +4.41%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 5.64,
+      "change_pct": 5.71,
       "constituents": 123,
-      "members": "算力租赁 +5.64%",
+      "members": "算力租赁 +5.71%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "华为海思",
       "representative": "华为海思",
-      "change_pct": 5.39,
+      "change_pct": 5.52,
       "constituents": 46,
-      "members": "华为海思 +5.39%",
+      "members": "华为海思 +5.52%",
       "rank": 5
     }
   ],
@@ -67,9 +67,19 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 9.27,
+      "avg_change_pct": 9.22,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-27"
+    },
+    {
+      "theme": "高带宽内存",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 7.18,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
       "dates": "11-27"
     },
     {
@@ -78,16 +88,6 @@ window.THEME_RADAR_DATA = {
       "max_streak": 1,
       "appearances": 1,
       "avg_change_pct": 7.08,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
-      "dates": "11-27"
-    },
-    {
-      "theme": "高带宽内存",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 6.85,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.64,
+      "avg_change_pct": 5.71,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.39,
+      "avg_change_pct": 5.52,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
