@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T13:29:22+08:00",
+  "generated_at": "2026-11-27T13:30:24+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 14.63,
+      "change_pct": 14.6,
       "constituents": 184,
-      "members": "华为欧拉 +14.63% / 华为昇腾 +11.88% / 华为鲲鹏 +10.95%",
+      "members": "华为欧拉 +14.60% / 华为昇腾 +11.88% / 华为鲲鹏 +10.95%",
       "rank": 1
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "高带宽内存",
+      "representative": "高带宽内存",
+      "change_pct": 14.03,
+      "constituents": 28,
+      "members": "高带宽内存 +14.03%",
+      "rank": 2
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "大基金持股",
+      "representative": "大基金持股",
+      "change_pct": 12.65,
+      "constituents": 30,
+      "members": "大基金持股 +12.65%",
+      "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 12.29,
+      "change_pct": 12.23,
       "constituents": 115,
-      "members": "先进封装 +12.29%",
-      "rank": 2
+      "members": "先进封装 +12.23%",
+      "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 11.95,
+      "change_pct": 11.97,
       "constituents": 324,
-      "members": "财税数字化 +11.95% / 鸿蒙概念 +9.59% / 国产软件 +9.52%",
-      "rank": 3
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "华为海思",
-      "representative": "华为海思",
-      "change_pct": 10.95,
-      "constituents": 46,
-      "members": "华为海思 +10.95%",
-      "rank": 4
-    },
-    {
-      "date": "2026-11-27",
-      "theme": "智谱AI概念",
-      "representative": "智谱AI概念",
-      "change_pct": 10.9,
-      "constituents": 35,
-      "members": "智谱AI概念 +10.90%",
+      "members": "财税数字化 +11.97% / 鸿蒙概念 +9.63% / 国产软件 +9.53%",
       "rank": 5
     }
   ],
@@ -57,7 +57,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 0,
       "max_streak": 2,
       "appearances": 2,
-      "avg_change_pct": 5.09,
+      "avg_change_pct": 5.04,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-24、11-23"
@@ -67,9 +67,29 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 14.63,
+      "avg_change_pct": 14.6,
       "avg_rank": 1.0,
       "latest_rank": 1,
+      "dates": "11-27"
+    },
+    {
+      "theme": "高带宽内存",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 14.03,
+      "avg_rank": 2.0,
+      "latest_rank": 2,
+      "dates": "11-27"
+    },
+    {
+      "theme": "大基金持股",
+      "current_streak": 1,
+      "max_streak": 1,
+      "appearances": 1,
+      "avg_change_pct": 12.65,
+      "avg_rank": 3.0,
+      "latest_rank": 3,
       "dates": "11-27"
     },
     {
@@ -77,9 +97,9 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 12.29,
-      "avg_rank": 2.0,
-      "latest_rank": 2,
+      "avg_change_pct": 12.23,
+      "avg_rank": 4.0,
+      "latest_rank": 4,
       "dates": "11-27"
     },
     {
@@ -87,27 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 11.95,
-      "avg_rank": 3.0,
-      "latest_rank": 3,
-      "dates": "11-27"
-    },
-    {
-      "theme": "华为海思",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 10.95,
-      "avg_rank": 4.0,
-      "latest_rank": 4,
-      "dates": "11-27"
-    },
-    {
-      "theme": "智谱AI概念",
-      "current_streak": 1,
-      "max_streak": 1,
-      "appearances": 1,
-      "avg_change_pct": 10.9,
+      "avg_change_pct": 11.97,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
