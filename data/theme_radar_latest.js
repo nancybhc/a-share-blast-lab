@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T10:47:55+08:00",
+  "generated_at": "2026-11-27T10:48:55+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 8.47,
+      "change_pct": 8.56,
       "constituents": 184,
-      "members": "华为欧拉 +8.47% / 华为昇腾 +6.73% / 华为鲲鹏 +5.51%",
+      "members": "华为欧拉 +8.56% / 华为昇腾 +6.78% / 华为鲲鹏 +5.54%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "软件信创",
       "representative": "财税数字化",
-      "change_pct": 6.75,
+      "change_pct": 6.78,
       "constituents": 324,
-      "members": "财税数字化 +6.75% / 鸿蒙概念 +4.63% / 国产软件 +4.19%",
+      "members": "财税数字化 +6.78% / 鸿蒙概念 +4.66% / 国产软件 +4.22%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 6.39,
+      "change_pct": 6.45,
       "constituents": 28,
-      "members": "高带宽内存 +6.39%",
+      "members": "高带宽内存 +6.45%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "算力租赁",
       "representative": "算力租赁",
-      "change_pct": 5.35,
+      "change_pct": 5.4,
       "constituents": 123,
-      "members": "算力租赁 +5.35%",
+      "members": "算力租赁 +5.40%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
       "theme": "华为海思",
       "representative": "华为海思",
-      "change_pct": 5.14,
+      "change_pct": 5.17,
       "constituents": 46,
-      "members": "华为海思 +5.14%",
+      "members": "华为海思 +5.17%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 8.47,
+      "avg_change_pct": 8.56,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.75,
+      "avg_change_pct": 6.78,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 6.39,
+      "avg_change_pct": 6.45,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,7 +97,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.35,
+      "avg_change_pct": 5.4,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
@@ -107,7 +107,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 5.14,
+      "avg_change_pct": 5.17,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
