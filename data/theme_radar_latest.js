@@ -1,6 +1,6 @@
 window.THEME_RADAR_DATA = {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T14:42:20+08:00",
+  "generated_at": "2026-11-27T14:43:20+08:00",
   "source": "今日盘中 / 当日题材强度",
   "source_kind": "intraday",
   "period_label": "11-27午盘",
@@ -9,45 +9,45 @@ window.THEME_RADAR_DATA = {
       "date": "2026-11-27",
       "theme": "高带宽内存",
       "representative": "高带宽内存",
-      "change_pct": 15.3,
+      "change_pct": 15.32,
       "constituents": 28,
-      "members": "高带宽内存 +15.30%",
+      "members": "高带宽内存 +15.32%",
       "rank": 1
     },
     {
       "date": "2026-11-27",
       "theme": "华为鲲鹏/华为昇腾/华为欧拉",
       "representative": "华为欧拉",
-      "change_pct": 14.66,
+      "change_pct": 14.65,
       "constituents": 184,
-      "members": "华为欧拉 +14.66% / 华为昇腾 +12.42% / 华为鲲鹏 +11.22%",
+      "members": "华为欧拉 +14.65% / 华为昇腾 +12.42% / 华为鲲鹏 +11.24%",
       "rank": 2
     },
     {
       "date": "2026-11-27",
       "theme": "大基金持股",
       "representative": "大基金持股",
-      "change_pct": 14.18,
+      "change_pct": 14.2,
       "constituents": 30,
-      "members": "大基金持股 +14.18%",
+      "members": "大基金持股 +14.20%",
       "rank": 3
     },
     {
       "date": "2026-11-27",
       "theme": "先进封装",
       "representative": "先进封装",
-      "change_pct": 13.62,
+      "change_pct": 13.66,
       "constituents": 115,
-      "members": "先进封装 +13.62%",
+      "members": "先进封装 +13.66%",
       "rank": 4
     },
     {
       "date": "2026-11-27",
-      "theme": "软件信创",
-      "representative": "财税数字化",
-      "change_pct": 11.98,
-      "constituents": 324,
-      "members": "财税数字化 +11.98% / 国产软件 +9.95% / 鸿蒙概念 +9.95%",
+      "theme": "光通信模块",
+      "representative": "光通信模块",
+      "change_pct": 12.02,
+      "constituents": 127,
+      "members": "光通信模块 +12.02%",
       "rank": 5
     }
   ],
@@ -67,7 +67,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 15.3,
+      "avg_change_pct": 15.32,
       "avg_rank": 1.0,
       "latest_rank": 1,
       "dates": "11-27"
@@ -77,7 +77,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 14.66,
+      "avg_change_pct": 14.65,
       "avg_rank": 2.0,
       "latest_rank": 2,
       "dates": "11-27"
@@ -87,7 +87,7 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 14.18,
+      "avg_change_pct": 14.2,
       "avg_rank": 3.0,
       "latest_rank": 3,
       "dates": "11-27"
@@ -97,17 +97,17 @@ window.THEME_RADAR_DATA = {
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 13.62,
+      "avg_change_pct": 13.66,
       "avg_rank": 4.0,
       "latest_rank": 4,
       "dates": "11-27"
     },
     {
-      "theme": "软件信创",
+      "theme": "光通信模块",
       "current_streak": 1,
       "max_streak": 1,
       "appearances": 1,
-      "avg_change_pct": 11.98,
+      "avg_change_pct": 12.02,
       "avg_rank": 5.0,
       "latest_rank": 5,
       "dates": "11-27"
